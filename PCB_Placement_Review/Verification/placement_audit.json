@@ -1,0 +1,77 @@
+{
+  "board_sha256": "40880459925601cd51a7da15fdbce3fe0021c48e8d75dda8d5e4688d6f6ec5f3",
+  "status": "PASS - PLACEMENT REVIEW",
+  "native_tool": "9.0.2+dfsg-1",
+  "physical_component_footprints": 49,
+  "board_only_mounting_holes": 4,
+  "schematic_nets_preserved": 57,
+  "pin_net_memberships_preserved": 172,
+  "schematics_and_original_footprint_libraries_unchanged": true,
+  "DNP": [
+    "R1",
+    "R2"
+  ],
+  "board_size_mm": [
+    46,
+    40
+  ],
+  "corner_radius_mm": 2,
+  "thickness_mm": 1.6,
+  "copper_layer_count": 4,
+  "tracks": 0,
+  "vias": 0,
+  "zones_including_keepout_zones": 0,
+  "placement_DRC_violations": 0,
+  "schematic_parity_issues": 0,
+  "unconnected_items_expected": 115,
+  "unconnected_items_reported": 115,
+  "DRC_exclusions": 0,
+  "MIPI_component_free_corridor_local_mm": [
+    14,
+    7,
+    34,
+    11
+  ],
+  "assembly_side": "TOP",
+  "mechanical_holes_mm": 2.7,
+  "mechanical_hole_centres_local_mm": [
+    [
+      3.5,
+      3.5
+    ],
+    [
+      42.5,
+      3.5
+    ],
+    [
+      42.5,
+      36.5
+    ],
+    [
+      3.5,
+      36.5
+    ]
+  ],
+  "resolved_3D_models": 35,
+  "3D_envelope_models": [
+    "J1",
+    "J2",
+    "J3",
+    "L1"
+  ],
+  "terminal_chords_mm": {
+    "C2_supply_to_U1_VIN": 1.962,
+    "L1_SW_to_U1_SW": 4.344,
+    "D1_anode_to_U1_SW": 3.568,
+    "C4_GND_to_U1_GND": 1.962,
+    "C4_VOUT_to_D1_cathode": 3.655,
+    "R7_FB_to_U1_FB": 2.511,
+    "C9_COMP_to_U1_COMP": 3.505,
+    "C3_VOUT_to_D1_cathode": 5.394
+  },
+  "limitations": [
+    "Routing and measured impedance are not validated in a placement-only design.",
+    "FPC contact side, actuator opening, flex thickness/type and mating-system dimensions require manufacturer drawings and physical checks; no LCD/enclosure mechanical CAD was supplied.",
+    "FPC and L1 3D bodies are nominal visualization envelopes; other populated packages use KiCad models."
+  ]
+}

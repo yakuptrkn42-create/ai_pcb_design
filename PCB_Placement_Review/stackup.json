@@ -1,0 +1,29 @@
+{
+  "board_mm": [
+    46,
+    40,
+    1.6
+  ],
+  "surface_finish": "ENIG proposed",
+  "copper_um": [
+    35,
+    35,
+    35,
+    35
+  ],
+  "FR4_dielectric_mm": [
+    0.1,
+    1.26,
+    0.1
+  ],
+  "nominal_epsilon_r": 4.2,
+  "nominal_loss_tangent": 0.02,
+  "layers": [
+    "F.Cu - components and signals",
+    "In1.Cu - GND reference reserved, no pour yet",
+    "In2.Cu - GND reference reserved, no pour yet",
+    "B.Cu - signals reserved"
+  ],
+  "differential_target_ohm": 100,
+  "geometry_status": "Pending fabricator field-solver/stackup confirmation; netclass 0.15/0.15 mm is a placeholder."
+}

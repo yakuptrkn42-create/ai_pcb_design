@@ -1,25 +1,25 @@
-# STM32F469 / DISEN — Rev I, Layout 1
+# STM32F469 / DISEN — PCB Yerleşimi P1
 
-Elektriksel içerik korunarak üç sayfada yeniden düzenlenmiş KiCad 9 şematiği.
+**46 × 40 mm, 4 katmanlı, bağımsız kablolu adaptörün komponent yerleşimi incelemeye hazır. Routing henüz yapılmadı.**
 
-## Dosyaları indir
+- [Yerleşim incelemesi ve üst/alt/3D görünümler — PDF](PCB_Placement_Review/Placement_Review.pdf)
+- [Tam KiCad PCB proje paketi — ZIP](STM32F469_RevI_Placement_Review.zip)
+- [Düzenlenebilir proje klasörü](PCB_Placement_Review/Project/)
+- [Mühendislik değerlendirmesi ve doğrulama sınırları](PCB_Placement_Review/README_TR.md)
+- [DRC ve bağlantı denetimi](PCB_Placement_Review/Verification/placement_audit.json)
 
-- [KiCad proje paketi (ZIP)](STM32F469_RevI_Professional_KiCad.zip)
-- [Düzenlenmiş şematik (PDF)](STM32F469_RevI_Professional.pdf)
-- [Düzenleme ve doğrulama raporu](STM32F469_DISEN_RevI_Layout/README_TR.md)
+![KiCad PCB 3D görünümü](PCB_Placement_Review/Views/03_PCB_3D_Isometric.png)
 
-Dosya sayfasındaki **Download raw file / Download** simgesine tıklayın. Tüm depoyu indirmek için **Code → Download ZIP** yolunu da kullanabilirsiniz.
+ZIP'i çıkarıp `PCB_Placement_Review/Project/STM32F469_DISEN_RevI.kicad_pro` dosyasını **KiCad 9** ile açın. İndirmek için dosya sayfasındaki **Download raw file** simgesini veya **Code → Download ZIP** yolunu kullanın.
 
-## KiCad ile aç
+49 devre footprint'i, 4 mekanik delik, 57 net ve 172 pin/net üyeliği korunmuştur. Yerleşim DRC'si 0 ihlal, schematic parity 0 sorun; **115 açık bağlantı**, routing yapılmadığı için beklenir. İz/via/zone sayıları 0'dır. Kullanıcı onayından önce routing aşamasına geçilmedi.
 
-ZIP paketini çıkarın ve içindeki `STM32F469_DISEN_RevI.kicad_pro` dosyasını **KiCad 9** ile açın. Düzenlenebilir dosyalar ayrıca [`STM32F469_DISEN_RevI_Layout/`](STM32F469_DISEN_RevI_Layout/) klasöründedir; kütüphaneleriyle birlikte kullanın.
+FPC kontakt/aktüatör ve gerçek flex eşleşmesi üretici çizimleri/fiziksel parça ile teyit bekler. FPC ve L1 3D gövdeleri nominal hacim modelleridir; üretici STEP'i değildir. Ayrıntılar değerlendirme raporundadır.
 
-## Doğrulama
+## Onaylı şematik — Rev I / Layout 1
 
-- 49 komponentin özellikleri ve DNP durumları korundu.
-- 57 net kaydında 172 pin/net üyeliği özgün tasarımla eşleşti.
-- 25 bağlantısız pin işareti korundu.
-- KiCad CLI 9.0.2 ERC: **0 hata, 0 uyarı**.
-- ZIP ayrı klasöre çıkarılarak ERC ve netlist karşılaştırması tekrar doğrulandı.
+- [Düzenlenmiş şematik PDF](STM32F469_RevI_Professional.pdf)
+- [Şematik KiCad ZIP paketi](STM32F469_RevI_Professional_KiCad.zip)
+- [Şematik kaynak projesi](STM32F469_DISEN_RevI_Layout/)
 
-Şematik sayfaları: **MIPI/LCD arayüzü**, **mantık beslemesi ve dokunmatik**, **backlight güç katı**.
+Onaylı şematik projesi ayrı korunmuştur; PCB projesindeki şematikler aynı dosyaların birebir kopyalarıdır.

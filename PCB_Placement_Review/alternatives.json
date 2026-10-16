@@ -1,0 +1,74 @@
+[
+  {
+    "name": "A_opposed_edges",
+    "J1": [
+      4,
+      13,
+      270
+    ],
+    "J2": [
+      42,
+      13,
+      90
+    ],
+    "pad_center_chords_mm": {
+      "D0_P": 35.113,
+      "D0_N": 38.001,
+      "D1_P": 35.082,
+      "D1_N": 37.944,
+      "CLK_P": 35.082,
+      "CLK_N": 37.944
+    },
+    "mean_mm": 36.528,
+    "max_mm": 38.001,
+    "note": "FPC exits on opposite sides; widest DSI span."
+  },
+  {
+    "name": "B_parallel_same_edge",
+    "J1": [
+      17,
+      4.5,
+      180
+    ],
+    "J2": [
+      32,
+      4.5,
+      180
+    ],
+    "pad_center_chords_mm": {
+      "D0_P": 15.3,
+      "D0_N": 14.684,
+      "D1_P": 16.5,
+      "D1_N": 15.863,
+      "CLK_P": 14.1,
+      "CLK_N": 13.509
+    },
+    "mean_mm": 14.993,
+    "max_mm": 16.5,
+    "note": "SELECTED: shared service edge, compact parallel cable exits, shortest worst-case DSI span."
+  },
+  {
+    "name": "C_orthogonal_edges",
+    "J1": [
+      5,
+      8,
+      270
+    ],
+    "J2": [
+      25,
+      4.5,
+      180
+    ],
+    "pad_center_chords_mm": {
+      "D0_P": 19.757,
+      "D0_N": 19.72,
+      "D1_P": 18.857,
+      "D1_N": 19.126,
+      "CLK_P": 17.48,
+      "CLK_N": 17.635
+    },
+    "mean_mm": 18.762,
+    "max_mm": 19.757,
+    "note": "Independent cable exits, but 90-degree escape corridor and longer worst-case span."
+  }
+]

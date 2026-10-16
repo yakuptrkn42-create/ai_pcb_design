@@ -1,0 +1,12 @@
+#VRML V2.0 utf8
+# Mechanical visualization envelope; not a manufacturer CAD model. Dimensions from supplied footprint body.
+Transform { translation 0.0 0.0 0.216535 children [ Shape { appearance Appearance { material Material { diffuseColor 0.8 0.77 0.64 } } geometry Box { size 1.968504 1.181102 0.393701 } } ] }
+Transform { translation 0.0 -0.452756 0.452756 children [ Shape { appearance Appearance { material Material { diffuseColor 0.1 0.11 0.12 } } geometry Box { size 1.751969 0.19685 0.11811 } } ] }
+Transform { translation -0.492126 0.492126 0.047244 children [ Shape { appearance Appearance { material Material { diffuseColor 0.75 0.77 0.8 } } geometry Box { size 0.082677 0.251969 0.07874 } } ] }
+Transform { translation -0.295276 0.492126 0.047244 children [ Shape { appearance Appearance { material Material { diffuseColor 0.75 0.77 0.8 } } geometry Box { size 0.082677 0.251969 0.07874 } } ] }
+Transform { translation -0.098425 0.492126 0.047244 children [ Shape { appearance Appearance { material Material { diffuseColor 0.75 0.77 0.8 } } geometry Box { size 0.082677 0.251969 0.07874 } } ] }
+Transform { translation 0.098425 0.492126 0.047244 children [ Shape { appearance Appearance { material Material { diffuseColor 0.75 0.77 0.8 } } geometry Box { size 0.082677 0.251969 0.07874 } } ] }
+Transform { translation 0.295276 0.492126 0.047244 children [ Shape { appearance Appearance { material Material { diffuseColor 0.75 0.77 0.8 } } geometry Box { size 0.082677 0.251969 0.07874 } } ] }
+Transform { translation 0.492126 0.492126 0.047244 children [ Shape { appearance Appearance { material Material { diffuseColor 0.75 0.77 0.8 } } geometry Box { size 0.082677 0.251969 0.07874 } } ] }
+Transform { translation -0.885827 -0.492126 0.047244 children [ Shape { appearance Appearance { material Material { diffuseColor 0.75 0.77 0.8 } } geometry Box { size 0.110236 0.251969 0.07874 } } ] }
+Transform { translation 0.885827 -0.492126 0.047244 children [ Shape { appearance Appearance { material Material { diffuseColor 0.75 0.77 0.8 } } geometry Box { size 0.110236 0.251969 0.07874 } } ] }
