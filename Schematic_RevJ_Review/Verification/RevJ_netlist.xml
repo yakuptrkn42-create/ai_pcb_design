@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/workspace/ai_pcb_design/Schematic_RevJ_Review/Project/STM32F469_DISEN_RevJ.kicad_sch</source>
-    <date>2026-10-16T11:31:04+0000</date>
+    <date>2026-10-16T11:39:40+0000</date>
     <tool>Eeschema 9.0.2+dfsg-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -485,12 +485,12 @@
     <comp ref="C2">
       <value>100nF / 16V</value>
       <footprint>Adapter_F469:C_0805_2012Metric</footprint>
-      <description>X7R; C3 effective capacitance &gt;=4.7uF at 30V, verify vendor DC-bias curve</description>
+      <description>Input high-frequency bypass, 100nF/16V X7R, directly at U1 VIN/GND.</description>
       <fields>
         <field name="MPN"/>
         <field name="Footprint">Adapter_F469:C_0805_2012Metric</field>
         <field name="Datasheet"/>
-        <field name="Description">X7R; C3 effective capacitance &gt;=4.7uF at 30V, verify vendor DC-bias curve</field>
+        <field name="Description">Input high-frequency bypass, 100nF/16V X7R, directly at U1 VIN/GND.</field>
       </fields>
       <libsource lib="Adapter_F469" part="C" description=""/>
       <property name="MPN" value=""/>
@@ -519,12 +519,12 @@
     <comp ref="C4">
       <value>100nF / 50V</value>
       <footprint>Adapter_F469:C_0805_2012Metric</footprint>
-      <description>X7R; C3 effective capacitance &gt;=4.7uF at 30V, verify vendor DC-bias curve</description>
+      <description>Output high-frequency bypass, 100nF/50V X7R, beside boost rectifier/output capacitor.</description>
       <fields>
         <field name="MPN"/>
         <field name="Footprint">Adapter_F469:C_0805_2012Metric</field>
         <field name="Datasheet"/>
-        <field name="Description">X7R; C3 effective capacitance &gt;=4.7uF at 30V, verify vendor DC-bias curve</field>
+        <field name="Description">Output high-frequency bypass, 100nF/50V X7R, beside boost rectifier/output capacitor.</field>
       </fields>
       <libsource lib="Adapter_F469" part="C" description=""/>
       <property name="MPN" value=""/>
@@ -536,12 +536,12 @@
     <comp ref="C9">
       <value>220nF / 16V</value>
       <footprint>Adapter_F469:C_0805_2012Metric</footprint>
-      <description>X7R; C3 effective capacitance &gt;=4.7uF at 30V, verify vendor DC-bias curve</description>
+      <description>COMP compensation capacitor, 220nF/16V X7R, consistent with TI typical application; keep COMP quiet.</description>
       <fields>
         <field name="MPN"/>
         <field name="Footprint">Adapter_F469:C_0805_2012Metric</field>
         <field name="Datasheet"/>
-        <field name="Description">X7R; C3 effective capacitance &gt;=4.7uF at 30V, verify vendor DC-bias curve</field>
+        <field name="Description">COMP compensation capacitor, 220nF/16V X7R, consistent with TI typical application; keep COMP quiet.</field>
       </fields>
       <libsource lib="Adapter_F469" part="C" description=""/>
       <property name="MPN" value=""/>
@@ -691,12 +691,12 @@
     <comp ref="R12">
       <value>0R / isolation</value>
       <footprint>Adapter_F469:R_0805_2012Metric</footprint>
-      <description>0 ohm supply link. FIT for Rev I; allows open-circuit isolation during testing.</description>
+      <description>0 ohm supply link; FIT in Rev J; allows boost supply isolation during testing.</description>
       <fields>
         <field name="MPN"/>
         <field name="Footprint">Adapter_F469:R_0805_2012Metric</field>
         <field name="Datasheet"/>
-        <field name="Description">0 ohm supply link. FIT for Rev I; allows open-circuit isolation during testing.</field>
+        <field name="Description">0 ohm supply link; FIT in Rev J; allows boost supply isolation during testing.</field>
       </fields>
       <libsource lib="Adapter_F469" part="R" description=""/>
       <property name="MPN" value=""/>
