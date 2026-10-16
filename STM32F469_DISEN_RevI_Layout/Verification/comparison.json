@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "tool": "KiCad CLI 9.0.2",
+  "electrical_revision": "I",
+  "layout_edition": "Layout 1",
+  "physical_components_original": 49,
+  "physical_components_layout": 49,
+  "original_power_flags_preserved": 3,
+  "presentation_ground_symbols_added": 12,
+  "net_count": 57,
+  "named_connected_nets": 32,
+  "pin_net_memberships_compared": 172,
+  "net_names_and_pin_memberships_identical": true,
+  "component_properties_identical": true,
+  "original_component_and_pin_UUIDs_preserved": true,
+  "original_symbol_definitions_preserved": true,
+  "footprints_and_project_configuration_preserved": true,
+  "no_connect_markers": 25,
+  "DNP_references": [
+    "R2",
+    "R1"
+  ],
+  "ERC_original_violations": 0,
+  "ERC_layout_errors": 0,
+  "ERC_layout_warnings": 0,
+  "source_archive_and_extracted_files_untouched": true,
+  "verification_scope": "Document connectivity and attributes, not prototype operation, simulation, PCB routing or protection performance."
+}
