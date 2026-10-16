@@ -1,0 +1,36 @@
+{
+  "baseline": {
+    "warning": 126,
+    "error": 6
+  },
+  "RevJ": {
+    "warning": 3
+  },
+  "errors_after": 0,
+  "warnings_after": 3,
+  "warnings": [
+    {
+      "type": "single_global_label",
+      "description": "Global label only appears once in the schematic",
+      "item": "Global Label 'BL_COMP'"
+    },
+    {
+      "type": "single_global_label",
+      "description": "Global label only appears once in the schematic",
+      "item": "Global Label 'BL_SW'"
+    },
+    {
+      "type": "single_global_label",
+      "description": "Global label only appears once in the schematic",
+      "item": "Global Label 'OVP_SENSE'"
+    }
+  ],
+  "ignored_rules_added": false,
+  "exclusions_added": false,
+  "strengthened_to_warning": [
+    "footprint_filter",
+    "four_way_junction",
+    "single_global_label"
+  ],
+  "connection_grid_mil": 50
+}

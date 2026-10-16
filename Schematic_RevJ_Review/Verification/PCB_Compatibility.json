@@ -1,0 +1,50 @@
+[
+  {
+    "board": "/workspace/schematic-review/source/STM32F469_DISEN_RevI_Gorsel_Revizyon/STM32F469_DISEN_RevI.kicad_pcb",
+    "footprints": 53,
+    "tracks_including_vias": 0,
+    "vias": 0,
+    "zones": 0,
+    "pin_net_mismatches": [
+      {
+        "reference": "C13",
+        "pin": "1",
+        "pcb_net": "HOST_3V3",
+        "RevJ_net": "BL_POWER"
+      },
+      {
+        "reference": "U2",
+        "pin": "6",
+        "pcb_net": "HOST_3V3",
+        "RevJ_net": "BL_POWER"
+      }
+    ],
+    "J2_footprint_identifier_update_required": true,
+    "J2_pad_geometry_unchanged": true,
+    "PCB_modified": false
+  },
+  {
+    "board": "/workspace/ai_pcb_design/PCB_Routing_Review/Project/STM32F469_DISEN_RevI.kicad_pcb",
+    "footprints": 53,
+    "tracks_including_vias": 627,
+    "vias": 110,
+    "zones": 8,
+    "pin_net_mismatches": [
+      {
+        "reference": "C13",
+        "pin": "1",
+        "pcb_net": "HOST_3V3",
+        "RevJ_net": "BL_POWER"
+      },
+      {
+        "reference": "U2",
+        "pin": "6",
+        "pcb_net": "HOST_3V3",
+        "RevJ_net": "BL_POWER"
+      }
+    ],
+    "J2_footprint_identifier_update_required": true,
+    "J2_pad_geometry_unchanged": true,
+    "PCB_modified": false
+  }
+]

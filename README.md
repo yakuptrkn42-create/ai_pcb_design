@@ -1,23 +1,25 @@
-# STM32F469 / DISEN — Rev I · Routing R1
+# STM32F469I-DISCO / DISEN — Şematik Rev J
 
-**Routing tamamlandı: 0 DRC ihlali, 0 açık bağlantı, 0 şematik eşleşme sorunu, 0 ERC ihlali.** Onaylanan şematik ve komponent yerleşimi korunmuştur.
+**Güncel teslim: elektriksel ve görsel şematik revizyonu.** Gerçek KiCad dosyaları düzenlendi; ERC sonucu **0 hata, 3 açıklanmış uyarı**. PCB ve yazılım bu aşamada değiştirilmedi.
 
-- [Tüm native proje, görseller ve üretim çıktıları — ZIP](STM32F469_RevI_Routed_Review.zip)
-- [Kısa routing inceleme raporu — PDF](PCB_Routing_Review/Routing_Review_TR.pdf)
-- [Düzenlenebilir KiCad PCB projesi](PCB_Routing_Review/Project/)
-- [Katmanlar, kurallar ve mühendislik değerlendirmesi](PCB_Routing_Review/Engineering/ENGINEERING_REVIEW_TR.md)
-- [DRC sonucu](PCB_Routing_Review/Verification/DRC.txt) · [Gerber/drill denetimi](PCB_Routing_Review/Verification/manufacturing_audit.json)
+- [Tüm Rev J dosyalarını indir — ZIP](STM32F469_DISEN_RevJ_Schematic_Review.zip)
+- [Revize şematik — PDF](Schematic_RevJ_Review/PDF/STM32F469_DISEN_RevJ_Schematic.pdf)
+- [Mühendislik incelemesi — PDF](Schematic_RevJ_Review/PDF/Engineering_Review_RevJ.pdf)
+- [Düzenlenebilir KiCad projesi](Schematic_RevJ_Review/Project/) · [BOM](Schematic_RevJ_Review/BOM/BOM_RevJ.csv)
+- [Açılış ve değişiklik özeti](Schematic_RevJ_Review/README_TR.md) · [ERC](Schematic_RevJ_Review/Verification/ERC_RevJ.txt)
 
-![Route edilmiş PCB 3D görünümü](PCB_Routing_Review/Views/03_PCB_3D_Isometric.png)
+ZIP sayfasında **Download raw file** düğmesini kullanın. Arşivi tamamen çıkarıp `Schematic_RevJ_Review/Project/STM32F469_DISEN_RevJ.kicad_pro` dosyasını KiCad 9 ile açın.
 
-46 × 40 mm, dört bakır katman, nominal 1,6 mm; iki iç GND referansı. 49 devre footprint’i + dört NPTH montaj deliği. ZIP’i tamamen çıkarıp `PCB_Routing_Review/Project/STM32F469_DISEN_RevI.kicad_pro` dosyasını KiCad 9 ile açın. Dosya sayfasındaki **Download raw file** simgesi ZIP’i indirir; **Code → Download ZIP** tüm depoyu indirir.
+U2.6 ve C13.1 beslemeleri `HOST_3V3` yerine `BL_POWER` hattına taşındı. J2, panelin önerdiği FH26 temel parça adına düzeltildi; pad geometrisi korundu. 52 güç portu güç sembolüne dönüştürüldü; farklı beslemeler birleştirilmedi. 49 fiziksel komponent ve 57 net korundu. Özgün yükleme arşivi teslim içinde değiştirilmeden saklandı.
 
-Bu teslim üretim öncesi mühendislik incelemesidir. Üretici stackup’ı/empedans toleransı ve FPC–flex mekanik eşleşmesi henüz onaylı değildir. Empedans hesabı nominaldir. FPC ve L1 3D gövdeleri nominal hacimlerdir. Açık bilgiler ve hesap sınırları raporda belirtilmiştir.
+**Üretim onayı değildir.** U2 birincil veri sayfası/OVP geçici rejimi, panel akım bütçesi, touch besleme toleransı, reset zamanlaması ve fiziksel FPC eşleşmesi için açık doğrulamalar rapordadır. Önceki PCB'ler Rev J'ye geçişte ECO gerektirir; eski Gerber'ler Rev J üretim dosyası değildir.
 
-## Korunan önceki teslimler
+![Rev J şematik — MIPI ve LCD](Schematic_RevJ_Review/Views/01_Schematic_RevJ.png)
 
-- [Onaylanan komponent yerleşimi P1](PCB_Placement_Review/Placement_Review.pdf) · [Yerleşim arşivi](STM32F469_RevI_Placement_Review.zip)
-- [Onaylanan şematik PDF](STM32F469_RevI_Professional.pdf) · [Şematik KiCad arşivi](STM32F469_RevI_Professional_KiCad.zip)
-- [Şematik kaynak projesi](STM32F469_DISEN_RevI_Layout/)
+## Korunan Rev I arşivleri
 
-Önceki teslimler değiştirilmedi. Routing projesindeki şematikler onaylanan şematik dosyalarının birebir kopyalarıdır.
+- [Önceki Rev I routing ZIP](STM32F469_RevI_Routed_Review.zip) · [Routing incelemesi](PCB_Routing_Review/Routing_Review_TR.pdf)
+- [Onaylanan placement P1](PCB_Placement_Review/Placement_Review.pdf) · [Placement ZIP](STM32F469_RevI_Placement_Review.zip)
+- [Önceki şematik PDF](STM32F469_RevI_Professional.pdf) · [KiCad arşivi](STM32F469_RevI_Professional_KiCad.zip)
+
+Bu tarihsel dosyalar değiştirilmedi; Rev J'nin iki besleme ECO'sunu ve J2 kimlik düzeltmesini içermezler.

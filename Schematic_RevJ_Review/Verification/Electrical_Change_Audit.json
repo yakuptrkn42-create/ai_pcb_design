@@ -1,0 +1,44 @@
+{
+  "physical_components_before": 49,
+  "physical_components_after": 49,
+  "physical_pin_memberships_before": 172,
+  "physical_pin_memberships_after": 172,
+  "net_count_before": 57,
+  "net_count_after": 57,
+  "intentional_pin_net_changes": [
+    {
+      "reference": "C13",
+      "pin": "1",
+      "before": "HOST_3V3",
+      "after": "BL_POWER"
+    },
+    {
+      "reference": "U2",
+      "pin": "6",
+      "before": "HOST_3V3",
+      "after": "BL_POWER"
+    }
+  ],
+  "value_and_footprint_changes": [
+    {
+      "reference": "J2",
+      "field": "value",
+      "before": "FH26W-39S-0.3SHW(60)",
+      "after": "FH26-39S-0.3SHW"
+    },
+    {
+      "reference": "J2",
+      "field": "footprint",
+      "before": "Adapter_F469:FH26W-39S-0.3SHW",
+      "after": "Adapter_F469:FH26-39S-0.3SHW"
+    }
+  ],
+  "all_other_physical_connections_preserved": true,
+  "supply_net_names_preserved": true,
+  "LCD39_table_checked": true,
+  "host_CN10_UM1932_checked": true,
+  "host_CN12_used_pins_checked": true,
+  "CN2_physical_mapping": "Retained; MCU functions checked in ST BSP; MB1189 physical schematic not retrieved",
+  "J2_copper_pad_geometry_matches_original_and_rotated_standard_KiCad_FH26": true,
+  "PCB_routing_changed": false
+}
