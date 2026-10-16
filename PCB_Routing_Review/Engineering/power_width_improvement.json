@@ -1,0 +1,50 @@
+[
+  {
+    "net": "HOST_3V3",
+    "layer": "F.Cu",
+    "segments_widened_to_0.30mm": 12,
+    "length_widened_mm": 21.849085435878273
+  },
+  {
+    "net": "HOST_3V3",
+    "layer": "B.Cu",
+    "segments_widened_to_0.30mm": 2,
+    "length_widened_mm": 15.189743800945239
+  },
+  {
+    "net": "LCD_VCI",
+    "layer": "F.Cu",
+    "segments_widened_to_0.30mm": 22,
+    "length_widened_mm": 21.72652877833777
+  },
+  {
+    "net": "LCD_VCI",
+    "layer": "B.Cu",
+    "segments_widened_to_0.30mm": 1,
+    "length_widened_mm": 1.2020815280171309
+  },
+  {
+    "net": "TP_VDD",
+    "layer": "F.Cu",
+    "segments_widened_to_0.30mm": 30,
+    "length_widened_mm": 33.1245807527433
+  },
+  {
+    "net": "TP_VDD",
+    "layer": "B.Cu",
+    "segments_widened_to_0.30mm": 9,
+    "length_widened_mm": 22.98542627892529
+  },
+  {
+    "net": "HOST_TP_3V3",
+    "layer": "F.Cu",
+    "segments_widened_to_0.30mm": 1,
+    "length_widened_mm": 0.10121264743103997
+  },
+  {
+    "net": "HOST_TP_3V3",
+    "layer": "B.Cu",
+    "segments_widened_to_0.30mm": 0,
+    "length_widened_mm": 0
+  }
+]

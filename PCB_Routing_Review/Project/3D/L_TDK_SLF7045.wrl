@@ -1,0 +1,5 @@
+#VRML V2.0 utf8
+# SLF7045 nominal 7 x 7 x 4.5 mm mechanical envelope, not manufacturer CAD.
+Transform { translation 0.0 0.0 0.925197 children [ Shape { appearance Appearance { material Material { diffuseColor 0.17 0.18 0.19 } } geometry Box { size 2.755906 2.755906 1.771654 } } ] }
+Transform { translation -1.240157 0.0 0.059055 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.74 0.77 } } geometry Box { size 0.590551 0.866142 0.11811 } } ] }
+Transform { translation 1.240157 0.0 0.059055 children [ Shape { appearance Appearance { material Material { diffuseColor 0.72 0.74 0.77 } } geometry Box { size 0.590551 0.866142 0.11811 } } ] }

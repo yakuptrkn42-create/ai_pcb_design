@@ -1,0 +1,19 @@
+(version 1)
+(rule "MIPI conductor width and matched launch"
+  (condition "A.NetClass == 'MIPI_DSI'")
+  (constraint track_width (min 0.14mm) (max 0.19mm)))
+(rule "MIPI paired routing target"
+  (condition "A.NetClass == 'MIPI_DSI'")
+  (constraint diff_pair_gap (opt 0.18mm)))
+(rule "MIPI within-pair skew"
+  (condition "A.NetClass == 'MIPI_DSI'")
+  (constraint skew (max 0.10mm) (within_diff_pairs)))
+(rule "MIPI conductor length budget"
+  (condition "A.NetClass == 'MIPI_DSI'")
+  (constraint length (max 35mm)))
+(rule "MIPI through-via budget"
+  (condition "A.NetClass == 'MIPI_DSI'")
+  (constraint via_count (max 2)))
+(rule "MIPI outer GND pour setback"
+  (condition "A.NetClass == 'MIPI_DSI' && B.Type == 'Zone' && (B.Layer == 'F.Cu' || B.Layer == 'B.Cu')")
+  (constraint clearance (min 0.50mm)))

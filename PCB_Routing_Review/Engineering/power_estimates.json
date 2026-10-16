@@ -1,0 +1,106 @@
+{
+  "assumptions": {
+    "copper_um": 35,
+    "copper_temperature_C": 20,
+    "via_plating_assumed_um_not_confirmed": 20,
+    "finished_thickness_mm": 1.6,
+    "thermal_model": "IPC2221 external track approximate equation, 10C temperature rise; not IPC2152 or thermal simulation",
+    "resistance_model": "Sum of all branches as if series, deliberately conservative upper bound; excludes component drops, connectors, flex and GND return",
+    "load_status": "Review envelopes only; panel/host and assembly parts not electrically qualified"
+  },
+  "LED_current_nominal_mA": 38.24091778202677,
+  "OVP_nominal_V_assuming_1_242V_reference": 28.6902,
+  "review_boost_input_current_A_assuming_Vin4_5V_Vout28_69V_efficiency80pct": 0.30476099426386233,
+  "supply_results": [
+    {
+      "net": "EXT_5V",
+      "review_load_A_not_confirmed_panel_load": 0.75,
+      "minimum_width_mm": 0.6,
+      "total_copper_resistance_upper_bound_20C_ohm": 0.0055314859235990835,
+      "via_series_resistance_upper_bound_assuming_20um_plating_ohm": 0,
+      "voltage_drop_upper_bound_mV_excluding_components_and_GND": 4.148614442699313,
+      "IPC2221_external_10C_rise_estimate_A_not_thermal_validation": 1.6513583887418626
+    },
+    {
+      "net": "FUSED_5V",
+      "review_load_A_not_confirmed_panel_load": 0.75,
+      "minimum_width_mm": 0.6,
+      "total_copper_resistance_upper_bound_20C_ohm": 0.01843524719159115,
+      "via_series_resistance_upper_bound_assuming_20um_plating_ohm": 0,
+      "voltage_drop_upper_bound_mV_excluding_components_and_GND": 13.826435393693364,
+      "IPC2221_external_10C_rise_estimate_A_not_thermal_validation": 1.6513583887418626
+    },
+    {
+      "net": "BL_5V",
+      "review_load_A_not_confirmed_panel_load": 0.75,
+      "minimum_width_mm": 0.6,
+      "total_copper_resistance_upper_bound_20C_ohm": 0.0187149524305623,
+      "via_series_resistance_upper_bound_assuming_20um_plating_ohm": 0,
+      "voltage_drop_upper_bound_mV_excluding_components_and_GND": 14.036214322921726,
+      "IPC2221_external_10C_rise_estimate_A_not_thermal_validation": 1.6513583887418626
+    },
+    {
+      "net": "BL_POWER",
+      "review_load_A_not_confirmed_panel_load": 0.75,
+      "minimum_width_mm": 0.4,
+      "total_copper_resistance_upper_bound_20C_ohm": 0.027740767132401745,
+      "via_series_resistance_upper_bound_assuming_20um_plating_ohm": 0.004115746828356415,
+      "voltage_drop_upper_bound_mV_excluding_components_and_GND": 23.892385470568616,
+      "IPC2221_external_10C_rise_estimate_A_not_thermal_validation": 1.2307651039607521
+    },
+    {
+      "net": "BL_LEDA",
+      "review_load_A_not_confirmed_panel_load": 0.03824091778202677,
+      "minimum_width_mm": 0.3,
+      "total_copper_resistance_upper_bound_20C_ohm": 0.0850401747267008,
+      "via_series_resistance_upper_bound_assuming_20um_plating_ohm": 0,
+      "voltage_drop_upper_bound_mV_excluding_components_and_GND": 3.2520143298929565,
+      "IPC2221_external_10C_rise_estimate_A_not_thermal_validation": 0.9990669447801742
+    },
+    {
+      "net": "BL_LEDK",
+      "review_load_A_not_confirmed_panel_load": 0.03824091778202677,
+      "minimum_width_mm": 0.2,
+      "total_copper_resistance_upper_bound_20C_ohm": 0.04904554108073759,
+      "via_series_resistance_upper_bound_assuming_20um_plating_ohm": 0.0046238637207460945,
+      "voltage_drop_upper_bound_mV_excluding_components_and_GND": 2.05236729642385,
+      "IPC2221_external_10C_rise_estimate_A_not_thermal_validation": 0.7446092505049391
+    },
+    {
+      "net": "HOST_3V3",
+      "review_load_A_not_confirmed_panel_load": 0.3,
+      "minimum_width_mm": 0.2,
+      "total_copper_resistance_upper_bound_20C_ohm": 0.14357330854464062,
+      "via_series_resistance_upper_bound_assuming_20um_plating_ohm": 0.006503896222587913,
+      "voltage_drop_upper_bound_mV_excluding_components_and_GND": 45.02316143016855,
+      "IPC2221_external_10C_rise_estimate_A_not_thermal_validation": 0.7446092505049391
+    },
+    {
+      "net": "LCD_VCI",
+      "review_load_A_not_confirmed_panel_load": 0.3,
+      "minimum_width_mm": 0.2,
+      "total_copper_resistance_upper_bound_20C_ohm": 0.09950330260023058,
+      "via_series_resistance_upper_bound_assuming_20um_plating_ohm": 0.0032519481112939564,
+      "voltage_drop_upper_bound_mV_excluding_components_and_GND": 30.826575213457357,
+      "IPC2221_external_10C_rise_estimate_A_not_thermal_validation": 0.7446092505049391
+    },
+    {
+      "net": "HOST_TP_3V3",
+      "review_load_A_not_confirmed_panel_load": 0.1,
+      "minimum_width_mm": 0.2,
+      "total_copper_resistance_upper_bound_20C_ohm": 0.021534781254583298,
+      "via_series_resistance_upper_bound_assuming_20um_plating_ohm": 0,
+      "voltage_drop_upper_bound_mV_excluding_components_and_GND": 2.1534781254583297,
+      "IPC2221_external_10C_rise_estimate_A_not_thermal_validation": 0.7446092505049391
+    },
+    {
+      "net": "TP_VDD",
+      "review_load_A_not_confirmed_panel_load": 0.1,
+      "minimum_width_mm": 0.2,
+      "total_copper_resistance_upper_bound_20C_ohm": 0.15273838144858057,
+      "via_series_resistance_upper_bound_assuming_20um_plating_ohm": 0.011381818389528847,
+      "voltage_drop_upper_bound_mV_excluding_components_and_GND": 16.412019983810943,
+      "IPC2221_external_10C_rise_estimate_A_not_thermal_validation": 0.7446092505049391
+    }
+  ]
+}

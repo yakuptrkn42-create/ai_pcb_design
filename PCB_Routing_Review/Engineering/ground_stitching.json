@@ -1,0 +1,263 @@
+{
+  "added_ground_vias": [
+    {
+      "position": [
+        18.05,
+        7.65
+      ],
+      "reason": "MIPI return: DSI_CLK_N"
+    },
+    {
+      "position": [
+        14.8,
+        6.85
+      ],
+      "reason": "MIPI return: DSI_CLK_P"
+    },
+    {
+      "position": [
+        30.55,
+        7.7
+      ],
+      "reason": "MIPI return: DSI_CLK_P"
+    },
+    {
+      "position": [
+        34.55,
+        7.8
+      ],
+      "reason": "MIPI return: DSI_D0_N"
+    },
+    {
+      "position": [
+        33.95,
+        10.0
+      ],
+      "reason": "MIPI return: DSI_D0_P"
+    },
+    {
+      "position": [
+        14.65,
+        8.65
+      ],
+      "reason": "MIPI return: DSI_D1_N"
+    },
+    {
+      "position": [
+        1.2,
+        8
+      ],
+      "reason": "perimeter stitching"
+    },
+    {
+      "position": [
+        1.2,
+        13
+      ],
+      "reason": "perimeter stitching"
+    },
+    {
+      "position": [
+        1.2,
+        18
+      ],
+      "reason": "perimeter stitching"
+    },
+    {
+      "position": [
+        1.2,
+        23
+      ],
+      "reason": "perimeter stitching"
+    },
+    {
+      "position": [
+        1.2,
+        28
+      ],
+      "reason": "perimeter stitching"
+    },
+    {
+      "position": [
+        1.2,
+        32
+      ],
+      "reason": "perimeter stitching"
+    },
+    {
+      "position": [
+        44.8,
+        8
+      ],
+      "reason": "perimeter stitching"
+    },
+    {
+      "position": [
+        44.8,
+        13
+      ],
+      "reason": "perimeter stitching"
+    },
+    {
+      "position": [
+        44.8,
+        18
+      ],
+      "reason": "perimeter stitching"
+    },
+    {
+      "position": [
+        44.8,
+        23
+      ],
+      "reason": "perimeter stitching"
+    },
+    {
+      "position": [
+        44.8,
+        32
+      ],
+      "reason": "perimeter stitching"
+    },
+    {
+      "position": [
+        8,
+        1.2
+      ],
+      "reason": "perimeter stitching"
+    },
+    {
+      "position": [
+        8,
+        38.8
+      ],
+      "reason": "perimeter stitching"
+    },
+    {
+      "position": [
+        13,
+        38.8
+      ],
+      "reason": "perimeter stitching"
+    },
+    {
+      "position": [
+        28,
+        38.8
+      ],
+      "reason": "perimeter stitching"
+    },
+    {
+      "position": [
+        33,
+        38.8
+      ],
+      "reason": "perimeter stitching"
+    },
+    {
+      "position": [
+        38,
+        38.8
+      ],
+      "reason": "perimeter stitching"
+    }
+  ],
+  "nearest_GND_via_to_each_MIPI_via_mm": [
+    {
+      "net": "DSI_CLK_N",
+      "signal_via": [
+        30.5,
+        2.0999999999999943
+      ],
+      "distance_mm": 0.7211102550927884
+    },
+    {
+      "net": "DSI_CLK_N",
+      "signal_via": [
+        17.400000000000006,
+        7.349999999999994
+      ],
+      "distance_mm": 0.7158910531638156
+    },
+    {
+      "net": "DSI_CLK_P",
+      "signal_via": [
+        16.700000000000003,
+        6.900000000000006
+      ],
+      "distance_mm": 1.5443445211480455
+    },
+    {
+      "net": "DSI_CLK_P",
+      "signal_via": [
+        30.5,
+        7.0
+      ],
+      "distance_mm": 0.7017834423809102
+    },
+    {
+      "net": "DSI_D0_N",
+      "signal_via": [
+        32.900000000000006,
+        2.0999999999999943
+      ],
+      "distance_mm": 0.7211102550927884
+    },
+    {
+      "net": "DSI_D0_N",
+      "signal_via": [
+        34.5,
+        8.5
+      ],
+      "distance_mm": 0.70178344238091
+    },
+    {
+      "net": "DSI_D0_P",
+      "signal_via": [
+        34.5,
+        9.5
+      ],
+      "distance_mm": 0.7433034373659232
+    },
+    {
+      "net": "DSI_D0_P",
+      "signal_via": [
+        33.19999899999999,
+        6.900000000000006
+      ],
+      "distance_mm": 0.8097077250471395
+    },
+    {
+      "net": "DSI_D1_N",
+      "signal_via": [
+        16.200000000000003,
+        7.349999999999994
+      ],
+      "distance_mm": 1.4866068747318508
+    },
+    {
+      "net": "DSI_D1_N",
+      "signal_via": [
+        31.69999899999999,
+        2.0999999999999943
+      ],
+      "distance_mm": 0.7211094230427095
+    },
+    {
+      "net": "DSI_D1_P",
+      "signal_via": [
+        32.0,
+        7.0
+      ],
+      "distance_mm": 1.6101242188104612
+    },
+    {
+      "net": "DSI_D1_P",
+      "signal_via": [
+        15.5,
+        6.900000000000006
+      ],
+      "distance_mm": 0.7017834423809097
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "source_board_sha256": "7f00a598deeb085eb72efaea52c19b4b3506c7a26abf1790ede86b1c0db7911e",
+  "jobs": [
+    {
+      "command": [
+        "kicad-cli",
+        "pcb",
+        "export",
+        "svg",
+        "--output",
+        "Views/04_Routing_Top.svg",
+        "--layers",
+        "F.Cu,F.SilkS,Edge.Cuts",
+        "--page-size-mode",
+        "2",
+        "--exclude-drawing-sheet",
+        "--mode-single",
+        "Project/STM32F469_DISEN_RevI.kicad_pcb"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "pcb",
+        "export",
+        "svg",
+        "--output",
+        "Views/05_Routing_Bottom.svg",
+        "--layers",
+        "B.Cu,B.SilkS,Edge.Cuts",
+        "--page-size-mode",
+        "2",
+        "--exclude-drawing-sheet",
+        "--mode-single",
+        "--mirror",
+        "Project/STM32F469_DISEN_RevI.kicad_pcb"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "pcb",
+        "export",
+        "svg",
+        "--output",
+        "Views/06_GND_In1.svg",
+        "--layers",
+        "In1.Cu,Edge.Cuts",
+        "--page-size-mode",
+        "2",
+        "--exclude-drawing-sheet",
+        "--mode-single",
+        "Project/STM32F469_DISEN_RevI.kicad_pcb"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "pcb",
+        "export",
+        "svg",
+        "--output",
+        "Views/07_GND_In2.svg",
+        "--layers",
+        "In2.Cu,Edge.Cuts",
+        "--page-size-mode",
+        "2",
+        "--exclude-drawing-sheet",
+        "--mode-single",
+        "Project/STM32F469_DISEN_RevI.kicad_pcb"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "pcb",
+        "export",
+        "svg",
+        "--output",
+        "Views/08_Assembly_Top.svg",
+        "--layers",
+        "F.Fab,Edge.Cuts",
+        "--page-size-mode",
+        "2",
+        "--exclude-drawing-sheet",
+        "--mode-single",
+        "--sketch-pads-on-fab-layers",
+        "--crossout-DNP-footprints-on-fab-layers",
+        "Project/STM32F469_DISEN_RevI.kicad_pcb"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "pcb",
+        "render",
+        "--output",
+        "Views/01_PCB_Top.png",
+        "--width",
+        "2000",
+        "--height",
+        "1600",
+        "--side",
+        "top",
+        "--background",
+        "opaque",
+        "--quality",
+        "high",
+        "--zoom",
+        ".95",
+        "Project/STM32F469_DISEN_RevI.kicad_pcb"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "pcb",
+        "render",
+        "--output",
+        "Views/02_PCB_Bottom.png",
+        "--width",
+        "2000",
+        "--height",
+        "1600",
+        "--side",
+        "bottom",
+        "--background",
+        "opaque",
+        "--quality",
+        "high",
+        "--zoom",
+        ".95",
+        "Project/STM32F469_DISEN_RevI.kicad_pcb"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "pcb",
+        "render",
+        "--output",
+        "Views/03_PCB_3D_Isometric.png",
+        "--width",
+        "2000",
+        "--height",
+        "1600",
+        "--side",
+        "top",
+        "--background",
+        "opaque",
+        "--quality",
+        "high",
+        "--zoom",
+        ".85",
+        "--rotate",
+        "320,0,28",
+        "Project/STM32F469_DISEN_RevI.kicad_pcb"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "pcb",
+        "export",
+        "gerbers",
+        "--output",
+        "Manufacturing/Gerber/",
+        "--layers",
+        "F.Cu,In1.Cu,In2.Cu,B.Cu,F.Mask,B.Mask,F.SilkS,B.SilkS,F.Paste,B.Paste,Edge.Cuts",
+        "--use-drill-file-origin",
+        "--subtract-soldermask",
+        "Project/STM32F469_DISEN_RevI.kicad_pcb"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "pcb",
+        "export",
+        "drill",
+        "--output",
+        "Manufacturing/Drill/",
+        "--format",
+        "excellon",
+        "--drill-origin",
+        "plot",
+        "--excellon-separate-th",
+        "--excellon-units",
+        "mm",
+        "--generate-map",
+        "--map-format",
+        "pdf",
+        "Project/STM32F469_DISEN_RevI.kicad_pcb"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "pcb",
+        "export",
+        "ipcd356",
+        "--output",
+        "Manufacturing/STM32F469_DISEN_RevI.d356",
+        "Project/STM32F469_DISEN_RevI.kicad_pcb"
+      ],
+      "returncode": 0
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "pcb",
+        "drc",
+        "--format",
+        "report",
+        "--schematic-parity",
+        "-o",
+        "Verification/DRC.txt",
+        "Project/STM32F469_DISEN_RevI.kicad_pcb"
+      ],
+      "returncode": 0
+    }
+  ]
+}

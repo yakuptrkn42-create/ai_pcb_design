@@ -1,0 +1,123 @@
+{
+  "model": "2D quasi-static finite-volume odd mode, rectangular copper, air above FR4; grounded plane below",
+  "nominal_only": true,
+  "manufacturer_stackup_confirmed": false,
+  "h_mm": 0.1,
+  "t_mm": 0.035,
+  "epsilon_r": 4.2,
+  "soldermask_model": "not included; manufacturer mask parameters unavailable",
+  "sweep": [
+    {
+      "width_mm": 0.12,
+      "gap_mm": 0.18,
+      "grid_mm": 0.005,
+      "domain_mm": [
+        1.6,
+        0.6
+      ],
+      "Zdiff_ohm": 105.81318640009131,
+      "epsilon_eff": 2.587146533497252,
+      "velocity_mm_per_ns": 186.3846700515436,
+      "Codd_F_per_m": 1.014098204460694e-10,
+      "Codd_vacuum_F_per_m": 3.919755573681622e-11
+    },
+    {
+      "width_mm": 0.13,
+      "gap_mm": 0.18,
+      "grid_mm": 0.005,
+      "domain_mm": [
+        1.6,
+        0.6
+      ],
+      "Zdiff_ohm": 102.14640491737413,
+      "epsilon_eff": 2.60993681117077,
+      "velocity_mm_per_ns": 185.56911925784084,
+      "Codd_F_per_m": 1.0551184155364644e-10,
+      "Codd_vacuum_F_per_m": 4.042697168071121e-11
+    },
+    {
+      "width_mm": 0.14,
+      "gap_mm": 0.18,
+      "grid_mm": 0.005,
+      "domain_mm": [
+        1.6,
+        0.6
+      ],
+      "Zdiff_ohm": 98.75309015416418,
+      "epsilon_eff": 2.6317178622485327,
+      "velocity_mm_per_ns": 184.79960510348837,
+      "Codd_F_per_m": 1.0959185107155355e-10,
+      "Codd_vacuum_F_per_m": 4.164270518645892e-11
+    },
+    {
+      "width_mm": 0.15,
+      "gap_mm": 0.18,
+      "grid_mm": 0.005,
+      "domain_mm": [
+        1.6,
+        0.6
+      ],
+      "Zdiff_ohm": 95.60042298733153,
+      "epsilon_eff": 2.6525759896795056,
+      "velocity_mm_per_ns": 184.07159935922522,
+      "Codd_F_per_m": 1.1365365217340261e-10,
+      "Codd_vacuum_F_per_m": 4.284652074647433e-11
+    },
+    {
+      "width_mm": 0.13,
+      "gap_mm": 0.2,
+      "grid_mm": 0.005,
+      "domain_mm": [
+        1.6,
+        0.6
+      ],
+      "Zdiff_ohm": 103.60771214728884,
+      "epsilon_eff": 2.6329403917991963,
+      "velocity_mm_per_ns": 184.75669695217198,
+      "Codd_F_per_m": 1.0448109667669339e-10,
+      "Codd_vacuum_F_per_m": 3.968228715018389e-11
+    },
+    {
+      "width_mm": 0.14,
+      "gap_mm": 0.18,
+      "grid_mm": 0.0025,
+      "domain_mm": [
+        1.6,
+        0.6
+      ],
+      "Zdiff_ohm": 99.14271341056246,
+      "epsilon_eff": 2.625283768268215,
+      "velocity_mm_per_ns": 185.02592166698744,
+      "Codd_F_per_m": 1.0902764178545049e-10,
+      "Codd_vacuum_F_per_m": 4.152985025971926e-11
+    },
+    {
+      "width_mm": 0.14,
+      "gap_mm": 0.18,
+      "grid_mm": 0.0025,
+      "domain_mm": [
+        2.0,
+        0.7
+      ],
+      "Zdiff_ohm": 99.31466115550444,
+      "epsilon_eff": 2.6304503106066064,
+      "velocity_mm_per_ns": 184.84412501509564,
+      "Codd_F_per_m": 1.0894592202089742e-10,
+      "Codd_vacuum_F_per_m": 4.141721346402224e-11
+    }
+  ],
+  "selection": {
+    "width_mm": 0.14,
+    "gap_mm": 0.18,
+    "grid_mm": 0.0025,
+    "domain_mm": [
+      2.0,
+      0.7
+    ],
+    "Zdiff_ohm": 99.31466115550444,
+    "epsilon_eff": 2.6304503106066064,
+    "velocity_mm_per_ns": 184.84412501509564,
+    "Codd_F_per_m": 1.0894592202089742e-10,
+    "Codd_vacuum_F_per_m": 4.141721346402224e-11
+  }
+}

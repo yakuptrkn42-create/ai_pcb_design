@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-16T07:55:27+0000",
+    "kicad_version": "9.0.2",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/ed618b3b-8e84-4aac-86ce-4d83671e5688",
+            "violations": []
+        },
+        {
+            "path": "/Logic power & touch/",
+            "uuid_path": "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c",
+            "violations": []
+        },
+        {
+            "path": "/Backlight / external power/",
+            "uuid_path": "/ed618b3b-8e84-4aac-86ce-4d83671e5688/b75b1f95-63e0-4b8c-bd42-383f67f21693",
+            "violations": []
+        }
+    ],
+    "source": "STM32F469_DISEN_RevI.kicad_sch"
+}

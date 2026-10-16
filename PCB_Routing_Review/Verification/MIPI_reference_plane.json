@@ -1,0 +1,315 @@
+{
+  "method": "Boolean projection of 0.14 mm track footprints onto adjacent GND plane; 0.75 mm radius about MIPI signal vias excluded as intentional transitions",
+  "under_trace_missing_area_mm2": 0.0,
+  "side_margin_missing_area_mm2": 0.1089736887253182,
+  "segments": [
+    {
+      "net": "DSI_CLK_N",
+      "layer": "F.Cu",
+      "start": [
+        17.299999999999997,
+        5.974999999999994
+      ],
+      "end": [
+        17.400000000000006,
+        7.349999999999994
+      ],
+      "missing_plane_under_trace_area_mm2": 0.0,
+      "missing_plane_in_0.10mm_side_margin_mm2": 0.0
+    },
+    {
+      "net": "DSI_CLK_N",
+      "layer": "B.Cu",
+      "start": [
+        17.159999999999997,
+        7.733726000000004
+      ],
+      "end": [
+        18.466274,
+        9.039998999999995
+      ],
+      "missing_plane_under_trace_area_mm2": 0.0,
+      "missing_plane_in_0.10mm_side_margin_mm2": 0.0
+    },
+    {
+      "net": "DSI_CLK_N",
+      "layer": "B.Cu",
+      "start": [
+        28.133725999999996,
+        9.039998999999995
+      ],
+      "end": [
+        29.579998999999987,
+        7.593726000000004
+      ],
+      "missing_plane_under_trace_area_mm2": 0.0,
+      "missing_plane_in_0.10mm_side_margin_mm2": 0.0
+    },
+    {
+      "net": "DSI_CLK_N",
+      "layer": "B.Cu",
+      "start": [
+        18.466274,
+        9.039998999999995
+      ],
+      "end": [
+        28.133725999999996,
+        9.039998999999995
+      ],
+      "missing_plane_under_trace_area_mm2": 0.0,
+      "missing_plane_in_0.10mm_side_margin_mm2": 0.028773874965053473
+    },
+    {
+      "net": "DSI_CLK_N",
+      "layer": "B.Cu",
+      "start": [
+        29.579998999999987,
+        7.593726000000004
+      ],
+      "end": [
+        29.579998999999987,
+        5.665999999999997
+      ],
+      "missing_plane_under_trace_area_mm2": 0.0,
+      "missing_plane_in_0.10mm_side_margin_mm2": 0.0
+    },
+    {
+      "net": "DSI_CLK_P",
+      "layer": "B.Cu",
+      "start": [
+        16.840000000000003,
+        7.866274000000004
+      ],
+      "end": [
+        18.333726,
+        9.36
+      ],
+      "missing_plane_under_trace_area_mm2": 0.0,
+      "missing_plane_in_0.10mm_side_margin_mm2": 0.0
+    },
+    {
+      "net": "DSI_CLK_P",
+      "layer": "B.Cu",
+      "start": [
+        29.900000000000006,
+        7.726274000000004
+      ],
+      "end": [
+        29.900000000000006,
+        5.665999999999997
+      ],
+      "missing_plane_under_trace_area_mm2": 0.0,
+      "missing_plane_in_0.10mm_side_margin_mm2": 0.001099494031169154
+    },
+    {
+      "net": "DSI_CLK_P",
+      "layer": "B.Cu",
+      "start": [
+        18.333726,
+        9.36
+      ],
+      "end": [
+        28.26627400000001,
+        9.36
+      ],
+      "missing_plane_under_trace_area_mm2": 0.0,
+      "missing_plane_in_0.10mm_side_margin_mm2": 0.0
+    },
+    {
+      "net": "DSI_CLK_P",
+      "layer": "B.Cu",
+      "start": [
+        28.26627400000001,
+        9.36
+      ],
+      "end": [
+        29.900000000000006,
+        7.726274000000004
+      ],
+      "missing_plane_under_trace_area_mm2": 0.0,
+      "missing_plane_in_0.10mm_side_margin_mm2": 0.02516353930546405
+    },
+    {
+      "net": "DSI_D0_N",
+      "layer": "F.Cu",
+      "start": [
+        18.36,
+        6.733726000000004
+      ],
+      "end": [
+        20.466274,
+        8.840000000000003
+      ],
+      "missing_plane_under_trace_area_mm2": 0.0,
+      "missing_plane_in_0.10mm_side_margin_mm2": 0.0
+    },
+    {
+      "net": "DSI_D0_N",
+      "layer": "F.Cu",
+      "start": [
+        20.466274,
+        8.840000000000003
+      ],
+      "end": [
+        33.80000000000001,
+        8.840000000000003
+      ],
+      "missing_plane_under_trace_area_mm2": 0.0,
+      "missing_plane_in_0.10mm_side_margin_mm2": 0.028773331159156396
+    },
+    {
+      "net": "DSI_D0_P",
+      "layer": "F.Cu",
+      "start": [
+        20.333726,
+        9.159999999999997
+      ],
+      "end": [
+        33.80000000000001,
+        9.159999999999997
+      ],
+      "missing_plane_under_trace_area_mm2": 0.0,
+      "missing_plane_in_0.10mm_side_margin_mm2": 0.0
+    },
+    {
+      "net": "DSI_D0_P",
+      "layer": "F.Cu",
+      "start": [
+        18.039998999999995,
+        6.866274000000004
+      ],
+      "end": [
+        20.333726,
+        9.159999999999997
+      ],
+      "missing_plane_under_trace_area_mm2": 0.0,
+      "missing_plane_in_0.10mm_side_margin_mm2": 0.025163449264475127
+    },
+    {
+      "net": "DSI_D1_N",
+      "layer": "F.Cu",
+      "start": [
+        16.099999999999994,
+        5.974999999999994
+      ],
+      "end": [
+        16.200000000000003,
+        7.349999999999994
+      ],
+      "missing_plane_under_trace_area_mm2": 0.0,
+      "missing_plane_in_0.10mm_side_margin_mm2": 0.0
+    },
+    {
+      "net": "DSI_D1_N",
+      "layer": "B.Cu",
+      "start": [
+        28.933726000000007,
+        10.839999000000006
+      ],
+      "end": [
+        31.180000000000007,
+        8.593725000000006
+      ],
+      "missing_plane_under_trace_area_mm2": 0.0,
+      "missing_plane_in_0.10mm_side_margin_mm2": 0.0
+    },
+    {
+      "net": "DSI_D1_N",
+      "layer": "B.Cu",
+      "start": [
+        15.959999999999994,
+        7.733726000000004
+      ],
+      "end": [
+        19.066274000000007,
+        10.839999000000006
+      ],
+      "missing_plane_under_trace_area_mm2": 0.0,
+      "missing_plane_in_0.10mm_side_margin_mm2": 0.0
+    },
+    {
+      "net": "DSI_D1_N",
+      "layer": "B.Cu",
+      "start": [
+        31.180000000000007,
+        8.593725000000006
+      ],
+      "end": [
+        31.180000000000007,
+        5.5660000000000025
+      ],
+      "missing_plane_under_trace_area_mm2": 0.0,
+      "missing_plane_in_0.10mm_side_margin_mm2": 0.0
+    },
+    {
+      "net": "DSI_D1_N",
+      "layer": "B.Cu",
+      "start": [
+        19.066274000000007,
+        10.839999000000006
+      ],
+      "end": [
+        28.933726000000007,
+        10.839999000000006
+      ],
+      "missing_plane_under_trace_area_mm2": 0.0,
+      "missing_plane_in_0.10mm_side_margin_mm2": 0.0
+    },
+    {
+      "net": "DSI_D1_P",
+      "layer": "B.Cu",
+      "start": [
+        18.933725999999993,
+        11.159999999999997
+      ],
+      "end": [
+        29.066273999999993,
+        11.159999999999997
+      ],
+      "missing_plane_under_trace_area_mm2": 0.0,
+      "missing_plane_in_0.10mm_side_margin_mm2": 0.0
+    },
+    {
+      "net": "DSI_D1_P",
+      "layer": "B.Cu",
+      "start": [
+        15.64,
+        7.866274000000004
+      ],
+      "end": [
+        18.933725999999993,
+        11.159999999999997
+      ],
+      "missing_plane_under_trace_area_mm2": 0.0,
+      "missing_plane_in_0.10mm_side_margin_mm2": 0.0
+    },
+    {
+      "net": "DSI_D1_P",
+      "layer": "B.Cu",
+      "start": [
+        29.066273999999993,
+        11.159999999999997
+      ],
+      "end": [
+        31.5,
+        8.726273000000006
+      ],
+      "missing_plane_under_trace_area_mm2": 0.0,
+      "missing_plane_in_0.10mm_side_margin_mm2": 0.0
+    },
+    {
+      "net": "DSI_D1_P",
+      "layer": "B.Cu",
+      "start": [
+        31.5,
+        8.726273000000006
+      ],
+      "end": [
+        31.5,
+        5.5660000000000025
+      ],
+      "missing_plane_under_trace_area_mm2": 0.0,
+      "missing_plane_in_0.10mm_side_margin_mm2": 0.0
+    }
+  ]
+}

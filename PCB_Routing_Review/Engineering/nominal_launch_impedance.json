@@ -1,0 +1,44 @@
+[
+  {
+    "width_mm": 0.17,
+    "gap_mm": 0.8,
+    "grid_mm": 0.0025,
+    "domain_mm": [
+      3.0,
+      0.7
+    ],
+    "Zdiff_ohm": 98.59013776238446,
+    "epsilon_eff": 2.9065689463931657,
+    "velocity_mm_per_ns": 175.8451474857009,
+    "Codd_F_per_m": 1.1536289178362883e-10,
+    "Codd_vacuum_F_per_m": 3.9690402640125065e-11
+  },
+  {
+    "width_mm": 0.18,
+    "gap_mm": 0.8,
+    "grid_mm": 0.0025,
+    "domain_mm": [
+      3.0,
+      0.7
+    ],
+    "Zdiff_ohm": 95.61444237797755,
+    "epsilon_eff": 2.924648665533876,
+    "velocity_mm_per_ns": 175.3007813300793,
+    "Codd_F_per_m": 1.193225833430985e-10,
+    "Codd_vacuum_F_per_m": 4.079894612617236e-11
+  },
+  {
+    "width_mm": 0.19,
+    "gap_mm": 0.8,
+    "grid_mm": 0.0025,
+    "domain_mm": [
+      3.0,
+      0.7
+    ],
+    "Zdiff_ohm": 92.82201468503527,
+    "epsilon_eff": 2.9419433223563867,
+    "velocity_mm_per_ns": 174.78475580874485,
+    "Codd_F_per_m": 1.232751254274467e-10,
+    "Codd_vacuum_F_per_m": 4.1902617392611065e-11
+  }
+]

@@ -1,0 +1,50 @@
+﻿Reference,Value,MPN,Footprint,Population,Source,Description,LibId
+C1,10uF / 16V,,Adapter_F469:C_0805_2012Metric,FIT,Backlight.kicad_sch,X7R; effective capacitance >=4.7uF at 5V; use verified DC-bias curve.,Adapter_F469:C
+C2,100nF / 16V,,Adapter_F469:C_0805_2012Metric,FIT,Backlight.kicad_sch,"X7R; C3 effective capacitance >=4.7uF at 30V, verify vendor DC-bias curve",Adapter_F469:C
+C3,10uF / 50V,,Adapter_F469:C_1210_3225Metric,FIT,Backlight.kicad_sch,"X7R; C3 effective capacitance >=4.7uF at 30V, verify vendor DC-bias curve",Adapter_F469:C
+C4,100nF / 50V,,Adapter_F469:C_0805_2012Metric,FIT,Backlight.kicad_sch,"X7R; C3 effective capacitance >=4.7uF at 30V, verify vendor DC-bias curve",Adapter_F469:C
+C5,4.7uF / 10V,,Adapter_F469:C_0805_2012Metric,FIT,STM32F469_DISEN_RevI.kicad_sch,X7R; place beside connector supply pins,Adapter_F469:C
+C6,100nF / 10V,,Adapter_F469:C_0805_2012Metric,FIT,STM32F469_DISEN_RevI.kicad_sch,X7R; place beside connector supply pins,Adapter_F469:C
+C7,1uF / 10V,,Adapter_F469:C_0805_2012Metric,FIT,STM32F469_DISEN_RevI.kicad_sch,X7R; place beside connector supply pins,Adapter_F469:C
+C8,100nF / 10V,,Adapter_F469:C_0805_2012Metric,FIT,STM32F469_DISEN_RevI.kicad_sch,X7R; place beside connector supply pins,Adapter_F469:C
+C9,220nF / 16V,,Adapter_F469:C_0805_2012Metric,FIT,Backlight.kicad_sch,"X7R; C3 effective capacitance >=4.7uF at 30V, verify vendor DC-bias curve",Adapter_F469:C
+C13,100nF / 10V,,Adapter_F469:C_0805_2012Metric,FIT,Backlight.kicad_sch,Place at U2.6/U2.2,Adapter_F469:C
+D1,SS16 / 60V 1A,SS16,Adapter_F469:D_SMA,FIT,Backlight.kicad_sch,Boost rectifier; cathode to LEDA,Adapter_F469:D
+D3,SS14 / reverse block,SS14,Adapter_F469:D_SMA,FIT,Backlight.kicad_sch,Input polarity / reverse-current isolation,Adapter_F469:D
+F2,0.75A hold / 6V,1206L075/6YR,Adapter_F469:Fuse_1206_3216Metric,FIT,Backlight.kicad_sch,Resettable fuse; derate hold current at temperature,Adapter_F469:F
+J1,FH26W-25S-0.3SHW(60),FH26W-25S-0.3SHW(60),Adapter_F469:FH26W-25S-0.3SHW,FIT,STM32F469_DISEN_RevI.kicad_sch,Cable must map CN10.n to J1.n. Pin 3 disables host boost via R117; R119 absent.,Adapter_F469:CN10_FPC25
+J2,FH26W-39S-0.3SHW(60),FH26W-39S-0.3SHW(60),Adapter_F469:FH26W-39S-0.3SHW,FIT,STM32F469_DISEN_RevI.kicad_sch,"DS070HSD39T-132 A0 pinout. FH26W contact face, FPC thickness and pin1 NEED physical verification before PCB.",Adapter_F469:DISEN_FPC39
+J3,FH19C-6S-0.5SH(10),FH19C-6S-0.5SH(10),Adapter_F469:FH19C-6S-0.5SH,FIT,STM32F469_DISEN_RevI.kicad_sch,"CN2.5 is PH7, shared with LCD reset; intentionally unused.",Adapter_F469:CN2_FPC6
+J4,EXT 5V / 1=GND 2=+5V,,Adapter_F469:PinHeader_1x02_P2.54mm_Vertical,FIT,Backlight.kicad_sch,"Regulated 5 V +/-5%, >=0.5 A. Observe polarity.",Adapter_F469:POWER_IN
+J5,CN12 1:1 / 2x08 socket,SSW-108-02-G-D,Adapter_F469:PinSocket_2x08_P2.54mm_Vertical,FIT,STM32F469_DISEN_RevI.kicad_sch,PC6: TIM3_CH1 AF2 PWM. PB12: independent touch reset GPIO. Pin numbering 1:1 to CN12.,Adapter_F469:CN12_2x8
+L1,22uH / shielded,SLF7045T-220M1R3-H,Adapter_F469:L_TDK_SLF7045,FIT,Backlight.kicad_sch,"Electrical reference: 22uH +/-20%, DCR 0.082ohm +/-20%, Isat 1.3A. Discontinued: source stock or qualify replacement.",Adapter_F469:L
+R1,4.7k / DNP,,Adapter_F469:R_0805_2012Metric,DNP,STM32F469_DISEN_RevI.kicad_sch,Host R140/R142 already supply I2C pull-ups; do not fit without rise-time review,Adapter_F469:R
+R2,4.7k / DNP,,Adapter_F469:R_0805_2012Metric,DNP,STM32F469_DISEN_RevI.kicad_sch,Host I2C pull-up present,Adapter_F469:R
+R3,100R,,Adapter_F469:R_0805_2012Metric,FIT,STM32F469_DISEN_RevI.kicad_sch,"Independent reset, PB12",Adapter_F469:R
+R4,0R,,Adapter_F469:R_0805_2012Metric,FIT,STM32F469_DISEN_RevI.kicad_sch,VCI 3.0-3.6 V; optional bead after validation,Adapter_F469:R
+R5,0R,,Adapter_F469:R_0805_2012Metric,FIT,STM32F469_DISEN_RevI.kicad_sch,Touch supply from CN2.1; verify guaranteed VDD min/max and measured current.,Adapter_F469:R
+R6,100k,,Adapter_F469:R_0805_2012Metric,FIT,Backlight.kicad_sch,Backlight defaults OFF while MCU GPIO is high impedance,Adapter_F469:R
+R7,5.23R / 1%,,Adapter_F469:R_0805_2012Metric,FIT,Backlight.kicad_sch,38.24mA nominal; 39.4mA max from 204mV and -1% R. Specify TCR <=50ppm/C.,Adapter_F469:R
+R12,0R / isolation,,Adapter_F469:R_0805_2012Metric,FIT,Backlight.kicad_sch,0 ohm supply link. FIT for Rev I; allows open-circuit isolation during testing.,Adapter_F469:R
+R13,2.2k,,Adapter_F469:R_0805_2012Metric,FIT,Backlight.kicad_sch,"Limits comparator sink current; PC6 20kHz PWM, keep low through power-up",Adapter_F469:R
+R14,10k,,Adapter_F469:R_0805_2012Metric,FIT,STM32F469_DISEN_RevI.kicad_sch,Pull-up in touch domain,Adapter_F469:R
+R15,100R,,Adapter_F469:R_0805_2012Metric,FIT,STM32F469_DISEN_RevI.kicad_sch,PH7 open-drain reset,Adapter_F469:R
+R16,0R,,Adapter_F469:R_0805_2012Metric,FIT,STM32F469_DISEN_RevI.kicad_sch,Disconnect if TE unused; PJ2 is DSI_TE,Adapter_F469:R
+R17,10k,,Adapter_F469:R_0805_2012Metric,FIT,STM32F469_DISEN_RevI.kicad_sch,Required pull-up for PH7 open-drain,Adapter_F469:R
+R18,33k / discharge,,Adapter_F469:R_0805_2012Metric,FIT,Backlight.kicad_sch,27.3mW at 30V; 0.33s nominal RC with 10uF. Not zero volts while input powered.,Adapter_F469:R
+R19,221k / 0.1%,,Adapter_F469:R_0805_2012Metric,FIT,Backlight.kicad_sch,OVP upper divider,Adapter_F469:R
+R20,10k / 0.1%,,Adapter_F469:R_0805_2012Metric,FIT,Backlight.kicad_sch,OVP lower divider,Adapter_F469:R
+TP1,HOST_3V3,,Adapter_F469:TestPoint_Pad_D1.0mm,FIT,STM32F469_DISEN_RevI.kicad_sch,,Adapter_F469:TP
+TP3,GND,,Adapter_F469:TestPoint_Pad_D1.0mm,FIT,STM32F469_DISEN_RevI.kicad_sch,,Adapter_F469:TP
+TP4,LCD_RST,,Adapter_F469:TestPoint_Pad_D1.0mm,FIT,STM32F469_DISEN_RevI.kicad_sch,,Adapter_F469:TP
+TP5,TP_INT,,Adapter_F469:TestPoint_Pad_D1.0mm,FIT,STM32F469_DISEN_RevI.kicad_sch,,Adapter_F469:TP
+TP6,BL_CTRL,,Adapter_F469:TestPoint_Pad_D1.0mm,FIT,Backlight.kicad_sch,,Adapter_F469:TP
+TP9,BL_POWER,,Adapter_F469:TestPoint_Pad_D1.0mm,FIT,Backlight.kicad_sch,,Adapter_F469:TP
+TP10,TP_RST,,Adapter_F469:TestPoint_Pad_D1.0mm,FIT,STM32F469_DISEN_RevI.kicad_sch,,Adapter_F469:TP
+TP11,LCD_VCI,,Adapter_F469:TestPoint_Pad_D1.0mm,FIT,STM32F469_DISEN_RevI.kicad_sch,,Adapter_F469:TP
+TP12,TP_VDD,,Adapter_F469:TestPoint_Pad_D1.0mm,FIT,STM32F469_DISEN_RevI.kicad_sch,,Adapter_F469:TP
+TP13,BL_LEDA,,Adapter_F469:TestPoint_Pad_D1.0mm,FIT,Backlight.kicad_sch,,Adapter_F469:TP
+TP14,BL_LEDK,,Adapter_F469:TestPoint_Pad_D1.0mm,FIT,Backlight.kicad_sch,,Adapter_F469:TP
+TP15,GND,,Adapter_F469:TestPoint_Pad_D1.0mm,FIT,Backlight.kicad_sch,,Adapter_F469:TP
+U1,TPS61165DBVR,TPS61165DBVR,Adapter_F469:SOT-23-6,FIT,Backlight.kicad_sch,SOT23-6 pinout verified from TI. LEDK to FB; never direct GND.,Adapter_F469:TPS61165
+U2,TLV3011BIDBVR,TLV3011BIDBVR,Adapter_F469:SOT-23-6,FIT,Backlight.kicad_sch,Open-drain comparator; pulls TPS61165 CTRL low when over-voltage threshold is exceeded. Does not hard-clamp output; scope validation required.,Adapter_F469:TLV3011B

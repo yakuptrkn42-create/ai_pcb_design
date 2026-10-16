@@ -1,25 +1,23 @@
-# STM32F469 / DISEN — PCB Yerleşimi P1
+# STM32F469 / DISEN — Rev I · Routing R1
 
-**46 × 40 mm, 4 katmanlı, bağımsız kablolu adaptörün komponent yerleşimi incelemeye hazır. Routing henüz yapılmadı.**
+**Routing tamamlandı: 0 DRC ihlali, 0 açık bağlantı, 0 şematik eşleşme sorunu, 0 ERC ihlali.** Onaylanan şematik ve komponent yerleşimi korunmuştur.
 
-- [Yerleşim incelemesi ve üst/alt/3D görünümler — PDF](PCB_Placement_Review/Placement_Review.pdf)
-- [Tam KiCad PCB proje paketi — ZIP](STM32F469_RevI_Placement_Review.zip)
-- [Düzenlenebilir proje klasörü](PCB_Placement_Review/Project/)
-- [Mühendislik değerlendirmesi ve doğrulama sınırları](PCB_Placement_Review/README_TR.md)
-- [DRC ve bağlantı denetimi](PCB_Placement_Review/Verification/placement_audit.json)
+- [Tüm native proje, görseller ve üretim çıktıları — ZIP](STM32F469_RevI_Routed_Review.zip)
+- [Kısa routing inceleme raporu — PDF](PCB_Routing_Review/Routing_Review_TR.pdf)
+- [Düzenlenebilir KiCad PCB projesi](PCB_Routing_Review/Project/)
+- [Katmanlar, kurallar ve mühendislik değerlendirmesi](PCB_Routing_Review/Engineering/ENGINEERING_REVIEW_TR.md)
+- [DRC sonucu](PCB_Routing_Review/Verification/DRC.txt) · [Gerber/drill denetimi](PCB_Routing_Review/Verification/manufacturing_audit.json)
 
-![KiCad PCB 3D görünümü](PCB_Placement_Review/Views/03_PCB_3D_Isometric.png)
+![Route edilmiş PCB 3D görünümü](PCB_Routing_Review/Views/03_PCB_3D_Isometric.png)
 
-ZIP'i çıkarıp `PCB_Placement_Review/Project/STM32F469_DISEN_RevI.kicad_pro` dosyasını **KiCad 9** ile açın. İndirmek için dosya sayfasındaki **Download raw file** simgesini veya **Code → Download ZIP** yolunu kullanın.
+46 × 40 mm, dört bakır katman, nominal 1,6 mm; iki iç GND referansı. 49 devre footprint’i + dört NPTH montaj deliği. ZIP’i tamamen çıkarıp `PCB_Routing_Review/Project/STM32F469_DISEN_RevI.kicad_pro` dosyasını KiCad 9 ile açın. Dosya sayfasındaki **Download raw file** simgesi ZIP’i indirir; **Code → Download ZIP** tüm depoyu indirir.
 
-49 devre footprint'i, 4 mekanik delik, 57 net ve 172 pin/net üyeliği korunmuştur. Yerleşim DRC'si 0 ihlal, schematic parity 0 sorun; **115 açık bağlantı**, routing yapılmadığı için beklenir. İz/via/zone sayıları 0'dır. Kullanıcı onayından önce routing aşamasına geçilmedi.
+Bu teslim üretim öncesi mühendislik incelemesidir. Üretici stackup’ı/empedans toleransı ve FPC–flex mekanik eşleşmesi henüz onaylı değildir. Empedans hesabı nominaldir. FPC ve L1 3D gövdeleri nominal hacimlerdir. Açık bilgiler ve hesap sınırları raporda belirtilmiştir.
 
-FPC kontakt/aktüatör ve gerçek flex eşleşmesi üretici çizimleri/fiziksel parça ile teyit bekler. FPC ve L1 3D gövdeleri nominal hacim modelleridir; üretici STEP'i değildir. Ayrıntılar değerlendirme raporundadır.
+## Korunan önceki teslimler
 
-## Onaylı şematik — Rev I / Layout 1
-
-- [Düzenlenmiş şematik PDF](STM32F469_RevI_Professional.pdf)
-- [Şematik KiCad ZIP paketi](STM32F469_RevI_Professional_KiCad.zip)
+- [Onaylanan komponent yerleşimi P1](PCB_Placement_Review/Placement_Review.pdf) · [Yerleşim arşivi](STM32F469_RevI_Placement_Review.zip)
+- [Onaylanan şematik PDF](STM32F469_RevI_Professional.pdf) · [Şematik KiCad arşivi](STM32F469_RevI_Professional_KiCad.zip)
 - [Şematik kaynak projesi](STM32F469_DISEN_RevI_Layout/)
 
-Onaylı şematik projesi ayrı korunmuştur; PCB projesindeki şematikler aynı dosyaların birebir kopyalarıdır.
+Önceki teslimler değiştirilmedi. Routing projesindeki şematikler onaylanan şematik dosyalarının birebir kopyalarıdır.
