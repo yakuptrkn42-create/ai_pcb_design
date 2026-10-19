@@ -1,0 +1,40 @@
+J2_pin,A_datasheet_p7,B_drawing_A01,RevK_net,Check,Electrical_release
+1,LEDA,LEDA,BL_LEDA,PIN ASSIGNMENT MATCH,Pin assignment matches
+2,LEDA,LEDA,BL_LEDA,PIN ASSIGNMENT MATCH,Pin assignment matches
+3,LEDK,LEDK,BL_LEDK,PIN ASSIGNMENT MATCH,Pin assignment matches
+4,LEDK,LEDK,BL_LEDK,PIN ASSIGNMENT MATCH,Pin assignment matches
+5,NC,NC,unconnected-(J2-NC-Pad5),PIN ASSIGNMENT MATCH,Pin assignment matches
+6,NC,NC,unconnected-(J2-NC-Pad6),PIN ASSIGNMENT MATCH,Pin assignment matches
+7,VCI,VCI,LCD_VCI,PIN ASSIGNMENT MATCH,B VOLTAGE/PURPOSE UNVERIFIED
+8,VCI,VCI,LCD_VCI,PIN ASSIGNMENT MATCH,B VOLTAGE/PURPOSE UNVERIFIED
+9,VCI,VCI,LCD_VCI,PIN ASSIGNMENT MATCH,B VOLTAGE/PURPOSE UNVERIFIED
+10,VCI,VCI,LCD_VCI,PIN ASSIGNMENT MATCH,B VOLTAGE/PURPOSE UNVERIFIED
+11,GND,GND,GND,PIN ASSIGNMENT MATCH,Pin assignment matches
+12,RESET,RESET,LCD_RST,PIN ASSIGNMENT MATCH,DC/timing ratings still require B electrical datasheet
+13,TE,TE,LCD_TE,PIN ASSIGNMENT MATCH,DC/timing ratings still require B electrical datasheet
+14,GND,GND,GND,PIN ASSIGNMENT MATCH,Pin assignment matches
+15,GND,GND,GND,PIN ASSIGNMENT MATCH,Pin assignment matches
+16,D0P,D0P,DSI_D0_P,PIN ASSIGNMENT MATCH,DC/timing ratings still require B electrical datasheet
+17,D0N,D0N,DSI_D0_N,PIN ASSIGNMENT MATCH,DC/timing ratings still require B electrical datasheet
+18,GND,GND,GND,PIN ASSIGNMENT MATCH,Pin assignment matches
+19,GND,GND,GND,PIN ASSIGNMENT MATCH,Pin assignment matches
+20,D1P,D1P,DSI_D1_P,PIN ASSIGNMENT MATCH,DC/timing ratings still require B electrical datasheet
+21,D1N,D1N,DSI_D1_N,PIN ASSIGNMENT MATCH,DC/timing ratings still require B electrical datasheet
+22,GND,GND,GND,PIN ASSIGNMENT MATCH,Pin assignment matches
+23,GND,GND,GND,PIN ASSIGNMENT MATCH,Pin assignment matches
+24,CKP,CKP,DSI_CLK_P,PIN ASSIGNMENT MATCH,DC/timing ratings still require B electrical datasheet
+25,CKN,CKN,DSI_CLK_N,PIN ASSIGNMENT MATCH,DC/timing ratings still require B electrical datasheet
+26,GND,GND,GND,PIN ASSIGNMENT MATCH,Pin assignment matches
+27,GND,GND,GND,PIN ASSIGNMENT MATCH,Pin assignment matches
+28,GND,GND,GND,PIN ASSIGNMENT MATCH,Pin assignment matches
+29,GND,GND,GND,PIN ASSIGNMENT MATCH,Pin assignment matches
+30,VDD(TP),VDD,PANEL_VDD_30_31,PIN ASSIGNMENT MATCH,B VOLTAGE/PURPOSE UNVERIFIED
+31,VDD(TP),VDD,PANEL_VDD_30_31,PIN ASSIGNMENT MATCH,B VOLTAGE/PURPOSE UNVERIFIED
+32,SCL,SCL,TP_SCL,PIN ASSIGNMENT MATCH,DC/timing ratings still require B electrical datasheet
+33,SDA,SDA,TP_SDA,PIN ASSIGNMENT MATCH,DC/timing ratings still require B electrical datasheet
+34,RST-TP,RST-TP,TP_RST,PIN ASSIGNMENT MATCH,DC/timing ratings still require B electrical datasheet
+35,INT-TP,INT-TP,TP_INT,PIN ASSIGNMENT MATCH,DC/timing ratings still require B electrical datasheet
+36,GND,GND,GND,PIN ASSIGNMENT MATCH,Pin assignment matches
+37,GND,GND,GND,PIN ASSIGNMENT MATCH,Pin assignment matches
+38,NC,NC,unconnected-(J2-NC-Pad38),PIN ASSIGNMENT MATCH,Pin assignment matches
+39,NC,NC,unconnected-(J2-NC-Pad39),PIN ASSIGNMENT MATCH,Pin assignment matches

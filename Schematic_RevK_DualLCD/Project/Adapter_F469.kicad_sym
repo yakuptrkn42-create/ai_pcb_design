@@ -1,0 +1,2618 @@
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(symbol "R"
+		(pin_names
+			(offset .75)
+			(hide yes))
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 0 5 0)
+			(effects
+				(font
+					(size 1.1 1.1))))
+		(property "Value" "R"
+			(at 0 3 0)
+			(effects
+				(font
+					(size 1.1 1.1))))
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(symbol "R_0_1"
+			(rectangle
+				(start -2.54 -0.8)
+				(end 2.54 0.8)
+				(stroke
+					(width .254)
+					(type default))
+				(fill
+					(type background))))
+		(symbol "R_1_1"
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1 1))))
+				(number "1"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1 1))))
+				(number "2"
+					(effects
+						(font
+							(size 1 1)))))))
+	(symbol "C"
+		(pin_names
+			(offset .75)
+			(hide yes))
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0 5 0)
+			(effects
+				(font
+					(size 1.1 1.1))))
+		(property "Value" "C"
+			(at 0 3 0)
+			(effects
+				(font
+					(size 1.1 1.1))))
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(symbol "C_0_1"
+			(polyline
+				(pts
+					(xy -0.6 -2)
+					(xy -0.6 2))
+				(stroke
+					(width 0.254)
+					(type default))
+				(fill
+					(type none)))
+			(polyline
+				(pts
+					(xy 0.6 -2)
+					(xy 0.6 2))
+				(stroke
+					(width 0.254)
+					(type default))
+				(fill
+					(type none)))
+			(polyline
+				(pts
+					(xy -2.54 0)
+					(xy -0.6 0))
+				(stroke
+					(width 0.254)
+					(type default))
+				(fill
+					(type none)))
+			(polyline
+				(pts
+					(xy 0.6 0)
+					(xy 2.54 0))
+				(stroke
+					(width 0.254)
+					(type default))
+				(fill
+					(type none))))
+		(symbol "C_1_1"
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1 1))))
+				(number "1"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1 1))))
+				(number "2"
+					(effects
+						(font
+							(size 1 1)))))))
+	(symbol "L"
+		(pin_names
+			(offset .75)
+			(hide yes))
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "L"
+			(at 0 5 0)
+			(effects
+				(font
+					(size 1.1 1.1))))
+		(property "Value" "L"
+			(at 0 3 0)
+			(effects
+				(font
+					(size 1.1 1.1))))
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(symbol "L_0_1"
+			(arc
+				(start -2.54 0)
+				(mid -1.905 .635)
+				(end -1.27 0)
+				(stroke
+					(width .254)
+					(type default))
+				(fill
+					(type none)))
+			(arc
+				(start -1.27 0)
+				(mid -0.635 .635)
+				(end 0.0 0)
+				(stroke
+					(width .254)
+					(type default))
+				(fill
+					(type none)))
+			(arc
+				(start 0.0 0)
+				(mid 0.635 .635)
+				(end 1.27 0)
+				(stroke
+					(width .254)
+					(type default))
+				(fill
+					(type none)))
+			(arc
+				(start 1.27 0)
+				(mid 1.905 .635)
+				(end 2.54 0)
+				(stroke
+					(width .254)
+					(type default))
+				(fill
+					(type none))))
+		(symbol "L_1_1"
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1 1))))
+				(number "1"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1 1))))
+				(number "2"
+					(effects
+						(font
+							(size 1 1)))))))
+	(symbol "F"
+		(pin_names
+			(offset .75)
+			(hide yes))
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "F"
+			(at 0 5 0)
+			(effects
+				(font
+					(size 1.1 1.1))))
+		(property "Value" "F"
+			(at 0 3 0)
+			(effects
+				(font
+					(size 1.1 1.1))))
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(symbol "F_0_1"
+			(rectangle
+				(start -2.54 -1)
+				(end 2.54 1)
+				(stroke
+					(width .254)
+					(type default))
+				(fill
+					(type background)))
+			(polyline
+				(pts
+					(xy -2.54 0)
+					(xy 2.54 0))
+				(stroke
+					(width 0.254)
+					(type default))
+				(fill
+					(type none))))
+		(symbol "F_1_1"
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1 1))))
+				(number "1"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1 1))))
+				(number "2"
+					(effects
+						(font
+							(size 1 1)))))))
+	(symbol "D"
+		(pin_names
+			(offset .75)
+			(hide yes))
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 0 5 0)
+			(effects
+				(font
+					(size 1.1 1.1))))
+		(property "Value" "D"
+			(at 0 3 0)
+			(effects
+				(font
+					(size 1.1 1.1))))
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(symbol "D_0_1"
+			(polyline
+				(pts
+					(xy -1.27 -1.5)
+					(xy 1.27 0)
+					(xy -1.27 1.5)
+					(xy -1.27 -1.5))
+				(stroke
+					(width 0.254)
+					(type default))
+				(fill
+					(type none)))
+			(polyline
+				(pts
+					(xy 1.27 -1.5)
+					(xy 1.27 1.5))
+				(stroke
+					(width 0.254)
+					(type default))
+				(fill
+					(type none)))
+			(polyline
+				(pts
+					(xy -2.54 0)
+					(xy -1.27 0))
+				(stroke
+					(width 0.254)
+					(type default))
+				(fill
+					(type none)))
+			(polyline
+				(pts
+					(xy 1.27 0)
+					(xy 2.54 0))
+				(stroke
+					(width 0.254)
+					(type default))
+				(fill
+					(type none))))
+		(symbol "D_1_1"
+			(pin passive line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1 1))))
+				(number "2"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 5.08 0 180)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1 1))))
+				(number "1"
+					(effects
+						(font
+							(size 1 1)))))))
+	(symbol "TP"
+		(pin_names
+			(offset .75)
+			(hide yes))
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "TP"
+			(at 0 5 0)
+			(effects
+				(font
+					(size 1.1 1.1))))
+		(property "Value" "TP"
+			(at 0 3 0)
+			(effects
+				(font
+					(size 1.1 1.1))))
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(symbol "TP_0_1"
+			(circle
+				(center 0 0)
+				(radius 1)
+				(stroke
+					(width .254)
+					(type default))
+				(fill
+					(type none))))
+		(symbol "TP_1_1"
+			(pin passive line
+				(at -2.54 0 0)
+				(length 2.54)
+				(name "~"
+					(effects
+						(font
+							(size 1 1))))
+				(number "1"
+					(effects
+						(font
+							(size 1 1)))))))
+	(symbol "PWR_FLAG"
+		(pin_names
+			(offset .75)
+			(hide yes))
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#FLG"
+			(at 0 5 0)
+			(effects
+				(font
+					(size 1.1 1.1))))
+		(property "Value" "PWR_FLAG"
+			(at 0 3 0)
+			(effects
+				(font
+					(size 1.1 1.1))))
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(symbol "PWR_FLAG_0_1"
+			(polyline
+				(pts
+					(xy 0 0)
+					(xy -1.27 1.27)
+					(xy 1.27 1.27)
+					(xy 0 0))
+				(stroke
+					(width 0.254)
+					(type default))
+				(fill
+					(type none))))
+		(symbol "PWR_FLAG_1_1"
+			(pin power_out line
+				(at 0 0 90)
+				(length 0)
+				(name "pwr"
+					(effects
+						(font
+							(size 1 1))))
+				(number "1"
+					(effects
+						(font
+							(size 1 1)))))))
+	(symbol "TPS61165"
+		(pin_names
+			(offset .75))
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 5 0)
+			(effects
+				(font
+					(size 1.1 1.1))))
+		(property "Value" "TPS61165"
+			(at 0 3 0)
+			(effects
+				(font
+					(size 1.1 1.1))))
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(symbol "TPS61165_0_1"
+			(rectangle
+				(start -10.16 8.89)
+				(end 10.16 -8.89)
+				(stroke
+					(width .254)
+					(type default))
+				(fill
+					(type background))))
+		(symbol "TPS61165_1_1"
+			(pin power_in line
+				(at -12.7 5.08 0)
+				(length 2.54)
+				(name "VIN"
+					(effects
+						(font
+							(size 1 1))))
+				(number "1"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin input line
+				(at -12.7 0 0)
+				(length 2.54)
+				(name "CTRL"
+					(effects
+						(font
+							(size 1 1))))
+				(number "2"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at -12.7 -5.08 0)
+				(length 2.54)
+				(name "COMP"
+					(effects
+						(font
+							(size 1 1))))
+				(number "5"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 12.7 5.08 180)
+				(length 2.54)
+				(name "SW"
+					(effects
+						(font
+							(size 1 1))))
+				(number "3"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin input line
+				(at 12.7 -5.08 180)
+				(length 2.54)
+				(name "FB"
+					(effects
+						(font
+							(size 1 1))))
+				(number "6"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin power_in line
+				(at 0 -11.43 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1))))
+				(number "4"
+					(effects
+						(font
+							(size 1 1)))))))
+	(symbol "TLV3011B"
+		(pin_names
+			(offset .75))
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0 5 0)
+			(effects
+				(font
+					(size 1.1 1.1))))
+		(property "Value" "TLV3011B"
+			(at 0 3 0)
+			(effects
+				(font
+					(size 1.1 1.1))))
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(symbol "TLV3011B_0_1"
+			(rectangle
+				(start -10.16 8.89)
+				(end 10.16 -8.89)
+				(stroke
+					(width .254)
+					(type default))
+				(fill
+					(type background))))
+		(symbol "TLV3011B_1_1"
+			(pin input line
+				(at -12.7 5.08 0)
+				(length 2.54)
+				(name "IN+"
+					(effects
+						(font
+							(size 1 1))))
+				(number "3"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin input line
+				(at -12.7 -5.08 0)
+				(length 2.54)
+				(name "IN-"
+					(effects
+						(font
+							(size 1 1))))
+				(number "4"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin output line
+				(at 12.7 5.08 180)
+				(length 2.54)
+				(name "REF"
+					(effects
+						(font
+							(size 1 1))))
+				(number "5"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin open_collector line
+				(at 12.7 -5.08 180)
+				(length 2.54)
+				(name "OUT_OD"
+					(effects
+						(font
+							(size 1 1))))
+				(number "1"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin power_in line
+				(at 0 11.43 270)
+				(length 2.54)
+				(name "V+"
+					(effects
+						(font
+							(size 1 1))))
+				(number "6"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin power_in line
+				(at 0 -11.43 90)
+				(length 2.54)
+				(name "V-"
+					(effects
+						(font
+							(size 1 1))))
+				(number "2"
+					(effects
+						(font
+							(size 1 1)))))))
+	(symbol "CN10_FPC25"
+		(pin_names
+			(offset .75))
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 5 0)
+			(effects
+				(font
+					(size 1.1 1.1))))
+		(property "Value" "CN10_FPC25"
+			(at 0 3 0)
+			(effects
+				(font
+					(size 1.1 1.1))))
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(symbol "CN10_FPC25_0_1"
+			(rectangle
+				(start -15.24 2.54)
+				(end 15.24 -93.98)
+				(stroke
+					(width .254)
+					(type default))
+				(fill
+					(type background))))
+		(symbol "CN10_FPC25_1_1"
+			(pin passive line
+				(at 17.78 0.0 180)
+				(length 2.54)
+				(name "ID_NC"
+					(effects
+						(font
+							(size 1 1))))
+				(number "1"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 17.78 -3.81 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1))))
+				(number "2"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 17.78 -7.62 180)
+				(length 2.54)
+				(name "CABC_DISABLE"
+					(effects
+						(font
+							(size 1 1))))
+				(number "3"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 17.78 -11.43 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1))))
+				(number "4"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 17.78 -15.24 180)
+				(length 2.54)
+				(name "PH7_LCD_RST"
+					(effects
+						(font
+							(size 1 1))))
+				(number "5"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 17.78 -19.05 180)
+				(length 2.54)
+				(name "3V3"
+					(effects
+						(font
+							(size 1 1))))
+				(number "6"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 17.78 -22.86 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1))))
+				(number "7"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 17.78 -26.67 180)
+				(length 2.54)
+				(name "DSI_D0_N"
+					(effects
+						(font
+							(size 1 1))))
+				(number "8"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 17.78 -30.48 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1 1))))
+				(number "9"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 17.78 -34.29 180)
+				(length 2.54)
+				(name "DSI_D0_P"
+					(effects
+						(font
+							(size 1 1))))
+				(number "10"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 17.78 -38.1 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1))))
+				(number "11"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 17.78 -41.910000000000004 180)
+				(length 2.54)
+				(name "DSI_CLK_N"
+					(effects
+						(font
+							(size 1 1))))
+				(number "12"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 17.78 -45.72 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1 1))))
+				(number "13"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 17.78 -49.53 180)
+				(length 2.54)
+				(name "DSI_CLK_P"
+					(effects
+						(font
+							(size 1 1))))
+				(number "14"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 17.78 -53.34 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1))))
+				(number "15"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 17.78 -57.15 180)
+				(length 2.54)
+				(name "DSI_D1_N"
+					(effects
+						(font
+							(size 1 1))))
+				(number "16"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 17.78 -60.96 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1 1))))
+				(number "17"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 17.78 -64.77 180)
+				(length 2.54)
+				(name "DSI_D1_P"
+					(effects
+						(font
+							(size 1 1))))
+				(number "18"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 17.78 -68.58 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1))))
+				(number "19"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 17.78 -72.39 180)
+				(length 2.54)
+				(name "NC_ERR"
+					(effects
+						(font
+							(size 1 1))))
+				(number "20"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 17.78 -76.2 180)
+				(length 2.54)
+				(name "3V3"
+					(effects
+						(font
+							(size 1 1))))
+				(number "21"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 17.78 -80.01 180)
+				(length 2.54)
+				(name "PJ2_TE"
+					(effects
+						(font
+							(size 1 1))))
+				(number "22"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 17.78 -83.82000000000001 180)
+				(length 2.54)
+				(name "HOST_LED_K_NC"
+					(effects
+						(font
+							(size 1 1))))
+				(number "23"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 17.78 -87.63 180)
+				(length 2.54)
+				(name "HOST_LED_A_NC"
+					(effects
+						(font
+							(size 1 1))))
+				(number "24"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 17.78 -91.44 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1))))
+				(number "25"
+					(effects
+						(font
+							(size 1 1)))))))
+	(symbol "CN2_FPC6"
+		(pin_names
+			(offset .75))
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 5 0)
+			(effects
+				(font
+					(size 1.1 1.1))))
+		(property "Value" "CN2_FPC6"
+			(at 0 3 0)
+			(effects
+				(font
+					(size 1.1 1.1))))
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(symbol "CN2_FPC6_0_1"
+			(rectangle
+				(start -15.24 2.54)
+				(end 15.24 -21.59)
+				(stroke
+					(width .254)
+					(type default))
+				(fill
+					(type background))))
+		(symbol "CN2_FPC6_1_1"
+			(pin passive line
+				(at 17.78 0.0 180)
+				(length 2.54)
+				(name "HOST_TP_3V3"
+					(effects
+						(font
+							(size 1 1))))
+				(number "1"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 17.78 -3.81 180)
+				(length 2.54)
+				(name "PJ5_INT"
+					(effects
+						(font
+							(size 1 1))))
+				(number "2"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 17.78 -7.62 180)
+				(length 2.54)
+				(name "PB8_I2C1_SCL"
+					(effects
+						(font
+							(size 1 1))))
+				(number "3"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 17.78 -11.43 180)
+				(length 2.54)
+				(name "PB9_I2C1_SDA"
+					(effects
+						(font
+							(size 1 1))))
+				(number "4"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 17.78 -15.24 180)
+				(length 2.54)
+				(name "PH7_RESET_NC"
+					(effects
+						(font
+							(size 1 1))))
+				(number "5"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 17.78 -19.05 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1))))
+				(number "6"
+					(effects
+						(font
+							(size 1 1)))))))
+	(symbol "CN12_2x8"
+		(pin_names
+			(offset .75))
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 5 0)
+			(effects
+				(font
+					(size 1.1 1.1))))
+		(property "Value" "CN12_2x8"
+			(at 0 3 0)
+			(effects
+				(font
+					(size 1.1 1.1))))
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(symbol "CN12_2x8_0_1"
+			(rectangle
+				(start -15.24 2.54)
+				(end 15.24 -59.69)
+				(stroke
+					(width .254)
+					(type default))
+				(fill
+					(type background))))
+		(symbol "CN12_2x8_1_1"
+			(pin passive line
+				(at 17.78 0.0 180)
+				(length 2.54)
+				(name "3V3_NC"
+					(effects
+						(font
+							(size 1 1))))
+				(number "1"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 17.78 -3.81 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1))))
+				(number "2"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 17.78 -7.62 180)
+				(length 2.54)
+				(name "PA8_NC"
+					(effects
+						(font
+							(size 1 1))))
+				(number "3"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 17.78 -11.43 180)
+				(length 2.54)
+				(name "NRST_NC"
+					(effects
+						(font
+							(size 1 1))))
+				(number "4"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 17.78 -15.24 180)
+				(length 2.54)
+				(name "PB4_NC"
+					(effects
+						(font
+							(size 1 1))))
+				(number "5"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 17.78 -19.05 180)
+				(length 2.54)
+				(name "PC6_PWM"
+					(effects
+						(font
+							(size 1 1))))
+				(number "6"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 17.78 -22.86 180)
+				(length 2.54)
+				(name "PA5_NC"
+					(effects
+						(font
+							(size 1 1))))
+				(number "7"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 17.78 -26.67 180)
+				(length 2.54)
+				(name "PC7_NC"
+					(effects
+						(font
+							(size 1 1))))
+				(number "8"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 17.78 -30.48 180)
+				(length 2.54)
+				(name "PB5_NC"
+					(effects
+						(font
+							(size 1 1))))
+				(number "9"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 17.78 -34.29 180)
+				(length 2.54)
+				(name "PB13_NC"
+					(effects
+						(font
+							(size 1 1))))
+				(number "10"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 17.78 -38.1 180)
+				(length 2.54)
+				(name "PA15_NC"
+					(effects
+						(font
+							(size 1 1))))
+				(number "11"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 17.78 -41.910000000000004 180)
+				(length 2.54)
+				(name "PB12_TP_RST"
+					(effects
+						(font
+							(size 1 1))))
+				(number "12"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 17.78 -45.72 180)
+				(length 2.54)
+				(name "PC13_NC"
+					(effects
+						(font
+							(size 1 1))))
+				(number "13"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 17.78 -49.53 180)
+				(length 2.54)
+				(name "PC1_NC"
+					(effects
+						(font
+							(size 1 1))))
+				(number "14"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 17.78 -53.34 180)
+				(length 2.54)
+				(name "AUDIO_NC"
+					(effects
+						(font
+							(size 1 1))))
+				(number "15"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 17.78 -57.15 180)
+				(length 2.54)
+				(name "AUDIO_NC"
+					(effects
+						(font
+							(size 1 1))))
+				(number "16"
+					(effects
+						(font
+							(size 1 1)))))))
+	(symbol "DISEN_FPC39"
+		(pin_names
+			(offset .75))
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 5 0)
+			(effects
+				(font
+					(size 1.1 1.1))))
+		(property "Value" "DISEN_FPC39"
+			(at 0 3 0)
+			(effects
+				(font
+					(size 1.1 1.1))))
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(symbol "DISEN_FPC39_0_1"
+			(rectangle
+				(start -11.43 2.54)
+				(end 11.43 -147.32)
+				(stroke
+					(width .254)
+					(type default))
+				(fill
+					(type background))))
+		(symbol "DISEN_FPC39_1_1"
+			(pin passive line
+				(at -13.969999999999999 0.0 0)
+				(length 2.54)
+				(name "LEDA"
+					(effects
+						(font
+							(size 1 1))))
+				(number "1"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at -13.969999999999999 -3.81 0)
+				(length 2.54)
+				(name "LEDA"
+					(effects
+						(font
+							(size 1 1))))
+				(number "2"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at -13.969999999999999 -7.62 0)
+				(length 2.54)
+				(name "LEDK"
+					(effects
+						(font
+							(size 1 1))))
+				(number "3"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at -13.969999999999999 -11.43 0)
+				(length 2.54)
+				(name "LEDK"
+					(effects
+						(font
+							(size 1 1))))
+				(number "4"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at -13.969999999999999 -15.24 0)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1 1))))
+				(number "5"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at -13.969999999999999 -19.05 0)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1 1))))
+				(number "6"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at -13.969999999999999 -22.86 0)
+				(length 2.54)
+				(name "VCI"
+					(effects
+						(font
+							(size 1 1))))
+				(number "7"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at -13.969999999999999 -26.67 0)
+				(length 2.54)
+				(name "VCI"
+					(effects
+						(font
+							(size 1 1))))
+				(number "8"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at -13.969999999999999 -30.48 0)
+				(length 2.54)
+				(name "VCI"
+					(effects
+						(font
+							(size 1 1))))
+				(number "9"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at -13.969999999999999 -34.29 0)
+				(length 2.54)
+				(name "VCI"
+					(effects
+						(font
+							(size 1 1))))
+				(number "10"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at -13.969999999999999 -38.1 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1))))
+				(number "11"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at -13.969999999999999 -41.910000000000004 0)
+				(length 2.54)
+				(name "RESET"
+					(effects
+						(font
+							(size 1 1))))
+				(number "12"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at -13.969999999999999 -45.72 0)
+				(length 2.54)
+				(name "TE"
+					(effects
+						(font
+							(size 1 1))))
+				(number "13"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at -13.969999999999999 -49.53 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1))))
+				(number "14"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at -13.969999999999999 -53.34 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1))))
+				(number "15"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at -13.969999999999999 -57.15 0)
+				(length 2.54)
+				(name "D0P"
+					(effects
+						(font
+							(size 1 1))))
+				(number "16"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at -13.969999999999999 -60.96 0)
+				(length 2.54)
+				(name "D0N"
+					(effects
+						(font
+							(size 1 1))))
+				(number "17"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at -13.969999999999999 -64.77 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1))))
+				(number "18"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at -13.969999999999999 -68.58 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1))))
+				(number "19"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at -13.969999999999999 -72.39 0)
+				(length 2.54)
+				(name "D1P"
+					(effects
+						(font
+							(size 1 1))))
+				(number "20"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at -13.969999999999999 -76.2 0)
+				(length 2.54)
+				(name "D1N"
+					(effects
+						(font
+							(size 1 1))))
+				(number "21"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at -13.969999999999999 -80.01 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1))))
+				(number "22"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at -13.969999999999999 -83.82000000000001 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1))))
+				(number "23"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at -13.969999999999999 -87.63 0)
+				(length 2.54)
+				(name "CKP"
+					(effects
+						(font
+							(size 1 1))))
+				(number "24"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at -13.969999999999999 -91.44 0)
+				(length 2.54)
+				(name "CKN"
+					(effects
+						(font
+							(size 1 1))))
+				(number "25"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at -13.969999999999999 -95.25 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1))))
+				(number "26"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at -13.969999999999999 -99.06 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1))))
+				(number "27"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at -13.969999999999999 -102.87 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1))))
+				(number "28"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at -13.969999999999999 -106.68 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1))))
+				(number "29"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at -13.969999999999999 -110.49 0)
+				(length 2.54)
+				(name "VDD_CHECK"
+					(effects
+						(font
+							(size 1 1))))
+				(number "30"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at -13.969999999999999 -114.3 0)
+				(length 2.54)
+				(name "VDD_CHECK"
+					(effects
+						(font
+							(size 1 1))))
+				(number "31"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at -13.969999999999999 -118.11 0)
+				(length 2.54)
+				(name "I2C_SCL"
+					(effects
+						(font
+							(size 1 1))))
+				(number "32"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at -13.969999999999999 -121.92 0)
+				(length 2.54)
+				(name "I2C_SDA"
+					(effects
+						(font
+							(size 1 1))))
+				(number "33"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at -13.969999999999999 -125.73 0)
+				(length 2.54)
+				(name "RST_TP"
+					(effects
+						(font
+							(size 1 1))))
+				(number "34"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at -13.969999999999999 -129.54 0)
+				(length 2.54)
+				(name "INT_TP"
+					(effects
+						(font
+							(size 1 1))))
+				(number "35"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at -13.969999999999999 -133.35 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1))))
+				(number "36"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at -13.969999999999999 -137.16 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1))))
+				(number "37"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at -13.969999999999999 -140.97 0)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1 1))))
+				(number "38"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at -13.969999999999999 -144.78 0)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1 1))))
+				(number "39"
+					(effects
+						(font
+							(size 1 1)))))))
+	(symbol "POWER_IN"
+		(pin_names
+			(offset .75))
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at 0 5 0)
+			(effects
+				(font
+					(size 1.1 1.1))))
+		(property "Value" "POWER_IN"
+			(at 0 3 0)
+			(effects
+				(font
+					(size 1.1 1.1))))
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(symbol "POWER_IN_0_1"
+			(rectangle
+				(start -15.24 2.54)
+				(end 15.24 -6.35)
+				(stroke
+					(width .254)
+					(type default))
+				(fill
+					(type background))))
+		(symbol "POWER_IN_1_1"
+			(pin passive line
+				(at 17.78 0.0 180)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1 1))))
+				(number "1"
+					(effects
+						(font
+							(size 1 1)))))
+			(pin passive line
+				(at 17.78 -3.81 180)
+				(length 2.54)
+				(name "+5V_EXT"
+					(effects
+						(font
+							(size 1 1))))
+				(number "2"
+					(effects
+						(font
+							(size 1 1)))))))
+	(symbol "GND"
+		(power)
+		(pin_numbers
+			(hide yes))
+		(pin_names
+			(offset 0)
+			(hide yes))
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#PWR"
+			(at 0 -6.35 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Value" "GND"
+			(at 0 -3.81 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "ki_keywords" "global power"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(symbol "GND_0_1"
+			(polyline
+				(pts
+					(xy 0 0)
+					(xy 0 -1.27)
+					(xy 1.27 -1.27)
+					(xy 0 -2.54)
+					(xy -1.27 -1.27)
+					(xy 0 -1.27))
+				(stroke
+					(width 0)
+					(type default))
+				(fill
+					(type none))))
+		(symbol "GND_1_1"
+			(pin power_in line
+				(at 0 0 270)
+				(length 0)
+				(name "~"
+					(effects
+						(font
+							(size 1.27 1.27))))
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27))))))
+		(embedded_fonts no))
+	(symbol "BL_5V"
+		(power)
+		(pin_numbers
+			(hide yes))
+		(pin_names
+			(offset 0)
+			(hide yes))
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(property "Reference" "#PWR"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1 1))
+				(hide yes)))
+		(property "Value" "BL_5V"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1 1))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1 1))
+				(hide yes)))
+		(symbol "BL_5V_0_1"
+			(polyline
+				(pts
+					(xy 0 0)
+					(xy 0 1.7))
+				(stroke
+					(width 0.254)
+					(type default))
+				(fill
+					(type none)))
+			(polyline
+				(pts
+					(xy -1.45 1.7)
+					(xy 0 3.0)
+					(xy 1.45 1.7))
+				(stroke
+					(width 0.254)
+					(type default))
+				(fill
+					(type none))))
+		(symbol "BL_5V_1_1"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0)
+				(name "BL_5V"
+					(effects
+						(font
+							(size 1 1))))
+				(number "1"
+					(effects
+						(font
+							(size 1 1))))))
+		(embedded_fonts no))
+	(symbol "BL_POWER"
+		(power)
+		(pin_numbers
+			(hide yes))
+		(pin_names
+			(offset 0)
+			(hide yes))
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(property "Reference" "#PWR"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1 1))
+				(hide yes)))
+		(property "Value" "BL_POWER"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1 1))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1 1))
+				(hide yes)))
+		(symbol "BL_POWER_0_1"
+			(polyline
+				(pts
+					(xy 0 0)
+					(xy 0 1.7))
+				(stroke
+					(width 0.254)
+					(type default))
+				(fill
+					(type none)))
+			(polyline
+				(pts
+					(xy -1.45 1.7)
+					(xy 0 3.0)
+					(xy 1.45 1.7))
+				(stroke
+					(width 0.254)
+					(type default))
+				(fill
+					(type none))))
+		(symbol "BL_POWER_1_1"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0)
+				(name "BL_POWER"
+					(effects
+						(font
+							(size 1 1))))
+				(number "1"
+					(effects
+						(font
+							(size 1 1))))))
+		(embedded_fonts no))
+	(symbol "EXT_5V"
+		(power)
+		(pin_numbers
+			(hide yes))
+		(pin_names
+			(offset 0)
+			(hide yes))
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(property "Reference" "#PWR"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1 1))
+				(hide yes)))
+		(property "Value" "EXT_5V"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1 1))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1 1))
+				(hide yes)))
+		(symbol "EXT_5V_0_1"
+			(polyline
+				(pts
+					(xy 0 0)
+					(xy 0 1.7))
+				(stroke
+					(width 0.254)
+					(type default))
+				(fill
+					(type none)))
+			(polyline
+				(pts
+					(xy -1.45 1.7)
+					(xy 0 3.0)
+					(xy 1.45 1.7))
+				(stroke
+					(width 0.254)
+					(type default))
+				(fill
+					(type none))))
+		(symbol "EXT_5V_1_1"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0)
+				(name "EXT_5V"
+					(effects
+						(font
+							(size 1 1))))
+				(number "1"
+					(effects
+						(font
+							(size 1 1))))))
+		(embedded_fonts no))
+	(symbol "FUSED_5V"
+		(power)
+		(pin_numbers
+			(hide yes))
+		(pin_names
+			(offset 0)
+			(hide yes))
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(property "Reference" "#PWR"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1 1))
+				(hide yes)))
+		(property "Value" "FUSED_5V"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1 1))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1 1))
+				(hide yes)))
+		(symbol "FUSED_5V_0_1"
+			(polyline
+				(pts
+					(xy 0 0)
+					(xy 0 1.7))
+				(stroke
+					(width 0.254)
+					(type default))
+				(fill
+					(type none)))
+			(polyline
+				(pts
+					(xy -1.45 1.7)
+					(xy 0 3.0)
+					(xy 1.45 1.7))
+				(stroke
+					(width 0.254)
+					(type default))
+				(fill
+					(type none))))
+		(symbol "FUSED_5V_1_1"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0)
+				(name "FUSED_5V"
+					(effects
+						(font
+							(size 1 1))))
+				(number "1"
+					(effects
+						(font
+							(size 1 1))))))
+		(embedded_fonts no))
+	(symbol "HOST_3V3"
+		(power)
+		(pin_numbers
+			(hide yes))
+		(pin_names
+			(offset 0)
+			(hide yes))
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(property "Reference" "#PWR"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1 1))
+				(hide yes)))
+		(property "Value" "HOST_3V3"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1 1))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1 1))
+				(hide yes)))
+		(symbol "HOST_3V3_0_1"
+			(polyline
+				(pts
+					(xy 0 0)
+					(xy 0 1.7))
+				(stroke
+					(width 0.254)
+					(type default))
+				(fill
+					(type none)))
+			(polyline
+				(pts
+					(xy -1.45 1.7)
+					(xy 0 3.0)
+					(xy 1.45 1.7))
+				(stroke
+					(width 0.254)
+					(type default))
+				(fill
+					(type none))))
+		(symbol "HOST_3V3_1_1"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0)
+				(name "HOST_3V3"
+					(effects
+						(font
+							(size 1 1))))
+				(number "1"
+					(effects
+						(font
+							(size 1 1))))))
+		(embedded_fonts no))
+	(symbol "HOST_TP_3V3"
+		(power)
+		(pin_numbers
+			(hide yes))
+		(pin_names
+			(offset 0)
+			(hide yes))
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(property "Reference" "#PWR"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1 1))
+				(hide yes)))
+		(property "Value" "HOST_TP_3V3"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1 1))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1 1))
+				(hide yes)))
+		(symbol "HOST_TP_3V3_0_1"
+			(polyline
+				(pts
+					(xy 0 0)
+					(xy 0 1.7))
+				(stroke
+					(width 0.254)
+					(type default))
+				(fill
+					(type none)))
+			(polyline
+				(pts
+					(xy -1.45 1.7)
+					(xy 0 3.0)
+					(xy 1.45 1.7))
+				(stroke
+					(width 0.254)
+					(type default))
+				(fill
+					(type none))))
+		(symbol "HOST_TP_3V3_1_1"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0)
+				(name "HOST_TP_3V3"
+					(effects
+						(font
+							(size 1 1))))
+				(number "1"
+					(effects
+						(font
+							(size 1 1))))))
+		(embedded_fonts no))
+	(symbol "LCD_VCI"
+		(power)
+		(pin_numbers
+			(hide yes))
+		(pin_names
+			(offset 0)
+			(hide yes))
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(property "Reference" "#PWR"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1 1))
+				(hide yes)))
+		(property "Value" "LCD_VCI"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1 1))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1 1))
+				(hide yes)))
+		(symbol "LCD_VCI_0_1"
+			(polyline
+				(pts
+					(xy 0 0)
+					(xy 0 1.7))
+				(stroke
+					(width 0.254)
+					(type default))
+				(fill
+					(type none)))
+			(polyline
+				(pts
+					(xy -1.45 1.7)
+					(xy 0 3.0)
+					(xy 1.45 1.7))
+				(stroke
+					(width 0.254)
+					(type default))
+				(fill
+					(type none))))
+		(symbol "LCD_VCI_1_1"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0)
+				(name "LCD_VCI"
+					(effects
+						(font
+							(size 1 1))))
+				(number "1"
+					(effects
+						(font
+							(size 1 1))))))
+		(embedded_fonts no))
+	(symbol "TP_VDD"
+		(power)
+		(pin_numbers
+			(hide yes))
+		(pin_names
+			(offset 0)
+			(hide yes))
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(property "Reference" "#PWR"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1 1))
+				(hide yes)))
+		(property "Value" "TP_VDD"
+			(at 0 5.08 0)
+			(effects
+				(font
+					(size 1 1))))
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1 1))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1 1))
+				(hide yes)))
+		(symbol "TP_VDD_0_1"
+			(polyline
+				(pts
+					(xy 0 0)
+					(xy 0 1.7))
+				(stroke
+					(width 0.254)
+					(type default))
+				(fill
+					(type none)))
+			(polyline
+				(pts
+					(xy -1.45 1.7)
+					(xy 0 3.0)
+					(xy 1.45 1.7))
+				(stroke
+					(width 0.254)
+					(type default))
+				(fill
+					(type none))))
+		(symbol "TP_VDD_1_1"
+			(pin power_in line
+				(at 0 0 90)
+				(length 0)
+				(name "TP_VDD"
+					(effects
+						(font
+							(size 1 1))))
+				(number "1"
+					(effects
+						(font
+							(size 1 1))))))
+		(embedded_fonts no))
+	(symbol "LCD_OVP_MODE"
+		(pin_names
+			(offset .75))
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "JP"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))))
+		(property "Value" "LCD_OVP_MODE"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))))
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Description" "One 2.54mm shunt: 1-2 LOW/B; 2-3 HIGH/A; missing shunt retains permanent lower leg."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(symbol "LCD_OVP_MODE_0_1"
+			(rectangle
+				(start -7.62 6.35)
+				(end 7.62 -6.35)
+				(stroke
+					(width .254)
+					(type default))
+				(fill
+					(type background))))
+		(symbol "LCD_OVP_MODE_1_1"
+			(pin passive line
+				(at -10.16 3.81 0)
+				(length 2.54)
+				(name "LOW_B"
+					(effects
+						(font
+							(size 0.9 0.9))))
+				(number "1"
+					(effects
+						(font
+							(size 0.9 0.9)))))
+			(pin passive line
+				(at -10.16 0 0)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 0.9 0.9))))
+				(number "2"
+					(effects
+						(font
+							(size 0.9 0.9)))))
+			(pin passive line
+				(at -10.16 -3.81 0)
+				(length 2.54)
+				(name "HIGH_A"
+					(effects
+						(font
+							(size 0.9 0.9))))
+				(number "3"
+					(effects
+						(font
+							(size 0.9 0.9))))))))

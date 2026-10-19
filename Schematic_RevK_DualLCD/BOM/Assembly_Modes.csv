@@ -1,0 +1,6 @@
+﻿Item,FACTORY_HOLD,LCD_A_after_review,LCD_B_PENDING_APPROVAL
+R4 VCI,DNP,FIT 0R after host-budget review,DNP until VCI 3.3V approved
+R23 J2.30/31,DNP,FIT 0R for documented 3.3V touch rail,DNP until VDD purpose/range approved
+JP1 shunt,Not fitted,"2-3 HIGH, nominal 28.690V OVP","1-2 LOW, nominal 14.936V PROVISIONAL; no energizing yet"
+R7,FIT 5.23ohm,Same 5.23ohm,Same 5.23ohm; no 80mA mode
+Accessory,One loose 2.54mm 1x2 shunt required for active configuration,Exactly one shunt,Exactly one shunt after approval

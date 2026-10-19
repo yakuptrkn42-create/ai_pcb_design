@@ -1,0 +1,72 @@
+{
+  "baseline": "Uploaded Rev J native project",
+  "physical_components_before": 49,
+  "physical_components_after": 53,
+  "added_components": [
+    "R21",
+    "R22",
+    "R23",
+    "JP1"
+  ],
+  "removed_components": [],
+  "existing_pin_net_changes": [
+    {
+      "reference": "R20",
+      "pin": "2",
+      "before": "GND",
+      "after": "OVP_SEL_HIGH"
+    },
+    {
+      "reference": "C7",
+      "pin": "1",
+      "before": "TP_VDD",
+      "after": "PANEL_VDD_30_31"
+    },
+    {
+      "reference": "C8",
+      "pin": "1",
+      "before": "TP_VDD",
+      "after": "PANEL_VDD_30_31"
+    },
+    {
+      "reference": "J2",
+      "pin": "30",
+      "before": "TP_VDD",
+      "after": "PANEL_VDD_30_31"
+    },
+    {
+      "reference": "J2",
+      "pin": "31",
+      "before": "TP_VDD",
+      "after": "PANEL_VDD_30_31"
+    }
+  ],
+  "all_other_existing_physical_pin_connections_preserved": true,
+  "MIPI_paths_unchanged": true,
+  "J1_J3_J5_connections_unchanged": true,
+  "all_existing_footprints_unchanged": true,
+  "value_changes": [
+    {
+      "reference": "R4",
+      "before": "0R",
+      "after": "0R / HOLD DNP"
+    },
+    {
+      "reference": "R20",
+      "before": "10k / 0.1%",
+      "after": "15.0k / 0.1%"
+    }
+  ],
+  "new_DNP": [
+    "R4",
+    "R23"
+  ],
+  "factory_DNP": [
+    "R1",
+    "R2",
+    "R4",
+    "R23"
+  ],
+  "PCB_or_firmware_modified": false,
+  "B_complete_electrical_compatibility": "NOT VERIFIED - power links held DNP until voltage/purpose approval"
+}

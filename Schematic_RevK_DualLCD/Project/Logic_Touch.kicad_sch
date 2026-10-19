@@ -1,0 +1,3814 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e23c7322-2b35-464f-aa9f-3f903ea07684")
+	(paper "A3")
+	(lib_symbols
+		(symbol "Adapter_F469:C"
+			(pin_names
+				(offset 0.75)
+				(hide yes))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 5 0)
+				(effects
+					(font
+						(size 1.1 1.1))))
+			(property "Value" "C"
+				(at 0 3 0)
+				(effects
+					(font
+						(size 1.1 1.1))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.1 1.1))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.1 1.1))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.1 1.1))
+					(hide yes)))
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0)
+						(xy -0.6 0))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy -0.6 -2)
+						(xy -0.6 2))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0.6 0)
+						(xy 2.54 0))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0.6 -2)
+						(xy 0.6 2))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none))))
+			(symbol "C_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1 1))))
+					(number "1"
+						(effects
+							(font
+								(size 1 1)))))
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1 1))))
+					(number "2"
+						(effects
+							(font
+								(size 1 1))))))
+			(embedded_fonts no))
+		(symbol "Adapter_F469:CN12_2x8"
+			(pin_names
+				(offset 0.75))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5 0)
+				(effects
+					(font
+						(size 1.1 1.1))))
+			(property "Value" "CN12_2x8"
+				(at 0 3 0)
+				(effects
+					(font
+						(size 1.1 1.1))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.1 1.1))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.1 1.1))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.1 1.1))
+					(hide yes)))
+			(symbol "CN12_2x8_0_1"
+				(rectangle
+					(start -15.24 2.54)
+					(end 15.24 -59.69)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type background))))
+			(symbol "CN12_2x8_1_1"
+				(pin passive line
+					(at 17.78 0 180)
+					(length 2.54)
+					(name "3V3_NC"
+						(effects
+							(font
+								(size 1 1))))
+					(number "1"
+						(effects
+							(font
+								(size 1 1)))))
+				(pin passive line
+					(at 17.78 -3.81 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1))))
+					(number "2"
+						(effects
+							(font
+								(size 1 1)))))
+				(pin passive line
+					(at 17.78 -7.62 180)
+					(length 2.54)
+					(name "PA8_NC"
+						(effects
+							(font
+								(size 1 1))))
+					(number "3"
+						(effects
+							(font
+								(size 1 1)))))
+				(pin passive line
+					(at 17.78 -11.43 180)
+					(length 2.54)
+					(name "NRST_NC"
+						(effects
+							(font
+								(size 1 1))))
+					(number "4"
+						(effects
+							(font
+								(size 1 1)))))
+				(pin passive line
+					(at 17.78 -15.24 180)
+					(length 2.54)
+					(name "PB4_NC"
+						(effects
+							(font
+								(size 1 1))))
+					(number "5"
+						(effects
+							(font
+								(size 1 1)))))
+				(pin passive line
+					(at 17.78 -19.05 180)
+					(length 2.54)
+					(name "PC6_PWM"
+						(effects
+							(font
+								(size 1 1))))
+					(number "6"
+						(effects
+							(font
+								(size 1 1)))))
+				(pin passive line
+					(at 17.78 -22.86 180)
+					(length 2.54)
+					(name "PA5_NC"
+						(effects
+							(font
+								(size 1 1))))
+					(number "7"
+						(effects
+							(font
+								(size 1 1)))))
+				(pin passive line
+					(at 17.78 -26.67 180)
+					(length 2.54)
+					(name "PC7_NC"
+						(effects
+							(font
+								(size 1 1))))
+					(number "8"
+						(effects
+							(font
+								(size 1 1)))))
+				(pin passive line
+					(at 17.78 -30.48 180)
+					(length 2.54)
+					(name "PB5_NC"
+						(effects
+							(font
+								(size 1 1))))
+					(number "9"
+						(effects
+							(font
+								(size 1 1)))))
+				(pin passive line
+					(at 17.78 -34.29 180)
+					(length 2.54)
+					(name "PB13_NC"
+						(effects
+							(font
+								(size 1 1))))
+					(number "10"
+						(effects
+							(font
+								(size 1 1)))))
+				(pin passive line
+					(at 17.78 -38.1 180)
+					(length 2.54)
+					(name "PA15_NC"
+						(effects
+							(font
+								(size 1 1))))
+					(number "11"
+						(effects
+							(font
+								(size 1 1)))))
+				(pin passive line
+					(at 17.78 -41.91 180)
+					(length 2.54)
+					(name "PB12_TP_RST"
+						(effects
+							(font
+								(size 1 1))))
+					(number "12"
+						(effects
+							(font
+								(size 1 1)))))
+				(pin passive line
+					(at 17.78 -45.72 180)
+					(length 2.54)
+					(name "PC13_NC"
+						(effects
+							(font
+								(size 1 1))))
+					(number "13"
+						(effects
+							(font
+								(size 1 1)))))
+				(pin passive line
+					(at 17.78 -49.53 180)
+					(length 2.54)
+					(name "PC1_NC"
+						(effects
+							(font
+								(size 1 1))))
+					(number "14"
+						(effects
+							(font
+								(size 1 1)))))
+				(pin passive line
+					(at 17.78 -53.34 180)
+					(length 2.54)
+					(name "AUDIO_NC"
+						(effects
+							(font
+								(size 1 1))))
+					(number "15"
+						(effects
+							(font
+								(size 1 1)))))
+				(pin passive line
+					(at 17.78 -57.15 180)
+					(length 2.54)
+					(name "AUDIO_NC"
+						(effects
+							(font
+								(size 1 1))))
+					(number "16"
+						(effects
+							(font
+								(size 1 1))))))
+			(embedded_fonts no))
+		(symbol "Adapter_F469:CN2_FPC6"
+			(pin_names
+				(offset 0.75))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 5 0)
+				(effects
+					(font
+						(size 1.1 1.1))))
+			(property "Value" "CN2_FPC6"
+				(at 0 3 0)
+				(effects
+					(font
+						(size 1.1 1.1))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.1 1.1))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.1 1.1))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.1 1.1))
+					(hide yes)))
+			(symbol "CN2_FPC6_0_1"
+				(rectangle
+					(start -15.24 2.54)
+					(end 15.24 -21.59)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type background))))
+			(symbol "CN2_FPC6_1_1"
+				(pin passive line
+					(at 17.78 0 180)
+					(length 2.54)
+					(name "HOST_TP_3V3"
+						(effects
+							(font
+								(size 1 1))))
+					(number "1"
+						(effects
+							(font
+								(size 1 1)))))
+				(pin passive line
+					(at 17.78 -3.81 180)
+					(length 2.54)
+					(name "PJ5_INT"
+						(effects
+							(font
+								(size 1 1))))
+					(number "2"
+						(effects
+							(font
+								(size 1 1)))))
+				(pin passive line
+					(at 17.78 -7.62 180)
+					(length 2.54)
+					(name "PB8_I2C1_SCL"
+						(effects
+							(font
+								(size 1 1))))
+					(number "3"
+						(effects
+							(font
+								(size 1 1)))))
+				(pin passive line
+					(at 17.78 -11.43 180)
+					(length 2.54)
+					(name "PB9_I2C1_SDA"
+						(effects
+							(font
+								(size 1 1))))
+					(number "4"
+						(effects
+							(font
+								(size 1 1)))))
+				(pin passive line
+					(at 17.78 -15.24 180)
+					(length 2.54)
+					(name "PH7_RESET_NC"
+						(effects
+							(font
+								(size 1 1))))
+					(number "5"
+						(effects
+							(font
+								(size 1 1)))))
+				(pin passive line
+					(at 17.78 -19.05 180)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1 1))))
+					(number "6"
+						(effects
+							(font
+								(size 1 1))))))
+			(embedded_fonts no))
+		(symbol "Adapter_F469:R"
+			(pin_names
+				(offset 0.75)
+				(hide yes))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 0 5 0)
+				(effects
+					(font
+						(size 1.1 1.1))))
+			(property "Value" "R"
+				(at 0 3 0)
+				(effects
+					(font
+						(size 1.1 1.1))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.1 1.1))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.1 1.1))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.1 1.1))
+					(hide yes)))
+			(symbol "R_0_1"
+				(rectangle
+					(start -2.54 -0.8)
+					(end 2.54 0.8)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type background))))
+			(symbol "R_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1 1))))
+					(number "1"
+						(effects
+							(font
+								(size 1 1)))))
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1 1))))
+					(number "2"
+						(effects
+							(font
+								(size 1 1))))))
+			(embedded_fonts no))
+		(symbol "Adapter_F469:TP"
+			(pin_names
+				(offset 0.75)
+				(hide yes))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 5 0)
+				(effects
+					(font
+						(size 1.1 1.1))))
+			(property "Value" "TP"
+				(at 0 3 0)
+				(effects
+					(font
+						(size 1.1 1.1))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.1 1.1))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.1 1.1))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.1 1.1))
+					(hide yes)))
+			(symbol "TP_0_1"
+				(circle
+					(center 0 0)
+					(radius 1)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none))))
+			(symbol "TP_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1 1))))
+					(number "1"
+						(effects
+							(font
+								(size 1 1))))))
+			(embedded_fonts no))
+		(symbol "Adapter_F469_Power:HOST_3V3"
+			(power)
+			(pin_numbers
+				(hide yes))
+			(pin_names
+				(offset 0)
+				(hide yes))
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "HOST_3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" "Global power net HOST_3V3; retain this exact name. Distinct from all other supply nets."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "HOST_3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27)
+						(xy 0 2.54))
+					(stroke
+						(width 0)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 2.54)
+						(xy 0.762 1.27))
+					(stroke
+						(width 0)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 2.54))
+					(stroke
+						(width 0)
+						(type default))
+					(fill
+						(type none))))
+			(symbol "HOST_3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27))))
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27))))))
+			(embedded_fonts no))
+		(symbol "power:GND"
+			(power)
+			(pin_numbers
+				(hide yes))
+			(pin_names
+				(offset 0)
+				(hide yes))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 -1.27)
+						(xy 1.27 -1.27)
+						(xy 0 -2.54)
+						(xy -1.27 -1.27)
+						(xy 0 -1.27))
+					(stroke
+						(width 0)
+						(type default))
+					(fill
+						(type none))))
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27))))
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27))))))
+			(embedded_fonts no))
+		(symbol "Adapter_F469_Power:HOST_TP_3V3"
+			(power)
+			(pin_numbers
+				(hide yes))
+			(pin_names
+				(offset 0)
+				(hide yes))
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "HOST_TP_3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" "Global power net HOST_TP_3V3; retain this exact name. Distinct from all other supply nets."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "HOST_TP_3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27)
+						(xy 0 2.54))
+					(stroke
+						(width 0)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 2.54)
+						(xy 0.762 1.27))
+					(stroke
+						(width 0)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 2.54))
+					(stroke
+						(width 0)
+						(type default))
+					(fill
+						(type none))))
+			(symbol "HOST_TP_3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27))))
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27))))))
+			(embedded_fonts no))
+		(symbol "Adapter_F469_Power:LCD_VCI"
+			(power)
+			(pin_numbers
+				(hide yes))
+			(pin_names
+				(offset 0)
+				(hide yes))
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "LCD_VCI"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" "Global power net LCD_VCI; retain this exact name. Distinct from all other supply nets."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "LCD_VCI_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27)
+						(xy 0 2.54))
+					(stroke
+						(width 0)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 2.54)
+						(xy 0.762 1.27))
+					(stroke
+						(width 0)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 2.54))
+					(stroke
+						(width 0)
+						(type default))
+					(fill
+						(type none))))
+			(symbol "LCD_VCI_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27))))
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27))))))
+			(embedded_fonts no))
+		(symbol "Adapter_F469_Power:TP_VDD"
+			(power)
+			(pin_numbers
+				(hide yes))
+			(pin_names
+				(offset 0)
+				(hide yes))
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "TP_VDD"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" "Global power net TP_VDD; retain this exact name. Distinct from all other supply nets."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "TP_VDD_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27)
+						(xy 0 2.54))
+					(stroke
+						(width 0)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 2.54)
+						(xy 0.762 1.27))
+					(stroke
+						(width 0)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 2.54))
+					(stroke
+						(width 0)
+						(type default))
+					(fill
+						(type none))))
+			(symbol "TP_VDD_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27))))
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27))))))
+			(embedded_fonts no))
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes))
+			(pin_names
+				(offset 0)
+				(hide yes))
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27))))
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27))))))
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 1.27)
+						(xy -1.016 1.905)
+						(xy 0 2.54)
+						(xy 1.016 1.905)
+						(xy 0 1.27))
+					(stroke
+						(width 0)
+						(type default))
+					(fill
+						(type none))))
+			(embedded_fonts no))
+		(symbol "Adapter_F469_Power:PANEL_VDD_30_31"
+			(power)
+			(pin_numbers
+				(hide yes))
+			(pin_names
+				(offset 0)
+				(hide yes))
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Value" "PANEL_VDD_30_31"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" "J2.30/31 isolated supply; fit R23 only after model-specific voltage approval. Not automatically identical to TP_VDD."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "PANEL_VDD_30_31_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27)
+						(xy 0 2.54))
+					(stroke
+						(width 0)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 2.54)
+						(xy 0.762 1.27))
+					(stroke
+						(width 0)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 0 0)
+						(xy 0 2.54))
+					(stroke
+						(width 0)
+						(type default))
+					(fill
+						(type none))))
+			(symbol "PANEL_VDD_30_31_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27))))
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27))))))
+			(embedded_fonts no)))
+	(title_block
+		(title "STM32F469 / DISEN - Logic power & touch")
+		(date "2026-10-19")
+		(rev "K / Dual LCD")
+		(company "Yakup Turkan")
+		(comment 1 "One LCD at a time | R4/R23 factory HOLD | See configuration sheet"))
+	(text "02  /  LOGIC POWER, TOUCH & HOST CONTROL"
+		(at 15 15 0)
+		(effects
+			(font
+				(size 2.3 2.3)
+				(bold yes))
+			(justify left top))
+		(uuid "c625c671-ba89-4a3d-b6fd-c8355b284222"))
+	(text "3.3 V logic domains  |  LCD and touch reset kept independent  |  Test points grouped by function"
+		(at 15 23 0)
+		(effects
+			(font
+				(size 1.2 1.2))
+			(justify left top))
+		(uuid "d5301fab-d102-4cfd-9545-9ad1b0f812e5"))
+	(rectangle
+		(start 12 33)
+		(end 112 130)
+		(stroke
+			(width 0.22)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "65f4d386-8a25-4a02-b6e9-2104859ef450"))
+	(text "01  /  STM32 CONTROL - CN12"
+		(at 15 35.8 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(bold yes))
+			(justify left top))
+		(uuid "d4f0aedf-2566-4f12-8682-66c8e974ce62"))
+	(polyline
+		(pts
+			(xy 12 43)
+			(xy 112 43))
+		(stroke
+			(width 0.18)
+			(type solid))
+		(uuid "db6d8d16-b5fb-450c-a93b-7602813c02d4"))
+	(symbol
+		(lib_id "Adapter_F469:CN12_2x8")
+		(at 43.18 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "720579c1-c89f-4202-a9aa-ca4ce4f81d31")
+		(property "Reference" "J5"
+			(at 43.18 43.8 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Value" "CN12 1:1 / 2x08 socket"
+			(at 43.18 46.3 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Footprint" "Adapter_F469:PinSocket_2x08_P2.54mm_Vertical"
+			(at 43.18 50.8 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 43.18 50.8 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Description" "PC6: TIM3_CH1 AF2 PWM. PB12: independent touch reset GPIO. Pin numbering 1:1 to CN12."
+			(at 43.18 50.8 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "MPN" "SSW-108-02-G-D"
+			(at 43.18 50.8 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(pin "1"
+			(uuid "e3044c52-a75b-4817-8167-61399a3bd35d"))
+		(pin "2"
+			(uuid "b066e412-a4c4-4b24-9da4-d26c9dfd1386"))
+		(pin "3"
+			(uuid "e249d7b6-ee18-4f35-a770-2ec5b3fc2626"))
+		(pin "4"
+			(uuid "99594972-7a5f-441f-aee8-412df322f9f2"))
+		(pin "5"
+			(uuid "b9c46903-a91f-45d3-b769-8a6b455b25b0"))
+		(pin "6"
+			(uuid "09f05f56-390c-49f6-b86f-53fcaeed14d4"))
+		(pin "7"
+			(uuid "e30bbb7b-3324-4c5d-87a3-6cf97c1c6f3a"))
+		(pin "8"
+			(uuid "94bed983-ef49-44f4-9406-b80b8d79082e"))
+		(pin "9"
+			(uuid "b7884716-394b-4cce-8138-4f07fb214fdf"))
+		(pin "10"
+			(uuid "79d57d22-8001-44ca-ad77-b7bd8bd755e4"))
+		(pin "11"
+			(uuid "6ae49d74-0b1a-47c4-85f1-d28098b50d17"))
+		(pin "12"
+			(uuid "35e93d05-f237-4e67-9c27-2aa150f5f1ff"))
+		(pin "13"
+			(uuid "e86335e7-ce30-44f1-b322-a482268e6202"))
+		(pin "14"
+			(uuid "398dcaca-e813-485d-97de-f444fe87f57f"))
+		(pin "15"
+			(uuid "31c42df3-d278-4507-8fb4-015bb150cad1"))
+		(pin "16"
+			(uuid "ab8d645b-ce56-4b2d-b287-1e80995b3f36"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "J5")
+					(unit 1)))))
+	(no_connect
+		(at 60.96 50.8)
+		(uuid "e0e5d897-71ce-4cdc-8c6b-282ea9321e93"))
+	(no_connect
+		(at 60.96 58.42)
+		(uuid "d1fd1791-ab72-4c28-95ed-f01919c80b8b"))
+	(no_connect
+		(at 60.96 62.23)
+		(uuid "beefc546-0b9a-497f-b7f7-420e2f493745"))
+	(no_connect
+		(at 60.96 66.04)
+		(uuid "04073331-cf55-47fe-824b-91046a424b2a"))
+	(global_label "BL_PWM_RAW"
+		(shape bidirectional)
+		(at 71.12 69.85 0)
+		(effects
+			(font
+				(size 1.1 1.1))
+			(justify left))
+		(uuid "8c7aa9e4-bffc-47ce-a616-86616a446796")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.94 70.05 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes))))
+	(no_connect
+		(at 60.96 73.66)
+		(uuid "c585e275-1914-4372-8087-e2f9bee3aee4"))
+	(no_connect
+		(at 60.96 77.47)
+		(uuid "46306e0e-d7cb-4a31-bc3a-d6ac87d7226d"))
+	(no_connect
+		(at 60.96 81.28)
+		(uuid "50062e87-5faf-46d2-acd9-4a3f33e300a6"))
+	(no_connect
+		(at 60.96 85.09)
+		(uuid "7d5c3b31-f5ef-4675-b4f4-993d268cad9e"))
+	(no_connect
+		(at 60.96 88.9)
+		(uuid "5e035466-6e79-4bf4-b5cc-88ce2908c63e"))
+	(global_label "HOST_TP_RST"
+		(shape bidirectional)
+		(at 71.12 92.71 0)
+		(effects
+			(font
+				(size 1.1 1.1))
+			(justify left))
+		(uuid "1484fcd6-95c3-4fda-b384-ed8119bcbaf1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.94 92.91 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes))))
+	(no_connect
+		(at 60.96 96.52)
+		(uuid "a6372210-a50c-436f-9c53-6e508eeeb702"))
+	(no_connect
+		(at 60.96 100.33)
+		(uuid "73e6f580-1a88-4f91-bbf1-54f297af7ca9"))
+	(no_connect
+		(at 60.96 104.14)
+		(uuid "0a9a011e-7b1e-4069-916e-46d83998b763"))
+	(no_connect
+		(at 60.96 107.95)
+		(uuid "691381df-397f-4718-9964-b2861959a4d6"))
+	(text "2x8 socket  /  2.54 mm  /  1:1 mapping\nFollow physical pin 1 for socket orientation."
+		(at 16 117 0)
+		(effects
+			(font
+				(size 1.1 1.1))
+			(justify left top))
+		(uuid "e785f88f-df62-4bc3-aff8-ea7703935c88"))
+	(rectangle
+		(start 12 132)
+		(end 112 205)
+		(stroke
+			(width 0.22)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "41854753-c3c4-4e46-a386-54b5e2f877a0"))
+	(text "02  /  TOUCH HOST - CN2"
+		(at 15 134.8 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(bold yes))
+			(justify left top))
+		(uuid "c5b7483a-081c-4083-86ee-797888d24184"))
+	(polyline
+		(pts
+			(xy 12 142)
+			(xy 112 142))
+		(stroke
+			(width 0.18)
+			(type solid))
+		(uuid "04286f01-e7cd-4df6-8b32-1b82b534e44c"))
+	(symbol
+		(lib_id "Adapter_F469:CN2_FPC6")
+		(at 43.18 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "141df15a-6e16-4607-b5d6-15c5d1b640a1")
+		(property "Reference" "J3"
+			(at 43.18 142.86 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Value" "FH19C-6S-0.5SH(10)"
+			(at 43.18 145.36 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Footprint" "Adapter_F469:FH19C-6S-0.5SH"
+			(at 43.18 149.86 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 43.18 149.86 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Description" "HOST CN2 INPUT ONLY. J3.1=3V3 and J3.6=GND. Both panel 6-pin touch tails use 1=GND,6=3V3 and MUST NOT plug here. Panel touch signals use the common J2 interface subject to module verification."
+			(at 43.18 149.86 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "MPN" "FH19C-6S-0.5SH(10)"
+			(at 43.18 149.86 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(pin "1"
+			(uuid "3c6fc694-e4a9-4b1a-9fcd-0bef0b2d2f0b"))
+		(pin "2"
+			(uuid "c4e51323-6d16-4b7a-8c07-23e12ef3cc4a"))
+		(pin "3"
+			(uuid "a5dd0755-b901-4e7f-9a57-958ec2a2060f"))
+		(pin "4"
+			(uuid "501280e3-1133-4cce-be41-9fe76b215cc4"))
+		(pin "5"
+			(uuid "489dea25-db1f-4d27-8750-9df9760d8951"))
+		(pin "6"
+			(uuid "b201a513-e35c-4687-a8e6-6f01cad3754b"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "J3")
+					(unit 1)))))
+	(global_label "TP_INT"
+		(shape bidirectional)
+		(at 71.12 153.67 0)
+		(effects
+			(font
+				(size 1.1 1.1))
+			(justify left))
+		(uuid "01d72008-b7cc-4582-8488-f89de36167db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.94 153.81 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes))))
+	(global_label "TP_SCL"
+		(shape bidirectional)
+		(at 71.12 157.48 0)
+		(effects
+			(font
+				(size 1.1 1.1))
+			(justify left))
+		(uuid "6f655fe4-0d33-42ae-a9fe-2799d9cdb995")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.94 157.62 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes))))
+	(global_label "TP_SDA"
+		(shape bidirectional)
+		(at 71.12 161.29 0)
+		(effects
+			(font
+				(size 1.1 1.1))
+			(justify left))
+		(uuid "d6a0b35d-75a5-4d61-b2a3-53d7ebb2e217")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 70.94 161.43 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes))))
+	(no_connect
+		(at 60.96 165.1)
+		(uuid "4ea254bb-15cf-4fad-b039-dcd26237245a"))
+	(text "HOST CN2 INPUT ONLY / 6-pin FPC\nNever insert either panel touch tail into J3.\nJ3.1=3V3 / .6=GND; panel tail .1=GND / .6=3V3."
+		(at 16 181 0)
+		(effects
+			(font
+				(size 1.1 1.1))
+			(justify left top))
+		(uuid "c43dca33-9043-4174-8872-57e7967e6455"))
+	(rectangle
+		(start 120 33)
+		(end 298 147)
+		(stroke
+			(width 0.22)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "386545ed-d229-45e5-acf7-3cf34fe64acf"))
+	(text "03  /  LOGIC SUPPLIES & DECOUPLING"
+		(at 123 35.8 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(bold yes))
+			(justify left top))
+		(uuid "d75d31f1-13d8-409a-8c35-aef65e6ecc7b"))
+	(polyline
+		(pts
+			(xy 120 43)
+			(xy 298 43))
+		(stroke
+			(width 0.18)
+			(type solid))
+		(uuid "99aa0684-37c4-4839-aeb5-087f96e21970"))
+	(symbol
+		(lib_id "Adapter_F469:R")
+		(at 161.29 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "cad8d1c8-bbab-4869-a2d9-bf3da2cdc51b")
+		(property "Reference" "R4"
+			(at 161.29 55.16 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Value" "0R / HOLD DNP"
+			(at 161.29 57.66 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Footprint" "Adapter_F469:R_0805_2012Metric"
+			(at 161.29 60.96 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 161.29 60.96 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Description" "VCI supply approval link. Factory DNP. A: fit 0R after supply budget review. B: DO NOT FIT until VCI 3.3V compatibility is confirmed. Does not isolate signal pins."
+			(at 161.29 60.96 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "MPN" ""
+			(at 161.29 60.96 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(pin "1"
+			(uuid "dada7ec4-ba59-4598-a62d-a02cec600c0e"))
+		(pin "2"
+			(uuid "d685479d-56bb-4cea-8141-5dec81bc6c98"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "R4")
+					(unit 1)))))
+	(symbol
+		(lib_id "Adapter_F469_Power:HOST_3V3")
+		(at 133.35 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "0d8c26ca-ba8c-4d63-ac16-7a70e93525b0")
+		(property "Reference" "#PWR0301"
+			(at 133.35 43.53 0)
+			(effects
+				(font
+					(size 1.0 1.0))
+				(hide yes)))
+		(property "Value" "HOST_3V3"
+			(at 133.35 44.63 0)
+			(effects
+				(font
+					(size 1.05 1.05))))
+		(pin "1"
+			(uuid "ae6eb9ab-b043-4d1c-b254-f53dce94a65a"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "#PWR0301")
+					(unit 1)))))
+	(symbol
+		(lib_id "Adapter_F469_Power:LCD_VCI")
+		(at 185.42 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "cfbfde14-331c-4dbc-985e-6b839ab2ff79")
+		(property "Reference" "#PWR0302"
+			(at 185.42 54.96 0)
+			(effects
+				(font
+					(size 1.0 1.0))
+				(hide yes)))
+		(property "Value" "LCD_VCI"
+			(at 185.42 56.06 0)
+			(effects
+				(font
+					(size 1.05 1.05))))
+		(pin "1"
+			(uuid "8b449e6a-e441-439b-8889-f44de608332c"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "#PWR0302")
+					(unit 1)))))
+	(symbol
+		(lib_id "Adapter_F469:R")
+		(at 248.92 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8c6787dd-bf3e-475e-8c30-17c2e1d6e57a")
+		(property "Reference" "R5"
+			(at 248.92 55.16 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Value" "0R"
+			(at 248.92 57.66 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Footprint" "Adapter_F469:R_0805_2012Metric"
+			(at 248.92 60.96 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 248.92 60.96 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Description" "Touch supply from CN2.1; verify guaranteed VDD min/max and measured current."
+			(at 248.92 60.96 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "MPN" ""
+			(at 248.92 60.96 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(pin "1"
+			(uuid "47e21fcb-5d2d-467f-ab74-f6896be755f8"))
+		(pin "2"
+			(uuid "275da5da-10f8-48a3-8549-76813626c807"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "R5")
+					(unit 1)))))
+	(symbol
+		(lib_id "Adapter_F469_Power:HOST_TP_3V3")
+		(at 220.98 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "bfa5c886-44f2-4487-ba6a-6fb848feb2ed")
+		(property "Reference" "#PWR0303"
+			(at 220.98 43.53 0)
+			(effects
+				(font
+					(size 1.0 1.0))
+				(hide yes)))
+		(property "Value" "HOST_TP_3V3"
+			(at 220.98 44.63 0)
+			(effects
+				(font
+					(size 1.05 1.05))))
+		(pin "1"
+			(uuid "cd60b3bd-9446-486c-9328-3716d7755978"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "#PWR0303")
+					(unit 1)))))
+	(symbol
+		(lib_id "Adapter_F469_Power:TP_VDD")
+		(at 274.32 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "5c63eaae-2de5-40cc-ba85-89140c24c6b0")
+		(property "Reference" "#PWR0304"
+			(at 274.32 54.96 0)
+			(effects
+				(font
+					(size 1.0 1.0))
+				(hide yes)))
+		(property "Value" "TP_VDD"
+			(at 274.32 56.06 0)
+			(effects
+				(font
+					(size 1.05 1.05))))
+		(pin "1"
+			(uuid "aeaad5be-5b05-4e98-9c48-b5b0b593f198"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "#PWR0304")
+					(unit 1)))))
+	(symbol
+		(lib_id "Adapter_F469:C")
+		(at 148.59 87.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9e39a107-a8fb-45fb-b66e-101f84ea4dc5")
+		(property "Reference" "C5"
+			(at 151.89 86.23 90)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(justify left)))
+		(property "Value" "4.7uF / 10V"
+			(at 151.89 88.73 90)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(justify left)))
+		(property "Footprint" "Adapter_F469:C_0805_2012Metric"
+			(at 148.59 87.63 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 148.59 87.63 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Description" "X7R; place beside connector supply pins"
+			(at 148.59 87.63 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "MPN" ""
+			(at 148.59 87.63 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(pin "1"
+			(uuid "31a4ceb0-1988-4dff-a217-66567ec8f936"))
+		(pin "2"
+			(uuid "2e796368-f4bb-4646-976d-53e9b29f552b"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "C5")
+					(unit 1)))))
+	(symbol
+		(lib_id "Adapter_F469:C")
+		(at 180.34 87.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2bda785e-5d74-461c-982c-5b4f64eb7cf2")
+		(property "Reference" "C6"
+			(at 183.64 86.23 90)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(justify left)))
+		(property "Value" "100nF / 10V"
+			(at 183.64 88.73 90)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(justify left)))
+		(property "Footprint" "Adapter_F469:C_0805_2012Metric"
+			(at 180.34 87.63 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 180.34 87.63 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Description" "X7R; place beside connector supply pins"
+			(at 180.34 87.63 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "MPN" ""
+			(at 180.34 87.63 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(pin "1"
+			(uuid "aaaa78a8-00d1-4f18-be23-0c75121d7754"))
+		(pin "2"
+			(uuid "3fcd3633-cc0e-4f44-8f3a-037f58d989fc"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "C6")
+					(unit 1)))))
+	(junction
+		(at 180.34 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "56c7ab66-c191-446b-a2b4-7f6d685622dc"))
+	(symbol
+		(lib_id "power:GND")
+		(at 180.34 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "9f93c9a1-f203-495a-bcc9-4c54fa7c4b45")
+		(property "Reference" "#PWR0101"
+			(at 180.34 102.87 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Value" "GND"
+			(at 180.34 106.87 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(pin "1"
+			(uuid "55c840db-2679-4254-8c85-a83c20b8754b"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "#PWR0101")
+					(unit 1)))))
+	(symbol
+		(lib_id "Adapter_F469:C")
+		(at 237.49 87.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a4fe9b4c-1f80-4ff8-ac65-eb97b9e900b0")
+		(property "Reference" "C7"
+			(at 240.79 86.23 90)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(justify left)))
+		(property "Value" "1uF / 10V"
+			(at 240.79 88.73 90)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(justify left)))
+		(property "Footprint" "Adapter_F469:C_0805_2012Metric"
+			(at 237.49 87.63 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 237.49 87.63 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Description" "Panel VDD decoupling on the load side of R23; measure panel rail here. TP12 remains on upstream TP_VDD. Place beside J2 supply pins in the later PCB ECO."
+			(at 237.49 87.63 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "MPN" ""
+			(at 237.49 87.63 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(pin "1"
+			(uuid "0fcf24bb-9488-4c09-a70f-c18b86925907"))
+		(pin "2"
+			(uuid "c13832f4-fca3-4711-a434-87a6f3f9edd2"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "C7")
+					(unit 1)))))
+	(symbol
+		(lib_id "Adapter_F469:C")
+		(at 267.97 87.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3607676d-a3f4-4fb2-bea2-45834916bf08")
+		(property "Reference" "C8"
+			(at 271.27 86.23 90)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(justify left)))
+		(property "Value" "100nF / 10V"
+			(at 271.27 88.73 90)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(justify left)))
+		(property "Footprint" "Adapter_F469:C_0805_2012Metric"
+			(at 267.97 87.63 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 267.97 87.63 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Description" "Panel VDD decoupling on the load side of R23; measure panel rail here. TP12 remains on upstream TP_VDD. Place beside J2 supply pins in the later PCB ECO."
+			(at 267.97 87.63 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "MPN" ""
+			(at 267.97 87.63 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(pin "1"
+			(uuid "61625ac0-deb5-4660-8300-d056fa6e4879"))
+		(pin "2"
+			(uuid "e959ac6c-374b-4013-b063-716ebe877067"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "C8")
+					(unit 1)))))
+	(junction
+		(at 267.97 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d11a9e7-0259-4c8e-93c2-3bdfe217b60a"))
+	(symbol
+		(lib_id "power:GND")
+		(at 267.97 102.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "31ec6f26-49ce-47b1-8cb7-f12b10ff2326")
+		(property "Reference" "#PWR0102"
+			(at 267.97 102.87 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Value" "GND"
+			(at 267.97 106.87 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(pin "1"
+			(uuid "cfd0ae7a-6861-4b22-838c-22d2a2165b3e"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "#PWR0102")
+					(unit 1)))))
+	(text "R4: VCI approval link (DNP)"
+		(at 126 122 0)
+		(effects
+			(font
+				(size 1.2 1.2)
+				(bold yes))
+			(justify left top))
+		(uuid "cb74ea4e-d14e-4dbf-a7b0-5a6de0bd6979"))
+	(text "R23: isolated J2.30/31 supply link"
+		(at 214 129 0)
+		(effects
+			(font
+				(size 1.2 1.2)
+				(bold yes))
+			(justify left top))
+		(uuid "67de6171-18da-49e3-a824-71ca4494baec"))
+	(text "Factory HOLD: R4/R23 DNP. Fit links only per sheet 4; unknown rails must remain separate."
+		(at 126 135 0)
+		(effects
+			(font
+				(size 1.1 1.1))
+			(justify left top))
+		(uuid "fcd60408-e82f-432e-8b28-22d19bc8293b"))
+	(rectangle
+		(start 120 151)
+		(end 298 226)
+		(stroke
+			(width 0.22)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "df555dab-c529-4835-bbd3-6d40a2382412"))
+	(text "04  /  TOUCH I2C - OPTIONAL PULL-UPS"
+		(at 123 153.8 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(bold yes))
+			(justify left top))
+		(uuid "cb8f7d40-83e5-47f4-b96a-f22a61f18607"))
+	(polyline
+		(pts
+			(xy 120 161)
+			(xy 298 161))
+		(stroke
+			(width 0.18)
+			(type solid))
+		(uuid "264531c7-6572-4619-aaa6-e148090e2a00"))
+	(symbol
+		(lib_id "Adapter_F469:R")
+		(at 163.83 181.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "95532019-53af-478b-b476-4c628ad3363f")
+		(property "Reference" "R1"
+			(at 167.13 180.21 90)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(justify left)))
+		(property "Value" "4.7k / DNP"
+			(at 167.13 182.71 90)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(justify left)))
+		(property "Footprint" "Adapter_F469:R_0805_2012Metric"
+			(at 163.83 181.61 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 163.83 181.61 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Description" "Optional 4.7k SDA pull-up, DNP. Confirm host pull-up population and measure rise time before fitting; never pull up to 5V."
+			(at 163.83 181.61 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "MPN" ""
+			(at 163.83 181.61 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(pin "1"
+			(uuid "96aa8129-fb56-449e-a65b-800040712bb5"))
+		(pin "2"
+			(uuid "504d1b98-cf13-44b7-a12a-6840775a0806"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "R1")
+					(unit 1)))))
+	(symbol
+		(lib_id "Adapter_F469_Power:TP_VDD")
+		(at 163.83 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "70155459-a28e-4bf6-8575-2b375e30e288")
+		(property "Reference" "#PWR0305"
+			(at 163.83 161.64 0)
+			(effects
+				(font
+					(size 1.0 1.0))
+				(hide yes)))
+		(property "Value" "TP_VDD"
+			(at 163.83 162.74 0)
+			(effects
+				(font
+					(size 1.05 1.05))))
+		(pin "1"
+			(uuid "8cf79a54-c97a-4c14-b759-3a8e8ec0c4d8"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "#PWR0305")
+					(unit 1)))))
+	(global_label "TP_SDA"
+		(shape bidirectional)
+		(at 163.83 195.58 0)
+		(effects
+			(font
+				(size 1.1 1.1))
+			(justify left))
+		(uuid "230b292b-eeab-47e3-a9b4-b2c6d8151ae0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 164 196 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes))))
+	(symbol
+		(lib_id "Adapter_F469:R")
+		(at 252.73 181.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "362a6178-1b1f-4cdc-9ca6-0392eb468886")
+		(property "Reference" "R2"
+			(at 256.03 180.21 90)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(justify left)))
+		(property "Value" "4.7k / DNP"
+			(at 256.03 182.71 90)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(justify left)))
+		(property "Footprint" "Adapter_F469:R_0805_2012Metric"
+			(at 252.73 181.61 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 252.73 181.61 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Description" "Optional 4.7k SCL pull-up, DNP. Confirm host pull-up population and measure rise time before fitting; never pull up to 5V."
+			(at 252.73 181.61 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "MPN" ""
+			(at 252.73 181.61 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(pin "1"
+			(uuid "a83dfde0-8f03-49cd-9381-fcd2cbc82536"))
+		(pin "2"
+			(uuid "cfbe3f4a-b253-4184-9467-71fac9fe5fb0"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "R2")
+					(unit 1)))))
+	(symbol
+		(lib_id "Adapter_F469_Power:TP_VDD")
+		(at 252.73 167.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "396d3bd0-a054-4257-9b32-d79f76fdd6da")
+		(property "Reference" "#PWR0306"
+			(at 252.73 161.64 0)
+			(effects
+				(font
+					(size 1.0 1.0))
+				(hide yes)))
+		(property "Value" "TP_VDD"
+			(at 252.73 162.74 0)
+			(effects
+				(font
+					(size 1.05 1.05))))
+		(pin "1"
+			(uuid "71d0c509-8ed6-4844-b024-e7f22eaf7c1e"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "#PWR0306")
+					(unit 1)))))
+	(global_label "TP_SCL"
+		(shape bidirectional)
+		(at 252.73 195.58 0)
+		(effects
+			(font
+				(size 1.1 1.1))
+			(justify left))
+		(uuid "a2c81fdb-55ac-4453-99dc-c8ead640da5d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 253 196 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes))))
+	(text "PB8/PB9 = I2C1; PJ5 = INT. R1/R2 remain optional DNP.\nA uses ILI2130; B uses GT911. INT may need host drive during GT911 startup.\nConfirm controller timing/address and host pull-ups; no firmware included."
+		(at 126 209 0)
+		(effects
+			(font
+				(size 1.1 1.1))
+			(justify left top))
+		(uuid "674ade8e-dd57-4d2f-b1b9-706257b6751a"))
+	(rectangle
+		(start 306 33)
+		(end 408 245)
+		(stroke
+			(width 0.22)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "c616b020-63cb-4e5e-843f-5d4accfb7012"))
+	(text "05  /  LOGIC TEST POINTS"
+		(at 309 35.8 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(bold yes))
+			(justify left top))
+		(uuid "bb61d8cf-da0c-4e0e-b285-2c491990e697"))
+	(polyline
+		(pts
+			(xy 306 43)
+			(xy 408 43))
+		(stroke
+			(width 0.18)
+			(type solid))
+		(uuid "b19320f7-5957-4564-9c0c-549d780cb6e4"))
+	(symbol
+		(lib_id "Adapter_F469:TP")
+		(at 346.71 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aa908f5e-f1b9-4133-bb38-cf317bfd2b75")
+		(property "Reference" "TP1"
+			(at 346.71 48.81 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Value" "HOST_3V3"
+			(at 346.71 51.31 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Footprint" "Adapter_F469:TestPoint_Pad_D1.0mm"
+			(at 346.71 54.61 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 346.71 54.61 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Description" ""
+			(at 346.71 54.61 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "MPN" ""
+			(at 346.71 54.61 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(pin "1"
+			(uuid "80d382ec-d032-4eaa-98d1-ae9a2c52460c"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "TP1")
+					(unit 1)))))
+	(symbol
+		(lib_id "Adapter_F469:TP")
+		(at 389.89 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "62e20a2d-fef4-4b14-a591-30b68da6a765")
+		(property "Reference" "TP3"
+			(at 389.89 48.81 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Value" "GND"
+			(at 389.89 51.31 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Footprint" "Adapter_F469:TestPoint_Pad_D1.0mm"
+			(at 389.89 54.61 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 389.89 54.61 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Description" ""
+			(at 389.89 54.61 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "MPN" ""
+			(at 389.89 54.61 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(pin "1"
+			(uuid "ddbeaf34-180a-4884-8e3b-83347b2abd5e"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "TP3")
+					(unit 1)))))
+	(symbol
+		(lib_id "Adapter_F469:TP")
+		(at 346.71 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "65421d72-0b04-4e02-b4a7-b87c40b57a66")
+		(property "Reference" "TP11"
+			(at 346.71 80.56 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Value" "LCD_VCI"
+			(at 346.71 83.06 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Footprint" "Adapter_F469:TestPoint_Pad_D1.0mm"
+			(at 346.71 86.36 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 346.71 86.36 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Description" ""
+			(at 346.71 86.36 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "MPN" ""
+			(at 346.71 86.36 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(pin "1"
+			(uuid "aa88fc9f-1de7-4fc4-8e1e-e960ef86182e"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "TP11")
+					(unit 1)))))
+	(symbol
+		(lib_id "Adapter_F469:TP")
+		(at 389.89 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a283abf2-acf1-4b53-8978-0a8792712459")
+		(property "Reference" "TP12"
+			(at 389.89 80.56 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Value" "TP_VDD"
+			(at 389.89 83.06 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Footprint" "Adapter_F469:TestPoint_Pad_D1.0mm"
+			(at 389.89 86.36 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 389.89 86.36 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Description" ""
+			(at 389.89 86.36 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "MPN" ""
+			(at 389.89 86.36 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(pin "1"
+			(uuid "4d0f9f66-4cc7-49f0-92b5-05327b821e04"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "TP12")
+					(unit 1)))))
+	(symbol
+		(lib_id "Adapter_F469:TP")
+		(at 346.71 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "05023af4-39a3-4bc1-b91c-f0287f4499cc")
+		(property "Reference" "TP4"
+			(at 346.71 111.04 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Value" "LCD_RST"
+			(at 346.71 113.54 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Footprint" "Adapter_F469:TestPoint_Pad_D1.0mm"
+			(at 346.71 116.84 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 346.71 116.84 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Description" ""
+			(at 346.71 116.84 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "MPN" ""
+			(at 346.71 116.84 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(pin "1"
+			(uuid "cc37e932-45eb-44cf-a037-1300de71bed0"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "TP4")
+					(unit 1)))))
+	(global_label "LCD_RST"
+		(shape bidirectional)
+		(at 335.28 116.84 180)
+		(effects
+			(font
+				(size 1.1 1.1))
+			(justify right))
+		(uuid "d0e28253-950b-4405-a338-a632af532c79")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 335.46 117 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes))))
+	(symbol
+		(lib_id "Adapter_F469:TP")
+		(at 389.89 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c2acbfdf-97de-435e-868d-91506ba8ba8e")
+		(property "Reference" "TP10"
+			(at 389.89 111.04 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Value" "TP_RST"
+			(at 389.89 113.54 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Footprint" "Adapter_F469:TestPoint_Pad_D1.0mm"
+			(at 389.89 116.84 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 389.89 116.84 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Description" ""
+			(at 389.89 116.84 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "MPN" ""
+			(at 389.89 116.84 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(pin "1"
+			(uuid "7456271c-eeaa-4cc8-ab20-7a7b8a329fc4"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "TP10")
+					(unit 1)))))
+	(global_label "TP_RST"
+		(shape bidirectional)
+		(at 378.46 116.84 180)
+		(effects
+			(font
+				(size 1.1 1.1))
+			(justify right))
+		(uuid "6faa6c7f-f967-46bf-a9ac-2060c5b4a4cc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 378.46 117 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes))))
+	(symbol
+		(lib_id "Adapter_F469:TP")
+		(at 346.71 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8a15258-1d14-4247-be74-1ff3150390d9")
+		(property "Reference" "TP5"
+			(at 346.71 142.79 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Value" "TP_INT"
+			(at 346.71 145.29 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Footprint" "Adapter_F469:TestPoint_Pad_D1.0mm"
+			(at 346.71 148.59 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 346.71 148.59 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Description" ""
+			(at 346.71 148.59 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "MPN" ""
+			(at 346.71 148.59 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(pin "1"
+			(uuid "214f330a-d912-4f87-bc02-3ddddfcc7d56"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "TP5")
+					(unit 1)))))
+	(global_label "TP_INT"
+		(shape bidirectional)
+		(at 335.28 148.59 180)
+		(effects
+			(font
+				(size 1.1 1.1))
+			(justify right))
+		(uuid "f440095a-65a1-4722-ae82-c191906e29e0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 335.46 148 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes))))
+	(text "Supply declarations"
+		(at 312 175 0)
+		(effects
+			(font
+				(size 1.1 1.1))
+			(justify left top))
+		(uuid "d684e3de-e5cc-451f-b0fd-ba89454e1795"))
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 332.74 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "6854d8fe-b9e2-48ef-91a6-580b0f2e828d")
+		(property "Reference" "#FLG01"
+			(at 332.74 180.89 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Value" "PWR_FLAG"
+			(at 332.74 183.39 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Footprint" ""
+			(at 332.74 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 332.74 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 332.74 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "16ab2ace-b4ba-4f30-ba54-e91b1231bee3"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "#FLG01")
+					(unit 1)))))
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 384.81 186.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "b0588a08-9dd6-4771-bc84-fd2c702ba50e")
+		(property "Reference" "#FLG02"
+			(at 384.81 180.89 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Value" "PWR_FLAG"
+			(at 384.81 183.39 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Footprint" ""
+			(at 384.81 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 384.81 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 384.81 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "d893a885-80a5-4fc0-93f8-a083268eb626"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "#FLG02")
+					(unit 1)))))
+	(rectangle
+		(start 12 207)
+		(end 112 268)
+		(stroke
+			(width 0.22)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "894e33ed-e345-412f-b3c8-560b60af5bb0"))
+	(text "INTERFACE CONVENTIONS"
+		(at 15 209.8 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(bold yes))
+			(justify left top))
+		(uuid "5c04f25e-0a53-4673-8d18-113329daf70c"))
+	(polyline
+		(pts
+			(xy 12 217)
+			(xy 112 217))
+		(stroke
+			(width 0.18)
+			(type solid))
+		(uuid "00ef1294-e17c-492e-84d4-86228ad55527"))
+	(text "Host LCD 3.3 V and host touch 3.3 V\nremain distinct input nets.\n\nBL_PWM_RAW: PC6 from CN12.\nHOST_TP_RST: PB12 from CN12.\nTP_INT: PJ5 from CN2.\n\nPower symbols retain original rail names."
+		(at 16 223 0)
+		(effects
+			(font
+				(size 1.3 1.3))
+			(justify left top))
+		(uuid "a807945d-928c-4dfb-9e27-c6e2fd942791"))
+	(rectangle
+		(start 120 230)
+		(end 298 272)
+		(stroke
+			(width 0.22)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "7d738193-4338-491f-a449-674ee9dc17b4"))
+	(text "VALIDATION NOTES - REVISION K"
+		(at 123 232.8 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(bold yes))
+			(justify left top))
+		(uuid "db4c9388-aa79-4d7f-bdc3-922bc1be9edf"))
+	(polyline
+		(pts
+			(xy 120 240)
+			(xy 298 240))
+		(stroke
+			(width 0.18)
+			(type solid))
+		(uuid "a631304d-06e6-4b26-9ecc-1c9483870fe2"))
+	(text "A: VCI 3.0-3.6 V, touch 3.3 V nominal.\nB: VCI and J2.30/31 VDD ranges UNKNOWN.\nBoth touch drawings: 2.8-3.3 V, supply current not given.\nResolve rail budgets, tolerance and reset timing before power-up."
+		(at 126 245 0)
+		(effects
+			(font
+				(size 1.3 1.3))
+			(justify left top))
+		(uuid "24b78250-c647-421f-a8f0-b69627be8775"))
+	(symbol
+		(lib_id "power:GND")
+		(at 71.12 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "02ffc474-ea0d-4541-ace0-2326630f2afe")
+		(property "Reference" "#PWR1034"
+			(at 71.12 54.61 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Value" "GND"
+			(at 75.12 54.61 90)
+			(effects
+				(font
+					(size 1.0 1.0))
+				(justify right)))
+		(pin "1"
+			(uuid "9f987721-84c9-4faf-b9b2-cb3c7994cef7"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "#PWR1034")
+					(unit 1)))))
+	(symbol
+		(lib_id "Adapter_F469_Power:HOST_TP_3V3")
+		(at 71.12 149.86 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "e9ca8afa-8f1b-4704-ba6a-667dfd74890d")
+		(property "Reference" "#PWR1035"
+			(at 71.12 149.86 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Value" "HOST_TP_3V3"
+			(at 75.12 149.86 90)
+			(effects
+				(font
+					(size 1.0 1.0))
+				(justify left)))
+		(pin "1"
+			(uuid "f074f019-8f24-4e62-bd0e-d4941ae4f73d"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "#PWR1035")
+					(unit 1)))))
+	(symbol
+		(lib_id "power:GND")
+		(at 71.12 168.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "46171d04-b28f-4b0c-8c07-acfaa0eb9e29")
+		(property "Reference" "#PWR1036"
+			(at 71.12 168.91 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Value" "GND"
+			(at 75.12 168.91 90)
+			(effects
+				(font
+					(size 1.0 1.0))
+				(justify right)))
+		(pin "1"
+			(uuid "d050c7e3-9b68-432e-a7f2-72c9c31fbee5"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "#PWR1036")
+					(unit 1)))))
+	(symbol
+		(lib_id "Adapter_F469_Power:HOST_3V3")
+		(at 335.28 54.61 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "dde159f3-3ec8-4e8b-9314-ef5b7595a858")
+		(property "Reference" "#PWR1037"
+			(at 335.28 54.61 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Value" "HOST_3V3"
+			(at 331.28 54.61 90)
+			(effects
+				(font
+					(size 1.0 1.0))
+				(justify left)))
+		(pin "1"
+			(uuid "c9e5d482-390b-4fff-a075-0278ffc362b2"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "#PWR1037")
+					(unit 1)))))
+	(symbol
+		(lib_id "power:GND")
+		(at 378.46 54.61 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "eb468dc7-a3cf-46d9-9b0b-c06b28233f89")
+		(property "Reference" "#PWR1038"
+			(at 378.46 54.61 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Value" "GND"
+			(at 374.46 54.61 90)
+			(effects
+				(font
+					(size 1.0 1.0))
+				(justify right)))
+		(pin "1"
+			(uuid "69d608f7-74b3-4afd-8242-5c0b12caa619"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "#PWR1038")
+					(unit 1)))))
+	(symbol
+		(lib_id "Adapter_F469_Power:LCD_VCI")
+		(at 335.28 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "003d3450-7ca6-4251-b1cc-e0393c6475b9")
+		(property "Reference" "#PWR1039"
+			(at 335.28 86.36 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Value" "LCD_VCI"
+			(at 331.28 86.36 90)
+			(effects
+				(font
+					(size 1.0 1.0))
+				(justify left)))
+		(pin "1"
+			(uuid "741d2d52-c7da-41c0-b83e-abfc5c7e1c43"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "#PWR1039")
+					(unit 1)))))
+	(symbol
+		(lib_id "Adapter_F469_Power:TP_VDD")
+		(at 378.46 86.36 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "73f2c271-d456-4398-b646-5776d74eac20")
+		(property "Reference" "#PWR1040"
+			(at 378.46 86.36 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Value" "TP_VDD"
+			(at 374.46 86.36 90)
+			(effects
+				(font
+					(size 1.0 1.0))
+				(justify left)))
+		(pin "1"
+			(uuid "93ecaf32-9653-47cc-bce1-75e4d151cc04"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "#PWR1040")
+					(unit 1)))))
+	(symbol
+		(lib_id "Adapter_F469_Power:HOST_3V3")
+		(at 332.74 198.12 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "b95030a4-8b77-4409-a676-a5182294c32b")
+		(property "Reference" "#PWR1041"
+			(at 332.74 198.12 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Value" "HOST_3V3"
+			(at 336.74 198.12 90)
+			(effects
+				(font
+					(size 1.0 1.0))
+				(justify left)))
+		(pin "1"
+			(uuid "7f01bf73-1161-4031-8026-49ec45a6074c"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "#PWR1041")
+					(unit 1)))))
+	(symbol
+		(lib_id "power:GND")
+		(at 384.81 198.12 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "8fcf8469-0b4a-48ee-aeea-a626be047c2e")
+		(property "Reference" "#PWR1042"
+			(at 384.81 198.12 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Value" "GND"
+			(at 388.81 198.12 90)
+			(effects
+				(font
+					(size 1.0 1.0))
+				(justify right)))
+		(pin "1"
+			(uuid "15bdf976-148e-494b-a396-5769a5011b14"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "#PWR1042")
+					(unit 1)))))
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 332.74 227.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "ddd7f8c3-dc86-46f8-b1e9-523d21b1f319")
+		(property "Reference" "#FLG04"
+			(at 332.74 221.53 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Value" "PWR_FLAG"
+			(at 332.74 224.03 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Footprint" ""
+			(at 332.74 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 332.74 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 332.74 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "d3aed29f-5054-4f2b-a596-25dc3e585464"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "#FLG04")
+					(unit 1)))))
+	(symbol
+		(lib_id "Adapter_F469_Power:HOST_TP_3V3")
+		(at 332.74 234.95 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "6ad465ee-334e-4922-a2d9-ccbfa4209806")
+		(property "Reference" "#PWR1053"
+			(at 332.74 234.95 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Value" "HOST_TP_3V3"
+			(at 336.74 234.95 90)
+			(effects
+				(font
+					(size 1.0 1.0))
+				(justify left)))
+		(pin "1"
+			(uuid "4403f902-0063-4adc-bc00-9214adc3e04e"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "#PWR1053")
+					(unit 1)))))
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 384.81 227.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "6898d9c1-8418-4425-9594-2cb3f1cf37d7")
+		(property "Reference" "#FLG05"
+			(at 384.81 221.53 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Value" "PWR_FLAG"
+			(at 384.81 224.03 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Footprint" ""
+			(at 384.81 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 384.81 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 384.81 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "d272d436-56f6-430b-ade3-83193e0522b3"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "#FLG05")
+					(unit 1)))))
+	(symbol
+		(lib_id "Adapter_F469_Power:LCD_VCI")
+		(at 384.81 234.95 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "95c69d51-de7a-4dff-aad9-00c17cedf36a")
+		(property "Reference" "#PWR1054"
+			(at 384.81 234.95 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Value" "LCD_VCI"
+			(at 388.81 234.95 90)
+			(effects
+				(font
+					(size 1.0 1.0))
+				(justify left)))
+		(pin "1"
+			(uuid "217afa85-bc6d-417b-9a05-e8c55a66046c"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "#PWR1054")
+					(unit 1)))))
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 332.74 207.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "0122f4fe-ecc8-47db-bdb0-3d175c095b73")
+		(property "Reference" "#FLG06"
+			(at 332.74 201.21 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Value" "PWR_FLAG"
+			(at 332.74 203.71 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Footprint" ""
+			(at 332.74 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 332.74 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 332.74 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "80696cc1-8951-4cf5-b03f-c7c67fe2de3c"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "#FLG06")
+					(unit 1)))))
+	(symbol
+		(lib_id "Adapter_F469_Power:TP_VDD")
+		(at 332.74 214.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "be27900e-61ae-494c-b7e4-2bc8a08a6ff6")
+		(property "Reference" "#PWR1055"
+			(at 332.74 214.63 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Value" "TP_VDD"
+			(at 336.74 214.63 90)
+			(effects
+				(font
+					(size 1.0 1.0))
+				(justify left)))
+		(pin "1"
+			(uuid "c0357422-b86a-449e-bf54-437320297fef"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "#PWR1055")
+					(unit 1)))))
+	(symbol
+		(lib_id "Adapter_F469:R")
+		(at 274.32 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(uuid "65f6c8d1-7b54-4c80-af45-41ec076694ac")
+		(property "Reference" "R23"
+			(at 277.62 67.18 90)
+			(effects
+				(font
+					(size 1.0 1.0))
+				(justify left)))
+		(property "Value" "0R / HOLD DNP"
+			(at 277.62 69.68 90)
+			(effects
+				(font
+					(size 1.0 1.0))
+				(justify left)))
+		(property "Footprint" "Adapter_F469:R_0805_2012Metric"
+			(at 274.32 68.58 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 274.32 68.58 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Description" "J2.30/31 voltage approval link from TP_VDD to PANEL_VDD_30_31. A: fit for confirmed 3.3V panel touch supply. B: DNP until rail purpose/range is confirmed; do not bridge unknown rails."
+			(at 274.32 68.58 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "MPN" ""
+			(at 274.32 68.58 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(pin "1"
+			(uuid "27a56dbf-999c-452e-b34b-4c8392564669"))
+		(pin "2"
+			(uuid "744b3518-58ae-4365-87c9-b7a207d423b4"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "R23")
+					(unit 1)))))
+	(symbol
+		(lib_id "Adapter_F469_Power:PANEL_VDD_30_31")
+		(at 237.49 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "12bcf7c6-cdc6-4b61-9ee5-009e2021023e")
+		(property "Reference" "#PWR2001"
+			(at 237.49 74.93 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Value" "PANEL_VDD_30_31"
+			(at 240.03 73.66 0)
+			(effects
+				(font
+					(size 0.9 0.9))
+				(justify left)))
+		(pin "1"
+			(uuid "a6c75365-fa5f-4230-a52a-539ca3cafbfc"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "#PWR2001")
+					(unit 1)))))
+	(junction
+		(at 237.49 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f26aa91c-cc72-4693-b554-62a43aee0c7b"))
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 384.81 207.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "5f2ef717-f519-4ab1-ae5a-06d5551a7524")
+		(property "Reference" "#FLG11"
+			(at 384.81 200.81 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Value" "PWR_FLAG"
+			(at 384.81 203.31 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Footprint" ""
+			(at 384.81 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Datasheet" ""
+			(at 384.81 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Description" ""
+			(at 384.81 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(pin "1"
+			(uuid "0e2c6e2d-50d3-4a25-a794-e72e84437b83"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "#FLG11")
+					(unit 1)))))
+	(symbol
+		(lib_id "Adapter_F469_Power:PANEL_VDD_30_31")
+		(at 384.81 214.63 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "fafcbb68-4e59-4e04-8c39-3aaebb868316")
+		(property "Reference" "#PWR2002"
+			(at 384.81 214.63 0)
+			(effects
+				(font
+					(size 1.1 1.1))
+				(hide yes)))
+		(property "Value" "PANEL_VDD_30_31"
+			(at 388.81 214.63 90)
+			(effects
+				(font
+					(size 0.9 0.9))
+				(justify left)))
+		(pin "1"
+			(uuid "9062ddf6-22f5-4a91-8e93-a6128597d91f"))
+		(instances
+			(project "STM32F469_DISEN_RevK"
+				(path "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c"
+					(reference "#PWR2002")
+					(unit 1)))))
+	(wire
+		(pts
+			(xy 60.96 54.61)
+			(xy 71.12 54.61))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "ecb7a774-5510-4d90-b056-276926948551"))
+	(wire
+		(pts
+			(xy 60.96 69.85)
+			(xy 71.12 69.85))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "50482481-483b-4e24-906d-42a3daf0cf1c"))
+	(wire
+		(pts
+			(xy 60.96 92.71)
+			(xy 71.12 92.71))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "98798156-6ca5-4eca-a43a-a703c6289c4e"))
+	(wire
+		(pts
+			(xy 60.96 149.86)
+			(xy 71.12 149.86))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "8cf110a8-5b91-47e5-8ff1-9093583eb692"))
+	(wire
+		(pts
+			(xy 60.96 153.67)
+			(xy 71.12 153.67))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "4abd84cd-0df2-4de0-8b02-afe20d7899bb"))
+	(wire
+		(pts
+			(xy 60.96 157.48)
+			(xy 71.12 157.48))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "75eb63f2-8261-4cba-853a-2b5d901c3514"))
+	(wire
+		(pts
+			(xy 60.96 161.29)
+			(xy 71.12 161.29))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "f14d21db-86d4-4ff6-91ca-bbd732761175"))
+	(wire
+		(pts
+			(xy 60.96 168.91)
+			(xy 71.12 168.91))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "41da7879-a9c1-4602-9f32-880e1495e684"))
+	(wire
+		(pts
+			(xy 133.35 49.53)
+			(xy 133.35 60.96))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "6c00db58-e79d-4651-baed-20832c4a8bce"))
+	(wire
+		(pts
+			(xy 133.35 60.96)
+			(xy 156.21 60.96))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "753b1eef-c97a-4209-b3f0-ef01900bafc4"))
+	(wire
+		(pts
+			(xy 148.59 74.93)
+			(xy 148.59 82.55))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "1fdf2893-8ca9-425b-b850-8ca0afdee54a"))
+	(wire
+		(pts
+			(xy 148.59 74.93)
+			(xy 180.34 74.93))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "f5f17e05-f572-460a-a1f1-a71d3ffb0442"))
+	(wire
+		(pts
+			(xy 148.59 92.71)
+			(xy 148.59 102.87))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "67135617-c740-4871-a194-a58a40dab785"))
+	(wire
+		(pts
+			(xy 148.59 102.87)
+			(xy 180.34 102.87))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "9ba2943f-7a6f-4e32-a812-d7738e402a29"))
+	(wire
+		(pts
+			(xy 163.83 167.64)
+			(xy 163.83 176.53))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "32a2fb52-dec3-4cf9-8b17-7163581b06d6"))
+	(wire
+		(pts
+			(xy 163.83 186.69)
+			(xy 163.83 195.58))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "25fb3d86-8293-48cf-987e-195f2303c0d7"))
+	(wire
+		(pts
+			(xy 166.37 60.96)
+			(xy 185.42 60.96))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "ff2d3b99-c5de-4434-9fe2-893a46ba852f"))
+	(wire
+		(pts
+			(xy 180.34 74.93)
+			(xy 180.34 82.55))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "813b83aa-d929-4c42-9e90-658001551dd3"))
+	(wire
+		(pts
+			(xy 180.34 74.93)
+			(xy 185.42 74.93))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "7205fb0c-d4d6-4026-bf84-4f29ee46fb26"))
+	(wire
+		(pts
+			(xy 180.34 92.71)
+			(xy 180.34 102.87))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "29f3f718-60ac-4025-bee4-9962f797bd7f"))
+	(wire
+		(pts
+			(xy 185.42 60.96)
+			(xy 185.42 74.93))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "7ec27491-c449-43fa-bd66-e186277d6078"))
+	(wire
+		(pts
+			(xy 220.98 49.53)
+			(xy 220.98 60.96))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "0eddbec3-9c19-440a-ae64-f59487ecad47"))
+	(wire
+		(pts
+			(xy 220.98 60.96)
+			(xy 243.84 60.96))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "3b835df2-decc-4a0f-aacb-775a818928e6"))
+	(wire
+		(pts
+			(xy 237.49 74.93)
+			(xy 237.49 82.55))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "29c1a2b2-8340-4f93-a343-2950c5554333"))
+	(wire
+		(pts
+			(xy 237.49 74.93)
+			(xy 267.97 74.93))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "d3cfa9ff-627a-4b88-a2c0-34110097aa9a"))
+	(wire
+		(pts
+			(xy 237.49 92.71)
+			(xy 237.49 102.87))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "27833c3c-d36a-4ec9-b925-1bceabd1344e"))
+	(wire
+		(pts
+			(xy 237.49 102.87)
+			(xy 267.97 102.87))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "2e528e27-e449-4c68-a40b-f2cf6bd48c74"))
+	(wire
+		(pts
+			(xy 252.73 167.64)
+			(xy 252.73 176.53))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "75557284-5646-4d73-ae6c-b43d9dd472c1"))
+	(wire
+		(pts
+			(xy 252.73 186.69)
+			(xy 252.73 195.58))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "a40a286a-af2d-4376-81a8-c150ec6b0fd8"))
+	(wire
+		(pts
+			(xy 254.0 60.96)
+			(xy 274.32 60.96))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "9f1b89be-f6fd-4b11-af46-7fba58b51d51"))
+	(wire
+		(pts
+			(xy 267.97 74.93)
+			(xy 267.97 82.55))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "a4dd1a63-8c2e-4a8f-b21e-ccba7f78dedb"))
+	(wire
+		(pts
+			(xy 267.97 74.93)
+			(xy 274.32 74.93))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "9a4bdd4b-a0cf-4162-8d76-ae59d34f8b76"))
+	(wire
+		(pts
+			(xy 267.97 92.71)
+			(xy 267.97 102.87))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "979140f6-52fd-4c26-b3dd-66f78592f8fb"))
+	(wire
+		(pts
+			(xy 274.32 60.96)
+			(xy 274.32 63.5))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "70034a9f-3717-4c10-b7ba-3eb56cab4e63"))
+	(wire
+		(pts
+			(xy 274.32 73.66)
+			(xy 274.32 74.93))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "9807cd5d-e1aa-458d-ba9b-a0f3d1e7f723"))
+	(wire
+		(pts
+			(xy 332.74 186.69)
+			(xy 332.74 198.12))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "f40a3b33-3bf3-4adb-8094-1e321fd3cecc"))
+	(wire
+		(pts
+			(xy 332.74 207.01)
+			(xy 332.74 214.63))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "91a528ec-a3f7-4d03-9bbc-621a2b742e5a"))
+	(wire
+		(pts
+			(xy 332.74 227.33)
+			(xy 332.74 234.95))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "d4bee6e9-e509-4878-8ac7-b5e84e8210a1"))
+	(wire
+		(pts
+			(xy 335.28 54.61)
+			(xy 344.17 54.61))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "552d5270-cccb-4e6e-9421-fae6ef8b36ea"))
+	(wire
+		(pts
+			(xy 335.28 86.36)
+			(xy 344.17 86.36))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "ed1efc2c-eac5-4f1e-9505-34ce6d4d36d3"))
+	(wire
+		(pts
+			(xy 335.28 116.84)
+			(xy 344.17 116.84))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "eb4cd525-c88e-4470-a29b-ad77fd3fa3c1"))
+	(wire
+		(pts
+			(xy 335.28 148.59)
+			(xy 344.17 148.59))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "3d44ca9f-a4cd-43f5-a311-d1afe2f194a7"))
+	(wire
+		(pts
+			(xy 378.46 54.61)
+			(xy 387.35 54.61))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "e4b70851-45ec-4cae-8b56-5bc4d77e133a"))
+	(wire
+		(pts
+			(xy 378.46 86.36)
+			(xy 387.35 86.36))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "e3ee0047-e09c-4d49-8bda-b5bcf1f5059a"))
+	(wire
+		(pts
+			(xy 378.46 116.84)
+			(xy 387.35 116.84))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "9d9517af-da9f-4287-bfb2-969adac00ee9"))
+	(wire
+		(pts
+			(xy 384.81 186.69)
+			(xy 384.81 198.12))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "ab85b53c-22b1-4464-89bd-ec70a3a3819e"))
+	(wire
+		(pts
+			(xy 384.81 207.01)
+			(xy 384.81 214.63))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "452d9705-3b7c-43c3-93ac-8fd4be1ded89"))
+	(wire
+		(pts
+			(xy 384.81 227.33)
+			(xy 384.81 234.95))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "13a2f431-ee89-4f63-b7b1-019582b03350")))

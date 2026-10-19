@@ -1,0 +1,92 @@
+{
+  "resistor_network_from_netlist": {
+    "R19": [
+      "BL_LEDA",
+      "OVP_SENSE",
+      221000.0
+    ],
+    "R20": [
+      "OVP_SENSE",
+      "OVP_SEL_HIGH",
+      15000.0
+    ],
+    "R21": [
+      "OVP_SENSE",
+      "OVP_SEL_LOW",
+      60400.0
+    ],
+    "R22": [
+      "OVP_SENSE",
+      "GND",
+      30000.0
+    ]
+  },
+  "mode_nodal_analysis": [
+    {
+      "mode": "LOW_B",
+      "sense_per_output_volt": 0.08315588516043763,
+      "nominal_OVP_V": 14.935803973509932,
+      "resistors_only_min_V": 14.908443725810614,
+      "resistors_only_max_V": 14.963218996479926,
+      "limits_note": "Nominal Vref=1.242V only. Bounds include resistor 0.1% tolerances ONLY; exclude comparator reference/offset/hysteresis/startup/transients. Not a guaranteed voltage limit."
+    },
+    {
+      "mode": "HIGH_A",
+      "sense_per_output_volt": 0.04329004329004329,
+      "nominal_OVP_V": 28.6902,
+      "resistors_only_min_V": 28.635358441558445,
+      "resistors_only_max_V": 28.745151351351353,
+      "limits_note": "Nominal Vref=1.242V only. Bounds include resistor 0.1% tolerances ONLY; exclude comparator reference/offset/hysteresis/startup/transients. Not a guaranteed voltage limit."
+    },
+    {
+      "mode": "NO_SHUNT",
+      "sense_per_output_volt": 0.11952191235059761,
+      "nominal_OVP_V": 10.391399999999999,
+      "resistors_only_min_V": 10.373119480519481,
+      "resistors_only_max_V": 10.409717117117118,
+      "limits_note": "Nominal Vref=1.242V only. Bounds include resistor 0.1% tolerances ONLY; exclude comparator reference/offset/hysteresis/startup/transients. Not a guaranteed voltage limit."
+    },
+    {
+      "mode": "INVALID_ALL_BRIDGED",
+      "sense_per_output_volt": 0.0373706875216552,
+      "nominal_OVP_V": 33.234603973509934,
+      "resistors_only_min_V": 33.17068268684958,
+      "resistors_only_max_V": 33.29865323071416,
+      "limits_note": "Nominal Vref=1.242V only. Bounds include resistor 0.1% tolerances ONLY; exclude comparator reference/offset/hysteresis/startup/transients. Not a guaranteed voltage limit."
+    }
+  ],
+  "LED_current": {
+    "sense_R_ohm": 5.23,
+    "nominal_A": 0.03824091778202677,
+    "FB_and_R_min_A": 0.03710504893701607,
+    "FB_and_R_max_A": 0.03939973347239121,
+    "same_for_both_modes": true,
+    "B_total_40mA_interpretation_needs_vendor_confirmation": true
+  },
+  "power_estimates": [
+    {
+      "case": "A_max_documented_Vf",
+      "assumed_boost_input_V": 4.2,
+      "assumed_efficiency": 0.75,
+      "output_V": 27.404,
+      "calculated_output_W": 1.105718234293859,
+      "input_A": 0.3510216616805901,
+      "ideal_duty": 0.8467377025251788,
+      "inductor_ripple_A_pp": 0.20206240628441766,
+      "inductor_peak_A": 0.45205286482279894,
+      "scope": "Planning approximation, NOT measured efficiency/current/thermal proof; B calculation uses typical Vf only."
+    },
+    {
+      "case": "B_typical_Vf_only",
+      "assumed_boost_input_V": 4.2,
+      "assumed_efficiency": 0.75,
+      "output_V": 12.204,
+      "calculated_output_W": 0.48596549335045025,
+      "input_A": 0.1542747597937937,
+      "ideal_duty": 0.655850540806293,
+      "inductor_ripple_A_pp": 0.15650978814695626,
+      "inductor_peak_A": 0.23252965386727184,
+      "scope": "Planning approximation, NOT measured efficiency/current/thermal proof; B calculation uses typical Vf only."
+    }
+  ]
+}

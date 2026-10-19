@@ -1,0 +1,643 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "3f652b30-21fe-46b7-a79c-ee938d81f508")
+	(paper "A3")
+	(title_block
+		(title "STM32F469 / DISEN - Dual LCD configuration")
+		(date "2026-10-19")
+		(rev "K / HOLD")
+		(company "Yakup Turkan")
+		(comment 1 "Documented settings; panel B electrical approval remains OPEN"))
+	(lib_symbols)
+	(embedded_fonts no)
+	(text "04 / DUAL LCD CONFIGURATION & RELEASE CONDITIONS"
+		(at 15.0 15.0 0)
+		(effects
+			(font
+				(size 2.3 2.3)
+				(bold yes))
+			(justify left top))
+		(uuid "f02505ac-f292-4683-b9c9-b4fcd6847989"))
+	(text "One LCD at a time. Change cables/shunt only with ALL supplies OFF. Default assembly: R4/R23 DNP, no JP1 shunt."
+		(at 15.0 24.0 0)
+		(effects
+			(font
+				(size 1.25 1.25))
+			(justify left top))
+		(uuid "0a0d3c65-794e-4185-ad7d-e25b047b4f5c"))
+	(polyline
+		(pts
+			(xy 12.0 35.0)
+			(xy 408.0 35.0))
+		(stroke
+			(width 0.15)
+			(type solid))
+		(uuid "450ba46b-7160-49c4-acb5-512b9f9bebd4"))
+	(polyline
+		(pts
+			(xy 12.0 46.0)
+			(xy 408.0 46.0))
+		(stroke
+			(width 0.15)
+			(type solid))
+		(uuid "cd412f53-d14e-4395-be65-d93f63cedf5b"))
+	(polyline
+		(pts
+			(xy 12.0 57.0)
+			(xy 408.0 57.0))
+		(stroke
+			(width 0.15)
+			(type solid))
+		(uuid "0eee047a-cce3-4e0a-82e9-c56969ebe7db"))
+	(polyline
+		(pts
+			(xy 12.0 68.0)
+			(xy 408.0 68.0))
+		(stroke
+			(width 0.15)
+			(type solid))
+		(uuid "fb5d7d1c-2fa7-49dc-9936-431e3fd5b132"))
+	(polyline
+		(pts
+			(xy 12.0 79.0)
+			(xy 408.0 79.0))
+		(stroke
+			(width 0.15)
+			(type solid))
+		(uuid "712636fe-37d3-47ff-a364-cfc5cfccfb0b"))
+	(polyline
+		(pts
+			(xy 12.0 90.0)
+			(xy 408.0 90.0))
+		(stroke
+			(width 0.15)
+			(type solid))
+		(uuid "2a885e76-34b0-43dc-91a1-8e74b1a824bc"))
+	(polyline
+		(pts
+			(xy 12.0 101.0)
+			(xy 408.0 101.0))
+		(stroke
+			(width 0.15)
+			(type solid))
+		(uuid "407aeb8b-5db3-43c7-a534-4881431e867d"))
+	(polyline
+		(pts
+			(xy 12.0 112.0)
+			(xy 408.0 112.0))
+		(stroke
+			(width 0.15)
+			(type solid))
+		(uuid "9241505f-673d-4b59-ae75-492c16f0d053"))
+	(polyline
+		(pts
+			(xy 12.0 123.0)
+			(xy 408.0 123.0))
+		(stroke
+			(width 0.15)
+			(type solid))
+		(uuid "5b19b9a5-698f-4acd-a091-700491491d4b"))
+	(polyline
+		(pts
+			(xy 12.0 134.0)
+			(xy 408.0 134.0))
+		(stroke
+			(width 0.15)
+			(type solid))
+		(uuid "ac3f3ceb-5a40-48a2-a637-e05586adb6f2"))
+	(polyline
+		(pts
+			(xy 12.0 145.0)
+			(xy 408.0 145.0))
+		(stroke
+			(width 0.15)
+			(type solid))
+		(uuid "d6022d74-bf3e-4b96-9501-7c4772cd3206"))
+	(polyline
+		(pts
+			(xy 12.0 156.0)
+			(xy 408.0 156.0))
+		(stroke
+			(width 0.15)
+			(type solid))
+		(uuid "57864ba4-3c5c-4edd-9c2e-e8bd8c2cc92f"))
+	(polyline
+		(pts
+			(xy 12.0 35.0)
+			(xy 12.0 156.0))
+		(stroke
+			(width 0.15)
+			(type solid))
+		(uuid "f2aa8ca4-c93b-4e91-8bb6-014acb0e119d"))
+	(polyline
+		(pts
+			(xy 108.0 35.0)
+			(xy 108.0 156.0))
+		(stroke
+			(width 0.15)
+			(type solid))
+		(uuid "7c09ceb9-11d3-42fc-a124-b113b800b2f7"))
+	(polyline
+		(pts
+			(xy 256.0 35.0)
+			(xy 256.0 156.0))
+		(stroke
+			(width 0.15)
+			(type solid))
+		(uuid "6ea33c4e-5f21-48d6-808a-654548e9e643"))
+	(polyline
+		(pts
+			(xy 408.0 35.0)
+			(xy 408.0 156.0))
+		(stroke
+			(width 0.15)
+			(type solid))
+		(uuid "f09bbbe0-1ebf-4178-9d83-1c27245cab0f"))
+	(text "ITEM"
+		(at 14.0 37.0 0)
+		(effects
+			(font
+				(size 2.0 2.0)
+				(bold yes))
+			(justify left top))
+		(uuid "fe6f34b9-515f-426a-9623-4a7f56c86566"))
+	(text "LCD A / HSD"
+		(at 110.0 37.0 0)
+		(effects
+			(font
+				(size 2.0 2.0)
+				(bold yes))
+			(justify left top))
+		(uuid "f6dbc8d8-9832-450b-9fd3-6deac96c8829"))
+	(text "LCD B / BOE - CONDITIONAL"
+		(at 258.0 37.0 0)
+		(effects
+			(font
+				(size 2.0 2.0)
+				(bold yes))
+			(justify left top))
+		(uuid "62f4c530-b8d8-482a-9fc6-eb61e444c58e"))
+	(text "Model"
+		(at 14.0 48.0 0)
+		(effects
+			(font
+				(size 2.0 2.0))
+			(justify left top))
+		(uuid "f0335b68-9c0b-4169-b5b5-d70dea12afb6"))
+	(text "DS070HSD39T-132 / A0 preliminary"
+		(at 110.0 48.0 0)
+		(effects
+			(font
+				(size 2.0 2.0))
+			(justify left top))
+		(uuid "136aa2ca-2d05-409e-aecb-19e6c48c2d3e"))
+	(text "DS0700BOE1A39CO-0180A / drawing A01"
+		(at 258.0 48.0 0)
+		(effects
+			(font
+				(size 2.0 2.0))
+			(justify left top))
+		(uuid "e90a7842-da78-40b6-91ba-c14b1e076f5f"))
+	(text "Display / IC"
+		(at 14.0 59.0 0)
+		(effects
+			(font
+				(size 2.0 2.0))
+			(justify left top))
+		(uuid "c5afdcaa-f4f7-4222-adf1-6aed8e441b8f"))
+	(text "280 x 1424 / OTA7290B"
+		(at 110.0 59.0 0)
+		(effects
+			(font
+				(size 2.0 2.0))
+			(justify left top))
+		(uuid "f697b1e4-ccd6-4bde-b1ec-b012c5208a69"))
+	(text "280 x 1424 / JD9365DA-H3"
+		(at 258.0 59.0 0)
+		(effects
+			(font
+				(size 2.0 2.0))
+			(justify left top))
+		(uuid "e477a88a-8b3c-4435-923f-f8d78c3ac664"))
+	(text "Touch IC"
+		(at 14.0 70.0 0)
+		(effects
+			(font
+				(size 2.0 2.0))
+			(justify left top))
+		(uuid "e7a55e03-91fa-4f12-acfc-d020853459e6"))
+	(text "ILI2130 / I2C"
+		(at 110.0 70.0 0)
+		(effects
+			(font
+				(size 2.0 2.0))
+			(justify left top))
+		(uuid "1cbb515e-4ed8-4fb7-b84e-f5f0d58065eb"))
+	(text "GT911 / I2C; startup INT behavior needs review"
+		(at 258.0 70.0 0)
+		(effects
+			(font
+				(size 2.0 2.0))
+			(justify left top))
+		(uuid "a04036fa-aa7f-448a-a168-ac3ae372118d"))
+	(text "39-pin / MIPI"
+		(at 14.0 81.0 0)
+		(effects
+			(font
+				(size 2.0 2.0))
+			(justify left top))
+		(uuid "88efa237-b77c-4520-ad76-9a3c8e8d33c6"))
+	(text "D0 +/- 16/17, D1 +/- 20/21, CLK +/- 24/25"
+		(at 110.0 81.0 0)
+		(effects
+			(font
+				(size 2.0 2.0))
+			(justify left top))
+		(uuid "65a72a85-3ec6-405b-97d8-56e083312eff"))
+	(text "Same numbered lane/polarity assignments"
+		(at 258.0 81.0 0)
+		(effects
+			(font
+				(size 2.0 2.0))
+			(justify left top))
+		(uuid "ec2e6d62-fcab-45c6-8e0d-8159b7823ac1"))
+	(text "LED array / current"
+		(at 14.0 92.0 0)
+		(effects
+			(font
+				(size 2.0 2.0))
+			(justify left top))
+		(uuid "df003b83-f98a-4bc2-a489-911be93310db"))
+	(text "8S2P / 21.6-27.2 V / IF 40 mA"
+		(at 110.0 92.0 0)
+		(effects
+			(font
+				(size 2.0 2.0))
+			(justify left top))
+		(uuid "4309d10f-6c6c-4c3d-a978-f3bd1efc547c"))
+	(text "4S2P / VF 12 V typ / IF 40 mA stated"
+		(at 258.0 92.0 0)
+		(effects
+			(font
+				(size 2.0 2.0))
+			(justify left top))
+		(uuid "550f8488-50b5-42f4-b356-b40b5409fc0d"))
+	(text "VCI / J2.7-10"
+		(at 14.0 103.0 0)
+		(effects
+			(font
+				(size 2.0 2.0))
+			(justify left top))
+		(uuid "7c91935e-6fc0-4f1d-8c13-a3b99f9fd047"))
+	(text "3.0-3.6 V documented"
+		(at 110.0 103.0 0)
+		(effects
+			(font
+				(size 2.0 2.0))
+			(justify left top))
+		(uuid "f1964fca-88ba-418f-b8f9-ff75f6fb36a3"))
+	(text "NO RANGE GIVEN - manufacturer confirmation"
+		(at 258.0 103.0 0)
+		(effects
+			(font
+				(size 2.0 2.0))
+			(justify left top))
+		(uuid "49048133-17b8-40c2-aa2a-a2a5cd6be3e1"))
+	(text "VDD / J2.30-31"
+		(at 14.0 114.0 0)
+		(effects
+			(font
+				(size 2.0 2.0))
+			(justify left top))
+		(uuid "c8d20cc4-66c9-4fa8-8e1d-4f772e75f2f5"))
+	(text "3.3 V touch supply per A electrical table"
+		(at 110.0 114.0 0)
+		(effects
+			(font
+				(size 2.0 2.0))
+			(justify left top))
+		(uuid "e71a2614-e14d-44d8-9b0b-82a1b6104d2d"))
+	(text "VDD only; purpose/range NOT confirmed"
+		(at 258.0 114.0 0)
+		(effects
+			(font
+				(size 2.0 2.0))
+			(justify left top))
+		(uuid "e8e73a37-afa5-4139-a9be-6bb7dd1c0c10"))
+	(text "Touch 6-pin tail"
+		(at 14.0 125.0 0)
+		(effects
+			(font
+				(size 2.0 2.0))
+			(justify left top))
+		(uuid "a9d1428d-7ef1-457e-ba2d-357191fa3615"))
+	(text "1 GND, 2 SCL, 3 SDA, 4 RST, 5 INT, 6 3V3"
+		(at 110.0 125.0 0)
+		(effects
+			(font
+				(size 2.0 2.0))
+			(justify left top))
+		(uuid "6ee424c4-280b-4d78-afa0-68e815e5ed78"))
+	(text "Same tail pin order; NOT compatible with host J3"
+		(at 258.0 125.0 0)
+		(effects
+			(font
+				(size 2.0 2.0))
+			(justify left top))
+		(uuid "2a4bab3d-8622-467b-bc12-2f247ccbef47"))
+	(text "Lens / thickness"
+		(at 14.0 136.0 0)
+		(effects
+			(font
+				(size 2.0 2.0))
+			(justify left top))
+		(uuid "58965368-54d1-4380-a0fe-bb6b4ad83c38"))
+	(text "48.25 x 216.54 / 5.39 mm nominal"
+		(at 110.0 136.0 0)
+		(effects
+			(font
+				(size 2.0 2.0))
+			(justify left top))
+		(uuid "b841bb65-30ce-4160-a5e3-58d419cf2ccd"))
+	(text "56.95 x 216.46 / 5.20 mm nominal"
+		(at 258.0 136.0 0)
+		(effects
+			(font
+				(size 2.0 2.0))
+			(justify left top))
+		(uuid "d835bc1c-fbb0-42d9-95e5-744baf487729"))
+	(text "Evidence limit"
+		(at 14.0 147.0 0)
+		(effects
+			(font
+				(size 2.0 2.0))
+			(justify left top))
+		(uuid "90bf6a1d-c706-40b0-8963-12d6bf572eb9"))
+	(text "Currents TBD; physical flex mating unverified"
+		(at 110.0 147.0 0)
+		(effects
+			(font
+				(size 2.0 2.0))
+			(justify left top))
+		(uuid "9e7b1777-dd12-4812-a641-ba559206bab8"))
+	(text "Only mechanical drawing; Vf max / ratings missing"
+		(at 258.0 147.0 0)
+		(effects
+			(font
+				(size 2.0 2.0))
+			(justify left top))
+		(uuid "07b73dc8-036c-4aac-b0d3-0ef603fb3777"))
+	(polyline
+		(pts
+			(xy 12.0 166.0)
+			(xy 408.0 166.0))
+		(stroke
+			(width 0.15)
+			(type solid))
+		(uuid "2061df78-11bd-4b61-ac2d-338a5e40e11d"))
+	(polyline
+		(pts
+			(xy 12.0 178.0)
+			(xy 408.0 178.0))
+		(stroke
+			(width 0.15)
+			(type solid))
+		(uuid "d4ea78bf-fdfa-44f3-b562-4d98e265df21"))
+	(polyline
+		(pts
+			(xy 12.0 190.0)
+			(xy 408.0 190.0))
+		(stroke
+			(width 0.15)
+			(type solid))
+		(uuid "4c135bd1-50b3-40ae-97df-b238e8d911ce"))
+	(polyline
+		(pts
+			(xy 12.0 202.0)
+			(xy 408.0 202.0))
+		(stroke
+			(width 0.15)
+			(type solid))
+		(uuid "4ecf9bf7-b05e-4466-ab67-c3bae574c2d9"))
+	(polyline
+		(pts
+			(xy 12.0 214.0)
+			(xy 408.0 214.0))
+		(stroke
+			(width 0.15)
+			(type solid))
+		(uuid "de6af532-0d9c-4125-a7a7-2dbfcdc0823e"))
+	(polyline
+		(pts
+			(xy 12.0 226.0)
+			(xy 408.0 226.0))
+		(stroke
+			(width 0.15)
+			(type solid))
+		(uuid "c226e54d-be4f-4a87-8c3c-20790eb56b06"))
+	(polyline
+		(pts
+			(xy 12.0 166.0)
+			(xy 12.0 226.0))
+		(stroke
+			(width 0.15)
+			(type solid))
+		(uuid "f5e94972-00b0-4435-bf94-389fca46d77e"))
+	(polyline
+		(pts
+			(xy 108.0 166.0)
+			(xy 108.0 226.0))
+		(stroke
+			(width 0.15)
+			(type solid))
+		(uuid "130246b2-51ea-40b5-b232-2111c020e34b"))
+	(polyline
+		(pts
+			(xy 256.0 166.0)
+			(xy 256.0 226.0))
+		(stroke
+			(width 0.15)
+			(type solid))
+		(uuid "189f5fce-c7e1-46ce-9a6b-9b32dc10226e"))
+	(polyline
+		(pts
+			(xy 408.0 166.0)
+			(xy 408.0 226.0))
+		(stroke
+			(width 0.15)
+			(type solid))
+		(uuid "cd7db3bc-8402-4dfc-8b66-3b92a6615f6d"))
+	(text "SETTING"
+		(at 14.0 168.0 0)
+		(effects
+			(font
+				(size 2.0 2.0)
+				(bold yes))
+			(justify left top))
+		(uuid "275c184c-cc36-48e8-a92b-6a1938711f0d"))
+	(text "LCD A"
+		(at 110.0 168.0 0)
+		(effects
+			(font
+				(size 2.0 2.0)
+				(bold yes))
+			(justify left top))
+		(uuid "5320425f-b4f6-4de8-b798-869f5517ff96"))
+	(text "LCD B - DO NOT ENERGIZE UNTIL APPROVED"
+		(at 258.0 168.0 0)
+		(effects
+			(font
+				(size 2.0 2.0)
+				(bold yes))
+			(justify left top))
+		(uuid "96d6612d-7069-4ad4-ac11-a8cf11d0f0fd"))
+	(text "JP1 / nominal OVP"
+		(at 14.0 180.0 0)
+		(effects
+			(font
+				(size 2.0 2.0))
+			(justify left top))
+		(uuid "deaa8ae5-8299-43a1-8d77-55c52b2fc9a4"))
+	(text "2-3 HIGH / 28.690 V"
+		(at 110.0 180.0 0)
+		(effects
+			(font
+				(size 2.0 2.0))
+			(justify left top))
+		(uuid "d19b6b37-97b4-47f1-8dd1-6441f769d9f6"))
+	(text "1-2 LOW / 14.936 V PROVISIONAL"
+		(at 258.0 180.0 0)
+		(effects
+			(font
+				(size 2.0 2.0))
+			(justify left top))
+		(uuid "aa1da563-66da-4e8e-b241-495e502d1149"))
+	(text "R7 current sense"
+		(at 14.0 192.0 0)
+		(effects
+			(font
+				(size 2.0 2.0))
+			(justify left top))
+		(uuid "29350ae5-34db-4fb2-b44f-d6281d569236"))
+	(text "5.23 ohm 1% FIT / 38.24 mA nominal"
+		(at 110.0 192.0 0)
+		(effects
+			(font
+				(size 2.0 2.0))
+			(justify left top))
+		(uuid "27c6ceaf-8598-4c4a-940f-1573f143cb51"))
+	(text "Same R7; no doubling for parallel strings"
+		(at 258.0 192.0 0)
+		(effects
+			(font
+				(size 2.0 2.0))
+			(justify left top))
+		(uuid "022ceed5-3667-4029-a516-0221f0181c14"))
+	(text "R4 VCI link"
+		(at 14.0 204.0 0)
+		(effects
+			(font
+				(size 2.0 2.0))
+			(justify left top))
+		(uuid "4f6bda93-a9f1-4d79-86a4-f70404aeb56f"))
+	(text "Fit 0R after host power-budget review"
+		(at 110.0 204.0 0)
+		(effects
+			(font
+				(size 2.0 2.0))
+			(justify left top))
+		(uuid "513fbd3d-51c2-441a-9a79-4bac7a09967b"))
+	(text "DNP until 3.3 V VCI compatibility confirmed"
+		(at 258.0 204.0 0)
+		(effects
+			(font
+				(size 2.0 2.0))
+			(justify left top))
+		(uuid "f741bb87-8fb4-41ac-89bb-150c7e8af21d"))
+	(text "R23 VDD link"
+		(at 14.0 216.0 0)
+		(effects
+			(font
+				(size 2.0 2.0))
+			(justify left top))
+		(uuid "85e13b94-a1f1-44a4-ad05-5baa02b156c1"))
+	(text "Fit 0R for documented A 3.3 V touch rail"
+		(at 110.0 216.0 0)
+		(effects
+			(font
+				(size 2.0 2.0))
+			(justify left top))
+		(uuid "91e6288e-2e3f-44ac-89ce-7f7f79d916fd"))
+	(text "DNP until pin 30/31 voltage/purpose confirmed"
+		(at 258.0 216.0 0)
+		(effects
+			(font
+				(size 2.0 2.0))
+			(justify left top))
+		(uuid "58da16c2-4aab-44c9-bdb6-f9351e5de314"))
+	(rectangle
+		(start 12.0 234.0)
+		(end 298.0 280.0)
+		(stroke
+			(width .22)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "a85de8ab-9fe3-4ec1-850b-2f1fc5c93428"))
+	(text "RELEASE CONDITIONS / FACTORY HOLD"
+		(at 15.0 236.8 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(bold yes))
+			(justify left top))
+		(uuid "a39fadce-aea8-4f12-befe-becc19cabd4c"))
+	(polyline
+		(pts
+			(xy 12.0 244.0)
+			(xy 298.0 244.0))
+		(stroke
+			(width 0.18)
+			(type solid))
+		(uuid "63ecfb21-e6fe-4191-9bf0-e7d96ad81b13"))
+	(text "R4/R23 DNP is an assembly hold, NOT full isolation; I/O and LEDA can still be connected.\nDo not connect B until VCI, VDD, LED Vf max and total IF are confirmed.\nOne shunt only. Missing shunt: ~10.39 V OVP fallback, not a shutdown interlock.\nJP1 selects protection threshold; U1 still regulates CURRENT. OVP transients need tests.\nJ3 is HOST CN2 ONLY: .1=3V3 / .6=GND; panel touch tail .1=GND / .6=3V3.\nNever plug a panel tail into J3. Use J2.32-35 only after internal routing is confirmed.\nReview GT911 startup INT behavior, both supply budgets and exact TI U2 limits."
+		(at 16.0 247.0 0)
+		(effects
+			(font
+				(size 1.8 1.8))
+			(justify left top))
+		(uuid "63e764fb-13ff-46ca-987e-b5ac89adbfb9"))
+	(rectangle
+		(start 306.0 234.0)
+		(end 408.0 252.0)
+		(stroke
+			(width .22)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "ca1747c0-397a-4fef-a61c-bdc2d44eaa3a"))
+	(text "BEFORE POWER-UP"
+		(at 309.0 236.8 0)
+		(effects
+			(font
+				(size 1.5 1.5)
+				(bold yes))
+			(justify left top))
+		(uuid "7fddf738-6312-46c9-b4c4-9ee7cffb2589"))
+	(polyline
+		(pts
+			(xy 306.0 244.0)
+			(xy 408.0 244.0))
+		(stroke
+			(width 0.18)
+			(type solid))
+		(uuid "5dccec58-20fb-4743-b6af-42584ae80c70"))
+	(text "Panel B supply / LED ratings remain OPEN.\nDefault links DNP; see release conditions."
+		(at 310.0 246.0 0)
+		(effects
+			(font
+				(size 1.25 1.25))
+			(justify left top))
+		(uuid "2f990786-47ba-42ff-a045-031ee2953cb5")))

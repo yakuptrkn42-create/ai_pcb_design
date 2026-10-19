@@ -1,0 +1,80 @@
+[
+  {
+    "file": "R_0805_2012Metric.wrl",
+    "source": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl",
+    "type": "KiCad community model",
+    "sha256": "8ba82403df18104f827f786ef794d9852912dc437e77b62258dc3e6ffe33c5f6"
+  },
+  {
+    "file": "C_0805_2012Metric.wrl",
+    "source": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl",
+    "type": "KiCad community model",
+    "sha256": "840481a5fd6d54a48d7a634404a9848de662816075c4569d2484b192c3fb2801"
+  },
+  {
+    "file": "C_1206_3216Metric.wrl",
+    "source": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl",
+    "type": "KiCad community model",
+    "sha256": "c8ce7903eeaceb189976a04f0f67070ad0fe21a7bbcd6605fe60786704368afd"
+  },
+  {
+    "file": "C_1210_3225Metric.wrl",
+    "source": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Capacitor_SMD.3dshapes/C_1210_3225Metric.wrl",
+    "type": "KiCad community model",
+    "sha256": "9019ca14e512c194f47f43fcb9deafce8e75fcef9aa3fe8a8c9810727e4424d1"
+  },
+  {
+    "file": "SOT-23-6.wrl",
+    "source": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Package_TO_SOT_SMD.3dshapes/SOT-23-6.wrl",
+    "type": "KiCad community model",
+    "sha256": "01fe842f8ca8534456b365e2a38b77b8c61a07e4133d79187d0df9d46037051b"
+  },
+  {
+    "file": "D_SMA.wrl",
+    "source": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Diode_SMD.3dshapes/D_SMA.wrl",
+    "type": "KiCad community model",
+    "sha256": "4849d3fbd602476ed88a0edada41a1eb3acf69a785ee9624d1d76873134011d2"
+  },
+  {
+    "file": "Fuse_1206_3216Metric.wrl",
+    "source": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Fuse.3dshapes/Fuse_1206_3216Metric.wrl",
+    "type": "KiCad community model",
+    "sha256": "778f45add1215d06ce7bf91860d47dfb35401b1875277c1346333d195a76a1b8"
+  },
+  {
+    "file": "PinHeader_1x02_P2.54mm_Vertical.wrl",
+    "source": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl",
+    "type": "KiCad community model",
+    "sha256": "68eadd056ad8e757ea548dec4cd1c4077d97ba964a22b3ffb4005f859e4ae988"
+  },
+  {
+    "file": "PinSocket_2x08_P2.54mm_Vertical.wrl",
+    "source": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x08_P2.54mm_Vertical.wrl",
+    "type": "KiCad community model",
+    "sha256": "0d202c63fc6d5e258e68eba8d79d2ed4a98eb0d2cf6c5d5eacf0af152bbb7dbc"
+  },
+  {
+    "file": "FH26W-25S-0.3SHW.wrl",
+    "type": "Nominal mechanical visualization envelope, not manufacturer CAD",
+    "source": "Footprint body dimensions from supplied Rev I library; L1 nominal SLF7045 size 7 x 7 x 4.5 mm",
+    "sha256": "742dc49572636bfaf2fbab43fdfbdc388cdd62b57f4c2cf199f5d87160f117ae"
+  },
+  {
+    "file": "FH26W-39S-0.3SHW.wrl",
+    "type": "Nominal mechanical visualization envelope, not manufacturer CAD",
+    "source": "Footprint body dimensions from supplied Rev I library; L1 nominal SLF7045 size 7 x 7 x 4.5 mm",
+    "sha256": "5a38530ae7d2f334e21447cca13ed3d9bafb0ccc972d233c0f5e2466cfd4bb1b"
+  },
+  {
+    "file": "FH19C-6S-0.5SH.wrl",
+    "type": "Nominal mechanical visualization envelope, not manufacturer CAD",
+    "source": "Footprint body dimensions from supplied Rev I library; L1 nominal SLF7045 size 7 x 7 x 4.5 mm",
+    "sha256": "293df06fcbb6b5176ce1f5c6542f69a019c0be64668b89e350f659a7a0f460e4"
+  },
+  {
+    "file": "L_TDK_SLF7045.wrl",
+    "type": "Nominal mechanical visualization envelope, not manufacturer CAD",
+    "source": "Footprint body dimensions from supplied Rev I library; L1 nominal SLF7045 size 7 x 7 x 4.5 mm",
+    "sha256": "65db56eb887b385cc84017afd935a4a2480f2e90489704e639c573c363ec63ec"
+  }
+]

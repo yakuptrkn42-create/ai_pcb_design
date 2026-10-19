@@ -1,0 +1,20 @@
+{
+  "KiCad": "9.0.2",
+  "native_sheets": 4,
+  "ERC_errors": 0,
+  "ERC_warnings": 3,
+  "warning_type": "Three preserved single-global-label warnings: BL_SW, BL_COMP, OVP_SENSE",
+  "ERC_rules_and_exclusions_unchanged": true,
+  "symbol_footprint_pin_sets_checked": 53,
+  "panel_contacts_compared": 39,
+  "critical_unverified": [
+    "B VCI range",
+    "B J2.30/31 VDD range/purpose",
+    "B LED Vf max and absolute voltage/current ratings",
+    "40mA module-total interpretation",
+    "GT911 interface/startup timing and actual internal touch routing",
+    "physical FPC mating",
+    "TI U2 exact limits and OVP transients"
+  ],
+  "ERC_does_not_validate": "DNP/jumper assembly state, actual supplies, analog behavior or transient protection"
+}

@@ -1,25 +1,26 @@
-# STM32F469I-DISCO / DISEN — Şematik Rev J
+# STM32F469I-DISCO / DISEN — Çift LCD şematiği Rev K
 
-**Güncel teslim: elektriksel ve görsel şematik revizyonu.** Gerçek KiCad dosyaları düzenlendi; ERC sonucu **0 hata, 3 açıklanmış uyarı**. PCB ve yazılım bu aşamada değiştirilmedi.
+**Güncel teslim: ortak 39 pinli donanım ve seçilebilir backlight OVP şematiği.** LCD-A: DS070HSD39T-132; LCD-B: DS0700BOE1A39CO-0180A.
 
-- [Tüm Rev J dosyalarını indir — ZIP](STM32F469_DISEN_RevJ_Schematic_Review.zip)
-- [Revize şematik — PDF](Schematic_RevJ_Review/PDF/STM32F469_DISEN_RevJ_Schematic.pdf)
-- [Mühendislik incelemesi — PDF](Schematic_RevJ_Review/PDF/Engineering_Review_RevJ.pdf)
-- [Düzenlenebilir KiCad projesi](Schematic_RevJ_Review/Project/) · [BOM](Schematic_RevJ_Review/BOM/BOM_RevJ.csv)
-- [Açılış ve değişiklik özeti](Schematic_RevJ_Review/README_TR.md) · [ERC](Schematic_RevJ_Review/Verification/ERC_RevJ.txt)
+- [Tüm Rev K dosyaları — ZIP](STM32F469_DISEN_RevK_DualLCD_Review.zip)
+- [Gerçek şematik, 4 sayfa — PDF](Schematic_RevK_DualLCD/PDF/STM32F469_DISEN_RevK_DualLCD.pdf)
+- [Türkçe mühendislik incelemesi — PDF](Schematic_RevK_DualLCD/PDF/Dual_LCD_Engineering_Review_TR.pdf)
+- [Açılış, karşılaştırma ve montaj tablosu](Schematic_RevK_DualLCD/README_TR.md)
+- [Native KiCad projesi](Schematic_RevK_DualLCD/Project/) · [BOM](Schematic_RevK_DualLCD/BOM/BOM_RevK_FACTORY_HOLD.csv) · [ERC](Schematic_RevK_DualLCD/Verification/ERC_RevK.txt)
 
-ZIP sayfasında **Download raw file** düğmesini kullanın. Arşivi tamamen çıkarıp `Schematic_RevJ_Review/Project/STM32F469_DISEN_RevJ.kicad_pro` dosyasını KiCad 9 ile açın.
+**Yeni LCD için yalnızca mekanik çizim mevcut; tam elektriksel uyumluluk onayı verilmedi.** VCI/VDD gerilim aralıkları ve maksimum LED değerleri eksiktir. Varsayılan R4/R23 DNP montajı bir onay bekletme durumudur; tam izolasyon değildir. Panel-B, eksik veriler kapanmadan bağlanıp enerjilendirilmemelidir.
 
-U2.6 ve C13.1 beslemeleri `HOST_3V3` yerine `BL_POWER` hattına taşındı. J2, panelin önerdiği FH26 temel parça adına düzeltildi; pad geometrisi korundu. 52 güç portu güç sembolüne dönüştürüldü; farklı beslemeler birleştirilmedi. 49 fiziksel komponent ve 57 net korundu. Özgün yükleme arşivi teslim içinde değiştirilmeden saklandı.
+R7 her iki panel için 5,23 Ω / nominal 38,24 mA kaldı. JP1 yalnızca OVP eşiğini seçer: A 2–3 HIGH ≈28,69 V; B 1–2 LOW ≈14,94 V (geçici aday). MIPI yollarına anahtar eklenmedi. ERC: **0 hata / 3 açıklanmış uyarı**; kurallar değiştirilmedi. PCB ve yazılım bu aşamada değiştirilmedi. Eski PCB'ler yeni dört footprint ve bağlantılar için ECO gerektirir.
 
-**Üretim onayı değildir.** U2 birincil veri sayfası/OVP geçici rejimi, panel akım bütçesi, touch besleme toleransı, reset zamanlaması ve fiziksel FPC eşleşmesi için açık doğrulamalar rapordadır. Önceki PCB'ler Rev J'ye geçişte ECO gerektirir; eski Gerber'ler Rev J üretim dosyası değildir.
+ZIP'i tamamen çıkarıp `Schematic_RevK_DualLCD/Project/STM32F469_DISEN_RevK.kicad_pro` dosyasını KiCad 9 ile açın. GitHub ZIP sayfasındaki **Download raw file** düğmesi dosyayı indirir. Yüklenen Rev J arşivi teslimin Original klasöründe aynen korunmuştur.
 
-![Rev J şematik — MIPI ve LCD](Schematic_RevJ_Review/Views/01_Schematic_RevJ.png)
+![Native konfigürasyon ve koşullar sayfası](Schematic_RevK_DualLCD/Views/04_RevK_Schematic.png)
 
-## Korunan Rev I arşivleri
+## Korunan önceki teslimler
 
-- [Önceki Rev I routing ZIP](STM32F469_RevI_Routed_Review.zip) · [Routing incelemesi](PCB_Routing_Review/Routing_Review_TR.pdf)
-- [Onaylanan placement P1](PCB_Placement_Review/Placement_Review.pdf) · [Placement ZIP](STM32F469_RevI_Placement_Review.zip)
-- [Önceki şematik PDF](STM32F469_RevI_Professional.pdf) · [KiCad arşivi](STM32F469_RevI_Professional_KiCad.zip)
+- [Rev J şematik ZIP](STM32F469_DISEN_RevJ_Schematic_Review.zip) · [Rev J incelemesi](Schematic_RevJ_Review/README_TR.md)
+- [Rev I routing ZIP](STM32F469_RevI_Routed_Review.zip) · [Routing incelemesi](PCB_Routing_Review/Routing_Review_TR.pdf)
+- [Rev I placement](PCB_Placement_Review/Placement_Review.pdf) · [Placement ZIP](STM32F469_RevI_Placement_Review.zip)
+- [Rev I şematik PDF](STM32F469_RevI_Professional.pdf) · [Şematik KiCad arşivi](STM32F469_RevI_Professional_KiCad.zip)
 
-Bu tarihsel dosyalar değiştirilmedi; Rev J'nin iki besleme ECO'sunu ve J2 kimlik düzeltmesini içermezler.
+Tarihsel dosyalar değiştirilmedi; Rev K'nin yeni devresini içermezler. Önceki Gerber'ler Rev K üretim çıktısı değildir.
