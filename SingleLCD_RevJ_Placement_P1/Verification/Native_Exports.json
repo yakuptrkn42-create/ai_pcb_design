@@ -1,0 +1,37 @@
+{
+  "board_sha256": "2a795c92e69086308850c3f8500e6a137d6eb79df61afac88fe2384acfda34a6",
+  "jobs": [
+    {
+      "output": "01_PCB_Top_2D.svg",
+      "returncode": 0
+    },
+    {
+      "output": "02_PCB_Bottom_2D.svg",
+      "returncode": 0
+    },
+    {
+      "output": "05_Assembly_Top.svg",
+      "returncode": 0
+    },
+    {
+      "output": "06_Mechanical_And_Corridors.svg",
+      "returncode": 0
+    },
+    {
+      "output": "ERC.json",
+      "returncode": 0
+    },
+    {
+      "output": "ERC.txt",
+      "returncode": 0
+    },
+    {
+      "output": "DRC_Placement.json",
+      "returncode": 0
+    },
+    {
+      "output": "DRC_Placement.txt",
+      "returncode": 0
+    }
+  ]
+}

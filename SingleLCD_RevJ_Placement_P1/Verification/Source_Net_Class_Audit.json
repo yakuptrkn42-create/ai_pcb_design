@@ -1,0 +1,344 @@
+[
+  {
+    "net": "BL_5V",
+    "native_PCB_resolved_class": "POWER_5V",
+    "configured_class": "POWER_5V",
+    "result": "PASS"
+  },
+  {
+    "net": "BL_COMP",
+    "native_PCB_resolved_class": "SENSITIVE",
+    "configured_class": "SENSITIVE",
+    "result": "PASS"
+  },
+  {
+    "net": "BL_CTRL",
+    "native_PCB_resolved_class": "Default",
+    "configured_class": "Default",
+    "result": "PASS"
+  },
+  {
+    "net": "BL_LEDA",
+    "native_PCB_resolved_class": "LED_HV",
+    "configured_class": "LED_HV",
+    "result": "PASS"
+  },
+  {
+    "net": "BL_LEDK",
+    "native_PCB_resolved_class": "LED_HV",
+    "configured_class": "LED_HV",
+    "result": "PASS"
+  },
+  {
+    "net": "BL_POWER",
+    "native_PCB_resolved_class": "POWER_5V",
+    "configured_class": "POWER_5V",
+    "result": "PASS"
+  },
+  {
+    "net": "BL_PWM_RAW",
+    "native_PCB_resolved_class": "Default",
+    "configured_class": "Default",
+    "result": "PASS"
+  },
+  {
+    "net": "BL_SW",
+    "native_PCB_resolved_class": "BOOST_SWITCH",
+    "configured_class": "BOOST_SWITCH",
+    "result": "PASS"
+  },
+  {
+    "net": "DSI_CLK_N",
+    "native_PCB_resolved_class": "MIPI_DSI",
+    "configured_class": "MIPI_DSI",
+    "result": "PASS"
+  },
+  {
+    "net": "DSI_CLK_P",
+    "native_PCB_resolved_class": "MIPI_DSI",
+    "configured_class": "MIPI_DSI",
+    "result": "PASS"
+  },
+  {
+    "net": "DSI_D0_N",
+    "native_PCB_resolved_class": "MIPI_DSI",
+    "configured_class": "MIPI_DSI",
+    "result": "PASS"
+  },
+  {
+    "net": "DSI_D0_P",
+    "native_PCB_resolved_class": "MIPI_DSI",
+    "configured_class": "MIPI_DSI",
+    "result": "PASS"
+  },
+  {
+    "net": "DSI_D1_N",
+    "native_PCB_resolved_class": "MIPI_DSI",
+    "configured_class": "MIPI_DSI",
+    "result": "PASS"
+  },
+  {
+    "net": "DSI_D1_P",
+    "native_PCB_resolved_class": "MIPI_DSI",
+    "configured_class": "MIPI_DSI",
+    "result": "PASS"
+  },
+  {
+    "net": "EXT_5V",
+    "native_PCB_resolved_class": "POWER_5V",
+    "configured_class": "POWER_5V",
+    "result": "PASS"
+  },
+  {
+    "net": "FUSED_5V",
+    "native_PCB_resolved_class": "POWER_5V",
+    "configured_class": "POWER_5V",
+    "result": "PASS"
+  },
+  {
+    "net": "GND",
+    "native_PCB_resolved_class": "Default",
+    "configured_class": "Default",
+    "result": "PASS"
+  },
+  {
+    "net": "HOST_3V3",
+    "native_PCB_resolved_class": "LOGIC_POWER",
+    "configured_class": "LOGIC_POWER",
+    "result": "PASS"
+  },
+  {
+    "net": "HOST_LCD_RST",
+    "native_PCB_resolved_class": "Default",
+    "configured_class": "Default",
+    "result": "PASS"
+  },
+  {
+    "net": "HOST_TE",
+    "native_PCB_resolved_class": "Default",
+    "configured_class": "Default",
+    "result": "PASS"
+  },
+  {
+    "net": "HOST_TP_3V3",
+    "native_PCB_resolved_class": "LOGIC_POWER",
+    "configured_class": "LOGIC_POWER",
+    "result": "PASS"
+  },
+  {
+    "net": "HOST_TP_RST",
+    "native_PCB_resolved_class": "Default",
+    "configured_class": "Default",
+    "result": "PASS"
+  },
+  {
+    "net": "LCD_RST",
+    "native_PCB_resolved_class": "Default",
+    "configured_class": "Default",
+    "result": "PASS"
+  },
+  {
+    "net": "LCD_TE",
+    "native_PCB_resolved_class": "Default",
+    "configured_class": "Default",
+    "result": "PASS"
+  },
+  {
+    "net": "LCD_VCI",
+    "native_PCB_resolved_class": "LOGIC_POWER",
+    "configured_class": "LOGIC_POWER",
+    "result": "PASS"
+  },
+  {
+    "net": "OVP_REF",
+    "native_PCB_resolved_class": "SENSITIVE",
+    "configured_class": "SENSITIVE",
+    "result": "PASS"
+  },
+  {
+    "net": "OVP_SENSE",
+    "native_PCB_resolved_class": "SENSITIVE",
+    "configured_class": "SENSITIVE",
+    "result": "PASS"
+  },
+  {
+    "net": "TP_INT",
+    "native_PCB_resolved_class": "Default",
+    "configured_class": "Default",
+    "result": "PASS"
+  },
+  {
+    "net": "TP_RST",
+    "native_PCB_resolved_class": "Default",
+    "configured_class": "Default",
+    "result": "PASS"
+  },
+  {
+    "net": "TP_SCL",
+    "native_PCB_resolved_class": "Default",
+    "configured_class": "Default",
+    "result": "PASS"
+  },
+  {
+    "net": "TP_SDA",
+    "native_PCB_resolved_class": "Default",
+    "configured_class": "Default",
+    "result": "PASS"
+  },
+  {
+    "net": "TP_VDD",
+    "native_PCB_resolved_class": "LOGIC_POWER",
+    "configured_class": "LOGIC_POWER",
+    "result": "PASS"
+  },
+  {
+    "net": "unconnected-(J1-HOST_LED_A_NC-Pad24)",
+    "native_PCB_resolved_class": "Default",
+    "configured_class": "Default",
+    "result": "PASS"
+  },
+  {
+    "net": "unconnected-(J1-HOST_LED_K_NC-Pad23)",
+    "native_PCB_resolved_class": "Default",
+    "configured_class": "Default",
+    "result": "PASS"
+  },
+  {
+    "net": "unconnected-(J1-ID_NC-Pad1)",
+    "native_PCB_resolved_class": "Default",
+    "configured_class": "Default",
+    "result": "PASS"
+  },
+  {
+    "net": "unconnected-(J1-NC-Pad9)",
+    "native_PCB_resolved_class": "Default",
+    "configured_class": "Default",
+    "result": "PASS"
+  },
+  {
+    "net": "unconnected-(J1-NC-Pad13)",
+    "native_PCB_resolved_class": "Default",
+    "configured_class": "Default",
+    "result": "PASS"
+  },
+  {
+    "net": "unconnected-(J1-NC-Pad17)",
+    "native_PCB_resolved_class": "Default",
+    "configured_class": "Default",
+    "result": "PASS"
+  },
+  {
+    "net": "unconnected-(J1-NC_ERR-Pad20)",
+    "native_PCB_resolved_class": "Default",
+    "configured_class": "Default",
+    "result": "PASS"
+  },
+  {
+    "net": "unconnected-(J2-NC-Pad5)",
+    "native_PCB_resolved_class": "Default",
+    "configured_class": "Default",
+    "result": "PASS"
+  },
+  {
+    "net": "unconnected-(J2-NC-Pad6)",
+    "native_PCB_resolved_class": "Default",
+    "configured_class": "Default",
+    "result": "PASS"
+  },
+  {
+    "net": "unconnected-(J2-NC-Pad38)",
+    "native_PCB_resolved_class": "Default",
+    "configured_class": "Default",
+    "result": "PASS"
+  },
+  {
+    "net": "unconnected-(J2-NC-Pad39)",
+    "native_PCB_resolved_class": "Default",
+    "configured_class": "Default",
+    "result": "PASS"
+  },
+  {
+    "net": "unconnected-(J3-PH7_RESET_NC-Pad5)",
+    "native_PCB_resolved_class": "Default",
+    "configured_class": "Default",
+    "result": "PASS"
+  },
+  {
+    "net": "unconnected-(J5-3V3_NC-Pad1)",
+    "native_PCB_resolved_class": "Default",
+    "configured_class": "Default",
+    "result": "PASS"
+  },
+  {
+    "net": "unconnected-(J5-AUDIO_NC-Pad15)",
+    "native_PCB_resolved_class": "Default",
+    "configured_class": "Default",
+    "result": "PASS"
+  },
+  {
+    "net": "unconnected-(J5-AUDIO_NC-Pad16)",
+    "native_PCB_resolved_class": "Default",
+    "configured_class": "Default",
+    "result": "PASS"
+  },
+  {
+    "net": "unconnected-(J5-NRST_NC-Pad4)",
+    "native_PCB_resolved_class": "Default",
+    "configured_class": "Default",
+    "result": "PASS"
+  },
+  {
+    "net": "unconnected-(J5-PA5_NC-Pad7)",
+    "native_PCB_resolved_class": "Default",
+    "configured_class": "Default",
+    "result": "PASS"
+  },
+  {
+    "net": "unconnected-(J5-PA8_NC-Pad3)",
+    "native_PCB_resolved_class": "Default",
+    "configured_class": "Default",
+    "result": "PASS"
+  },
+  {
+    "net": "unconnected-(J5-PA15_NC-Pad11)",
+    "native_PCB_resolved_class": "Default",
+    "configured_class": "Default",
+    "result": "PASS"
+  },
+  {
+    "net": "unconnected-(J5-PB4_NC-Pad5)",
+    "native_PCB_resolved_class": "Default",
+    "configured_class": "Default",
+    "result": "PASS"
+  },
+  {
+    "net": "unconnected-(J5-PB5_NC-Pad9)",
+    "native_PCB_resolved_class": "Default",
+    "configured_class": "Default",
+    "result": "PASS"
+  },
+  {
+    "net": "unconnected-(J5-PB13_NC-Pad10)",
+    "native_PCB_resolved_class": "Default",
+    "configured_class": "Default",
+    "result": "PASS"
+  },
+  {
+    "net": "unconnected-(J5-PC1_NC-Pad14)",
+    "native_PCB_resolved_class": "Default",
+    "configured_class": "Default",
+    "result": "PASS"
+  },
+  {
+    "net": "unconnected-(J5-PC7_NC-Pad8)",
+    "native_PCB_resolved_class": "Default",
+    "configured_class": "Default",
+    "result": "PASS"
+  },
+  {
+    "net": "unconnected-(J5-PC13_NC-Pad13)",
+    "native_PCB_resolved_class": "Default",
+    "configured_class": "Default",
+    "result": "PASS"
+  }
+]

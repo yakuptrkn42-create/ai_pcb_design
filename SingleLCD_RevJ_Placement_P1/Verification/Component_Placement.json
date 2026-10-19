@@ -1,0 +1,492 @@
+[
+  {
+    "reference": "C1",
+    "footprint": "Adapter_F469:C_0805_2012Metric",
+    "x_mm_from_origin": 3.700000000000003,
+    "y_mm_from_origin": 24.5,
+    "rotation_deg": -90.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "C13",
+    "footprint": "Adapter_F469:C_0805_2012Metric",
+    "x_mm_from_origin": 27.5,
+    "y_mm_from_origin": 20.200000000000003,
+    "rotation_deg": 90.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "C2",
+    "footprint": "Adapter_F469:C_0805_2012Metric",
+    "x_mm_from_origin": 14.900000000000006,
+    "y_mm_from_origin": 20.700000000000003,
+    "rotation_deg": 90.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "C3",
+    "footprint": "Adapter_F469:C_1210_3225Metric",
+    "x_mm_from_origin": 11.400000000000006,
+    "y_mm_from_origin": 34.0,
+    "rotation_deg": 180.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/C_1210_3225Metric.wrl"
+  },
+  {
+    "reference": "C4",
+    "footprint": "Adapter_F469:C_0805_2012Metric",
+    "x_mm_from_origin": 18.900000000000006,
+    "y_mm_from_origin": 28.5,
+    "rotation_deg": 90.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "C5",
+    "footprint": "Adapter_F469:C_0805_2012Metric",
+    "x_mm_from_origin": 6.5,
+    "y_mm_from_origin": 9.299999999999997,
+    "rotation_deg": -90.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "C6",
+    "footprint": "Adapter_F469:C_0805_2012Metric",
+    "x_mm_from_origin": 10.299999999999997,
+    "y_mm_from_origin": 9.5,
+    "rotation_deg": -90.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "C7",
+    "footprint": "Adapter_F469:C_0805_2012Metric",
+    "x_mm_from_origin": 22.0,
+    "y_mm_from_origin": 9.299999999999997,
+    "rotation_deg": -90.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "C8",
+    "footprint": "Adapter_F469:C_0805_2012Metric",
+    "x_mm_from_origin": 18.5,
+    "y_mm_from_origin": 9.299999999999997,
+    "rotation_deg": -90.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "C9",
+    "footprint": "Adapter_F469:C_0805_2012Metric",
+    "x_mm_from_origin": 19.299999999999997,
+    "y_mm_from_origin": 24.799999999999997,
+    "rotation_deg": -90.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "D1",
+    "footprint": "Adapter_F469:D_SMA",
+    "x_mm_from_origin": 15.799999999999997,
+    "y_mm_from_origin": 30.0,
+    "rotation_deg": 90.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/D_SMA.wrl"
+  },
+  {
+    "reference": "D3",
+    "footprint": "Adapter_F469:D_SMA",
+    "x_mm_from_origin": 10.5,
+    "y_mm_from_origin": 38.8,
+    "rotation_deg": 0.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/D_SMA.wrl"
+  },
+  {
+    "reference": "F2",
+    "footprint": "Adapter_F469:Fuse_1206_3216Metric",
+    "x_mm_from_origin": 7.700000000000003,
+    "y_mm_from_origin": 30.700000000000003,
+    "rotation_deg": -90.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/Fuse_1206_3216Metric.wrl"
+  },
+  {
+    "reference": "J1",
+    "footprint": "Adapter_F469:FH26W-25S-0.3SHW",
+    "x_mm_from_origin": 32.5,
+    "y_mm_from_origin": 4.5,
+    "rotation_deg": 0.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/FH26W_25_Nominal.step"
+  },
+  {
+    "reference": "J2",
+    "footprint": "Adapter_F469:FH26-39S-0.3SHW",
+    "x_mm_from_origin": 14.0,
+    "y_mm_from_origin": 4.5,
+    "rotation_deg": 0.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/FH26_39_Nominal.step"
+  },
+  {
+    "reference": "J3",
+    "footprint": "Adapter_F469:FH19C-6S-0.5SH",
+    "x_mm_from_origin": 46.0,
+    "y_mm_from_origin": 15.0,
+    "rotation_deg": 90.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/FH19C_6_Nominal.step"
+  },
+  {
+    "reference": "J4",
+    "footprint": "Adapter_F469:PinHeader_1x02_P2.54mm_Vertical",
+    "x_mm_from_origin": 3.0,
+    "y_mm_from_origin": 29.0,
+    "rotation_deg": 0.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/PinHeader_1x02_P2.54mm_Vertical.wrl"
+  },
+  {
+    "reference": "J5",
+    "footprint": "Adapter_F469:PinSocket_2x08_P2.54mm_Vertical",
+    "x_mm_from_origin": 41.0,
+    "y_mm_from_origin": 36.5,
+    "rotation_deg": -90.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/PinSocket_2x08_P2.54mm_Vertical.wrl"
+  },
+  {
+    "reference": "L1",
+    "footprint": "Adapter_F469:L_TDK_SLF7045",
+    "x_mm_from_origin": 9.5,
+    "y_mm_from_origin": 24.5,
+    "rotation_deg": 0.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/SLF7045_Nominal.step"
+  },
+  {
+    "reference": "R1",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "x_mm_from_origin": 38.0,
+    "y_mm_from_origin": 24.0,
+    "rotation_deg": 0.0,
+    "side": "TOP",
+    "DNP": true,
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R12",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "x_mm_from_origin": 7.700000000000003,
+    "y_mm_from_origin": 35.0,
+    "rotation_deg": -90.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R13",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "x_mm_from_origin": 27.0,
+    "y_mm_from_origin": 28.799999999999997,
+    "rotation_deg": 180.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R14",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "x_mm_from_origin": 34.0,
+    "y_mm_from_origin": 25.5,
+    "rotation_deg": -90.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R15",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "x_mm_from_origin": 28.0,
+    "y_mm_from_origin": 9.0,
+    "rotation_deg": 180.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R16",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "x_mm_from_origin": 36.19999999999999,
+    "y_mm_from_origin": 10.0,
+    "rotation_deg": 180.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R17",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "x_mm_from_origin": 9.5,
+    "y_mm_from_origin": 14.200000000000003,
+    "rotation_deg": -90.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R18",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "x_mm_from_origin": 15.900000000000006,
+    "y_mm_from_origin": 35.8,
+    "rotation_deg": 0.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R19",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "x_mm_from_origin": 30.69999899999999,
+    "y_mm_from_origin": 25.5,
+    "rotation_deg": 180.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R2",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "x_mm_from_origin": 38.0,
+    "y_mm_from_origin": 26.799999999999997,
+    "rotation_deg": 0.0,
+    "side": "TOP",
+    "DNP": true,
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R20",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "x_mm_from_origin": 30.0,
+    "y_mm_from_origin": 22.700000000000003,
+    "rotation_deg": 90.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R3",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "x_mm_from_origin": 32.0,
+    "y_mm_from_origin": 30.200000000000003,
+    "rotation_deg": 0.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R4",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "x_mm_from_origin": 6.299999999999997,
+    "y_mm_from_origin": 13.799999999999997,
+    "rotation_deg": 90.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R5",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "x_mm_from_origin": 40.0,
+    "y_mm_from_origin": 21.0,
+    "rotation_deg": 180.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R6",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "x_mm_from_origin": 22.799999999999997,
+    "y_mm_from_origin": 25.0,
+    "rotation_deg": -90.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R7",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "x_mm_from_origin": 17.799999999999997,
+    "y_mm_from_origin": 21.599999999999994,
+    "rotation_deg": 0.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "TP1",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "x_mm_from_origin": 42.0,
+    "y_mm_from_origin": 8.799999999999997,
+    "rotation_deg": 0.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "TP10",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "x_mm_from_origin": 35.80000000000001,
+    "y_mm_from_origin": 30.200000000000003,
+    "rotation_deg": 0.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "TP11",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "x_mm_from_origin": 3.5,
+    "y_mm_from_origin": 9.0,
+    "rotation_deg": 0.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "TP12",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "x_mm_from_origin": 45.0,
+    "y_mm_from_origin": 21.0,
+    "rotation_deg": 0.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "TP13",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "x_mm_from_origin": 19.0,
+    "y_mm_from_origin": 36.0,
+    "rotation_deg": 0.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "TP14",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "x_mm_from_origin": 21.799999999999997,
+    "y_mm_from_origin": 21.5,
+    "rotation_deg": 0.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "TP15",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "x_mm_from_origin": 21.5,
+    "y_mm_from_origin": 28.5,
+    "rotation_deg": 0.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "TP3",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "x_mm_from_origin": 3.5,
+    "y_mm_from_origin": 19.799999999999997,
+    "rotation_deg": 0.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "TP4",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "x_mm_from_origin": 7.200000000000003,
+    "y_mm_from_origin": 18.5,
+    "rotation_deg": 0.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "TP5",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "x_mm_from_origin": 42.0,
+    "y_mm_from_origin": 24.5,
+    "rotation_deg": 0.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "TP6",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "x_mm_from_origin": 23.5,
+    "y_mm_from_origin": 30.299999999999997,
+    "rotation_deg": 0.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "TP9",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "x_mm_from_origin": 11.5,
+    "y_mm_from_origin": 18.5,
+    "rotation_deg": 0.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "U1",
+    "footprint": "Adapter_F469:SOT-23-6",
+    "x_mm_from_origin": 16.0,
+    "y_mm_from_origin": 24.5,
+    "rotation_deg": 0.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/SOT-23-6.wrl"
+  },
+  {
+    "reference": "U2",
+    "footprint": "Adapter_F469:SOT-23-6",
+    "x_mm_from_origin": 26.5,
+    "y_mm_from_origin": 24.0,
+    "rotation_deg": 0.0,
+    "side": "TOP",
+    "DNP": false,
+    "model": "${KIPRJMOD}/3D/SOT-23-6.wrl"
+  }
+]

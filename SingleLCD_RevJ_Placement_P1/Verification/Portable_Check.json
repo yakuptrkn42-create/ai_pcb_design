@@ -1,0 +1,24 @@
+{
+  "KiCad_version": "9.0.2",
+  "method": "Extracted delivery ZIP under /tmp; fresh KiCad config/cache/data; native ERC, schematic parity and placement DRC",
+  "source_manifest_files_verified": 91,
+  "physical_footprints": 53,
+  "circuit_model_paths_resolved": 49,
+  "native_net_classes_verified": 57,
+  "ERC_errors": 0,
+  "ERC_warnings": 3,
+  "placement_DRC_violations": 0,
+  "schematic_parity_issues": 0,
+  "expected_unconnected_item_records": 115,
+  "tracks": 0,
+  "vias": 0,
+  "zones": 0,
+  "core_design_sha256": {
+    "STM32F469_DISEN_RevJ_Prep1.kicad_sch": "02ef64596df2a471d911e037f37af51c6998b3179832212172c585b025ff019d",
+    "STM32F469_DISEN_RevJ_Prep1.kicad_pro": "8537e160afb3fe990fe78d343f496ecb0aed2418642b949361b08cf5a581fdae",
+    "STM32F469_DISEN_RevJ_Prep1.kicad_pcb": "2a795c92e69086308850c3f8500e6a137d6eb79df61afac88fe2384acfda34a6",
+    "STM32F469_DISEN_RevJ_Prep1.kicad_dru": "48f4795da9ca7edca138c880ed41ed11ba27d584e7718c06948ff5169df1f636",
+    "Logic_Touch.kicad_sch": "01aadc8cad6741d4074ed7a21a9b91ccd4a38b6d240667a03ea542fb98b26660",
+    "Backlight.kicad_sch": "98120bde28bbd29396ef7543fc28c80cad42c504bd4c3c3809b00251c88d5128"
+  }
+}

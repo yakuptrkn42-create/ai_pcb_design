@@ -1,0 +1,14 @@
+{
+  "physical_symbols": 49,
+  "nets": 57,
+  "pin_net_memberships": 172,
+  "all_pin_net_memberships_identical_to_uploaded_RevJ": true,
+  "all_values_identical": true,
+  "all_footprint_identifiers_identical": true,
+  "all_symbol_UUIDs_identical": true,
+  "all_footprint_copper_pads_identical": true,
+  "electrical_changes": [],
+  "schematic_PCB_native_parity_issues": 0,
+  "native_project_ERC_settings_identical": true,
+  "new_ignore_or_exclusions": false
+}

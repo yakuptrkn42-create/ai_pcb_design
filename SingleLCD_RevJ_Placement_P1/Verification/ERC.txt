@@ -1,0 +1,18 @@
+ERC report (2026-10-19T09:18:33+0000, Encoding UTF8)
+
+***** Sheet /
+
+***** Sheet /Logic power & touch/
+
+***** Sheet /Backlight / external power/
+[single_global_label]: Global label only appears once in the schematic
+    ; warning
+    @(102.87 mm, 156.21 mm): Global Label 'BL_COMP'
+[single_global_label]: Global label only appears once in the schematic
+    ; warning
+    @(185.42 mm, 100.33 mm): Global Label 'BL_SW'
+[single_global_label]: Global label only appears once in the schematic
+    ; warning
+    @(69.85 mm, 222.25 mm): Global Label 'OVP_SENSE'
+
+ ** ERC messages: 3  Errors 0  Warnings 3

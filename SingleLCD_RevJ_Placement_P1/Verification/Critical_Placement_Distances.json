@@ -1,0 +1,15 @@
+{
+  "units": "mm, pad-center straight-line chords; not routed lengths",
+  "distances": {
+    "C2_to_U1_VIN": 1.9003700297573545,
+    "L1_to_U1_SW": 2.4078322719824086,
+    "D1_to_U1_SW": 2.7168743530019905,
+    "C4_to_D1_cathode": 4.014037867285265,
+    "C4_GND_to_U1_GND": 2.7416065089651336,
+    "R7_to_U1_FB": 1.9659603251337527,
+    "C9_to_U1_COMP": 2.258075784822109,
+    "C13_to_U2_VCC": 1.904968831766013,
+    "C3_to_D1_cathode": 3.543391736740377
+  },
+  "SW_terminal_triangle_to_DSI_corridor_gap_mm": 8.5
+}

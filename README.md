@@ -1,4 +1,21 @@
-# STM32F469I-DISCO / DISEN — Tek LCD PCB hazırlığı
+# STM32F469I-DISCO / DISEN — Rev J komponent yerleşimi
+
+**Güncel teslim: DS070HSD39T-132 için Placement P1.** Onaylı tek LCD şematiği korunarak 49 devre footprint’i yerleştirildi. Çift LCD Rev K ayrı korunuyor.
+
+- [Yerleşim teslimatı — ZIP](STM32F469_DISEN_RevJ_Placement_P1.zip)
+- [Yerleşim incelemesi — PDF](SingleLCD_RevJ_Placement_P1/PDF/Placement_Review_TR.pdf)
+- [Native KiCad projesi](SingleLCD_RevJ_Placement_P1/Project/)
+- [Açılış ve kapsam](SingleLCD_RevJ_Placement_P1/README_TR.md)
+
+50 × 42 mm, R2 köşe, nominal 1,6 mm / 4 katman, üst yüz montajı; dört Ø2,7 mm bağlantısız M2.5 montaj deliği. Üç yerleşim yaklaşımı karşılaştırıldı, routing/SI düzeni seçildi ve yeniden iyileştirildi. Şematik, değerler, 57 net / 172 pin–net üyeliği ve mevcut kurallar korundu.
+
+**0 iz / 0 via / 0 zone.** Yerleşim DRC’si 0 fiziksel ihlal, şema–PCB parity 0 fark; routing yapılmadığından 115 bağlantısız öğe kaydı açıktır. ERC 0 hata / 3 mevcut uyarı. Routing, yerleşim onayını bekler. FPC modelleri nominal; exact kontak/latch/kablo ve üretici stackup/empedans teyitleri raporda açıktır.
+
+ZIP’i tamamen çıkarıp `SingleLCD_RevJ_Placement_P1/Project/STM32F469_DISEN_RevJ_Prep1.kicad_pro` dosyasını KiCad 9 ile açın. Onaylı şematiği byte düzeyinde korumak için kaynak basename korunmuştur. GitHub ZIP sayfasında **Download raw file** kullanılabilir.
+
+![Rev J Placement P1 — gerçek KiCad PCB 3D görünümü](SingleLCD_RevJ_Placement_P1/Views/03_PCB_3D_Isometric.png)
+
+## Korunan tek LCD PCB hazırlığı
 
 **Güncel çalışma: DS070HSD39T-132 için Rev J / PCB Hazırlık 1.** Yüklenen eski Rev J esas alındı; çift LCD Rev K ayrı korunuyor.
 

@@ -1,0 +1,52 @@
+[
+  {
+    "reference": "J1",
+    "pin1_local_mm": [
+      28.900000000000006,
+      5.900000000000006
+    ],
+    "rotation_deg": 0.0,
+    "CAD_pin_numbers_and_nets_preserved": true,
+    "physical_FPC_contact_face_and_mating_confirmed": false
+  },
+  {
+    "reference": "J2",
+    "pin1_local_mm": [
+      8.299999999999997,
+      5.900000000000006
+    ],
+    "rotation_deg": 0.0,
+    "CAD_pin_numbers_and_nets_preserved": true,
+    "physical_FPC_contact_face_and_mating_confirmed": false
+  },
+  {
+    "reference": "J3",
+    "pin1_local_mm": [
+      44.75,
+      16.25
+    ],
+    "rotation_deg": 90.0,
+    "CAD_pin_numbers_and_nets_preserved": true,
+    "physical_FPC_contact_face_and_mating_confirmed": false
+  },
+  {
+    "reference": "J4",
+    "pin1_local_mm": [
+      3.0,
+      29.0
+    ],
+    "rotation_deg": 0.0,
+    "CAD_pin_numbers_and_nets_preserved": true,
+    "physical_FPC_contact_face_and_mating_confirmed": null
+  },
+  {
+    "reference": "J5",
+    "pin1_local_mm": [
+      41.0,
+      36.5
+    ],
+    "rotation_deg": -90.0,
+    "CAD_pin_numbers_and_nets_preserved": true,
+    "physical_FPC_contact_face_and_mating_confirmed": null
+  }
+]
