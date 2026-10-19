@@ -1,0 +1,18 @@
+{
+  "cell_diameter_nominal_mm": 18.6,
+  "cell_length_envelope_mm": 65.2,
+  "cell_to_cell_surface_gap_mm": 1.4,
+  "cell_crown_to_pcb_underside_mm": 3.0,
+  "cell_crown_to_barrier_mm": 1.2,
+  "barrier_to_bottom_component_nominal_mm": 0.5,
+  "pcb_size_mm": [
+    74,
+    42,
+    1
+  ],
+  "connector_fixed_top_nominal_z_mm": 29.12,
+  "minimum_mating_spring_stroke_mm": 1.0,
+  "mating_height_verified": false,
+  "battery_brand_model_verified": false,
+  "enclosure_release_status": "CONCEPT ONLY"
+}

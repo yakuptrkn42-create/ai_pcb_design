@@ -1,0 +1,10 @@
+{
+  "interface_assertions_passed": 21,
+  "unique_pad_net_pairs_matched": 166,
+  "schematic_components": 73,
+  "physical_DRC_violations": 0,
+  "unconnected_items": 0,
+  "schematic_parity_issues": 0,
+  "ERC_violations": 0,
+  "scope": "Recovered passive pad symbols; functional IC ratings, firmware, battery performance and medical safety are NOT validated"
+}

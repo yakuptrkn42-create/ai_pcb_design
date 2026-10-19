@@ -1,0 +1,1 @@
+(fp_lib_table (version 7) (lib (name "BatteryPack") (type "KiCad") (uri "${KIPRJMOD}/BatteryPack.pretty") (options "") (descr "Recovered core and concept integration footprints")))

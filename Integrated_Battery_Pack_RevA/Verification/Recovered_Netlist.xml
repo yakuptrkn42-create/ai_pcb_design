@@ -1,0 +1,2274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/workspace/Integrated_Battery_Pack_RevA/Project/BatteryPack_RevA.kicad_sch</source>
+    <date>2026-10-19T14:20:01+0000</date>
+    <tool>Eeschema 9.0.2+dfsg-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Integrated 2S pack - recovered PCB connectivity</title>
+        <company/>
+        <rev>A-CONCEPT</rev>
+        <date/>
+        <source>BatteryPack_RevA.kicad_sch</source>
+        <comment number="1" value="Not for fabrication, energization or clinical use"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF/50V</value>
+      <footprint>BatteryPack:FP_C1</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_C1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_C1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9523c0c7-447a-48d2-a1fc-91df140aad04</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF/16V</value>
+      <footprint>BatteryPack:FP_C2</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_C2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_C2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ecec6654-b6c2-4472-ab46-b48e239b3d5c</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>2.2µF/16V</value>
+      <footprint>BatteryPack:FP_C4</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_C4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_C4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>efa0033f-f924-4250-93e5-a4e25b0624d2</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>100nF/16V</value>
+      <footprint>BatteryPack:FP_C5</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_C5</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_C5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a828551-7758-435f-8341-c1e6b6537943</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100nF/16V</value>
+      <footprint>BatteryPack:FP_C6</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_C6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_C6" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c75b005d-41f1-416c-b20b-46aa7010a1ef</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>100nF/50V</value>
+      <footprint>BatteryPack:FP_C7</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_C7</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_C7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e2d8bc63-ae42-4d80-b0bd-a93faae2b7e2</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100nF/16V</value>
+      <footprint>BatteryPack:FP_C11</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_C11</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_C11" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb8c7f0a-4c3b-4a91-b5ad-046f9703a46b</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>100nF/16V</value>
+      <footprint>BatteryPack:FP_C12</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_C12</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_C12" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98af30b0-2b8f-4106-b804-7afb4d26be3c</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>100nF/16V</value>
+      <footprint>BatteryPack:FP_C13</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_C13</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_C13" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f4e93b36-48d1-40ac-adea-c0c6152f56a0</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>100nF/16V</value>
+      <footprint>BatteryPack:FP_C14</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_C14</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_C14" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9297088b-226c-49d3-8eef-cacc9bc9a5bb</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>1µF/16V</value>
+      <footprint>BatteryPack:FP_C16</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_C16</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_C16" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d46b3f1-88c3-4075-ada6-ca914708edc0</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>100nF/16V</value>
+      <footprint>BatteryPack:FP_C17</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_C17</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_C17" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b27141b-ea0b-42d2-9cc2-8ac53529d742</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>100nF/16V</value>
+      <footprint>BatteryPack:FP_C20</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_C20</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_C20" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b1c7aac6-eebd-442d-a7af-5593d44684d7</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>BAS16-7-F</value>
+      <footprint>BatteryPack:FP_D1</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_D1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_D1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>56696877-9a1c-4af7-8813-981c2a465ae8</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>MM3Z5V6C </value>
+      <footprint>BatteryPack:FP_D2</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_D2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_D2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dddea9ba-4f9b-4b2d-8f4e-f8cead92fa7d</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>MM3Z5V6C </value>
+      <footprint>BatteryPack:FP_D3</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_D3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_D3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2238199f-8c90-434e-bbf1-2a78430732e6</tstamps>
+    </comp>
+    <comp ref="F1">
+      <value>2.5A_1206_FUSE_TBD</value>
+      <footprint>BatteryPack:FP_F1</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_F1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_F1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d66b6ad8-4d42-41cf-a47a-8f696b873390</tstamps>
+    </comp>
+    <comp ref="F2">
+      <value>0.5A_FAST_1206_FUSE_TBD</value>
+      <footprint>BatteryPack:FP_F2</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_F2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_F2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3956205f-3b52-4258-ad0c-6ca17b41b859</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>CZX-4B2-2.54-e_FIXED</value>
+      <footprint>BatteryPack:FP_J1</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_J1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_J1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b294b7aa-50a7-4672-8770-f86164898f2d</tstamps>
+    </comp>
+    <comp ref="J12">
+      <value>Solder_JMP_1</value>
+      <footprint>BatteryPack:FP_J12</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_J12</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_J12" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70cab4e0-eda9-493f-953e-b41096ecb408</tstamps>
+    </comp>
+    <comp ref="PAD1">
+      <value>TH/Rec2.7x5.4_R1.8</value>
+      <footprint>BatteryPack:FP_PAD1</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_PAD1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_PAD1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0aa76f7f-3392-4c54-a97f-c743f7e62e5b</tstamps>
+    </comp>
+    <comp ref="Pad2">
+      <value>Pad</value>
+      <footprint>BatteryPack:FP_Pad2</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_Pad2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_Pad2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c6c6cb7f-f295-44f6-b3c2-f42e9c03e23c</tstamps>
+    </comp>
+    <comp ref="PAD3">
+      <value>SMD/Rec1.5x3.0</value>
+      <footprint>BatteryPack:FP_PAD3</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_PAD3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_PAD3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce7e8c6d-a738-4f2e-89b4-c3b01afa4f1b</tstamps>
+    </comp>
+    <comp ref="PAD4">
+      <value>SMD/Rec1.5x3.0</value>
+      <footprint>BatteryPack:FP_PAD4</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_PAD4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_PAD4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5fcdd44d-6ce6-4151-b072-73a3f1c77e1e</tstamps>
+    </comp>
+    <comp ref="Pad5">
+      <value>Pad</value>
+      <footprint>BatteryPack:FP_Pad5</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_Pad5</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_Pad5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>044f8c64-e6ce-4b35-92db-becd653f5f5c</tstamps>
+    </comp>
+    <comp ref="Pad6">
+      <value>Pad</value>
+      <footprint>BatteryPack:FP_Pad6</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_Pad6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_Pad6" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3c6986ba-6333-4a29-8aaa-9d806b4ecdd1</tstamps>
+    </comp>
+    <comp ref="PAD7">
+      <value>TH/Rec2.7x5.4_R1.8</value>
+      <footprint>BatteryPack:FP_PAD7</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_PAD7</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_PAD7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>24e0de38-ab93-4a9f-a1fe-24e64d25fb6d</tstamps>
+    </comp>
+    <comp ref="PAD8">
+      <value>TH/Rec2.7x5.4_R1.8</value>
+      <footprint>BatteryPack:FP_PAD8</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_PAD8</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_PAD8" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cbcdcc07-35c2-4725-a5d2-c1f91435ffe9</tstamps>
+    </comp>
+    <comp ref="Pad9">
+      <value>Pad</value>
+      <footprint>BatteryPack:FP_Pad9</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_Pad9</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_Pad9" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00fbc307-74e1-4fc9-abfe-1306ace26dd3</tstamps>
+    </comp>
+    <comp ref="Pad10">
+      <value>Pad</value>
+      <footprint>BatteryPack:FP_Pad10</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_Pad10</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_Pad10" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>777d13d7-c8cf-4c7f-9507-c726f8616395</tstamps>
+    </comp>
+    <comp ref="Pad11">
+      <value>Pad</value>
+      <footprint>BatteryPack:FP_Pad11</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_Pad11</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_Pad11" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>85e6bd14-6b09-4b3a-a5aa-36b5d8d66fca</tstamps>
+    </comp>
+    <comp ref="Pad12">
+      <value>Pad</value>
+      <footprint>BatteryPack:FP_Pad12</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_Pad12</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_Pad12" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>33b92216-1aee-4781-bb92-3913d86f2d0d</tstamps>
+    </comp>
+    <comp ref="Pad13">
+      <value>Pad</value>
+      <footprint>BatteryPack:FP_Pad13</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_Pad13</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_Pad13" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cba5db74-95a4-4b03-b580-99143ee5cbbd</tstamps>
+    </comp>
+    <comp ref="PAD17">
+      <value>PAD</value>
+      <footprint>BatteryPack:FP_PAD17</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_PAD17</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_PAD17" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b86e897-55d2-4d66-9530-e891ba89f6d6</tstamps>
+    </comp>
+    <comp ref="PAD19">
+      <value>PAD</value>
+      <footprint>BatteryPack:FP_PAD19</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_PAD19</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_PAD19" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>04b741cf-51dc-44c5-afa2-1645c368fc3a</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>SI1414DH-T1-GE3</value>
+      <footprint>BatteryPack:FP_Q1</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_Q1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_Q1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>809ad11f-2c4c-41c0-8e57-68fd17b20a0d</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>CSD16412Q5A</value>
+      <footprint>BatteryPack:FP_Q2</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_Q2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_Q2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>900b5088-7491-497e-bac6-48339994051d</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>CSD16412Q5A</value>
+      <footprint>BatteryPack:FP_Q3</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_Q3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_Q3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>72d0db40-e836-4f42-8fb7-639cc0445990</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>2N7002K_R1_00001</value>
+      <footprint>BatteryPack:FP_Q4</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_Q4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_Q4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>34d0d199-e4c2-4779-8aac-8e73d3379b67</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>100R</value>
+      <footprint>BatteryPack:FP_R1</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_R1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_R1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce018a5b-da2f-44df-a9a5-6b57d73b3390</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>100R</value>
+      <footprint>BatteryPack:FP_R2</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_R2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_R2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc876209-a2c0-409a-b468-71a0c32ef249</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>5.1k</value>
+      <footprint>BatteryPack:FP_R3</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_R3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_R3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>40a23354-3723-46ce-bf80-1632266bc4d4</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>10M</value>
+      <footprint>BatteryPack:FP_R4</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_R4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_R4" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd67db1e-36df-40e6-bbb7-978f1e88cdb6</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>1mR</value>
+      <footprint>BatteryPack:FP_R5</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_R5</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_R5" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>05378589-671c-483f-bd75-d1210761229e</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>5.1k</value>
+      <footprint>BatteryPack:FP_R6</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_R6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_R6" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a478260b-0d8b-40b8-bb14-755e567c3ee9</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10R</value>
+      <footprint>BatteryPack:FP_R7</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_R7</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_R7" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ffe43487-503f-4509-bc6d-1677fc60e97b</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>5.1k</value>
+      <footprint>BatteryPack:FP_R8</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_R8</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_R8" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>450ab791-dada-43e5-8ef4-760735ae9968</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>100R</value>
+      <footprint>BatteryPack:FP_R11</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_R11</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_R11" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>219b02ff-0e2c-4e11-b09b-d677ab4e977e</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>100R</value>
+      <footprint>BatteryPack:FP_R12</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_R12</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_R12" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98edddbe-572f-44d7-b800-34f3d917269e</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>10M</value>
+      <footprint>BatteryPack:FP_R13</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_R13</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_R13" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82a04a75-dd59-4f57-98f0-eff802ccecd6</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>100k</value>
+      <footprint>BatteryPack:FP_R14</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_R14</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_R14" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e372bbbf-4219-4df8-bcbd-7b0e0f6bc7d5</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>5.1k</value>
+      <footprint>BatteryPack:FP_R15</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_R15</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_R15" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f784bcaa-cea3-4ba5-b6ea-648e592d436c</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>1k</value>
+      <footprint>BatteryPack:FP_R20</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_R20</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_R20" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0875fb33-0e22-4b49-ae69-c55229eea097</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>100R</value>
+      <footprint>BatteryPack:FP_R21</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_R21</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_R21" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5e4eb538-1eda-42e0-ae1a-3ed43e621f73</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>100R</value>
+      <footprint>BatteryPack:FP_R22</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_R22</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_R22" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>40cac271-90c1-4fe1-8973-aa7c9a66591f</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>1k</value>
+      <footprint>BatteryPack:FP_R24</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_R24</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_R24" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8aaff1d7-9707-4c2c-939c-db66d6a28a0f</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>100R</value>
+      <footprint>BatteryPack:FP_R26</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_R26</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_R26" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>367362f4-6a99-40f6-87c5-e7bc86b48b9b</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>4.99R</value>
+      <footprint>BatteryPack:FP_R27</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_R27</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_R27" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c095e7a8-8cac-4509-9cd3-1c522b9a0328</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>1k</value>
+      <footprint>BatteryPack:FP_R28</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_R28</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_R28" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6c529258-f1a1-4cab-9262-f4179320640c</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>100R</value>
+      <footprint>BatteryPack:FP_R29</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_R29</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_R29" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20e3cfae-ab0e-47c3-b5ae-8364b76a143e</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>1k</value>
+      <footprint>BatteryPack:FP_R30</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_R30</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_R30" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0216e3d1-4905-4926-a059-c59f66362be1</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>100k</value>
+      <footprint>BatteryPack:FP_R32</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_R32</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_R32" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c8c556e7-0d1f-4866-805a-475ec3c37562</tstamps>
+    </comp>
+    <comp ref="R40">
+      <value>0.1R_1%_1206</value>
+      <footprint>BatteryPack:FP_R40</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_R40</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_R40" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f8a87946-ae3a-48ed-9229-6bf6aaa8a686</tstamps>
+    </comp>
+    <comp ref="R46">
+      <value>Net-Tie </value>
+      <footprint>BatteryPack:FP_R46</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_R46</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_R46" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>474b66d5-f5fe-4e58-8001-c87b23f0e875</tstamps>
+    </comp>
+    <comp ref="TH1">
+      <value>10k_NTC_BEAD_BETA_TBD</value>
+      <footprint>BatteryPack:FP_TH1</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_TH1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_TH1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>47aed800-e182-4f6d-b3a7-f71ea3e2dd63</tstamps>
+    </comp>
+    <comp ref="TH2">
+      <value>10k_NTC_BEAD_BETA_TBD</value>
+      <footprint>BatteryPack:FP_TH2</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_TH2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_TH2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ac9270f2-7a9e-4497-9da5-42d5cadfcaf5</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>BQ294502DRVR</value>
+      <footprint>BatteryPack:FP_U1</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_U1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_U1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>071934bc-61eb-4584-87bb-efa7ead89b4d</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>BQ28Z610DRZR-R1</value>
+      <footprint>BatteryPack:FP_U2</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_U2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_U2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3ff124c7-f9a0-455c-90de-3b4424971d40</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>SCF4030-12-02</value>
+      <footprint>BatteryPack:FP_U3</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_U3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_U3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea1102a3-4dfd-4ffb-9143-0721b5998dfe</tstamps>
+    </comp>
+    <comp ref="WIRE1">
+      <value>AWG10</value>
+      <footprint>BatteryPack:FP_WIRE1</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_WIRE1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_WIRE1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6ee73a80-dd7f-4b15-b928-1d279ec16ce7</tstamps>
+    </comp>
+    <comp ref="WIRE2">
+      <value>AWG10</value>
+      <footprint>BatteryPack:FP_WIRE2</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_WIRE2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_WIRE2" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9d9f8068-214f-41bf-bc97-76318db85aa1</tstamps>
+    </comp>
+    <comp ref="WIRE3">
+      <value>AWG10</value>
+      <footprint>BatteryPack:FP_WIRE3</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_WIRE3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_WIRE3" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a8314316-1fd3-41a4-bff1-5af122085f38</tstamps>
+    </comp>
+    <comp ref="WIRE6">
+      <value>AWG10</value>
+      <footprint>BatteryPack:FP_WIRE6</footprint>
+      <fields>
+        <field name="Footprint">BatteryPack:FP_WIRE6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Recovered" part="REC_WIRE6" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="BatteryPack_RevA.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>556c8a1b-bce0-4a62-833c-262531ebbf8e</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Recovered" part="REC_C1">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">100nF/50V</field>
+        <field name="Footprint">BatteryPack:FP_C1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_C11">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">100nF/16V</field>
+        <field name="Footprint">BatteryPack:FP_C11</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_C12">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">100nF/16V</field>
+        <field name="Footprint">BatteryPack:FP_C12</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_C13">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">100nF/16V</field>
+        <field name="Footprint">BatteryPack:FP_C13</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_C14">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">100nF/16V</field>
+        <field name="Footprint">BatteryPack:FP_C14</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_C16">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">1µF/16V</field>
+        <field name="Footprint">BatteryPack:FP_C16</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_C17">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">100nF/16V</field>
+        <field name="Footprint">BatteryPack:FP_C17</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_C2">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">100nF/16V</field>
+        <field name="Footprint">BatteryPack:FP_C2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_C20">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">100nF/16V</field>
+        <field name="Footprint">BatteryPack:FP_C20</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_C4">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">2.2µF/16V</field>
+        <field name="Footprint">BatteryPack:FP_C4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_C5">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">100nF/16V</field>
+        <field name="Footprint">BatteryPack:FP_C5</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_C6">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">100nF/16V</field>
+        <field name="Footprint">BatteryPack:FP_C6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_C7">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">100nF/50V</field>
+        <field name="Footprint">BatteryPack:FP_C7</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_D1">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">BAS16-7-F</field>
+        <field name="Footprint">BatteryPack:FP_D1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+        <pin num="3" name="PAD_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_D2">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">MM3Z5V6C</field>
+        <field name="Footprint">BatteryPack:FP_D2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_D3">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">MM3Z5V6C</field>
+        <field name="Footprint">BatteryPack:FP_D3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_F1">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">2.5A_1206_FUSE_TBD</field>
+        <field name="Footprint">BatteryPack:FP_F1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_F2">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">0.5A_FAST_1206_FUSE_TBD</field>
+        <field name="Footprint">BatteryPack:FP_F2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_J1">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">CZX-4B2-2.54-e_FIXED</field>
+        <field name="Footprint">BatteryPack:FP_J1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+        <pin num="3" name="PAD_3" type="passive"/>
+        <pin num="4" name="PAD_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_J12">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">Solder_JMP_1</field>
+        <field name="Footprint">BatteryPack:FP_J12</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_PAD1">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">TH/Rec2.7x5.4_R1.8</field>
+        <field name="Footprint">BatteryPack:FP_PAD1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="PAD" name="PAD_PAD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_PAD17">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">PAD</field>
+        <field name="Footprint">BatteryPack:FP_PAD17</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="17" name="PAD_17" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_PAD19">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">PAD</field>
+        <field name="Footprint">BatteryPack:FP_PAD19</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="17" name="PAD_17" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_PAD3">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">SMD/Rec1.5x3.0</field>
+        <field name="Footprint">BatteryPack:FP_PAD3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="PAD" name="PAD_PAD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_PAD4">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">SMD/Rec1.5x3.0</field>
+        <field name="Footprint">BatteryPack:FP_PAD4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="PAD" name="PAD_PAD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_PAD7">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">TH/Rec2.7x5.4_R1.8</field>
+        <field name="Footprint">BatteryPack:FP_PAD7</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="PAD" name="PAD_PAD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_PAD8">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">TH/Rec2.7x5.4_R1.8</field>
+        <field name="Footprint">BatteryPack:FP_PAD8</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="PAD" name="PAD_PAD" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_Pad10">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">Pad</field>
+        <field name="Footprint">BatteryPack:FP_Pad10</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_Pad11">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">Pad</field>
+        <field name="Footprint">BatteryPack:FP_Pad11</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_Pad12">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">Pad</field>
+        <field name="Footprint">BatteryPack:FP_Pad12</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_Pad13">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">Pad</field>
+        <field name="Footprint">BatteryPack:FP_Pad13</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_Pad2">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">Pad</field>
+        <field name="Footprint">BatteryPack:FP_Pad2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_Pad5">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">Pad</field>
+        <field name="Footprint">BatteryPack:FP_Pad5</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_Pad6">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">Pad</field>
+        <field name="Footprint">BatteryPack:FP_Pad6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_Pad9">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">Pad</field>
+        <field name="Footprint">BatteryPack:FP_Pad9</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_Q1">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">SI1414DH-T1-GE3</field>
+        <field name="Footprint">BatteryPack:FP_Q1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+        <pin num="3" name="PAD_3" type="passive"/>
+        <pin num="4" name="PAD_4" type="passive"/>
+        <pin num="5" name="PAD_5" type="passive"/>
+        <pin num="6" name="PAD_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_Q2">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">CSD16412Q5A</field>
+        <field name="Footprint">BatteryPack:FP_Q2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+        <pin num="3" name="PAD_3" type="passive"/>
+        <pin num="4" name="PAD_4" type="passive"/>
+        <pin num="5" name="PAD_5" type="passive"/>
+        <pin num="6" name="PAD_6" type="passive"/>
+        <pin num="7" name="PAD_7" type="passive"/>
+        <pin num="8" name="PAD_8" type="passive"/>
+        <pin num="9" name="PAD_9" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_Q3">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">CSD16412Q5A</field>
+        <field name="Footprint">BatteryPack:FP_Q3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+        <pin num="3" name="PAD_3" type="passive"/>
+        <pin num="4" name="PAD_4" type="passive"/>
+        <pin num="5" name="PAD_5" type="passive"/>
+        <pin num="6" name="PAD_6" type="passive"/>
+        <pin num="7" name="PAD_7" type="passive"/>
+        <pin num="8" name="PAD_8" type="passive"/>
+        <pin num="9" name="PAD_9" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_Q4">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">2N7002K_R1_00001</field>
+        <field name="Footprint">BatteryPack:FP_Q4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+        <pin num="3" name="PAD_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_R1">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">100R</field>
+        <field name="Footprint">BatteryPack:FP_R1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_R11">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">100R</field>
+        <field name="Footprint">BatteryPack:FP_R11</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_R12">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">100R</field>
+        <field name="Footprint">BatteryPack:FP_R12</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_R13">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">10M</field>
+        <field name="Footprint">BatteryPack:FP_R13</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_R14">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">100k</field>
+        <field name="Footprint">BatteryPack:FP_R14</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_R15">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">5.1k</field>
+        <field name="Footprint">BatteryPack:FP_R15</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_R2">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">100R</field>
+        <field name="Footprint">BatteryPack:FP_R2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_R20">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">1k</field>
+        <field name="Footprint">BatteryPack:FP_R20</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_R21">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">100R</field>
+        <field name="Footprint">BatteryPack:FP_R21</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_R22">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">100R</field>
+        <field name="Footprint">BatteryPack:FP_R22</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_R24">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">1k</field>
+        <field name="Footprint">BatteryPack:FP_R24</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_R26">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">100R</field>
+        <field name="Footprint">BatteryPack:FP_R26</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_R27">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">4.99R</field>
+        <field name="Footprint">BatteryPack:FP_R27</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_R28">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">1k</field>
+        <field name="Footprint">BatteryPack:FP_R28</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_R29">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">100R</field>
+        <field name="Footprint">BatteryPack:FP_R29</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_R3">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">5.1k</field>
+        <field name="Footprint">BatteryPack:FP_R3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_R30">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">1k</field>
+        <field name="Footprint">BatteryPack:FP_R30</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_R32">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">100k</field>
+        <field name="Footprint">BatteryPack:FP_R32</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_R4">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">10M</field>
+        <field name="Footprint">BatteryPack:FP_R4</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_R40">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">0.1R_1%_1206</field>
+        <field name="Footprint">BatteryPack:FP_R40</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_R46">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">Net-Tie</field>
+        <field name="Footprint">BatteryPack:FP_R46</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_R5">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">1mR</field>
+        <field name="Footprint">BatteryPack:FP_R5</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_R6">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">5.1k</field>
+        <field name="Footprint">BatteryPack:FP_R6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_R7">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">10R</field>
+        <field name="Footprint">BatteryPack:FP_R7</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_R8">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">5.1k</field>
+        <field name="Footprint">BatteryPack:FP_R8</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_TH1">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">10k_NTC_BEAD_BETA_TBD</field>
+        <field name="Footprint">BatteryPack:FP_TH1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_TH2">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">10k_NTC_BEAD_BETA_TBD</field>
+        <field name="Footprint">BatteryPack:FP_TH2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_U1">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">BQ294502DRVR</field>
+        <field name="Footprint">BatteryPack:FP_U1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+        <pin num="3" name="PAD_3" type="passive"/>
+        <pin num="4" name="PAD_4" type="passive"/>
+        <pin num="5" name="PAD_5" type="passive"/>
+        <pin num="6" name="PAD_6" type="passive"/>
+        <pin num="7" name="PAD_7" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_U2">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">BQ28Z610DRZR-R1</field>
+        <field name="Footprint">BatteryPack:FP_U2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+        <pin num="3" name="PAD_3" type="passive"/>
+        <pin num="4" name="PAD_4" type="passive"/>
+        <pin num="5" name="PAD_5" type="passive"/>
+        <pin num="6" name="PAD_6" type="passive"/>
+        <pin num="7" name="PAD_7" type="passive"/>
+        <pin num="8" name="PAD_8" type="passive"/>
+        <pin num="9" name="PAD_9" type="passive"/>
+        <pin num="10" name="PAD_10" type="passive"/>
+        <pin num="11" name="PAD_11" type="passive"/>
+        <pin num="12" name="PAD_12" type="passive"/>
+        <pin num="13" name="PAD_13" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_U3">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">SCF4030-12-02</field>
+        <field name="Footprint">BatteryPack:FP_U3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="PAD_1" type="passive"/>
+        <pin num="2" name="PAD_2" type="passive"/>
+        <pin num="3" name="PAD_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_WIRE1">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">AWG10</field>
+        <field name="Footprint">BatteryPack:FP_WIRE1</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="WIRE" name="PAD_WIRE" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_WIRE2">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">AWG10</field>
+        <field name="Footprint">BatteryPack:FP_WIRE2</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="WIRE" name="PAD_WIRE" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_WIRE3">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">AWG10</field>
+        <field name="Footprint">BatteryPack:FP_WIRE3</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="WIRE" name="PAD_WIRE" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Recovered" part="REC_WIRE6">
+      <fields>
+        <field name="Reference">X</field>
+        <field name="Value">AWG10</field>
+        <field name="Footprint">BatteryPack:FP_WIRE6</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="WIRE" name="PAD_WIRE" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Recovered">
+      <uri>/workspace/Integrated_Battery_Pack_RevA/Project/Recovered.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="AUX_PRE_FUSE" class="Default">
+      <node ref="F2" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="R40" pin="2" pinfunction="PAD_2" pintype="passive"/>
+    </net>
+    <net code="2" name="BMS_TS" class="Default">
+      <node ref="PAD3" pin="PAD" pinfunction="PAD_PAD" pintype="passive"/>
+      <node ref="TH1" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="PAD_4" pintype="passive"/>
+    </net>
+    <net code="3" name="CELL_MID" class="Default">
+      <node ref="PAD1" pin="PAD" pinfunction="PAD_PAD" pintype="passive"/>
+      <node ref="R20" pin="2" pinfunction="PAD_2" pintype="passive"/>
+      <node ref="R26" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="R8" pin="1" pinfunction="PAD_1" pintype="passive"/>
+    </net>
+    <net code="4" name="CELL_MINUS" class="Default">
+      <node ref="C11" pin="2" pinfunction="PAD_2" pintype="passive"/>
+      <node ref="C13" pin="2" pinfunction="PAD_2" pintype="passive"/>
+      <node ref="C14" pin="2" pinfunction="PAD_2" pintype="passive"/>
+      <node ref="C17" pin="2" pinfunction="PAD_2" pintype="passive"/>
+      <node ref="C20" pin="2" pinfunction="PAD_2" pintype="passive"/>
+      <node ref="C4" pin="2" pinfunction="PAD_2" pintype="passive"/>
+      <node ref="PAD17" pin="17" pinfunction="PAD_17" pintype="passive"/>
+      <node ref="PAD19" pin="17" pinfunction="PAD_17" pintype="passive"/>
+      <node ref="PAD4" pin="PAD" pinfunction="PAD_PAD" pintype="passive"/>
+      <node ref="PAD8" pin="PAD" pinfunction="PAD_PAD" pintype="passive"/>
+      <node ref="Q1" pin="4" pinfunction="PAD_4" pintype="passive"/>
+      <node ref="R22" pin="2" pinfunction="PAD_2" pintype="passive"/>
+      <node ref="R32" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="R46" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="R46" pin="2" pinfunction="PAD_2" pintype="passive"/>
+      <node ref="R5" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="TH1" pin="2" pinfunction="PAD_2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="PAD_3" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="PAD_7" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="PAD_13" pintype="passive"/>
+    </net>
+    <net code="5" name="CELL_PLUS" class="Default">
+      <node ref="PAD7" pin="PAD" pinfunction="PAD_PAD" pintype="passive"/>
+      <node ref="R27" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="R28" pin="2" pinfunction="PAD_2" pintype="passive"/>
+      <node ref="R29" pin="2" pinfunction="PAD_2" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="PAD_2" pintype="passive"/>
+    </net>
+    <net code="6" name="DRAIN" class="Default">
+      <node ref="Pad10" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="Pad11" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="Pad12" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="Pad13" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="Pad2" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="Pad5" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="Pad6" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="Pad9" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="Q2" pin="5" pinfunction="PAD_5" pintype="passive"/>
+      <node ref="Q2" pin="6" pinfunction="PAD_6" pintype="passive"/>
+      <node ref="Q2" pin="7" pinfunction="PAD_7" pintype="passive"/>
+      <node ref="Q2" pin="8" pinfunction="PAD_8" pintype="passive"/>
+      <node ref="Q2" pin="9" pinfunction="PAD_9" pintype="passive"/>
+      <node ref="Q3" pin="5" pinfunction="PAD_5" pintype="passive"/>
+      <node ref="Q3" pin="6" pinfunction="PAD_6" pintype="passive"/>
+      <node ref="Q3" pin="7" pinfunction="PAD_7" pintype="passive"/>
+      <node ref="Q3" pin="8" pinfunction="PAD_8" pintype="passive"/>
+      <node ref="Q3" pin="9" pinfunction="PAD_9" pintype="passive"/>
+    </net>
+    <net code="7" name="FuseOut" class="Default">
+      <node ref="C7" pin="2" pinfunction="PAD_2" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="PAD_2" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="PAD_3" pintype="passive"/>
+      <node ref="R13" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="R24" pin="2" pinfunction="PAD_2" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="PAD_1" pintype="passive"/>
+    </net>
+    <net code="8" name="G" class="Default">
+      <node ref="C20" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="PAD_3" pintype="passive"/>
+      <node ref="R30" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="R32" pin="2" pinfunction="PAD_2" pintype="passive"/>
+    </net>
+    <net code="9" name="HOST_NTC" class="Default">
+      <node ref="J1" pin="3" pinfunction="PAD_3" pintype="passive"/>
+      <node ref="TH2" pin="1" pinfunction="PAD_1" pintype="passive"/>
+    </net>
+    <net code="10" name="Net_1" class="Default">
+      <node ref="C5" pin="2" pinfunction="PAD_2" pintype="passive"/>
+      <node ref="C6" pin="1" pinfunction="PAD_1" pintype="passive"/>
+    </net>
+    <net code="11" name="Net_4" class="Default">
+      <node ref="D3" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="R1" pin="2" pinfunction="PAD_2" pintype="passive"/>
+      <node ref="R12" pin="1" pinfunction="PAD_1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net_5" class="Default">
+      <node ref="D2" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="R11" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="R2" pin="2" pinfunction="PAD_2" pintype="passive"/>
+    </net>
+    <net code="13" name="Net_8" class="Default">
+      <node ref="R12" pin="2" pinfunction="PAD_2" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="PAD_5" pintype="passive"/>
+    </net>
+    <net code="14" name="Net_9" class="Default">
+      <node ref="R11" pin="2" pinfunction="PAD_2" pintype="passive"/>
+      <node ref="U2" pin="6" pinfunction="PAD_6" pintype="passive"/>
+    </net>
+    <net code="15" name="Net_12" class="Default">
+      <node ref="C1" pin="2" pinfunction="PAD_2" pintype="passive"/>
+      <node ref="C7" pin="1" pinfunction="PAD_1" pintype="passive"/>
+    </net>
+    <net code="16" name="Net_13" class="Default">
+      <node ref="Q2" pin="4" pinfunction="PAD_4" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="PAD_3" pintype="passive"/>
+      <node ref="R4" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="R6" pin="2" pinfunction="PAD_2" pintype="passive"/>
+    </net>
+    <net code="17" name="Net_14" class="Default">
+      <node ref="Q3" pin="4" pinfunction="PAD_4" pintype="passive"/>
+      <node ref="R13" pin="2" pinfunction="PAD_2" pintype="passive"/>
+      <node ref="R15" pin="2" pinfunction="PAD_2" pintype="passive"/>
+    </net>
+    <net code="18" name="Net_15" class="Default">
+      <node ref="D1" pin="3" pinfunction="PAD_3" pintype="passive"/>
+      <node ref="R7" pin="2" pinfunction="PAD_2" pintype="passive"/>
+    </net>
+    <net code="19" name="Net_16" class="Default">
+      <node ref="R7" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="U2" pin="8" pinfunction="PAD_8" pintype="passive"/>
+    </net>
+    <net code="20" name="Net_17" class="Default">
+      <node ref="R6" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="U2" pin="7" pinfunction="PAD_7" pintype="passive"/>
+    </net>
+    <net code="21" name="Net_18" class="Default">
+      <node ref="Q4" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="R14" pin="2" pinfunction="PAD_2" pintype="passive"/>
+    </net>
+    <net code="22" name="Net_19" class="Default">
+      <node ref="R15" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="U2" pin="9" pinfunction="PAD_9" pintype="passive"/>
+    </net>
+    <net code="23" name="Net_20" class="Default">
+      <node ref="J12" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="R24" pin="1" pinfunction="PAD_1" pintype="passive"/>
+    </net>
+    <net code="24" name="Net_24" class="Default">
+      <node ref="C4" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="U2" pin="10" pinfunction="PAD_10" pintype="passive"/>
+    </net>
+    <net code="25" name="Net_33" class="Default">
+      <node ref="C12" pin="2" pinfunction="PAD_2" pintype="passive"/>
+      <node ref="C14" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="R22" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="PAD_3" pintype="passive"/>
+    </net>
+    <net code="26" name="Net_34" class="Default">
+      <node ref="C12" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="C13" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="R21" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="PAD_2" pintype="passive"/>
+    </net>
+    <net code="27" name="Net_40" class="Default">
+      <node ref="C16" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="R27" pin="2" pinfunction="PAD_2" pintype="passive"/>
+      <node ref="U2" pin="11" pinfunction="PAD_11" pintype="passive"/>
+    </net>
+    <net code="28" name="Net_41" class="Default">
+      <node ref="C11" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="C16" pin="2" pinfunction="PAD_2" pintype="passive"/>
+      <node ref="R26" pin="2" pinfunction="PAD_2" pintype="passive"/>
+      <node ref="U2" pin="12" pinfunction="PAD_12" pintype="passive"/>
+    </net>
+    <net code="29" name="Net_42" class="Default">
+      <node ref="C17" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="C2" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="R20" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="PAD_4" pintype="passive"/>
+    </net>
+    <net code="30" name="Net_43" class="Default">
+      <node ref="C2" pin="2" pinfunction="PAD_2" pintype="passive"/>
+      <node ref="R28" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="PAD_2" pintype="passive"/>
+    </net>
+    <net code="31" name="Net_44" class="Default">
+      <node ref="R29" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="PAD_5" pintype="passive"/>
+    </net>
+    <net code="32" name="Net_45" class="Default">
+      <node ref="R30" pin="2" pinfunction="PAD_2" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="PAD_6" pintype="passive"/>
+    </net>
+    <net code="33" name="Net_46" class="Default">
+      <node ref="Q1" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="PAD_2" pintype="passive"/>
+      <node ref="Q1" pin="5" pinfunction="PAD_5" pintype="passive"/>
+      <node ref="Q1" pin="6" pinfunction="PAD_6" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="PAD_3" pintype="passive"/>
+    </net>
+    <net code="34" name="PACK_MINUS" class="Default">
+      <node ref="C6" pin="2" pinfunction="PAD_2" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="PAD_2" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="PAD_2" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="PAD_4" pintype="passive"/>
+      <node ref="R14" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="R21" pin="2" pinfunction="PAD_2" pintype="passive"/>
+      <node ref="R5" pin="2" pinfunction="PAD_2" pintype="passive"/>
+      <node ref="TH2" pin="2" pinfunction="PAD_2" pintype="passive"/>
+      <node ref="WIRE6" pin="WIRE" pinfunction="PAD_WIRE" pintype="passive"/>
+    </net>
+    <net code="35" name="PACK_PLUS" class="Default">
+      <node ref="F1" pin="2" pinfunction="PAD_2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="R40" pin="1" pinfunction="PAD_1" pintype="passive"/>
+    </net>
+    <net code="36" name="PACK_PLUS_AUX" class="Default">
+      <node ref="F2" pin="2" pinfunction="PAD_2" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="PAD_2" pintype="passive"/>
+    </net>
+    <net code="37" name="PROTECTED_PLUS" class="Default">
+      <node ref="C1" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="C5" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="F1" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="J12" pin="2" pinfunction="PAD_2" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="PAD_2" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="PAD_3" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="PAD_2" pintype="passive"/>
+      <node ref="R4" pin="2" pinfunction="PAD_2" pintype="passive"/>
+      <node ref="WIRE3" pin="WIRE" pinfunction="PAD_WIRE" pintype="passive"/>
+    </net>
+    <net code="38" name="SCL" class="Default">
+      <node ref="R1" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="R3" pin="2" pinfunction="PAD_2" pintype="passive"/>
+      <node ref="WIRE1" pin="WIRE" pinfunction="PAD_WIRE" pintype="passive"/>
+    </net>
+    <net code="39" name="SDA" class="Default">
+      <node ref="R2" pin="1" pinfunction="PAD_1" pintype="passive"/>
+      <node ref="R8" pin="2" pinfunction="PAD_2" pintype="passive"/>
+      <node ref="WIRE2" pin="WIRE" pinfunction="PAD_WIRE" pintype="passive"/>
+    </net>
+    <net code="40" name="unconnected-(D1-PAD_2-Pad2)" class="Default">
+      <node ref="D1" pin="2" pinfunction="PAD_2" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

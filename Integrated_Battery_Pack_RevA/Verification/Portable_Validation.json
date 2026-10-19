@@ -1,0 +1,12 @@
+{
+  "method": "Extracted ZIP into a new /tmp directory with fresh XDG config/cache/data and reran KiCad 9.0.2 checks",
+  "ERC_exit_code": 0,
+  "DRC_with_schematic_parity_exit_code": 0,
+  "ERC_violations": 0,
+  "DRC_violations": 0,
+  "unconnected_items": 0,
+  "schematic_parity_issues": 0,
+  "local_STEP_references_resolved": 53,
+  "manifest_verified": true,
+  "scope": "File portability and CAD/layout/connectivity checks only; no hardware qualification"
+}

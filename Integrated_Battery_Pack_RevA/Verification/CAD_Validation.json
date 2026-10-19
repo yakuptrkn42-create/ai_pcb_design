@@ -1,0 +1,12 @@
+{
+  "STEP_solids": 85,
+  "STEP_shape_valid": true,
+  "STEP_envelope_mm": [
+    74.0,
+    42.0,
+    29.12
+  ],
+  "cell_to_cell_clearance_mm": 1.3999999999999986,
+  "cell_to_PCB_underside_mm": 3.0,
+  "scope": "Selected nominal-envelope checks only; not a complete assembly interference/tolerance qualification"
+}

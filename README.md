@@ -1,3 +1,19 @@
+## Entegre 2S batarya paketi — Rev A
+
+İnfüzyon pompası için iki adet 18650 hücre, BMS ve sabit dört kontaklı dock bağlantısını birleştiren **tasarımcıya aktarım ön tasarımı**.
+
+- [Tüm proje paketi — ZIP](Integrated_Battery_Pack_RevA.zip)
+- [Görsel tasarım raporu — PDF](Integrated_Battery_Pack_RevA/Tasarimciya_Aktarim_TR.pdf)
+- [KiCad proje dosyaları](Integrated_Battery_Pack_RevA/Project/)
+- [STEP / WRL / FreeCAD montajı](Integrated_Battery_Pack_RevA/Mechanical/)
+- [Kapsam ve açılış notları](Integrated_Battery_Pack_RevA/README_TR.md)
+
+Nominal 7,4 V / 3500 mAh; yaklaşık 2 A hedefi; 74 × 42 × 29,12 mm nominal montaj zarfı. Kaynak şematik boş olduğundan bağlantılar PCB'den geri kazanıldı. ERC, fiziksel DRC, açık bağlantı ve şema–PCB eşleşme kontrolleri temizdir; IC işlevleri ve BMS ayarları henüz doğrulanmamıştır. **Üretim veya klinik kullanım onayı yoktur.** Kesin hücre, NTC/host uyumu ve fiziksel numune testleri tasarımcı tarafından tamamlanmalıdır.
+
+![Entegre batarya paketi — patlatılmış CAD montajı](Integrated_Battery_Pack_RevA/Views/02_Exploded_Assembly.png)
+
+---
+
 # STM32F469I-DISCO / DISEN — Rev J komponent yerleşimi
 
 **Güncel teslim: DS070HSD39T-132 için Placement P1.** Onaylı tek LCD şematiği korunarak 49 devre footprint’i yerleştirildi. Çift LCD Rev K ayrı korunuyor.

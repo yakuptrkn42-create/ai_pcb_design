@@ -1,0 +1,2017 @@
+[
+  {
+    "reference": "MECH1",
+    "value": "2x18650_CARRIER_REFERENCE",
+    "footprint": "BatteryPack:FP_MECH1",
+    "x": 0.0,
+    "y": 0.0,
+    "rotation": 0.0,
+    "side": "F",
+    "board_only": true,
+    "pads": []
+  },
+  {
+    "reference": "TH2",
+    "value": "10k_NTC_BEAD_BETA_TBD",
+    "footprint": "BatteryPack:FP_TH2",
+    "x": 58.0,
+    "y": 4.0,
+    "rotation": 0.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "2",
+        "net": "PACK_MINUS",
+        "x": 60.53999999999999,
+        "y": 4.0
+      },
+      {
+        "number": "1",
+        "net": "HOST_NTC",
+        "x": 58.0,
+        "y": 4.0
+      }
+    ]
+  },
+  {
+    "reference": "TH1",
+    "value": "10k_NTC_BEAD_BETA_TBD",
+    "footprint": "BatteryPack:FP_TH1",
+    "x": 49.0,
+    "y": 4.0,
+    "rotation": 0.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "2",
+        "net": "CELL_MINUS",
+        "x": 51.53999999999999,
+        "y": 4.0
+      },
+      {
+        "number": "1",
+        "net": "BMS_TS",
+        "x": 49.0,
+        "y": 4.0
+      }
+    ]
+  },
+  {
+    "reference": "F2",
+    "value": "0.5A_FAST_1206_FUSE_TBD",
+    "footprint": "BatteryPack:FP_F2",
+    "x": 72.0,
+    "y": 15.5,
+    "rotation": 0.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "2",
+        "net": "PACK_PLUS_AUX",
+        "x": 72.0,
+        "y": 14.0
+      },
+      {
+        "number": "1",
+        "net": "AUX_PRE_FUSE",
+        "x": 72.0,
+        "y": 17.0
+      }
+    ]
+  },
+  {
+    "reference": "R40",
+    "value": "0.1R_1%_1206",
+    "footprint": "BatteryPack:FP_R40",
+    "x": 71.0,
+    "y": 22.269999999999996,
+    "rotation": 0.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "2",
+        "net": "AUX_PRE_FUSE",
+        "x": 72.0,
+        "y": 22.269999999999996
+      },
+      {
+        "number": "1",
+        "net": "PACK_PLUS",
+        "x": 70.0,
+        "y": 22.269999999999996
+      }
+    ]
+  },
+  {
+    "reference": "F1",
+    "value": "2.5A_1206_FUSE_TBD",
+    "footprint": "BatteryPack:FP_F1",
+    "x": 65.0,
+    "y": 36.5,
+    "rotation": 0.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "2",
+        "net": "PACK_PLUS",
+        "x": 66.5,
+        "y": 36.5
+      },
+      {
+        "number": "1",
+        "net": "PROTECTED_PLUS",
+        "x": 63.5,
+        "y": 36.5
+      }
+    ]
+  },
+  {
+    "reference": "J1",
+    "value": "CZX-4B2-2.54-e_FIXED",
+    "footprint": "BatteryPack:FP_J1",
+    "x": 68.0,
+    "y": 21.0,
+    "rotation": 0.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "",
+        "net": "",
+        "x": 68.0,
+        "y": 9.009999999999991
+      },
+      {
+        "number": "",
+        "net": "",
+        "x": 68.0,
+        "y": 32.989999999999995
+      },
+      {
+        "number": "4",
+        "net": "PACK_MINUS",
+        "x": 68.0,
+        "y": 17.189999999999998
+      },
+      {
+        "number": "3",
+        "net": "HOST_NTC",
+        "x": 68.0,
+        "y": 19.730000000000004
+      },
+      {
+        "number": "2",
+        "net": "PACK_PLUS_AUX",
+        "x": 68.0,
+        "y": 22.269999999999996
+      },
+      {
+        "number": "1",
+        "net": "PACK_PLUS",
+        "x": 68.0,
+        "y": 24.810000000000002
+      }
+    ]
+  },
+  {
+    "reference": "H4",
+    "value": "M2 NPTH",
+    "footprint": "BatteryPack:FP_H4",
+    "x": 71.5,
+    "y": 2.5,
+    "rotation": 0.0,
+    "side": "F",
+    "board_only": true,
+    "pads": [
+      {
+        "number": "",
+        "net": "",
+        "x": 71.5,
+        "y": 2.5
+      }
+    ]
+  },
+  {
+    "reference": "H3",
+    "value": "M2 NPTH",
+    "footprint": "BatteryPack:FP_H3",
+    "x": 2.5,
+    "y": 2.5,
+    "rotation": 0.0,
+    "side": "F",
+    "board_only": true,
+    "pads": [
+      {
+        "number": "",
+        "net": "",
+        "x": 2.5,
+        "y": 2.5
+      }
+    ]
+  },
+  {
+    "reference": "H2",
+    "value": "M2 NPTH",
+    "footprint": "BatteryPack:FP_H2",
+    "x": 71.5,
+    "y": 39.5,
+    "rotation": 0.0,
+    "side": "F",
+    "board_only": true,
+    "pads": [
+      {
+        "number": "",
+        "net": "",
+        "x": 71.5,
+        "y": 39.5
+      }
+    ]
+  },
+  {
+    "reference": "H1",
+    "value": "M2 NPTH",
+    "footprint": "BatteryPack:FP_H1",
+    "x": 2.5,
+    "y": 39.5,
+    "rotation": 0.0,
+    "side": "F",
+    "board_only": true,
+    "pads": [
+      {
+        "number": "",
+        "net": "",
+        "x": 2.5,
+        "y": 39.5
+      }
+    ]
+  },
+  {
+    "reference": "WIRE1",
+    "value": "AWG10",
+    "footprint": "BatteryPack:FP_WIRE1",
+    "x": 34.3972,
+    "y": 30.791732999999994,
+    "rotation": 180.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "WIRE",
+        "net": "SCL",
+        "x": 34.3972,
+        "y": 30.791732999999994
+      }
+    ]
+  },
+  {
+    "reference": "PAD3",
+    "value": "SMD/Rec1.5x3.0",
+    "footprint": "BatteryPack:FP_PAD3",
+    "x": 54.30333300000001,
+    "y": 10.45666700000001,
+    "rotation": 180.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "PAD",
+        "net": "BMS_TS",
+        "x": 54.30333300000001,
+        "y": 10.45666700000001
+      }
+    ]
+  },
+  {
+    "reference": "Pad11",
+    "value": "Pad",
+    "footprint": "BatteryPack:FP_Pad11",
+    "x": 20.559267000000006,
+    "y": 18.644400000000005,
+    "rotation": 0.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "DRAIN",
+        "x": 20.559267000000006,
+        "y": 18.644400000000005
+      }
+    ]
+  },
+  {
+    "reference": "PAD8",
+    "value": "TH/Rec2.7x5.4_R1.8",
+    "footprint": "BatteryPack:FP_PAD8",
+    "x": 10.028433000000007,
+    "y": 12.300932999999986,
+    "rotation": 180.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "PAD",
+        "net": "CELL_MINUS",
+        "x": 10.028433000000007,
+        "y": 12.300932999999986
+      }
+    ]
+  },
+  {
+    "reference": "U2",
+    "value": "BQ28Z610DRZR-R1",
+    "footprint": "BatteryPack:FP_U2",
+    "x": 53.96283299999999,
+    "y": 15.974266999999998,
+    "rotation": 90.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "CELL_MINUS",
+        "x": 52.96283299999999,
+        "y": 14.183267
+      },
+      {
+        "number": "2",
+        "net": "Net_34",
+        "x": 53.362832999999995,
+        "y": 14.183267
+      },
+      {
+        "number": "3",
+        "net": "Net_33",
+        "x": 53.762833,
+        "y": 14.183267
+      },
+      {
+        "number": "4",
+        "net": "BMS_TS",
+        "x": 54.162833000000006,
+        "y": 14.183267
+      },
+      {
+        "number": "5",
+        "net": "Net_8",
+        "x": 54.56283300000001,
+        "y": 14.183267
+      },
+      {
+        "number": "6",
+        "net": "Net_9",
+        "x": 54.96283299999999,
+        "y": 14.183267
+      },
+      {
+        "number": "7",
+        "net": "Net_17",
+        "x": 54.96283299999999,
+        "y": 18.233266999999998
+      },
+      {
+        "number": "8",
+        "net": "Net_16",
+        "x": 54.56283300000001,
+        "y": 18.233266999999998
+      },
+      {
+        "number": "9",
+        "net": "Net_19",
+        "x": 54.162833000000006,
+        "y": 18.233266999999998
+      },
+      {
+        "number": "10",
+        "net": "Net_24",
+        "x": 53.762833,
+        "y": 18.233266999999998
+      },
+      {
+        "number": "11",
+        "net": "Net_40",
+        "x": 53.362832999999995,
+        "y": 18.233266999999998
+      },
+      {
+        "number": "12",
+        "net": "Net_41",
+        "x": 52.96283299999999,
+        "y": 18.233266999999998
+      },
+      {
+        "number": "13",
+        "net": "CELL_MINUS",
+        "x": 53.96283299999999,
+        "y": 15.058267
+      },
+      {
+        "number": "13",
+        "net": "CELL_MINUS",
+        "x": 53.440833,
+        "y": 15.300267000000005
+      },
+      {
+        "number": "13",
+        "net": "CELL_MINUS",
+        "x": 54.440833,
+        "y": 15.300267000000005
+      },
+      {
+        "number": "13",
+        "net": "CELL_MINUS",
+        "x": 53.440833,
+        "y": 16.200266999999997
+      },
+      {
+        "number": "13",
+        "net": "CELL_MINUS",
+        "x": 54.440833,
+        "y": 16.200266999999997
+      },
+      {
+        "number": "13",
+        "net": "CELL_MINUS",
+        "x": 53.96283299999999,
+        "y": 16.208267000000006
+      },
+      {
+        "number": "13",
+        "net": "CELL_MINUS",
+        "x": 53.440833,
+        "y": 17.100267000000002
+      },
+      {
+        "number": "13",
+        "net": "CELL_MINUS",
+        "x": 54.440833,
+        "y": 17.112267000000003
+      },
+      {
+        "number": "13",
+        "net": "CELL_MINUS",
+        "x": 53.96283299999999,
+        "y": 17.358266999999998
+      }
+    ]
+  },
+  {
+    "reference": "PAD1",
+    "value": "TH/Rec2.7x5.4_R1.8",
+    "footprint": "BatteryPack:FP_PAD1",
+    "x": 57.10986700000001,
+    "y": 30.599199999999996,
+    "rotation": 180.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "PAD",
+        "net": "CELL_MID",
+        "x": 57.10986700000001,
+        "y": 30.599199999999996
+      }
+    ]
+  },
+  {
+    "reference": "R7",
+    "value": "10R",
+    "footprint": "BatteryPack:FP_R7",
+    "x": 55.067733000000004,
+    "y": 20.592533000000003,
+    "rotation": 90.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "Net_16",
+        "x": 55.067733000000004,
+        "y": 20.077533000000003
+      },
+      {
+        "number": "2",
+        "net": "Net_15",
+        "x": 55.067733000000004,
+        "y": 21.107533000000004
+      }
+    ]
+  },
+  {
+    "reference": "PAD7",
+    "value": "TH/Rec2.7x5.4_R1.8",
+    "footprint": "BatteryPack:FP_PAD7",
+    "x": 10.038767000000007,
+    "y": 30.622,
+    "rotation": 180.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "PAD",
+        "net": "CELL_PLUS",
+        "x": 10.038767000000007,
+        "y": 30.622
+      }
+    ]
+  },
+  {
+    "reference": "U1",
+    "value": "BQ294502DRVR",
+    "footprint": "BatteryPack:FP_U1",
+    "x": 21.638932999999994,
+    "y": 25.471733,
+    "rotation": 180.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "Net_43",
+        "x": 22.838932999999997,
+        "y": 24.671733000000003
+      },
+      {
+        "number": "2",
+        "net": "Net_43",
+        "x": 22.838932999999997,
+        "y": 25.471733
+      },
+      {
+        "number": "3",
+        "net": "CELL_MINUS",
+        "x": 22.838932999999997,
+        "y": 26.271732999999998
+      },
+      {
+        "number": "4",
+        "net": "Net_42",
+        "x": 20.438933000000006,
+        "y": 26.271732999999998
+      },
+      {
+        "number": "5",
+        "net": "Net_44",
+        "x": 20.438933000000006,
+        "y": 25.471733
+      },
+      {
+        "number": "6",
+        "net": "Net_45",
+        "x": 20.438933000000006,
+        "y": 24.671733000000003
+      },
+      {
+        "number": "7",
+        "net": "CELL_MINUS",
+        "x": 21.638932999999994,
+        "y": 25.471733
+      }
+    ]
+  },
+  {
+    "reference": "Q3",
+    "value": "CSD16412Q5A",
+    "footprint": "BatteryPack:FP_Q3",
+    "x": 14.618233000000004,
+    "y": 19.6096,
+    "rotation": 0.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "FuseOut",
+        "x": 11.842232999999993,
+        "y": 21.526600000000002
+      },
+      {
+        "number": "2",
+        "net": "FuseOut",
+        "x": 11.842232999999993,
+        "y": 20.269599999999997
+      },
+      {
+        "number": "3",
+        "net": "FuseOut",
+        "x": 11.842232999999993,
+        "y": 18.949600000000004
+      },
+      {
+        "number": "4",
+        "net": "Net_14",
+        "x": 11.842232999999993,
+        "y": 17.6926
+      },
+      {
+        "number": "5",
+        "net": "DRAIN",
+        "x": 17.394233,
+        "y": 17.6926
+      },
+      {
+        "number": "6",
+        "net": "DRAIN",
+        "x": 17.394233,
+        "y": 18.949600000000004
+      },
+      {
+        "number": "7",
+        "net": "DRAIN",
+        "x": 17.394233,
+        "y": 20.269599999999997
+      },
+      {
+        "number": "8",
+        "net": "DRAIN",
+        "x": 17.394233,
+        "y": 21.526600000000002
+      },
+      {
+        "number": "9",
+        "net": "DRAIN",
+        "x": 14.919233000000006,
+        "y": 19.6096
+      }
+    ]
+  },
+  {
+    "reference": "R15",
+    "value": "5.1k",
+    "footprint": "BatteryPack:FP_R15",
+    "x": 53.75963300000001,
+    "y": 20.592533000000003,
+    "rotation": 90.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "Net_19",
+        "x": 53.75963300000001,
+        "y": 20.077533000000003
+      },
+      {
+        "number": "2",
+        "net": "Net_14",
+        "x": 53.75963300000001,
+        "y": 21.107533000000004
+      }
+    ]
+  },
+  {
+    "reference": "U3",
+    "value": "SCF4030-12-02",
+    "footprint": "BatteryPack:FP_U3",
+    "x": 12.373033000000007,
+    "y": 25.322266999999997,
+    "rotation": 180.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "FuseOut",
+        "x": 11.325033000000005,
+        "y": 24.094267000000002
+      },
+      {
+        "number": "2",
+        "net": "CELL_PLUS",
+        "x": 11.325033000000005,
+        "y": 26.549267
+      },
+      {
+        "number": "3",
+        "net": "Net_46",
+        "x": 13.781032999999994,
+        "y": 25.338267000000002
+      }
+    ]
+  },
+  {
+    "reference": "R14",
+    "value": "100k",
+    "footprint": "BatteryPack:FP_R14",
+    "x": 27.386967,
+    "y": 25.846666999999997,
+    "rotation": -90.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "PACK_MINUS",
+        "x": 27.386967,
+        "y": 26.641666999999998
+      },
+      {
+        "number": "2",
+        "net": "Net_18",
+        "x": 27.386967,
+        "y": 25.051666999999995
+      }
+    ]
+  },
+  {
+    "reference": "C14",
+    "value": "100nF/16V",
+    "footprint": "BatteryPack:FP_C14",
+    "x": 48.76853299999999,
+    "y": 13.907067000000012,
+    "rotation": 0.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "Net_33",
+        "x": 48.27853300000001,
+        "y": 13.907067000000012
+      },
+      {
+        "number": "2",
+        "net": "CELL_MINUS",
+        "x": 49.258533,
+        "y": 13.907067000000012
+      }
+    ]
+  },
+  {
+    "reference": "R46",
+    "value": "Net-Tie ",
+    "footprint": "BatteryPack:FP_R46",
+    "x": 45.74593300000001,
+    "y": 11.657466999999997,
+    "rotation": 0.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "CELL_MINUS",
+        "x": 47.36693299999999,
+        "y": 11.657466999999997
+      },
+      {
+        "number": "2",
+        "net": "CELL_MINUS",
+        "x": 44.066933000000006,
+        "y": 11.657466999999997
+      }
+    ]
+  },
+  {
+    "reference": "PAD17",
+    "value": "PAD",
+    "footprint": "BatteryPack:FP_PAD17",
+    "x": 21.656733000000003,
+    "y": 25.915066999999993,
+    "rotation": 0.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "17",
+        "net": "CELL_MINUS",
+        "x": 21.656733000000003,
+        "y": 25.915066999999993
+      }
+    ]
+  },
+  {
+    "reference": "R5",
+    "value": "1mR",
+    "footprint": "BatteryPack:FP_R5",
+    "x": 39.37816699999999,
+    "y": 14.727867000000003,
+    "rotation": 90.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "CELL_MINUS",
+        "x": 39.37816699999999,
+        "y": 13.207866999999993
+      },
+      {
+        "number": "2",
+        "net": "PACK_MINUS",
+        "x": 39.37816699999999,
+        "y": 16.247867
+      }
+    ]
+  },
+  {
+    "reference": "R13",
+    "value": "10M",
+    "footprint": "BatteryPack:FP_R13",
+    "x": 10.668532999999996,
+    "y": 18.302400000000006,
+    "rotation": -90.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "FuseOut",
+        "x": 10.668532999999996,
+        "y": 18.817400000000006
+      },
+      {
+        "number": "2",
+        "net": "Net_14",
+        "x": 10.668532999999996,
+        "y": 17.787400000000005
+      }
+    ]
+  },
+  {
+    "reference": "J12",
+    "value": "Solder_JMP_1",
+    "footprint": "BatteryPack:FP_J12",
+    "x": 7.938199999999995,
+    "y": 20.387332999999998,
+    "rotation": 90.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "Net_20",
+        "x": 7.938199999999995,
+        "y": 21.149333
+      },
+      {
+        "number": "2",
+        "net": "PROTECTED_PLUS",
+        "x": 7.938199999999995,
+        "y": 19.625332999999998
+      }
+    ]
+  },
+  {
+    "reference": "WIRE3",
+    "value": "AWG10",
+    "footprint": "BatteryPack:FP_WIRE3",
+    "x": 31.311266999999987,
+    "y": 20.78,
+    "rotation": 0.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "WIRE",
+        "net": "PROTECTED_PLUS",
+        "x": 31.311266999999987,
+        "y": 20.78
+      }
+    ]
+  },
+  {
+    "reference": "C6",
+    "value": "100nF/16V",
+    "footprint": "BatteryPack:FP_C6",
+    "x": 37.04133300000001,
+    "y": 25.043599999999998,
+    "rotation": 0.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "Net_1",
+        "x": 36.29133300000001,
+        "y": 25.043599999999998
+      },
+      {
+        "number": "2",
+        "net": "PACK_MINUS",
+        "x": 37.79133300000001,
+        "y": 25.043599999999998
+      }
+    ]
+  },
+  {
+    "reference": "R30",
+    "value": "1k",
+    "footprint": "BatteryPack:FP_R30",
+    "x": 17.648432999999997,
+    "y": 24.182266999999996,
+    "rotation": 0.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "G",
+        "x": 17.133432999999997,
+        "y": 24.182266999999996
+      },
+      {
+        "number": "2",
+        "net": "Net_45",
+        "x": 18.163432999999998,
+        "y": 24.182266999999996
+      }
+    ]
+  },
+  {
+    "reference": "Pad5",
+    "value": "Pad",
+    "footprint": "BatteryPack:FP_Pad5",
+    "x": 15.857732999999996,
+    "y": 18.543066999999994,
+    "rotation": 0.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "DRAIN",
+        "x": 15.857732999999996,
+        "y": 18.543066999999994
+      }
+    ]
+  },
+  {
+    "reference": "PAD19",
+    "value": "PAD",
+    "footprint": "BatteryPack:FP_PAD19",
+    "x": 21.659267,
+    "y": 24.987866999999994,
+    "rotation": 0.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "17",
+        "net": "CELL_MINUS",
+        "x": 21.659267,
+        "y": 24.987866999999994
+      }
+    ]
+  },
+  {
+    "reference": "C20",
+    "value": "100nF/16V",
+    "footprint": "BatteryPack:FP_C20",
+    "x": 17.661133000000007,
+    "y": 25.193067,
+    "rotation": 0.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "G",
+        "x": 17.171132999999998,
+        "y": 25.193067
+      },
+      {
+        "number": "2",
+        "net": "CELL_MINUS",
+        "x": 18.151133,
+        "y": 25.193067
+      }
+    ]
+  },
+  {
+    "reference": "R21",
+    "value": "100R",
+    "footprint": "BatteryPack:FP_R21",
+    "x": 46.533333,
+    "y": 15.4144,
+    "rotation": 180.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "Net_34",
+        "x": 47.048333000000014,
+        "y": 15.4144
+      },
+      {
+        "number": "2",
+        "net": "PACK_MINUS",
+        "x": 46.01833300000001,
+        "y": 15.4144
+      }
+    ]
+  },
+  {
+    "reference": "Pad6",
+    "value": "Pad",
+    "footprint": "BatteryPack:FP_Pad6",
+    "x": 20.594832999999994,
+    "y": 20.757199999999997,
+    "rotation": 0.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "DRAIN",
+        "x": 20.594832999999994,
+        "y": 20.757199999999997
+      }
+    ]
+  },
+  {
+    "reference": "Q1",
+    "value": "SI1414DH-T1-GE3",
+    "footprint": "BatteryPack:FP_Q1",
+    "x": 17.699600000000004,
+    "y": 28.344466999999995,
+    "rotation": -90.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "Net_46",
+        "x": 16.784599999999998,
+        "y": 28.994467
+      },
+      {
+        "number": "2",
+        "net": "Net_46",
+        "x": 16.784599999999998,
+        "y": 28.344466999999995
+      },
+      {
+        "number": "3",
+        "net": "G",
+        "x": 16.784599999999998,
+        "y": 27.694467000000003
+      },
+      {
+        "number": "4",
+        "net": "CELL_MINUS",
+        "x": 18.614599999999996,
+        "y": 27.694467000000003
+      },
+      {
+        "number": "5",
+        "net": "Net_46",
+        "x": 18.614599999999996,
+        "y": 28.344466999999995
+      },
+      {
+        "number": "6",
+        "net": "Net_46",
+        "x": 18.614599999999996,
+        "y": 28.994467
+      }
+    ]
+  },
+  {
+    "reference": "C5",
+    "value": "100nF/16V",
+    "footprint": "BatteryPack:FP_C5",
+    "x": 33.88666699999999,
+    "y": 25.008133,
+    "rotation": 0.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "PROTECTED_PLUS",
+        "x": 33.13666699999999,
+        "y": 25.008133
+      },
+      {
+        "number": "2",
+        "net": "Net_1",
+        "x": 34.63666699999999,
+        "y": 25.008133
+      }
+    ]
+  },
+  {
+    "reference": "R6",
+    "value": "5.1k",
+    "footprint": "BatteryPack:FP_R6",
+    "x": 56.317567,
+    "y": 20.595067,
+    "rotation": 90.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "Net_17",
+        "x": 56.317567,
+        "y": 20.080067
+      },
+      {
+        "number": "2",
+        "net": "Net_13",
+        "x": 56.317567,
+        "y": 21.110067
+      }
+    ]
+  },
+  {
+    "reference": "D2",
+    "value": "MM3Z5V6C ",
+    "footprint": "BatteryPack:FP_D2",
+    "x": 58.966633,
+    "y": 16.093333,
+    "rotation": -90.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "Net_5",
+        "x": 58.966633,
+        "y": 17.258332999999993
+      },
+      {
+        "number": "2",
+        "net": "PACK_MINUS",
+        "x": 58.966633,
+        "y": 14.928332999999995
+      }
+    ]
+  },
+  {
+    "reference": "Pad12",
+    "value": "Pad",
+    "footprint": "BatteryPack:FP_Pad12",
+    "x": 13.967967000000002,
+    "y": 18.459467000000004,
+    "rotation": 0.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "DRAIN",
+        "x": 13.967967000000002,
+        "y": 18.459467000000004
+      }
+    ]
+  },
+  {
+    "reference": "R32",
+    "value": "100k",
+    "footprint": "BatteryPack:FP_R32",
+    "x": 17.638267,
+    "y": 26.2444,
+    "rotation": 180.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "CELL_MINUS",
+        "x": 18.153267,
+        "y": 26.2444
+      },
+      {
+        "number": "2",
+        "net": "G",
+        "x": 17.123267,
+        "y": 26.2444
+      }
+    ]
+  },
+  {
+    "reference": "R22",
+    "value": "100R",
+    "footprint": "BatteryPack:FP_R22",
+    "x": 46.452033,
+    "y": 13.929867000000002,
+    "rotation": 180.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "Net_33",
+        "x": 46.96703299999999,
+        "y": 13.929867000000002
+      },
+      {
+        "number": "2",
+        "net": "CELL_MINUS",
+        "x": 45.937033000000014,
+        "y": 13.929867000000002
+      }
+    ]
+  },
+  {
+    "reference": "D1",
+    "value": "BAS16-7-F",
+    "footprint": "BatteryPack:FP_D1",
+    "x": 50.371432999999996,
+    "y": 22.150532999999996,
+    "rotation": 0.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "PROTECTED_PLUS",
+        "x": 49.301433,
+        "y": 23.065533000000002
+      },
+      {
+        "number": "2",
+        "net": "",
+        "x": 49.301433,
+        "y": 21.235533000000004
+      },
+      {
+        "number": "3",
+        "net": "Net_15",
+        "x": 51.44143299999999,
+        "y": 22.150532999999996
+      }
+    ]
+  },
+  {
+    "reference": "R8",
+    "value": "5.1k",
+    "footprint": "BatteryPack:FP_R8",
+    "x": 37.343767000000014,
+    "y": 26.930932999999996,
+    "rotation": 90.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "CELL_MID",
+        "x": 37.343767000000014,
+        "y": 26.415932999999995
+      },
+      {
+        "number": "2",
+        "net": "SDA",
+        "x": 37.343767000000014,
+        "y": 27.445932999999997
+      }
+    ]
+  },
+  {
+    "reference": "Pad2",
+    "value": "Pad",
+    "footprint": "BatteryPack:FP_Pad2",
+    "x": 14.0137,
+    "y": 20.681200000000004,
+    "rotation": 0.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "DRAIN",
+        "x": 14.0137,
+        "y": 20.681200000000004
+      }
+    ]
+  },
+  {
+    "reference": "Q2",
+    "value": "CSD16412Q5A",
+    "footprint": "BatteryPack:FP_Q2",
+    "x": 21.679132999999993,
+    "y": 19.613133000000005,
+    "rotation": 180.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "PROTECTED_PLUS",
+        "x": 24.455133000000004,
+        "y": 17.696133000000003
+      },
+      {
+        "number": "2",
+        "net": "PROTECTED_PLUS",
+        "x": 24.455133000000004,
+        "y": 18.953132999999994
+      },
+      {
+        "number": "3",
+        "net": "PROTECTED_PLUS",
+        "x": 24.455133000000004,
+        "y": 20.273133
+      },
+      {
+        "number": "4",
+        "net": "Net_13",
+        "x": 24.455133000000004,
+        "y": 21.530133000000006
+      },
+      {
+        "number": "5",
+        "net": "DRAIN",
+        "x": 18.903132999999997,
+        "y": 21.530133000000006
+      },
+      {
+        "number": "6",
+        "net": "DRAIN",
+        "x": 18.903132999999997,
+        "y": 20.273133
+      },
+      {
+        "number": "7",
+        "net": "DRAIN",
+        "x": 18.903132999999997,
+        "y": 18.953132999999994
+      },
+      {
+        "number": "8",
+        "net": "DRAIN",
+        "x": 18.903132999999997,
+        "y": 17.696133000000003
+      },
+      {
+        "number": "9",
+        "net": "DRAIN",
+        "x": 21.378133000000005,
+        "y": 19.613133000000005
+      }
+    ]
+  },
+  {
+    "reference": "WIRE6",
+    "value": "AWG10",
+    "footprint": "BatteryPack:FP_WIRE6",
+    "x": 42.573633,
+    "y": 20.833200000000005,
+    "rotation": 180.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "WIRE",
+        "net": "PACK_MINUS",
+        "x": 42.573633,
+        "y": 20.833200000000005
+      }
+    ]
+  },
+  {
+    "reference": "Q4",
+    "value": "2N7002K_R1_00001",
+    "footprint": "BatteryPack:FP_Q4",
+    "x": 30.09966700000001,
+    "y": 26.051867,
+    "rotation": 0.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "Net_18",
+        "x": 29.149666999999994,
+        "y": 24.996866999999995
+      },
+      {
+        "number": "2",
+        "net": "PROTECTED_PLUS",
+        "x": 31.049667,
+        "y": 24.996866999999995
+      },
+      {
+        "number": "3",
+        "net": "Net_13",
+        "x": 30.09966700000001,
+        "y": 27.106866999999994
+      }
+    ]
+  },
+  {
+    "reference": "WIRE2",
+    "value": "AWG10",
+    "footprint": "BatteryPack:FP_WIRE2",
+    "x": 39.58420000000001,
+    "y": 30.791732999999994,
+    "rotation": 180.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "WIRE",
+        "net": "SDA",
+        "x": 39.58420000000001,
+        "y": 30.791732999999994
+      }
+    ]
+  },
+  {
+    "reference": "R4",
+    "value": "10M",
+    "footprint": "BatteryPack:FP_R4",
+    "x": 26.109333000000007,
+    "y": 20.987733000000006,
+    "rotation": -90.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "Net_13",
+        "x": 26.109333000000007,
+        "y": 21.502733000000006
+      },
+      {
+        "number": "2",
+        "net": "PROTECTED_PLUS",
+        "x": 26.109333000000007,
+        "y": 20.472733000000005
+      }
+    ]
+  },
+  {
+    "reference": "D3",
+    "value": "MM3Z5V6C ",
+    "footprint": "BatteryPack:FP_D3",
+    "x": 56.734133000000014,
+    "y": 16.088267000000002,
+    "rotation": -90.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "Net_4",
+        "x": 56.734133000000014,
+        "y": 17.253266999999994
+      },
+      {
+        "number": "2",
+        "net": "PACK_MINUS",
+        "x": 56.734133000000014,
+        "y": 14.923266999999996
+      }
+    ]
+  },
+  {
+    "reference": "Pad10",
+    "value": "Pad",
+    "footprint": "BatteryPack:FP_Pad10",
+    "x": 22.395700000000005,
+    "y": 20.807867,
+    "rotation": 0.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "DRAIN",
+        "x": 22.395700000000005,
+        "y": 20.807867
+      }
+    ]
+  },
+  {
+    "reference": "Pad13",
+    "value": "Pad",
+    "footprint": "BatteryPack:FP_Pad13",
+    "x": 15.906000000000006,
+    "y": 20.678667000000004,
+    "rotation": 0.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "DRAIN",
+        "x": 15.906000000000006,
+        "y": 20.678667000000004
+      }
+    ]
+  },
+  {
+    "reference": "C13",
+    "value": "100nF/16V",
+    "footprint": "BatteryPack:FP_C13",
+    "x": 48.76853299999999,
+    "y": 15.432132999999993,
+    "rotation": 0.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "Net_34",
+        "x": 48.27853300000001,
+        "y": 15.432132999999993
+      },
+      {
+        "number": "2",
+        "net": "CELL_MINUS",
+        "x": 49.258533,
+        "y": 15.432132999999993
+      }
+    ]
+  },
+  {
+    "reference": "PAD4",
+    "value": "SMD/Rec1.5x3.0",
+    "footprint": "BatteryPack:FP_PAD4",
+    "x": 50.92513299999999,
+    "y": 10.471867000000003,
+    "rotation": 180.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "PAD",
+        "net": "CELL_MINUS",
+        "x": 50.92513299999999,
+        "y": 10.471867000000003
+      }
+    ]
+  },
+  {
+    "reference": "R3",
+    "value": "5.1k",
+    "footprint": "BatteryPack:FP_R3",
+    "x": 36.11423300000001,
+    "y": 26.930932999999996,
+    "rotation": 90.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "CELL_MID",
+        "x": 36.11423300000001,
+        "y": 26.415932999999995
+      },
+      {
+        "number": "2",
+        "net": "SCL",
+        "x": 36.11423300000001,
+        "y": 27.445932999999997
+      }
+    ]
+  },
+  {
+    "reference": "C12",
+    "value": "100nF/16V",
+    "footprint": "BatteryPack:FP_C12",
+    "x": 50.5008,
+    "y": 14.623999999999995,
+    "rotation": -90.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "Net_34",
+        "x": 50.5008,
+        "y": 15.114000000000004
+      },
+      {
+        "number": "2",
+        "net": "Net_33",
+        "x": 50.5008,
+        "y": 14.134
+      }
+    ]
+  },
+  {
+    "reference": "Pad9",
+    "value": "Pad",
+    "footprint": "BatteryPack:FP_Pad9",
+    "x": 22.372833,
+    "y": 18.634266999999994,
+    "rotation": 0.0,
+    "side": "F",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "DRAIN",
+        "x": 22.372833,
+        "y": 18.634266999999994
+      }
+    ]
+  },
+  {
+    "reference": "R26",
+    "value": "100R",
+    "footprint": "BatteryPack:FP_R26",
+    "x": 21.430499999999995,
+    "y": 29.661867,
+    "rotation": 0.0,
+    "side": "B",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "CELL_MID",
+        "x": 20.915499999999994,
+        "y": 29.661867
+      },
+      {
+        "number": "2",
+        "net": "Net_41",
+        "x": 21.945499999999996,
+        "y": 29.661867
+      }
+    ]
+  },
+  {
+    "reference": "R2",
+    "value": "100R",
+    "footprint": "BatteryPack:FP_R2",
+    "x": 56.772233,
+    "y": 18.277067000000002,
+    "rotation": -90.0,
+    "side": "B",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "SDA",
+        "x": 56.772233,
+        "y": 18.792067000000003
+      },
+      {
+        "number": "2",
+        "net": "Net_5",
+        "x": 56.772233,
+        "y": 17.762067000000002
+      }
+    ]
+  },
+  {
+    "reference": "C4",
+    "value": "2.2\u00b5F/16V",
+    "footprint": "BatteryPack:FP_C4",
+    "x": 51.443299999999994,
+    "y": 19.797067,
+    "rotation": 180.0,
+    "side": "B",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "Net_24",
+        "x": 51.9333,
+        "y": 19.797067
+      },
+      {
+        "number": "2",
+        "net": "CELL_MINUS",
+        "x": 50.95330000000001,
+        "y": 19.797067
+      }
+    ]
+  },
+  {
+    "reference": "C11",
+    "value": "100nF/16V",
+    "footprint": "BatteryPack:FP_C11",
+    "x": 21.427966999999995,
+    "y": 30.839866999999998,
+    "rotation": 180.0,
+    "side": "B",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "Net_41",
+        "x": 21.917967000000004,
+        "y": 30.839866999999998
+      },
+      {
+        "number": "2",
+        "net": "CELL_MINUS",
+        "x": 20.937967,
+        "y": 30.839866999999998
+      }
+    ]
+  },
+  {
+    "reference": "R11",
+    "value": "100R",
+    "footprint": "BatteryPack:FP_R11",
+    "x": 56.772233,
+    "y": 14.667067000000003,
+    "rotation": -90.0,
+    "side": "B",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "Net_5",
+        "x": 56.772233,
+        "y": 15.182067000000004
+      },
+      {
+        "number": "2",
+        "net": "Net_9",
+        "x": 56.772233,
+        "y": 14.152067000000002
+      }
+    ]
+  },
+  {
+    "reference": "R24",
+    "value": "1k",
+    "footprint": "BatteryPack:FP_R24",
+    "x": 9.997967000000003,
+    "y": 22.951066999999995,
+    "rotation": 0.0,
+    "side": "B",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "Net_20",
+        "x": 9.202967000000001,
+        "y": 22.951066999999995
+      },
+      {
+        "number": "2",
+        "net": "FuseOut",
+        "x": 10.792967000000004,
+        "y": 22.951066999999995
+      }
+    ]
+  },
+  {
+    "reference": "R29",
+    "value": "100R",
+    "footprint": "BatteryPack:FP_R29",
+    "x": 18.814300000000003,
+    "y": 30.753732999999997,
+    "rotation": 90.0,
+    "side": "B",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "Net_44",
+        "x": 18.814300000000003,
+        "y": 30.238732999999996
+      },
+      {
+        "number": "2",
+        "net": "CELL_PLUS",
+        "x": 18.814300000000003,
+        "y": 31.268732999999997
+      }
+    ]
+  },
+  {
+    "reference": "C7",
+    "value": "100nF/50V",
+    "footprint": "BatteryPack:FP_C7",
+    "x": 16.513067000000007,
+    "y": 23.042266999999995,
+    "rotation": 180.0,
+    "side": "B",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "Net_12",
+        "x": 17.263067000000007,
+        "y": 23.042266999999995
+      },
+      {
+        "number": "2",
+        "net": "FuseOut",
+        "x": 15.763067000000007,
+        "y": 23.042266999999995
+      }
+    ]
+  },
+  {
+    "reference": "R1",
+    "value": "100R",
+    "footprint": "BatteryPack:FP_R1",
+    "x": 55.672233000000006,
+    "y": 18.284667,
+    "rotation": -90.0,
+    "side": "B",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "SCL",
+        "x": 55.672233000000006,
+        "y": 18.799667
+      },
+      {
+        "number": "2",
+        "net": "Net_4",
+        "x": 55.672233000000006,
+        "y": 17.769667
+      }
+    ]
+  },
+  {
+    "reference": "C1",
+    "value": "100nF/50V",
+    "footprint": "BatteryPack:FP_C1",
+    "x": 19.619467,
+    "y": 23.060000000000002,
+    "rotation": 180.0,
+    "side": "B",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "PROTECTED_PLUS",
+        "x": 20.369467,
+        "y": 23.060000000000002
+      },
+      {
+        "number": "2",
+        "net": "Net_12",
+        "x": 18.869467,
+        "y": 23.060000000000002
+      }
+    ]
+  },
+  {
+    "reference": "R20",
+    "value": "1k",
+    "footprint": "BatteryPack:FP_R20",
+    "x": 21.433032999999995,
+    "y": 28.400267,
+    "rotation": 0.0,
+    "side": "B",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "Net_42",
+        "x": 20.918032999999994,
+        "y": 28.400267
+      },
+      {
+        "number": "2",
+        "net": "CELL_MID",
+        "x": 21.948032999999995,
+        "y": 28.400267
+      }
+    ]
+  },
+  {
+    "reference": "R28",
+    "value": "1k",
+    "footprint": "BatteryPack:FP_R28",
+    "x": 24.415000000000006,
+    "y": 25.431200000000004,
+    "rotation": 90.0,
+    "side": "B",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "Net_43",
+        "x": 24.415000000000006,
+        "y": 24.916200000000003
+      },
+      {
+        "number": "2",
+        "net": "CELL_PLUS",
+        "x": 24.415000000000006,
+        "y": 25.946200000000005
+      }
+    ]
+  },
+  {
+    "reference": "R27",
+    "value": "4.99R",
+    "footprint": "BatteryPack:FP_R27",
+    "x": 19.347866999999994,
+    "y": 32.081199999999995,
+    "rotation": 0.0,
+    "side": "B",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "CELL_PLUS",
+        "x": 18.832866999999993,
+        "y": 32.081199999999995
+      },
+      {
+        "number": "2",
+        "net": "Net_40",
+        "x": 19.862866999999994,
+        "y": 32.081199999999995
+      }
+    ]
+  },
+  {
+    "reference": "C16",
+    "value": "1\u00b5F/16V",
+    "footprint": "BatteryPack:FP_C16",
+    "x": 21.4332,
+    "y": 32.081199999999995,
+    "rotation": 0.0,
+    "side": "B",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "Net_40",
+        "x": 20.943200000000004,
+        "y": 32.081199999999995
+      },
+      {
+        "number": "2",
+        "net": "Net_41",
+        "x": 21.923199999999994,
+        "y": 32.081199999999995
+      }
+    ]
+  },
+  {
+    "reference": "R12",
+    "value": "100R",
+    "footprint": "BatteryPack:FP_R12",
+    "x": 55.682567000000006,
+    "y": 14.674667,
+    "rotation": -90.0,
+    "side": "B",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "Net_4",
+        "x": 55.682567000000006,
+        "y": 15.189667
+      },
+      {
+        "number": "2",
+        "net": "Net_8",
+        "x": 55.682567000000006,
+        "y": 14.159666999999999
+      }
+    ]
+  },
+  {
+    "reference": "C2",
+    "value": "100nF/16V",
+    "footprint": "BatteryPack:FP_C2",
+    "x": 23.612367000000006,
+    "y": 25.443866999999997,
+    "rotation": -90.0,
+    "side": "B",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "Net_42",
+        "x": 23.612367000000006,
+        "y": 25.933867000000006
+      },
+      {
+        "number": "2",
+        "net": "Net_43",
+        "x": 23.612367000000006,
+        "y": 24.953867000000002
+      }
+    ]
+  },
+  {
+    "reference": "C17",
+    "value": "100nF/16V",
+    "footprint": "BatteryPack:FP_C17",
+    "x": 20.800732999999994,
+    "y": 25.443866999999997,
+    "rotation": -90.0,
+    "side": "B",
+    "board_only": false,
+    "pads": [
+      {
+        "number": "1",
+        "net": "Net_42",
+        "x": 20.800732999999994,
+        "y": 25.933867000000006
+      },
+      {
+        "number": "2",
+        "net": "CELL_MINUS",
+        "x": 20.800732999999994,
+        "y": 24.953867000000002
+      }
+    ]
+  }
+]

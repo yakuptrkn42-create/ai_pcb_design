@@ -1,0 +1,60 @@
+﻿Reference,Value / candidate,Qty,Footprint,Status / verification
+TH2,10k_NTC_BEAD_BETA_TBD,1,BatteryPack:FP_TH2,NEW CONCEPT; exact part and assembly qualification pending
+TH1,10k_NTC_BEAD_BETA_TBD,1,BatteryPack:FP_TH1,NEW CONCEPT; exact part and assembly qualification pending
+F2,0.5A_FAST_1206_FUSE_TBD,1,BatteryPack:FP_F2,NEW CONCEPT; exact part and assembly qualification pending
+R40,0.1R_1%_1206,1,BatteryPack:FP_R40,NEW CONCEPT; exact part and assembly qualification pending
+F1,2.5A_1206_FUSE_TBD,1,BatteryPack:FP_F1,NEW CONCEPT; exact part and assembly qualification pending
+J1,CZX-4B2-2.54-e_FIXED,1,BatteryPack:FP_J1,NEW CONCEPT; exact part and assembly qualification pending
+U2,BQ28Z610DRZR-R1,1,BatteryPack:FP_U2,Original PCB value; manufacturer pinout and ratings NOT requalified
+R7,10R,1,BatteryPack:FP_R7,Original PCB value; manufacturer pinout and ratings NOT requalified
+U1,BQ294502DRVR,1,BatteryPack:FP_U1,Original PCB value; manufacturer pinout and ratings NOT requalified
+Q3,CSD16412Q5A,1,BatteryPack:FP_Q3,Original PCB value; manufacturer pinout and ratings NOT requalified
+R15,5.1k,1,BatteryPack:FP_R15,Original PCB value; manufacturer pinout and ratings NOT requalified
+U3,SCF4030-12-02,1,BatteryPack:FP_U3,Original PCB value; manufacturer pinout and ratings NOT requalified
+R14,100k,1,BatteryPack:FP_R14,Original PCB value; manufacturer pinout and ratings NOT requalified
+C14,100nF/16V,1,BatteryPack:FP_C14,Original PCB value; manufacturer pinout and ratings NOT requalified
+R5,1mR,1,BatteryPack:FP_R5,Original PCB value; manufacturer pinout and ratings NOT requalified
+R13,10M,1,BatteryPack:FP_R13,Original PCB value; manufacturer pinout and ratings NOT requalified
+C6,100nF/16V,1,BatteryPack:FP_C6,Original PCB value; manufacturer pinout and ratings NOT requalified
+R30,1k,1,BatteryPack:FP_R30,Original PCB value; manufacturer pinout and ratings NOT requalified
+C20,100nF/16V,1,BatteryPack:FP_C20,Original PCB value; manufacturer pinout and ratings NOT requalified
+R21,100R,1,BatteryPack:FP_R21,Original PCB value; manufacturer pinout and ratings NOT requalified
+Q1,SI1414DH-T1-GE3,1,BatteryPack:FP_Q1,Original PCB value; manufacturer pinout and ratings NOT requalified
+C5,100nF/16V,1,BatteryPack:FP_C5,Original PCB value; manufacturer pinout and ratings NOT requalified
+R6,5.1k,1,BatteryPack:FP_R6,Original PCB value; manufacturer pinout and ratings NOT requalified
+D2,MM3Z5V6C ,1,BatteryPack:FP_D2,Original PCB value; manufacturer pinout and ratings NOT requalified
+R32,100k,1,BatteryPack:FP_R32,Original PCB value; manufacturer pinout and ratings NOT requalified
+R22,100R,1,BatteryPack:FP_R22,Original PCB value; manufacturer pinout and ratings NOT requalified
+D1,BAS16-7-F,1,BatteryPack:FP_D1,Original PCB value; manufacturer pinout and ratings NOT requalified
+R8,5.1k,1,BatteryPack:FP_R8,Original PCB value; manufacturer pinout and ratings NOT requalified
+Q2,CSD16412Q5A,1,BatteryPack:FP_Q2,Original PCB value; manufacturer pinout and ratings NOT requalified
+Q4,2N7002K_R1_00001,1,BatteryPack:FP_Q4,Original PCB value; manufacturer pinout and ratings NOT requalified
+R4,10M,1,BatteryPack:FP_R4,Original PCB value; manufacturer pinout and ratings NOT requalified
+D3,MM3Z5V6C ,1,BatteryPack:FP_D3,Original PCB value; manufacturer pinout and ratings NOT requalified
+C13,100nF/16V,1,BatteryPack:FP_C13,Original PCB value; manufacturer pinout and ratings NOT requalified
+R3,5.1k,1,BatteryPack:FP_R3,Original PCB value; manufacturer pinout and ratings NOT requalified
+C12,100nF/16V,1,BatteryPack:FP_C12,Original PCB value; manufacturer pinout and ratings NOT requalified
+R26,100R,1,BatteryPack:FP_R26,Original PCB value; manufacturer pinout and ratings NOT requalified
+R2,100R,1,BatteryPack:FP_R2,Original PCB value; manufacturer pinout and ratings NOT requalified
+C4,2.2µF/16V,1,BatteryPack:FP_C4,Original PCB value; manufacturer pinout and ratings NOT requalified
+C11,100nF/16V,1,BatteryPack:FP_C11,Original PCB value; manufacturer pinout and ratings NOT requalified
+R11,100R,1,BatteryPack:FP_R11,Original PCB value; manufacturer pinout and ratings NOT requalified
+R24,1k,1,BatteryPack:FP_R24,Original PCB value; manufacturer pinout and ratings NOT requalified
+R29,100R,1,BatteryPack:FP_R29,Original PCB value; manufacturer pinout and ratings NOT requalified
+C7,100nF/50V,1,BatteryPack:FP_C7,Original PCB value; manufacturer pinout and ratings NOT requalified
+R1,100R,1,BatteryPack:FP_R1,Original PCB value; manufacturer pinout and ratings NOT requalified
+C1,100nF/50V,1,BatteryPack:FP_C1,Original PCB value; manufacturer pinout and ratings NOT requalified
+R20,1k,1,BatteryPack:FP_R20,Original PCB value; manufacturer pinout and ratings NOT requalified
+R28,1k,1,BatteryPack:FP_R28,Original PCB value; manufacturer pinout and ratings NOT requalified
+R27,4.99R,1,BatteryPack:FP_R27,Original PCB value; manufacturer pinout and ratings NOT requalified
+C16,1µF/16V,1,BatteryPack:FP_C16,Original PCB value; manufacturer pinout and ratings NOT requalified
+R12,100R,1,BatteryPack:FP_R12,Original PCB value; manufacturer pinout and ratings NOT requalified
+C2,100nF/16V,1,BatteryPack:FP_C2,Original PCB value; manufacturer pinout and ratings NOT requalified
+C17,100nF/16V,1,BatteryPack:FP_C17,Original PCB value; manufacturer pinout and ratings NOT requalified
+"CELL1,CELL2",18650 3.7 V 3500 mAh,2,Mechanical,"Brand/model, max dimensions and 2A rating pending"
+CARRIER,PA66-GF insulated carrier,1,Mechanical,Concept material; tolerance/flame/creep qualification pending
+STRAPS,Non-conductive retention bands + compliant pads,2,Mechanical,Retention force and cell wrapper protection pending
+NICKEL,Pure Ni 0.15 x 6 mm with formed pre-tinned 2.5 mm solder tongue,3,Mechanical,Process coupon and weld pull-test required
+INSULATION,0.4 mm fishpaper + insulating terminal rings and tab sleeves,1,Mechanical,Dielectric and abrasion qualification pending
+M2,Insulated M2 PCB fastener set,4,Mechanical,Length/torque TBD
+M1.6,Dock flange fastener set,2,Mechanical,Supplier flange drawing and actual sample check required
