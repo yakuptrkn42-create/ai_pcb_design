@@ -1,0 +1,860 @@
+[
+  {
+    "reference": "C1",
+    "footprint": "Adapter_F469:C_0805_2012Metric",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "C13",
+    "footprint": "Adapter_F469:C_0805_2012Metric",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "C2",
+    "footprint": "Adapter_F469:C_0805_2012Metric",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "C3",
+    "footprint": "Adapter_F469:C_1210_3225Metric",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "C4",
+    "footprint": "Adapter_F469:C_0805_2012Metric",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "C5",
+    "footprint": "Adapter_F469:C_0805_2012Metric",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "C6",
+    "footprint": "Adapter_F469:C_0805_2012Metric",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "C7",
+    "footprint": "Adapter_F469:C_0805_2012Metric",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "C8",
+    "footprint": "Adapter_F469:C_0805_2012Metric",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "C9",
+    "footprint": "Adapter_F469:C_0805_2012Metric",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "D1",
+    "footprint": "Adapter_F469:D_SMA",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "D3",
+    "footprint": "Adapter_F469:D_SMA",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "F2",
+    "footprint": "Adapter_F469:Fuse_1206_3216Metric",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "J1",
+    "footprint": "Adapter_F469:FH26W-25S-0.3SHW",
+    "symbol_pins": [
+      "1",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "2",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "J2",
+    "footprint": "Adapter_F469:FH26-39S-0.3SHW",
+    "symbol_pins": [
+      "1",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "17",
+      "18",
+      "19",
+      "2",
+      "20",
+      "21",
+      "22",
+      "23",
+      "24",
+      "25",
+      "26",
+      "27",
+      "28",
+      "29",
+      "3",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "J3",
+    "footprint": "Adapter_F469:FH19C-6S-0.5SH",
+    "symbol_pins": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "J4",
+    "footprint": "Adapter_F469:PinHeader_1x02_P2.54mm_Vertical",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "J5",
+    "footprint": "Adapter_F469:PinSocket_2x08_P2.54mm_Vertical",
+    "symbol_pins": [
+      "1",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "L1",
+    "footprint": "Adapter_F469:L_TDK_SLF7045",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "R1",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": true,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "R12",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "R13",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "R14",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "R15",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "R16",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "R17",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "R18",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "R19",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "R2",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": true,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "R20",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "R3",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "R4",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "R5",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "R6",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "R7",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "symbol_pins": [
+      "1",
+      "2"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "TP1",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "symbol_pins": [
+      "1"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "TP10",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "symbol_pins": [
+      "1"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "TP11",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "symbol_pins": [
+      "1"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "TP12",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "symbol_pins": [
+      "1"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "TP13",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "symbol_pins": [
+      "1"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "TP14",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "symbol_pins": [
+      "1"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "TP15",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "symbol_pins": [
+      "1"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "TP3",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "symbol_pins": [
+      "1"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "TP4",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "symbol_pins": [
+      "1"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "TP5",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "symbol_pins": [
+      "1"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "TP6",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "symbol_pins": [
+      "1"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "TP9",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "symbol_pins": [
+      "1"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "U1",
+    "footprint": "Adapter_F469:SOT-23-6",
+    "symbol_pins": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  },
+  {
+    "reference": "U2",
+    "footprint": "Adapter_F469:SOT-23-6",
+    "symbol_pins": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6"
+    ],
+    "pin_pad_numbers_match": true,
+    "symbol_uuid_path_matches": true,
+    "DNP": false,
+    "position_mm": [
+      0,
+      0
+    ],
+    "placed": false
+  }
+]

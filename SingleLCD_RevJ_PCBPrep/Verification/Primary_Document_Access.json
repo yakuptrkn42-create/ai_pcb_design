@@ -1,0 +1,27 @@
+[
+  {
+    "name": "TI_TLV3011.pdf",
+    "url": "https://www.ti.com/lit/ds/symlink/tlv3011.pdf",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "name": "ST_MB1189.pdf",
+    "url": "https://www.st.com/resource/en/schematic_pack/mb1189-c01_schematic.pdf",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "name": "HIROSE_FH26.pdf",
+    "url": "https://www.hirose.com/product/document?clcode=&productname=&series=FH26&documenttype=Catalog&lang=en&documentid=D49355_en",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "name": "TDK_SLF7045.pdf",
+    "url": "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_automotive_power_slf7045-h_en.pdf",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "name": "VISHAY_SS16.pdf",
+    "url": "https://www.vishay.com/docs/88746/ss12.pdf",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  }
+]

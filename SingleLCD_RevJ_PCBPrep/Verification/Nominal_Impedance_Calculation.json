@@ -1,0 +1,76 @@
+{
+  "manufacturer_confirmed": false,
+  "method": "2D quasi-static finite-volume odd-mode electrostatics",
+  "w_mm": 0.14,
+  "gap_mm": 0.18,
+  "Cu_mm": 0.035,
+  "h_mm": 0.1,
+  "Er": 4.2,
+  "model_excludes": [
+    "soldermask",
+    "copper trapezoid/etch",
+    "copper roughness",
+    "frequency-dependent dielectric",
+    "connector and FPC launches"
+  ],
+  "target_Zdiff_ohm": 100,
+  "fabrication_impedance_tolerance_target_percent": 10,
+  "tolerance_contract_confirmed": false,
+  "nominal_mesh_convergence": [
+    {
+      "width_mm": 0.14,
+      "gap_mm": 0.18,
+      "grid_mm": 0.005,
+      "domain_mm": [
+        2.0,
+        0.7
+      ],
+      "Zdiff_ohm": 98.92463588946954,
+      "epsilon_eff": 2.6369067925924705,
+      "velocity_mm_per_ns": 184.61769035301924,
+      "Codd_F_per_m": 1.0950960734555483e-10,
+      "Codd_vacuum_F_per_m": 4.152957080363491e-11
+    },
+    {
+      "width_mm": 0.14,
+      "gap_mm": 0.18,
+      "grid_mm": 0.0025,
+      "domain_mm": [
+        2.0,
+        0.7
+      ],
+      "Zdiff_ohm": 99.31466115550444,
+      "epsilon_eff": 2.6304503106066064,
+      "velocity_mm_per_ns": 184.84412501509564,
+      "Codd_F_per_m": 1.0894592202089742e-10,
+      "Codd_vacuum_F_per_m": 4.141721346402224e-11
+    }
+  ],
+  "sensitivity_not_tolerance_analysis": [
+    {
+      "h_mm": 0.1,
+      "er": 4.2,
+      "Zdiff_ohm": 98.92463588946954
+    },
+    {
+      "h_mm": 0.09,
+      "er": 4.2,
+      "Zdiff_ohm": 94.53212644339858
+    },
+    {
+      "h_mm": 0.11,
+      "er": 4.2,
+      "Zdiff_ohm": 102.76262361328384
+    },
+    {
+      "h_mm": 0.1,
+      "er": 3.9,
+      "Zdiff_ohm": 101.90222215834484
+    },
+    {
+      "h_mm": 0.1,
+      "er": 4.5,
+      "Zdiff_ohm": 96.1957106869268
+    }
+  ]
+}

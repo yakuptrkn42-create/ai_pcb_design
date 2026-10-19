@@ -1,4 +1,20 @@
-# STM32F469I-DISCO / DISEN — Çift LCD şematiği Rev K
+# STM32F469I-DISCO / DISEN — Tek LCD PCB hazırlığı
+
+**Güncel çalışma: DS070HSD39T-132 için Rev J / PCB Hazırlık 1.** Yüklenen eski Rev J esas alındı; çift LCD Rev K ayrı korunuyor.
+
+- [Tek LCD hazırlık teslimatı — ZIP](STM32F469_DISEN_RevJ_PCBPrep1.zip)
+- [KiCad proje ve kütüphaneleri](SingleLCD_RevJ_PCBPrep/Project/)
+- [Doğrulama raporu — PDF](SingleLCD_RevJ_PCBPrep/PDF/Validation_RevJ_Prep1_TR.pdf)
+- [Şematik — PDF](SingleLCD_RevJ_PCBPrep/PDF/STM32F469_DISEN_RevJ_Prep1.pdf)
+- [Açılış ve kapsam](SingleLCD_RevJ_PCBPrep/README_TR.md)
+
+49 footprint, 57 net ve 49 model bağı; 172 pin/net kontrolü; şema–PCB parity **0 fark**, ERC **0 hata / 3 açıklanmış uyarı**. Elektriksel bağlantılar ve değerler Rev J ile aynıdır. 4 katmanlı nominal stackup ve routing kuralları kaydedildi.
+
+**Yerleşim henüz yapılmadı:** komponentler başlangıç aktarımı olarak (0,0)'da üst üste durur. Kart sınırı, iz, via ve dolgu yoktur. Bu aşamanın DRC çakışmaları gizlenmeden paketlendi; üretim kabulü verilmedi. FPC ve endüktör modelleri nominaldir; exact mekanik/panel/OVP ve üretici stackup koşulları raporda açıktır. Model kontrol panosu görüntüleri adaptör yerleşimi değildir.
+
+ZIP'i tamamen çıkarıp `SingleLCD_RevJ_PCBPrep/Project/STM32F469_DISEN_RevJ_Prep1.kicad_pro` dosyasını KiCad 9 ile açın. GitHub ZIP sayfasındaki **Download raw file** düğmesiyle indirebilirsiniz.
+
+# Korunan çift LCD çalışması — Rev K
 
 **Güncel teslim: ortak 39 pinli donanım ve seçilebilir backlight OVP şematiği.** LCD-A: DS070HSD39T-132; LCD-B: DS0700BOE1A39CO-0180A.
 

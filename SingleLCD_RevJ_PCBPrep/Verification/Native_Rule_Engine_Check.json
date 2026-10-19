@@ -1,0 +1,37 @@
+{
+  "purpose": "Native KiCad rule-engine check on isolated temporary probe; adapter PCB untouched",
+  "MIPI_0_24mm_track_rejected_by_0_19mm_max": true,
+  "POWER_5V_0_20mm_track_rejected_by_0_30mm_min": true,
+  "native_detections": [
+    {
+      "description": "Track width (rule 'DSI conductor and launch width' max width 0.1900 mm; actual 0.2400 mm)",
+      "items": [
+        {
+          "description": "Track [DSI_D0_P] on F.Cu, length 5.0000 mm",
+          "pos": {
+            "x": 20.0,
+            "y": 20.0
+          },
+          "uuid": "cd60cafe-acb9-4d94-a0f2-a1557a559930"
+        }
+      ],
+      "severity": "error",
+      "type": "track_width"
+    },
+    {
+      "description": "Track width (board setup constraints min width 0.3000 mm; actual 0.2000 mm)",
+      "items": [
+        {
+          "description": "Track [BL_POWER] on F.Cu, length 5.0000 mm",
+          "pos": {
+            "x": 30.0,
+            "y": 20.0
+          },
+          "uuid": "b5ca03ab-4fb0-4046-b33f-ab9551a7cba0"
+        }
+      ],
+      "severity": "error",
+      "type": "track_width"
+    }
+  ]
+}

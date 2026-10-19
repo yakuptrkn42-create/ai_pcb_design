@@ -1,0 +1,20 @@
+{
+  "KiCad_version": "9.0.2",
+  "check": "Extracted ZIP into /tmp, fresh KiCad configuration; no source-folder library/model dependency",
+  "source_manifest_files_verified": 77,
+  "local_models_resolved": 49,
+  "native_net_class_assignments_verified": 57,
+  "ERC_errors": 0,
+  "ERC_warnings": 3,
+  "native_PCB_schematic_parity_issues": 0,
+  "expected_unplaced_DRC_violations": 1577,
+  "native_design_file_sha256": {
+    "STM32F469_DISEN_RevJ_Prep1.kicad_sch": "02ef64596df2a471d911e037f37af51c6998b3179832212172c585b025ff019d",
+    "STM32F469_DISEN_RevJ_Prep1.kicad_pro": "8537e160afb3fe990fe78d343f496ecb0aed2418642b949361b08cf5a581fdae",
+    "STM32F469_DISEN_RevJ_Prep1.kicad_pcb": "e74abc705a55bc98d101c095630b55f99e91e000edc0090f257d7c28b058dee5",
+    "STM32F469_DISEN_RevJ_Prep1.kicad_dru": "48f4795da9ca7edca138c880ed41ed11ba27d584e7718c06948ff5169df1f636",
+    "Logic_Touch.kicad_sch": "01aadc8cad6741d4074ed7a21a9b91ccd4a38b6d240667a03ea542fb98b26660",
+    "Backlight.kicad_sch": "98120bde28bbd29396ef7543fc28c80cad42c504bd4c3c3809b00251c88d5128"
+  },
+  "physical_hardware_test": false
+}

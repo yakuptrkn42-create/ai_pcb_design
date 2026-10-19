@@ -1,0 +1,31 @@
+{
+  "KiCad_version": "9.0.2",
+  "physical_symbols_and_footprints": 49,
+  "schematic_nets": 57,
+  "numbered_pin_net_checks": 172,
+  "models_assigned": 49,
+  "unique_local_model_files": 14,
+  "ERC_errors": 0,
+  "ERC_warnings": 3,
+  "schematic_PCB_parity_issues": 0,
+  "tracks": 0,
+  "vias": 0,
+  "zones": 0,
+  "outline_segments": 0,
+  "all_components_at_origin_unplaced": true,
+  "manufacturing_ready": false,
+  "DRC_unplaced_violations": {
+    "shorting_items": 199,
+    "clearance": 499,
+    "hole_clearance": 105,
+    "courtyards_overlap": 199,
+    "holes_co_located": 2,
+    "invalid_outline": 1,
+    "silk_over_copper": 156,
+    "solder_mask_bridge": 217,
+    "silk_overlap": 199
+  },
+  "DRC_unconnected_item_records": 51,
+  "DRC_warning": "Initial import pile overlaps by design; count is not an unrouted-net count or a manufacturing pass. No violations suppressed.",
+  "source_ZIP_byte_preservation": "925fb849cac3db659a746c015e225028f17735db9fd9011a82d92856d0ad4214"
+}

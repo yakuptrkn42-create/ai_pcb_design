@@ -1,0 +1,50 @@
+﻿Reference,Value,MPN,Footprint,Assembly,Model,Model_qualification,Notes
+C1,10uF / 16V,,Adapter_F469:C_0805_2012Metric,FIT,${KIPRJMOD}/3D/C_0805_2012Metric.wrl,KiCad community model,X7R; effective capacitance >=4.7uF at 5V; use verified DC-bias curve.
+C2,100nF / 16V,,Adapter_F469:C_0805_2012Metric,FIT,${KIPRJMOD}/3D/C_0805_2012Metric.wrl,KiCad community model,"Input high-frequency bypass, 100nF/16V X7R, directly at U1 VIN/GND."
+C3,10uF / 50V,,Adapter_F469:C_1210_3225Metric,FIT,${KIPRJMOD}/3D/C_1210_3225Metric.wrl,KiCad community model,"X7R; C3 effective capacitance >=4.7uF at 30V, verify vendor DC-bias curve"
+C4,100nF / 50V,,Adapter_F469:C_0805_2012Metric,FIT,${KIPRJMOD}/3D/C_0805_2012Metric.wrl,KiCad community model,"Output high-frequency bypass, 100nF/50V X7R, beside boost rectifier/output capacitor."
+C5,4.7uF / 10V,,Adapter_F469:C_0805_2012Metric,FIT,${KIPRJMOD}/3D/C_0805_2012Metric.wrl,KiCad community model,X7R; place beside connector supply pins
+C6,100nF / 10V,,Adapter_F469:C_0805_2012Metric,FIT,${KIPRJMOD}/3D/C_0805_2012Metric.wrl,KiCad community model,X7R; place beside connector supply pins
+C7,1uF / 10V,,Adapter_F469:C_0805_2012Metric,FIT,${KIPRJMOD}/3D/C_0805_2012Metric.wrl,KiCad community model,X7R; place beside connector supply pins
+C8,100nF / 10V,,Adapter_F469:C_0805_2012Metric,FIT,${KIPRJMOD}/3D/C_0805_2012Metric.wrl,KiCad community model,X7R; place beside connector supply pins
+C9,220nF / 16V,,Adapter_F469:C_0805_2012Metric,FIT,${KIPRJMOD}/3D/C_0805_2012Metric.wrl,KiCad community model,"COMP compensation capacitor, 220nF/16V X7R, consistent with TI typical application; keep COMP quiet."
+C13,100nF / 10V,,Adapter_F469:C_0805_2012Metric,FIT,${KIPRJMOD}/3D/C_0805_2012Metric.wrl,KiCad community model,"100nF bypass directly at U2.6/U2.2; supplied from BL_POWER, not HOST_3V3."
+D1,SS16 / 60V 1A,SS16,Adapter_F469:D_SMA,FIT,${KIPRJMOD}/3D/D_SMA.wrl,KiCad community model,Boost rectifier; cathode to LEDA
+D3,SS14 / reverse block,SS14,Adapter_F469:D_SMA,FIT,${KIPRJMOD}/3D/D_SMA.wrl,KiCad community model,Input polarity / reverse-current isolation
+F2,0.75A hold / 6V,1206L075/6YR,Adapter_F469:Fuse_1206_3216Metric,FIT,${KIPRJMOD}/3D/Fuse_1206_3216Metric.wrl,KiCad community model,Resettable fuse; derate hold current at temperature
+J1,FH26W-25S-0.3SHW(60),FH26W-25S-0.3SHW(60),Adapter_F469:FH26W-25S-0.3SHW,FIT,${KIPRJMOD}/3D/FH26W_25_Nominal.step,Project-generated nominal mechanical visualization; not manufacturer CAD,Purpose-made 1:1 CN10.n to J1.n FPC. J1.3 grounds CABC; verify actual host uses UM1932 default R117 fitted / R119 DNP. Host LEDA/LEDK remain NC.
+J2,FH26-39S-0.3SHW,FH26-39S-0.3SHW,Adapter_F469:FH26-39S-0.3SHW,FIT,${KIPRJMOD}/3D/FH26_39_Nominal.step,Project-generated nominal mechanical visualization; not manufacturer CAD,"Panel-recommended FH26-39S-0.3SHW base part. Corrected former FH26W identifier; retained pads match KiCad FH26-39S standard geometry after 90-degree rotation. Confirm ordering suffix, actual flex contact face, 0.20mm thickness and pin 1 before procurement."
+J3,FH19C-6S-0.5SH(10),FH19C-6S-0.5SH(10),Adapter_F469:FH19C-6S-0.5SH,FIT,${KIPRJMOD}/3D/FH19C_6_Nominal.step,Project-generated nominal mechanical visualization; not manufacturer CAD,Host CN2 pin map retained; PB8 SCL / PB9 SDA / PJ5 INT verified in official ST BSP. CN2 physical numbering and flex mating need MB1189 schematic/continuity confirmation. J3.5 NC.
+J4,EXT 5V / 1=GND 2=+5V,,Adapter_F469:PinHeader_1x02_P2.54mm_Vertical,FIT,${KIPRJMOD}/3D/PinHeader_1x02_P2.54mm_Vertical.wrl,KiCad community model,"Regulated 5 V +/-5%, >=0.5 A. Observe polarity."
+J5,CN12 1:1 / 2x08 socket,SSW-108-02-G-D,Adapter_F469:PinSocket_2x08_P2.54mm_Vertical,FIT,${KIPRJMOD}/3D/PinSocket_2x08_P2.54mm_Vertical.wrl,KiCad community model,PC6: TIM3_CH1 AF2 PWM. PB12: independent touch reset GPIO. Pin numbering 1:1 to CN12.
+L1,22uH / shielded,SLF7045T-220M1R3-H,Adapter_F469:L_TDK_SLF7045,FIT,${KIPRJMOD}/3D/SLF7045_Nominal.step,Project-generated nominal mechanical visualization; not manufacturer CAD,"22uH +/-20%, DCR 0.082ohm +/-20%, Isat 1.3A reference retained; obsolete part. Nominal operation calculated; qualify stock/replacement, tolerance, temperature and short-circuit saturation before procurement."
+R1,4.7k / DNP,,Adapter_F469:R_0805_2012Metric,DNP,${KIPRJMOD}/3D/R_0805_2012Metric.wrl,KiCad community model,"Optional 4.7k SDA pull-up, DNP. Confirm host pull-up population and measure rise time before fitting; never pull up to 5V."
+R2,4.7k / DNP,,Adapter_F469:R_0805_2012Metric,DNP,${KIPRJMOD}/3D/R_0805_2012Metric.wrl,KiCad community model,"Optional 4.7k SCL pull-up, DNP. Confirm host pull-up population and measure rise time before fitting; never pull up to 5V."
+R3,100R,,Adapter_F469:R_0805_2012Metric,FIT,${KIPRJMOD}/3D/R_0805_2012Metric.wrl,KiCad community model,"Independent reset, PB12"
+R4,0R,,Adapter_F469:R_0805_2012Metric,FIT,${KIPRJMOD}/3D/R_0805_2012Metric.wrl,KiCad community model,VCI 3.0-3.6 V; optional bead after validation
+R5,0R,,Adapter_F469:R_0805_2012Metric,FIT,${KIPRJMOD}/3D/R_0805_2012Metric.wrl,KiCad community model,Touch supply from CN2.1; verify guaranteed VDD min/max and measured current.
+R6,100k,,Adapter_F469:R_0805_2012Metric,FIT,${KIPRJMOD}/3D/R_0805_2012Metric.wrl,KiCad community model,Backlight defaults OFF while MCU GPIO is high impedance
+R7,5.23R / 1%,,Adapter_F469:R_0805_2012Metric,FIT,${KIPRJMOD}/3D/R_0805_2012Metric.wrl,KiCad community model,1% current sense: 200mV/5.23ohm=38.24mA nominal; 204mV/(5.23ohm*0.99)=39.40mA maximum at full-scale reference. Kelvin return to U1 GND.
+R12,0R / isolation,,Adapter_F469:R_0805_2012Metric,FIT,${KIPRJMOD}/3D/R_0805_2012Metric.wrl,KiCad community model,0 ohm supply link; FIT in Rev J; allows boost supply isolation during testing.
+R13,2.2k,,Adapter_F469:R_0805_2012Metric,FIT,${KIPRJMOD}/3D/R_0805_2012Metric.wrl,KiCad community model,"Limits comparator sink current; PC6 20kHz PWM, keep low through power-up"
+R14,10k,,Adapter_F469:R_0805_2012Metric,FIT,${KIPRJMOD}/3D/R_0805_2012Metric.wrl,KiCad community model,Pull-up in touch domain
+R15,100R,,Adapter_F469:R_0805_2012Metric,FIT,${KIPRJMOD}/3D/R_0805_2012Metric.wrl,KiCad community model,PH7 open-drain reset
+R16,0R,,Adapter_F469:R_0805_2012Metric,FIT,${KIPRJMOD}/3D/R_0805_2012Metric.wrl,KiCad community model,Disconnect if TE unused; PJ2 is DSI_TE
+R17,10k,,Adapter_F469:R_0805_2012Metric,FIT,${KIPRJMOD}/3D/R_0805_2012Metric.wrl,KiCad community model,Required pull-up for PH7 open-drain
+R18,33k / discharge,,Adapter_F469:R_0805_2012Metric,FIT,${KIPRJMOD}/3D/R_0805_2012Metric.wrl,KiCad community model,27.3mW at 30V; 0.33s nominal RC with 10uF. Not zero volts while input powered.
+R19,221k / 0.1%,,Adapter_F469:R_0805_2012Metric,FIT,${KIPRJMOD}/3D/R_0805_2012Metric.wrl,KiCad community model,OVP upper divider
+R20,10k / 0.1%,,Adapter_F469:R_0805_2012Metric,FIT,${KIPRJMOD}/3D/R_0805_2012Metric.wrl,KiCad community model,OVP lower divider
+TP1,HOST_3V3,,Adapter_F469:TestPoint_Pad_D1.0mm,BARE COPPER - NO PART,${KIPRJMOD}/3D/TestPoint_Copper_1mm.step,Project-generated nominal mechanical visualization; not manufacturer CAD,
+TP3,GND,,Adapter_F469:TestPoint_Pad_D1.0mm,BARE COPPER - NO PART,${KIPRJMOD}/3D/TestPoint_Copper_1mm.step,Project-generated nominal mechanical visualization; not manufacturer CAD,
+TP4,LCD_RST,,Adapter_F469:TestPoint_Pad_D1.0mm,BARE COPPER - NO PART,${KIPRJMOD}/3D/TestPoint_Copper_1mm.step,Project-generated nominal mechanical visualization; not manufacturer CAD,
+TP5,TP_INT,,Adapter_F469:TestPoint_Pad_D1.0mm,BARE COPPER - NO PART,${KIPRJMOD}/3D/TestPoint_Copper_1mm.step,Project-generated nominal mechanical visualization; not manufacturer CAD,
+TP6,BL_CTRL,,Adapter_F469:TestPoint_Pad_D1.0mm,BARE COPPER - NO PART,${KIPRJMOD}/3D/TestPoint_Copper_1mm.step,Project-generated nominal mechanical visualization; not manufacturer CAD,
+TP9,BL_POWER,,Adapter_F469:TestPoint_Pad_D1.0mm,BARE COPPER - NO PART,${KIPRJMOD}/3D/TestPoint_Copper_1mm.step,Project-generated nominal mechanical visualization; not manufacturer CAD,
+TP10,TP_RST,,Adapter_F469:TestPoint_Pad_D1.0mm,BARE COPPER - NO PART,${KIPRJMOD}/3D/TestPoint_Copper_1mm.step,Project-generated nominal mechanical visualization; not manufacturer CAD,
+TP11,LCD_VCI,,Adapter_F469:TestPoint_Pad_D1.0mm,BARE COPPER - NO PART,${KIPRJMOD}/3D/TestPoint_Copper_1mm.step,Project-generated nominal mechanical visualization; not manufacturer CAD,
+TP12,TP_VDD,,Adapter_F469:TestPoint_Pad_D1.0mm,BARE COPPER - NO PART,${KIPRJMOD}/3D/TestPoint_Copper_1mm.step,Project-generated nominal mechanical visualization; not manufacturer CAD,
+TP13,BL_LEDA,,Adapter_F469:TestPoint_Pad_D1.0mm,BARE COPPER - NO PART,${KIPRJMOD}/3D/TestPoint_Copper_1mm.step,Project-generated nominal mechanical visualization; not manufacturer CAD,
+TP14,BL_LEDK,,Adapter_F469:TestPoint_Pad_D1.0mm,BARE COPPER - NO PART,${KIPRJMOD}/3D/TestPoint_Copper_1mm.step,Project-generated nominal mechanical visualization; not manufacturer CAD,
+TP15,GND,,Adapter_F469:TestPoint_Pad_D1.0mm,BARE COPPER - NO PART,${KIPRJMOD}/3D/TestPoint_Copper_1mm.step,Project-generated nominal mechanical visualization; not manufacturer CAD,
+U1,TPS61165DBVR,TPS61165DBVR,Adapter_F469:SOT-23-6,FIT,${KIPRJMOD}/3D/SOT-23-6.wrl,KiCad community model,SOT23-6 pinout verified from TI. LEDK to FB; never direct GND.
+U2,TLV3011BIDBVR,TLV3011BIDBVR,Adapter_F469:SOT-23-6,FIT,${KIPRJMOD}/3D/SOT-23-6.wrl,KiCad community model,"Open-drain OVP comparator; VCC/C13 now supplied by BL_POWER independently of host 3V3. Nominal 28.69V shutdown request, not a clamp. Primary TI SBOS300 operating/startup/unpowered-OUT limits and open-load peaks still require qualification."

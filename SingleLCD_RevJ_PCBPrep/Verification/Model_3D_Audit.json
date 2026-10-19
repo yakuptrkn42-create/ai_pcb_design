@@ -1,0 +1,1129 @@
+[
+  {
+    "reference": "C1",
+    "file": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl",
+    "model_type": "KiCad community model",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Generic KiCad package model; nominal package geometry, not exact manufacturer MPN CAD."
+  },
+  {
+    "reference": "C13",
+    "file": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl",
+    "model_type": "KiCad community model",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Generic KiCad package model; nominal package geometry, not exact manufacturer MPN CAD."
+  },
+  {
+    "reference": "C2",
+    "file": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl",
+    "model_type": "KiCad community model",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Generic KiCad package model; nominal package geometry, not exact manufacturer MPN CAD."
+  },
+  {
+    "reference": "C3",
+    "file": "${KIPRJMOD}/3D/C_1210_3225Metric.wrl",
+    "model_type": "KiCad community model",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Generic KiCad package model; nominal package geometry, not exact manufacturer MPN CAD."
+  },
+  {
+    "reference": "C4",
+    "file": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl",
+    "model_type": "KiCad community model",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Generic KiCad package model; nominal package geometry, not exact manufacturer MPN CAD."
+  },
+  {
+    "reference": "C5",
+    "file": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl",
+    "model_type": "KiCad community model",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Generic KiCad package model; nominal package geometry, not exact manufacturer MPN CAD."
+  },
+  {
+    "reference": "C6",
+    "file": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl",
+    "model_type": "KiCad community model",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Generic KiCad package model; nominal package geometry, not exact manufacturer MPN CAD."
+  },
+  {
+    "reference": "C7",
+    "file": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl",
+    "model_type": "KiCad community model",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Generic KiCad package model; nominal package geometry, not exact manufacturer MPN CAD."
+  },
+  {
+    "reference": "C8",
+    "file": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl",
+    "model_type": "KiCad community model",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Generic KiCad package model; nominal package geometry, not exact manufacturer MPN CAD."
+  },
+  {
+    "reference": "C9",
+    "file": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl",
+    "model_type": "KiCad community model",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Generic KiCad package model; nominal package geometry, not exact manufacturer MPN CAD."
+  },
+  {
+    "reference": "D1",
+    "file": "${KIPRJMOD}/3D/D_SMA.wrl",
+    "model_type": "KiCad community model",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Generic KiCad package model; nominal package geometry, not exact manufacturer MPN CAD."
+  },
+  {
+    "reference": "D3",
+    "file": "${KIPRJMOD}/3D/D_SMA.wrl",
+    "model_type": "KiCad community model",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Generic KiCad package model; nominal package geometry, not exact manufacturer MPN CAD."
+  },
+  {
+    "reference": "F2",
+    "file": "${KIPRJMOD}/3D/Fuse_1206_3216Metric.wrl",
+    "model_type": "KiCad community model",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Generic KiCad package model; nominal package geometry, not exact manufacturer MPN CAD."
+  },
+  {
+    "reference": "J1",
+    "file": "${KIPRJMOD}/3D/FH26W_25_Nominal.step",
+    "model_type": "Project-generated nominal mechanical visualization; not manufacturer CAD",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Exact W variant, tolerance, latch travel and FPC mating are not mechanically qualified."
+  },
+  {
+    "reference": "J2",
+    "file": "${KIPRJMOD}/3D/FH26_39_Nominal.step",
+    "model_type": "Project-generated nominal mechanical visualization; not manufacturer CAD",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Exact W variant, tolerance, latch travel and FPC mating are not mechanically qualified."
+  },
+  {
+    "reference": "J3",
+    "file": "${KIPRJMOD}/3D/FH19C_6_Nominal.step",
+    "model_type": "Project-generated nominal mechanical visualization; not manufacturer CAD",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Envelope and contacts only. Exact Hirose drawing unavailable; verify body height/entry side and physical flex before placement release."
+  },
+  {
+    "reference": "J4",
+    "file": "${KIPRJMOD}/3D/PinHeader_1x02_P2.54mm_Vertical.wrl",
+    "model_type": "KiCad community model",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Generic KiCad package model; nominal package geometry, not exact manufacturer MPN CAD."
+  },
+  {
+    "reference": "J5",
+    "file": "${KIPRJMOD}/3D/PinSocket_2x08_P2.54mm_Vertical.wrl",
+    "model_type": "KiCad community model",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Generic KiCad package model; nominal package geometry, not exact manufacturer MPN CAD."
+  },
+  {
+    "reference": "L1",
+    "file": "${KIPRJMOD}/3D/SLF7045_Nominal.step",
+    "model_type": "Project-generated nominal mechanical visualization; not manufacturer CAD",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Nominal package proxy; exact obsolete part and qualified replacement not established."
+  },
+  {
+    "reference": "R1",
+    "file": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+    "model_type": "KiCad community model",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Generic KiCad package model; nominal package geometry, not exact manufacturer MPN CAD."
+  },
+  {
+    "reference": "R12",
+    "file": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+    "model_type": "KiCad community model",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Generic KiCad package model; nominal package geometry, not exact manufacturer MPN CAD."
+  },
+  {
+    "reference": "R13",
+    "file": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+    "model_type": "KiCad community model",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Generic KiCad package model; nominal package geometry, not exact manufacturer MPN CAD."
+  },
+  {
+    "reference": "R14",
+    "file": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+    "model_type": "KiCad community model",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Generic KiCad package model; nominal package geometry, not exact manufacturer MPN CAD."
+  },
+  {
+    "reference": "R15",
+    "file": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+    "model_type": "KiCad community model",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Generic KiCad package model; nominal package geometry, not exact manufacturer MPN CAD."
+  },
+  {
+    "reference": "R16",
+    "file": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+    "model_type": "KiCad community model",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Generic KiCad package model; nominal package geometry, not exact manufacturer MPN CAD."
+  },
+  {
+    "reference": "R17",
+    "file": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+    "model_type": "KiCad community model",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Generic KiCad package model; nominal package geometry, not exact manufacturer MPN CAD."
+  },
+  {
+    "reference": "R18",
+    "file": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+    "model_type": "KiCad community model",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Generic KiCad package model; nominal package geometry, not exact manufacturer MPN CAD."
+  },
+  {
+    "reference": "R19",
+    "file": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+    "model_type": "KiCad community model",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Generic KiCad package model; nominal package geometry, not exact manufacturer MPN CAD."
+  },
+  {
+    "reference": "R2",
+    "file": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+    "model_type": "KiCad community model",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Generic KiCad package model; nominal package geometry, not exact manufacturer MPN CAD."
+  },
+  {
+    "reference": "R20",
+    "file": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+    "model_type": "KiCad community model",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Generic KiCad package model; nominal package geometry, not exact manufacturer MPN CAD."
+  },
+  {
+    "reference": "R3",
+    "file": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+    "model_type": "KiCad community model",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Generic KiCad package model; nominal package geometry, not exact manufacturer MPN CAD."
+  },
+  {
+    "reference": "R4",
+    "file": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+    "model_type": "KiCad community model",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Generic KiCad package model; nominal package geometry, not exact manufacturer MPN CAD."
+  },
+  {
+    "reference": "R5",
+    "file": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+    "model_type": "KiCad community model",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Generic KiCad package model; nominal package geometry, not exact manufacturer MPN CAD."
+  },
+  {
+    "reference": "R6",
+    "file": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+    "model_type": "KiCad community model",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Generic KiCad package model; nominal package geometry, not exact manufacturer MPN CAD."
+  },
+  {
+    "reference": "R7",
+    "file": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+    "model_type": "KiCad community model",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Generic KiCad package model; nominal package geometry, not exact manufacturer MPN CAD."
+  },
+  {
+    "reference": "TP1",
+    "file": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+    "model_type": "Project-generated nominal mechanical visualization; not manufacturer CAD",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Visualization of existing bare copper only; not a purchased or fitted mechanical part. PCB renderer already displays this copper."
+  },
+  {
+    "reference": "TP10",
+    "file": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+    "model_type": "Project-generated nominal mechanical visualization; not manufacturer CAD",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Visualization of existing bare copper only; not a purchased or fitted mechanical part. PCB renderer already displays this copper."
+  },
+  {
+    "reference": "TP11",
+    "file": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+    "model_type": "Project-generated nominal mechanical visualization; not manufacturer CAD",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Visualization of existing bare copper only; not a purchased or fitted mechanical part. PCB renderer already displays this copper."
+  },
+  {
+    "reference": "TP12",
+    "file": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+    "model_type": "Project-generated nominal mechanical visualization; not manufacturer CAD",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Visualization of existing bare copper only; not a purchased or fitted mechanical part. PCB renderer already displays this copper."
+  },
+  {
+    "reference": "TP13",
+    "file": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+    "model_type": "Project-generated nominal mechanical visualization; not manufacturer CAD",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Visualization of existing bare copper only; not a purchased or fitted mechanical part. PCB renderer already displays this copper."
+  },
+  {
+    "reference": "TP14",
+    "file": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+    "model_type": "Project-generated nominal mechanical visualization; not manufacturer CAD",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Visualization of existing bare copper only; not a purchased or fitted mechanical part. PCB renderer already displays this copper."
+  },
+  {
+    "reference": "TP15",
+    "file": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+    "model_type": "Project-generated nominal mechanical visualization; not manufacturer CAD",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Visualization of existing bare copper only; not a purchased or fitted mechanical part. PCB renderer already displays this copper."
+  },
+  {
+    "reference": "TP3",
+    "file": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+    "model_type": "Project-generated nominal mechanical visualization; not manufacturer CAD",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Visualization of existing bare copper only; not a purchased or fitted mechanical part. PCB renderer already displays this copper."
+  },
+  {
+    "reference": "TP4",
+    "file": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+    "model_type": "Project-generated nominal mechanical visualization; not manufacturer CAD",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Visualization of existing bare copper only; not a purchased or fitted mechanical part. PCB renderer already displays this copper."
+  },
+  {
+    "reference": "TP5",
+    "file": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+    "model_type": "Project-generated nominal mechanical visualization; not manufacturer CAD",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Visualization of existing bare copper only; not a purchased or fitted mechanical part. PCB renderer already displays this copper."
+  },
+  {
+    "reference": "TP6",
+    "file": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+    "model_type": "Project-generated nominal mechanical visualization; not manufacturer CAD",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Visualization of existing bare copper only; not a purchased or fitted mechanical part. PCB renderer already displays this copper."
+  },
+  {
+    "reference": "TP9",
+    "file": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+    "model_type": "Project-generated nominal mechanical visualization; not manufacturer CAD",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Visualization of existing bare copper only; not a purchased or fitted mechanical part. PCB renderer already displays this copper."
+  },
+  {
+    "reference": "U1",
+    "file": "${KIPRJMOD}/3D/SOT-23-6.wrl",
+    "model_type": "KiCad community model",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Generic KiCad package model; nominal package geometry, not exact manufacturer MPN CAD."
+  },
+  {
+    "reference": "U2",
+    "file": "${KIPRJMOD}/3D/SOT-23-6.wrl",
+    "model_type": "KiCad community model",
+    "scale": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "offset_mm": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "rotation_deg": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "file_hash_valid": true,
+    "exact_MPN_mechanical_certification": false,
+    "notes": "Generic KiCad package model; nominal package geometry, not exact manufacturer MPN CAD."
+  }
+]

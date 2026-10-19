@@ -1,0 +1,18 @@
+[
+  {
+    "footprint": "FH26W-25S-0.3SHW",
+    "copper_changed": false,
+    "paste_changed": false,
+    "body_courtyard_source": "/usr/share/kicad/footprints/Connector_FFC-FPC.pretty/Hirose_FH26-25S-0.3SHW_2Rows-25Pins-1MP_P0.60mm_Horizontal.kicad_mod",
+    "source_sha256": "4e5449448d744dc27b7f7e6cfe59233129776824e4f590033b4fe60776511e5d",
+    "family_proxy_for_W_suffix": true
+  },
+  {
+    "footprint": "FH26-39S-0.3SHW",
+    "copper_changed": false,
+    "paste_changed": false,
+    "body_courtyard_source": "/usr/share/kicad/footprints/Connector_FFC-FPC.pretty/Hirose_FH26-39S-0.3SHW_2Rows-39Pins-1MP_P0.60mm_Horizontal.kicad_mod",
+    "source_sha256": "25e1f21ef08d65c9439833e8b91951a147cab47dd7f05a301e75e5cdfa11ab86",
+    "family_proxy_for_W_suffix": false
+  }
+]

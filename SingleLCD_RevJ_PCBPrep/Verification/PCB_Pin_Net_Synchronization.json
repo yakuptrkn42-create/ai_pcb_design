@@ -1,0 +1,1206 @@
+[
+  {
+    "reference": "C1",
+    "pin": "1",
+    "schematic_net": "BL_POWER",
+    "pcb_net": "BL_POWER",
+    "result": "PASS"
+  },
+  {
+    "reference": "C1",
+    "pin": "2",
+    "schematic_net": "GND",
+    "pcb_net": "GND",
+    "result": "PASS"
+  },
+  {
+    "reference": "C13",
+    "pin": "1",
+    "schematic_net": "BL_POWER",
+    "pcb_net": "BL_POWER",
+    "result": "PASS"
+  },
+  {
+    "reference": "C13",
+    "pin": "2",
+    "schematic_net": "GND",
+    "pcb_net": "GND",
+    "result": "PASS"
+  },
+  {
+    "reference": "C2",
+    "pin": "1",
+    "schematic_net": "BL_POWER",
+    "pcb_net": "BL_POWER",
+    "result": "PASS"
+  },
+  {
+    "reference": "C2",
+    "pin": "2",
+    "schematic_net": "GND",
+    "pcb_net": "GND",
+    "result": "PASS"
+  },
+  {
+    "reference": "C3",
+    "pin": "1",
+    "schematic_net": "BL_LEDA",
+    "pcb_net": "BL_LEDA",
+    "result": "PASS"
+  },
+  {
+    "reference": "C3",
+    "pin": "2",
+    "schematic_net": "GND",
+    "pcb_net": "GND",
+    "result": "PASS"
+  },
+  {
+    "reference": "C4",
+    "pin": "1",
+    "schematic_net": "BL_LEDA",
+    "pcb_net": "BL_LEDA",
+    "result": "PASS"
+  },
+  {
+    "reference": "C4",
+    "pin": "2",
+    "schematic_net": "GND",
+    "pcb_net": "GND",
+    "result": "PASS"
+  },
+  {
+    "reference": "C5",
+    "pin": "1",
+    "schematic_net": "LCD_VCI",
+    "pcb_net": "LCD_VCI",
+    "result": "PASS"
+  },
+  {
+    "reference": "C5",
+    "pin": "2",
+    "schematic_net": "GND",
+    "pcb_net": "GND",
+    "result": "PASS"
+  },
+  {
+    "reference": "C6",
+    "pin": "1",
+    "schematic_net": "LCD_VCI",
+    "pcb_net": "LCD_VCI",
+    "result": "PASS"
+  },
+  {
+    "reference": "C6",
+    "pin": "2",
+    "schematic_net": "GND",
+    "pcb_net": "GND",
+    "result": "PASS"
+  },
+  {
+    "reference": "C7",
+    "pin": "1",
+    "schematic_net": "TP_VDD",
+    "pcb_net": "TP_VDD",
+    "result": "PASS"
+  },
+  {
+    "reference": "C7",
+    "pin": "2",
+    "schematic_net": "GND",
+    "pcb_net": "GND",
+    "result": "PASS"
+  },
+  {
+    "reference": "C8",
+    "pin": "1",
+    "schematic_net": "TP_VDD",
+    "pcb_net": "TP_VDD",
+    "result": "PASS"
+  },
+  {
+    "reference": "C8",
+    "pin": "2",
+    "schematic_net": "GND",
+    "pcb_net": "GND",
+    "result": "PASS"
+  },
+  {
+    "reference": "C9",
+    "pin": "1",
+    "schematic_net": "BL_COMP",
+    "pcb_net": "BL_COMP",
+    "result": "PASS"
+  },
+  {
+    "reference": "C9",
+    "pin": "2",
+    "schematic_net": "GND",
+    "pcb_net": "GND",
+    "result": "PASS"
+  },
+  {
+    "reference": "D1",
+    "pin": "1",
+    "schematic_net": "BL_LEDA",
+    "pcb_net": "BL_LEDA",
+    "result": "PASS"
+  },
+  {
+    "reference": "D1",
+    "pin": "2",
+    "schematic_net": "BL_SW",
+    "pcb_net": "BL_SW",
+    "result": "PASS"
+  },
+  {
+    "reference": "D3",
+    "pin": "1",
+    "schematic_net": "BL_5V",
+    "pcb_net": "BL_5V",
+    "result": "PASS"
+  },
+  {
+    "reference": "D3",
+    "pin": "2",
+    "schematic_net": "FUSED_5V",
+    "pcb_net": "FUSED_5V",
+    "result": "PASS"
+  },
+  {
+    "reference": "F2",
+    "pin": "1",
+    "schematic_net": "EXT_5V",
+    "pcb_net": "EXT_5V",
+    "result": "PASS"
+  },
+  {
+    "reference": "F2",
+    "pin": "2",
+    "schematic_net": "FUSED_5V",
+    "pcb_net": "FUSED_5V",
+    "result": "PASS"
+  },
+  {
+    "reference": "J1",
+    "pin": "1",
+    "schematic_net": "unconnected-(J1-ID_NC-Pad1)",
+    "pcb_net": "unconnected-(J1-ID_NC-Pad1)",
+    "result": "PASS"
+  },
+  {
+    "reference": "J1",
+    "pin": "2",
+    "schematic_net": "GND",
+    "pcb_net": "GND",
+    "result": "PASS"
+  },
+  {
+    "reference": "J1",
+    "pin": "3",
+    "schematic_net": "GND",
+    "pcb_net": "GND",
+    "result": "PASS"
+  },
+  {
+    "reference": "J1",
+    "pin": "4",
+    "schematic_net": "GND",
+    "pcb_net": "GND",
+    "result": "PASS"
+  },
+  {
+    "reference": "J1",
+    "pin": "5",
+    "schematic_net": "HOST_LCD_RST",
+    "pcb_net": "HOST_LCD_RST",
+    "result": "PASS"
+  },
+  {
+    "reference": "J1",
+    "pin": "6",
+    "schematic_net": "HOST_3V3",
+    "pcb_net": "HOST_3V3",
+    "result": "PASS"
+  },
+  {
+    "reference": "J1",
+    "pin": "7",
+    "schematic_net": "GND",
+    "pcb_net": "GND",
+    "result": "PASS"
+  },
+  {
+    "reference": "J1",
+    "pin": "8",
+    "schematic_net": "DSI_D0_N",
+    "pcb_net": "DSI_D0_N",
+    "result": "PASS"
+  },
+  {
+    "reference": "J1",
+    "pin": "9",
+    "schematic_net": "unconnected-(J1-NC-Pad9)",
+    "pcb_net": "unconnected-(J1-NC-Pad9)",
+    "result": "PASS"
+  },
+  {
+    "reference": "J1",
+    "pin": "10",
+    "schematic_net": "DSI_D0_P",
+    "pcb_net": "DSI_D0_P",
+    "result": "PASS"
+  },
+  {
+    "reference": "J1",
+    "pin": "11",
+    "schematic_net": "GND",
+    "pcb_net": "GND",
+    "result": "PASS"
+  },
+  {
+    "reference": "J1",
+    "pin": "12",
+    "schematic_net": "DSI_CLK_N",
+    "pcb_net": "DSI_CLK_N",
+    "result": "PASS"
+  },
+  {
+    "reference": "J1",
+    "pin": "13",
+    "schematic_net": "unconnected-(J1-NC-Pad13)",
+    "pcb_net": "unconnected-(J1-NC-Pad13)",
+    "result": "PASS"
+  },
+  {
+    "reference": "J1",
+    "pin": "14",
+    "schematic_net": "DSI_CLK_P",
+    "pcb_net": "DSI_CLK_P",
+    "result": "PASS"
+  },
+  {
+    "reference": "J1",
+    "pin": "15",
+    "schematic_net": "GND",
+    "pcb_net": "GND",
+    "result": "PASS"
+  },
+  {
+    "reference": "J1",
+    "pin": "16",
+    "schematic_net": "DSI_D1_N",
+    "pcb_net": "DSI_D1_N",
+    "result": "PASS"
+  },
+  {
+    "reference": "J1",
+    "pin": "17",
+    "schematic_net": "unconnected-(J1-NC-Pad17)",
+    "pcb_net": "unconnected-(J1-NC-Pad17)",
+    "result": "PASS"
+  },
+  {
+    "reference": "J1",
+    "pin": "18",
+    "schematic_net": "DSI_D1_P",
+    "pcb_net": "DSI_D1_P",
+    "result": "PASS"
+  },
+  {
+    "reference": "J1",
+    "pin": "19",
+    "schematic_net": "GND",
+    "pcb_net": "GND",
+    "result": "PASS"
+  },
+  {
+    "reference": "J1",
+    "pin": "20",
+    "schematic_net": "unconnected-(J1-NC_ERR-Pad20)",
+    "pcb_net": "unconnected-(J1-NC_ERR-Pad20)",
+    "result": "PASS"
+  },
+  {
+    "reference": "J1",
+    "pin": "21",
+    "schematic_net": "HOST_3V3",
+    "pcb_net": "HOST_3V3",
+    "result": "PASS"
+  },
+  {
+    "reference": "J1",
+    "pin": "22",
+    "schematic_net": "HOST_TE",
+    "pcb_net": "HOST_TE",
+    "result": "PASS"
+  },
+  {
+    "reference": "J1",
+    "pin": "23",
+    "schematic_net": "unconnected-(J1-HOST_LED_K_NC-Pad23)",
+    "pcb_net": "unconnected-(J1-HOST_LED_K_NC-Pad23)",
+    "result": "PASS"
+  },
+  {
+    "reference": "J1",
+    "pin": "24",
+    "schematic_net": "unconnected-(J1-HOST_LED_A_NC-Pad24)",
+    "pcb_net": "unconnected-(J1-HOST_LED_A_NC-Pad24)",
+    "result": "PASS"
+  },
+  {
+    "reference": "J1",
+    "pin": "25",
+    "schematic_net": "GND",
+    "pcb_net": "GND",
+    "result": "PASS"
+  },
+  {
+    "reference": "J2",
+    "pin": "1",
+    "schematic_net": "BL_LEDA",
+    "pcb_net": "BL_LEDA",
+    "result": "PASS"
+  },
+  {
+    "reference": "J2",
+    "pin": "2",
+    "schematic_net": "BL_LEDA",
+    "pcb_net": "BL_LEDA",
+    "result": "PASS"
+  },
+  {
+    "reference": "J2",
+    "pin": "3",
+    "schematic_net": "BL_LEDK",
+    "pcb_net": "BL_LEDK",
+    "result": "PASS"
+  },
+  {
+    "reference": "J2",
+    "pin": "4",
+    "schematic_net": "BL_LEDK",
+    "pcb_net": "BL_LEDK",
+    "result": "PASS"
+  },
+  {
+    "reference": "J2",
+    "pin": "5",
+    "schematic_net": "unconnected-(J2-NC-Pad5)",
+    "pcb_net": "unconnected-(J2-NC-Pad5)",
+    "result": "PASS"
+  },
+  {
+    "reference": "J2",
+    "pin": "6",
+    "schematic_net": "unconnected-(J2-NC-Pad6)",
+    "pcb_net": "unconnected-(J2-NC-Pad6)",
+    "result": "PASS"
+  },
+  {
+    "reference": "J2",
+    "pin": "7",
+    "schematic_net": "LCD_VCI",
+    "pcb_net": "LCD_VCI",
+    "result": "PASS"
+  },
+  {
+    "reference": "J2",
+    "pin": "8",
+    "schematic_net": "LCD_VCI",
+    "pcb_net": "LCD_VCI",
+    "result": "PASS"
+  },
+  {
+    "reference": "J2",
+    "pin": "9",
+    "schematic_net": "LCD_VCI",
+    "pcb_net": "LCD_VCI",
+    "result": "PASS"
+  },
+  {
+    "reference": "J2",
+    "pin": "10",
+    "schematic_net": "LCD_VCI",
+    "pcb_net": "LCD_VCI",
+    "result": "PASS"
+  },
+  {
+    "reference": "J2",
+    "pin": "11",
+    "schematic_net": "GND",
+    "pcb_net": "GND",
+    "result": "PASS"
+  },
+  {
+    "reference": "J2",
+    "pin": "12",
+    "schematic_net": "LCD_RST",
+    "pcb_net": "LCD_RST",
+    "result": "PASS"
+  },
+  {
+    "reference": "J2",
+    "pin": "13",
+    "schematic_net": "LCD_TE",
+    "pcb_net": "LCD_TE",
+    "result": "PASS"
+  },
+  {
+    "reference": "J2",
+    "pin": "14",
+    "schematic_net": "GND",
+    "pcb_net": "GND",
+    "result": "PASS"
+  },
+  {
+    "reference": "J2",
+    "pin": "15",
+    "schematic_net": "GND",
+    "pcb_net": "GND",
+    "result": "PASS"
+  },
+  {
+    "reference": "J2",
+    "pin": "16",
+    "schematic_net": "DSI_D0_P",
+    "pcb_net": "DSI_D0_P",
+    "result": "PASS"
+  },
+  {
+    "reference": "J2",
+    "pin": "17",
+    "schematic_net": "DSI_D0_N",
+    "pcb_net": "DSI_D0_N",
+    "result": "PASS"
+  },
+  {
+    "reference": "J2",
+    "pin": "18",
+    "schematic_net": "GND",
+    "pcb_net": "GND",
+    "result": "PASS"
+  },
+  {
+    "reference": "J2",
+    "pin": "19",
+    "schematic_net": "GND",
+    "pcb_net": "GND",
+    "result": "PASS"
+  },
+  {
+    "reference": "J2",
+    "pin": "20",
+    "schematic_net": "DSI_D1_P",
+    "pcb_net": "DSI_D1_P",
+    "result": "PASS"
+  },
+  {
+    "reference": "J2",
+    "pin": "21",
+    "schematic_net": "DSI_D1_N",
+    "pcb_net": "DSI_D1_N",
+    "result": "PASS"
+  },
+  {
+    "reference": "J2",
+    "pin": "22",
+    "schematic_net": "GND",
+    "pcb_net": "GND",
+    "result": "PASS"
+  },
+  {
+    "reference": "J2",
+    "pin": "23",
+    "schematic_net": "GND",
+    "pcb_net": "GND",
+    "result": "PASS"
+  },
+  {
+    "reference": "J2",
+    "pin": "24",
+    "schematic_net": "DSI_CLK_P",
+    "pcb_net": "DSI_CLK_P",
+    "result": "PASS"
+  },
+  {
+    "reference": "J2",
+    "pin": "25",
+    "schematic_net": "DSI_CLK_N",
+    "pcb_net": "DSI_CLK_N",
+    "result": "PASS"
+  },
+  {
+    "reference": "J2",
+    "pin": "26",
+    "schematic_net": "GND",
+    "pcb_net": "GND",
+    "result": "PASS"
+  },
+  {
+    "reference": "J2",
+    "pin": "27",
+    "schematic_net": "GND",
+    "pcb_net": "GND",
+    "result": "PASS"
+  },
+  {
+    "reference": "J2",
+    "pin": "28",
+    "schematic_net": "GND",
+    "pcb_net": "GND",
+    "result": "PASS"
+  },
+  {
+    "reference": "J2",
+    "pin": "29",
+    "schematic_net": "GND",
+    "pcb_net": "GND",
+    "result": "PASS"
+  },
+  {
+    "reference": "J2",
+    "pin": "30",
+    "schematic_net": "TP_VDD",
+    "pcb_net": "TP_VDD",
+    "result": "PASS"
+  },
+  {
+    "reference": "J2",
+    "pin": "31",
+    "schematic_net": "TP_VDD",
+    "pcb_net": "TP_VDD",
+    "result": "PASS"
+  },
+  {
+    "reference": "J2",
+    "pin": "32",
+    "schematic_net": "TP_SCL",
+    "pcb_net": "TP_SCL",
+    "result": "PASS"
+  },
+  {
+    "reference": "J2",
+    "pin": "33",
+    "schematic_net": "TP_SDA",
+    "pcb_net": "TP_SDA",
+    "result": "PASS"
+  },
+  {
+    "reference": "J2",
+    "pin": "34",
+    "schematic_net": "TP_RST",
+    "pcb_net": "TP_RST",
+    "result": "PASS"
+  },
+  {
+    "reference": "J2",
+    "pin": "35",
+    "schematic_net": "TP_INT",
+    "pcb_net": "TP_INT",
+    "result": "PASS"
+  },
+  {
+    "reference": "J2",
+    "pin": "36",
+    "schematic_net": "GND",
+    "pcb_net": "GND",
+    "result": "PASS"
+  },
+  {
+    "reference": "J2",
+    "pin": "37",
+    "schematic_net": "GND",
+    "pcb_net": "GND",
+    "result": "PASS"
+  },
+  {
+    "reference": "J2",
+    "pin": "38",
+    "schematic_net": "unconnected-(J2-NC-Pad38)",
+    "pcb_net": "unconnected-(J2-NC-Pad38)",
+    "result": "PASS"
+  },
+  {
+    "reference": "J2",
+    "pin": "39",
+    "schematic_net": "unconnected-(J2-NC-Pad39)",
+    "pcb_net": "unconnected-(J2-NC-Pad39)",
+    "result": "PASS"
+  },
+  {
+    "reference": "J3",
+    "pin": "1",
+    "schematic_net": "HOST_TP_3V3",
+    "pcb_net": "HOST_TP_3V3",
+    "result": "PASS"
+  },
+  {
+    "reference": "J3",
+    "pin": "2",
+    "schematic_net": "TP_INT",
+    "pcb_net": "TP_INT",
+    "result": "PASS"
+  },
+  {
+    "reference": "J3",
+    "pin": "3",
+    "schematic_net": "TP_SCL",
+    "pcb_net": "TP_SCL",
+    "result": "PASS"
+  },
+  {
+    "reference": "J3",
+    "pin": "4",
+    "schematic_net": "TP_SDA",
+    "pcb_net": "TP_SDA",
+    "result": "PASS"
+  },
+  {
+    "reference": "J3",
+    "pin": "5",
+    "schematic_net": "unconnected-(J3-PH7_RESET_NC-Pad5)",
+    "pcb_net": "unconnected-(J3-PH7_RESET_NC-Pad5)",
+    "result": "PASS"
+  },
+  {
+    "reference": "J3",
+    "pin": "6",
+    "schematic_net": "GND",
+    "pcb_net": "GND",
+    "result": "PASS"
+  },
+  {
+    "reference": "J4",
+    "pin": "1",
+    "schematic_net": "GND",
+    "pcb_net": "GND",
+    "result": "PASS"
+  },
+  {
+    "reference": "J4",
+    "pin": "2",
+    "schematic_net": "EXT_5V",
+    "pcb_net": "EXT_5V",
+    "result": "PASS"
+  },
+  {
+    "reference": "J5",
+    "pin": "1",
+    "schematic_net": "unconnected-(J5-3V3_NC-Pad1)",
+    "pcb_net": "unconnected-(J5-3V3_NC-Pad1)",
+    "result": "PASS"
+  },
+  {
+    "reference": "J5",
+    "pin": "2",
+    "schematic_net": "GND",
+    "pcb_net": "GND",
+    "result": "PASS"
+  },
+  {
+    "reference": "J5",
+    "pin": "3",
+    "schematic_net": "unconnected-(J5-PA8_NC-Pad3)",
+    "pcb_net": "unconnected-(J5-PA8_NC-Pad3)",
+    "result": "PASS"
+  },
+  {
+    "reference": "J5",
+    "pin": "4",
+    "schematic_net": "unconnected-(J5-NRST_NC-Pad4)",
+    "pcb_net": "unconnected-(J5-NRST_NC-Pad4)",
+    "result": "PASS"
+  },
+  {
+    "reference": "J5",
+    "pin": "5",
+    "schematic_net": "unconnected-(J5-PB4_NC-Pad5)",
+    "pcb_net": "unconnected-(J5-PB4_NC-Pad5)",
+    "result": "PASS"
+  },
+  {
+    "reference": "J5",
+    "pin": "6",
+    "schematic_net": "BL_PWM_RAW",
+    "pcb_net": "BL_PWM_RAW",
+    "result": "PASS"
+  },
+  {
+    "reference": "J5",
+    "pin": "7",
+    "schematic_net": "unconnected-(J5-PA5_NC-Pad7)",
+    "pcb_net": "unconnected-(J5-PA5_NC-Pad7)",
+    "result": "PASS"
+  },
+  {
+    "reference": "J5",
+    "pin": "8",
+    "schematic_net": "unconnected-(J5-PC7_NC-Pad8)",
+    "pcb_net": "unconnected-(J5-PC7_NC-Pad8)",
+    "result": "PASS"
+  },
+  {
+    "reference": "J5",
+    "pin": "9",
+    "schematic_net": "unconnected-(J5-PB5_NC-Pad9)",
+    "pcb_net": "unconnected-(J5-PB5_NC-Pad9)",
+    "result": "PASS"
+  },
+  {
+    "reference": "J5",
+    "pin": "10",
+    "schematic_net": "unconnected-(J5-PB13_NC-Pad10)",
+    "pcb_net": "unconnected-(J5-PB13_NC-Pad10)",
+    "result": "PASS"
+  },
+  {
+    "reference": "J5",
+    "pin": "11",
+    "schematic_net": "unconnected-(J5-PA15_NC-Pad11)",
+    "pcb_net": "unconnected-(J5-PA15_NC-Pad11)",
+    "result": "PASS"
+  },
+  {
+    "reference": "J5",
+    "pin": "12",
+    "schematic_net": "HOST_TP_RST",
+    "pcb_net": "HOST_TP_RST",
+    "result": "PASS"
+  },
+  {
+    "reference": "J5",
+    "pin": "13",
+    "schematic_net": "unconnected-(J5-PC13_NC-Pad13)",
+    "pcb_net": "unconnected-(J5-PC13_NC-Pad13)",
+    "result": "PASS"
+  },
+  {
+    "reference": "J5",
+    "pin": "14",
+    "schematic_net": "unconnected-(J5-PC1_NC-Pad14)",
+    "pcb_net": "unconnected-(J5-PC1_NC-Pad14)",
+    "result": "PASS"
+  },
+  {
+    "reference": "J5",
+    "pin": "15",
+    "schematic_net": "unconnected-(J5-AUDIO_NC-Pad15)",
+    "pcb_net": "unconnected-(J5-AUDIO_NC-Pad15)",
+    "result": "PASS"
+  },
+  {
+    "reference": "J5",
+    "pin": "16",
+    "schematic_net": "unconnected-(J5-AUDIO_NC-Pad16)",
+    "pcb_net": "unconnected-(J5-AUDIO_NC-Pad16)",
+    "result": "PASS"
+  },
+  {
+    "reference": "L1",
+    "pin": "1",
+    "schematic_net": "BL_POWER",
+    "pcb_net": "BL_POWER",
+    "result": "PASS"
+  },
+  {
+    "reference": "L1",
+    "pin": "2",
+    "schematic_net": "BL_SW",
+    "pcb_net": "BL_SW",
+    "result": "PASS"
+  },
+  {
+    "reference": "R1",
+    "pin": "1",
+    "schematic_net": "TP_VDD",
+    "pcb_net": "TP_VDD",
+    "result": "PASS"
+  },
+  {
+    "reference": "R1",
+    "pin": "2",
+    "schematic_net": "TP_SDA",
+    "pcb_net": "TP_SDA",
+    "result": "PASS"
+  },
+  {
+    "reference": "R12",
+    "pin": "1",
+    "schematic_net": "BL_5V",
+    "pcb_net": "BL_5V",
+    "result": "PASS"
+  },
+  {
+    "reference": "R12",
+    "pin": "2",
+    "schematic_net": "BL_POWER",
+    "pcb_net": "BL_POWER",
+    "result": "PASS"
+  },
+  {
+    "reference": "R13",
+    "pin": "1",
+    "schematic_net": "BL_PWM_RAW",
+    "pcb_net": "BL_PWM_RAW",
+    "result": "PASS"
+  },
+  {
+    "reference": "R13",
+    "pin": "2",
+    "schematic_net": "BL_CTRL",
+    "pcb_net": "BL_CTRL",
+    "result": "PASS"
+  },
+  {
+    "reference": "R14",
+    "pin": "1",
+    "schematic_net": "TP_VDD",
+    "pcb_net": "TP_VDD",
+    "result": "PASS"
+  },
+  {
+    "reference": "R14",
+    "pin": "2",
+    "schematic_net": "TP_RST",
+    "pcb_net": "TP_RST",
+    "result": "PASS"
+  },
+  {
+    "reference": "R15",
+    "pin": "1",
+    "schematic_net": "HOST_LCD_RST",
+    "pcb_net": "HOST_LCD_RST",
+    "result": "PASS"
+  },
+  {
+    "reference": "R15",
+    "pin": "2",
+    "schematic_net": "LCD_RST",
+    "pcb_net": "LCD_RST",
+    "result": "PASS"
+  },
+  {
+    "reference": "R16",
+    "pin": "1",
+    "schematic_net": "LCD_TE",
+    "pcb_net": "LCD_TE",
+    "result": "PASS"
+  },
+  {
+    "reference": "R16",
+    "pin": "2",
+    "schematic_net": "HOST_TE",
+    "pcb_net": "HOST_TE",
+    "result": "PASS"
+  },
+  {
+    "reference": "R17",
+    "pin": "1",
+    "schematic_net": "LCD_VCI",
+    "pcb_net": "LCD_VCI",
+    "result": "PASS"
+  },
+  {
+    "reference": "R17",
+    "pin": "2",
+    "schematic_net": "LCD_RST",
+    "pcb_net": "LCD_RST",
+    "result": "PASS"
+  },
+  {
+    "reference": "R18",
+    "pin": "1",
+    "schematic_net": "BL_LEDA",
+    "pcb_net": "BL_LEDA",
+    "result": "PASS"
+  },
+  {
+    "reference": "R18",
+    "pin": "2",
+    "schematic_net": "GND",
+    "pcb_net": "GND",
+    "result": "PASS"
+  },
+  {
+    "reference": "R19",
+    "pin": "1",
+    "schematic_net": "BL_LEDA",
+    "pcb_net": "BL_LEDA",
+    "result": "PASS"
+  },
+  {
+    "reference": "R19",
+    "pin": "2",
+    "schematic_net": "OVP_SENSE",
+    "pcb_net": "OVP_SENSE",
+    "result": "PASS"
+  },
+  {
+    "reference": "R2",
+    "pin": "1",
+    "schematic_net": "TP_VDD",
+    "pcb_net": "TP_VDD",
+    "result": "PASS"
+  },
+  {
+    "reference": "R2",
+    "pin": "2",
+    "schematic_net": "TP_SCL",
+    "pcb_net": "TP_SCL",
+    "result": "PASS"
+  },
+  {
+    "reference": "R20",
+    "pin": "1",
+    "schematic_net": "OVP_SENSE",
+    "pcb_net": "OVP_SENSE",
+    "result": "PASS"
+  },
+  {
+    "reference": "R20",
+    "pin": "2",
+    "schematic_net": "GND",
+    "pcb_net": "GND",
+    "result": "PASS"
+  },
+  {
+    "reference": "R3",
+    "pin": "1",
+    "schematic_net": "HOST_TP_RST",
+    "pcb_net": "HOST_TP_RST",
+    "result": "PASS"
+  },
+  {
+    "reference": "R3",
+    "pin": "2",
+    "schematic_net": "TP_RST",
+    "pcb_net": "TP_RST",
+    "result": "PASS"
+  },
+  {
+    "reference": "R4",
+    "pin": "1",
+    "schematic_net": "HOST_3V3",
+    "pcb_net": "HOST_3V3",
+    "result": "PASS"
+  },
+  {
+    "reference": "R4",
+    "pin": "2",
+    "schematic_net": "LCD_VCI",
+    "pcb_net": "LCD_VCI",
+    "result": "PASS"
+  },
+  {
+    "reference": "R5",
+    "pin": "1",
+    "schematic_net": "HOST_TP_3V3",
+    "pcb_net": "HOST_TP_3V3",
+    "result": "PASS"
+  },
+  {
+    "reference": "R5",
+    "pin": "2",
+    "schematic_net": "TP_VDD",
+    "pcb_net": "TP_VDD",
+    "result": "PASS"
+  },
+  {
+    "reference": "R6",
+    "pin": "1",
+    "schematic_net": "BL_CTRL",
+    "pcb_net": "BL_CTRL",
+    "result": "PASS"
+  },
+  {
+    "reference": "R6",
+    "pin": "2",
+    "schematic_net": "GND",
+    "pcb_net": "GND",
+    "result": "PASS"
+  },
+  {
+    "reference": "R7",
+    "pin": "1",
+    "schematic_net": "BL_LEDK",
+    "pcb_net": "BL_LEDK",
+    "result": "PASS"
+  },
+  {
+    "reference": "R7",
+    "pin": "2",
+    "schematic_net": "GND",
+    "pcb_net": "GND",
+    "result": "PASS"
+  },
+  {
+    "reference": "TP1",
+    "pin": "1",
+    "schematic_net": "HOST_3V3",
+    "pcb_net": "HOST_3V3",
+    "result": "PASS"
+  },
+  {
+    "reference": "TP10",
+    "pin": "1",
+    "schematic_net": "TP_RST",
+    "pcb_net": "TP_RST",
+    "result": "PASS"
+  },
+  {
+    "reference": "TP11",
+    "pin": "1",
+    "schematic_net": "LCD_VCI",
+    "pcb_net": "LCD_VCI",
+    "result": "PASS"
+  },
+  {
+    "reference": "TP12",
+    "pin": "1",
+    "schematic_net": "TP_VDD",
+    "pcb_net": "TP_VDD",
+    "result": "PASS"
+  },
+  {
+    "reference": "TP13",
+    "pin": "1",
+    "schematic_net": "BL_LEDA",
+    "pcb_net": "BL_LEDA",
+    "result": "PASS"
+  },
+  {
+    "reference": "TP14",
+    "pin": "1",
+    "schematic_net": "BL_LEDK",
+    "pcb_net": "BL_LEDK",
+    "result": "PASS"
+  },
+  {
+    "reference": "TP15",
+    "pin": "1",
+    "schematic_net": "GND",
+    "pcb_net": "GND",
+    "result": "PASS"
+  },
+  {
+    "reference": "TP3",
+    "pin": "1",
+    "schematic_net": "GND",
+    "pcb_net": "GND",
+    "result": "PASS"
+  },
+  {
+    "reference": "TP4",
+    "pin": "1",
+    "schematic_net": "LCD_RST",
+    "pcb_net": "LCD_RST",
+    "result": "PASS"
+  },
+  {
+    "reference": "TP5",
+    "pin": "1",
+    "schematic_net": "TP_INT",
+    "pcb_net": "TP_INT",
+    "result": "PASS"
+  },
+  {
+    "reference": "TP6",
+    "pin": "1",
+    "schematic_net": "BL_CTRL",
+    "pcb_net": "BL_CTRL",
+    "result": "PASS"
+  },
+  {
+    "reference": "TP9",
+    "pin": "1",
+    "schematic_net": "BL_POWER",
+    "pcb_net": "BL_POWER",
+    "result": "PASS"
+  },
+  {
+    "reference": "U1",
+    "pin": "1",
+    "schematic_net": "BL_POWER",
+    "pcb_net": "BL_POWER",
+    "result": "PASS"
+  },
+  {
+    "reference": "U1",
+    "pin": "2",
+    "schematic_net": "BL_CTRL",
+    "pcb_net": "BL_CTRL",
+    "result": "PASS"
+  },
+  {
+    "reference": "U1",
+    "pin": "3",
+    "schematic_net": "BL_SW",
+    "pcb_net": "BL_SW",
+    "result": "PASS"
+  },
+  {
+    "reference": "U1",
+    "pin": "4",
+    "schematic_net": "GND",
+    "pcb_net": "GND",
+    "result": "PASS"
+  },
+  {
+    "reference": "U1",
+    "pin": "5",
+    "schematic_net": "BL_COMP",
+    "pcb_net": "BL_COMP",
+    "result": "PASS"
+  },
+  {
+    "reference": "U1",
+    "pin": "6",
+    "schematic_net": "BL_LEDK",
+    "pcb_net": "BL_LEDK",
+    "result": "PASS"
+  },
+  {
+    "reference": "U2",
+    "pin": "1",
+    "schematic_net": "BL_CTRL",
+    "pcb_net": "BL_CTRL",
+    "result": "PASS"
+  },
+  {
+    "reference": "U2",
+    "pin": "2",
+    "schematic_net": "GND",
+    "pcb_net": "GND",
+    "result": "PASS"
+  },
+  {
+    "reference": "U2",
+    "pin": "3",
+    "schematic_net": "OVP_REF",
+    "pcb_net": "OVP_REF",
+    "result": "PASS"
+  },
+  {
+    "reference": "U2",
+    "pin": "4",
+    "schematic_net": "OVP_SENSE",
+    "pcb_net": "OVP_SENSE",
+    "result": "PASS"
+  },
+  {
+    "reference": "U2",
+    "pin": "5",
+    "schematic_net": "OVP_REF",
+    "pcb_net": "OVP_REF",
+    "result": "PASS"
+  },
+  {
+    "reference": "U2",
+    "pin": "6",
+    "schematic_net": "BL_POWER",
+    "pcb_net": "BL_POWER",
+    "result": "PASS"
+  }
+]
