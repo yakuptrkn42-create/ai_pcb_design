@@ -1,0 +1,846 @@
+[
+  {
+    "reference": "C1",
+    "value": "10uF / 16V",
+    "footprint": "Adapter_F469:C_0805_2012Metric",
+    "x_mm_from_origin": 14.0,
+    "y_mm_from_origin": 19.700000000000003,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      12.254999999999995,
+      18.674999999999997,
+      15.745000000000005,
+      20.724999999999994
+    ],
+    "model": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "C13",
+    "value": "100nF / 10V",
+    "footprint": "Adapter_F469:C_0805_2012Metric",
+    "x_mm_from_origin": 37.0,
+    "y_mm_from_origin": 21.799999999999997,
+    "rotation_deg": 180.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      35.254999999999995,
+      20.775000000000006,
+      38.745000000000005,
+      22.825000000000003
+    ],
+    "model": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "C2",
+    "value": "100nF / 16V",
+    "footprint": "Adapter_F469:C_0805_2012Metric",
+    "x_mm_from_origin": 22.099999999999994,
+    "y_mm_from_origin": 22.0,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      20.35499999999999,
+      20.974999999999994,
+      23.845,
+      23.025000000000006
+    ],
+    "model": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "C3",
+    "value": "10uF / 50V",
+    "footprint": "Adapter_F469:C_1210_3225Metric",
+    "x_mm_from_origin": 26.099999999999994,
+    "y_mm_from_origin": 32.5,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      23.754999999999995,
+      30.855000000000004,
+      28.444999999999993,
+      34.144999999999996
+    ],
+    "model": "${KIPRJMOD}/3D/C_1210_3225Metric.wrl"
+  },
+  {
+    "reference": "C4",
+    "value": "100nF / 50V",
+    "footprint": "Adapter_F469:C_0805_2012Metric",
+    "x_mm_from_origin": 24.900000000000006,
+    "y_mm_from_origin": 28.799999999999997,
+    "rotation_deg": 90.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      23.875,
+      27.055000000000007,
+      25.92500000000001,
+      30.545
+    ],
+    "model": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "C5",
+    "value": "4.7uF / 10V",
+    "footprint": "Adapter_F469:C_0805_2012Metric",
+    "x_mm_from_origin": 10.800000000000011,
+    "y_mm_from_origin": 9.5,
+    "rotation_deg": -90.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      9.775000000000006,
+      7.7549999999999955,
+      11.824999999999989,
+      11.245000000000005
+    ],
+    "model": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "C6",
+    "value": "100nF / 10V",
+    "footprint": "Adapter_F469:C_0805_2012Metric",
+    "x_mm_from_origin": 14.400000000000006,
+    "y_mm_from_origin": 9.5,
+    "rotation_deg": -90.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      13.375,
+      7.7549999999999955,
+      15.425000000000011,
+      11.245000000000005
+    ],
+    "model": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "C7",
+    "value": "1uF / 10V",
+    "footprint": "Adapter_F469:C_0805_2012Metric",
+    "x_mm_from_origin": 26.0,
+    "y_mm_from_origin": 9.5,
+    "rotation_deg": -90.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      24.974999999999994,
+      7.7549999999999955,
+      27.025000000000006,
+      11.245000000000005
+    ],
+    "model": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "C8",
+    "value": "100nF / 10V",
+    "footprint": "Adapter_F469:C_0805_2012Metric",
+    "x_mm_from_origin": 22.80000000000001,
+    "y_mm_from_origin": 9.5,
+    "rotation_deg": -90.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      21.775000000000006,
+      7.7549999999999955,
+      23.82499999999999,
+      11.245000000000005
+    ],
+    "model": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "C9",
+    "value": "220nF / 16V",
+    "footprint": "Adapter_F469:C_0805_2012Metric",
+    "x_mm_from_origin": 26.099999999999994,
+    "y_mm_from_origin": 25.700000000000003,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      24.35499999999999,
+      24.674999999999997,
+      27.845,
+      26.724999999999994
+    ],
+    "model": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "D1",
+    "value": "SS16 / 60V 1A",
+    "footprint": "Adapter_F469:D_SMA",
+    "x_mm_from_origin": 21.80000000000001,
+    "y_mm_from_origin": 30.5,
+    "rotation_deg": 90.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      20.004999999999995,
+      26.955,
+      23.595,
+      34.045
+    ],
+    "model": "${KIPRJMOD}/3D/D_SMA.wrl"
+  },
+  {
+    "reference": "D3",
+    "value": "SS14 / reverse block",
+    "footprint": "Adapter_F469:D_SMA",
+    "x_mm_from_origin": 6.0,
+    "y_mm_from_origin": 13.5,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      2.4550000000000125,
+      11.704999999999998,
+      9.544999999999987,
+      15.295000000000002
+    ],
+    "model": "${KIPRJMOD}/3D/D_SMA.wrl"
+  },
+  {
+    "reference": "F2",
+    "value": "0.75A hold / 6V",
+    "footprint": "Adapter_F469:Fuse_1206_3216Metric",
+    "x_mm_from_origin": 7.0,
+    "y_mm_from_origin": 17.799999999999997,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      4.675000000000011,
+      16.635000000000005,
+      9.324999999999989,
+      18.965000000000003
+    ],
+    "model": "${KIPRJMOD}/3D/Fuse_1206_3216Metric.wrl"
+  },
+  {
+    "reference": "H1",
+    "value": "MountingHole",
+    "footprint": "Placement_Mechanical:MountingHole_3.5mm_M3_Envelope8mm",
+    "x_mm_from_origin": 5.0,
+    "y_mm_from_origin": 5.0,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      0.9525170000000003,
+      0.9537590000000051,
+      9.04499899999999,
+      9.046239999999997
+    ]
+  },
+  {
+    "reference": "H2",
+    "value": "MountingHole",
+    "footprint": "Placement_Mechanical:MountingHole_3.5mm_M3_Envelope8mm",
+    "x_mm_from_origin": 50.0,
+    "y_mm_from_origin": 5.0,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      45.952517,
+      0.9537590000000051,
+      54.04499899999999,
+      9.046239999999997
+    ]
+  },
+  {
+    "reference": "H3",
+    "value": "MountingHole",
+    "footprint": "Placement_Mechanical:MountingHole_3.5mm_M3_Envelope8mm",
+    "x_mm_from_origin": 5.0,
+    "y_mm_from_origin": 40.0,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      0.9525170000000003,
+      35.953759000000005,
+      9.04499899999999,
+      44.04624
+    ]
+  },
+  {
+    "reference": "H4",
+    "value": "MountingHole",
+    "footprint": "Placement_Mechanical:MountingHole_3.5mm_M3_Envelope8mm",
+    "x_mm_from_origin": 50.0,
+    "y_mm_from_origin": 40.0,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      45.952517,
+      35.953759000000005,
+      54.04499899999999,
+      44.04624
+    ]
+  },
+  {
+    "reference": "J1",
+    "value": "FH26W-25S-0.3SHW(60)",
+    "footprint": "Adapter_F469:FH26W-25S-0.3SHW",
+    "x_mm_from_origin": 37.0,
+    "y_mm_from_origin": 5.0,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      31.955000000000013,
+      2.655000000000001,
+      42.04499999999999,
+      7.694999999999993
+    ],
+    "model": "${KIPRJMOD}/3D/FH26W_25_Nominal.step"
+  },
+  {
+    "reference": "J2",
+    "value": "FH26-39S-0.3SHW",
+    "footprint": "Adapter_F469:FH26-39S-0.3SHW",
+    "x_mm_from_origin": 19.0,
+    "y_mm_from_origin": 5.0,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      11.85499999999999,
+      2.655000000000001,
+      26.14500000000001,
+      7.694999999999993
+    ],
+    "model": "${KIPRJMOD}/3D/FH26_39_Nominal.step"
+  },
+  {
+    "reference": "J3",
+    "value": "FH19C-6S-0.5SH(10)",
+    "footprint": "Adapter_F469:FH19C-6S-0.5SH",
+    "x_mm_from_origin": 51.5,
+    "y_mm_from_origin": 16.5,
+    "rotation_deg": 90.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      49.45500000000001,
+      13.655000000000001,
+      53.54499999999999,
+      19.345
+    ],
+    "model": "${KIPRJMOD}/3D/FH19C_6_Nominal.step"
+  },
+  {
+    "reference": "J4",
+    "value": "HOST CTRL / PC6-PB12-GND",
+    "footprint": "Adapter_F469:FanPinHeader_1x03_P2.54mm_Vertical",
+    "x_mm_from_origin": 35.0,
+    "y_mm_from_origin": 39.0,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      33.20500000000001,
+      35.905,
+      41.89500000000001,
+      42.845
+    ],
+    "model": "${KIPRJMOD}/3D/FanPinHeader_1x03_P2.54mm_Vertical.step"
+  },
+  {
+    "reference": "J6",
+    "value": "EXT 5V / 1=+5V 2=GND",
+    "footprint": "Adapter_F469:JST_NV_B02P-NV_1x02_P5.00mm_Vertical",
+    "x_mm_from_origin": 6.5,
+    "y_mm_from_origin": 23.0,
+    "rotation_deg": -90.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      1.1550000000000011,
+      19.955,
+      10.745000000000005,
+      31.045
+    ],
+    "model": "${KIPRJMOD}/3D/JST_NV_B02P_Nominal.step"
+  },
+  {
+    "reference": "L1",
+    "value": "22uH / shielded",
+    "footprint": "Adapter_F469:L_TDK_SLF7045",
+    "x_mm_from_origin": 15.5,
+    "y_mm_from_origin": 25.0,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      11.294999999999987,
+      21.205,
+      19.705000000000013,
+      28.795
+    ],
+    "model": "${KIPRJMOD}/3D/SLF7045_Nominal.step"
+  },
+  {
+    "reference": "R1",
+    "value": "4.7k / DNP",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "x_mm_from_origin": 47.0,
+    "y_mm_from_origin": 21.5,
+    "rotation_deg": 0.0,
+    "DNP": true,
+    "courtyard_bbox_local_mm": [
+      45.275000000000006,
+      20.504999999999995,
+      48.724999999999994,
+      22.495000000000005
+    ],
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R12",
+    "value": "0R / isolation",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "x_mm_from_origin": 11.5,
+    "y_mm_from_origin": 17.0,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      9.775000000000006,
+      16.004999999999995,
+      13.224999999999994,
+      17.995000000000005
+    ],
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R13",
+    "value": "2.2k",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "x_mm_from_origin": 33.5,
+    "y_mm_from_origin": 33.5,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      31.775000000000006,
+      32.504999999999995,
+      35.224999999999994,
+      34.495000000000005
+    ],
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R14",
+    "value": "10k",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "x_mm_from_origin": 47.0,
+    "y_mm_from_origin": 28.0,
+    "rotation_deg": -90.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      46.004999999999995,
+      26.275000000000006,
+      47.995000000000005,
+      29.724999999999994
+    ],
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R15",
+    "value": "100R",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "x_mm_from_origin": 29.69999999999999,
+    "y_mm_from_origin": 10.5,
+    "rotation_deg": 180.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      27.974999999999994,
+      9.504999999999995,
+      31.42500000000001,
+      11.495000000000005
+    ],
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R16",
+    "value": "0R",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "x_mm_from_origin": 41.19999999999999,
+    "y_mm_from_origin": 10.5,
+    "rotation_deg": 180.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      39.474999999999994,
+      9.504999999999995,
+      42.92500000000001,
+      11.495000000000005
+    ],
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R17",
+    "value": "10k",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "x_mm_from_origin": 16.599999999999994,
+    "y_mm_from_origin": 10.5,
+    "rotation_deg": -90.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      15.60499999999999,
+      8.775000000000006,
+      17.595,
+      12.224999999999994
+    ],
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R18",
+    "value": "33k / discharge",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "x_mm_from_origin": 26.0,
+    "y_mm_from_origin": 36.5,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      24.275000000000006,
+      35.504999999999995,
+      27.724999999999994,
+      37.495000000000005
+    ],
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R19",
+    "value": "221k / 0.1%",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "x_mm_from_origin": 41.0,
+    "y_mm_from_origin": 26.0,
+    "rotation_deg": 180.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      39.275000000000006,
+      25.004999999999995,
+      42.724999999999994,
+      26.995000000000005
+    ],
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R2",
+    "value": "4.7k / DNP",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "x_mm_from_origin": 47.0,
+    "y_mm_from_origin": 24.5,
+    "rotation_deg": 0.0,
+    "DNP": true,
+    "courtyard_bbox_local_mm": [
+      45.275000000000006,
+      23.504999999999995,
+      48.724999999999994,
+      25.495000000000005
+    ],
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R20",
+    "value": "10k / 0.1%",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "x_mm_from_origin": 40.0,
+    "y_mm_from_origin": 29.5,
+    "rotation_deg": -90.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      39.004999999999995,
+      27.775000000000006,
+      40.995000000000005,
+      31.224999999999994
+    ],
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R3",
+    "value": "100R",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "x_mm_from_origin": 43.0,
+    "y_mm_from_origin": 33.5,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      41.275000000000006,
+      32.504999999999995,
+      44.724999999999994,
+      34.495000000000005
+    ],
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R4",
+    "value": "0R",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "x_mm_from_origin": 11.5,
+    "y_mm_from_origin": 13.5,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      9.775000000000006,
+      12.504999999999995,
+      13.224999999999994,
+      14.495000000000005
+    ],
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R5",
+    "value": "0R",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "x_mm_from_origin": 47.0,
+    "y_mm_from_origin": 11.0,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      45.275000000000006,
+      10.004999999999995,
+      48.724999999999994,
+      11.995000000000005
+    ],
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R6",
+    "value": "100k",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "x_mm_from_origin": 32.5,
+    "y_mm_from_origin": 26.5,
+    "rotation_deg": -90.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      31.504999999999995,
+      24.775000000000006,
+      33.495000000000005,
+      28.224999999999994
+    ],
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R7",
+    "value": "5.23R / 1%",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "x_mm_from_origin": 26.0,
+    "y_mm_from_origin": 23.5,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      24.275000000000006,
+      22.504999999999995,
+      27.724999999999994,
+      24.495000000000005
+    ],
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "TP1",
+    "value": "HOST_3V3",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "x_mm_from_origin": 44.5,
+    "y_mm_from_origin": 9.0,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      43.45244700000001,
+      7.953727000000001,
+      45.54499799999999,
+      10.046272000000002
+    ],
+    "model": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "TP10",
+    "value": "TP_RST",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "x_mm_from_origin": 50.5,
+    "y_mm_from_origin": 30.0,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      49.45244700000001,
+      28.953727,
+      51.54499799999999,
+      31.046272000000002
+    ],
+    "model": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "TP11",
+    "value": "LCD_VCI",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "x_mm_from_origin": 7.5,
+    "y_mm_from_origin": 10.0,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      6.4524470000000065,
+      8.953727,
+      8.544997999999993,
+      11.046272000000002
+    ],
+    "model": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "TP12",
+    "value": "TP_VDD",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "x_mm_from_origin": 28.099999999999994,
+    "y_mm_from_origin": 4.700000000000003,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      27.052447,
+      3.6537270000000035,
+      29.144997999999987,
+      5.746272000000005
+    ],
+    "model": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "TP13",
+    "value": "BL_LEDA",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "x_mm_from_origin": 30.0,
+    "y_mm_from_origin": 35.0,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      28.952447000000006,
+      33.953727,
+      31.044997999999993,
+      36.046272
+    ],
+    "model": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "TP14",
+    "value": "BL_LEDK",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "x_mm_from_origin": 28.5,
+    "y_mm_from_origin": 21.5,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      27.452447000000006,
+      20.453727,
+      29.544997999999993,
+      22.546272000000002
+    ],
+    "model": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "TP15",
+    "value": "GND",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "x_mm_from_origin": 29.80000000000001,
+    "y_mm_from_origin": 28.0,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      28.75244699999999,
+      26.953727,
+      30.844998000000004,
+      29.046272000000002
+    ],
+    "model": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "TP3",
+    "value": "GND",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "x_mm_from_origin": 47.0,
+    "y_mm_from_origin": 33.0,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      45.95244700000001,
+      31.953727,
+      48.04499799999999,
+      34.046272
+    ],
+    "model": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "TP4",
+    "value": "LCD_RST",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "x_mm_from_origin": 29.0,
+    "y_mm_from_origin": 7.799999999999997,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      27.952447000000006,
+      6.753726999999998,
+      30.044997999999993,
+      8.846271999999999
+    ],
+    "model": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "TP5",
+    "value": "TP_INT",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "x_mm_from_origin": 50.5,
+    "y_mm_from_origin": 25.5,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      49.45244700000001,
+      24.453727,
+      51.54499799999999,
+      26.546272000000002
+    ],
+    "model": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "TP6",
+    "value": "BL_CTRL",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "x_mm_from_origin": 31.0,
+    "y_mm_from_origin": 30.5,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      29.952447000000006,
+      29.453727,
+      32.04499799999999,
+      31.546272000000002
+    ],
+    "model": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "TP9",
+    "value": "BL_POWER",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "x_mm_from_origin": 11.5,
+    "y_mm_from_origin": 35.0,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      10.452447000000006,
+      33.953727,
+      12.544997999999993,
+      36.046272
+    ],
+    "model": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "U1",
+    "value": "TPS61165DBVR",
+    "footprint": "Adapter_F469:SOT-23-6",
+    "x_mm_from_origin": 22.0,
+    "y_mm_from_origin": 25.0,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      19.905,
+      23.254999999999995,
+      24.095,
+      26.745000000000005
+    ],
+    "model": "${KIPRJMOD}/3D/SOT-23-6.wrl"
+  },
+  {
+    "reference": "U2",
+    "value": "TLV3011BIDBVR",
+    "footprint": "Adapter_F469:SOT-23-6",
+    "x_mm_from_origin": 37.0,
+    "y_mm_from_origin": 25.0,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "courtyard_bbox_local_mm": [
+      34.905,
+      23.254999999999995,
+      39.095,
+      26.745000000000005
+    ],
+    "model": "${KIPRJMOD}/3D/SOT-23-6.wrl"
+  }
+]

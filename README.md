@@ -1,3 +1,22 @@
+# DISEN LCD — Rev J Placement P2
+
+**Güncel LCD teslimi:** yeni yüklenen Project.zip üzerinde son şematik kontrolü ve dört katmanlı placement optimizasyonu.
+
+- [Tek ZIP — tüm proje dosyaları](STM32F469_DISEN_RevJ_Placement_P2.zip)
+- [Kısa değerlendirme ve PCB görselleri — PDF](SingleLCD_RevJ_Placement_P2/PDF/Placement_P2_Review_TR.pdf)
+- [Güncel şematik — PDF](SingleLCD_RevJ_Placement_P2/PDF/STM32F469_DISEN_RevJ_Placement_P2.pdf)
+- [Native KiCad projesi](SingleLCD_RevJ_Placement_P2/Project/) · [Açılış notları](SingleLCD_RevJ_Placement_P2/README_TR.md)
+
+55 × 45 mm, nominal 1,6 mm / dört katman; 49 devre referansı ve kullanıcının dört Ø3,5 mm montaj deliği. J6'nın yanlış polarite açıklaması **1=+5V / 2=GND** olarak düzeltildi; J4 üç kablolu PWM/reset/GND arayüzü doğru adlandırıldı. Elektriksel netler değişmedi: 44 net / 159 pin–net üyeliği aynı. Dokuz kart dışı test noktası içeri alındı; üç konnektör yaklaşımı karşılaştırıldı, ortak DSI kenarı ve kısa boost döngüleri seçildi.
+
+**0 iz / 0 via / 0 zone.** ERC 0 hata / 3 mevcut uyarı; fiziksel DRC 0; şema–PCB parity 0. Routing yapılmadığından 115 bağlantısız öğe kaydı açık. Stackup/empedans ve FPC exact mekanik teyitleri raporda açık; üretim kabulü verilmedi. Routing ayrı onay bekler.
+
+ZIP'i tamamen çıkarın ve `SingleLCD_RevJ_Placement_P2/Project/STM32F469_DISEN_RevJ_Prep1.kicad_pro` dosyasını KiCad 9 ile açın. Kaynak basename korunmuş, başlıklar Placement P2 yapılmıştır. GitHub ZIP sayfasındaki **Download raw file** düğmesini kullanabilirsiniz.
+
+![Rev J Placement P2 — gerçek KiCad 3D](SingleLCD_RevJ_Placement_P2/Views/03_PCB_3D_Isometric.png)
+
+---
+
 ## Entegre 2S batarya paketi — Rev A
 
 İnfüzyon pompası için iki adet 18650 hücre, BMS ve sabit dört kontaklı dock bağlantısını birleştiren **tasarımcıya aktarım ön tasarımı**.
@@ -16,7 +35,7 @@ Nominal 7,4 V / 3500 mAh; yaklaşık 2 A hedefi; 74 × 42 × 29,12 mm nominal mo
 
 # STM32F469I-DISCO / DISEN — Rev J komponent yerleşimi
 
-**Güncel teslim: DS070HSD39T-132 için Placement P1.** Onaylı tek LCD şematiği korunarak 49 devre footprint’i yerleştirildi. Çift LCD Rev K ayrı korunuyor.
+**Korunan önceki teslim: DS070HSD39T-132 için Placement P1.** Onaylı tek LCD şematiği korunarak 49 devre footprint’i yerleştirildi. Çift LCD Rev K ayrı korunuyor.
 
 - [Yerleşim teslimatı — ZIP](STM32F469_DISEN_RevJ_Placement_P1.zip)
 - [Yerleşim incelemesi — PDF](SingleLCD_RevJ_Placement_P1/PDF/Placement_Review_TR.pdf)

@@ -1,0 +1,54 @@
+﻿Reference,Value,Footprint,DNP,Notes
+C1,10uF / 16V,Adapter_F469:C_0805_2012Metric,False,
+C13,100nF / 10V,Adapter_F469:C_0805_2012Metric,False,
+C2,100nF / 16V,Adapter_F469:C_0805_2012Metric,False,
+C3,10uF / 50V,Adapter_F469:C_1210_3225Metric,False,
+C4,100nF / 50V,Adapter_F469:C_0805_2012Metric,False,
+C5,4.7uF / 10V,Adapter_F469:C_0805_2012Metric,False,
+C6,100nF / 10V,Adapter_F469:C_0805_2012Metric,False,
+C7,1uF / 10V,Adapter_F469:C_0805_2012Metric,False,
+C8,100nF / 10V,Adapter_F469:C_0805_2012Metric,False,
+C9,220nF / 16V,Adapter_F469:C_0805_2012Metric,False,
+D1,SS16 / 60V 1A,Adapter_F469:D_SMA,False,
+D3,SS14 / reverse block,Adapter_F469:D_SMA,False,
+F2,0.75A hold / 6V,Adapter_F469:Fuse_1206_3216Metric,False,
+H1,MountingHole,Placement_Mechanical:MountingHole_3.5mm_M3_Envelope8mm,False,"Mechanical hole, not purchased"
+H2,MountingHole,Placement_Mechanical:MountingHole_3.5mm_M3_Envelope8mm,False,"Mechanical hole, not purchased"
+H3,MountingHole,Placement_Mechanical:MountingHole_3.5mm_M3_Envelope8mm,False,"Mechanical hole, not purchased"
+H4,MountingHole,Placement_Mechanical:MountingHole_3.5mm_M3_Envelope8mm,False,"Mechanical hole, not purchased"
+J1,FH26W-25S-0.3SHW(60),Adapter_F469:FH26W-25S-0.3SHW,False,
+J2,FH26-39S-0.3SHW,Adapter_F469:FH26-39S-0.3SHW,False,
+J3,FH19C-6S-0.5SH(10),Adapter_F469:FH19C-6S-0.5SH,False,
+J4,HOST CTRL / PC6-PB12-GND,Adapter_F469:FanPinHeader_1x03_P2.54mm_Vertical,False,
+J6,EXT 5V / 1=+5V 2=GND,Adapter_F469:JST_NV_B02P-NV_1x02_P5.00mm_Vertical,False,
+L1,22uH / shielded,Adapter_F469:L_TDK_SLF7045,False,
+R1,4.7k / DNP,Adapter_F469:R_0805_2012Metric,True,
+R12,0R / isolation,Adapter_F469:R_0805_2012Metric,False,
+R13,2.2k,Adapter_F469:R_0805_2012Metric,False,
+R14,10k,Adapter_F469:R_0805_2012Metric,False,
+R15,100R,Adapter_F469:R_0805_2012Metric,False,
+R16,0R,Adapter_F469:R_0805_2012Metric,False,
+R17,10k,Adapter_F469:R_0805_2012Metric,False,
+R18,33k / discharge,Adapter_F469:R_0805_2012Metric,False,
+R19,221k / 0.1%,Adapter_F469:R_0805_2012Metric,False,
+R2,4.7k / DNP,Adapter_F469:R_0805_2012Metric,True,
+R20,10k / 0.1%,Adapter_F469:R_0805_2012Metric,False,
+R3,100R,Adapter_F469:R_0805_2012Metric,False,
+R4,0R,Adapter_F469:R_0805_2012Metric,False,
+R5,0R,Adapter_F469:R_0805_2012Metric,False,
+R6,100k,Adapter_F469:R_0805_2012Metric,False,
+R7,5.23R / 1%,Adapter_F469:R_0805_2012Metric,False,
+TP1,HOST_3V3,Adapter_F469:TestPoint_Pad_D1.0mm,False,"Bare copper test pad, not purchased"
+TP10,TP_RST,Adapter_F469:TestPoint_Pad_D1.0mm,False,"Bare copper test pad, not purchased"
+TP11,LCD_VCI,Adapter_F469:TestPoint_Pad_D1.0mm,False,"Bare copper test pad, not purchased"
+TP12,TP_VDD,Adapter_F469:TestPoint_Pad_D1.0mm,False,"Bare copper test pad, not purchased"
+TP13,BL_LEDA,Adapter_F469:TestPoint_Pad_D1.0mm,False,"Bare copper test pad, not purchased"
+TP14,BL_LEDK,Adapter_F469:TestPoint_Pad_D1.0mm,False,"Bare copper test pad, not purchased"
+TP15,GND,Adapter_F469:TestPoint_Pad_D1.0mm,False,"Bare copper test pad, not purchased"
+TP3,GND,Adapter_F469:TestPoint_Pad_D1.0mm,False,"Bare copper test pad, not purchased"
+TP4,LCD_RST,Adapter_F469:TestPoint_Pad_D1.0mm,False,"Bare copper test pad, not purchased"
+TP5,TP_INT,Adapter_F469:TestPoint_Pad_D1.0mm,False,"Bare copper test pad, not purchased"
+TP6,BL_CTRL,Adapter_F469:TestPoint_Pad_D1.0mm,False,"Bare copper test pad, not purchased"
+TP9,BL_POWER,Adapter_F469:TestPoint_Pad_D1.0mm,False,"Bare copper test pad, not purchased"
+U1,TPS61165DBVR,Adapter_F469:SOT-23-6,False,
+U2,TLV3011BIDBVR,Adapter_F469:SOT-23-6,False,

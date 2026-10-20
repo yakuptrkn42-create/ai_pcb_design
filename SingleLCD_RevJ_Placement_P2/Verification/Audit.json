@@ -1,0 +1,101 @@
+{
+  "KiCad": "9.0.2",
+  "revision": "J / Placement P2",
+  "board_sha256": "23d3f0a582e28949edd305603a21842ee0284827d5b1da9660b89d90998dd7a9",
+  "size_mm": [
+    55,
+    45
+  ],
+  "corner_radius_mm": 2,
+  "thickness_mm": 1.6,
+  "copper_layers": 4,
+  "circuit_references": 49,
+  "mechanical_holes_in_user_schematic": 4,
+  "NPTH_mm": 3.5,
+  "hardware_envelope_mm": 8,
+  "electrical_nets_including_NC": 44,
+  "pin_net_memberships_preserved": 159,
+  "source_outside_courtyards": [
+    "J6",
+    "TP1",
+    "TP10",
+    "TP11",
+    "TP12",
+    "TP14",
+    "TP15",
+    "TP3",
+    "TP4",
+    "TP5"
+  ],
+  "source_testpads_outside_count": 9,
+  "final_all_courtyards_inside_board": true,
+  "all_native_courtyards_extra_gap_ge_mm": 0.15,
+  "tracks": 0,
+  "vias": 0,
+  "zones_including_rule_areas": 0,
+  "ERC_errors": 0,
+  "ERC_warnings": 3,
+  "physical_DRC_violations": 0,
+  "schematic_parity_issues": 0,
+  "unconnected_item_records": 115,
+  "unconnected_is_error_and_not_excluded": true,
+  "DRC_exclusions": 0,
+  "netclass_and_routing_constraints_preserved": true,
+  "models_assigned": 49,
+  "source_models_replaced_by_local_new_models": [
+    "J4",
+    "J6"
+  ],
+  "manufacturer_stackup_confirmed": false,
+  "exact_FPC_mating_confirmed": false,
+  "nominal_JST_model_height_mm_unverified": 8.5,
+  "DSI_component_free_corridor_local_mm": [
+    17,
+    13,
+    43.5,
+    18
+  ],
+  "SW_triangle_to_DSI_corridor_min_vertical_gap_mm": 7.0,
+  "critical_pad_chords_comparison": {
+    "C2_VIN": {
+      "input_mm": 2.3194827009486514,
+      "final_mm": 2.0700618952098955
+    },
+    "C2_GND": {
+      "input_mm": 6.83853968329496,
+      "final_mm": 3.950969026707248
+    },
+    "L1_SW": {
+      "input_mm": 7.393578294709538,
+      "final_mm": 2.4078322719824214
+    },
+    "D1_SW": {
+      "input_mm": 6.76036241632059,
+      "final_mm": 2.7168743530019905
+    },
+    "C4_to_D1_K": {
+      "input_mm": 7.976528066771908,
+      "final_mm": 4.1439715249986895
+    },
+    "C4_GND": {
+      "input_mm": 13.653410746037045,
+      "final_mm": 2.591603027085751
+    },
+    "R7_FB": {
+      "input_mm": 10.337227928705056,
+      "final_mm": 2.0260799589354965
+    },
+    "C9_COMP": {
+      "input_mm": 4.238292698717253,
+      "final_mm": 2.1307642408300533
+    },
+    "C3_to_D1_K": {
+      "input_mm": 5.818128994788613,
+      "final_mm": 2.8249999999999886
+    },
+    "C13_VCC": {
+      "input_mm": 3.3475970859707687,
+      "final_mm": 2.2577989835235552
+    }
+  }
+}

@@ -1,0 +1,296 @@
+[
+  {
+    "reference": "C1",
+    "file": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl",
+    "source_type": "KiCad community model",
+    "present": true
+  },
+  {
+    "reference": "C13",
+    "file": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl",
+    "source_type": "KiCad community model",
+    "present": true
+  },
+  {
+    "reference": "C2",
+    "file": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl",
+    "source_type": "KiCad community model",
+    "present": true
+  },
+  {
+    "reference": "C3",
+    "file": "${KIPRJMOD}/3D/C_1210_3225Metric.wrl",
+    "source_type": "KiCad community model",
+    "present": true
+  },
+  {
+    "reference": "C4",
+    "file": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl",
+    "source_type": "KiCad community model",
+    "present": true
+  },
+  {
+    "reference": "C5",
+    "file": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl",
+    "source_type": "KiCad community model",
+    "present": true
+  },
+  {
+    "reference": "C6",
+    "file": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl",
+    "source_type": "KiCad community model",
+    "present": true
+  },
+  {
+    "reference": "C7",
+    "file": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl",
+    "source_type": "KiCad community model",
+    "present": true
+  },
+  {
+    "reference": "C8",
+    "file": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl",
+    "source_type": "KiCad community model",
+    "present": true
+  },
+  {
+    "reference": "C9",
+    "file": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl",
+    "source_type": "KiCad community model",
+    "present": true
+  },
+  {
+    "reference": "D1",
+    "file": "${KIPRJMOD}/3D/D_SMA.wrl",
+    "source_type": "KiCad community model",
+    "present": true
+  },
+  {
+    "reference": "D3",
+    "file": "${KIPRJMOD}/3D/D_SMA.wrl",
+    "source_type": "KiCad community model",
+    "present": true
+  },
+  {
+    "reference": "F2",
+    "file": "${KIPRJMOD}/3D/Fuse_1206_3216Metric.wrl",
+    "source_type": "KiCad community model",
+    "present": true
+  },
+  {
+    "reference": "J1",
+    "file": "${KIPRJMOD}/3D/FH26W_25_Nominal.step",
+    "source_type": "Project-generated nominal mechanical visualization; not manufacturer CAD",
+    "present": true
+  },
+  {
+    "reference": "J2",
+    "file": "${KIPRJMOD}/3D/FH26_39_Nominal.step",
+    "source_type": "Project-generated nominal mechanical visualization; not manufacturer CAD",
+    "present": true
+  },
+  {
+    "reference": "J3",
+    "file": "${KIPRJMOD}/3D/FH19C_6_Nominal.step",
+    "source_type": "Project-generated nominal mechanical visualization; not manufacturer CAD",
+    "present": true
+  },
+  {
+    "reference": "J4",
+    "file": "${KIPRJMOD}/3D/FanPinHeader_1x03_P2.54mm_Vertical.step",
+    "source_type": "KiCad library model, not manufacturer qualification",
+    "present": true
+  },
+  {
+    "reference": "J6",
+    "file": "${KIPRJMOD}/3D/JST_NV_B02P_Nominal.step",
+    "source_type": "Project-generated nominal visualization",
+    "present": true
+  },
+  {
+    "reference": "L1",
+    "file": "${KIPRJMOD}/3D/SLF7045_Nominal.step",
+    "source_type": "Project-generated nominal mechanical visualization; not manufacturer CAD",
+    "present": true
+  },
+  {
+    "reference": "R1",
+    "file": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+    "source_type": "KiCad community model",
+    "present": true
+  },
+  {
+    "reference": "R12",
+    "file": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+    "source_type": "KiCad community model",
+    "present": true
+  },
+  {
+    "reference": "R13",
+    "file": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+    "source_type": "KiCad community model",
+    "present": true
+  },
+  {
+    "reference": "R14",
+    "file": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+    "source_type": "KiCad community model",
+    "present": true
+  },
+  {
+    "reference": "R15",
+    "file": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+    "source_type": "KiCad community model",
+    "present": true
+  },
+  {
+    "reference": "R16",
+    "file": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+    "source_type": "KiCad community model",
+    "present": true
+  },
+  {
+    "reference": "R17",
+    "file": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+    "source_type": "KiCad community model",
+    "present": true
+  },
+  {
+    "reference": "R18",
+    "file": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+    "source_type": "KiCad community model",
+    "present": true
+  },
+  {
+    "reference": "R19",
+    "file": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+    "source_type": "KiCad community model",
+    "present": true
+  },
+  {
+    "reference": "R2",
+    "file": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+    "source_type": "KiCad community model",
+    "present": true
+  },
+  {
+    "reference": "R20",
+    "file": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+    "source_type": "KiCad community model",
+    "present": true
+  },
+  {
+    "reference": "R3",
+    "file": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+    "source_type": "KiCad community model",
+    "present": true
+  },
+  {
+    "reference": "R4",
+    "file": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+    "source_type": "KiCad community model",
+    "present": true
+  },
+  {
+    "reference": "R5",
+    "file": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+    "source_type": "KiCad community model",
+    "present": true
+  },
+  {
+    "reference": "R6",
+    "file": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+    "source_type": "KiCad community model",
+    "present": true
+  },
+  {
+    "reference": "R7",
+    "file": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+    "source_type": "KiCad community model",
+    "present": true
+  },
+  {
+    "reference": "TP1",
+    "file": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+    "source_type": "Project-generated nominal mechanical visualization; not manufacturer CAD",
+    "present": true
+  },
+  {
+    "reference": "TP10",
+    "file": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+    "source_type": "Project-generated nominal mechanical visualization; not manufacturer CAD",
+    "present": true
+  },
+  {
+    "reference": "TP11",
+    "file": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+    "source_type": "Project-generated nominal mechanical visualization; not manufacturer CAD",
+    "present": true
+  },
+  {
+    "reference": "TP12",
+    "file": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+    "source_type": "Project-generated nominal mechanical visualization; not manufacturer CAD",
+    "present": true
+  },
+  {
+    "reference": "TP13",
+    "file": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+    "source_type": "Project-generated nominal mechanical visualization; not manufacturer CAD",
+    "present": true
+  },
+  {
+    "reference": "TP14",
+    "file": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+    "source_type": "Project-generated nominal mechanical visualization; not manufacturer CAD",
+    "present": true
+  },
+  {
+    "reference": "TP15",
+    "file": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+    "source_type": "Project-generated nominal mechanical visualization; not manufacturer CAD",
+    "present": true
+  },
+  {
+    "reference": "TP3",
+    "file": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+    "source_type": "Project-generated nominal mechanical visualization; not manufacturer CAD",
+    "present": true
+  },
+  {
+    "reference": "TP4",
+    "file": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+    "source_type": "Project-generated nominal mechanical visualization; not manufacturer CAD",
+    "present": true
+  },
+  {
+    "reference": "TP5",
+    "file": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+    "source_type": "Project-generated nominal mechanical visualization; not manufacturer CAD",
+    "present": true
+  },
+  {
+    "reference": "TP6",
+    "file": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+    "source_type": "Project-generated nominal mechanical visualization; not manufacturer CAD",
+    "present": true
+  },
+  {
+    "reference": "TP9",
+    "file": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+    "source_type": "Project-generated nominal mechanical visualization; not manufacturer CAD",
+    "present": true
+  },
+  {
+    "reference": "U1",
+    "file": "${KIPRJMOD}/3D/SOT-23-6.wrl",
+    "source_type": "KiCad community model",
+    "present": true
+  },
+  {
+    "reference": "U2",
+    "file": "${KIPRJMOD}/3D/SOT-23-6.wrl",
+    "source_type": "KiCad community model",
+    "present": true
+  }
+]

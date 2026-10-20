@@ -1,0 +1,113 @@
+# STM32F469I-DISCO – DISEN LCD | Nihai Şematik Kontrolü ve 4 Katmanlı PCB Placement Optimizasyonu
+
+Sen; STM32, MIPI DSI, güç elektroniği, yüksek hızlı PCB tasarımı ve KiCad konularında uzman, deneyimli bir Senior Hardware Design & PCB Layout Engineer'sin.
+
+DISEN LCD adaptör projemizin **şematik tasarımını ve PCB komponent yerleşimini tamamladım.** Ancak routing aşamasına geçmeden önce mevcut projeyi çok daha kapsamlı incelemeni ve profesyonel mühendislik yaklaşımıyla son kez optimize etmeni istiyorum.
+
+**Hedefim, dört katmanlı PCB üzerinde routing işleminin mümkün olduğunca kolay, güvenilir ve verimli gerçekleştirilebileceği kusursuza yakın bir başlangıç tasarımı oluşturmak.**
+
+## 1. Şematik Tasarımın Son Kontrolü
+
+Mevcut şematiği DISEN LCD datasheet'i ve STM32F469I-DISCO'nun resmî donanım dokümanları üzerinden tekrar incele.
+
+Özellikle:
+
+- MIPI DSI bağlantıları ve pin eşleşmeleri
+- TPS61165 backlight devresi ve komponent değerleri
+- LCD beslemeleri, filtreleme ve koruma devreleri
+- Dokunmatik ve kontrol sinyalleri
+- Konnektörlerin fiziksel ve elektriksel uyumluluğu
+- Footprint, pad numarası ve 3D model eşleşmeleri
+
+üzerinde dur.
+
+Gerçek elektriksel hata veya önemli bir güvenilirlik riski tespit edersen gerekli düzeltmeyi doğrudan uygula. Ancak mevcut başarılı şematik mimarisini ve görsel düzenini gereksiz yere değiştirme.
+
+ERC kontrolünü gerçekleştir ve şematik ile PCB arasındaki bağlantı bütünlüğünü koru.
+
+## 2. Dört Katmanlı PCB Mimarisini Hazırla
+
+PCB'yi **4 katmanlı** olarak tasarlamak istiyorum.
+
+Katman yapısını MIPI DSI sinyal bütünlüğü, güç dağıtımı, GND sürekliliği ve üretilebilirlik açısından değerlendirerek en uygun stackup'ı belirle.
+
+- Kritik sinyaller için uygun routing katmanlarını planla.
+- Kesintisiz GND referans düzlemi oluşturulabilecek yapı seç.
+- Güç dağıtımı ve dönüş akımı yollarını değerlendir.
+- MIPI DSI diferansiyel çiftleri için kontrollü empedans gereksinimlerini belirle.
+- Gerçek üretici stackup'ı olmadan kesin empedans değerleri uydurma.
+- KiCad Design Rules ve Net Classes yapılandırmasını oluştur.
+
+**Tasarım kuralları gereksiz katı olmamalı; routing'i zorlaştırmadan elektriksel güvenilirliği ve üretilebilirliği sağlamalı.**
+
+## 3. Mevcut Placement Tasarımını Kapsamlı Optimize Et
+
+Mevcut PCB komponent yerleşimini genel olarak beğeniyorum. Ancak bunu nihai yerleşim olarak kabul etmeden önce yeniden analiz et.
+
+Özellikle:
+
+- **MIPI DSI:** Diferansiyel çiftlerin kısa, doğrudan, minimum via ile ve uygun GND referansı üzerinden çizilebileceği yerleşim oluştur.
+- **TPS61165:** Endüktör, diyot, kondansatörler ve diğer komponentleri üretici layout önerilerine göre konumlandır.
+- **Konnektörler:** STM32 ve LCD konnektörlerinin yönlerini, fiziksel bağlantılarını ve routing kolaylığını optimize et.
+- **Güç devreleri:** Kritik akım döngülerini küçült ve gürültülü bölgeleri hassas sinyallerden uzaklaştır.
+- **Diğer komponentler:** Fonksiyonel blokları düzenli gruplandır, pasif komponentleri doğru konumlandır ve routing alanlarını rahatlat.
+
+Komponentleri yalnızca estetik açıdan düzenleme. **Her komponentin yerleşimini gelecekteki routing güzergâhlarını düşünerek belirle.**
+
+## 4. Kart Boyutlarını Yeniden Değerlendir
+
+Mevcut PCB ölçülerini korumak zorunda değilsin.
+
+Gerekirse kart boyutunu, geometrisini ve komponent konumlarını yeniden düzenle.
+
+- Gereksiz boşlukları azalt.
+- Komponentleri aşırı sıkıştırma.
+- Diferansiyel çiftler için yeterli routing koridoru bırak.
+- Konnektörlerin mekanik erişimini koru.
+- Komponent ve 3D model çakışmalarını önle.
+- Montaj ve üretim kolaylığını dikkate al.
+
+**En küçük kartı değil, en verimli şekilde route edilebilecek kompakt ve dengeli kartı tasarla.**
+
+## 5. Alternatifleri Analiz Et ve Tasarımı İyileştir
+
+Bu çalışmayı aceleye getirme. İlk bulduğun yerleşimle yetinme.
+
+Farklı yerleşim alternatiflerini değerlendir ve aşağıdaki kriterlere göre en uygun tasarımı seç:
+
+- Kritik sinyal uzunlukları
+- Olası hat kesişmeleri
+- Beklenen via ihtiyacı
+- Güç ve GND dönüş yolları
+- Routing darboğazları
+- PCB boyutları
+- Mekanik uyumluluk
+- Üretilebilirlik
+
+Seçtiğin yerleşimi gerçek KiCad PCB dosyasında uygula ve ardından tasarımı tekrar kontrol ederek gerekli iyileştirmeleri tamamla.
+
+## 6. Nihai Kontroller ve Teslimat
+
+Çalışma sonunda:
+
+- Şematik ERC kontrolünü gerçekleştir.
+- Bütün footprint ve net eşleşmelerini doğrula.
+- Placement kaynaklı DRC ve mekanik çakışma hatalarını gider.
+- 3D modellerin doğru konumlandığını kontrol et.
+- PCB katman yapısını ve tasarım kurallarını kaydet.
+- Şematik-PCB senkronizasyonunu doğrula.
+- Güncellenmiş KiCad proje dosyalarını, 2D/3D görsellerini ve kısa revizyon özetini tek ZIP dosyasında teslim et.
+
+**Kesin çalışma sınırı:** Bu aşamada routing, via yerleşimi veya copper pour işlemi yapma. Şematik kontrolü, PCB mimarisi ve komponent yerleşimine odaklan. Routing yapılmadığı için oluşan bağlantısızlık uyarılarını gizleme.
+
+## Nihai Beklentim
+
+Bu çalışmada hız değil, **mühendislik kalitesi ve sonraki routing aşamasının başarısı** önceliklidir.
+
+Mevcut projeyi detaylı analiz et, teknik açıdan gerekli revizyonları gerçekleştir ve 4 katmanlı PCB üzerinde güvenilir routing yapılmasına uygun, profesyonel bir komponent yerleşimi oluştur.
+
+**Amacım, routing'e başladığımızda komponentleri sürekli yeniden taşımak zorunda kalmayacağımız, elektriksel ve mekanik açıdan düşünülmüş, üretilebilirliği yüksek bir PCB tasarımı elde etmek.**
+
+Yalnızca öneri sunma. Gerçek KiCad dosyalarını revize et, kontrollerini gerçekleştir ve onayım için teslim et.
+
+**Ben açıkça onay vermeden routing aşamasına geçme.**
