@@ -1,0 +1,17 @@
+{
+  "GND_via_local_top_left_mm": [
+    50.5,
+    17.3
+  ],
+  "GND_via_global_mm": [
+    185.5,
+    87.3
+  ],
+  "diameter_mm": 0.6,
+  "drill_mm": 0.3,
+  "purpose": "Connect J2.37 front GND island to both inner GND references",
+  "CAM_origin_global_mm": [
+    135,
+    115
+  ]
+}

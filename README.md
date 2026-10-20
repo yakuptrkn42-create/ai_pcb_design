@@ -1,6 +1,25 @@
-# DISEN LCD — Rev J Placement P2
+# DISEN LCD — Rev J / Routing R1
 
-**Güncel LCD teslimi:** yeni yüklenen Project.zip üzerinde son şematik kontrolü ve dört katmanlı placement optimizasyonu.
+**Güncel teslim: dört katman routing tamamlandı. 0 DRC ihlali / 0 bağlantısız öğe / 0 şematik–PCB parity farkı.**
+
+- [Tek ZIP — KiCad proje, 2D/3D, rapor, Gerber ve drill](STM32F469_DISEN_RevJ_Routing_R1.zip)
+- [Kısa mühendislik raporu ve PCB görselleri — PDF](SingleLCD_RevJ_Routing_R1/PDF/Routing_R1_Review_TR.pdf)
+- [Native KiCad projesi](SingleLCD_RevJ_Routing_R1/Project/) · [Açılış ve doğrulama notları](SingleLCD_RevJ_Routing_R1/README_TR.md)
+- [Final DRC](SingleLCD_RevJ_Routing_R1/Verification/DRC_Final.txt) · [Stackup / kurallar](SingleLCD_RevJ_Routing_R1/Engineering/Stackup_And_Rules_TR.md) · [CAM doğrulaması](SingleLCD_RevJ_Routing_R1/Verification/Manufacturing_Audit.json)
+
+55 × 45 mm, nominal 1,6 mm / dört katman. J1/J2 ana konnektörleri aynı konum/yönde; şematik netler ve değerler korundu. 5 V yolları 0,8 mm; DSI iletkenleri iki via ile ~32,824 mm, çift içi fiziksel fark <0,01 mm. 49 devre referansı / 44 net / 159 pad–net üyeliği. ERC 0 hata / 3 mevcut etiket uyarısı. Yerleşim değişiklikleri raporda ve CSV/JSON dosyalarında açıklandı.
+
+**Üretici henüz seçilmedi:** stackup/100 Ω hedefi nominaldir; üretici empedans teyidi ve rapordaki FPC/parça/OVP koşulları kapanmalıdır. Gerber/drill son mühendislik incelemesi içindir; fiziksel çalışma garantisi verilmez. Orijinal yüklenen ZIP korundu; önceki projeler ayrı duruyor.
+
+ZIP'i tamamen çıkarıp `SingleLCD_RevJ_Routing_R1/Project/STM32F469_DISEN_RevJ_Prep1.kicad_pro` dosyasını KiCad 9 ile açın. GitHub ZIP sayfasındaki **Download raw file** düğmesiyle indirebilirsiniz.
+
+![Rev J Routing R1 — gerçek KiCad 3D](SingleLCD_RevJ_Routing_R1/Views/03_PCB_3D_Isometric.png)
+
+---
+
+# Korunan önceki placement — Rev J P2
+
+**Önceki LCD teslimi:** yeni yüklenen Project.zip üzerinde son şematik kontrolü ve dört katmanlı placement optimizasyonu.
 
 - [Tek ZIP — tüm proje dosyaları](STM32F469_DISEN_RevJ_Placement_P2.zip)
 - [Kısa değerlendirme ve PCB görselleri — PDF](SingleLCD_RevJ_Placement_P2/PDF/Placement_P2_Review_TR.pdf)

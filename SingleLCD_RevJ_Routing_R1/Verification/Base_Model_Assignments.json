@@ -1,0 +1,198 @@
+[
+  {
+    "reference": "C9",
+    "path": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R13",
+    "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "C6",
+    "path": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "U2",
+    "path": "${KIPRJMOD}/3D/SOT-23-6.wrl"
+  },
+  {
+    "reference": "TP4",
+    "path": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "L1",
+    "path": "${KIPRJMOD}/3D/SLF7045_Nominal.step"
+  },
+  {
+    "reference": "R6",
+    "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "C3",
+    "path": "${KIPRJMOD}/3D/C_1210_3225Metric.wrl"
+  },
+  {
+    "reference": "TP10",
+    "path": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "TP15",
+    "path": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "R19",
+    "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "C7",
+    "path": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "C4",
+    "path": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "TP3",
+    "path": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "TP14",
+    "path": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "TP5",
+    "path": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "R18",
+    "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R16",
+    "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "J4",
+    "path": "${KIPRJMOD}/3D/FanPinHeader_1x03_P2.54mm_Vertical.step"
+  },
+  {
+    "reference": "J6",
+    "path": "${KIPRJMOD}/3D/JST_NV_B02P_Nominal.step"
+  },
+  {
+    "reference": "J2",
+    "path": "${KIPRJMOD}/3D/FH26_39_Nominal.step"
+  },
+  {
+    "reference": "TP6",
+    "path": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "TP1",
+    "path": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "C1",
+    "path": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R2",
+    "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R14",
+    "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "C2",
+    "path": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R17",
+    "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "D3",
+    "path": "${KIPRJMOD}/3D/D_SMA.wrl"
+  },
+  {
+    "reference": "R12",
+    "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R20",
+    "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R1",
+    "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "F2",
+    "path": "${KIPRJMOD}/3D/Fuse_1206_3216Metric.wrl"
+  },
+  {
+    "reference": "R4",
+    "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "U1",
+    "path": "${KIPRJMOD}/3D/SOT-23-6.wrl"
+  },
+  {
+    "reference": "R15",
+    "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "TP13",
+    "path": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "R7",
+    "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "TP12",
+    "path": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "C13",
+    "path": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "D1",
+    "path": "${KIPRJMOD}/3D/D_SMA.wrl"
+  },
+  {
+    "reference": "J3",
+    "path": "${KIPRJMOD}/3D/FH19C_6_Nominal.step"
+  },
+  {
+    "reference": "R3",
+    "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "TP11",
+    "path": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "J1",
+    "path": "${KIPRJMOD}/3D/FH26W_25_Nominal.step"
+  },
+  {
+    "reference": "R5",
+    "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "TP9",
+    "path": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "C8",
+    "path": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "C5",
+    "path": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl"
+  }
+]

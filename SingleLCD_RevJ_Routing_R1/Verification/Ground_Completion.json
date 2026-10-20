@@ -1,0 +1,187 @@
+{
+  "parameters": {
+    "origin_mm": [
+      135.0,
+      70.0
+    ],
+    "size_mm": [
+      55.0,
+      45.0
+    ],
+    "trace_width_mm": 0.2,
+    "via_diameter_mm": 0.6,
+    "via_drill_mm": 0.3,
+    "max_new_ground_vias": 15,
+    "pad_max_distance_mm": 4,
+    "pad_preferred_distance_mm": 1.5,
+    "join_existing_max_mm": 5,
+    "DSI_ground_drill_center_margin_mm": 0.3,
+    "DSI_signal_via_return_target_mm": 1.2,
+    "perimeter_step_mm": 5.0,
+    "stitch_min_spacing_mm": 2.0
+  },
+  "zones": [],
+  "pad_fanout": [
+    {
+      "pad": "J2.19",
+      "status": "joined existing GND through item",
+      "position_mm": [
+        49.650000000000006,
+        22.75
+      ],
+      "destination_mm": [
+        54.0,
+        25.0
+      ],
+      "path_mm": [
+        [
+          49.650000000000006,
+          22.75
+        ],
+        [
+          51.75,
+          22.75
+        ],
+        [
+          54.0,
+          25.0
+        ]
+      ],
+      "length_mm": 5.281980515339458
+    },
+    {
+      "pad": "J2.27",
+      "status": "joined existing GND through item",
+      "position_mm": [
+        49.650000000000006,
+        20.349999999999994
+      ],
+      "destination_mm": [
+        54.0,
+        20.0
+      ],
+      "path_mm": [
+        [
+          49.650000000000006,
+          20.349999999999994
+        ],
+        [
+          54.0,
+          20.0
+        ]
+      ],
+      "length_mm": 4.364057744805853
+    },
+    {
+      "pad": "J2.23",
+      "status": "joined existing GND through item",
+      "position_mm": [
+        49.650000000000006,
+        21.549999999999997
+      ],
+      "destination_mm": [
+        54.0,
+        20.0
+      ],
+      "path_mm": [
+        [
+          49.650000000000006,
+          21.549999999999997
+        ],
+        [
+          52.45,
+          21.549999999999997
+        ],
+        [
+          54.0,
+          20.0
+        ]
+      ],
+      "length_mm": 4.99203102167829
+    },
+    {
+      "pad": "J2.14",
+      "status": "new GND via",
+      "position_mm": [
+        46.775000000000006,
+        24.25
+      ],
+      "via_mm": [
+        45.875,
+        24.05
+      ],
+      "distance_mm": 0.9219544457292888,
+      "path_mm": [
+        [
+          46.775000000000006,
+          24.25
+        ],
+        [
+          45.875,
+          24.05
+        ]
+      ],
+      "via_uuid": "54c4b5ea-eeda-4f39-8a26-f0cf5815b6b6"
+    },
+    {
+      "pad": "J2.18",
+      "status": "joined existing GND through item",
+      "position_mm": [
+        46.775000000000006,
+        23.049999999999997
+      ],
+      "destination_mm": [
+        45.875,
+        24.049999999999997
+      ],
+      "path_mm": [
+        [
+          46.775000000000006,
+          23.049999999999997
+        ],
+        [
+          45.875,
+          23.049999999999997
+        ],
+        [
+          45.875,
+          24.049999999999997
+        ]
+      ],
+      "length_mm": 1.9000000000000057
+    },
+    {
+      "pad": "J2.22",
+      "status": "joined existing GND through item",
+      "position_mm": [
+        46.775000000000006,
+        21.849999999999994
+      ],
+      "destination_mm": [
+        45.875,
+        24.049999999999997
+      ],
+      "path_mm": [
+        [
+          46.775000000000006,
+          21.849999999999994
+        ],
+        [
+          45.875,
+          21.849999999999994
+        ],
+        [
+          45.875,
+          24.049999999999997
+        ]
+      ],
+      "length_mm": 3.1000000000000085
+    }
+  ],
+  "return_stitching": [],
+  "perimeter_stitching": [],
+  "unresolved": [],
+  "new_GND_vias": 1,
+  "total_GND_vias": 48,
+  "total_zones_including_rule_areas": 8
+}

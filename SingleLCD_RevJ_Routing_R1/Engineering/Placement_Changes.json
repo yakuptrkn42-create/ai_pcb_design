@@ -1,0 +1,255 @@
+{
+  "baseline": "Latest uploaded Project.zip",
+  "source_board_sha256": "c7408d51282076ce8fdcb4389ecfec405cdf538e6cff8772af6426aa9cbde1fb",
+  "main_J1_J2_unchanged": true,
+  "changes": [
+    {
+      "reference": "C1",
+      "source_global_mm_deg": [
+        148.75,
+        90.75,
+        180.0
+      ],
+      "actual_global_mm_deg": [
+        156.3,
+        87.4,
+        0.0
+      ],
+      "delta_xy_mm": [
+        7.550000000000011,
+        -3.3499999999999943
+      ],
+      "source_side": "F.Cu",
+      "actual_side": "F.Cu"
+    },
+    {
+      "reference": "C13",
+      "source_global_mm_deg": [
+        148.0,
+        96.0,
+        180.0
+      ],
+      "actual_global_mm_deg": [
+        146.75,
+        97.8,
+        180.0
+      ],
+      "delta_xy_mm": [
+        -1.25,
+        1.7999999999999972
+      ],
+      "source_side": "F.Cu",
+      "actual_side": "F.Cu"
+    },
+    {
+      "reference": "C2",
+      "source_global_mm_deg": [
+        148.75,
+        93.0,
+        180.0
+      ],
+      "actual_global_mm_deg": [
+        162.25,
+        100.1,
+        -90.0
+      ],
+      "delta_xy_mm": [
+        13.5,
+        7.099999999999994
+      ],
+      "source_side": "F.Cu",
+      "actual_side": "F.Cu"
+    },
+    {
+      "reference": "C3",
+      "source_global_mm_deg": [
+        165.0,
+        97.0,
+        -90.0
+      ],
+      "actual_global_mm_deg": [
+        151.75,
+        104.1,
+        -90.0
+      ],
+      "delta_xy_mm": [
+        -13.25,
+        7.099999999999994
+      ],
+      "source_side": "F.Cu",
+      "actual_side": "F.Cu"
+    },
+    {
+      "reference": "C4",
+      "source_global_mm_deg": [
+        168.0,
+        96.45,
+        -90.0
+      ],
+      "actual_global_mm_deg": [
+        155.45,
+        102.9,
+        0.0
+      ],
+      "delta_xy_mm": [
+        -12.550000000000011,
+        6.450000000000003
+      ],
+      "source_side": "F.Cu",
+      "actual_side": "F.Cu"
+    },
+    {
+      "reference": "C9",
+      "source_global_mm_deg": [
+        153.0,
+        90.25,
+        0.0
+      ],
+      "actual_global_mm_deg": [
+        158.55,
+        104.1,
+        -90.0
+      ],
+      "delta_xy_mm": [
+        5.550000000000011,
+        13.849999999999994
+      ],
+      "source_side": "F.Cu",
+      "actual_side": "F.Cu"
+    },
+    {
+      "reference": "D1",
+      "source_global_mm_deg": [
+        159.0,
+        99.75,
+        180.0
+      ],
+      "actual_global_mm_deg": [
+        153.75,
+        99.8,
+        0.0
+      ],
+      "delta_xy_mm": [
+        -5.25,
+        0.04999999999999716
+      ],
+      "source_side": "F.Cu",
+      "actual_side": "F.Cu"
+    },
+    {
+      "reference": "J6",
+      "source_global_mm_deg": [
+        137.75,
+        90.25,
+        -90.0
+      ],
+      "actual_global_mm_deg": [
+        140.75,
+        90.25,
+        -90.0
+      ],
+      "delta_xy_mm": [
+        3.0,
+        0.0
+      ],
+      "source_side": "F.Cu",
+      "actual_side": "F.Cu"
+    },
+    {
+      "reference": "R19",
+      "source_global_mm_deg": [
+        153.25,
+        102.25,
+        -90.0
+      ],
+      "actual_global_mm_deg": [
+        146.5,
+        107.0,
+        0.0
+      ],
+      "delta_xy_mm": [
+        -6.75,
+        4.75
+      ],
+      "source_side": "F.Cu",
+      "actual_side": "F.Cu"
+    },
+    {
+      "reference": "R20",
+      "source_global_mm_deg": [
+        151.0,
+        102.25,
+        90.0
+      ],
+      "actual_global_mm_deg": [
+        146.5,
+        104.5,
+        180.0
+      ],
+      "delta_xy_mm": [
+        -4.5,
+        2.25
+      ],
+      "source_side": "F.Cu",
+      "actual_side": "F.Cu"
+    },
+    {
+      "reference": "R7",
+      "source_global_mm_deg": [
+        164.75,
+        91.0,
+        -90.0
+      ],
+      "actual_global_mm_deg": [
+        160.75,
+        103.95,
+        -90.0
+      ],
+      "delta_xy_mm": [
+        -4.0,
+        12.950000000000003
+      ],
+      "source_side": "F.Cu",
+      "actual_side": "F.Cu"
+    },
+    {
+      "reference": "TP1",
+      "source_global_mm_deg": [
+        159.0,
+        104.0,
+        0.0
+      ],
+      "actual_global_mm_deg": [
+        158.0,
+        112.0,
+        0.0
+      ],
+      "delta_xy_mm": [
+        -1.0,
+        8.0
+      ],
+      "source_side": "F.Cu",
+      "actual_side": "F.Cu"
+    },
+    {
+      "reference": "U1",
+      "source_global_mm_deg": [
+        153.0,
+        94.5,
+        0.0
+      ],
+      "actual_global_mm_deg": [
+        159.25,
+        100.0,
+        -90.0
+      ],
+      "delta_xy_mm": [
+        6.25,
+        5.5
+      ],
+      "source_side": "F.Cu",
+      "actual_side": "F.Cu"
+    }
+  ],
+  "reason": "Power kernel consolidation reduces SW/C4/GND/FB paths; J6 moved inward to fit its body/courtyard. Main connectors and L1 remain fixed."
+}

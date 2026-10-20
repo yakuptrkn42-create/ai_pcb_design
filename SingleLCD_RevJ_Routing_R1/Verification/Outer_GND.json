@@ -1,0 +1,594 @@
+{
+  "parameters": {
+    "origin_mm": [
+      135.0,
+      70.0
+    ],
+    "size_mm": [
+      55.0,
+      45.0
+    ],
+    "trace_width_mm": 0.25,
+    "via_diameter_mm": 0.6,
+    "via_drill_mm": 0.3,
+    "max_new_ground_vias": 30,
+    "pad_max_distance_mm": 2.5,
+    "pad_preferred_distance_mm": 1.5,
+    "join_existing_max_mm": 3.0,
+    "DSI_ground_drill_center_margin_mm": 0.3,
+    "DSI_signal_via_return_target_mm": 1.2,
+    "perimeter_step_mm": 5.0,
+    "stitch_min_spacing_mm": 2.0
+  },
+  "zones": [
+    {
+      "name": "M3 hardware copper exclusion D8mm",
+      "status": "existing hardware keepout retained"
+    },
+    {
+      "name": "M3 hardware copper exclusion D8mm",
+      "status": "existing hardware keepout retained"
+    },
+    {
+      "name": "M3 hardware copper exclusion D8mm",
+      "status": "existing hardware keepout retained"
+    },
+    {
+      "name": "M3 hardware copper exclusion D8mm",
+      "status": "existing hardware keepout retained"
+    },
+    {
+      "name": "Continuous GND reference In1.Cu",
+      "layer": "In1.Cu",
+      "status": "existing full-board GND zone retained"
+    },
+    {
+      "name": "Continuous GND reference In2.Cu",
+      "layer": "In2.Cu",
+      "status": "existing full-board GND zone retained"
+    },
+    {
+      "name": "R1 outer F GND",
+      "layer": "F.Cu",
+      "net": "GND",
+      "pad_connection": "thermal",
+      "spoke_mm": 0.35,
+      "gap_mm": 0.25,
+      "vias": "native direct solid connection",
+      "outer_DSI_clearance": "0.50 mm custom source rule applies"
+    },
+    {
+      "name": "R1 outer B GND",
+      "layer": "B.Cu",
+      "net": "GND",
+      "pad_connection": "thermal",
+      "spoke_mm": 0.35,
+      "gap_mm": 0.25,
+      "vias": "native direct solid connection",
+      "outer_DSI_clearance": "0.50 mm custom source rule applies"
+    }
+  ],
+  "pad_fanout": [],
+  "return_stitching": [
+    {
+      "signal": "DSI_D0_N",
+      "signal_via_mm": [
+        45.19999999999999,
+        26.799999999999997
+      ],
+      "status": "new close return",
+      "GND_via_mm": [
+        45.0,
+        27.6
+      ],
+      "distance_mm": 0.8246211251235321,
+      "via_uuid": "6ce94255-ab7c-42e0-a9e0-5b1ce2344cd8"
+    },
+    {
+      "signal": "DSI_D0_P",
+      "signal_via_mm": [
+        43.599999999999994,
+        28.0
+      ],
+      "status": "new close return",
+      "GND_via_mm": [
+        43.4,
+        28.8
+      ],
+      "distance_mm": 0.8246211251235321,
+      "via_uuid": "8f0f2479-64ea-452b-8558-ec45ff0c382e"
+    },
+    {
+      "signal": "DSI_D1_P",
+      "signal_via_mm": [
+        32.0,
+        35.3
+      ],
+      "status": "existing close return",
+      "nearest_GND_mm": 0.8139410298049792
+    }
+  ],
+  "perimeter_stitching": [
+    {
+      "target_mm": [
+        10.0,
+        1.0
+      ],
+      "via_mm": [
+        10.0,
+        1.0
+      ],
+      "via_uuid": "a373478e-b006-463e-8a3f-04d5df6996fd"
+    },
+    {
+      "target_mm": [
+        10.0,
+        44.0
+      ],
+      "via_mm": [
+        10.0,
+        44.0
+      ],
+      "via_uuid": "bf9c42bb-06c8-4b52-aaa5-5cf9f7215c55"
+    },
+    {
+      "target_mm": [
+        15.0,
+        1.0
+      ],
+      "via_mm": [
+        15.0,
+        1.0
+      ],
+      "via_uuid": "462f2f66-4987-44f8-8e7c-eb0cb431cab9"
+    },
+    {
+      "target_mm": [
+        15.0,
+        44.0
+      ],
+      "via_mm": [
+        15.0,
+        44.0
+      ],
+      "via_uuid": "fbedf980-aa51-4566-9f8a-f09facfee754"
+    },
+    {
+      "target_mm": [
+        20.0,
+        1.0
+      ],
+      "via_mm": [
+        20.0,
+        1.0
+      ],
+      "via_uuid": "9e0bbe32-0c2e-4c19-85c6-5731c6248750"
+    },
+    {
+      "target_mm": [
+        20.0,
+        44.0
+      ],
+      "via_mm": [
+        20.0,
+        44.0
+      ],
+      "via_uuid": "7fc9da1d-2b2c-4bd1-9107-3470dca2fd08"
+    },
+    {
+      "target_mm": [
+        25.0,
+        1.0
+      ],
+      "via_mm": [
+        25.0,
+        1.0
+      ],
+      "via_uuid": "55079235-7ad0-48da-8880-da595eb16125"
+    },
+    {
+      "target_mm": [
+        25.0,
+        44.0
+      ],
+      "via_mm": [
+        25.0,
+        44.0
+      ],
+      "via_uuid": "4fb57c4c-c59c-4991-aa1c-a5de39484731"
+    },
+    {
+      "target_mm": [
+        30.0,
+        1.0
+      ],
+      "via_mm": [
+        30.0,
+        1.0
+      ],
+      "via_uuid": "91f5fa27-a563-46d2-b672-5fd2134fe29e"
+    },
+    {
+      "target_mm": [
+        30.0,
+        44.0
+      ],
+      "via_mm": [
+        30.0,
+        44.0
+      ],
+      "via_uuid": "20f21a54-b8b1-4585-a22e-5f73c4a71cbb"
+    },
+    {
+      "target_mm": [
+        35.0,
+        1.0
+      ],
+      "via_mm": [
+        35.0,
+        1.0
+      ],
+      "via_uuid": "5c5b4195-2584-4557-a4b4-6cec3455f12d"
+    },
+    {
+      "target_mm": [
+        35.0,
+        44.0
+      ],
+      "via_mm": [
+        35.0,
+        44.0
+      ],
+      "via_uuid": "2d1d80e8-35d8-43ae-9c16-3964d4c178d4"
+    },
+    {
+      "target_mm": [
+        40.0,
+        1.0
+      ],
+      "via_mm": [
+        40.0,
+        1.0
+      ],
+      "via_uuid": "82b244d6-95b0-4b3e-8ed4-cf37a181c327"
+    },
+    {
+      "target_mm": [
+        40.0,
+        44.0
+      ],
+      "via_mm": [
+        40.0,
+        44.0
+      ],
+      "via_uuid": "35db9754-8b04-4d37-bdf0-0a7cb4116fa6"
+    },
+    {
+      "target_mm": [
+        45.0,
+        1.0
+      ],
+      "via_mm": [
+        45.0,
+        1.0
+      ],
+      "via_uuid": "d69f1983-941e-4486-9d7f-e4f8a84bc8b9"
+    },
+    {
+      "target_mm": [
+        45.0,
+        44.0
+      ],
+      "via_mm": [
+        45.0,
+        44.0
+      ],
+      "via_uuid": "a8346dae-1e4f-4b2f-a699-4a46f227e909"
+    },
+    {
+      "target_mm": [
+        1.0,
+        10.0
+      ],
+      "via_mm": [
+        1.0,
+        10.0
+      ],
+      "via_uuid": "aa89b238-5e1f-4bfb-b8a7-0ab1c4c12c7b"
+    },
+    {
+      "target_mm": [
+        54.0,
+        10.0
+      ],
+      "via_mm": [
+        54.0,
+        10.0
+      ],
+      "via_uuid": "bddfcd67-d4e2-4f84-bd97-574acc240a54"
+    },
+    {
+      "target_mm": [
+        1.0,
+        15.0
+      ],
+      "via_mm": [
+        1.0,
+        15.0
+      ],
+      "via_uuid": "eb139e3e-b870-4b97-a701-5edfb1b46912"
+    },
+    {
+      "target_mm": [
+        1.0,
+        20.0
+      ],
+      "via_mm": [
+        1.0,
+        20.0
+      ],
+      "via_uuid": "bdd6bf16-0699-458b-9d92-269d1596419a"
+    },
+    {
+      "target_mm": [
+        54.0,
+        20.0
+      ],
+      "via_mm": [
+        54.0,
+        20.0
+      ],
+      "via_uuid": "f50e13ed-fe0e-4f37-bf22-96c5088a774b"
+    },
+    {
+      "target_mm": [
+        1.0,
+        25.0
+      ],
+      "via_mm": [
+        1.0,
+        25.0
+      ],
+      "via_uuid": "abc48b37-24d9-4ab4-a848-f6aec686c516"
+    },
+    {
+      "target_mm": [
+        54.0,
+        25.0
+      ],
+      "via_mm": [
+        54.0,
+        25.0
+      ],
+      "via_uuid": "dbfdb772-c7df-4c67-a3cd-9d686de4588f"
+    },
+    {
+      "target_mm": [
+        1.0,
+        30.0
+      ],
+      "via_mm": [
+        1.0,
+        30.0
+      ],
+      "via_uuid": "959477ce-db6d-4802-af73-b770522c443b"
+    },
+    {
+      "target_mm": [
+        54.0,
+        30.0
+      ],
+      "via_mm": [
+        54.0,
+        30.0
+      ],
+      "via_uuid": "88d273ab-8651-4de4-bdd2-0aa953f26723"
+    },
+    {
+      "target_mm": [
+        1.0,
+        35.0
+      ],
+      "via_mm": [
+        1.0,
+        35.0
+      ],
+      "via_uuid": "160cda1c-dac0-4d6e-b4b1-cff8316ebc7e"
+    },
+    {
+      "target_mm": [
+        54.0,
+        35.0
+      ],
+      "via_mm": [
+        54.0,
+        35.0
+      ],
+      "via_uuid": "aeff1eb9-6e49-4f98-b9e4-003462fcac8a"
+    }
+  ],
+  "unresolved": [
+    {
+      "signal": "DSI_CLK_N",
+      "position_mm": [
+        48.55000000000001,
+        20.950000000000003
+      ],
+      "nearest_GND_mm": 15.508994366173459,
+      "reason": "no safe return via within target distance"
+    },
+    {
+      "signal": "DSI_CLK_P",
+      "position_mm": [
+        47.80000000000001,
+        21.25
+      ],
+      "nearest_GND_mm": 14.706763962544587,
+      "reason": "no safe return via within target distance"
+    },
+    {
+      "signal": "DSI_D1_N",
+      "position_mm": [
+        48.55000000000001,
+        22.150000000000006
+      ],
+      "nearest_GND_mm": 14.976611975009572,
+      "reason": "no safe return via within target distance"
+    },
+    {
+      "signal": "DSI_D1_P",
+      "position_mm": [
+        47.80000000000001,
+        22.450000000000003
+      ],
+      "nearest_GND_mm": 14.16964735799731,
+      "reason": "no safe return via within target distance"
+    },
+    {
+      "signal": "DSI_D0_N",
+      "position_mm": [
+        48.55000000000001,
+        23.349999999999994
+      ],
+      "nearest_GND_mm": 14.524080220447704,
+      "reason": "no safe return via within target distance"
+    },
+    {
+      "signal": "DSI_D0_P",
+      "position_mm": [
+        47.80000000000001,
+        23.650000000000006
+      ],
+      "nearest_GND_mm": 13.716738178225905,
+      "reason": "no safe return via within target distance"
+    },
+    {
+      "signal": "DSI_CLK_P",
+      "position_mm": [
+        30.80000000000001,
+        35.3
+      ],
+      "nearest_GND_mm": 1.8821530224718541,
+      "reason": "no safe return via within target distance"
+    },
+    {
+      "signal": "DSI_CLK_N",
+      "position_mm": [
+        30.19999999999999,
+        35.849999999999994
+      ],
+      "nearest_GND_mm": 2.4000000000000057,
+      "reason": "no safe return via within target distance"
+    },
+    {
+      "signal": "DSI_D1_N",
+      "position_mm": [
+        31.399999000000008,
+        35.849999999999994
+      ],
+      "nearest_GND_mm": 1.200000999999986,
+      "reason": "no safe return via within target distance"
+    }
+  ],
+  "DSI_signal_via_nearest_GND_final_mm": [
+    {
+      "signal": "DSI_CLK_N",
+      "signal_via_mm": [
+        48.55000000000001,
+        20.950000000000003
+      ],
+      "nearest_GND_mm": 7.538235867893759
+    },
+    {
+      "signal": "DSI_CLK_P",
+      "signal_via_mm": [
+        47.80000000000001,
+        21.25
+      ],
+      "nearest_GND_mm": 6.939920748827035
+    },
+    {
+      "signal": "DSI_D1_N",
+      "signal_via_mm": [
+        48.55000000000001,
+        22.150000000000006
+      ],
+      "nearest_GND_mm": 6.50422939324867
+    },
+    {
+      "signal": "DSI_D1_P",
+      "signal_via_mm": [
+        47.80000000000001,
+        22.450000000000003
+      ],
+      "nearest_GND_mm": 5.861953599270467
+    },
+    {
+      "signal": "DSI_D0_N",
+      "signal_via_mm": [
+        48.55000000000001,
+        23.349999999999994
+      ],
+      "nearest_GND_mm": 5.537598757584381
+    },
+    {
+      "signal": "DSI_D0_P",
+      "signal_via_mm": [
+        47.80000000000001,
+        23.650000000000006
+      ],
+      "nearest_GND_mm": 4.841745553000485
+    },
+    {
+      "signal": "DSI_D0_N",
+      "signal_via_mm": [
+        45.19999999999999,
+        26.799999999999997
+      ],
+      "nearest_GND_mm": 0.8246211251235266
+    },
+    {
+      "signal": "DSI_D0_P",
+      "signal_via_mm": [
+        43.599999999999994,
+        28.0
+      ],
+      "nearest_GND_mm": 0.8246211251235266
+    },
+    {
+      "signal": "DSI_CLK_P",
+      "signal_via_mm": [
+        30.80000000000001,
+        35.3
+      ],
+      "nearest_GND_mm": 1.8821530224718541
+    },
+    {
+      "signal": "DSI_D1_P",
+      "signal_via_mm": [
+        32.0,
+        35.3
+      ],
+      "nearest_GND_mm": 0.8139410298049792
+    },
+    {
+      "signal": "DSI_CLK_N",
+      "signal_via_mm": [
+        30.19999999999999,
+        35.849999999999994
+      ],
+      "nearest_GND_mm": 2.4000000000000057
+    },
+    {
+      "signal": "DSI_D1_N",
+      "signal_via_mm": [
+        31.399999000000008,
+        35.849999999999994
+      ],
+      "nearest_GND_mm": 1.200000999999986
+    }
+  ],
+  "new_GND_vias": 29,
+  "total_GND_vias": 47,
+  "total_zones_including_rule_areas": 8
+}

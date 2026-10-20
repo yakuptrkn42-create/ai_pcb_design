@@ -1,0 +1,248 @@
+{
+  "status": "PASS - parsed all manufacturing plots and matched every drill hit to the native board",
+  "gerber_parser": "gerbonara 1.6.3",
+  "gerber_files": [
+    {
+      "file": "Manufacturing/Gerber/STM32F469_DISEN_RevJ_Prep1-B_Cu.gbl",
+      "objects": 189,
+      "bounds_mm": [
+        [
+          0.5005,
+          0.5005
+        ],
+        [
+          54.4995,
+          44.4995
+        ]
+      ],
+      "file_function": [
+        "Copper",
+        "L4",
+        "Bot"
+      ]
+    },
+    {
+      "file": "Manufacturing/Gerber/STM32F469_DISEN_RevJ_Prep1-B_Mask.gbs",
+      "objects": 9,
+      "bounds_mm": [
+        [
+          3.25,
+          3.25
+        ],
+        [
+          51.75,
+          41.75
+        ]
+      ],
+      "file_function": [
+        "Soldermask",
+        "Bot"
+      ]
+    },
+    {
+      "file": "Manufacturing/Gerber/STM32F469_DISEN_RevJ_Prep1-B_Paste.gbp",
+      "objects": 0,
+      "bounds_mm": null,
+      "file_function": [
+        "Paste",
+        "Bot"
+      ]
+    },
+    {
+      "file": "Manufacturing/Gerber/STM32F469_DISEN_RevJ_Prep1-B_Silkscreen.gbo",
+      "objects": 636,
+      "bounds_mm": [
+        [
+          3.25,
+          3.25
+        ],
+        [
+          51.75,
+          41.75
+        ]
+      ],
+      "file_function": [
+        "Legend",
+        "Bot"
+      ]
+    },
+    {
+      "file": "Manufacturing/Gerber/STM32F469_DISEN_RevJ_Prep1-Edge_Cuts.gm1",
+      "objects": 4,
+      "bounds_mm": [
+        [
+          -0.025,
+          -0.025
+        ],
+        [
+          55.025,
+          45.025
+        ]
+      ],
+      "file_function": [
+        "Profile",
+        "NP"
+      ]
+    },
+    {
+      "file": "Manufacturing/Gerber/STM32F469_DISEN_RevJ_Prep1-F_Cu.gtl",
+      "objects": 623,
+      "bounds_mm": [
+        [
+          0.5005,
+          0.5005
+        ],
+        [
+          54.4995,
+          44.4995
+        ]
+      ],
+      "file_function": [
+        "Copper",
+        "L1",
+        "Top"
+      ]
+    },
+    {
+      "file": "Manufacturing/Gerber/STM32F469_DISEN_RevJ_Prep1-F_Mask.gts",
+      "objects": 169,
+      "bounds_mm": [
+        [
+          1.725,
+          2.5
+        ],
+        [
+          53.75,
+          41.75
+        ]
+      ],
+      "file_function": [
+        "Soldermask",
+        "Top"
+      ]
+    },
+    {
+      "file": "Manufacturing/Gerber/STM32F469_DISEN_RevJ_Prep1-F_Paste.gtp",
+      "objects": 148,
+      "bounds_mm": [
+        [
+          1.725,
+          5.05
+        ],
+        [
+          49.975,
+          40.075
+        ]
+      ],
+      "file_function": [
+        "Paste",
+        "Top"
+      ]
+    },
+    {
+      "file": "Manufacturing/Gerber/STM32F469_DISEN_RevJ_Prep1-F_Silkscreen.gto",
+      "objects": 1537,
+      "bounds_mm": [
+        [
+          0.78,
+          0.8813669999999999
+        ],
+        [
+          54.199999999999996,
+          42.181366999999995
+        ]
+      ],
+      "file_function": [
+        "Legend",
+        "Top"
+      ]
+    },
+    {
+      "file": "Manufacturing/Gerber/STM32F469_DISEN_RevJ_Prep1-In1_Cu.g1",
+      "objects": 90,
+      "bounds_mm": [
+        [
+          0.5005,
+          0.5005
+        ],
+        [
+          54.4995,
+          44.4995
+        ]
+      ],
+      "file_function": [
+        "Copper",
+        "L2",
+        "Inr"
+      ]
+    },
+    {
+      "file": "Manufacturing/Gerber/STM32F469_DISEN_RevJ_Prep1-In2_Cu.g2",
+      "objects": 90,
+      "bounds_mm": [
+        [
+          0.5005,
+          0.5005
+        ],
+        [
+          54.4995,
+          44.4995
+        ]
+      ],
+      "file_function": [
+        "Copper",
+        "L3",
+        "Inr"
+      ]
+    }
+  ],
+  "drill_files": [
+    {
+      "file": "Manufacturing/Drill/STM32F469_DISEN_RevJ_Prep1-NPTH.drl",
+      "type": "NPTH",
+      "hits": 4,
+      "diameter_counts_mm": {
+        "3.5": 4
+      },
+      "maximum_native_coordinate_rounding_mm": 0
+    },
+    {
+      "file": "Manufacturing/Drill/STM32F469_DISEN_RevJ_Prep1-PTH.drl",
+      "type": "PTH",
+      "hits": 89,
+      "diameter_counts_mm": {
+        "0.3": 84,
+        "1.02": 3,
+        "1.7": 2
+      },
+      "maximum_native_coordinate_rounding_mm": 0.0004999999999988347
+    }
+  ],
+  "common_origin": "Native auxiliary origin (135,115) mm, lower-left. CAM x = native_x - 135; CAM y = 115 - native_y. No drill or Gerber mirroring.",
+  "profile_nominal_dimensions_mm": [
+    55,
+    45
+  ],
+  "copper_edge_bound_min_mm": 0.5005,
+  "plated_drill_hits": 89,
+  "NPTH_hits": 4,
+  "plated_drill_contents": "84 through-vias + 3 J4 pins + 2 J6 pins",
+  "parser_warnings": [
+    "/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R1/Manufacturing/Drill/STM32F469_DISEN_RevJ_Prep1-NPTH.drl:12 \"G90\": G90 header statement found after end of header",
+    "/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R1/Manufacturing/Drill/STM32F469_DISEN_RevJ_Prep1-PTH.drl:16 \"G90\": G90 header statement found after end of header"
+  ],
+  "warning_assessment": "KiCad emits G90 after the Excellon header. Parser accepts absolute coordinates; all 93 drill positions and diameters match native geometry. These syntax notices are separate from native DRC.",
+  "additional_parser_notice": "gerbonara: RoundRect aperture macro has extra unused parameters; native KiCad Gerber is unchanged. This is a parser macro-parameter notice, not a DRC failure.",
+  "Gerber_job_interpretation": {
+    "profile_centerline_mm": [
+      55,
+      45
+    ],
+    "native_job_plot_stroke_bounds_mm": [
+      55.05,
+      45.05
+    ],
+    "Edge_Cuts_width_mm": 0.05,
+    "ImpedanceControlled_true": "Design requirement only, not manufacturer approval or measured impedance"
+  }
+}

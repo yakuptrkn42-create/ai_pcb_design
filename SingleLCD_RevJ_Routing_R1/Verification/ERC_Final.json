@@ -1,0 +1,70 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-20T14:27:46+0000",
+    "kicad_version": "9.0.2",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/ed618b3b-8e84-4aac-86ce-4d83671e5688",
+            "violations": []
+        },
+        {
+            "path": "/Logic power & touch/",
+            "uuid_path": "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c",
+            "violations": []
+        },
+        {
+            "path": "/Backlight / external power/",
+            "uuid_path": "/ed618b3b-8e84-4aac-86ce-4d83671e5688/b75b1f95-63e0-4b8c-bd42-383f67f21693",
+            "violations": [
+                {
+                    "description": "Global label only appears once in the schematic",
+                    "items": [
+                        {
+                            "description": "Global Label 'BL_COMP'",
+                            "pos": {
+                                "x": 1.0287,
+                                "y": 1.5621
+                            },
+                            "uuid": "c8506f71-4504-4b86-8e32-a3e26c6e1be9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "single_global_label"
+                },
+                {
+                    "description": "Global label only appears once in the schematic",
+                    "items": [
+                        {
+                            "description": "Global Label 'BL_SW'",
+                            "pos": {
+                                "x": 1.8542,
+                                "y": 1.0033
+                            },
+                            "uuid": "ae1dccec-dea6-45a2-8589-7324a93fe53a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "single_global_label"
+                },
+                {
+                    "description": "Global label only appears once in the schematic",
+                    "items": [
+                        {
+                            "description": "Global Label 'OVP_SENSE'",
+                            "pos": {
+                                "x": 0.6985,
+                                "y": 2.2225
+                            },
+                            "uuid": "2b329b80-66e7-4ed8-9e0e-e9d8d92fb1ef"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "single_global_label"
+                }
+            ]
+        }
+    ],
+    "source": "STM32F469_DISEN_RevJ_Prep1.kicad_sch"
+}

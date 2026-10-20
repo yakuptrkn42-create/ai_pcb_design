@@ -1,0 +1,78 @@
+{
+  "status": "DSI COMPLETE ONLY; not full-board routing acceptance",
+  "routing_footprint_changes": 0,
+  "native_DSI_DRC_violations": 0,
+  "scratch_unrelated_DRC_findings": [
+    "Source J6 silk edge",
+    "Source J6 library mismatch"
+  ],
+  "intra_pair_skew_mm": {
+    "D0": 6.082708381427437e-08,
+    "D1": 1.959055310862823e-06,
+    "CLK": 6.26730209063453e-07
+  },
+  "all_six_trace_length_spread_mm": 2.720463008643037e-06,
+  "route_info": {
+    "DSI_CLK_P": {
+      "one_connected_chain_between_two_pad_centers": true,
+      "graph_nodes": 19,
+      "trace_centerline_length_mm": 29.693628933876052,
+      "via_count": 2,
+      "nominal_vertical_via_length_mm": 3.13,
+      "native_equivalent_nominal_conductor_length_mm": 32.82362893387605,
+      "main_plus_length_tuning_segments_mm": 23.86061403530005,
+      "launch_segments_mm": 5.833014898576003
+    },
+    "DSI_CLK_N": {
+      "one_connected_chain_between_two_pad_centers": true,
+      "graph_nodes": 14,
+      "trace_centerline_length_mm": 29.693628307145843,
+      "via_count": 2,
+      "nominal_vertical_via_length_mm": 3.13,
+      "native_equivalent_nominal_conductor_length_mm": 32.823628307145846,
+      "main_plus_length_tuning_segments_mm": 22.782968135366012,
+      "launch_segments_mm": 6.910660171779831
+    },
+    "DSI_D1_P": {
+      "one_connected_chain_between_two_pad_centers": true,
+      "graph_nodes": 27,
+      "trace_centerline_length_mm": 29.693626213413044,
+      "via_count": 2,
+      "nominal_vertical_via_length_mm": 3.13,
+      "native_equivalent_nominal_conductor_length_mm": 32.82362621341304,
+      "main_plus_length_tuning_segments_mm": 23.86061131483706,
+      "launch_segments_mm": 5.833014898575982
+    },
+    "DSI_D1_N": {
+      "one_connected_chain_between_two_pad_centers": true,
+      "graph_nodes": 22,
+      "trace_centerline_length_mm": 29.693628172468355,
+      "via_count": 2,
+      "nominal_vertical_via_length_mm": 3.13,
+      "native_equivalent_nominal_conductor_length_mm": 32.823628172468354,
+      "main_plus_length_tuning_segments_mm": 22.782968000688545,
+      "launch_segments_mm": 6.91066017177981
+    },
+    "DSI_D0_P": {
+      "one_connected_chain_between_two_pad_centers": true,
+      "graph_nodes": 32,
+      "trace_centerline_length_mm": 29.693627386509924,
+      "via_count": 2,
+      "nominal_vertical_via_length_mm": 3.13,
+      "native_equivalent_nominal_conductor_length_mm": 32.823627386509926,
+      "main_plus_length_tuning_segments_mm": 23.81409698335466,
+      "launch_segments_mm": 5.879530403155265
+    },
+    "DSI_D0_N": {
+      "one_connected_chain_between_two_pad_centers": true,
+      "graph_nodes": 25,
+      "trace_centerline_length_mm": 29.693627447337008,
+      "via_count": 2,
+      "nominal_vertical_via_length_mm": 3.13,
+      "native_equivalent_nominal_conductor_length_mm": 32.82362744733701,
+      "main_plus_length_tuning_segments_mm": 22.143359735165344,
+      "launch_segments_mm": 7.550267712171664
+    }
+  },
+  "limitations": "Main includes single-conductor length-tuning excursions; this report does not claim all main/tuning length remains geometrically coupled. No manufacturer stackup or whole-channel SI verification. Continuous inner GND must be preserved; do not cut ground reference corridors under DSI."
+}

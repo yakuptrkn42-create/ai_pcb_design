@@ -1,0 +1,6000 @@
+{
+  "tool": "Independent read-only source/pad equivalence, graph and GND projection audit",
+  "KiCad": "9.0.2",
+  "source_board": "/workspace/routing-revj/latest-input/Project/STM32F469_DISEN_RevJ_Prep1.kicad_pcb",
+  "actual_board": "/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R1/Project/STM32F469_DISEN_RevJ_Prep1.kicad_pcb",
+  "source_sha256": "c7408d51282076ce8fdcb4389ecfec405cdf538e6cff8772af6426aa9cbde1fb",
+  "board_sha256": "b7b8522cdcc27950ea86259511de9e7fdafd7bf81414660840fdac97aeaaec3c",
+  "native_DRC_executed_by_this_script": false,
+  "source_equivalence_issues": [],
+  "routing_review_issues": [],
+  "allow_incomplete": false,
+  "core_checks_passed": true,
+  "routing_checks_passed": true,
+  "copper_layers": 4,
+  "thickness_mm": 1.6,
+  "stackup_copper_midplane_z_mm": {
+    "F.Cu": 0.0175,
+    "In1.Cu": 0.15250000000000002,
+    "In2.Cu": 1.4475,
+    "B.Cu": 1.5825
+  },
+  "outer_copper_midplane_separation_mm": 1.565,
+  "footprints": 53,
+  "numbered_pad_memberships": 159,
+  "placement_changes": [
+    {
+      "reference": "C1",
+      "source_global_mm_deg": [
+        148.75,
+        90.75,
+        180.0
+      ],
+      "actual_global_mm_deg": [
+        156.3,
+        87.4,
+        0.0
+      ],
+      "delta_xy_mm": [
+        7.550000000000011,
+        -3.3499999999999943
+      ],
+      "source_side": "F.Cu",
+      "actual_side": "F.Cu"
+    },
+    {
+      "reference": "C13",
+      "source_global_mm_deg": [
+        148.0,
+        96.0,
+        180.0
+      ],
+      "actual_global_mm_deg": [
+        146.75,
+        97.8,
+        180.0
+      ],
+      "delta_xy_mm": [
+        -1.25,
+        1.7999999999999972
+      ],
+      "source_side": "F.Cu",
+      "actual_side": "F.Cu"
+    },
+    {
+      "reference": "C2",
+      "source_global_mm_deg": [
+        148.75,
+        93.0,
+        180.0
+      ],
+      "actual_global_mm_deg": [
+        162.25,
+        100.1,
+        -90.0
+      ],
+      "delta_xy_mm": [
+        13.5,
+        7.099999999999994
+      ],
+      "source_side": "F.Cu",
+      "actual_side": "F.Cu"
+    },
+    {
+      "reference": "C3",
+      "source_global_mm_deg": [
+        165.0,
+        97.0,
+        -90.0
+      ],
+      "actual_global_mm_deg": [
+        151.75,
+        104.1,
+        -90.0
+      ],
+      "delta_xy_mm": [
+        -13.25,
+        7.099999999999994
+      ],
+      "source_side": "F.Cu",
+      "actual_side": "F.Cu"
+    },
+    {
+      "reference": "C4",
+      "source_global_mm_deg": [
+        168.0,
+        96.45,
+        -90.0
+      ],
+      "actual_global_mm_deg": [
+        155.45,
+        102.9,
+        0.0
+      ],
+      "delta_xy_mm": [
+        -12.550000000000011,
+        6.450000000000003
+      ],
+      "source_side": "F.Cu",
+      "actual_side": "F.Cu"
+    },
+    {
+      "reference": "C9",
+      "source_global_mm_deg": [
+        153.0,
+        90.25,
+        0.0
+      ],
+      "actual_global_mm_deg": [
+        158.55,
+        104.1,
+        -90.0
+      ],
+      "delta_xy_mm": [
+        5.550000000000011,
+        13.849999999999994
+      ],
+      "source_side": "F.Cu",
+      "actual_side": "F.Cu"
+    },
+    {
+      "reference": "D1",
+      "source_global_mm_deg": [
+        159.0,
+        99.75,
+        180.0
+      ],
+      "actual_global_mm_deg": [
+        153.75,
+        99.8,
+        0.0
+      ],
+      "delta_xy_mm": [
+        -5.25,
+        0.04999999999999716
+      ],
+      "source_side": "F.Cu",
+      "actual_side": "F.Cu"
+    },
+    {
+      "reference": "J6",
+      "source_global_mm_deg": [
+        137.75,
+        90.25,
+        -90.0
+      ],
+      "actual_global_mm_deg": [
+        140.75,
+        90.25,
+        -90.0
+      ],
+      "delta_xy_mm": [
+        3.0,
+        0.0
+      ],
+      "source_side": "F.Cu",
+      "actual_side": "F.Cu"
+    },
+    {
+      "reference": "R19",
+      "source_global_mm_deg": [
+        153.25,
+        102.25,
+        -90.0
+      ],
+      "actual_global_mm_deg": [
+        146.5,
+        107.0,
+        0.0
+      ],
+      "delta_xy_mm": [
+        -6.75,
+        4.75
+      ],
+      "source_side": "F.Cu",
+      "actual_side": "F.Cu"
+    },
+    {
+      "reference": "R20",
+      "source_global_mm_deg": [
+        151.0,
+        102.25,
+        90.0
+      ],
+      "actual_global_mm_deg": [
+        146.5,
+        104.5,
+        180.0
+      ],
+      "delta_xy_mm": [
+        -4.5,
+        2.25
+      ],
+      "source_side": "F.Cu",
+      "actual_side": "F.Cu"
+    },
+    {
+      "reference": "R7",
+      "source_global_mm_deg": [
+        164.75,
+        91.0,
+        -90.0
+      ],
+      "actual_global_mm_deg": [
+        160.75,
+        103.95,
+        -90.0
+      ],
+      "delta_xy_mm": [
+        -4.0,
+        12.950000000000003
+      ],
+      "source_side": "F.Cu",
+      "actual_side": "F.Cu"
+    },
+    {
+      "reference": "TP1",
+      "source_global_mm_deg": [
+        159.0,
+        104.0,
+        0.0
+      ],
+      "actual_global_mm_deg": [
+        158.0,
+        112.0,
+        0.0
+      ],
+      "delta_xy_mm": [
+        -1.0,
+        8.0
+      ],
+      "source_side": "F.Cu",
+      "actual_side": "F.Cu"
+    },
+    {
+      "reference": "U1",
+      "source_global_mm_deg": [
+        153.0,
+        94.5,
+        0.0
+      ],
+      "actual_global_mm_deg": [
+        159.25,
+        100.0,
+        -90.0
+      ],
+      "delta_xy_mm": [
+        6.25,
+        5.5
+      ],
+      "source_side": "F.Cu",
+      "actual_side": "F.Cu"
+    }
+  ],
+  "footprint_metadata": [
+    {
+      "reference": "C1",
+      "source_footprint_id": "Adapter_F469:C_0805_2012Metric",
+      "actual_footprint_id": "Adapter_F469:C_0805_2012Metric",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "C13",
+      "source_footprint_id": "Adapter_F469:C_0805_2012Metric",
+      "actual_footprint_id": "Adapter_F469:C_0805_2012Metric",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "C2",
+      "source_footprint_id": "Adapter_F469:C_0805_2012Metric",
+      "actual_footprint_id": "Adapter_F469:C_0805_2012Metric",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "C3",
+      "source_footprint_id": "Adapter_F469:C_1210_3225Metric",
+      "actual_footprint_id": "Adapter_F469:C_1210_3225Metric",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "C4",
+      "source_footprint_id": "Adapter_F469:C_0805_2012Metric",
+      "actual_footprint_id": "Adapter_F469:C_0805_2012Metric",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "C5",
+      "source_footprint_id": "Adapter_F469:C_0805_2012Metric",
+      "actual_footprint_id": "Adapter_F469:C_0805_2012Metric",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "C6",
+      "source_footprint_id": "Adapter_F469:C_0805_2012Metric",
+      "actual_footprint_id": "Adapter_F469:C_0805_2012Metric",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "C7",
+      "source_footprint_id": "Adapter_F469:C_0805_2012Metric",
+      "actual_footprint_id": "Adapter_F469:C_0805_2012Metric",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "C8",
+      "source_footprint_id": "Adapter_F469:C_0805_2012Metric",
+      "actual_footprint_id": "Adapter_F469:C_0805_2012Metric",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "C9",
+      "source_footprint_id": "Adapter_F469:C_0805_2012Metric",
+      "actual_footprint_id": "Adapter_F469:C_0805_2012Metric",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "D1",
+      "source_footprint_id": "Adapter_F469:D_SMA",
+      "actual_footprint_id": "Adapter_F469:D_SMA",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "D3",
+      "source_footprint_id": "Adapter_F469:D_SMA",
+      "actual_footprint_id": "Adapter_F469:D_SMA",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "F2",
+      "source_footprint_id": "Adapter_F469:Fuse_1206_3216Metric",
+      "actual_footprint_id": "Adapter_F469:Fuse_1206_3216Metric",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "H1",
+      "source_footprint_id": "MountingHole:MountingHole_3.5mm",
+      "actual_footprint_id": "Placement_Mechanical:MountingHole_3.5mm_M3_Envelope8mm",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "H2",
+      "source_footprint_id": "MountingHole:MountingHole_3.5mm",
+      "actual_footprint_id": "Placement_Mechanical:MountingHole_3.5mm_M3_Envelope8mm",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "H3",
+      "source_footprint_id": "MountingHole:MountingHole_3.5mm",
+      "actual_footprint_id": "Placement_Mechanical:MountingHole_3.5mm_M3_Envelope8mm",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "H4",
+      "source_footprint_id": "MountingHole:MountingHole_3.5mm",
+      "actual_footprint_id": "Placement_Mechanical:MountingHole_3.5mm_M3_Envelope8mm",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "J1",
+      "source_footprint_id": "Adapter_F469:FH26W-25S-0.3SHW",
+      "actual_footprint_id": "Adapter_F469:FH26W-25S-0.3SHW",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "J2",
+      "source_footprint_id": "Adapter_F469:FH26-39S-0.3SHW",
+      "actual_footprint_id": "Adapter_F469:FH26-39S-0.3SHW",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "J3",
+      "source_footprint_id": "Adapter_F469:FH19C-6S-0.5SH",
+      "actual_footprint_id": "Adapter_F469:FH19C-6S-0.5SH",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "J4",
+      "source_footprint_id": "Connector:FanPinHeader_1x03_P2.54mm_Vertical",
+      "actual_footprint_id": "Adapter_F469:FanPinHeader_1x03_P2.54mm_Vertical",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "J6",
+      "source_footprint_id": "Connector_JST:JST_NV_B02P-NV_1x02_P5.00mm_Vertical",
+      "actual_footprint_id": "Adapter_F469:JST_NV_B02P-NV_1x02_P5.00mm_Vertical",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "L1",
+      "source_footprint_id": "Adapter_F469:L_TDK_SLF7045",
+      "actual_footprint_id": "Adapter_F469:L_TDK_SLF7045",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "R1",
+      "source_footprint_id": "Adapter_F469:R_0805_2012Metric",
+      "actual_footprint_id": "Adapter_F469:R_0805_2012Metric",
+      "identity_preserved": true,
+      "DNP": true
+    },
+    {
+      "reference": "R12",
+      "source_footprint_id": "Adapter_F469:R_0805_2012Metric",
+      "actual_footprint_id": "Adapter_F469:R_0805_2012Metric",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "R13",
+      "source_footprint_id": "Adapter_F469:R_0805_2012Metric",
+      "actual_footprint_id": "Adapter_F469:R_0805_2012Metric",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "R14",
+      "source_footprint_id": "Adapter_F469:R_0805_2012Metric",
+      "actual_footprint_id": "Adapter_F469:R_0805_2012Metric",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "R15",
+      "source_footprint_id": "Adapter_F469:R_0805_2012Metric",
+      "actual_footprint_id": "Adapter_F469:R_0805_2012Metric",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "R16",
+      "source_footprint_id": "Adapter_F469:R_0805_2012Metric",
+      "actual_footprint_id": "Adapter_F469:R_0805_2012Metric",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "R17",
+      "source_footprint_id": "Adapter_F469:R_0805_2012Metric",
+      "actual_footprint_id": "Adapter_F469:R_0805_2012Metric",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "R18",
+      "source_footprint_id": "Adapter_F469:R_0805_2012Metric",
+      "actual_footprint_id": "Adapter_F469:R_0805_2012Metric",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "R19",
+      "source_footprint_id": "Adapter_F469:R_0805_2012Metric",
+      "actual_footprint_id": "Adapter_F469:R_0805_2012Metric",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "R2",
+      "source_footprint_id": "Adapter_F469:R_0805_2012Metric",
+      "actual_footprint_id": "Adapter_F469:R_0805_2012Metric",
+      "identity_preserved": true,
+      "DNP": true
+    },
+    {
+      "reference": "R20",
+      "source_footprint_id": "Adapter_F469:R_0805_2012Metric",
+      "actual_footprint_id": "Adapter_F469:R_0805_2012Metric",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "R3",
+      "source_footprint_id": "Adapter_F469:R_0805_2012Metric",
+      "actual_footprint_id": "Adapter_F469:R_0805_2012Metric",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "R4",
+      "source_footprint_id": "Adapter_F469:R_0805_2012Metric",
+      "actual_footprint_id": "Adapter_F469:R_0805_2012Metric",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "R5",
+      "source_footprint_id": "Adapter_F469:R_0805_2012Metric",
+      "actual_footprint_id": "Adapter_F469:R_0805_2012Metric",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "R6",
+      "source_footprint_id": "Adapter_F469:R_0805_2012Metric",
+      "actual_footprint_id": "Adapter_F469:R_0805_2012Metric",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "R7",
+      "source_footprint_id": "Adapter_F469:R_0805_2012Metric",
+      "actual_footprint_id": "Adapter_F469:R_0805_2012Metric",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "TP1",
+      "source_footprint_id": "Adapter_F469:TestPoint_Pad_D1.0mm",
+      "actual_footprint_id": "Adapter_F469:TestPoint_Pad_D1.0mm",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "TP10",
+      "source_footprint_id": "Adapter_F469:TestPoint_Pad_D1.0mm",
+      "actual_footprint_id": "Adapter_F469:TestPoint_Pad_D1.0mm",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "TP11",
+      "source_footprint_id": "Adapter_F469:TestPoint_Pad_D1.0mm",
+      "actual_footprint_id": "Adapter_F469:TestPoint_Pad_D1.0mm",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "TP12",
+      "source_footprint_id": "Adapter_F469:TestPoint_Pad_D1.0mm",
+      "actual_footprint_id": "Adapter_F469:TestPoint_Pad_D1.0mm",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "TP13",
+      "source_footprint_id": "Adapter_F469:TestPoint_Pad_D1.0mm",
+      "actual_footprint_id": "Adapter_F469:TestPoint_Pad_D1.0mm",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "TP14",
+      "source_footprint_id": "Adapter_F469:TestPoint_Pad_D1.0mm",
+      "actual_footprint_id": "Adapter_F469:TestPoint_Pad_D1.0mm",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "TP15",
+      "source_footprint_id": "Adapter_F469:TestPoint_Pad_D1.0mm",
+      "actual_footprint_id": "Adapter_F469:TestPoint_Pad_D1.0mm",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "TP3",
+      "source_footprint_id": "Adapter_F469:TestPoint_Pad_D1.0mm",
+      "actual_footprint_id": "Adapter_F469:TestPoint_Pad_D1.0mm",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "TP4",
+      "source_footprint_id": "Adapter_F469:TestPoint_Pad_D1.0mm",
+      "actual_footprint_id": "Adapter_F469:TestPoint_Pad_D1.0mm",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "TP5",
+      "source_footprint_id": "Adapter_F469:TestPoint_Pad_D1.0mm",
+      "actual_footprint_id": "Adapter_F469:TestPoint_Pad_D1.0mm",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "TP6",
+      "source_footprint_id": "Adapter_F469:TestPoint_Pad_D1.0mm",
+      "actual_footprint_id": "Adapter_F469:TestPoint_Pad_D1.0mm",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "TP9",
+      "source_footprint_id": "Adapter_F469:TestPoint_Pad_D1.0mm",
+      "actual_footprint_id": "Adapter_F469:TestPoint_Pad_D1.0mm",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "U1",
+      "source_footprint_id": "Adapter_F469:SOT-23-6",
+      "actual_footprint_id": "Adapter_F469:SOT-23-6",
+      "identity_preserved": true,
+      "DNP": false
+    },
+    {
+      "reference": "U2",
+      "source_footprint_id": "Adapter_F469:SOT-23-6",
+      "actual_footprint_id": "Adapter_F469:SOT-23-6",
+      "identity_preserved": true,
+      "DNP": false
+    }
+  ],
+  "pad_differences": [],
+  "models": [
+    {
+      "reference": "C1",
+      "path": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl",
+      "local_present": true,
+      "sha256": "840481a5fd6d54a48d7a634404a9848de662816075c4569d2484b192c3fb2801",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "C13",
+      "path": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl",
+      "local_present": true,
+      "sha256": "840481a5fd6d54a48d7a634404a9848de662816075c4569d2484b192c3fb2801",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "C2",
+      "path": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl",
+      "local_present": true,
+      "sha256": "840481a5fd6d54a48d7a634404a9848de662816075c4569d2484b192c3fb2801",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "C3",
+      "path": "${KIPRJMOD}/3D/C_1210_3225Metric.wrl",
+      "local_present": true,
+      "sha256": "9019ca14e512c194f47f43fcb9deafce8e75fcef9aa3fe8a8c9810727e4424d1",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "C4",
+      "path": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl",
+      "local_present": true,
+      "sha256": "840481a5fd6d54a48d7a634404a9848de662816075c4569d2484b192c3fb2801",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "C5",
+      "path": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl",
+      "local_present": true,
+      "sha256": "840481a5fd6d54a48d7a634404a9848de662816075c4569d2484b192c3fb2801",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "C6",
+      "path": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl",
+      "local_present": true,
+      "sha256": "840481a5fd6d54a48d7a634404a9848de662816075c4569d2484b192c3fb2801",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "C7",
+      "path": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl",
+      "local_present": true,
+      "sha256": "840481a5fd6d54a48d7a634404a9848de662816075c4569d2484b192c3fb2801",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "C8",
+      "path": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl",
+      "local_present": true,
+      "sha256": "840481a5fd6d54a48d7a634404a9848de662816075c4569d2484b192c3fb2801",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "C9",
+      "path": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl",
+      "local_present": true,
+      "sha256": "840481a5fd6d54a48d7a634404a9848de662816075c4569d2484b192c3fb2801",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "D1",
+      "path": "${KIPRJMOD}/3D/D_SMA.wrl",
+      "local_present": true,
+      "sha256": "4849d3fbd602476ed88a0edada41a1eb3acf69a785ee9624d1d76873134011d2",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "D3",
+      "path": "${KIPRJMOD}/3D/D_SMA.wrl",
+      "local_present": true,
+      "sha256": "4849d3fbd602476ed88a0edada41a1eb3acf69a785ee9624d1d76873134011d2",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "F2",
+      "path": "${KIPRJMOD}/3D/Fuse_1206_3216Metric.wrl",
+      "local_present": true,
+      "sha256": "778f45add1215d06ce7bf91860d47dfb35401b1875277c1346333d195a76a1b8",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "J1",
+      "path": "${KIPRJMOD}/3D/FH26W_25_Nominal.step",
+      "local_present": true,
+      "sha256": "0b31f9e4ce8a37cf6738a60a690f25a93593f88eb90288b2db389c8ac9589b43",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "J2",
+      "path": "${KIPRJMOD}/3D/FH26_39_Nominal.step",
+      "local_present": true,
+      "sha256": "8d9e2b64b86321514d6bb34d2bcfdbcf1692701babee01d2dfeeb93542234a6a",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "J3",
+      "path": "${KIPRJMOD}/3D/FH19C_6_Nominal.step",
+      "local_present": true,
+      "sha256": "f1dbb57aa97b60f34b37e08e0db1200d4cf8e6fe7c7fb895b3a1f0bd6e2e976c",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "J4",
+      "path": "${KIPRJMOD}/3D/FanPinHeader_1x03_P2.54mm_Vertical.step",
+      "local_present": true,
+      "sha256": "962f287fa4543661be053ba91d8df9ed541f4a6862454755d120352e69ee9a95",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "J6",
+      "path": "${KIPRJMOD}/3D/JST_NV_B02P_Nominal.step",
+      "local_present": true,
+      "sha256": "22813babd68dc7415de90e831aec61c556ee307fc22b38c7fea2ab8b52f6e309",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "L1",
+      "path": "${KIPRJMOD}/3D/SLF7045_Nominal.step",
+      "local_present": true,
+      "sha256": "710fe45ce6ca24029b55332a2d7069dde04829b687c9c36f076f61c7b09e1d4f",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "R1",
+      "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+      "local_present": true,
+      "sha256": "8ba82403df18104f827f786ef794d9852912dc437e77b62258dc3e6ffe33c5f6",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "R12",
+      "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+      "local_present": true,
+      "sha256": "8ba82403df18104f827f786ef794d9852912dc437e77b62258dc3e6ffe33c5f6",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "R13",
+      "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+      "local_present": true,
+      "sha256": "8ba82403df18104f827f786ef794d9852912dc437e77b62258dc3e6ffe33c5f6",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "R14",
+      "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+      "local_present": true,
+      "sha256": "8ba82403df18104f827f786ef794d9852912dc437e77b62258dc3e6ffe33c5f6",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "R15",
+      "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+      "local_present": true,
+      "sha256": "8ba82403df18104f827f786ef794d9852912dc437e77b62258dc3e6ffe33c5f6",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "R16",
+      "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+      "local_present": true,
+      "sha256": "8ba82403df18104f827f786ef794d9852912dc437e77b62258dc3e6ffe33c5f6",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "R17",
+      "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+      "local_present": true,
+      "sha256": "8ba82403df18104f827f786ef794d9852912dc437e77b62258dc3e6ffe33c5f6",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "R18",
+      "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+      "local_present": true,
+      "sha256": "8ba82403df18104f827f786ef794d9852912dc437e77b62258dc3e6ffe33c5f6",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "R19",
+      "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+      "local_present": true,
+      "sha256": "8ba82403df18104f827f786ef794d9852912dc437e77b62258dc3e6ffe33c5f6",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "R2",
+      "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+      "local_present": true,
+      "sha256": "8ba82403df18104f827f786ef794d9852912dc437e77b62258dc3e6ffe33c5f6",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "R20",
+      "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+      "local_present": true,
+      "sha256": "8ba82403df18104f827f786ef794d9852912dc437e77b62258dc3e6ffe33c5f6",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "R3",
+      "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+      "local_present": true,
+      "sha256": "8ba82403df18104f827f786ef794d9852912dc437e77b62258dc3e6ffe33c5f6",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "R4",
+      "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+      "local_present": true,
+      "sha256": "8ba82403df18104f827f786ef794d9852912dc437e77b62258dc3e6ffe33c5f6",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "R5",
+      "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+      "local_present": true,
+      "sha256": "8ba82403df18104f827f786ef794d9852912dc437e77b62258dc3e6ffe33c5f6",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "R6",
+      "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+      "local_present": true,
+      "sha256": "8ba82403df18104f827f786ef794d9852912dc437e77b62258dc3e6ffe33c5f6",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "R7",
+      "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+      "local_present": true,
+      "sha256": "8ba82403df18104f827f786ef794d9852912dc437e77b62258dc3e6ffe33c5f6",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "TP1",
+      "path": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+      "local_present": true,
+      "sha256": "ffb4b0c7f74a33eb67c9881f99740bfce41c1ddd9466972bb017e3f6cd80e388",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "TP10",
+      "path": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+      "local_present": true,
+      "sha256": "ffb4b0c7f74a33eb67c9881f99740bfce41c1ddd9466972bb017e3f6cd80e388",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "TP11",
+      "path": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+      "local_present": true,
+      "sha256": "ffb4b0c7f74a33eb67c9881f99740bfce41c1ddd9466972bb017e3f6cd80e388",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "TP12",
+      "path": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+      "local_present": true,
+      "sha256": "ffb4b0c7f74a33eb67c9881f99740bfce41c1ddd9466972bb017e3f6cd80e388",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "TP13",
+      "path": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+      "local_present": true,
+      "sha256": "ffb4b0c7f74a33eb67c9881f99740bfce41c1ddd9466972bb017e3f6cd80e388",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "TP14",
+      "path": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+      "local_present": true,
+      "sha256": "ffb4b0c7f74a33eb67c9881f99740bfce41c1ddd9466972bb017e3f6cd80e388",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "TP15",
+      "path": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+      "local_present": true,
+      "sha256": "ffb4b0c7f74a33eb67c9881f99740bfce41c1ddd9466972bb017e3f6cd80e388",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "TP3",
+      "path": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+      "local_present": true,
+      "sha256": "ffb4b0c7f74a33eb67c9881f99740bfce41c1ddd9466972bb017e3f6cd80e388",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "TP4",
+      "path": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+      "local_present": true,
+      "sha256": "ffb4b0c7f74a33eb67c9881f99740bfce41c1ddd9466972bb017e3f6cd80e388",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "TP5",
+      "path": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+      "local_present": true,
+      "sha256": "ffb4b0c7f74a33eb67c9881f99740bfce41c1ddd9466972bb017e3f6cd80e388",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "TP6",
+      "path": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+      "local_present": true,
+      "sha256": "ffb4b0c7f74a33eb67c9881f99740bfce41c1ddd9466972bb017e3f6cd80e388",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "TP9",
+      "path": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+      "local_present": true,
+      "sha256": "ffb4b0c7f74a33eb67c9881f99740bfce41c1ddd9466972bb017e3f6cd80e388",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "U1",
+      "path": "${KIPRJMOD}/3D/SOT-23-6.wrl",
+      "local_present": true,
+      "sha256": "01fe842f8ca8534456b365e2a38b77b8c61a07e4133d79187d0df9d46037051b",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "reference": "U2",
+      "path": "${KIPRJMOD}/3D/SOT-23-6.wrl",
+      "local_present": true,
+      "sha256": "01fe842f8ca8534456b365e2a38b77b8c61a07e4133d79187d0df9d46037051b",
+      "provenance_hash_matches": true,
+      "scale": [
+        1.0,
+        1.0,
+        1.0
+      ]
+    }
+  ],
+  "source_schematic_checks": [
+    {
+      "file": "STM32F469_DISEN_RevJ_Prep1.kicad_sch",
+      "sha256": "14153b9a3671d631183226006e645aec2f8ed72a8e5de3ef00d5de2955c4e850",
+      "electrical_geometry_checks": {
+        "wire": true,
+        "junction": true,
+        "label": true,
+        "global_label": true,
+        "hierarchical_label": true,
+        "no_connect": true,
+        "sheet": true,
+        "symbol_UUID_set": true,
+        "symbol_positions_and_pin_UUIDs": true
+      }
+    },
+    {
+      "file": "Backlight.kicad_sch",
+      "sha256": "bf38a5768fffb09c0de3cf1a92bbd4d4ca1308f2d5f633626f94139146ebbf89",
+      "electrical_geometry_checks": {
+        "wire": true,
+        "junction": true,
+        "label": true,
+        "global_label": true,
+        "hierarchical_label": true,
+        "no_connect": true,
+        "sheet": true,
+        "symbol_UUID_set": true,
+        "symbol_positions_and_pin_UUIDs": true
+      }
+    },
+    {
+      "file": "Logic_Touch.kicad_sch",
+      "sha256": "bb85dfabe0d83c728237f9b2d5984167211b94f6eb0fbf3eaf29a7ef927e07e4",
+      "electrical_geometry_checks": {
+        "wire": true,
+        "junction": true,
+        "label": true,
+        "global_label": true,
+        "hierarchical_label": true,
+        "no_connect": true,
+        "sheet": true,
+        "symbol_UUID_set": true,
+        "symbol_positions_and_pin_UUIDs": true
+      }
+    }
+  ],
+  "native_netclass_counts": {
+    "POWER_5V": 4,
+    "SENSITIVE": 3,
+    "Default": 24,
+    "LED_HV": 2,
+    "BOOST_SWITCH": 1,
+    "MIPI_DSI": 6,
+    "LOGIC_POWER": 4
+  },
+  "native_netclasses": {
+    "BL_5V": "POWER_5V",
+    "BL_COMP": "SENSITIVE",
+    "BL_CTRL": "Default",
+    "BL_LEDA": "LED_HV",
+    "BL_LEDK": "LED_HV",
+    "BL_POWER": "POWER_5V",
+    "BL_PWM_RAW": "Default",
+    "BL_SW": "BOOST_SWITCH",
+    "DSI_CLK_N": "MIPI_DSI",
+    "DSI_CLK_P": "MIPI_DSI",
+    "DSI_D0_N": "MIPI_DSI",
+    "DSI_D0_P": "MIPI_DSI",
+    "DSI_D1_N": "MIPI_DSI",
+    "DSI_D1_P": "MIPI_DSI",
+    "EXT_5V": "POWER_5V",
+    "FUSED_5V": "POWER_5V",
+    "GND": "Default",
+    "HOST_3V3": "LOGIC_POWER",
+    "HOST_LCD_RST": "Default",
+    "HOST_TE": "Default",
+    "HOST_TP_3V3": "LOGIC_POWER",
+    "HOST_TP_RST": "Default",
+    "LCD_RST": "Default",
+    "LCD_TE": "Default",
+    "LCD_VCI": "LOGIC_POWER",
+    "OVP_REF": "SENSITIVE",
+    "OVP_SENSE": "SENSITIVE",
+    "TP_INT": "Default",
+    "TP_RST": "Default",
+    "TP_SCL": "Default",
+    "TP_SDA": "Default",
+    "TP_VDD": "LOGIC_POWER",
+    "unconnected-(J1-HOST_LED_A_NC-Pad24)": "Default",
+    "unconnected-(J1-HOST_LED_K_NC-Pad23)": "Default",
+    "unconnected-(J1-ID_NC-Pad1)": "Default",
+    "unconnected-(J1-NC-Pad9)": "Default",
+    "unconnected-(J1-NC-Pad13)": "Default",
+    "unconnected-(J1-NC-Pad17)": "Default",
+    "unconnected-(J1-NC_ERR-Pad20)": "Default",
+    "unconnected-(J2-NC-Pad5)": "Default",
+    "unconnected-(J2-NC-Pad6)": "Default",
+    "unconnected-(J2-NC-Pad38)": "Default",
+    "unconnected-(J2-NC-Pad39)": "Default",
+    "unconnected-(J3-PH7_RESET_NC-Pad5)": "Default"
+  },
+  "netclass_changes": {},
+  "source_dru_sha256": "97ef4eb48f9a1c6058ceb2fab10c63e2946ed3505836e7666909c0a0c83eba65",
+  "actual_dru_sha256": "d916202f2ccc506436f858fdad12a9953f031fb569d3013328b93706df7055ff",
+  "DRC_severity_downgrades": {},
+  "DRC_exclusions": [],
+  "native_connectivity_rebuilt_in_memory": true,
+  "native_ratsnest_unconnected_edges": 0,
+  "track_segments": 466,
+  "arcs": 0,
+  "vias": 84,
+  "tracks_per_layer": {
+    "F.Cu": 369,
+    "B.Cu": 97
+  },
+  "zones_by_net": {
+    "GND": 4,
+    "": 4
+  },
+  "track_width_ranges_mm": {
+    "BL_5V": [
+      0.8,
+      0.8
+    ],
+    "BL_COMP": [
+      0.2,
+      0.2
+    ],
+    "BL_CTRL": [
+      0.2,
+      0.2
+    ],
+    "BL_LEDA": [
+      0.2,
+      0.4
+    ],
+    "BL_LEDK": [
+      0.2,
+      0.4
+    ],
+    "BL_POWER": [
+      0.8,
+      0.8
+    ],
+    "BL_PWM_RAW": [
+      0.2,
+      0.2
+    ],
+    "BL_SW": [
+      0.6,
+      0.6
+    ],
+    "DSI_CLK_N": [
+      0.14,
+      0.17
+    ],
+    "DSI_CLK_P": [
+      0.14,
+      0.17
+    ],
+    "DSI_D0_N": [
+      0.14,
+      0.17
+    ],
+    "DSI_D0_P": [
+      0.14,
+      0.17
+    ],
+    "DSI_D1_N": [
+      0.14,
+      0.17
+    ],
+    "DSI_D1_P": [
+      0.14,
+      0.17
+    ],
+    "EXT_5V": [
+      0.8,
+      0.8
+    ],
+    "FUSED_5V": [
+      0.8,
+      0.8
+    ],
+    "GND": [
+      0.2,
+      0.6
+    ],
+    "HOST_3V3": [
+      0.3,
+      0.3
+    ],
+    "HOST_LCD_RST": [
+      0.2,
+      0.2
+    ],
+    "HOST_TE": [
+      0.2,
+      0.2
+    ],
+    "HOST_TP_3V3": [
+      0.2,
+      0.3
+    ],
+    "HOST_TP_RST": [
+      0.2,
+      0.2
+    ],
+    "LCD_RST": [
+      0.2,
+      0.2
+    ],
+    "LCD_TE": [
+      0.2,
+      0.2
+    ],
+    "LCD_VCI": [
+      0.3,
+      0.3
+    ],
+    "OVP_REF": [
+      0.2,
+      0.2
+    ],
+    "OVP_SENSE": [
+      0.2,
+      0.2
+    ],
+    "TP_INT": [
+      0.2,
+      0.2
+    ],
+    "TP_RST": [
+      0.2,
+      0.2
+    ],
+    "TP_SCL": [
+      0.2,
+      0.2
+    ],
+    "TP_SDA": [
+      0.2,
+      0.2
+    ],
+    "TP_VDD": [
+      0.3,
+      0.3
+    ]
+  },
+  "DSI_conductors": {
+    "DSI_D0_P": {
+      "net": "DSI_D0_P",
+      "terminal_pads": [
+        {
+          "reference": "J2",
+          "number": "16",
+          "xy_mm": [
+            181.775,
+            93.65
+          ]
+        },
+        {
+          "reference": "J1",
+          "number": "10",
+          "xy_mm": [
+            164.6,
+            106.75
+          ]
+        }
+      ],
+      "track_segments": 29,
+      "planar_centerline_sum_mm": 29.693627386509952,
+      "vias": 2,
+      "via_details": [
+        {
+          "xy_mm": [
+            182.8,
+            93.65
+          ],
+          "type": 3,
+          "top_layer": "F.Cu",
+          "bottom_layer": "B.Cu",
+          "is_full_through": true
+        },
+        {
+          "xy_mm": [
+            178.6,
+            98.0
+          ],
+          "type": 3,
+          "top_layer": "F.Cu",
+          "bottom_layer": "B.Cu",
+          "is_full_through": true
+        }
+      ],
+      "nominal_outer_Cu_center_via_length_mm_each": 1.565,
+      "centerline_plus_outer_Cu_center_vias_mm": 32.823627386509955,
+      "shortest_graph_terminal_contact_path_mm": 32.82362738650995,
+      "terminal_path_connected": true,
+      "graph_components": [
+        38
+      ],
+      "graph_nodes": 38,
+      "branch_nodes_degree_gt2": 0,
+      "non_outer_signal_tracks": [],
+      "width_range_mm": [
+        0.14,
+        0.17
+      ],
+      "length_convention": "Sum of every same-net track/arc centerline plus nominal outer copper midplane separation for each F-B through-via, derived from the saved stackup. Includes branches in total. Terminal contact inside pad is zero; pad propagation is omitted. This is geometry, not measured delay or whole-channel SI."
+    },
+    "DSI_D0_N": {
+      "net": "DSI_D0_N",
+      "terminal_pads": [
+        {
+          "reference": "J2",
+          "number": "17",
+          "xy_mm": [
+            184.65,
+            93.35
+          ]
+        },
+        {
+          "reference": "J1",
+          "number": "8",
+          "xy_mm": [
+            164.0,
+            106.75
+          ]
+        }
+      ],
+      "track_segments": 22,
+      "planar_centerline_sum_mm": 29.693627447336983,
+      "vias": 2,
+      "via_details": [
+        {
+          "xy_mm": [
+            180.2,
+            96.8
+          ],
+          "type": 3,
+          "top_layer": "F.Cu",
+          "bottom_layer": "B.Cu",
+          "is_full_through": true
+        },
+        {
+          "xy_mm": [
+            183.55,
+            93.35
+          ],
+          "type": 3,
+          "top_layer": "F.Cu",
+          "bottom_layer": "B.Cu",
+          "is_full_through": true
+        }
+      ],
+      "nominal_outer_Cu_center_via_length_mm_each": 1.565,
+      "centerline_plus_outer_Cu_center_vias_mm": 32.82362744733698,
+      "shortest_graph_terminal_contact_path_mm": 32.823627447336975,
+      "terminal_path_connected": true,
+      "graph_components": [
+        31
+      ],
+      "graph_nodes": 31,
+      "branch_nodes_degree_gt2": 0,
+      "non_outer_signal_tracks": [],
+      "width_range_mm": [
+        0.14,
+        0.17
+      ],
+      "length_convention": "Sum of every same-net track/arc centerline plus nominal outer copper midplane separation for each F-B through-via, derived from the saved stackup. Includes branches in total. Terminal contact inside pad is zero; pad propagation is omitted. This is geometry, not measured delay or whole-channel SI."
+    },
+    "DSI_D1_P": {
+      "net": "DSI_D1_P",
+      "terminal_pads": [
+        {
+          "reference": "J2",
+          "number": "20",
+          "xy_mm": [
+            181.775,
+            92.45
+          ]
+        },
+        {
+          "reference": "J1",
+          "number": "18",
+          "xy_mm": [
+            167.0,
+            106.75
+          ]
+        }
+      ],
+      "track_segments": 24,
+      "planar_centerline_sum_mm": 29.693626213413054,
+      "vias": 2,
+      "via_details": [
+        {
+          "xy_mm": [
+            167.0,
+            105.3
+          ],
+          "type": 3,
+          "top_layer": "F.Cu",
+          "bottom_layer": "B.Cu",
+          "is_full_through": true
+        },
+        {
+          "xy_mm": [
+            182.8,
+            92.45
+          ],
+          "type": 3,
+          "top_layer": "F.Cu",
+          "bottom_layer": "B.Cu",
+          "is_full_through": true
+        }
+      ],
+      "nominal_outer_Cu_center_via_length_mm_each": 1.565,
+      "centerline_plus_outer_Cu_center_vias_mm": 32.82362621341306,
+      "shortest_graph_terminal_contact_path_mm": 32.82362621341306,
+      "terminal_path_connected": true,
+      "graph_components": [
+        33
+      ],
+      "graph_nodes": 33,
+      "branch_nodes_degree_gt2": 0,
+      "non_outer_signal_tracks": [],
+      "width_range_mm": [
+        0.14,
+        0.17
+      ],
+      "length_convention": "Sum of every same-net track/arc centerline plus nominal outer copper midplane separation for each F-B through-via, derived from the saved stackup. Includes branches in total. Terminal contact inside pad is zero; pad propagation is omitted. This is geometry, not measured delay or whole-channel SI."
+    },
+    "DSI_D1_N": {
+      "net": "DSI_D1_N",
+      "terminal_pads": [
+        {
+          "reference": "J2",
+          "number": "21",
+          "xy_mm": [
+            184.65,
+            92.15
+          ]
+        },
+        {
+          "reference": "J1",
+          "number": "16",
+          "xy_mm": [
+            166.4,
+            106.75
+          ]
+        }
+      ],
+      "track_segments": 19,
+      "planar_centerline_sum_mm": 29.693628172468358,
+      "vias": 2,
+      "via_details": [
+        {
+          "xy_mm": [
+            166.399999,
+            105.85
+          ],
+          "type": 3,
+          "top_layer": "F.Cu",
+          "bottom_layer": "B.Cu",
+          "is_full_through": true
+        },
+        {
+          "xy_mm": [
+            183.55,
+            92.15
+          ],
+          "type": 3,
+          "top_layer": "F.Cu",
+          "bottom_layer": "B.Cu",
+          "is_full_through": true
+        }
+      ],
+      "nominal_outer_Cu_center_via_length_mm_each": 1.565,
+      "centerline_plus_outer_Cu_center_vias_mm": 32.82362817246836,
+      "shortest_graph_terminal_contact_path_mm": 32.82362917246892,
+      "terminal_path_connected": true,
+      "graph_components": [
+        30
+      ],
+      "graph_nodes": 30,
+      "branch_nodes_degree_gt2": 1,
+      "non_outer_signal_tracks": [],
+      "width_range_mm": [
+        0.14,
+        0.17
+      ],
+      "length_convention": "Sum of every same-net track/arc centerline plus nominal outer copper midplane separation for each F-B through-via, derived from the saved stackup. Includes branches in total. Terminal contact inside pad is zero; pad propagation is omitted. This is geometry, not measured delay or whole-channel SI."
+    },
+    "DSI_CLK_P": {
+      "net": "DSI_CLK_P",
+      "terminal_pads": [
+        {
+          "reference": "J2",
+          "number": "24",
+          "xy_mm": [
+            181.775,
+            91.25
+          ]
+        },
+        {
+          "reference": "J1",
+          "number": "14",
+          "xy_mm": [
+            165.8,
+            106.75
+          ]
+        }
+      ],
+      "track_segments": 16,
+      "planar_centerline_sum_mm": 29.693628933876017,
+      "vias": 2,
+      "via_details": [
+        {
+          "xy_mm": [
+            165.8,
+            105.3
+          ],
+          "type": 3,
+          "top_layer": "F.Cu",
+          "bottom_layer": "B.Cu",
+          "is_full_through": true
+        },
+        {
+          "xy_mm": [
+            182.8,
+            91.25
+          ],
+          "type": 3,
+          "top_layer": "F.Cu",
+          "bottom_layer": "B.Cu",
+          "is_full_through": true
+        }
+      ],
+      "nominal_outer_Cu_center_via_length_mm_each": 1.565,
+      "centerline_plus_outer_Cu_center_vias_mm": 32.823628933876016,
+      "shortest_graph_terminal_contact_path_mm": 32.82362893387602,
+      "terminal_path_connected": true,
+      "graph_components": [
+        25
+      ],
+      "graph_nodes": 25,
+      "branch_nodes_degree_gt2": 0,
+      "non_outer_signal_tracks": [],
+      "width_range_mm": [
+        0.14,
+        0.17
+      ],
+      "length_convention": "Sum of every same-net track/arc centerline plus nominal outer copper midplane separation for each F-B through-via, derived from the saved stackup. Includes branches in total. Terminal contact inside pad is zero; pad propagation is omitted. This is geometry, not measured delay or whole-channel SI."
+    },
+    "DSI_CLK_N": {
+      "net": "DSI_CLK_N",
+      "terminal_pads": [
+        {
+          "reference": "J2",
+          "number": "25",
+          "xy_mm": [
+            184.65,
+            90.95
+          ]
+        },
+        {
+          "reference": "J1",
+          "number": "12",
+          "xy_mm": [
+            165.2,
+            106.75
+          ]
+        }
+      ],
+      "track_segments": 11,
+      "planar_centerline_sum_mm": 29.693628307145826,
+      "vias": 2,
+      "via_details": [
+        {
+          "xy_mm": [
+            183.55,
+            90.95
+          ],
+          "type": 3,
+          "top_layer": "F.Cu",
+          "bottom_layer": "B.Cu",
+          "is_full_through": true
+        },
+        {
+          "xy_mm": [
+            165.2,
+            105.85
+          ],
+          "type": 3,
+          "top_layer": "F.Cu",
+          "bottom_layer": "B.Cu",
+          "is_full_through": true
+        }
+      ],
+      "nominal_outer_Cu_center_via_length_mm_each": 1.565,
+      "centerline_plus_outer_Cu_center_vias_mm": 32.823628307145825,
+      "shortest_graph_terminal_contact_path_mm": 32.82362830714583,
+      "terminal_path_connected": true,
+      "graph_components": [
+        20
+      ],
+      "graph_nodes": 20,
+      "branch_nodes_degree_gt2": 0,
+      "non_outer_signal_tracks": [],
+      "width_range_mm": [
+        0.14,
+        0.17
+      ],
+      "length_convention": "Sum of every same-net track/arc centerline plus nominal outer copper midplane separation for each F-B through-via, derived from the saved stackup. Includes branches in total. Terminal contact inside pad is zero; pad propagation is omitted. This is geometry, not measured delay or whole-channel SI."
+    }
+  },
+  "DSI_pair_lengths_and_skews": [
+    {
+      "pair": "DSI_D0",
+      "P_mm": 32.823627386509955,
+      "N_mm": 32.82362744733698,
+      "absolute_skew_mm": 6.082702697085551e-08,
+      "within_0_10mm": true
+    },
+    {
+      "pair": "DSI_D1",
+      "P_mm": 32.82362621341306,
+      "N_mm": 32.82362817246836,
+      "absolute_skew_mm": 1.9590553037573954e-06,
+      "within_0_10mm": true
+    },
+    {
+      "pair": "DSI_CLK",
+      "P_mm": 32.823628933876016,
+      "N_mm": 32.823628307145825,
+      "absolute_skew_mm": 6.267301912998846e-07,
+      "within_0_10mm": true
+    }
+  ],
+  "DSI_six_conductor_spread_mm": 2.7204629589050455e-06,
+  "GND_reference_projection": {
+    "method": "Uses already-saved native filled GND polygons, unioned per copper layer. F.Cu projects onto In1.Cu; B.Cu onto In2.Cu. Every outer non-GND track sampled at <=specified pitch at center and both trace edges. Own signal-via transition holes are reported separately, not counted as reference-plane proof.",
+    "pitch_mm": 0.05,
+    "own_signal_via_transition_radius_mm": 0.65,
+    "plane_areas_and_islands": [
+      {
+        "layer": "F.Cu",
+        "filled_GND_zones": 1,
+        "union_area_mm2": 1612.396337863403,
+        "union_island_count": 5,
+        "union_island_areas_mm2": [
+          1433.7548527726444,
+          67.466873096096,
+          49.074117027019,
+          43.8331025142855,
+          18.267392453358
+        ]
+      },
+      {
+        "layer": "In1.Cu",
+        "filled_GND_zones": 1,
+        "union_area_mm2": 2122.3106054565374,
+        "union_island_count": 1,
+        "union_island_areas_mm2": [
+          2122.3106054565374
+        ]
+      },
+      {
+        "layer": "In2.Cu",
+        "filled_GND_zones": 1,
+        "union_area_mm2": 2122.3106054565374,
+        "union_island_count": 1,
+        "union_island_areas_mm2": [
+          2122.3106054565374
+        ]
+      },
+      {
+        "layer": "B.Cu",
+        "filled_GND_zones": 1,
+        "union_area_mm2": 1976.8794009532314,
+        "union_island_count": 3,
+        "union_island_areas_mm2": [
+          1875.35067597487,
+          91.1469008356375,
+          10.381824142724
+        ]
+      }
+    ],
+    "per_net_layer": [
+      {
+        "net": "BL_5V",
+        "routing_layer": "F.Cu",
+        "expected_reference_layer": "In1.Cu",
+        "track_segments": 2,
+        "sample_count": 68,
+        "centerline_covered": 68,
+        "three_width_points_covered": 68,
+        "uncovered_centerline_near_own_signal_via": 0,
+        "uncovered_centerline_away_from_own_signal_via": 0,
+        "max_distance_to_filled_GND_mm": 0,
+        "gap_examples": [],
+        "centerline_coverage_fraction": 1.0,
+        "three_probe_coverage_fraction": 1.0
+      },
+      {
+        "net": "BL_COMP",
+        "routing_layer": "F.Cu",
+        "expected_reference_layer": "In1.Cu",
+        "track_segments": 2,
+        "sample_count": 49,
+        "centerline_covered": 49,
+        "three_width_points_covered": 49,
+        "uncovered_centerline_near_own_signal_via": 0,
+        "uncovered_centerline_away_from_own_signal_via": 0,
+        "max_distance_to_filled_GND_mm": 0,
+        "gap_examples": [],
+        "centerline_coverage_fraction": 1.0,
+        "three_probe_coverage_fraction": 1.0
+      },
+      {
+        "net": "BL_CTRL",
+        "routing_layer": "F.Cu",
+        "expected_reference_layer": "In1.Cu",
+        "track_segments": 19,
+        "sample_count": 805,
+        "centerline_covered": 781,
+        "three_width_points_covered": 780,
+        "uncovered_centerline_near_own_signal_via": 24,
+        "uncovered_centerline_away_from_own_signal_via": 0,
+        "max_distance_to_filled_GND_mm": 0.500499,
+        "gap_examples": [
+          {
+            "xy_mm": [
+              158.9,
+              99.9
+            ],
+            "distance_to_filled_GND_mm": 0.500499,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "15c7f8d0-1baa-4490-b245-58e886497194"
+          },
+          {
+            "xy_mm": [
+              158.93333333333334,
+              99.86666666666667
+            ],
+            "distance_to_filled_GND_mm": 0.453359,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "15c7f8d0-1baa-4490-b245-58e886497194"
+          },
+          {
+            "xy_mm": [
+              158.96666666666667,
+              99.83333333333334
+            ],
+            "distance_to_filled_GND_mm": 0.406219,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "15c7f8d0-1baa-4490-b245-58e886497194"
+          },
+          {
+            "xy_mm": [
+              159.0,
+              99.8
+            ],
+            "distance_to_filled_GND_mm": 0.359078,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "15c7f8d0-1baa-4490-b245-58e886497194"
+          },
+          {
+            "xy_mm": [
+              159.03333333333333,
+              99.76666666666667
+            ],
+            "distance_to_filled_GND_mm": 0.311938,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "15c7f8d0-1baa-4490-b245-58e886497194"
+          },
+          {
+            "xy_mm": [
+              159.06666666666666,
+              99.73333333333333
+            ],
+            "distance_to_filled_GND_mm": 0.264798,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "15c7f8d0-1baa-4490-b245-58e886497194"
+          },
+          {
+            "xy_mm": [
+              159.1,
+              99.7
+            ],
+            "distance_to_filled_GND_mm": 0.217657,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "15c7f8d0-1baa-4490-b245-58e886497194"
+          },
+          {
+            "xy_mm": [
+              159.13333333333333,
+              99.66666666666666
+            ],
+            "distance_to_filled_GND_mm": 0.170516,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "15c7f8d0-1baa-4490-b245-58e886497194"
+          },
+          {
+            "xy_mm": [
+              159.16666666666666,
+              99.63333333333333
+            ],
+            "distance_to_filled_GND_mm": 0.123376,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "15c7f8d0-1baa-4490-b245-58e886497194"
+          },
+          {
+            "xy_mm": [
+              159.2,
+              99.6
+            ],
+            "distance_to_filled_GND_mm": 0.076236,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "15c7f8d0-1baa-4490-b245-58e886497194"
+          },
+          {
+            "xy_mm": [
+              146.20568181818183,
+              99.8
+            ],
+            "distance_to_filled_GND_mm": 0.006181,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "69fcea42-87c0-4561-8b81-1339359bbc02"
+          },
+          {
+            "xy_mm": [
+              146.25511363636363,
+              99.8
+            ],
+            "distance_to_filled_GND_mm": 0.055613,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "69fcea42-87c0-4561-8b81-1339359bbc02"
+          }
+        ],
+        "centerline_coverage_fraction": 0.9701863354037267,
+        "three_probe_coverage_fraction": 0.968944099378882
+      },
+      {
+        "net": "BL_CTRL",
+        "routing_layer": "B.Cu",
+        "expected_reference_layer": "In2.Cu",
+        "track_segments": 2,
+        "sample_count": 247,
+        "centerline_covered": 224,
+        "three_width_points_covered": 223,
+        "uncovered_centerline_near_own_signal_via": 23,
+        "uncovered_centerline_away_from_own_signal_via": 0,
+        "max_distance_to_filled_GND_mm": 0.500499,
+        "gap_examples": [
+          {
+            "xy_mm": [
+              158.8,
+              99.8
+            ],
+            "distance_to_filled_GND_mm": 0.359079,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "1854115e-c069-4927-b61e-ca80497865e7"
+          },
+          {
+            "xy_mm": [
+              158.83333333333334,
+              99.83333333333333
+            ],
+            "distance_to_filled_GND_mm": 0.406219,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "1854115e-c069-4927-b61e-ca80497865e7"
+          },
+          {
+            "xy_mm": [
+              158.86666666666667,
+              99.86666666666667
+            ],
+            "distance_to_filled_GND_mm": 0.453359,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "1854115e-c069-4927-b61e-ca80497865e7"
+          },
+          {
+            "xy_mm": [
+              158.9,
+              99.9
+            ],
+            "distance_to_filled_GND_mm": 0.500499,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "1854115e-c069-4927-b61e-ca80497865e7"
+          },
+          {
+            "xy_mm": [
+              146.7,
+              99.8
+            ],
+            "distance_to_filled_GND_mm": 0.500499,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "a098bec4-9031-4db7-b556-157d4c7bf98a"
+          },
+          {
+            "xy_mm": [
+              146.75,
+              99.8
+            ],
+            "distance_to_filled_GND_mm": 0.4505,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "a098bec4-9031-4db7-b556-157d4c7bf98a"
+          },
+          {
+            "xy_mm": [
+              146.79999999999998,
+              99.8
+            ],
+            "distance_to_filled_GND_mm": 0.400501,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "a098bec4-9031-4db7-b556-157d4c7bf98a"
+          },
+          {
+            "xy_mm": [
+              146.85,
+              99.8
+            ],
+            "distance_to_filled_GND_mm": 0.3505,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "a098bec4-9031-4db7-b556-157d4c7bf98a"
+          },
+          {
+            "xy_mm": [
+              146.89999999999998,
+              99.8
+            ],
+            "distance_to_filled_GND_mm": 0.300501,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "a098bec4-9031-4db7-b556-157d4c7bf98a"
+          },
+          {
+            "xy_mm": [
+              146.95,
+              99.8
+            ],
+            "distance_to_filled_GND_mm": 0.2505,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "a098bec4-9031-4db7-b556-157d4c7bf98a"
+          },
+          {
+            "xy_mm": [
+              147.0,
+              99.8
+            ],
+            "distance_to_filled_GND_mm": 0.2005,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "a098bec4-9031-4db7-b556-157d4c7bf98a"
+          },
+          {
+            "xy_mm": [
+              147.04999999999998,
+              99.8
+            ],
+            "distance_to_filled_GND_mm": 0.150501,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "a098bec4-9031-4db7-b556-157d4c7bf98a"
+          }
+        ],
+        "centerline_coverage_fraction": 0.9068825910931174,
+        "three_probe_coverage_fraction": 0.902834008097166
+      },
+      {
+        "net": "BL_LEDA",
+        "routing_layer": "F.Cu",
+        "expected_reference_layer": "In1.Cu",
+        "track_segments": 37,
+        "sample_count": 1140,
+        "centerline_covered": 1056,
+        "three_width_points_covered": 1052,
+        "uncovered_centerline_near_own_signal_via": 84,
+        "uncovered_centerline_away_from_own_signal_via": 0,
+        "max_distance_to_filled_GND_mm": 0.500499,
+        "gap_examples": [
+          {
+            "xy_mm": [
+              183.85,
+              98.2
+            ],
+            "distance_to_filled_GND_mm": 0.039951,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "685136ed-3884-4123-902a-45aad6376a9f"
+          },
+          {
+            "xy_mm": [
+              183.79999999999998,
+              98.2
+            ],
+            "distance_to_filled_GND_mm": 0.088248,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "685136ed-3884-4123-902a-45aad6376a9f"
+          },
+          {
+            "xy_mm": [
+              183.75,
+              98.2
+            ],
+            "distance_to_filled_GND_mm": 0.136544,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "685136ed-3884-4123-902a-45aad6376a9f"
+          },
+          {
+            "xy_mm": [
+              183.7,
+              98.2
+            ],
+            "distance_to_filled_GND_mm": 0.18484,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "685136ed-3884-4123-902a-45aad6376a9f"
+          },
+          {
+            "xy_mm": [
+              183.5,
+              98.75
+            ],
+            "distance_to_filled_GND_mm": 0.039951,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "74f2fd9c-a743-4138-82ac-273976de635a"
+          },
+          {
+            "xy_mm": [
+              183.5,
+              98.7
+            ],
+            "distance_to_filled_GND_mm": 0.088247,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "74f2fd9c-a743-4138-82ac-273976de635a"
+          },
+          {
+            "xy_mm": [
+              183.5,
+              98.65
+            ],
+            "distance_to_filled_GND_mm": 0.136544,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "74f2fd9c-a743-4138-82ac-273976de635a"
+          },
+          {
+            "xy_mm": [
+              183.5,
+              98.60000000000001
+            ],
+            "distance_to_filled_GND_mm": 0.18484,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "74f2fd9c-a743-4138-82ac-273976de635a"
+          },
+          {
+            "xy_mm": [
+              183.5,
+              98.55000000000001
+            ],
+            "distance_to_filled_GND_mm": 0.233136,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "74f2fd9c-a743-4138-82ac-273976de635a"
+          },
+          {
+            "xy_mm": [
+              183.5,
+              98.5
+            ],
+            "distance_to_filled_GND_mm": 0.277295,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "74f2fd9c-a743-4138-82ac-273976de635a"
+          },
+          {
+            "xy_mm": [
+              183.5,
+              98.45
+            ],
+            "distance_to_filled_GND_mm": 0.320596,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "74f2fd9c-a743-4138-82ac-273976de635a"
+          },
+          {
+            "xy_mm": [
+              183.5,
+              98.4
+            ],
+            "distance_to_filled_GND_mm": 0.359078,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "74f2fd9c-a743-4138-82ac-273976de635a"
+          }
+        ],
+        "centerline_coverage_fraction": 0.9263157894736842,
+        "three_probe_coverage_fraction": 0.9228070175438596
+      },
+      {
+        "net": "BL_LEDA",
+        "routing_layer": "B.Cu",
+        "expected_reference_layer": "In2.Cu",
+        "track_segments": 7,
+        "sample_count": 512,
+        "centerline_covered": 468,
+        "three_width_points_covered": 468,
+        "uncovered_centerline_near_own_signal_via": 44,
+        "uncovered_centerline_away_from_own_signal_via": 0,
+        "max_distance_to_filled_GND_mm": 0.500499,
+        "gap_examples": [
+          {
+            "xy_mm": [
+              183.74375,
+              97.95625
+            ],
+            "distance_to_filled_GND_mm": 0.014364,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "976ca558-a80e-4ae5-98c1-db6f03c0e63c"
+          },
+          {
+            "xy_mm": [
+              183.709375,
+              97.990625
+            ],
+            "distance_to_filled_GND_mm": 0.062977,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "976ca558-a80e-4ae5-98c1-db6f03c0e63c"
+          },
+          {
+            "xy_mm": [
+              183.675,
+              98.025
+            ],
+            "distance_to_filled_GND_mm": 0.111591,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "976ca558-a80e-4ae5-98c1-db6f03c0e63c"
+          },
+          {
+            "xy_mm": [
+              183.640625,
+              98.059375
+            ],
+            "distance_to_filled_GND_mm": 0.160204,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "976ca558-a80e-4ae5-98c1-db6f03c0e63c"
+          },
+          {
+            "xy_mm": [
+              183.60625000000002,
+              98.09375
+            ],
+            "distance_to_filled_GND_mm": 0.208818,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "976ca558-a80e-4ae5-98c1-db6f03c0e63c"
+          },
+          {
+            "xy_mm": [
+              183.571875,
+              98.128125
+            ],
+            "distance_to_filled_GND_mm": 0.257432,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "976ca558-a80e-4ae5-98c1-db6f03c0e63c"
+          },
+          {
+            "xy_mm": [
+              183.5375,
+              98.1625
+            ],
+            "distance_to_filled_GND_mm": 0.306045,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "976ca558-a80e-4ae5-98c1-db6f03c0e63c"
+          },
+          {
+            "xy_mm": [
+              183.503125,
+              98.19687499999999
+            ],
+            "distance_to_filled_GND_mm": 0.354658,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "976ca558-a80e-4ae5-98c1-db6f03c0e63c"
+          },
+          {
+            "xy_mm": [
+              183.46875,
+              98.23125
+            ],
+            "distance_to_filled_GND_mm": 0.403272,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "976ca558-a80e-4ae5-98c1-db6f03c0e63c"
+          },
+          {
+            "xy_mm": [
+              183.43437500000002,
+              98.265625
+            ],
+            "distance_to_filled_GND_mm": 0.451886,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "976ca558-a80e-4ae5-98c1-db6f03c0e63c"
+          },
+          {
+            "xy_mm": [
+              183.4,
+              98.3
+            ],
+            "distance_to_filled_GND_mm": 0.500499,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "976ca558-a80e-4ae5-98c1-db6f03c0e63c"
+          },
+          {
+            "xy_mm": [
+              155.5,
+              101.3
+            ],
+            "distance_to_filled_GND_mm": 0.500499,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "cbd87d4d-87b3-4de7-a2d7-514b794f2196"
+          }
+        ],
+        "centerline_coverage_fraction": 0.9140625,
+        "three_probe_coverage_fraction": 0.9140625
+      },
+      {
+        "net": "BL_LEDK",
+        "routing_layer": "F.Cu",
+        "expected_reference_layer": "In1.Cu",
+        "track_segments": 16,
+        "sample_count": 333,
+        "centerline_covered": 311,
+        "three_width_points_covered": 311,
+        "uncovered_centerline_near_own_signal_via": 22,
+        "uncovered_centerline_away_from_own_signal_via": 0,
+        "max_distance_to_filled_GND_mm": 0.500499,
+        "gap_examples": [
+          {
+            "xy_mm": [
+              163.4,
+              105.6
+            ],
+            "distance_to_filled_GND_mm": 0.500499,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "185fa983-0938-4866-ba29-ec1ceb15a9ed"
+          },
+          {
+            "xy_mm": [
+              163.36470588235295,
+              105.56470588235294
+            ],
+            "distance_to_filled_GND_mm": 0.450586,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "185fa983-0938-4866-ba29-ec1ceb15a9ed"
+          },
+          {
+            "xy_mm": [
+              163.3294117647059,
+              105.52941176470588
+            ],
+            "distance_to_filled_GND_mm": 0.400672,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "185fa983-0938-4866-ba29-ec1ceb15a9ed"
+          },
+          {
+            "xy_mm": [
+              163.29411764705884,
+              105.49411764705881
+            ],
+            "distance_to_filled_GND_mm": 0.350759,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "185fa983-0938-4866-ba29-ec1ceb15a9ed"
+          },
+          {
+            "xy_mm": [
+              163.25882352941176,
+              105.45882352941176
+            ],
+            "distance_to_filled_GND_mm": 0.300846,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "185fa983-0938-4866-ba29-ec1ceb15a9ed"
+          },
+          {
+            "xy_mm": [
+              163.2235294117647,
+              105.4235294117647
+            ],
+            "distance_to_filled_GND_mm": 0.250933,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "185fa983-0938-4866-ba29-ec1ceb15a9ed"
+          },
+          {
+            "xy_mm": [
+              163.18823529411765,
+              105.38823529411764
+            ],
+            "distance_to_filled_GND_mm": 0.201019,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "185fa983-0938-4866-ba29-ec1ceb15a9ed"
+          },
+          {
+            "xy_mm": [
+              163.1529411764706,
+              105.35294117647058
+            ],
+            "distance_to_filled_GND_mm": 0.151106,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "185fa983-0938-4866-ba29-ec1ceb15a9ed"
+          },
+          {
+            "xy_mm": [
+              163.11764705882354,
+              105.31764705882352
+            ],
+            "distance_to_filled_GND_mm": 0.101193,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "185fa983-0938-4866-ba29-ec1ceb15a9ed"
+          },
+          {
+            "xy_mm": [
+              163.08235294117648,
+              105.28235294117647
+            ],
+            "distance_to_filled_GND_mm": 0.051278,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "185fa983-0938-4866-ba29-ec1ceb15a9ed"
+          },
+          {
+            "xy_mm": [
+              163.04705882352943,
+              105.24705882352941
+            ],
+            "distance_to_filled_GND_mm": 0.001365,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "185fa983-0938-4866-ba29-ec1ceb15a9ed"
+          },
+          {
+            "xy_mm": [
+              182.6,
+              98.3
+            ],
+            "distance_to_filled_GND_mm": 0.0005,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "c236616f-7502-4c1b-a864-4f50cb2bd37c"
+          }
+        ],
+        "centerline_coverage_fraction": 0.933933933933934,
+        "three_probe_coverage_fraction": 0.933933933933934
+      },
+      {
+        "net": "BL_LEDK",
+        "routing_layer": "B.Cu",
+        "expected_reference_layer": "In2.Cu",
+        "track_segments": 3,
+        "sample_count": 461,
+        "centerline_covered": 439,
+        "three_width_points_covered": 439,
+        "uncovered_centerline_near_own_signal_via": 22,
+        "uncovered_centerline_away_from_own_signal_via": 0,
+        "max_distance_to_filled_GND_mm": 0.500499,
+        "gap_examples": [
+          {
+            "xy_mm": [
+              182.6,
+              98.8
+            ],
+            "distance_to_filled_GND_mm": 0.500499,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "3da59dc0-eb2c-45b4-a04b-78064adcb27d"
+          },
+          {
+            "xy_mm": [
+              182.56470588235294,
+              98.83529411764705
+            ],
+            "distance_to_filled_GND_mm": 0.450586,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "3da59dc0-eb2c-45b4-a04b-78064adcb27d"
+          },
+          {
+            "xy_mm": [
+              182.52941176470588,
+              98.87058823529412
+            ],
+            "distance_to_filled_GND_mm": 0.400672,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "3da59dc0-eb2c-45b4-a04b-78064adcb27d"
+          },
+          {
+            "xy_mm": [
+              182.49411764705883,
+              98.90588235294118
+            ],
+            "distance_to_filled_GND_mm": 0.350759,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "3da59dc0-eb2c-45b4-a04b-78064adcb27d"
+          },
+          {
+            "xy_mm": [
+              182.45882352941175,
+              98.94117647058823
+            ],
+            "distance_to_filled_GND_mm": 0.300846,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "3da59dc0-eb2c-45b4-a04b-78064adcb27d"
+          },
+          {
+            "xy_mm": [
+              182.4235294117647,
+              98.97647058823529
+            ],
+            "distance_to_filled_GND_mm": 0.250933,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "3da59dc0-eb2c-45b4-a04b-78064adcb27d"
+          },
+          {
+            "xy_mm": [
+              182.38823529411764,
+              99.01176470588236
+            ],
+            "distance_to_filled_GND_mm": 0.201019,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "3da59dc0-eb2c-45b4-a04b-78064adcb27d"
+          },
+          {
+            "xy_mm": [
+              182.35294117647058,
+              99.04705882352941
+            ],
+            "distance_to_filled_GND_mm": 0.151106,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "3da59dc0-eb2c-45b4-a04b-78064adcb27d"
+          },
+          {
+            "xy_mm": [
+              182.31764705882352,
+              99.08235294117647
+            ],
+            "distance_to_filled_GND_mm": 0.101193,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "3da59dc0-eb2c-45b4-a04b-78064adcb27d"
+          },
+          {
+            "xy_mm": [
+              182.28235294117647,
+              99.11764705882352
+            ],
+            "distance_to_filled_GND_mm": 0.051278,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "3da59dc0-eb2c-45b4-a04b-78064adcb27d"
+          },
+          {
+            "xy_mm": [
+              182.24705882352941,
+              99.15294117647059
+            ],
+            "distance_to_filled_GND_mm": 0.001365,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "3da59dc0-eb2c-45b4-a04b-78064adcb27d"
+          },
+          {
+            "xy_mm": [
+              163.7448275862069,
+              105.94482758620688
+            ],
+            "distance_to_filled_GND_mm": 0.012841,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "89c3a6f4-defc-4a14-b36e-9478e4393587"
+          }
+        ],
+        "centerline_coverage_fraction": 0.9522776572668112,
+        "three_probe_coverage_fraction": 0.9522776572668112
+      },
+      {
+        "net": "BL_POWER",
+        "routing_layer": "F.Cu",
+        "expected_reference_layer": "In1.Cu",
+        "track_segments": 20,
+        "sample_count": 901,
+        "centerline_covered": 901,
+        "three_width_points_covered": 901,
+        "uncovered_centerline_near_own_signal_via": 0,
+        "uncovered_centerline_away_from_own_signal_via": 0,
+        "max_distance_to_filled_GND_mm": 0,
+        "gap_examples": [],
+        "centerline_coverage_fraction": 1.0,
+        "three_probe_coverage_fraction": 1.0
+      },
+      {
+        "net": "BL_PWM_RAW",
+        "routing_layer": "F.Cu",
+        "expected_reference_layer": "In1.Cu",
+        "track_segments": 3,
+        "sample_count": 79,
+        "centerline_covered": 55,
+        "three_width_points_covered": 55,
+        "uncovered_centerline_near_own_signal_via": 0,
+        "uncovered_centerline_away_from_own_signal_via": 24,
+        "max_distance_to_filled_GND_mm": 1.0655,
+        "gap_examples": [
+          {
+            "xy_mm": [
+              159.39999999999998,
+              75.7
+            ],
+            "distance_to_filled_GND_mm": 0.015499,
+            "within_signal_via_transition_radius": false,
+            "track_uuid": "4fa02a71-40e4-452d-b12b-1e289ca8004c"
+          },
+          {
+            "xy_mm": [
+              159.45,
+              75.7
+            ],
+            "distance_to_filled_GND_mm": 0.0655,
+            "within_signal_via_transition_radius": false,
+            "track_uuid": "4fa02a71-40e4-452d-b12b-1e289ca8004c"
+          },
+          {
+            "xy_mm": [
+              159.5,
+              75.7
+            ],
+            "distance_to_filled_GND_mm": 0.1155,
+            "within_signal_via_transition_radius": false,
+            "track_uuid": "4fa02a71-40e4-452d-b12b-1e289ca8004c"
+          },
+          {
+            "xy_mm": [
+              159.54999999999998,
+              75.7
+            ],
+            "distance_to_filled_GND_mm": 0.165499,
+            "within_signal_via_transition_radius": false,
+            "track_uuid": "4fa02a71-40e4-452d-b12b-1e289ca8004c"
+          },
+          {
+            "xy_mm": [
+              159.6,
+              75.7
+            ],
+            "distance_to_filled_GND_mm": 0.2155,
+            "within_signal_via_transition_radius": false,
+            "track_uuid": "4fa02a71-40e4-452d-b12b-1e289ca8004c"
+          },
+          {
+            "xy_mm": [
+              159.64999999999998,
+              75.7
+            ],
+            "distance_to_filled_GND_mm": 0.265499,
+            "within_signal_via_transition_radius": false,
+            "track_uuid": "4fa02a71-40e4-452d-b12b-1e289ca8004c"
+          },
+          {
+            "xy_mm": [
+              159.7,
+              75.7
+            ],
+            "distance_to_filled_GND_mm": 0.3155,
+            "within_signal_via_transition_radius": false,
+            "track_uuid": "4fa02a71-40e4-452d-b12b-1e289ca8004c"
+          },
+          {
+            "xy_mm": [
+              159.75,
+              75.7
+            ],
+            "distance_to_filled_GND_mm": 0.3655,
+            "within_signal_via_transition_radius": false,
+            "track_uuid": "4fa02a71-40e4-452d-b12b-1e289ca8004c"
+          },
+          {
+            "xy_mm": [
+              159.79999999999998,
+              75.7
+            ],
+            "distance_to_filled_GND_mm": 0.415499,
+            "within_signal_via_transition_radius": false,
+            "track_uuid": "4fa02a71-40e4-452d-b12b-1e289ca8004c"
+          },
+          {
+            "xy_mm": [
+              159.85,
+              75.7
+            ],
+            "distance_to_filled_GND_mm": 0.4655,
+            "within_signal_via_transition_radius": false,
+            "track_uuid": "4fa02a71-40e4-452d-b12b-1e289ca8004c"
+          },
+          {
+            "xy_mm": [
+              159.89999999999998,
+              75.7
+            ],
+            "distance_to_filled_GND_mm": 0.515499,
+            "within_signal_via_transition_radius": false,
+            "track_uuid": "4fa02a71-40e4-452d-b12b-1e289ca8004c"
+          },
+          {
+            "xy_mm": [
+              159.95,
+              75.7
+            ],
+            "distance_to_filled_GND_mm": 0.5655,
+            "within_signal_via_transition_radius": false,
+            "track_uuid": "4fa02a71-40e4-452d-b12b-1e289ca8004c"
+          }
+        ],
+        "centerline_coverage_fraction": 0.6962025316455697,
+        "three_probe_coverage_fraction": 0.6962025316455697
+      },
+      {
+        "net": "BL_SW",
+        "routing_layer": "F.Cu",
+        "expected_reference_layer": "In1.Cu",
+        "track_segments": 5,
+        "sample_count": 118,
+        "centerline_covered": 118,
+        "three_width_points_covered": 118,
+        "uncovered_centerline_near_own_signal_via": 0,
+        "uncovered_centerline_away_from_own_signal_via": 0,
+        "max_distance_to_filled_GND_mm": 0,
+        "gap_examples": [],
+        "centerline_coverage_fraction": 1.0,
+        "three_probe_coverage_fraction": 1.0
+      },
+      {
+        "net": "DSI_CLK_N",
+        "routing_layer": "F.Cu",
+        "expected_reference_layer": "In1.Cu",
+        "track_segments": 2,
+        "sample_count": 42,
+        "centerline_covered": 20,
+        "three_width_points_covered": 20,
+        "uncovered_centerline_near_own_signal_via": 22,
+        "uncovered_centerline_away_from_own_signal_via": 0,
+        "max_distance_to_filled_GND_mm": 0.500499,
+        "gap_examples": [
+          {
+            "xy_mm": [
+              183.55,
+              90.95
+            ],
+            "distance_to_filled_GND_mm": 0.500499,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "14c21d39-e061-4859-b614-971b2ad67fc9"
+          },
+          {
+            "xy_mm": [
+              183.60000000000002,
+              90.95
+            ],
+            "distance_to_filled_GND_mm": 0.4505,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "14c21d39-e061-4859-b614-971b2ad67fc9"
+          },
+          {
+            "xy_mm": [
+              183.65,
+              90.95
+            ],
+            "distance_to_filled_GND_mm": 0.4005,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "14c21d39-e061-4859-b614-971b2ad67fc9"
+          },
+          {
+            "xy_mm": [
+              183.70000000000002,
+              90.95
+            ],
+            "distance_to_filled_GND_mm": 0.3505,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "14c21d39-e061-4859-b614-971b2ad67fc9"
+          },
+          {
+            "xy_mm": [
+              183.75,
+              90.95
+            ],
+            "distance_to_filled_GND_mm": 0.3005,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "14c21d39-e061-4859-b614-971b2ad67fc9"
+          },
+          {
+            "xy_mm": [
+              183.8,
+              90.95
+            ],
+            "distance_to_filled_GND_mm": 0.2505,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "14c21d39-e061-4859-b614-971b2ad67fc9"
+          },
+          {
+            "xy_mm": [
+              183.85000000000002,
+              90.95
+            ],
+            "distance_to_filled_GND_mm": 0.2005,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "14c21d39-e061-4859-b614-971b2ad67fc9"
+          },
+          {
+            "xy_mm": [
+              183.9,
+              90.95
+            ],
+            "distance_to_filled_GND_mm": 0.1505,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "14c21d39-e061-4859-b614-971b2ad67fc9"
+          },
+          {
+            "xy_mm": [
+              183.95000000000002,
+              90.95
+            ],
+            "distance_to_filled_GND_mm": 0.1005,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "14c21d39-e061-4859-b614-971b2ad67fc9"
+          },
+          {
+            "xy_mm": [
+              184.0,
+              90.95
+            ],
+            "distance_to_filled_GND_mm": 0.0505,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "14c21d39-e061-4859-b614-971b2ad67fc9"
+          },
+          {
+            "xy_mm": [
+              184.05,
+              90.95
+            ],
+            "distance_to_filled_GND_mm": 0.0005,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "14c21d39-e061-4859-b614-971b2ad67fc9"
+          },
+          {
+            "xy_mm": [
+              165.2,
+              106.35
+            ],
+            "distance_to_filled_GND_mm": 0.0005,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "6add836a-5c16-4d09-96b5-6d1c97dd58fd"
+          }
+        ],
+        "centerline_coverage_fraction": 0.47619047619047616,
+        "three_probe_coverage_fraction": 0.47619047619047616
+      },
+      {
+        "net": "DSI_CLK_N",
+        "routing_layer": "B.Cu",
+        "expected_reference_layer": "In2.Cu",
+        "track_segments": 9,
+        "sample_count": 567,
+        "centerline_covered": 544,
+        "three_width_points_covered": 543,
+        "uncovered_centerline_near_own_signal_via": 23,
+        "uncovered_centerline_away_from_own_signal_via": 0,
+        "max_distance_to_filled_GND_mm": 0.500499,
+        "gap_examples": [
+          {
+            "xy_mm": [
+              183.24,
+              90.64
+            ],
+            "distance_to_filled_GND_mm": 0.062094,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "2065ad8b-867c-4b45-885b-444488638bdb"
+          },
+          {
+            "xy_mm": [
+              183.27444444444444,
+              90.67444444444445
+            ],
+            "distance_to_filled_GND_mm": 0.110805,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "2065ad8b-867c-4b45-885b-444488638bdb"
+          },
+          {
+            "xy_mm": [
+              183.3088888888889,
+              90.7088888888889
+            ],
+            "distance_to_filled_GND_mm": 0.159516,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "2065ad8b-867c-4b45-885b-444488638bdb"
+          },
+          {
+            "xy_mm": [
+              183.34333333333333,
+              90.74333333333334
+            ],
+            "distance_to_filled_GND_mm": 0.208229,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "2065ad8b-867c-4b45-885b-444488638bdb"
+          },
+          {
+            "xy_mm": [
+              183.3777777777778,
+              90.77777777777779
+            ],
+            "distance_to_filled_GND_mm": 0.25694,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "2065ad8b-867c-4b45-885b-444488638bdb"
+          },
+          {
+            "xy_mm": [
+              183.41222222222223,
+              90.81222222222222
+            ],
+            "distance_to_filled_GND_mm": 0.305653,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "2065ad8b-867c-4b45-885b-444488638bdb"
+          },
+          {
+            "xy_mm": [
+              183.4466666666667,
+              90.84666666666666
+            ],
+            "distance_to_filled_GND_mm": 0.354364,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "2065ad8b-867c-4b45-885b-444488638bdb"
+          },
+          {
+            "xy_mm": [
+              183.48111111111112,
+              90.88111111111111
+            ],
+            "distance_to_filled_GND_mm": 0.403077,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "2065ad8b-867c-4b45-885b-444488638bdb"
+          },
+          {
+            "xy_mm": [
+              183.51555555555558,
+              90.91555555555556
+            ],
+            "distance_to_filled_GND_mm": 0.451788,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "2065ad8b-867c-4b45-885b-444488638bdb"
+          },
+          {
+            "xy_mm": [
+              183.55,
+              90.95
+            ],
+            "distance_to_filled_GND_mm": 0.500499,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "2065ad8b-867c-4b45-885b-444488638bdb"
+          },
+          {
+            "xy_mm": [
+              165.2,
+              105.85
+            ],
+            "distance_to_filled_GND_mm": 0.500499,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "44825d18-5c25-4b6c-8a1e-4c2b3d27665d"
+          },
+          {
+            "xy_mm": [
+              165.2,
+              105.8
+            ],
+            "distance_to_filled_GND_mm": 0.4505,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "44825d18-5c25-4b6c-8a1e-4c2b3d27665d"
+          }
+        ],
+        "centerline_coverage_fraction": 0.9594356261022927,
+        "three_probe_coverage_fraction": 0.9576719576719577
+      },
+      {
+        "net": "DSI_CLK_P",
+        "routing_layer": "F.Cu",
+        "expected_reference_layer": "In1.Cu",
+        "track_segments": 2,
+        "sample_count": 52,
+        "centerline_covered": 30,
+        "three_width_points_covered": 30,
+        "uncovered_centerline_near_own_signal_via": 22,
+        "uncovered_centerline_away_from_own_signal_via": 0,
+        "max_distance_to_filled_GND_mm": 0.5005,
+        "gap_examples": [
+          {
+            "xy_mm": [
+              182.8,
+              91.25
+            ],
+            "distance_to_filled_GND_mm": 0.500499,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "7e2860de-f69e-4722-aaf8-636c67f07bd2"
+          },
+          {
+            "xy_mm": [
+              182.7511904761905,
+              91.25
+            ],
+            "distance_to_filled_GND_mm": 0.45169,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "7e2860de-f69e-4722-aaf8-636c67f07bd2"
+          },
+          {
+            "xy_mm": [
+              182.70238095238096,
+              91.25
+            ],
+            "distance_to_filled_GND_mm": 0.40288,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "7e2860de-f69e-4722-aaf8-636c67f07bd2"
+          },
+          {
+            "xy_mm": [
+              182.65357142857144,
+              91.25
+            ],
+            "distance_to_filled_GND_mm": 0.354071,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "7e2860de-f69e-4722-aaf8-636c67f07bd2"
+          },
+          {
+            "xy_mm": [
+              182.60476190476192,
+              91.25
+            ],
+            "distance_to_filled_GND_mm": 0.305261,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "7e2860de-f69e-4722-aaf8-636c67f07bd2"
+          },
+          {
+            "xy_mm": [
+              182.5559523809524,
+              91.25
+            ],
+            "distance_to_filled_GND_mm": 0.256452,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "7e2860de-f69e-4722-aaf8-636c67f07bd2"
+          },
+          {
+            "xy_mm": [
+              182.50714285714287,
+              91.25
+            ],
+            "distance_to_filled_GND_mm": 0.207642,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "7e2860de-f69e-4722-aaf8-636c67f07bd2"
+          },
+          {
+            "xy_mm": [
+              182.45833333333334,
+              91.25
+            ],
+            "distance_to_filled_GND_mm": 0.158833,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "7e2860de-f69e-4722-aaf8-636c67f07bd2"
+          },
+          {
+            "xy_mm": [
+              182.40952380952382,
+              91.25
+            ],
+            "distance_to_filled_GND_mm": 0.110023,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "7e2860de-f69e-4722-aaf8-636c67f07bd2"
+          },
+          {
+            "xy_mm": [
+              182.3607142857143,
+              91.25
+            ],
+            "distance_to_filled_GND_mm": 0.061214,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "7e2860de-f69e-4722-aaf8-636c67f07bd2"
+          },
+          {
+            "xy_mm": [
+              182.31190476190477,
+              91.25
+            ],
+            "distance_to_filled_GND_mm": 0.012404,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "7e2860de-f69e-4722-aaf8-636c67f07bd2"
+          },
+          {
+            "xy_mm": [
+              165.8,
+              105.8
+            ],
+            "distance_to_filled_GND_mm": 0.0005,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "dd566c4f-8e54-4a2c-80b6-7ebc1ccdea37"
+          }
+        ],
+        "centerline_coverage_fraction": 0.5769230769230769,
+        "three_probe_coverage_fraction": 0.5769230769230769
+      },
+      {
+        "net": "DSI_CLK_P",
+        "routing_layer": "B.Cu",
+        "expected_reference_layer": "In2.Cu",
+        "track_segments": 14,
+        "sample_count": 566,
+        "centerline_covered": 542,
+        "three_width_points_covered": 542,
+        "uncovered_centerline_near_own_signal_via": 24,
+        "uncovered_centerline_away_from_own_signal_via": 0,
+        "max_distance_to_filled_GND_mm": 0.5005,
+        "gap_examples": [
+          {
+            "xy_mm": [
+              182.31219512195122,
+              91.25243902439024
+            ],
+            "distance_to_filled_GND_mm": 0.012695,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "14940db7-b2ba-49cb-b825-558d9f26ac01"
+          },
+          {
+            "xy_mm": [
+              182.3609756097561,
+              91.25219512195122
+            ],
+            "distance_to_filled_GND_mm": 0.061475,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "14940db7-b2ba-49cb-b825-558d9f26ac01"
+          },
+          {
+            "xy_mm": [
+              182.409756097561,
+              91.2519512195122
+            ],
+            "distance_to_filled_GND_mm": 0.110256,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "14940db7-b2ba-49cb-b825-558d9f26ac01"
+          },
+          {
+            "xy_mm": [
+              182.45853658536586,
+              91.25170731707317
+            ],
+            "distance_to_filled_GND_mm": 0.159036,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "14940db7-b2ba-49cb-b825-558d9f26ac01"
+          },
+          {
+            "xy_mm": [
+              182.50731707317075,
+              91.25146341463415
+            ],
+            "distance_to_filled_GND_mm": 0.207817,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "14940db7-b2ba-49cb-b825-558d9f26ac01"
+          },
+          {
+            "xy_mm": [
+              182.55609756097562,
+              91.25121951219512
+            ],
+            "distance_to_filled_GND_mm": 0.256597,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "14940db7-b2ba-49cb-b825-558d9f26ac01"
+          },
+          {
+            "xy_mm": [
+              182.6048780487805,
+              91.2509756097561
+            ],
+            "distance_to_filled_GND_mm": 0.305378,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "14940db7-b2ba-49cb-b825-558d9f26ac01"
+          },
+          {
+            "xy_mm": [
+              182.65365853658537,
+              91.25073170731707
+            ],
+            "distance_to_filled_GND_mm": 0.354158,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "14940db7-b2ba-49cb-b825-558d9f26ac01"
+          },
+          {
+            "xy_mm": [
+              182.70243902439026,
+              91.25048780487805
+            ],
+            "distance_to_filled_GND_mm": 0.402939,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "14940db7-b2ba-49cb-b825-558d9f26ac01"
+          },
+          {
+            "xy_mm": [
+              182.75121951219512,
+              91.25024390243902
+            ],
+            "distance_to_filled_GND_mm": 0.451719,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "14940db7-b2ba-49cb-b825-558d9f26ac01"
+          },
+          {
+            "xy_mm": [
+              182.8,
+              91.25
+            ],
+            "distance_to_filled_GND_mm": 0.500499,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "14940db7-b2ba-49cb-b825-558d9f26ac01"
+          },
+          {
+            "xy_mm": [
+              165.8,
+              105.3
+            ],
+            "distance_to_filled_GND_mm": 0.5005,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "1c210014-04f7-47b8-829c-a5eacca17350"
+          }
+        ],
+        "centerline_coverage_fraction": 0.9575971731448764,
+        "three_probe_coverage_fraction": 0.9575971731448764
+      },
+      {
+        "net": "DSI_D0_N",
+        "routing_layer": "F.Cu",
+        "expected_reference_layer": "In1.Cu",
+        "track_segments": 16,
+        "sample_count": 492,
+        "centerline_covered": 470,
+        "three_width_points_covered": 470,
+        "uncovered_centerline_near_own_signal_via": 22,
+        "uncovered_centerline_away_from_own_signal_via": 0,
+        "max_distance_to_filled_GND_mm": 0.500499,
+        "gap_examples": [
+          {
+            "xy_mm": [
+              179.71020408163264,
+              96.88979591836734
+            ],
+            "distance_to_filled_GND_mm": 0.004153,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "3ce673b0-ef8b-4df3-ad25-05b06073178f"
+          },
+          {
+            "xy_mm": [
+              179.75918367346938,
+              96.8808163265306
+            ],
+            "distance_to_filled_GND_mm": 0.053787,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "3ce673b0-ef8b-4df3-ad25-05b06073178f"
+          },
+          {
+            "xy_mm": [
+              179.80816326530612,
+              96.87183673469387
+            ],
+            "distance_to_filled_GND_mm": 0.103422,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "3ce673b0-ef8b-4df3-ad25-05b06073178f"
+          },
+          {
+            "xy_mm": [
+              179.85714285714286,
+              96.86285714285714
+            ],
+            "distance_to_filled_GND_mm": 0.153056,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "3ce673b0-ef8b-4df3-ad25-05b06073178f"
+          },
+          {
+            "xy_mm": [
+              179.90612244897957,
+              96.8538775510204
+            ],
+            "distance_to_filled_GND_mm": 0.202691,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "3ce673b0-ef8b-4df3-ad25-05b06073178f"
+          },
+          {
+            "xy_mm": [
+              179.9551020408163,
+              96.84489795918367
+            ],
+            "distance_to_filled_GND_mm": 0.252327,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "3ce673b0-ef8b-4df3-ad25-05b06073178f"
+          },
+          {
+            "xy_mm": [
+              180.00408163265305,
+              96.83591836734693
+            ],
+            "distance_to_filled_GND_mm": 0.301961,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "3ce673b0-ef8b-4df3-ad25-05b06073178f"
+          },
+          {
+            "xy_mm": [
+              180.0530612244898,
+              96.8269387755102
+            ],
+            "distance_to_filled_GND_mm": 0.351596,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "3ce673b0-ef8b-4df3-ad25-05b06073178f"
+          },
+          {
+            "xy_mm": [
+              180.1020408163265,
+              96.81795918367347
+            ],
+            "distance_to_filled_GND_mm": 0.40123,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "3ce673b0-ef8b-4df3-ad25-05b06073178f"
+          },
+          {
+            "xy_mm": [
+              180.15102040816325,
+              96.80897959183673
+            ],
+            "distance_to_filled_GND_mm": 0.450865,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "3ce673b0-ef8b-4df3-ad25-05b06073178f"
+          },
+          {
+            "xy_mm": [
+              180.2,
+              96.8
+            ],
+            "distance_to_filled_GND_mm": 0.500499,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "3ce673b0-ef8b-4df3-ad25-05b06073178f"
+          },
+          {
+            "xy_mm": [
+              183.55,
+              93.35
+            ],
+            "distance_to_filled_GND_mm": 0.500499,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "e644d0d9-ed6a-4d17-89ff-45e03be3e608"
+          }
+        ],
+        "centerline_coverage_fraction": 0.9552845528455285,
+        "three_probe_coverage_fraction": 0.9552845528455285
+      },
+      {
+        "net": "DSI_D0_N",
+        "routing_layer": "B.Cu",
+        "expected_reference_layer": "In2.Cu",
+        "track_segments": 6,
+        "sample_count": 133,
+        "centerline_covered": 111,
+        "three_width_points_covered": 104,
+        "uncovered_centerline_near_own_signal_via": 22,
+        "uncovered_centerline_away_from_own_signal_via": 0,
+        "max_distance_to_filled_GND_mm": 0.500499,
+        "gap_examples": [
+          {
+            "xy_mm": [
+              183.55,
+              93.81928083333334
+            ],
+            "distance_to_filled_GND_mm": 0.03122,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "330584c9-76a9-47f5-889b-09405ac425a9"
+          },
+          {
+            "xy_mm": [
+              183.55,
+              93.77235275000001
+            ],
+            "distance_to_filled_GND_mm": 0.078148,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "330584c9-76a9-47f5-889b-09405ac425a9"
+          },
+          {
+            "xy_mm": [
+              183.55,
+              93.72542466666667
+            ],
+            "distance_to_filled_GND_mm": 0.125076,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "330584c9-76a9-47f5-889b-09405ac425a9"
+          },
+          {
+            "xy_mm": [
+              183.55,
+              93.67849658333333
+            ],
+            "distance_to_filled_GND_mm": 0.172004,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "330584c9-76a9-47f5-889b-09405ac425a9"
+          },
+          {
+            "xy_mm": [
+              183.55,
+              93.6315685
+            ],
+            "distance_to_filled_GND_mm": 0.218932,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "330584c9-76a9-47f5-889b-09405ac425a9"
+          },
+          {
+            "xy_mm": [
+              183.55,
+              93.58464041666667
+            ],
+            "distance_to_filled_GND_mm": 0.26586,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "330584c9-76a9-47f5-889b-09405ac425a9"
+          },
+          {
+            "xy_mm": [
+              183.55,
+              93.53771233333333
+            ],
+            "distance_to_filled_GND_mm": 0.312788,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "330584c9-76a9-47f5-889b-09405ac425a9"
+          },
+          {
+            "xy_mm": [
+              183.55,
+              93.49078424999999
+            ],
+            "distance_to_filled_GND_mm": 0.359716,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "330584c9-76a9-47f5-889b-09405ac425a9"
+          },
+          {
+            "xy_mm": [
+              183.55,
+              93.44385616666666
+            ],
+            "distance_to_filled_GND_mm": 0.406644,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "330584c9-76a9-47f5-889b-09405ac425a9"
+          },
+          {
+            "xy_mm": [
+              183.55,
+              93.39692808333334
+            ],
+            "distance_to_filled_GND_mm": 0.453572,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "330584c9-76a9-47f5-889b-09405ac425a9"
+          },
+          {
+            "xy_mm": [
+              183.55,
+              93.35
+            ],
+            "distance_to_filled_GND_mm": 0.500499,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "330584c9-76a9-47f5-889b-09405ac425a9"
+          },
+          {
+            "xy_mm": [
+              180.2,
+              96.8
+            ],
+            "distance_to_filled_GND_mm": 0.500499,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "6e450c23-39ed-4eff-bc75-64e7412c1043"
+          }
+        ],
+        "centerline_coverage_fraction": 0.8345864661654135,
+        "three_probe_coverage_fraction": 0.7819548872180451
+      },
+      {
+        "net": "DSI_D0_P",
+        "routing_layer": "F.Cu",
+        "expected_reference_layer": "In1.Cu",
+        "track_segments": 24,
+        "sample_count": 499,
+        "centerline_covered": 477,
+        "three_width_points_covered": 477,
+        "uncovered_centerline_near_own_signal_via": 22,
+        "uncovered_centerline_away_from_own_signal_via": 0,
+        "max_distance_to_filled_GND_mm": 0.500499,
+        "gap_examples": [
+          {
+            "xy_mm": [
+              178.17894736842106,
+              97.76842105263158
+            ],
+            "distance_to_filled_GND_mm": 0.020068,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "b9acb279-6726-4e7d-a4e8-5f96d3cacc05"
+          },
+          {
+            "xy_mm": [
+              178.22105263157894,
+              97.79157894736842
+            ],
+            "distance_to_filled_GND_mm": 0.068111,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "b9acb279-6726-4e7d-a4e8-5f96d3cacc05"
+          },
+          {
+            "xy_mm": [
+              178.26315789473685,
+              97.81473684210526
+            ],
+            "distance_to_filled_GND_mm": 0.116154,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "b9acb279-6726-4e7d-a4e8-5f96d3cacc05"
+          },
+          {
+            "xy_mm": [
+              178.30526315789473,
+              97.8378947368421
+            ],
+            "distance_to_filled_GND_mm": 0.164198,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "b9acb279-6726-4e7d-a4e8-5f96d3cacc05"
+          },
+          {
+            "xy_mm": [
+              178.34736842105264,
+              97.86105263157894
+            ],
+            "distance_to_filled_GND_mm": 0.212241,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "b9acb279-6726-4e7d-a4e8-5f96d3cacc05"
+          },
+          {
+            "xy_mm": [
+              178.38947368421051,
+              97.88421052631578
+            ],
+            "distance_to_filled_GND_mm": 0.260284,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "b9acb279-6726-4e7d-a4e8-5f96d3cacc05"
+          },
+          {
+            "xy_mm": [
+              178.43157894736842,
+              97.90736842105264
+            ],
+            "distance_to_filled_GND_mm": 0.308327,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "b9acb279-6726-4e7d-a4e8-5f96d3cacc05"
+          },
+          {
+            "xy_mm": [
+              178.4736842105263,
+              97.93052631578948
+            ],
+            "distance_to_filled_GND_mm": 0.356371,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "b9acb279-6726-4e7d-a4e8-5f96d3cacc05"
+          },
+          {
+            "xy_mm": [
+              178.5157894736842,
+              97.95368421052632
+            ],
+            "distance_to_filled_GND_mm": 0.404414,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "b9acb279-6726-4e7d-a4e8-5f96d3cacc05"
+          },
+          {
+            "xy_mm": [
+              178.5578947368421,
+              97.97684210526316
+            ],
+            "distance_to_filled_GND_mm": 0.452457,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "b9acb279-6726-4e7d-a4e8-5f96d3cacc05"
+          },
+          {
+            "xy_mm": [
+              178.6,
+              98.0
+            ],
+            "distance_to_filled_GND_mm": 0.500499,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "b9acb279-6726-4e7d-a4e8-5f96d3cacc05"
+          },
+          {
+            "xy_mm": [
+              182.8,
+              93.65
+            ],
+            "distance_to_filled_GND_mm": 0.500499,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "f666bb36-1bc4-4ce4-bcb0-62051b87a1cd"
+          }
+        ],
+        "centerline_coverage_fraction": 0.9559118236472945,
+        "three_probe_coverage_fraction": 0.9559118236472945
+      },
+      {
+        "net": "DSI_D0_P",
+        "routing_layer": "B.Cu",
+        "expected_reference_layer": "In2.Cu",
+        "track_segments": 5,
+        "sample_count": 138,
+        "centerline_covered": 116,
+        "three_width_points_covered": 116,
+        "uncovered_centerline_near_own_signal_via": 22,
+        "uncovered_centerline_away_from_own_signal_via": 0,
+        "max_distance_to_filled_GND_mm": 0.500499,
+        "gap_examples": [
+          {
+            "xy_mm": [
+              178.6,
+              98.0
+            ],
+            "distance_to_filled_GND_mm": 0.500499,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "8a839f86-63d1-488c-a46b-59dbf6d20ce9"
+          },
+          {
+            "xy_mm": [
+              178.6179445,
+              97.95451303333333
+            ],
+            "distance_to_filled_GND_mm": 0.451919,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "8a839f86-63d1-488c-a46b-59dbf6d20ce9"
+          },
+          {
+            "xy_mm": [
+              178.635889,
+              97.90902606666667
+            ],
+            "distance_to_filled_GND_mm": 0.403337,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "8a839f86-63d1-488c-a46b-59dbf6d20ce9"
+          },
+          {
+            "xy_mm": [
+              178.6538335,
+              97.8635391
+            ],
+            "distance_to_filled_GND_mm": 0.354756,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "8a839f86-63d1-488c-a46b-59dbf6d20ce9"
+          },
+          {
+            "xy_mm": [
+              178.671778,
+              97.81805213333334
+            ],
+            "distance_to_filled_GND_mm": 0.306175,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "8a839f86-63d1-488c-a46b-59dbf6d20ce9"
+          },
+          {
+            "xy_mm": [
+              178.6897225,
+              97.77256516666667
+            ],
+            "distance_to_filled_GND_mm": 0.257593,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "8a839f86-63d1-488c-a46b-59dbf6d20ce9"
+          },
+          {
+            "xy_mm": [
+              178.707667,
+              97.7270782
+            ],
+            "distance_to_filled_GND_mm": 0.209012,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "8a839f86-63d1-488c-a46b-59dbf6d20ce9"
+          },
+          {
+            "xy_mm": [
+              178.72561149999999,
+              97.68159123333334
+            ],
+            "distance_to_filled_GND_mm": 0.16043,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "8a839f86-63d1-488c-a46b-59dbf6d20ce9"
+          },
+          {
+            "xy_mm": [
+              178.743556,
+              97.63610426666666
+            ],
+            "distance_to_filled_GND_mm": 0.111849,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "8a839f86-63d1-488c-a46b-59dbf6d20ce9"
+          },
+          {
+            "xy_mm": [
+              178.7615005,
+              97.5906173
+            ],
+            "distance_to_filled_GND_mm": 0.063267,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "8a839f86-63d1-488c-a46b-59dbf6d20ce9"
+          },
+          {
+            "xy_mm": [
+              178.779445,
+              97.54513033333333
+            ],
+            "distance_to_filled_GND_mm": 0.014686,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "8a839f86-63d1-488c-a46b-59dbf6d20ce9"
+          },
+          {
+            "xy_mm": [
+              182.32631578947368,
+              93.62368421052632
+            ],
+            "distance_to_filled_GND_mm": 0.026815,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "ed2c91cf-6cbd-4745-af98-f101e8963dfd"
+          }
+        ],
+        "centerline_coverage_fraction": 0.8405797101449275,
+        "three_probe_coverage_fraction": 0.8405797101449275
+      },
+      {
+        "net": "DSI_D1_N",
+        "routing_layer": "F.Cu",
+        "expected_reference_layer": "In1.Cu",
+        "track_segments": 2,
+        "sample_count": 42,
+        "centerline_covered": 20,
+        "three_width_points_covered": 20,
+        "uncovered_centerline_near_own_signal_via": 22,
+        "uncovered_centerline_away_from_own_signal_via": 0,
+        "max_distance_to_filled_GND_mm": 0.500499,
+        "gap_examples": [
+          {
+            "xy_mm": [
+              166.4,
+              106.35
+            ],
+            "distance_to_filled_GND_mm": 0.0005,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "a5180aa4-b6c6-4ef5-9a11-5044c6de8397"
+          },
+          {
+            "xy_mm": [
+              166.4,
+              106.3
+            ],
+            "distance_to_filled_GND_mm": 0.0505,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "a5180aa4-b6c6-4ef5-9a11-5044c6de8397"
+          },
+          {
+            "xy_mm": [
+              166.4,
+              106.25
+            ],
+            "distance_to_filled_GND_mm": 0.1005,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "a5180aa4-b6c6-4ef5-9a11-5044c6de8397"
+          },
+          {
+            "xy_mm": [
+              166.4,
+              106.2
+            ],
+            "distance_to_filled_GND_mm": 0.1505,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "a5180aa4-b6c6-4ef5-9a11-5044c6de8397"
+          },
+          {
+            "xy_mm": [
+              166.4,
+              106.14999999999999
+            ],
+            "distance_to_filled_GND_mm": 0.200501,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "a5180aa4-b6c6-4ef5-9a11-5044c6de8397"
+          },
+          {
+            "xy_mm": [
+              166.4,
+              106.1
+            ],
+            "distance_to_filled_GND_mm": 0.2505,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "a5180aa4-b6c6-4ef5-9a11-5044c6de8397"
+          },
+          {
+            "xy_mm": [
+              166.4,
+              106.05
+            ],
+            "distance_to_filled_GND_mm": 0.3005,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "a5180aa4-b6c6-4ef5-9a11-5044c6de8397"
+          },
+          {
+            "xy_mm": [
+              166.4,
+              106.0
+            ],
+            "distance_to_filled_GND_mm": 0.3505,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "a5180aa4-b6c6-4ef5-9a11-5044c6de8397"
+          },
+          {
+            "xy_mm": [
+              166.4,
+              105.94999999999999
+            ],
+            "distance_to_filled_GND_mm": 0.400501,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "a5180aa4-b6c6-4ef5-9a11-5044c6de8397"
+          },
+          {
+            "xy_mm": [
+              166.4,
+              105.89999999999999
+            ],
+            "distance_to_filled_GND_mm": 0.450501,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "a5180aa4-b6c6-4ef5-9a11-5044c6de8397"
+          },
+          {
+            "xy_mm": [
+              166.4,
+              105.85
+            ],
+            "distance_to_filled_GND_mm": 0.500498,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "a5180aa4-b6c6-4ef5-9a11-5044c6de8397"
+          },
+          {
+            "xy_mm": [
+              183.55,
+              92.15
+            ],
+            "distance_to_filled_GND_mm": 0.500499,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "e31b2dea-445f-4782-b296-8b30bc9e8c78"
+          }
+        ],
+        "centerline_coverage_fraction": 0.47619047619047616,
+        "three_probe_coverage_fraction": 0.47619047619047616
+      },
+      {
+        "net": "DSI_D1_N",
+        "routing_layer": "B.Cu",
+        "expected_reference_layer": "In2.Cu",
+        "track_segments": 17,
+        "sample_count": 579,
+        "centerline_covered": 556,
+        "three_width_points_covered": 555,
+        "uncovered_centerline_near_own_signal_via": 23,
+        "uncovered_centerline_away_from_own_signal_via": 0,
+        "max_distance_to_filled_GND_mm": 0.500499,
+        "gap_examples": [
+          {
+            "xy_mm": [
+              183.19023255813954,
+              91.84
+            ],
+            "distance_to_filled_GND_mm": 0.026903,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "252257d2-4e8c-40cb-b7df-170e3e3d09e3"
+          },
+          {
+            "xy_mm": [
+              183.24,
+              91.84
+            ],
+            "distance_to_filled_GND_mm": 0.062094,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "252257d2-4e8c-40cb-b7df-170e3e3d09e3"
+          },
+          {
+            "xy_mm": [
+              183.24,
+              91.84
+            ],
+            "distance_to_filled_GND_mm": 0.062094,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "c802ec50-bd96-43e1-92ef-bc4445212604"
+          },
+          {
+            "xy_mm": [
+              183.27444444444444,
+              91.87444444444445
+            ],
+            "distance_to_filled_GND_mm": 0.110805,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "c802ec50-bd96-43e1-92ef-bc4445212604"
+          },
+          {
+            "xy_mm": [
+              183.3088888888889,
+              91.9088888888889
+            ],
+            "distance_to_filled_GND_mm": 0.159516,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "c802ec50-bd96-43e1-92ef-bc4445212604"
+          },
+          {
+            "xy_mm": [
+              183.34333333333333,
+              91.94333333333334
+            ],
+            "distance_to_filled_GND_mm": 0.208229,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "c802ec50-bd96-43e1-92ef-bc4445212604"
+          },
+          {
+            "xy_mm": [
+              183.3777777777778,
+              91.97777777777779
+            ],
+            "distance_to_filled_GND_mm": 0.25694,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "c802ec50-bd96-43e1-92ef-bc4445212604"
+          },
+          {
+            "xy_mm": [
+              183.41222222222223,
+              92.01222222222222
+            ],
+            "distance_to_filled_GND_mm": 0.305653,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "c802ec50-bd96-43e1-92ef-bc4445212604"
+          },
+          {
+            "xy_mm": [
+              183.4466666666667,
+              92.04666666666667
+            ],
+            "distance_to_filled_GND_mm": 0.354364,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "c802ec50-bd96-43e1-92ef-bc4445212604"
+          },
+          {
+            "xy_mm": [
+              183.48111111111112,
+              92.08111111111111
+            ],
+            "distance_to_filled_GND_mm": 0.403077,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "c802ec50-bd96-43e1-92ef-bc4445212604"
+          },
+          {
+            "xy_mm": [
+              183.51555555555558,
+              92.11555555555556
+            ],
+            "distance_to_filled_GND_mm": 0.451788,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "c802ec50-bd96-43e1-92ef-bc4445212604"
+          },
+          {
+            "xy_mm": [
+              183.55,
+              92.15
+            ],
+            "distance_to_filled_GND_mm": 0.500499,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "c802ec50-bd96-43e1-92ef-bc4445212604"
+          }
+        ],
+        "centerline_coverage_fraction": 0.9602763385146805,
+        "three_probe_coverage_fraction": 0.9585492227979274
+      },
+      {
+        "net": "DSI_D1_P",
+        "routing_layer": "F.Cu",
+        "expected_reference_layer": "In1.Cu",
+        "track_segments": 2,
+        "sample_count": 52,
+        "centerline_covered": 30,
+        "three_width_points_covered": 30,
+        "uncovered_centerline_near_own_signal_via": 22,
+        "uncovered_centerline_away_from_own_signal_via": 0,
+        "max_distance_to_filled_GND_mm": 0.500499,
+        "gap_examples": [
+          {
+            "xy_mm": [
+              182.8,
+              92.45
+            ],
+            "distance_to_filled_GND_mm": 0.500499,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "13bc0a7e-84b7-4508-b2fb-e4f2b2663ac6"
+          },
+          {
+            "xy_mm": [
+              182.7511904761905,
+              92.45
+            ],
+            "distance_to_filled_GND_mm": 0.45169,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "13bc0a7e-84b7-4508-b2fb-e4f2b2663ac6"
+          },
+          {
+            "xy_mm": [
+              182.70238095238096,
+              92.45
+            ],
+            "distance_to_filled_GND_mm": 0.40288,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "13bc0a7e-84b7-4508-b2fb-e4f2b2663ac6"
+          },
+          {
+            "xy_mm": [
+              182.65357142857144,
+              92.45
+            ],
+            "distance_to_filled_GND_mm": 0.354071,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "13bc0a7e-84b7-4508-b2fb-e4f2b2663ac6"
+          },
+          {
+            "xy_mm": [
+              182.60476190476192,
+              92.45
+            ],
+            "distance_to_filled_GND_mm": 0.305261,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "13bc0a7e-84b7-4508-b2fb-e4f2b2663ac6"
+          },
+          {
+            "xy_mm": [
+              182.5559523809524,
+              92.45
+            ],
+            "distance_to_filled_GND_mm": 0.256452,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "13bc0a7e-84b7-4508-b2fb-e4f2b2663ac6"
+          },
+          {
+            "xy_mm": [
+              182.50714285714287,
+              92.45
+            ],
+            "distance_to_filled_GND_mm": 0.207642,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "13bc0a7e-84b7-4508-b2fb-e4f2b2663ac6"
+          },
+          {
+            "xy_mm": [
+              182.45833333333334,
+              92.45
+            ],
+            "distance_to_filled_GND_mm": 0.158833,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "13bc0a7e-84b7-4508-b2fb-e4f2b2663ac6"
+          },
+          {
+            "xy_mm": [
+              182.40952380952382,
+              92.45
+            ],
+            "distance_to_filled_GND_mm": 0.110023,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "13bc0a7e-84b7-4508-b2fb-e4f2b2663ac6"
+          },
+          {
+            "xy_mm": [
+              182.3607142857143,
+              92.45
+            ],
+            "distance_to_filled_GND_mm": 0.061214,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "13bc0a7e-84b7-4508-b2fb-e4f2b2663ac6"
+          },
+          {
+            "xy_mm": [
+              182.31190476190477,
+              92.45
+            ],
+            "distance_to_filled_GND_mm": 0.012404,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "13bc0a7e-84b7-4508-b2fb-e4f2b2663ac6"
+          },
+          {
+            "xy_mm": [
+              167.0,
+              105.8
+            ],
+            "distance_to_filled_GND_mm": 0.0005,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "2fc0f3c9-9591-4812-b452-28f51c2f0532"
+          }
+        ],
+        "centerline_coverage_fraction": 0.5769230769230769,
+        "three_probe_coverage_fraction": 0.5769230769230769
+      },
+      {
+        "net": "DSI_D1_P",
+        "routing_layer": "B.Cu",
+        "expected_reference_layer": "In2.Cu",
+        "track_segments": 22,
+        "sample_count": 579,
+        "centerline_covered": 555,
+        "three_width_points_covered": 555,
+        "uncovered_centerline_near_own_signal_via": 24,
+        "uncovered_centerline_away_from_own_signal_via": 0,
+        "max_distance_to_filled_GND_mm": 0.500499,
+        "gap_examples": [
+          {
+            "xy_mm": [
+              167.0,
+              105.3
+            ],
+            "distance_to_filled_GND_mm": 0.500499,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "54b40922-228d-4f5e-a83c-361f8f7c4583"
+          },
+          {
+            "xy_mm": [
+              166.965,
+              105.265
+            ],
+            "distance_to_filled_GND_mm": 0.451003,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "54b40922-228d-4f5e-a83c-361f8f7c4583"
+          },
+          {
+            "xy_mm": [
+              166.93,
+              105.22999999999999
+            ],
+            "distance_to_filled_GND_mm": 0.401505,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "54b40922-228d-4f5e-a83c-361f8f7c4583"
+          },
+          {
+            "xy_mm": [
+              166.895,
+              105.195
+            ],
+            "distance_to_filled_GND_mm": 0.352008,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "54b40922-228d-4f5e-a83c-361f8f7c4583"
+          },
+          {
+            "xy_mm": [
+              166.86,
+              105.16
+            ],
+            "distance_to_filled_GND_mm": 0.30251,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "54b40922-228d-4f5e-a83c-361f8f7c4583"
+          },
+          {
+            "xy_mm": [
+              182.31219512195122,
+              92.45243902439024
+            ],
+            "distance_to_filled_GND_mm": 0.012695,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "85a8427b-c310-4853-9be0-3b57ef13cd0b"
+          },
+          {
+            "xy_mm": [
+              182.3609756097561,
+              92.45219512195122
+            ],
+            "distance_to_filled_GND_mm": 0.061475,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "85a8427b-c310-4853-9be0-3b57ef13cd0b"
+          },
+          {
+            "xy_mm": [
+              182.409756097561,
+              92.4519512195122
+            ],
+            "distance_to_filled_GND_mm": 0.110256,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "85a8427b-c310-4853-9be0-3b57ef13cd0b"
+          },
+          {
+            "xy_mm": [
+              182.45853658536586,
+              92.45170731707317
+            ],
+            "distance_to_filled_GND_mm": 0.159036,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "85a8427b-c310-4853-9be0-3b57ef13cd0b"
+          },
+          {
+            "xy_mm": [
+              182.50731707317075,
+              92.45146341463415
+            ],
+            "distance_to_filled_GND_mm": 0.207817,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "85a8427b-c310-4853-9be0-3b57ef13cd0b"
+          },
+          {
+            "xy_mm": [
+              182.55609756097562,
+              92.45121951219512
+            ],
+            "distance_to_filled_GND_mm": 0.256597,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "85a8427b-c310-4853-9be0-3b57ef13cd0b"
+          },
+          {
+            "xy_mm": [
+              182.6048780487805,
+              92.4509756097561
+            ],
+            "distance_to_filled_GND_mm": 0.305378,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "85a8427b-c310-4853-9be0-3b57ef13cd0b"
+          }
+        ],
+        "centerline_coverage_fraction": 0.9585492227979274,
+        "three_probe_coverage_fraction": 0.9585492227979274
+      },
+      {
+        "net": "EXT_5V",
+        "routing_layer": "F.Cu",
+        "expected_reference_layer": "In1.Cu",
+        "track_segments": 3,
+        "sample_count": 137,
+        "centerline_covered": 105,
+        "three_width_points_covered": 99,
+        "uncovered_centerline_near_own_signal_via": 0,
+        "uncovered_centerline_away_from_own_signal_via": 32,
+        "max_distance_to_filled_GND_mm": 1.550499,
+        "gap_examples": [
+          {
+            "xy_mm": [
+              140.75,
+              90.25
+            ],
+            "distance_to_filled_GND_mm": 1.550499,
+            "within_signal_via_transition_radius": false,
+            "track_uuid": "19ab34f5-6365-4c9f-a87f-5f04fbda9f8c"
+          },
+          {
+            "xy_mm": [
+              140.75,
+              90.2
+            ],
+            "distance_to_filled_GND_mm": 1.5005,
+            "within_signal_via_transition_radius": false,
+            "track_uuid": "19ab34f5-6365-4c9f-a87f-5f04fbda9f8c"
+          },
+          {
+            "xy_mm": [
+              140.75,
+              90.15
+            ],
+            "distance_to_filled_GND_mm": 1.4505,
+            "within_signal_via_transition_radius": false,
+            "track_uuid": "19ab34f5-6365-4c9f-a87f-5f04fbda9f8c"
+          },
+          {
+            "xy_mm": [
+              140.75,
+              90.1
+            ],
+            "distance_to_filled_GND_mm": 1.4005,
+            "within_signal_via_transition_radius": false,
+            "track_uuid": "19ab34f5-6365-4c9f-a87f-5f04fbda9f8c"
+          },
+          {
+            "xy_mm": [
+              140.75,
+              90.05
+            ],
+            "distance_to_filled_GND_mm": 1.3505,
+            "within_signal_via_transition_radius": false,
+            "track_uuid": "19ab34f5-6365-4c9f-a87f-5f04fbda9f8c"
+          },
+          {
+            "xy_mm": [
+              140.75,
+              90.0
+            ],
+            "distance_to_filled_GND_mm": 1.3005,
+            "within_signal_via_transition_radius": false,
+            "track_uuid": "19ab34f5-6365-4c9f-a87f-5f04fbda9f8c"
+          },
+          {
+            "xy_mm": [
+              140.75,
+              89.95
+            ],
+            "distance_to_filled_GND_mm": 1.2505,
+            "within_signal_via_transition_radius": false,
+            "track_uuid": "19ab34f5-6365-4c9f-a87f-5f04fbda9f8c"
+          },
+          {
+            "xy_mm": [
+              140.75,
+              89.9
+            ],
+            "distance_to_filled_GND_mm": 1.2005,
+            "within_signal_via_transition_radius": false,
+            "track_uuid": "19ab34f5-6365-4c9f-a87f-5f04fbda9f8c"
+          },
+          {
+            "xy_mm": [
+              140.75,
+              89.85
+            ],
+            "distance_to_filled_GND_mm": 1.1505,
+            "within_signal_via_transition_radius": false,
+            "track_uuid": "19ab34f5-6365-4c9f-a87f-5f04fbda9f8c"
+          },
+          {
+            "xy_mm": [
+              140.75,
+              89.8
+            ],
+            "distance_to_filled_GND_mm": 1.1005,
+            "within_signal_via_transition_radius": false,
+            "track_uuid": "19ab34f5-6365-4c9f-a87f-5f04fbda9f8c"
+          },
+          {
+            "xy_mm": [
+              140.75,
+              89.75
+            ],
+            "distance_to_filled_GND_mm": 1.0505,
+            "within_signal_via_transition_radius": false,
+            "track_uuid": "19ab34f5-6365-4c9f-a87f-5f04fbda9f8c"
+          },
+          {
+            "xy_mm": [
+              140.75,
+              89.7
+            ],
+            "distance_to_filled_GND_mm": 1.0005,
+            "within_signal_via_transition_radius": false,
+            "track_uuid": "19ab34f5-6365-4c9f-a87f-5f04fbda9f8c"
+          }
+        ],
+        "centerline_coverage_fraction": 0.7664233576642335,
+        "three_probe_coverage_fraction": 0.7226277372262774
+      },
+      {
+        "net": "FUSED_5V",
+        "routing_layer": "F.Cu",
+        "expected_reference_layer": "In1.Cu",
+        "track_segments": 2,
+        "sample_count": 67,
+        "centerline_covered": 67,
+        "three_width_points_covered": 67,
+        "uncovered_centerline_near_own_signal_via": 0,
+        "uncovered_centerline_away_from_own_signal_via": 0,
+        "max_distance_to_filled_GND_mm": 0,
+        "gap_examples": [],
+        "centerline_coverage_fraction": 1.0,
+        "three_probe_coverage_fraction": 1.0
+      },
+      {
+        "net": "HOST_3V3",
+        "routing_layer": "F.Cu",
+        "expected_reference_layer": "In1.Cu",
+        "track_segments": 15,
+        "sample_count": 368,
+        "centerline_covered": 368,
+        "three_width_points_covered": 368,
+        "uncovered_centerline_near_own_signal_via": 0,
+        "uncovered_centerline_away_from_own_signal_via": 0,
+        "max_distance_to_filled_GND_mm": 0,
+        "gap_examples": [],
+        "centerline_coverage_fraction": 1.0,
+        "three_probe_coverage_fraction": 1.0
+      },
+      {
+        "net": "HOST_LCD_RST",
+        "routing_layer": "F.Cu",
+        "expected_reference_layer": "In1.Cu",
+        "track_segments": 8,
+        "sample_count": 398,
+        "centerline_covered": 398,
+        "three_width_points_covered": 398,
+        "uncovered_centerline_near_own_signal_via": 0,
+        "uncovered_centerline_away_from_own_signal_via": 0,
+        "max_distance_to_filled_GND_mm": 0,
+        "gap_examples": [],
+        "centerline_coverage_fraction": 1.0,
+        "three_probe_coverage_fraction": 1.0
+      },
+      {
+        "net": "HOST_TE",
+        "routing_layer": "F.Cu",
+        "expected_reference_layer": "In1.Cu",
+        "track_segments": 5,
+        "sample_count": 100,
+        "centerline_covered": 100,
+        "three_width_points_covered": 100,
+        "uncovered_centerline_near_own_signal_via": 0,
+        "uncovered_centerline_away_from_own_signal_via": 0,
+        "max_distance_to_filled_GND_mm": 0,
+        "gap_examples": [],
+        "centerline_coverage_fraction": 1.0,
+        "three_probe_coverage_fraction": 1.0
+      },
+      {
+        "net": "HOST_TP_3V3",
+        "routing_layer": "F.Cu",
+        "expected_reference_layer": "In1.Cu",
+        "track_segments": 7,
+        "sample_count": 84,
+        "centerline_covered": 45,
+        "three_width_points_covered": 45,
+        "uncovered_centerline_near_own_signal_via": 39,
+        "uncovered_centerline_away_from_own_signal_via": 0,
+        "max_distance_to_filled_GND_mm": 0.500499,
+        "gap_examples": [
+          {
+            "xy_mm": [
+              179.1,
+              77.7
+            ],
+            "distance_to_filled_GND_mm": 0.500499,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "0785086d-0c96-4a30-b2a5-2015da780a32"
+          },
+          {
+            "xy_mm": [
+              179.14285714285714,
+              77.70714285714286
+            ],
+            "distance_to_filled_GND_mm": 0.457254,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "0785086d-0c96-4a30-b2a5-2015da780a32"
+          },
+          {
+            "xy_mm": [
+              179.18571428571428,
+              77.71428571428572
+            ],
+            "distance_to_filled_GND_mm": 0.414009,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "0785086d-0c96-4a30-b2a5-2015da780a32"
+          },
+          {
+            "xy_mm": [
+              179.22857142857143,
+              77.72142857142858
+            ],
+            "distance_to_filled_GND_mm": 0.370763,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "0785086d-0c96-4a30-b2a5-2015da780a32"
+          },
+          {
+            "xy_mm": [
+              179.27142857142857,
+              77.72857142857143
+            ],
+            "distance_to_filled_GND_mm": 0.327518,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "0785086d-0c96-4a30-b2a5-2015da780a32"
+          },
+          {
+            "xy_mm": [
+              179.31428571428572,
+              77.73571428571428
+            ],
+            "distance_to_filled_GND_mm": 0.284272,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "0785086d-0c96-4a30-b2a5-2015da780a32"
+          },
+          {
+            "xy_mm": [
+              179.35714285714286,
+              77.74285714285715
+            ],
+            "distance_to_filled_GND_mm": 0.241027,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "0785086d-0c96-4a30-b2a5-2015da780a32"
+          },
+          {
+            "xy_mm": [
+              179.4,
+              77.75
+            ],
+            "distance_to_filled_GND_mm": 0.197781,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "0785086d-0c96-4a30-b2a5-2015da780a32"
+          },
+          {
+            "xy_mm": [
+              179.4,
+              77.75
+            ],
+            "distance_to_filled_GND_mm": 0.197781,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "5617393f-087c-40a1-b02e-4fae2882b370"
+          },
+          {
+            "xy_mm": [
+              179.35714285714286,
+              77.74285714285715
+            ],
+            "distance_to_filled_GND_mm": 0.241027,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "5617393f-087c-40a1-b02e-4fae2882b370"
+          },
+          {
+            "xy_mm": [
+              179.31428571428572,
+              77.73571428571428
+            ],
+            "distance_to_filled_GND_mm": 0.284272,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "5617393f-087c-40a1-b02e-4fae2882b370"
+          },
+          {
+            "xy_mm": [
+              179.27142857142857,
+              77.72857142857143
+            ],
+            "distance_to_filled_GND_mm": 0.327518,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "5617393f-087c-40a1-b02e-4fae2882b370"
+          }
+        ],
+        "centerline_coverage_fraction": 0.5357142857142857,
+        "three_probe_coverage_fraction": 0.5357142857142857
+      },
+      {
+        "net": "HOST_TP_3V3",
+        "routing_layer": "B.Cu",
+        "expected_reference_layer": "In2.Cu",
+        "track_segments": 1,
+        "sample_count": 77,
+        "centerline_covered": 55,
+        "three_width_points_covered": 55,
+        "uncovered_centerline_near_own_signal_via": 22,
+        "uncovered_centerline_away_from_own_signal_via": 0,
+        "max_distance_to_filled_GND_mm": 0.500499,
+        "gap_examples": [
+          {
+            "xy_mm": [
+              179.1,
+              77.7
+            ],
+            "distance_to_filled_GND_mm": 0.500499,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "8f7fd3d6-b624-4f25-9289-185fa1f12c00"
+          },
+          {
+            "xy_mm": [
+              179.04999999999998,
+              77.7
+            ],
+            "distance_to_filled_GND_mm": 0.450499,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "8f7fd3d6-b624-4f25-9289-185fa1f12c00"
+          },
+          {
+            "xy_mm": [
+              179.0,
+              77.7
+            ],
+            "distance_to_filled_GND_mm": 0.4005,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "8f7fd3d6-b624-4f25-9289-185fa1f12c00"
+          },
+          {
+            "xy_mm": [
+              178.95,
+              77.7
+            ],
+            "distance_to_filled_GND_mm": 0.3505,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "8f7fd3d6-b624-4f25-9289-185fa1f12c00"
+          },
+          {
+            "xy_mm": [
+              178.9,
+              77.7
+            ],
+            "distance_to_filled_GND_mm": 0.3005,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "8f7fd3d6-b624-4f25-9289-185fa1f12c00"
+          },
+          {
+            "xy_mm": [
+              178.85,
+              77.7
+            ],
+            "distance_to_filled_GND_mm": 0.2505,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "8f7fd3d6-b624-4f25-9289-185fa1f12c00"
+          },
+          {
+            "xy_mm": [
+              178.79999999999998,
+              77.7
+            ],
+            "distance_to_filled_GND_mm": 0.200499,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "8f7fd3d6-b624-4f25-9289-185fa1f12c00"
+          },
+          {
+            "xy_mm": [
+              178.75,
+              77.7
+            ],
+            "distance_to_filled_GND_mm": 0.1505,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "8f7fd3d6-b624-4f25-9289-185fa1f12c00"
+          },
+          {
+            "xy_mm": [
+              178.7,
+              77.7
+            ],
+            "distance_to_filled_GND_mm": 0.1005,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "8f7fd3d6-b624-4f25-9289-185fa1f12c00"
+          },
+          {
+            "xy_mm": [
+              178.65,
+              77.7
+            ],
+            "distance_to_filled_GND_mm": 0.0505,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "8f7fd3d6-b624-4f25-9289-185fa1f12c00"
+          },
+          {
+            "xy_mm": [
+              178.6,
+              77.7
+            ],
+            "distance_to_filled_GND_mm": 0.0005,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "8f7fd3d6-b624-4f25-9289-185fa1f12c00"
+          },
+          {
+            "xy_mm": [
+              175.8,
+              77.7
+            ],
+            "distance_to_filled_GND_mm": 0.0005,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "8f7fd3d6-b624-4f25-9289-185fa1f12c00"
+          }
+        ],
+        "centerline_coverage_fraction": 0.7142857142857143,
+        "three_probe_coverage_fraction": 0.7142857142857143
+      },
+      {
+        "net": "HOST_TP_RST",
+        "routing_layer": "F.Cu",
+        "expected_reference_layer": "In1.Cu",
+        "track_segments": 5,
+        "sample_count": 291,
+        "centerline_covered": 266,
+        "three_width_points_covered": 266,
+        "uncovered_centerline_near_own_signal_via": 0,
+        "uncovered_centerline_away_from_own_signal_via": 25,
+        "max_distance_to_filled_GND_mm": 1.0655,
+        "gap_examples": [
+          {
+            "xy_mm": [
+              163.1,
+              75.9
+            ],
+            "distance_to_filled_GND_mm": 0.899329,
+            "within_signal_via_transition_radius": false,
+            "track_uuid": "153e6888-8034-4c7f-9e37-ee1dee49cd5c"
+          },
+          {
+            "xy_mm": [
+              163.13535353535352,
+              75.93535353535354
+            ],
+            "distance_to_filled_GND_mm": 0.849332,
+            "within_signal_via_transition_radius": false,
+            "track_uuid": "153e6888-8034-4c7f-9e37-ee1dee49cd5c"
+          },
+          {
+            "xy_mm": [
+              163.17070707070707,
+              75.97070707070708
+            ],
+            "distance_to_filled_GND_mm": 0.799334,
+            "within_signal_via_transition_radius": false,
+            "track_uuid": "153e6888-8034-4c7f-9e37-ee1dee49cd5c"
+          },
+          {
+            "xy_mm": [
+              163.2060606060606,
+              76.00606060606061
+            ],
+            "distance_to_filled_GND_mm": 0.749338,
+            "within_signal_via_transition_radius": false,
+            "track_uuid": "153e6888-8034-4c7f-9e37-ee1dee49cd5c"
+          },
+          {
+            "xy_mm": [
+              163.24141414141414,
+              76.04141414141415
+            ],
+            "distance_to_filled_GND_mm": 0.699339,
+            "within_signal_via_transition_radius": false,
+            "track_uuid": "153e6888-8034-4c7f-9e37-ee1dee49cd5c"
+          },
+          {
+            "xy_mm": [
+              163.27676767676766,
+              76.07676767676769
+            ],
+            "distance_to_filled_GND_mm": 0.649343,
+            "within_signal_via_transition_radius": false,
+            "track_uuid": "153e6888-8034-4c7f-9e37-ee1dee49cd5c"
+          },
+          {
+            "xy_mm": [
+              163.3121212121212,
+              76.11212121212122
+            ],
+            "distance_to_filled_GND_mm": 0.599345,
+            "within_signal_via_transition_radius": false,
+            "track_uuid": "153e6888-8034-4c7f-9e37-ee1dee49cd5c"
+          },
+          {
+            "xy_mm": [
+              163.34747474747473,
+              76.14747474747476
+            ],
+            "distance_to_filled_GND_mm": 0.549348,
+            "within_signal_via_transition_radius": false,
+            "track_uuid": "153e6888-8034-4c7f-9e37-ee1dee49cd5c"
+          },
+          {
+            "xy_mm": [
+              163.38282828282829,
+              76.18282828282828
+            ],
+            "distance_to_filled_GND_mm": 0.49935,
+            "within_signal_via_transition_radius": false,
+            "track_uuid": "153e6888-8034-4c7f-9e37-ee1dee49cd5c"
+          },
+          {
+            "xy_mm": [
+              163.4181818181818,
+              76.21818181818182
+            ],
+            "distance_to_filled_GND_mm": 0.449353,
+            "within_signal_via_transition_radius": false,
+            "track_uuid": "153e6888-8034-4c7f-9e37-ee1dee49cd5c"
+          },
+          {
+            "xy_mm": [
+              163.45353535353536,
+              76.25353535353536
+            ],
+            "distance_to_filled_GND_mm": 0.399355,
+            "within_signal_via_transition_radius": false,
+            "track_uuid": "153e6888-8034-4c7f-9e37-ee1dee49cd5c"
+          },
+          {
+            "xy_mm": [
+              163.48888888888888,
+              76.28888888888889
+            ],
+            "distance_to_filled_GND_mm": 0.349358,
+            "within_signal_via_transition_radius": false,
+            "track_uuid": "153e6888-8034-4c7f-9e37-ee1dee49cd5c"
+          }
+        ],
+        "centerline_coverage_fraction": 0.9140893470790378,
+        "three_probe_coverage_fraction": 0.9140893470790378
+      },
+      {
+        "net": "LCD_RST",
+        "routing_layer": "F.Cu",
+        "expected_reference_layer": "In1.Cu",
+        "track_segments": 12,
+        "sample_count": 347,
+        "centerline_covered": 325,
+        "three_width_points_covered": 325,
+        "uncovered_centerline_near_own_signal_via": 22,
+        "uncovered_centerline_away_from_own_signal_via": 0,
+        "max_distance_to_filled_GND_mm": 0.500499,
+        "gap_examples": [
+          {
+            "xy_mm": [
+              178.84883720930233,
+              96.05116279069767
+            ],
+            "distance_to_filled_GND_mm": 0.007169,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "01775acf-aea0-414f-a6c7-024687513609"
+          },
+          {
+            "xy_mm": [
+              178.8139534883721,
+              96.08604651162791
+            ],
+            "distance_to_filled_GND_mm": 0.056502,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "01775acf-aea0-414f-a6c7-024687513609"
+          },
+          {
+            "xy_mm": [
+              178.77906976744185,
+              96.12093023255815
+            ],
+            "distance_to_filled_GND_mm": 0.105836,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "01775acf-aea0-414f-a6c7-024687513609"
+          },
+          {
+            "xy_mm": [
+              178.74418604651163,
+              96.15581395348838
+            ],
+            "distance_to_filled_GND_mm": 0.155168,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "01775acf-aea0-414f-a6c7-024687513609"
+          },
+          {
+            "xy_mm": [
+              178.7093023255814,
+              96.19069767441862
+            ],
+            "distance_to_filled_GND_mm": 0.204501,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "01775acf-aea0-414f-a6c7-024687513609"
+          },
+          {
+            "xy_mm": [
+              178.67441860465115,
+              96.22558139534884
+            ],
+            "distance_to_filled_GND_mm": 0.253835,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "01775acf-aea0-414f-a6c7-024687513609"
+          },
+          {
+            "xy_mm": [
+              178.63953488372093,
+              96.26046511627908
+            ],
+            "distance_to_filled_GND_mm": 0.303168,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "01775acf-aea0-414f-a6c7-024687513609"
+          },
+          {
+            "xy_mm": [
+              178.6046511627907,
+              96.2953488372093
+            ],
+            "distance_to_filled_GND_mm": 0.3525,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "01775acf-aea0-414f-a6c7-024687513609"
+          },
+          {
+            "xy_mm": [
+              178.56976744186048,
+              96.33023255813954
+            ],
+            "distance_to_filled_GND_mm": 0.401833,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "01775acf-aea0-414f-a6c7-024687513609"
+          },
+          {
+            "xy_mm": [
+              178.53488372093022,
+              96.36511627906977
+            ],
+            "distance_to_filled_GND_mm": 0.451167,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "01775acf-aea0-414f-a6c7-024687513609"
+          },
+          {
+            "xy_mm": [
+              178.5,
+              96.4
+            ],
+            "distance_to_filled_GND_mm": 0.500499,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "01775acf-aea0-414f-a6c7-024687513609"
+          },
+          {
+            "xy_mm": [
+              177.6,
+              98.6
+            ],
+            "distance_to_filled_GND_mm": 0.500499,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "45755388-b48a-47f8-91fd-cec26fa90b68"
+          }
+        ],
+        "centerline_coverage_fraction": 0.9365994236311239,
+        "three_probe_coverage_fraction": 0.9365994236311239
+      },
+      {
+        "net": "LCD_RST",
+        "routing_layer": "B.Cu",
+        "expected_reference_layer": "In2.Cu",
+        "track_segments": 2,
+        "sample_count": 54,
+        "centerline_covered": 32,
+        "three_width_points_covered": 32,
+        "uncovered_centerline_near_own_signal_via": 22,
+        "uncovered_centerline_away_from_own_signal_via": 0,
+        "max_distance_to_filled_GND_mm": 0.500499,
+        "gap_examples": [
+          {
+            "xy_mm": [
+              178.5,
+              96.4
+            ],
+            "distance_to_filled_GND_mm": 0.500499,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "43b01a51-2670-43eb-959d-d0c0a8e05d55"
+          },
+          {
+            "xy_mm": [
+              178.4653846153846,
+              96.43461538461538
+            ],
+            "distance_to_filled_GND_mm": 0.451546,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "43b01a51-2670-43eb-959d-d0c0a8e05d55"
+          },
+          {
+            "xy_mm": [
+              178.43076923076924,
+              96.46923076923078
+            ],
+            "distance_to_filled_GND_mm": 0.402593,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "43b01a51-2670-43eb-959d-d0c0a8e05d55"
+          },
+          {
+            "xy_mm": [
+              178.39615384615385,
+              96.50384615384615
+            ],
+            "distance_to_filled_GND_mm": 0.353638,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "43b01a51-2670-43eb-959d-d0c0a8e05d55"
+          },
+          {
+            "xy_mm": [
+              178.36153846153846,
+              96.53846153846155
+            ],
+            "distance_to_filled_GND_mm": 0.304685,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "43b01a51-2670-43eb-959d-d0c0a8e05d55"
+          },
+          {
+            "xy_mm": [
+              178.32692307692307,
+              96.57307692307693
+            ],
+            "distance_to_filled_GND_mm": 0.255732,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "43b01a51-2670-43eb-959d-d0c0a8e05d55"
+          },
+          {
+            "xy_mm": [
+              178.2923076923077,
+              96.60769230769232
+            ],
+            "distance_to_filled_GND_mm": 0.206778,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "43b01a51-2670-43eb-959d-d0c0a8e05d55"
+          },
+          {
+            "xy_mm": [
+              178.2576923076923,
+              96.6423076923077
+            ],
+            "distance_to_filled_GND_mm": 0.157825,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "43b01a51-2670-43eb-959d-d0c0a8e05d55"
+          },
+          {
+            "xy_mm": [
+              178.22307692307692,
+              96.67692307692307
+            ],
+            "distance_to_filled_GND_mm": 0.108871,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "43b01a51-2670-43eb-959d-d0c0a8e05d55"
+          },
+          {
+            "xy_mm": [
+              178.18846153846152,
+              96.71153846153847
+            ],
+            "distance_to_filled_GND_mm": 0.059918,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "43b01a51-2670-43eb-959d-d0c0a8e05d55"
+          },
+          {
+            "xy_mm": [
+              178.15384615384616,
+              96.74615384615385
+            ],
+            "distance_to_filled_GND_mm": 0.010965,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "43b01a51-2670-43eb-959d-d0c0a8e05d55"
+          },
+          {
+            "xy_mm": [
+              177.6,
+              98.1
+            ],
+            "distance_to_filled_GND_mm": 0.0005,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "dc88e315-72e2-42f0-a66f-7cbfbc079a89"
+          }
+        ],
+        "centerline_coverage_fraction": 0.5925925925925926,
+        "three_probe_coverage_fraction": 0.5925925925925926
+      },
+      {
+        "net": "LCD_TE",
+        "routing_layer": "F.Cu",
+        "expected_reference_layer": "In1.Cu",
+        "track_segments": 7,
+        "sample_count": 168,
+        "centerline_covered": 143,
+        "three_width_points_covered": 143,
+        "uncovered_centerline_near_own_signal_via": 25,
+        "uncovered_centerline_away_from_own_signal_via": 0,
+        "max_distance_to_filled_GND_mm": 0.500499,
+        "gap_examples": [
+          {
+            "xy_mm": [
+              176.5484375,
+              103.7515625
+            ],
+            "distance_to_filled_GND_mm": 0.003315,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "086f94ad-1d92-493f-a409-35ba72ac7daa"
+          },
+          {
+            "xy_mm": [
+              176.58359375,
+              103.71640625
+            ],
+            "distance_to_filled_GND_mm": 0.053033,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "086f94ad-1d92-493f-a409-35ba72ac7daa"
+          },
+          {
+            "xy_mm": [
+              176.61875,
+              103.68125
+            ],
+            "distance_to_filled_GND_mm": 0.102752,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "086f94ad-1d92-493f-a409-35ba72ac7daa"
+          },
+          {
+            "xy_mm": [
+              176.65390625,
+              103.64609375
+            ],
+            "distance_to_filled_GND_mm": 0.152471,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "086f94ad-1d92-493f-a409-35ba72ac7daa"
+          },
+          {
+            "xy_mm": [
+              176.6890625,
+              103.6109375
+            ],
+            "distance_to_filled_GND_mm": 0.202189,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "086f94ad-1d92-493f-a409-35ba72ac7daa"
+          },
+          {
+            "xy_mm": [
+              176.72421875,
+              103.57578125
+            ],
+            "distance_to_filled_GND_mm": 0.251907,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "086f94ad-1d92-493f-a409-35ba72ac7daa"
+          },
+          {
+            "xy_mm": [
+              176.759375,
+              103.540625
+            ],
+            "distance_to_filled_GND_mm": 0.301626,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "086f94ad-1d92-493f-a409-35ba72ac7daa"
+          },
+          {
+            "xy_mm": [
+              176.79453125,
+              103.50546875
+            ],
+            "distance_to_filled_GND_mm": 0.351345,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "086f94ad-1d92-493f-a409-35ba72ac7daa"
+          },
+          {
+            "xy_mm": [
+              176.8296875,
+              103.4703125
+            ],
+            "distance_to_filled_GND_mm": 0.401063,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "086f94ad-1d92-493f-a409-35ba72ac7daa"
+          },
+          {
+            "xy_mm": [
+              176.86484375,
+              103.43515625
+            ],
+            "distance_to_filled_GND_mm": 0.450781,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "086f94ad-1d92-493f-a409-35ba72ac7daa"
+          },
+          {
+            "xy_mm": [
+              176.9,
+              103.4
+            ],
+            "distance_to_filled_GND_mm": 0.500499,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "086f94ad-1d92-493f-a409-35ba72ac7daa"
+          },
+          {
+            "xy_mm": [
+              183.9,
+              94.8
+            ],
+            "distance_to_filled_GND_mm": 0.140692,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "47820fd1-30d8-4d71-9e0b-a4d9ba44b005"
+          }
+        ],
+        "centerline_coverage_fraction": 0.8511904761904762,
+        "three_probe_coverage_fraction": 0.8511904761904762
+      },
+      {
+        "net": "LCD_TE",
+        "routing_layer": "B.Cu",
+        "expected_reference_layer": "In2.Cu",
+        "track_segments": 2,
+        "sample_count": 225,
+        "centerline_covered": 203,
+        "three_width_points_covered": 203,
+        "uncovered_centerline_near_own_signal_via": 22,
+        "uncovered_centerline_away_from_own_signal_via": 0,
+        "max_distance_to_filled_GND_mm": 0.500499,
+        "gap_examples": [
+          {
+            "xy_mm": [
+              183.7,
+              95.6
+            ],
+            "distance_to_filled_GND_mm": 0.0005,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "1fb7507c-a2fa-433e-80a6-d4c6d58d86fc"
+          },
+          {
+            "xy_mm": [
+              183.7,
+              95.55
+            ],
+            "distance_to_filled_GND_mm": 0.0505,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "1fb7507c-a2fa-433e-80a6-d4c6d58d86fc"
+          },
+          {
+            "xy_mm": [
+              183.7,
+              95.5
+            ],
+            "distance_to_filled_GND_mm": 0.1005,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "1fb7507c-a2fa-433e-80a6-d4c6d58d86fc"
+          },
+          {
+            "xy_mm": [
+              183.7,
+              95.44999999999999
+            ],
+            "distance_to_filled_GND_mm": 0.150501,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "1fb7507c-a2fa-433e-80a6-d4c6d58d86fc"
+          },
+          {
+            "xy_mm": [
+              183.7,
+              95.39999999999999
+            ],
+            "distance_to_filled_GND_mm": 0.200501,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "1fb7507c-a2fa-433e-80a6-d4c6d58d86fc"
+          },
+          {
+            "xy_mm": [
+              183.7,
+              95.35
+            ],
+            "distance_to_filled_GND_mm": 0.2505,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "1fb7507c-a2fa-433e-80a6-d4c6d58d86fc"
+          },
+          {
+            "xy_mm": [
+              183.7,
+              95.3
+            ],
+            "distance_to_filled_GND_mm": 0.3005,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "1fb7507c-a2fa-433e-80a6-d4c6d58d86fc"
+          },
+          {
+            "xy_mm": [
+              183.7,
+              95.25
+            ],
+            "distance_to_filled_GND_mm": 0.3505,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "1fb7507c-a2fa-433e-80a6-d4c6d58d86fc"
+          },
+          {
+            "xy_mm": [
+              183.7,
+              95.19999999999999
+            ],
+            "distance_to_filled_GND_mm": 0.400501,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "1fb7507c-a2fa-433e-80a6-d4c6d58d86fc"
+          },
+          {
+            "xy_mm": [
+              183.7,
+              95.14999999999999
+            ],
+            "distance_to_filled_GND_mm": 0.450501,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "1fb7507c-a2fa-433e-80a6-d4c6d58d86fc"
+          },
+          {
+            "xy_mm": [
+              183.7,
+              95.1
+            ],
+            "distance_to_filled_GND_mm": 0.500499,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "1fb7507c-a2fa-433e-80a6-d4c6d58d86fc"
+          },
+          {
+            "xy_mm": [
+              176.9,
+              103.4
+            ],
+            "distance_to_filled_GND_mm": 0.500499,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "fbdf61d3-fa96-42d1-a471-b84ecb457a80"
+          }
+        ],
+        "centerline_coverage_fraction": 0.9022222222222223,
+        "three_probe_coverage_fraction": 0.9022222222222223
+      },
+      {
+        "net": "LCD_VCI",
+        "routing_layer": "F.Cu",
+        "expected_reference_layer": "In1.Cu",
+        "track_segments": 31,
+        "sample_count": 1154,
+        "centerline_covered": 1154,
+        "three_width_points_covered": 1154,
+        "uncovered_centerline_near_own_signal_via": 0,
+        "uncovered_centerline_away_from_own_signal_via": 0,
+        "max_distance_to_filled_GND_mm": 0,
+        "gap_examples": [],
+        "centerline_coverage_fraction": 1.0,
+        "three_probe_coverage_fraction": 1.0
+      },
+      {
+        "net": "OVP_REF",
+        "routing_layer": "F.Cu",
+        "expected_reference_layer": "In1.Cu",
+        "track_segments": 5,
+        "sample_count": 66,
+        "centerline_covered": 66,
+        "three_width_points_covered": 66,
+        "uncovered_centerline_near_own_signal_via": 0,
+        "uncovered_centerline_away_from_own_signal_via": 0,
+        "max_distance_to_filled_GND_mm": 0,
+        "gap_examples": [],
+        "centerline_coverage_fraction": 1.0,
+        "three_probe_coverage_fraction": 1.0
+      },
+      {
+        "net": "OVP_SENSE",
+        "routing_layer": "F.Cu",
+        "expected_reference_layer": "In1.Cu",
+        "track_segments": 3,
+        "sample_count": 114,
+        "centerline_covered": 114,
+        "three_width_points_covered": 114,
+        "uncovered_centerline_near_own_signal_via": 0,
+        "uncovered_centerline_away_from_own_signal_via": 0,
+        "max_distance_to_filled_GND_mm": 0,
+        "gap_examples": [],
+        "centerline_coverage_fraction": 1.0,
+        "three_probe_coverage_fraction": 1.0
+      },
+      {
+        "net": "TP_INT",
+        "routing_layer": "F.Cu",
+        "expected_reference_layer": "In1.Cu",
+        "track_segments": 9,
+        "sample_count": 427,
+        "centerline_covered": 427,
+        "three_width_points_covered": 427,
+        "uncovered_centerline_near_own_signal_via": 0,
+        "uncovered_centerline_away_from_own_signal_via": 0,
+        "max_distance_to_filled_GND_mm": 0,
+        "gap_examples": [],
+        "centerline_coverage_fraction": 1.0,
+        "three_probe_coverage_fraction": 1.0
+      },
+      {
+        "net": "TP_RST",
+        "routing_layer": "F.Cu",
+        "expected_reference_layer": "In1.Cu",
+        "track_segments": 10,
+        "sample_count": 221,
+        "centerline_covered": 198,
+        "three_width_points_covered": 198,
+        "uncovered_centerline_near_own_signal_via": 23,
+        "uncovered_centerline_away_from_own_signal_via": 0,
+        "max_distance_to_filled_GND_mm": 0.500499,
+        "gap_examples": [
+          {
+            "xy_mm": [
+              182.0,
+              88.2
+            ],
+            "distance_to_filled_GND_mm": 0.0005,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "555f2106-7789-4e4a-a739-45e73cb0b3ec"
+          },
+          {
+            "xy_mm": [
+              177.8,
+              86.9
+            ],
+            "distance_to_filled_GND_mm": 0.0005,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "75c12f3b-9b3f-491b-b4a5-fa6813b0638b"
+          },
+          {
+            "xy_mm": [
+              177.85000000000002,
+              86.9
+            ],
+            "distance_to_filled_GND_mm": 0.0505,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "75c12f3b-9b3f-491b-b4a5-fa6813b0638b"
+          },
+          {
+            "xy_mm": [
+              177.9,
+              86.9
+            ],
+            "distance_to_filled_GND_mm": 0.1005,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "75c12f3b-9b3f-491b-b4a5-fa6813b0638b"
+          },
+          {
+            "xy_mm": [
+              177.95000000000002,
+              86.9
+            ],
+            "distance_to_filled_GND_mm": 0.1505,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "75c12f3b-9b3f-491b-b4a5-fa6813b0638b"
+          },
+          {
+            "xy_mm": [
+              178.0,
+              86.9
+            ],
+            "distance_to_filled_GND_mm": 0.2005,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "75c12f3b-9b3f-491b-b4a5-fa6813b0638b"
+          },
+          {
+            "xy_mm": [
+              178.05,
+              86.9
+            ],
+            "distance_to_filled_GND_mm": 0.2505,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "75c12f3b-9b3f-491b-b4a5-fa6813b0638b"
+          },
+          {
+            "xy_mm": [
+              178.10000000000002,
+              86.9
+            ],
+            "distance_to_filled_GND_mm": 0.3005,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "75c12f3b-9b3f-491b-b4a5-fa6813b0638b"
+          },
+          {
+            "xy_mm": [
+              178.15,
+              86.9
+            ],
+            "distance_to_filled_GND_mm": 0.3505,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "75c12f3b-9b3f-491b-b4a5-fa6813b0638b"
+          },
+          {
+            "xy_mm": [
+              178.20000000000002,
+              86.9
+            ],
+            "distance_to_filled_GND_mm": 0.4005,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "75c12f3b-9b3f-491b-b4a5-fa6813b0638b"
+          },
+          {
+            "xy_mm": [
+              178.25,
+              86.9
+            ],
+            "distance_to_filled_GND_mm": 0.4505,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "75c12f3b-9b3f-491b-b4a5-fa6813b0638b"
+          },
+          {
+            "xy_mm": [
+              178.3,
+              86.9
+            ],
+            "distance_to_filled_GND_mm": 0.500499,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "75c12f3b-9b3f-491b-b4a5-fa6813b0638b"
+          }
+        ],
+        "centerline_coverage_fraction": 0.8959276018099548,
+        "three_probe_coverage_fraction": 0.8959276018099548
+      },
+      {
+        "net": "TP_RST",
+        "routing_layer": "B.Cu",
+        "expected_reference_layer": "In2.Cu",
+        "track_segments": 2,
+        "sample_count": 97,
+        "centerline_covered": 75,
+        "three_width_points_covered": 75,
+        "uncovered_centerline_near_own_signal_via": 22,
+        "uncovered_centerline_away_from_own_signal_via": 0,
+        "max_distance_to_filled_GND_mm": 0.500499,
+        "gap_examples": [
+          {
+            "xy_mm": [
+              178.3,
+              86.9
+            ],
+            "distance_to_filled_GND_mm": 0.500499,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "9b5e251b-bc6a-4d3c-aa83-2be283ea1201"
+          },
+          {
+            "xy_mm": [
+              178.35000000000002,
+              86.9
+            ],
+            "distance_to_filled_GND_mm": 0.4505,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "9b5e251b-bc6a-4d3c-aa83-2be283ea1201"
+          },
+          {
+            "xy_mm": [
+              178.4,
+              86.9
+            ],
+            "distance_to_filled_GND_mm": 0.4005,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "9b5e251b-bc6a-4d3c-aa83-2be283ea1201"
+          },
+          {
+            "xy_mm": [
+              178.45000000000002,
+              86.9
+            ],
+            "distance_to_filled_GND_mm": 0.3505,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "9b5e251b-bc6a-4d3c-aa83-2be283ea1201"
+          },
+          {
+            "xy_mm": [
+              178.5,
+              86.9
+            ],
+            "distance_to_filled_GND_mm": 0.3005,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "9b5e251b-bc6a-4d3c-aa83-2be283ea1201"
+          },
+          {
+            "xy_mm": [
+              178.55,
+              86.9
+            ],
+            "distance_to_filled_GND_mm": 0.2505,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "9b5e251b-bc6a-4d3c-aa83-2be283ea1201"
+          },
+          {
+            "xy_mm": [
+              178.60000000000002,
+              86.9
+            ],
+            "distance_to_filled_GND_mm": 0.2005,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "9b5e251b-bc6a-4d3c-aa83-2be283ea1201"
+          },
+          {
+            "xy_mm": [
+              178.65,
+              86.9
+            ],
+            "distance_to_filled_GND_mm": 0.1505,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "9b5e251b-bc6a-4d3c-aa83-2be283ea1201"
+          },
+          {
+            "xy_mm": [
+              178.70000000000002,
+              86.9
+            ],
+            "distance_to_filled_GND_mm": 0.1005,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "9b5e251b-bc6a-4d3c-aa83-2be283ea1201"
+          },
+          {
+            "xy_mm": [
+              178.75,
+              86.9
+            ],
+            "distance_to_filled_GND_mm": 0.0505,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "9b5e251b-bc6a-4d3c-aa83-2be283ea1201"
+          },
+          {
+            "xy_mm": [
+              178.8,
+              86.9
+            ],
+            "distance_to_filled_GND_mm": 0.0005,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "9b5e251b-bc6a-4d3c-aa83-2be283ea1201"
+          },
+          {
+            "xy_mm": [
+              182.14864864864865,
+              87.84864864864865
+            ],
+            "distance_to_filled_GND_mm": 0.003614,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "a4e489fa-c72e-4b65-8413-046f4d05f2b9"
+          }
+        ],
+        "centerline_coverage_fraction": 0.7731958762886598,
+        "three_probe_coverage_fraction": 0.7731958762886598
+      },
+      {
+        "net": "TP_SCL",
+        "routing_layer": "F.Cu",
+        "expected_reference_layer": "In1.Cu",
+        "track_segments": 11,
+        "sample_count": 239,
+        "centerline_covered": 216,
+        "three_width_points_covered": 214,
+        "uncovered_centerline_near_own_signal_via": 23,
+        "uncovered_centerline_away_from_own_signal_via": 0,
+        "max_distance_to_filled_GND_mm": 0.500499,
+        "gap_examples": [
+          {
+            "xy_mm": [
+              182.7,
+              89.0
+            ],
+            "distance_to_filled_GND_mm": 0.500499,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "1849e869-e88a-4682-b130-745b45b229d3"
+          },
+          {
+            "xy_mm": [
+              182.64999999999998,
+              89.0
+            ],
+            "distance_to_filled_GND_mm": 0.450499,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "1849e869-e88a-4682-b130-745b45b229d3"
+          },
+          {
+            "xy_mm": [
+              182.6,
+              89.0
+            ],
+            "distance_to_filled_GND_mm": 0.4005,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "1849e869-e88a-4682-b130-745b45b229d3"
+          },
+          {
+            "xy_mm": [
+              182.55,
+              89.0
+            ],
+            "distance_to_filled_GND_mm": 0.3505,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "1849e869-e88a-4682-b130-745b45b229d3"
+          },
+          {
+            "xy_mm": [
+              182.5,
+              89.0
+            ],
+            "distance_to_filled_GND_mm": 0.3005,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "1849e869-e88a-4682-b130-745b45b229d3"
+          },
+          {
+            "xy_mm": [
+              182.45,
+              89.0
+            ],
+            "distance_to_filled_GND_mm": 0.2505,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "1849e869-e88a-4682-b130-745b45b229d3"
+          },
+          {
+            "xy_mm": [
+              182.4,
+              89.0
+            ],
+            "distance_to_filled_GND_mm": 0.2005,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "1849e869-e88a-4682-b130-745b45b229d3"
+          },
+          {
+            "xy_mm": [
+              182.35000000000002,
+              89.0
+            ],
+            "distance_to_filled_GND_mm": 0.1505,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "1849e869-e88a-4682-b130-745b45b229d3"
+          },
+          {
+            "xy_mm": [
+              182.3,
+              89.0
+            ],
+            "distance_to_filled_GND_mm": 0.1005,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "1849e869-e88a-4682-b130-745b45b229d3"
+          },
+          {
+            "xy_mm": [
+              180.04835164835166,
+              85.64835164835165
+            ],
+            "distance_to_filled_GND_mm": 0.003194,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "7210816b-1946-48d5-ad0f-1afb3cc7f2ef"
+          },
+          {
+            "xy_mm": [
+              180.0835164835165,
+              85.68351648351648
+            ],
+            "distance_to_filled_GND_mm": 0.052924,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "7210816b-1946-48d5-ad0f-1afb3cc7f2ef"
+          },
+          {
+            "xy_mm": [
+              180.11868131868133,
+              85.71868131868132
+            ],
+            "distance_to_filled_GND_mm": 0.102655,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "7210816b-1946-48d5-ad0f-1afb3cc7f2ef"
+          }
+        ],
+        "centerline_coverage_fraction": 0.9037656903765691,
+        "three_probe_coverage_fraction": 0.895397489539749
+      },
+      {
+        "net": "TP_SCL",
+        "routing_layer": "B.Cu",
+        "expected_reference_layer": "In2.Cu",
+        "track_segments": 5,
+        "sample_count": 105,
+        "centerline_covered": 83,
+        "three_width_points_covered": 82,
+        "uncovered_centerline_near_own_signal_via": 22,
+        "uncovered_centerline_away_from_own_signal_via": 0,
+        "max_distance_to_filled_GND_mm": 0.500499,
+        "gap_examples": [
+          {
+            "xy_mm": [
+              180.4,
+              86.0
+            ],
+            "distance_to_filled_GND_mm": 0.500499,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "6697e942-4f10-43c6-adcb-bd31b05ac71e"
+          },
+          {
+            "xy_mm": [
+              180.43333333333334,
+              86.03333333333333
+            ],
+            "distance_to_filled_GND_mm": 0.45336,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "6697e942-4f10-43c6-adcb-bd31b05ac71e"
+          },
+          {
+            "xy_mm": [
+              180.46666666666667,
+              86.06666666666666
+            ],
+            "distance_to_filled_GND_mm": 0.40622,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "6697e942-4f10-43c6-adcb-bd31b05ac71e"
+          },
+          {
+            "xy_mm": [
+              180.5,
+              86.1
+            ],
+            "distance_to_filled_GND_mm": 0.359078,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "6697e942-4f10-43c6-adcb-bd31b05ac71e"
+          },
+          {
+            "xy_mm": [
+              180.53333333333333,
+              86.13333333333334
+            ],
+            "distance_to_filled_GND_mm": 0.311938,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "6697e942-4f10-43c6-adcb-bd31b05ac71e"
+          },
+          {
+            "xy_mm": [
+              180.56666666666666,
+              86.16666666666667
+            ],
+            "distance_to_filled_GND_mm": 0.264798,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "6697e942-4f10-43c6-adcb-bd31b05ac71e"
+          },
+          {
+            "xy_mm": [
+              180.60000000000002,
+              86.2
+            ],
+            "distance_to_filled_GND_mm": 0.217657,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "6697e942-4f10-43c6-adcb-bd31b05ac71e"
+          },
+          {
+            "xy_mm": [
+              180.63333333333335,
+              86.23333333333333
+            ],
+            "distance_to_filled_GND_mm": 0.170517,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "6697e942-4f10-43c6-adcb-bd31b05ac71e"
+          },
+          {
+            "xy_mm": [
+              180.66666666666669,
+              86.26666666666667
+            ],
+            "distance_to_filled_GND_mm": 0.123377,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "6697e942-4f10-43c6-adcb-bd31b05ac71e"
+          },
+          {
+            "xy_mm": [
+              180.70000000000002,
+              86.30000000000001
+            ],
+            "distance_to_filled_GND_mm": 0.076236,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "6697e942-4f10-43c6-adcb-bd31b05ac71e"
+          },
+          {
+            "xy_mm": [
+              180.73333333333335,
+              86.33333333333334
+            ],
+            "distance_to_filled_GND_mm": 0.029096,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "6697e942-4f10-43c6-adcb-bd31b05ac71e"
+          },
+          {
+            "xy_mm": [
+              183.03333333333333,
+              88.66666666666667
+            ],
+            "distance_to_filled_GND_mm": 0.029095,
+            "within_signal_via_transition_radius": true,
+            "track_uuid": "b63c4abc-4be4-4d9b-be70-c58c284cd4df"
+          }
+        ],
+        "centerline_coverage_fraction": 0.7904761904761904,
+        "three_probe_coverage_fraction": 0.780952380952381
+      },
+      {
+        "net": "TP_SDA",
+        "routing_layer": "F.Cu",
+        "expected_reference_layer": "In1.Cu",
+        "track_segments": 13,
+        "sample_count": 596,
+        "centerline_covered": 596,
+        "three_width_points_covered": 596,
+        "uncovered_centerline_near_own_signal_via": 0,
+        "uncovered_centerline_away_from_own_signal_via": 0,
+        "max_distance_to_filled_GND_mm": 0,
+        "gap_examples": [],
+        "centerline_coverage_fraction": 1.0,
+        "three_probe_coverage_fraction": 1.0
+      },
+      {
+        "net": "TP_VDD",
+        "routing_layer": "F.Cu",
+        "expected_reference_layer": "In1.Cu",
+        "track_segments": 29,
+        "sample_count": 676,
+        "centerline_covered": 676,
+        "three_width_points_covered": 676,
+        "uncovered_centerline_near_own_signal_via": 0,
+        "uncovered_centerline_away_from_own_signal_via": 0,
+        "max_distance_to_filled_GND_mm": 0,
+        "gap_examples": [],
+        "centerline_coverage_fraction": 1.0,
+        "three_probe_coverage_fraction": 1.0
+      }
+    ],
+    "DSI_centerline_samples": [],
+    "GND_vias": 54,
+    "limitations": [
+      "A 2D projection check only; does not prove actual field distribution, continuous return inductance, reference-via proximity, impedance or EMI.",
+      "Areas are unions of native saved fill polygons; no fill operation performed. Thermal, plane-neck and antipad impedance need routing/field review.",
+      "Samples are not a proof against discontinuities narrower than the sampling pitch. Three lateral probes are not continuous full-width coverage.",
+      "Same-net trace centerline in a via antipad region is an expected transition location, but transition quality is not automatically accepted."
+    ]
+  },
+  "elapsed_seconds": 0.9250733852386475,
+  "limitations": [
+    "No board/project file is written. Output JSON is the only write.",
+    "DRC and ERC are independent required checks and must be run separately; this report does not assume their results.",
+    "Track centerline plus nominal outer copper midplane separation per via is a geometric length convention, not measured delay or a full channel model.",
+    "Filled-plane samples and islands do not prove reference return impedance, thermal capacity, actual manufacturability or exact connector/FPC qualification."
+  ]
+}

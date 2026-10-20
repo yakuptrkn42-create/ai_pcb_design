@@ -1,0 +1,23 @@
+{
+  "method": "Added +0.200 mm proper continuous CLK_P tuning excursion only in isolated test project; compare unchanged rules versus swapped global/intrapair rule order. No root board/rules touched.",
+  "result": {
+    "original_order_drc.json": [],
+    "corrected_order_drc.json": [
+      {
+        "description": "Skew between tracks out of range (rule 'DSI intra-pair skew budget' max skew 0.1000 mm; actual -0.2000 mm; target net length 33.0236 mm (from DSI_CLK_P); actual 32.8236 mm)",
+        "items": [
+          {
+            "description": "Track [DSI_CLK_N] on B.Cu, length 13.8504 mm",
+            "pos": {
+              "x": 165.34,
+              "y": 100.733726
+            },
+            "uuid": "f6efb490-d7b5-4929-99f7-3e0778055359"
+          }
+        ],
+        "severity": "error",
+        "type": "skew_out_of_range"
+      }
+    ]
+  }
+}

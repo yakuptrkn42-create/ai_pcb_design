@@ -1,0 +1,215 @@
+{
+  "copper_resistivity_ohm_mm_at20C": 1.724e-05,
+  "outer_Cu_mm_nominal": 0.035,
+  "via_plating_mm_ASSUMED_not_manufacturer_verified": 0.02,
+  "DC_branch_resistance_method": "Sum every same-net copper branch L/(w*t), plus every via nominal barrel R, conservative upper bound for any simple unbranched point-to-point route on the same net; excludes pads, connectors, fuse, jumper, ferrites, contact resistance, GND and temperature rise. Not the effective network resistance.",
+  "current_capacity_reference": "Legacy IPC-2221 external trace estimate at 10C rise, 35um nominal copper; not IPC-2152 or thermal validation.",
+  "rough_external_capacity_A_at10C": {
+    "0.2": 0.7446092505049391,
+    "0.3": 0.9990669447801742,
+    "0.4": 1.2307651039607521,
+    "0.6": 1.6513583887418626,
+    "0.8": 2.03433242348293
+  },
+  "power_nets": [
+    {
+      "net": "BL_5V",
+      "total_branch_centerline_length_mm": 3.2433504678941936,
+      "track_width_range_mm": [
+        0.8,
+        0.8
+      ],
+      "vias": 0,
+      "conservative_sum_all_track_branch_resistances_ohm_at20C": 0.0019969772166605676,
+      "sum_via_resistance_ohm_assuming20um_plating": 0,
+      "conservative_total_ohm": 0.0019969772166605676
+    },
+    {
+      "net": "BL_COMP",
+      "total_branch_centerline_length_mm": 2.313797826310062,
+      "track_width_range_mm": [
+        0.2,
+        0.2
+      ],
+      "vias": 0,
+      "conservative_sum_all_track_branch_resistances_ohm_at20C": 0.005698553503655066,
+      "sum_via_resistance_ohm_assuming20um_plating": 0,
+      "conservative_total_ohm": 0.005698553503655066
+    },
+    {
+      "net": "BL_LEDA",
+      "total_branch_centerline_length_mm": 79.5643718669111,
+      "track_width_range_mm": [
+        0.2,
+        0.4
+      ],
+      "vias": 4,
+      "conservative_sum_all_track_branch_resistances_ohm_at20C": 0.11845796619898592,
+      "sum_via_resistance_ohm_assuming20um_plating": 0.005853506600329122,
+      "conservative_total_ohm": 0.12431147279931505
+    },
+    {
+      "net": "BL_LEDK",
+      "total_branch_centerline_length_mm": 38.47538613938254,
+      "track_width_range_mm": [
+        0.2,
+        0.4
+      ],
+      "vias": 2,
+      "conservative_sum_all_track_branch_resistances_ohm_at20C": 0.04999994500295548,
+      "sum_via_resistance_ohm_assuming20um_plating": 0.002926753300164561,
+      "conservative_total_ohm": 0.052926698303120044
+    },
+    {
+      "net": "BL_POWER",
+      "total_branch_centerline_length_mm": 43.57080535659889,
+      "track_width_range_mm": [
+        0.8,
+        0.8
+      ],
+      "vias": 0,
+      "conservative_sum_all_track_branch_resistances_ohm_at20C": 0.026827167298134454,
+      "sum_via_resistance_ohm_assuming20um_plating": 0,
+      "conservative_total_ohm": 0.026827167298134454
+    },
+    {
+      "net": "BL_SW",
+      "total_branch_centerline_length_mm": 5.544328098979218,
+      "track_width_range_mm": [
+        0.6,
+        0.6
+      ],
+      "vias": 0,
+      "conservative_sum_all_track_branch_resistances_ohm_at20C": 0.004551629353638177,
+      "sum_via_resistance_ohm_assuming20um_plating": 0,
+      "conservative_total_ohm": 0.004551629353638177
+    },
+    {
+      "net": "EXT_5V",
+      "total_branch_centerline_length_mm": 6.658326112068523,
+      "track_width_range_mm": [
+        0.8,
+        0.8
+      ],
+      "vias": 0,
+      "conservative_sum_all_track_branch_resistances_ohm_at20C": 0.004099626506145048,
+      "sum_via_resistance_ohm_assuming20um_plating": 0,
+      "conservative_total_ohm": 0.004099626506145048
+    },
+    {
+      "net": "FUSED_5V",
+      "total_branch_centerline_length_mm": 3.203553390593274,
+      "track_width_range_mm": [
+        0.8,
+        0.8
+      ],
+      "vias": 0,
+      "conservative_sum_all_track_branch_resistances_ohm_at20C": 0.001972473587636716,
+      "sum_via_resistance_ohm_assuming20um_plating": 0,
+      "conservative_total_ohm": 0.001972473587636716
+    },
+    {
+      "net": "HOST_3V3",
+      "total_branch_centerline_length_mm": 17.43021367242412,
+      "track_width_range_mm": [
+        0.3,
+        0.3
+      ],
+      "vias": 0,
+      "conservative_sum_all_track_branch_resistances_ohm_at20C": 0.02861875082977065,
+      "sum_via_resistance_ohm_assuming20um_plating": 0,
+      "conservative_total_ohm": 0.02861875082977065
+    },
+    {
+      "net": "HOST_TP_3V3",
+      "total_branch_centerline_length_mm": 7.452951193620455,
+      "track_width_range_mm": [
+        0.2,
+        0.3
+      ],
+      "vias": 2,
+      "conservative_sum_all_track_branch_resistances_ohm_at20C": 0.012982687607536545,
+      "sum_via_resistance_ohm_assuming20um_plating": 0.002926753300164561,
+      "conservative_total_ohm": 0.015909440907701106
+    },
+    {
+      "net": "LCD_VCI",
+      "total_branch_centerline_length_mm": 55.49420959034136,
+      "track_width_range_mm": [
+        0.3,
+        0.3
+      ],
+      "vias": 0,
+      "conservative_sum_all_track_branch_resistances_ohm_at20C": 0.09111620698452239,
+      "sum_via_resistance_ohm_assuming20um_plating": 0,
+      "conservative_total_ohm": 0.09111620698452239
+    },
+    {
+      "net": "OVP_REF",
+      "total_branch_centerline_length_mm": 2.990685424949238,
+      "track_width_range_mm": [
+        0.2,
+        0.2
+      ],
+      "vias": 0,
+      "conservative_sum_all_track_branch_resistances_ohm_at20C": 0.00736563096087498,
+      "sum_via_resistance_ohm_assuming20um_plating": 0,
+      "conservative_total_ohm": 0.00736563096087498
+    },
+    {
+      "net": "OVP_SENSE",
+      "total_branch_centerline_length_mm": 5.496751442127221,
+      "track_width_range_mm": [
+        0.2,
+        0.2
+      ],
+      "vias": 0,
+      "conservative_sum_all_track_branch_resistances_ohm_at20C": 0.013537713551753323,
+      "sum_via_resistance_ohm_assuming20um_plating": 0,
+      "conservative_total_ohm": 0.013537713551753323
+    },
+    {
+      "net": "TP_VDD",
+      "total_branch_centerline_length_mm": 31.71708088371235,
+      "track_width_range_mm": [
+        0.3,
+        0.3
+      ],
+      "vias": 0,
+      "conservative_sum_all_track_branch_resistances_ohm_at20C": 0.0520764261366858,
+      "sum_via_resistance_ohm_assuming20um_plating": 0,
+      "conservative_total_ohm": 0.0520764261366858
+    }
+  ],
+  "boost_checks": {
+    "R7_ohm": 5.23,
+    "I_LED_nominal_A": 0.03824091778202677,
+    "I_LED_corner_min_A": 0.03710504893701607,
+    "I_LED_corner_max_A": 0.03939973347239121,
+    "panel_Vf_range_V": [
+      21.6,
+      27.2
+    ],
+    "LED_total_current_datasheet_A": 0.04,
+    "R7_nominal_power_W": 0.007648183556405354,
+    "conservative_Vf_V": 27.2,
+    "LED_current_A_for_power_budget": 0.04,
+    "output_plus_bleed_power_W": 1.110419393939394,
+    "VIN_min_assumed_V": 4.2,
+    "efficiency_assumed": 0.75,
+    "L_min_assumed_H": 1.76e-05,
+    "fs_min_assumed_Hz": 1000000.0,
+    "I_IN_average_est_A": 0.3525140933140933,
+    "I_L_peak_est_A": 0.45374070965803814,
+    "OVP_nominal_V": 28.6902,
+    "OVP_limit_note": "Comparator threshold only, not a hard voltage clamp. TLV3011B behavior and overshoot/startup require validation.",
+    "diode_drop_assumed_V": 0.5
+  },
+  "limits": [
+    "LCD IVCI and touch IVDD remain TBD in supplied datasheet; host rail capacity and 3.3V tolerance need measurement/confirmation.",
+    "40mA backlight rating and 5.23 ohm give 38.24mA nominal, ~37.1..39.4mA stated reference/resistor corners.",
+    "Panel/FPC current ratings, fuse derating, exact inductor saturation/RMS, diode thermal/forward drop, effective MLCC DC bias and reference/OVP behavior must be qualified by exact fitted MPNs.",
+    "Short 0.2mm BL_LEDA branch is OVP/bleeder sensing, BL_LEDK branch is Kelvin feedback, not a 0.8mm input-power bottleneck. HOST_TP_3V3 has one 0.9mm 0.2mm connector launch.",
+    "Via current capacity is not established by resistance alone; plating thickness not confirmed."
+  ]
+}

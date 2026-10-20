@@ -1,0 +1,743 @@
+{
+  "method": "Conservative XY projection of nominal STEP bounding boxes and all indexed WRL vertices, using native KiCad scale/offset/rotation; includes DNP reservation. WRL KiCad units converted by 2.54.",
+  "model_reference_count": 49,
+  "projected_intersections": [],
+  "models": [
+    {
+      "reference": "C1",
+      "projected_model_bbox_mm": [
+        20.29924000000001,
+        16.775160000000007,
+        22.30076000000001,
+        18.024840000000005
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        1.24968
+      ],
+      "DNP": false,
+      "file": "C_0805_2012Metric.wrl"
+    },
+    {
+      "reference": "C13",
+      "projected_model_bbox_mm": [
+        10.74924,
+        27.175159999999998,
+        12.75076,
+        28.424839999999996
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        1.24968
+      ],
+      "DNP": false,
+      "file": "C_0805_2012Metric.wrl"
+    },
+    {
+      "reference": "C2",
+      "projected_model_bbox_mm": [
+        26.62516,
+        29.099239999999995,
+        27.87484,
+        31.100759999999994
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        1.24968
+      ],
+      "DNP": false,
+      "file": "C_0805_2012Metric.wrl"
+    },
+    {
+      "reference": "C3",
+      "projected_model_bbox_mm": [
+        15.50032,
+        32.49979999999999,
+        17.99968,
+        35.700199999999995
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        2.49936
+      ],
+      "DNP": false,
+      "file": "C_1210_3225Metric.wrl"
+    },
+    {
+      "reference": "C4",
+      "projected_model_bbox_mm": [
+        19.44923999999999,
+        32.27516000000001,
+        21.45075999999999,
+        33.524840000000005
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        1.24968
+      ],
+      "DNP": false,
+      "file": "C_0805_2012Metric.wrl"
+    },
+    {
+      "reference": "C5",
+      "projected_model_bbox_mm": [
+        18.87516,
+        37.49924,
+        20.12484,
+        39.50076
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        1.24968
+      ],
+      "DNP": false,
+      "file": "C_0805_2012Metric.wrl"
+    },
+    {
+      "reference": "C6",
+      "projected_model_bbox_mm": [
+        21.12516,
+        37.49924,
+        22.37484,
+        39.50076
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        1.24968
+      ],
+      "DNP": false,
+      "file": "C_0805_2012Metric.wrl"
+    },
+    {
+      "reference": "C7",
+      "projected_model_bbox_mm": [
+        35.12516,
+        7.24924,
+        36.37484,
+        9.25076
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        1.24968
+      ],
+      "DNP": false,
+      "file": "C_0805_2012Metric.wrl"
+    },
+    {
+      "reference": "C8",
+      "projected_model_bbox_mm": [
+        35.49924,
+        11.12516,
+        37.50076,
+        12.37484
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        1.24968
+      ],
+      "DNP": false,
+      "file": "C_0805_2012Metric.wrl"
+    },
+    {
+      "reference": "C9",
+      "projected_model_bbox_mm": [
+        22.925160000000012,
+        33.099239999999995,
+        24.17484000000001,
+        35.100759999999994
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        1.24968
+      ],
+      "DNP": false,
+      "file": "C_0805_2012Metric.wrl"
+    },
+    {
+      "reference": "D1",
+      "projected_model_bbox_mm": [
+        16.25064,
+        28.451259999999998,
+        21.24936,
+        31.148739999999997
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        2.21996
+      ],
+      "DNP": false,
+      "file": "D_SMA.wrl"
+    },
+    {
+      "reference": "D3",
+      "projected_model_bbox_mm": [
+        7.750640000000001,
+        13.90126,
+        12.74936,
+        16.59874
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        2.21996
+      ],
+      "DNP": false,
+      "file": "D_SMA.wrl"
+    },
+    {
+      "reference": "F2",
+      "projected_model_bbox_mm": [
+        2.1498,
+        14.1999,
+        5.3502,
+        15.8001
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        0.55118
+      ],
+      "DNP": false,
+      "file": "Fuse_1206_3216Metric.wrl"
+    },
+    {
+      "reference": "J1",
+      "projected_model_bbox_mm": [
+        26.0,
+        36.51599999999999,
+        35.0,
+        40.12499999999999
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        1.0
+      ],
+      "DNP": false,
+      "file": "FH26W_25_Nominal.step"
+    },
+    {
+      "reference": "J2",
+      "projected_model_bbox_mm": [
+        46.541,
+        15.850000000000003,
+        50.15,
+        29.050000000000004
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        1.0
+      ],
+      "DNP": false,
+      "file": "FH26_39_Nominal.step"
+    },
+    {
+      "reference": "J3",
+      "projected_model_bbox_mm": [
+        39.75,
+        4.962,
+        44.75,
+        8.038
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        1.025
+      ],
+      "DNP": false,
+      "file": "FH19C_6_Nominal.step"
+    },
+    {
+      "reference": "J4",
+      "projected_model_bbox_mm": [
+        24.15999999999999,
+        3.084999999999999,
+        31.81999999999999,
+        8.925
+      ],
+      "height_range_above_board_mm": [
+        -3.5,
+        10.0
+      ],
+      "DNP": false,
+      "file": "FanPinHeader_1x03_P2.54mm_Vertical.step"
+    },
+    {
+      "reference": "J6",
+      "projected_model_bbox_mm": [
+        0.9500000000000002,
+        17.75,
+        9.450000000000001,
+        27.75
+      ],
+      "height_range_above_board_mm": [
+        -3.0,
+        8.5
+      ],
+      "DNP": false,
+      "file": "JST_NV_B02P_Nominal.step"
+    },
+    {
+      "reference": "L1",
+      "projected_model_bbox_mm": [
+        20.75,
+        19.81,
+        27.75,
+        27.19
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        4.5
+      ],
+      "DNP": false,
+      "file": "SLF7045_Nominal.step"
+    },
+    {
+      "reference": "R1",
+      "projected_model_bbox_mm": [
+        39.99924,
+        9.90056,
+        42.00076,
+        11.09944
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        0.44958
+      ],
+      "DNP": true,
+      "file": "R_0805_2012Metric.wrl"
+    },
+    {
+      "reference": "R12",
+      "projected_model_bbox_mm": [
+        12.74924,
+        17.65056,
+        14.75076,
+        18.84944
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        0.44958
+      ],
+      "DNP": false,
+      "file": "R_0805_2012Metric.wrl"
+    },
+    {
+      "reference": "R13",
+      "projected_model_bbox_mm": [
+        21.15056,
+        5.661739999999995,
+        22.34944,
+        7.663259999999994
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        0.44958
+      ],
+      "DNP": false,
+      "file": "R_0805_2012Metric.wrl"
+    },
+    {
+      "reference": "R14",
+      "projected_model_bbox_mm": [
+        35.49924,
+        13.40056,
+        37.50076,
+        14.59944
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        0.44958
+      ],
+      "DNP": false,
+      "file": "R_0805_2012Metric.wrl"
+    },
+    {
+      "reference": "R15",
+      "projected_model_bbox_mm": [
+        42.49924,
+        36.15056,
+        44.50076,
+        37.34944
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        0.44958
+      ],
+      "DNP": false,
+      "file": "R_0805_2012Metric.wrl"
+    },
+    {
+      "reference": "R16",
+      "projected_model_bbox_mm": [
+        36.65056,
+        36.24924,
+        37.84944,
+        38.25076
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        0.44958
+      ],
+      "DNP": false,
+      "file": "R_0805_2012Metric.wrl"
+    },
+    {
+      "reference": "R17",
+      "projected_model_bbox_mm": [
+        42.49924,
+        34.15056,
+        44.50076,
+        35.34944
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        0.44958
+      ],
+      "DNP": false,
+      "file": "R_0805_2012Metric.wrl"
+    },
+    {
+      "reference": "R18",
+      "projected_model_bbox_mm": [
+        34.90056,
+        25.49924,
+        36.09944,
+        27.50076
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        0.44958
+      ],
+      "DNP": false,
+      "file": "R_0805_2012Metric.wrl"
+    },
+    {
+      "reference": "R19",
+      "projected_model_bbox_mm": [
+        10.49924,
+        36.40056,
+        12.50076,
+        37.59944
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        0.44958
+      ],
+      "DNP": false,
+      "file": "R_0805_2012Metric.wrl"
+    },
+    {
+      "reference": "R2",
+      "projected_model_bbox_mm": [
+        39.99924,
+        12.15056,
+        42.00076,
+        13.34944
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        0.44958
+      ],
+      "DNP": true,
+      "file": "R_0805_2012Metric.wrl"
+    },
+    {
+      "reference": "R20",
+      "projected_model_bbox_mm": [
+        10.49924,
+        33.90056,
+        12.50076,
+        35.09944
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        0.44958
+      ],
+      "DNP": false,
+      "file": "R_0805_2012Metric.wrl"
+    },
+    {
+      "reference": "R3",
+      "projected_model_bbox_mm": [
+        35.49924,
+        16.15056,
+        37.50076,
+        17.34944
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        0.44958
+      ],
+      "DNP": false,
+      "file": "R_0805_2012Metric.wrl"
+    },
+    {
+      "reference": "R4",
+      "projected_model_bbox_mm": [
+        23.40056,
+        37.49924,
+        24.59944,
+        39.50076
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        0.44958
+      ],
+      "DNP": false,
+      "file": "R_0805_2012Metric.wrl"
+    },
+    {
+      "reference": "R5",
+      "projected_model_bbox_mm": [
+        37.40056,
+        7.24924,
+        38.59944,
+        9.25076
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        0.44958
+      ],
+      "DNP": false,
+      "file": "R_0805_2012Metric.wrl"
+    },
+    {
+      "reference": "R6",
+      "projected_model_bbox_mm": [
+        21.15056,
+        9.336740000000006,
+        22.34944,
+        11.338260000000005
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        0.44958
+      ],
+      "DNP": false,
+      "file": "R_0805_2012Metric.wrl"
+    },
+    {
+      "reference": "R7",
+      "projected_model_bbox_mm": [
+        25.15056,
+        32.94924,
+        26.34944,
+        34.95076
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        0.44958
+      ],
+      "DNP": false,
+      "file": "R_0805_2012Metric.wrl"
+    },
+    {
+      "reference": "TP1",
+      "projected_model_bbox_mm": [
+        22.5,
+        41.5,
+        23.5,
+        42.5
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        0.035
+      ],
+      "DNP": false,
+      "file": "TestPoint_Copper_1mm.step"
+    },
+    {
+      "reference": "TP10",
+      "projected_model_bbox_mm": [
+        40.0,
+        17.0,
+        41.0,
+        18.0
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        0.035
+      ],
+      "DNP": false,
+      "file": "TestPoint_Copper_1mm.step"
+    },
+    {
+      "reference": "TP11",
+      "projected_model_bbox_mm": [
+        52.75,
+        27.25,
+        53.75,
+        28.25
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        0.035
+      ],
+      "DNP": false,
+      "file": "TestPoint_Copper_1mm.step"
+    },
+    {
+      "reference": "TP12",
+      "projected_model_bbox_mm": [
+        32.0,
+        11.5,
+        33.0,
+        12.5
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        0.035
+      ],
+      "DNP": false,
+      "file": "TestPoint_Copper_1mm.step"
+    },
+    {
+      "reference": "TP13",
+      "projected_model_bbox_mm": [
+        48.25,
+        32.0,
+        49.25,
+        33.0
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        0.035
+      ],
+      "DNP": false,
+      "file": "TestPoint_Copper_1mm.step"
+    },
+    {
+      "reference": "TP14",
+      "projected_model_bbox_mm": [
+        51.75,
+        30.75,
+        52.75,
+        31.75
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        0.035
+      ],
+      "DNP": false,
+      "file": "TestPoint_Copper_1mm.step"
+    },
+    {
+      "reference": "TP15",
+      "projected_model_bbox_mm": [
+        11.5,
+        4.5,
+        12.5,
+        5.5
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        0.035
+      ],
+      "DNP": false,
+      "file": "TestPoint_Copper_1mm.step"
+    },
+    {
+      "reference": "TP3",
+      "projected_model_bbox_mm": [
+        15.75,
+        37.25,
+        16.75,
+        38.25
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        0.035
+      ],
+      "DNP": false,
+      "file": "TestPoint_Copper_1mm.step"
+    },
+    {
+      "reference": "TP4",
+      "projected_model_bbox_mm": [
+        39.75,
+        39.75,
+        40.75,
+        40.75
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        0.035
+      ],
+      "DNP": false,
+      "file": "TestPoint_Copper_1mm.step"
+    },
+    {
+      "reference": "TP5",
+      "projected_model_bbox_mm": [
+        52.5,
+        12.5,
+        53.5,
+        13.5
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        0.035
+      ],
+      "DNP": false,
+      "file": "TestPoint_Copper_1mm.step"
+    },
+    {
+      "reference": "TP6",
+      "projected_model_bbox_mm": [
+        16.5,
+        4.75,
+        17.5,
+        5.75
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        0.035
+      ],
+      "DNP": false,
+      "file": "TestPoint_Copper_1mm.step"
+    },
+    {
+      "reference": "TP9",
+      "projected_model_bbox_mm": [
+        25.25,
+        17.5,
+        26.25,
+        18.5
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        0.035
+      ],
+      "DNP": false,
+      "file": "TestPoint_Copper_1mm.step"
+    },
+    {
+      "reference": "U1",
+      "projected_model_bbox_mm": [
+        22.79966,
+        28.600459999999998,
+        25.70034,
+        31.399540000000002
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        1.5493999999999999
+      ],
+      "DNP": false,
+      "file": "SOT-23-6.wrl"
+    },
+    {
+      "reference": "U2",
+      "projected_model_bbox_mm": [
+        10.35046,
+        29.29966,
+        13.14954,
+        32.20034
+      ],
+      "height_range_above_board_mm": [
+        0.0,
+        1.5493999999999999
+      ],
+      "DNP": false,
+      "file": "SOT-23-6.wrl"
+    }
+  ],
+  "limitations": "Bounding-envelope check, not exact solid collision, latch swept volume, real FPC bend/strain, enclosure or mating-connector qualification. Mounting hardware is reserved by 8mm native courtyards and all-copper keepouts; no screw/washer model was assumed."
+}

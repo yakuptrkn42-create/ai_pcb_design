@@ -1,0 +1,797 @@
+[
+  {
+    "reference": "C9",
+    "pin": "1",
+    "net": "BL_COMP"
+  },
+  {
+    "reference": "C9",
+    "pin": "2",
+    "net": "GND"
+  },
+  {
+    "reference": "R13",
+    "pin": "1",
+    "net": "BL_PWM_RAW"
+  },
+  {
+    "reference": "R13",
+    "pin": "2",
+    "net": "BL_CTRL"
+  },
+  {
+    "reference": "C6",
+    "pin": "1",
+    "net": "LCD_VCI"
+  },
+  {
+    "reference": "C6",
+    "pin": "2",
+    "net": "GND"
+  },
+  {
+    "reference": "U2",
+    "pin": "1",
+    "net": "BL_CTRL"
+  },
+  {
+    "reference": "U2",
+    "pin": "2",
+    "net": "GND"
+  },
+  {
+    "reference": "U2",
+    "pin": "3",
+    "net": "OVP_REF"
+  },
+  {
+    "reference": "U2",
+    "pin": "4",
+    "net": "OVP_SENSE"
+  },
+  {
+    "reference": "U2",
+    "pin": "5",
+    "net": "OVP_REF"
+  },
+  {
+    "reference": "U2",
+    "pin": "6",
+    "net": "BL_POWER"
+  },
+  {
+    "reference": "TP4",
+    "pin": "1",
+    "net": "LCD_RST"
+  },
+  {
+    "reference": "L1",
+    "pin": "1",
+    "net": "BL_POWER"
+  },
+  {
+    "reference": "L1",
+    "pin": "2",
+    "net": "BL_SW"
+  },
+  {
+    "reference": "R6",
+    "pin": "1",
+    "net": "BL_CTRL"
+  },
+  {
+    "reference": "R6",
+    "pin": "2",
+    "net": "GND"
+  },
+  {
+    "reference": "C3",
+    "pin": "1",
+    "net": "BL_LEDA"
+  },
+  {
+    "reference": "C3",
+    "pin": "2",
+    "net": "GND"
+  },
+  {
+    "reference": "TP10",
+    "pin": "1",
+    "net": "TP_RST"
+  },
+  {
+    "reference": "TP15",
+    "pin": "1",
+    "net": "GND"
+  },
+  {
+    "reference": "R19",
+    "pin": "1",
+    "net": "BL_LEDA"
+  },
+  {
+    "reference": "R19",
+    "pin": "2",
+    "net": "OVP_SENSE"
+  },
+  {
+    "reference": "C7",
+    "pin": "1",
+    "net": "TP_VDD"
+  },
+  {
+    "reference": "C7",
+    "pin": "2",
+    "net": "GND"
+  },
+  {
+    "reference": "C4",
+    "pin": "1",
+    "net": "BL_LEDA"
+  },
+  {
+    "reference": "C4",
+    "pin": "2",
+    "net": "GND"
+  },
+  {
+    "reference": "TP3",
+    "pin": "1",
+    "net": "GND"
+  },
+  {
+    "reference": "TP14",
+    "pin": "1",
+    "net": "BL_LEDK"
+  },
+  {
+    "reference": "TP5",
+    "pin": "1",
+    "net": "TP_INT"
+  },
+  {
+    "reference": "R18",
+    "pin": "1",
+    "net": "BL_LEDA"
+  },
+  {
+    "reference": "R18",
+    "pin": "2",
+    "net": "GND"
+  },
+  {
+    "reference": "R16",
+    "pin": "1",
+    "net": "LCD_TE"
+  },
+  {
+    "reference": "R16",
+    "pin": "2",
+    "net": "HOST_TE"
+  },
+  {
+    "reference": "J4",
+    "pin": "1",
+    "net": "BL_PWM_RAW"
+  },
+  {
+    "reference": "J4",
+    "pin": "2",
+    "net": "HOST_TP_RST"
+  },
+  {
+    "reference": "J4",
+    "pin": "3",
+    "net": "GND"
+  },
+  {
+    "reference": "J6",
+    "pin": "1",
+    "net": "EXT_5V"
+  },
+  {
+    "reference": "J6",
+    "pin": "2",
+    "net": "GND"
+  },
+  {
+    "reference": "J2",
+    "pin": "1",
+    "net": "BL_LEDA"
+  },
+  {
+    "reference": "J2",
+    "pin": "2",
+    "net": "BL_LEDA"
+  },
+  {
+    "reference": "J2",
+    "pin": "3",
+    "net": "BL_LEDK"
+  },
+  {
+    "reference": "J2",
+    "pin": "4",
+    "net": "BL_LEDK"
+  },
+  {
+    "reference": "J2",
+    "pin": "5",
+    "net": "unconnected-(J2-NC-Pad5)"
+  },
+  {
+    "reference": "J2",
+    "pin": "6",
+    "net": "unconnected-(J2-NC-Pad6)"
+  },
+  {
+    "reference": "J2",
+    "pin": "7",
+    "net": "LCD_VCI"
+  },
+  {
+    "reference": "J2",
+    "pin": "8",
+    "net": "LCD_VCI"
+  },
+  {
+    "reference": "J2",
+    "pin": "9",
+    "net": "LCD_VCI"
+  },
+  {
+    "reference": "J2",
+    "pin": "10",
+    "net": "LCD_VCI"
+  },
+  {
+    "reference": "J2",
+    "pin": "11",
+    "net": "GND"
+  },
+  {
+    "reference": "J2",
+    "pin": "12",
+    "net": "LCD_RST"
+  },
+  {
+    "reference": "J2",
+    "pin": "13",
+    "net": "LCD_TE"
+  },
+  {
+    "reference": "J2",
+    "pin": "14",
+    "net": "GND"
+  },
+  {
+    "reference": "J2",
+    "pin": "15",
+    "net": "GND"
+  },
+  {
+    "reference": "J2",
+    "pin": "16",
+    "net": "DSI_D0_P"
+  },
+  {
+    "reference": "J2",
+    "pin": "17",
+    "net": "DSI_D0_N"
+  },
+  {
+    "reference": "J2",
+    "pin": "18",
+    "net": "GND"
+  },
+  {
+    "reference": "J2",
+    "pin": "19",
+    "net": "GND"
+  },
+  {
+    "reference": "J2",
+    "pin": "20",
+    "net": "DSI_D1_P"
+  },
+  {
+    "reference": "J2",
+    "pin": "21",
+    "net": "DSI_D1_N"
+  },
+  {
+    "reference": "J2",
+    "pin": "22",
+    "net": "GND"
+  },
+  {
+    "reference": "J2",
+    "pin": "23",
+    "net": "GND"
+  },
+  {
+    "reference": "J2",
+    "pin": "24",
+    "net": "DSI_CLK_P"
+  },
+  {
+    "reference": "J2",
+    "pin": "25",
+    "net": "DSI_CLK_N"
+  },
+  {
+    "reference": "J2",
+    "pin": "26",
+    "net": "GND"
+  },
+  {
+    "reference": "J2",
+    "pin": "27",
+    "net": "GND"
+  },
+  {
+    "reference": "J2",
+    "pin": "28",
+    "net": "GND"
+  },
+  {
+    "reference": "J2",
+    "pin": "29",
+    "net": "GND"
+  },
+  {
+    "reference": "J2",
+    "pin": "30",
+    "net": "TP_VDD"
+  },
+  {
+    "reference": "J2",
+    "pin": "31",
+    "net": "TP_VDD"
+  },
+  {
+    "reference": "J2",
+    "pin": "32",
+    "net": "TP_SCL"
+  },
+  {
+    "reference": "J2",
+    "pin": "33",
+    "net": "TP_SDA"
+  },
+  {
+    "reference": "J2",
+    "pin": "34",
+    "net": "TP_RST"
+  },
+  {
+    "reference": "J2",
+    "pin": "35",
+    "net": "TP_INT"
+  },
+  {
+    "reference": "J2",
+    "pin": "36",
+    "net": "GND"
+  },
+  {
+    "reference": "J2",
+    "pin": "37",
+    "net": "GND"
+  },
+  {
+    "reference": "J2",
+    "pin": "38",
+    "net": "unconnected-(J2-NC-Pad38)"
+  },
+  {
+    "reference": "J2",
+    "pin": "39",
+    "net": "unconnected-(J2-NC-Pad39)"
+  },
+  {
+    "reference": "TP6",
+    "pin": "1",
+    "net": "BL_CTRL"
+  },
+  {
+    "reference": "TP1",
+    "pin": "1",
+    "net": "HOST_3V3"
+  },
+  {
+    "reference": "C1",
+    "pin": "1",
+    "net": "BL_POWER"
+  },
+  {
+    "reference": "C1",
+    "pin": "2",
+    "net": "GND"
+  },
+  {
+    "reference": "R2",
+    "pin": "1",
+    "net": "TP_VDD"
+  },
+  {
+    "reference": "R2",
+    "pin": "2",
+    "net": "TP_SCL"
+  },
+  {
+    "reference": "R14",
+    "pin": "1",
+    "net": "TP_VDD"
+  },
+  {
+    "reference": "R14",
+    "pin": "2",
+    "net": "TP_RST"
+  },
+  {
+    "reference": "C2",
+    "pin": "1",
+    "net": "BL_POWER"
+  },
+  {
+    "reference": "C2",
+    "pin": "2",
+    "net": "GND"
+  },
+  {
+    "reference": "R17",
+    "pin": "1",
+    "net": "LCD_VCI"
+  },
+  {
+    "reference": "R17",
+    "pin": "2",
+    "net": "LCD_RST"
+  },
+  {
+    "reference": "D3",
+    "pin": "1",
+    "net": "BL_5V"
+  },
+  {
+    "reference": "D3",
+    "pin": "2",
+    "net": "FUSED_5V"
+  },
+  {
+    "reference": "R12",
+    "pin": "1",
+    "net": "BL_5V"
+  },
+  {
+    "reference": "R12",
+    "pin": "2",
+    "net": "BL_POWER"
+  },
+  {
+    "reference": "R20",
+    "pin": "1",
+    "net": "OVP_SENSE"
+  },
+  {
+    "reference": "R20",
+    "pin": "2",
+    "net": "GND"
+  },
+  {
+    "reference": "R1",
+    "pin": "1",
+    "net": "TP_VDD"
+  },
+  {
+    "reference": "R1",
+    "pin": "2",
+    "net": "TP_SDA"
+  },
+  {
+    "reference": "F2",
+    "pin": "1",
+    "net": "EXT_5V"
+  },
+  {
+    "reference": "F2",
+    "pin": "2",
+    "net": "FUSED_5V"
+  },
+  {
+    "reference": "R4",
+    "pin": "1",
+    "net": "HOST_3V3"
+  },
+  {
+    "reference": "R4",
+    "pin": "2",
+    "net": "LCD_VCI"
+  },
+  {
+    "reference": "U1",
+    "pin": "1",
+    "net": "BL_POWER"
+  },
+  {
+    "reference": "U1",
+    "pin": "2",
+    "net": "BL_CTRL"
+  },
+  {
+    "reference": "U1",
+    "pin": "3",
+    "net": "BL_SW"
+  },
+  {
+    "reference": "U1",
+    "pin": "4",
+    "net": "GND"
+  },
+  {
+    "reference": "U1",
+    "pin": "5",
+    "net": "BL_COMP"
+  },
+  {
+    "reference": "U1",
+    "pin": "6",
+    "net": "BL_LEDK"
+  },
+  {
+    "reference": "R15",
+    "pin": "1",
+    "net": "HOST_LCD_RST"
+  },
+  {
+    "reference": "R15",
+    "pin": "2",
+    "net": "LCD_RST"
+  },
+  {
+    "reference": "TP13",
+    "pin": "1",
+    "net": "BL_LEDA"
+  },
+  {
+    "reference": "R7",
+    "pin": "1",
+    "net": "BL_LEDK"
+  },
+  {
+    "reference": "R7",
+    "pin": "2",
+    "net": "GND"
+  },
+  {
+    "reference": "TP12",
+    "pin": "1",
+    "net": "TP_VDD"
+  },
+  {
+    "reference": "C13",
+    "pin": "1",
+    "net": "BL_POWER"
+  },
+  {
+    "reference": "C13",
+    "pin": "2",
+    "net": "GND"
+  },
+  {
+    "reference": "D1",
+    "pin": "1",
+    "net": "BL_LEDA"
+  },
+  {
+    "reference": "D1",
+    "pin": "2",
+    "net": "BL_SW"
+  },
+  {
+    "reference": "J3",
+    "pin": "1",
+    "net": "HOST_TP_3V3"
+  },
+  {
+    "reference": "J3",
+    "pin": "2",
+    "net": "TP_INT"
+  },
+  {
+    "reference": "J3",
+    "pin": "3",
+    "net": "TP_SCL"
+  },
+  {
+    "reference": "J3",
+    "pin": "4",
+    "net": "TP_SDA"
+  },
+  {
+    "reference": "J3",
+    "pin": "5",
+    "net": "unconnected-(J3-PH7_RESET_NC-Pad5)"
+  },
+  {
+    "reference": "J3",
+    "pin": "6",
+    "net": "GND"
+  },
+  {
+    "reference": "R3",
+    "pin": "1",
+    "net": "HOST_TP_RST"
+  },
+  {
+    "reference": "R3",
+    "pin": "2",
+    "net": "TP_RST"
+  },
+  {
+    "reference": "TP11",
+    "pin": "1",
+    "net": "LCD_VCI"
+  },
+  {
+    "reference": "J1",
+    "pin": "1",
+    "net": "unconnected-(J1-ID_NC-Pad1)"
+  },
+  {
+    "reference": "J1",
+    "pin": "2",
+    "net": "GND"
+  },
+  {
+    "reference": "J1",
+    "pin": "3",
+    "net": "GND"
+  },
+  {
+    "reference": "J1",
+    "pin": "4",
+    "net": "GND"
+  },
+  {
+    "reference": "J1",
+    "pin": "5",
+    "net": "HOST_LCD_RST"
+  },
+  {
+    "reference": "J1",
+    "pin": "6",
+    "net": "HOST_3V3"
+  },
+  {
+    "reference": "J1",
+    "pin": "7",
+    "net": "GND"
+  },
+  {
+    "reference": "J1",
+    "pin": "8",
+    "net": "DSI_D0_N"
+  },
+  {
+    "reference": "J1",
+    "pin": "9",
+    "net": "unconnected-(J1-NC-Pad9)"
+  },
+  {
+    "reference": "J1",
+    "pin": "10",
+    "net": "DSI_D0_P"
+  },
+  {
+    "reference": "J1",
+    "pin": "11",
+    "net": "GND"
+  },
+  {
+    "reference": "J1",
+    "pin": "12",
+    "net": "DSI_CLK_N"
+  },
+  {
+    "reference": "J1",
+    "pin": "13",
+    "net": "unconnected-(J1-NC-Pad13)"
+  },
+  {
+    "reference": "J1",
+    "pin": "14",
+    "net": "DSI_CLK_P"
+  },
+  {
+    "reference": "J1",
+    "pin": "15",
+    "net": "GND"
+  },
+  {
+    "reference": "J1",
+    "pin": "16",
+    "net": "DSI_D1_N"
+  },
+  {
+    "reference": "J1",
+    "pin": "17",
+    "net": "unconnected-(J1-NC-Pad17)"
+  },
+  {
+    "reference": "J1",
+    "pin": "18",
+    "net": "DSI_D1_P"
+  },
+  {
+    "reference": "J1",
+    "pin": "19",
+    "net": "GND"
+  },
+  {
+    "reference": "J1",
+    "pin": "20",
+    "net": "unconnected-(J1-NC_ERR-Pad20)"
+  },
+  {
+    "reference": "J1",
+    "pin": "21",
+    "net": "HOST_3V3"
+  },
+  {
+    "reference": "J1",
+    "pin": "22",
+    "net": "HOST_TE"
+  },
+  {
+    "reference": "J1",
+    "pin": "23",
+    "net": "unconnected-(J1-HOST_LED_K_NC-Pad23)"
+  },
+  {
+    "reference": "J1",
+    "pin": "24",
+    "net": "unconnected-(J1-HOST_LED_A_NC-Pad24)"
+  },
+  {
+    "reference": "J1",
+    "pin": "25",
+    "net": "GND"
+  },
+  {
+    "reference": "R5",
+    "pin": "1",
+    "net": "HOST_TP_3V3"
+  },
+  {
+    "reference": "R5",
+    "pin": "2",
+    "net": "TP_VDD"
+  },
+  {
+    "reference": "TP9",
+    "pin": "1",
+    "net": "BL_POWER"
+  },
+  {
+    "reference": "C8",
+    "pin": "1",
+    "net": "TP_VDD"
+  },
+  {
+    "reference": "C8",
+    "pin": "2",
+    "net": "GND"
+  },
+  {
+    "reference": "C5",
+    "pin": "1",
+    "net": "LCD_VCI"
+  },
+  {
+    "reference": "C5",
+    "pin": "2",
+    "net": "GND"
+  }
+]

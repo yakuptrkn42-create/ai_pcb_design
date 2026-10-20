@@ -1,0 +1,1728 @@
+[
+  {
+    "reference": "C1",
+    "value": "10uF / 16V",
+    "footprint": "Adapter_F469:C_0805_2012Metric",
+    "global_mm": [
+      156.3,
+      87.4
+    ],
+    "x_mm_from_origin": 21.30000000000001,
+    "y_mm_from_origin": 17.400000000000006,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "C13",
+    "value": "100nF / 10V",
+    "footprint": "Adapter_F469:C_0805_2012Metric",
+    "global_mm": [
+      146.75,
+      97.8
+    ],
+    "x_mm_from_origin": 11.75,
+    "y_mm_from_origin": 27.799999999999997,
+    "rotation_deg": 180.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "C2",
+    "value": "100nF / 16V",
+    "footprint": "Adapter_F469:C_0805_2012Metric",
+    "global_mm": [
+      162.25,
+      100.1
+    ],
+    "x_mm_from_origin": 27.25,
+    "y_mm_from_origin": 30.099999999999994,
+    "rotation_deg": -90.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "C3",
+    "value": "10uF / 50V",
+    "footprint": "Adapter_F469:C_1210_3225Metric",
+    "global_mm": [
+      151.75,
+      104.1
+    ],
+    "x_mm_from_origin": 16.75,
+    "y_mm_from_origin": 34.099999999999994,
+    "rotation_deg": -90.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/C_1210_3225Metric.wrl",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/C_1210_3225Metric.wrl"
+  },
+  {
+    "reference": "C4",
+    "value": "100nF / 50V",
+    "footprint": "Adapter_F469:C_0805_2012Metric",
+    "global_mm": [
+      155.45,
+      102.9
+    ],
+    "x_mm_from_origin": 20.44999999999999,
+    "y_mm_from_origin": 32.900000000000006,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "C5",
+    "value": "4.7uF / 10V",
+    "footprint": "Adapter_F469:C_0805_2012Metric",
+    "global_mm": [
+      154.5,
+      108.5
+    ],
+    "x_mm_from_origin": 19.5,
+    "y_mm_from_origin": 38.5,
+    "rotation_deg": 90.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "C6",
+    "value": "100nF / 10V",
+    "footprint": "Adapter_F469:C_0805_2012Metric",
+    "global_mm": [
+      156.75,
+      108.5
+    ],
+    "x_mm_from_origin": 21.75,
+    "y_mm_from_origin": 38.5,
+    "rotation_deg": 90.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "C7",
+    "value": "1uF / 10V",
+    "footprint": "Adapter_F469:C_0805_2012Metric",
+    "global_mm": [
+      170.75,
+      78.25
+    ],
+    "x_mm_from_origin": 35.75,
+    "y_mm_from_origin": 8.25,
+    "rotation_deg": 90.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "C8",
+    "value": "100nF / 10V",
+    "footprint": "Adapter_F469:C_0805_2012Metric",
+    "global_mm": [
+      171.5,
+      81.75
+    ],
+    "x_mm_from_origin": 36.5,
+    "y_mm_from_origin": 11.75,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "C9",
+    "value": "220nF / 16V",
+    "footprint": "Adapter_F469:C_0805_2012Metric",
+    "global_mm": [
+      158.55,
+      104.1
+    ],
+    "x_mm_from_origin": 23.55000000000001,
+    "y_mm_from_origin": 34.099999999999994,
+    "rotation_deg": -90.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/C_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "D1",
+    "value": "SS16 / 60V 1A",
+    "footprint": "Adapter_F469:D_SMA",
+    "global_mm": [
+      153.75,
+      99.8
+    ],
+    "x_mm_from_origin": 18.75,
+    "y_mm_from_origin": 29.799999999999997,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/D_SMA.wrl",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/D_SMA.wrl"
+  },
+  {
+    "reference": "D3",
+    "value": "SS14 / reverse block",
+    "footprint": "Adapter_F469:D_SMA",
+    "global_mm": [
+      145.25,
+      85.25
+    ],
+    "x_mm_from_origin": 10.25,
+    "y_mm_from_origin": 15.25,
+    "rotation_deg": 180.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/D_SMA.wrl",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/D_SMA.wrl"
+  },
+  {
+    "reference": "F2",
+    "value": "0.75A hold / 6V",
+    "footprint": "Adapter_F469:Fuse_1206_3216Metric",
+    "global_mm": [
+      138.75,
+      85.0
+    ],
+    "x_mm_from_origin": 3.75,
+    "y_mm_from_origin": 15.0,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/Fuse_1206_3216Metric.wrl",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/Fuse_1206_3216Metric.wrl"
+  },
+  {
+    "reference": "H1",
+    "value": "MountingHole",
+    "footprint": "Placement_Mechanical:MountingHole_3.5mm_M3_Envelope8mm",
+    "global_mm": [
+      140.0,
+      75.0
+    ],
+    "x_mm_from_origin": 5.0,
+    "y_mm_from_origin": 5.0,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "models": [],
+    "model": null
+  },
+  {
+    "reference": "H2",
+    "value": "MountingHole",
+    "footprint": "Placement_Mechanical:MountingHole_3.5mm_M3_Envelope8mm",
+    "global_mm": [
+      185.0,
+      75.0
+    ],
+    "x_mm_from_origin": 50.0,
+    "y_mm_from_origin": 5.0,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "models": [],
+    "model": null
+  },
+  {
+    "reference": "H3",
+    "value": "MountingHole",
+    "footprint": "Placement_Mechanical:MountingHole_3.5mm_M3_Envelope8mm",
+    "global_mm": [
+      140.0,
+      110.0
+    ],
+    "x_mm_from_origin": 5.0,
+    "y_mm_from_origin": 40.0,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "models": [],
+    "model": null
+  },
+  {
+    "reference": "H4",
+    "value": "MountingHole",
+    "footprint": "Placement_Mechanical:MountingHole_3.5mm_M3_Envelope8mm",
+    "global_mm": [
+      185.0,
+      110.0
+    ],
+    "x_mm_from_origin": 50.0,
+    "y_mm_from_origin": 40.0,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "models": [],
+    "model": null
+  },
+  {
+    "reference": "J1",
+    "value": "FH26W-25S-0.3SHW(60)",
+    "footprint": "Adapter_F469:FH26W-25S-0.3SHW",
+    "global_mm": [
+      165.5,
+      108.225
+    ],
+    "x_mm_from_origin": 30.5,
+    "y_mm_from_origin": 38.224999999999994,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/FH26W_25_Nominal.step",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/FH26W_25_Nominal.step"
+  },
+  {
+    "reference": "J2",
+    "value": "FH26-39S-0.3SHW",
+    "footprint": "Adapter_F469:FH26-39S-0.3SHW",
+    "global_mm": [
+      183.25,
+      92.45
+    ],
+    "x_mm_from_origin": 48.25,
+    "y_mm_from_origin": 22.450000000000003,
+    "rotation_deg": 90.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/FH26_39_Nominal.step",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/FH26_39_Nominal.step"
+  },
+  {
+    "reference": "J3",
+    "value": "FH19C-6S-0.5SH(10)",
+    "footprint": "Adapter_F469:FH19C-6S-0.5SH",
+    "global_mm": [
+      177.25,
+      76.5
+    ],
+    "x_mm_from_origin": 42.25,
+    "y_mm_from_origin": 6.5,
+    "rotation_deg": 180.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/FH19C_6_Nominal.step",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/FH19C_6_Nominal.step"
+  },
+  {
+    "reference": "J4",
+    "value": "HOST CTRL / PC6-PB12-GND",
+    "footprint": "Adapter_F469:FanPinHeader_1x03_P2.54mm_Vertical",
+    "global_mm": [
+      160.45,
+      75.625
+    ],
+    "x_mm_from_origin": 25.44999999999999,
+    "y_mm_from_origin": 5.625,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/FanPinHeader_1x03_P2.54mm_Vertical.step",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/FanPinHeader_1x03_P2.54mm_Vertical.step"
+  },
+  {
+    "reference": "J6",
+    "value": "EXT 5V / 1=+5V 2=GND",
+    "footprint": "Adapter_F469:JST_NV_B02P-NV_1x02_P5.00mm_Vertical",
+    "global_mm": [
+      140.75,
+      90.25
+    ],
+    "x_mm_from_origin": 5.75,
+    "y_mm_from_origin": 20.25,
+    "rotation_deg": -90.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/JST_NV_B02P_Nominal.step",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/JST_NV_B02P_Nominal.step"
+  },
+  {
+    "reference": "L1",
+    "value": "22uH / shielded",
+    "footprint": "Adapter_F469:L_TDK_SLF7045",
+    "global_mm": [
+      159.25,
+      93.5
+    ],
+    "x_mm_from_origin": 24.25,
+    "y_mm_from_origin": 23.5,
+    "rotation_deg": -90.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/SLF7045_Nominal.step",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/SLF7045_Nominal.step"
+  },
+  {
+    "reference": "R1",
+    "value": "4.7k / DNP",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "global_mm": [
+      176.0,
+      80.5
+    ],
+    "x_mm_from_origin": 41.0,
+    "y_mm_from_origin": 10.5,
+    "rotation_deg": 0.0,
+    "DNP": true,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R12",
+    "value": "0R / isolation",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "global_mm": [
+      148.75,
+      88.25
+    ],
+    "x_mm_from_origin": 13.75,
+    "y_mm_from_origin": 18.25,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R13",
+    "value": "2.2k",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "global_mm": [
+      156.75,
+      76.6625
+    ],
+    "x_mm_from_origin": 21.75,
+    "y_mm_from_origin": 6.662499999999994,
+    "rotation_deg": -90.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R14",
+    "value": "10k",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "global_mm": [
+      171.5,
+      84.0
+    ],
+    "x_mm_from_origin": 36.5,
+    "y_mm_from_origin": 14.0,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R15",
+    "value": "100R",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "global_mm": [
+      178.5,
+      106.75
+    ],
+    "x_mm_from_origin": 43.5,
+    "y_mm_from_origin": 36.75,
+    "rotation_deg": 180.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R16",
+    "value": "0R",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "global_mm": [
+      172.25,
+      107.25
+    ],
+    "x_mm_from_origin": 37.25,
+    "y_mm_from_origin": 37.25,
+    "rotation_deg": 90.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R17",
+    "value": "10k",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "global_mm": [
+      178.5,
+      104.75
+    ],
+    "x_mm_from_origin": 43.5,
+    "y_mm_from_origin": 34.75,
+    "rotation_deg": 180.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R18",
+    "value": "33k / discharge",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "global_mm": [
+      170.5,
+      96.5
+    ],
+    "x_mm_from_origin": 35.5,
+    "y_mm_from_origin": 26.5,
+    "rotation_deg": -90.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R19",
+    "value": "221k / 0.1%",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "global_mm": [
+      146.5,
+      107.0
+    ],
+    "x_mm_from_origin": 11.5,
+    "y_mm_from_origin": 37.0,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R2",
+    "value": "4.7k / DNP",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "global_mm": [
+      176.0,
+      82.75
+    ],
+    "x_mm_from_origin": 41.0,
+    "y_mm_from_origin": 12.75,
+    "rotation_deg": 0.0,
+    "DNP": true,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R20",
+    "value": "10k / 0.1%",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "global_mm": [
+      146.5,
+      104.5
+    ],
+    "x_mm_from_origin": 11.5,
+    "y_mm_from_origin": 34.5,
+    "rotation_deg": 180.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R3",
+    "value": "100R",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "global_mm": [
+      171.5,
+      86.75
+    ],
+    "x_mm_from_origin": 36.5,
+    "y_mm_from_origin": 16.75,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R4",
+    "value": "0R",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "global_mm": [
+      159.0,
+      108.5
+    ],
+    "x_mm_from_origin": 24.0,
+    "y_mm_from_origin": 38.5,
+    "rotation_deg": -90.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R5",
+    "value": "0R",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "global_mm": [
+      173.0,
+      78.25
+    ],
+    "x_mm_from_origin": 38.0,
+    "y_mm_from_origin": 8.25,
+    "rotation_deg": -90.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R6",
+    "value": "100k",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "global_mm": [
+      156.75,
+      80.3375
+    ],
+    "x_mm_from_origin": 21.75,
+    "y_mm_from_origin": 10.337500000000006,
+    "rotation_deg": -90.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "R7",
+    "value": "5.23R / 1%",
+    "footprint": "Adapter_F469:R_0805_2012Metric",
+    "global_mm": [
+      160.75,
+      103.95
+    ],
+    "x_mm_from_origin": 25.75,
+    "y_mm_from_origin": 33.95,
+    "rotation_deg": -90.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/R_0805_2012Metric.wrl"
+  },
+  {
+    "reference": "TP1",
+    "value": "HOST_3V3",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "global_mm": [
+      158.0,
+      112.0
+    ],
+    "x_mm_from_origin": 23.0,
+    "y_mm_from_origin": 42.0,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "TP10",
+    "value": "TP_RST",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "global_mm": [
+      175.5,
+      87.5
+    ],
+    "x_mm_from_origin": 40.5,
+    "y_mm_from_origin": 17.5,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "TP11",
+    "value": "LCD_VCI",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "global_mm": [
+      188.25,
+      97.75
+    ],
+    "x_mm_from_origin": 53.25,
+    "y_mm_from_origin": 27.75,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "TP12",
+    "value": "TP_VDD",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "global_mm": [
+      167.5,
+      82.0
+    ],
+    "x_mm_from_origin": 32.5,
+    "y_mm_from_origin": 12.0,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "TP13",
+    "value": "BL_LEDA",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "global_mm": [
+      183.75,
+      102.5
+    ],
+    "x_mm_from_origin": 48.75,
+    "y_mm_from_origin": 32.5,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "TP14",
+    "value": "BL_LEDK",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "global_mm": [
+      187.25,
+      101.25
+    ],
+    "x_mm_from_origin": 52.25,
+    "y_mm_from_origin": 31.25,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "TP15",
+    "value": "GND",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "global_mm": [
+      147.0,
+      75.0
+    ],
+    "x_mm_from_origin": 12.0,
+    "y_mm_from_origin": 5.0,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "TP3",
+    "value": "GND",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "global_mm": [
+      151.25,
+      107.75
+    ],
+    "x_mm_from_origin": 16.25,
+    "y_mm_from_origin": 37.75,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "TP4",
+    "value": "LCD_RST",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "global_mm": [
+      175.25,
+      110.25
+    ],
+    "x_mm_from_origin": 40.25,
+    "y_mm_from_origin": 40.25,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "TP5",
+    "value": "TP_INT",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "global_mm": [
+      188.0,
+      83.0
+    ],
+    "x_mm_from_origin": 53.0,
+    "y_mm_from_origin": 13.0,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "TP6",
+    "value": "BL_CTRL",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "global_mm": [
+      152.0,
+      75.25
+    ],
+    "x_mm_from_origin": 17.0,
+    "y_mm_from_origin": 5.25,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "TP9",
+    "value": "BL_POWER",
+    "footprint": "Adapter_F469:TestPoint_Pad_D1.0mm",
+    "global_mm": [
+      160.75,
+      88.0
+    ],
+    "x_mm_from_origin": 25.75,
+    "y_mm_from_origin": 18.0,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/TestPoint_Copper_1mm.step"
+  },
+  {
+    "reference": "U1",
+    "value": "TPS61165DBVR",
+    "footprint": "Adapter_F469:SOT-23-6",
+    "global_mm": [
+      159.25,
+      100.0
+    ],
+    "x_mm_from_origin": 24.25,
+    "y_mm_from_origin": 30.0,
+    "rotation_deg": -90.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/SOT-23-6.wrl",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/SOT-23-6.wrl"
+  },
+  {
+    "reference": "U2",
+    "value": "TLV3011BIDBVR",
+    "footprint": "Adapter_F469:SOT-23-6",
+    "global_mm": [
+      146.75,
+      100.75
+    ],
+    "x_mm_from_origin": 11.75,
+    "y_mm_from_origin": 30.75,
+    "rotation_deg": 0.0,
+    "DNP": false,
+    "models": [
+      {
+        "path": "${KIPRJMOD}/3D/SOT-23-6.wrl",
+        "scale": [
+          1.0,
+          1.0,
+          1.0
+        ],
+        "rotation_deg": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "offset_mm": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      }
+    ],
+    "model": "${KIPRJMOD}/3D/SOT-23-6.wrl"
+  }
+]

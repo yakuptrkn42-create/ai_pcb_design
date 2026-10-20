@@ -1,0 +1,54 @@
+Reference,Value,Footprint,X_from_left_mm,Y_from_top_mm,Rotation_KiCad_deg,DNP
+C1,10uF / 16V,Adapter_F469:C_0805_2012Metric,21.30000000000001,17.400000000000006,0.0,False
+C13,100nF / 10V,Adapter_F469:C_0805_2012Metric,11.75,27.799999999999997,180.0,False
+C2,100nF / 16V,Adapter_F469:C_0805_2012Metric,27.25,30.099999999999994,-90.0,False
+C3,10uF / 50V,Adapter_F469:C_1210_3225Metric,16.75,34.099999999999994,-90.0,False
+C4,100nF / 50V,Adapter_F469:C_0805_2012Metric,20.44999999999999,32.900000000000006,0.0,False
+C5,4.7uF / 10V,Adapter_F469:C_0805_2012Metric,19.5,38.5,90.0,False
+C6,100nF / 10V,Adapter_F469:C_0805_2012Metric,21.75,38.5,90.0,False
+C7,1uF / 10V,Adapter_F469:C_0805_2012Metric,35.75,8.25,90.0,False
+C8,100nF / 10V,Adapter_F469:C_0805_2012Metric,36.5,11.75,0.0,False
+C9,220nF / 16V,Adapter_F469:C_0805_2012Metric,23.55000000000001,34.099999999999994,-90.0,False
+D1,SS16 / 60V 1A,Adapter_F469:D_SMA,18.75,29.799999999999997,0.0,False
+D3,SS14 / reverse block,Adapter_F469:D_SMA,10.25,15.25,180.0,False
+F2,0.75A hold / 6V,Adapter_F469:Fuse_1206_3216Metric,3.75,15.0,0.0,False
+H1,MountingHole,Placement_Mechanical:MountingHole_3.5mm_M3_Envelope8mm,5.0,5.0,0.0,False
+H2,MountingHole,Placement_Mechanical:MountingHole_3.5mm_M3_Envelope8mm,50.0,5.0,0.0,False
+H3,MountingHole,Placement_Mechanical:MountingHole_3.5mm_M3_Envelope8mm,5.0,40.0,0.0,False
+H4,MountingHole,Placement_Mechanical:MountingHole_3.5mm_M3_Envelope8mm,50.0,40.0,0.0,False
+J1,FH26W-25S-0.3SHW(60),Adapter_F469:FH26W-25S-0.3SHW,30.5,38.224999999999994,0.0,False
+J2,FH26-39S-0.3SHW,Adapter_F469:FH26-39S-0.3SHW,48.25,22.450000000000003,90.0,False
+J3,FH19C-6S-0.5SH(10),Adapter_F469:FH19C-6S-0.5SH,42.25,6.5,180.0,False
+J4,HOST CTRL / PC6-PB12-GND,Adapter_F469:FanPinHeader_1x03_P2.54mm_Vertical,25.44999999999999,5.625,0.0,False
+J6,EXT 5V / 1=+5V 2=GND,Adapter_F469:JST_NV_B02P-NV_1x02_P5.00mm_Vertical,5.75,20.25,-90.0,False
+L1,22uH / shielded,Adapter_F469:L_TDK_SLF7045,24.25,23.5,-90.0,False
+R1,4.7k / DNP,Adapter_F469:R_0805_2012Metric,41.0,10.5,0.0,True
+R12,0R / isolation,Adapter_F469:R_0805_2012Metric,13.75,18.25,0.0,False
+R13,2.2k,Adapter_F469:R_0805_2012Metric,21.75,6.662499999999994,-90.0,False
+R14,10k,Adapter_F469:R_0805_2012Metric,36.5,14.0,0.0,False
+R15,100R,Adapter_F469:R_0805_2012Metric,43.5,36.75,180.0,False
+R16,0R,Adapter_F469:R_0805_2012Metric,37.25,37.25,90.0,False
+R17,10k,Adapter_F469:R_0805_2012Metric,43.5,34.75,180.0,False
+R18,33k / discharge,Adapter_F469:R_0805_2012Metric,35.5,26.5,-90.0,False
+R19,221k / 0.1%,Adapter_F469:R_0805_2012Metric,11.5,37.0,0.0,False
+R2,4.7k / DNP,Adapter_F469:R_0805_2012Metric,41.0,12.75,0.0,True
+R20,10k / 0.1%,Adapter_F469:R_0805_2012Metric,11.5,34.5,180.0,False
+R3,100R,Adapter_F469:R_0805_2012Metric,36.5,16.75,0.0,False
+R4,0R,Adapter_F469:R_0805_2012Metric,24.0,38.5,-90.0,False
+R5,0R,Adapter_F469:R_0805_2012Metric,38.0,8.25,-90.0,False
+R6,100k,Adapter_F469:R_0805_2012Metric,21.75,10.337500000000006,-90.0,False
+R7,5.23R / 1%,Adapter_F469:R_0805_2012Metric,25.75,33.95,-90.0,False
+TP1,HOST_3V3,Adapter_F469:TestPoint_Pad_D1.0mm,23.0,42.0,0.0,False
+TP10,TP_RST,Adapter_F469:TestPoint_Pad_D1.0mm,40.5,17.5,0.0,False
+TP11,LCD_VCI,Adapter_F469:TestPoint_Pad_D1.0mm,53.25,27.75,0.0,False
+TP12,TP_VDD,Adapter_F469:TestPoint_Pad_D1.0mm,32.5,12.0,0.0,False
+TP13,BL_LEDA,Adapter_F469:TestPoint_Pad_D1.0mm,48.75,32.5,0.0,False
+TP14,BL_LEDK,Adapter_F469:TestPoint_Pad_D1.0mm,52.25,31.25,0.0,False
+TP15,GND,Adapter_F469:TestPoint_Pad_D1.0mm,12.0,5.0,0.0,False
+TP3,GND,Adapter_F469:TestPoint_Pad_D1.0mm,16.25,37.75,0.0,False
+TP4,LCD_RST,Adapter_F469:TestPoint_Pad_D1.0mm,40.25,40.25,0.0,False
+TP5,TP_INT,Adapter_F469:TestPoint_Pad_D1.0mm,53.0,13.0,0.0,False
+TP6,BL_CTRL,Adapter_F469:TestPoint_Pad_D1.0mm,17.0,5.25,0.0,False
+TP9,BL_POWER,Adapter_F469:TestPoint_Pad_D1.0mm,25.75,18.0,0.0,False
+U1,TPS61165DBVR,Adapter_F469:SOT-23-6,24.25,30.0,-90.0,False
+U2,TLV3011BIDBVR,Adapter_F469:SOT-23-6,11.75,30.75,0.0,False

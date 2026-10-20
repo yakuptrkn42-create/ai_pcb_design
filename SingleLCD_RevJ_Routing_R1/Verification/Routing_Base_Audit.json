@@ -1,0 +1,55 @@
+{
+  "status": "PRE-ROUTING BASE ONLY - no copper routing yet",
+  "source_project": "/workspace/routing-revj/input/Project",
+  "base_project": "/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R1/Project",
+  "board_sha256": "430bd3118541257af89e2b5bcc00921887cb7a939aa7d98cc20d68fe9c1fd28b",
+  "circuit_footprints": 49,
+  "mechanical_footprints": 4,
+  "numbered_pin_memberships_unchanged": 159,
+  "nets_including_NC": 44,
+  "source_identity_paths_preserved": true,
+  "all_source_placements_except_J6_preserved": true,
+  "position_changes": [
+    {
+      "reference": "J6",
+      "source_mm": [
+        137.75,
+        90.25,
+        -90.0
+      ],
+      "base_mm": [
+        140.75,
+        90.25,
+        -90.0
+      ]
+    }
+  ],
+  "models_assigned_and_local": 49,
+  "courtyard_intersections": [],
+  "courtyard_pairs_closer_than_extra_0_15mm": [
+    [
+      "R17",
+      "R15"
+    ]
+  ],
+  "tracks": 0,
+  "vias": 0,
+  "zones": 0,
+  "source_stackup_rules_netclasses_preserved": true,
+  "source_electrical_schematic_geometry_preserved": true,
+  "source_original_zip_sha256": "0fa646799230c55775cfb0fc8f14e4886c8afa05a08fa04166aab2620806729c",
+  "ERC_errors": 0,
+  "ERC_warning_types": [
+    "single_global_label",
+    "single_global_label",
+    "single_global_label"
+  ],
+  "base_DRC_findings": [],
+  "base_parity_issues": 0,
+  "base_unconnected_records": 115,
+  "reference_field_adjustments_only": [
+    "R12",
+    "U2",
+    "C13"
+  ]
+}

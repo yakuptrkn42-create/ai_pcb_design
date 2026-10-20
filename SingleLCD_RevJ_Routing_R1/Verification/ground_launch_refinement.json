@@ -1,0 +1,125 @@
+{
+  "reason": "Free FPC signal/power launch space; re-establish grounds after remaining nets, preserving all 10 boost/quiet ground vias and all DSI/boost copper",
+  "removed": [
+    {
+      "kind": "PCB_TRACK",
+      "uuid": "1890afd6-6e2e-40ec-a4d0-6523a1ad4e0d"
+    },
+    {
+      "kind": "PCB_TRACK",
+      "uuid": "22d38e52-cc01-4e63-9f42-0fb1ba58779f"
+    },
+    {
+      "kind": "PCB_TRACK",
+      "uuid": "2956bf3c-541b-4289-8c3b-0d628f4f82a4"
+    },
+    {
+      "kind": "PCB_TRACK",
+      "uuid": "33a08342-cc6d-4829-a176-464ebb3da28b"
+    },
+    {
+      "kind": "PCB_TRACK",
+      "uuid": "3fea11f2-17bb-43b6-ab28-cdd15cfc9415"
+    },
+    {
+      "kind": "PCB_TRACK",
+      "uuid": "425c9c38-4f53-421c-94cf-7261529d1e4c"
+    },
+    {
+      "kind": "PCB_TRACK",
+      "uuid": "4976146b-4314-4f0b-a4c2-1b4bd23a4aaf"
+    },
+    {
+      "kind": "PCB_TRACK",
+      "uuid": "4adadb66-4a46-4bf3-8d5c-7fd570ad4fb1"
+    },
+    {
+      "kind": "PCB_TRACK",
+      "uuid": "4dcfeef5-2b97-47e6-8eb9-db235a0745ea"
+    },
+    {
+      "kind": "PCB_TRACK",
+      "uuid": "5df4ed97-32f5-42b5-9554-76f84ffca62d"
+    },
+    {
+      "kind": "PCB_TRACK",
+      "uuid": "86412d37-8f1d-467c-8b96-dc5647ed94f4"
+    },
+    {
+      "kind": "PCB_TRACK",
+      "uuid": "8a1f11df-820e-4972-919a-e166fb664b9d"
+    },
+    {
+      "kind": "PCB_TRACK",
+      "uuid": "8f857f68-c325-474b-a595-77ce2a7d68a7"
+    },
+    {
+      "kind": "PCB_TRACK",
+      "uuid": "907781f2-f3f9-4d17-90bd-1116a15e0a99"
+    },
+    {
+      "kind": "PCB_TRACK",
+      "uuid": "a7c9ac4a-518e-4149-b1a1-7e5c532f0a45"
+    },
+    {
+      "kind": "PCB_TRACK",
+      "uuid": "ad3a50ef-75e3-4353-8e13-93a1474655b6"
+    },
+    {
+      "kind": "PCB_TRACK",
+      "uuid": "cb24b19b-5f76-42d3-a760-c96c23068418"
+    },
+    {
+      "kind": "PCB_TRACK",
+      "uuid": "cd2bbe63-3c53-42f8-88b0-0072f40abbd6"
+    },
+    {
+      "kind": "PCB_TRACK",
+      "uuid": "d82b32dd-4819-4e68-a1b7-79899890c2d2"
+    },
+    {
+      "kind": "PCB_TRACK",
+      "uuid": "fd51506c-4f54-4dea-8aa4-524fa0a84883"
+    },
+    {
+      "kind": "PCB_VIA",
+      "uuid": "219f0fbd-d4a1-4ce7-b7e6-974ba7b2e993"
+    },
+    {
+      "kind": "PCB_VIA",
+      "uuid": "241f99aa-1783-4dfd-bbbd-b96e0b21c79e"
+    },
+    {
+      "kind": "PCB_VIA",
+      "uuid": "30a58829-49fa-4955-81fb-ecb2493d06d6"
+    },
+    {
+      "kind": "PCB_VIA",
+      "uuid": "9349a953-45d5-44d4-b95f-7d5325175605"
+    },
+    {
+      "kind": "PCB_VIA",
+      "uuid": "a61ad5a5-5067-4095-a18a-764c825aa9c4"
+    },
+    {
+      "kind": "PCB_VIA",
+      "uuid": "a99646ef-bd6a-4ef5-acc8-1639f301f2fb"
+    },
+    {
+      "kind": "PCB_VIA",
+      "uuid": "c212e79a-a87f-46b8-a3cd-209dd790b546"
+    },
+    {
+      "kind": "PCB_VIA",
+      "uuid": "c7156230-6ffe-4209-a953-f63e116baf26"
+    },
+    {
+      "kind": "PCB_VIA",
+      "uuid": "ceb52a49-7ae4-4daf-982b-355ffa4f3c1a"
+    },
+    {
+      "kind": "PCB_VIA",
+      "uuid": "f16b4618-9e2f-40ec-acb7-64868363b29c"
+    }
+  ]
+}

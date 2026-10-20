@@ -1,0 +1,241 @@
+{
+  "parameters": {
+    "origin_mm": [
+      135.0,
+      70.0
+    ],
+    "size_mm": [
+      55.0,
+      45.0
+    ],
+    "trace_width_mm": 0.25,
+    "via_diameter_mm": 0.6,
+    "via_drill_mm": 0.3,
+    "max_new_ground_vias": 12,
+    "pad_max_distance_mm": 2.5,
+    "pad_preferred_distance_mm": 1.5,
+    "join_existing_max_mm": 3.0,
+    "DSI_ground_drill_center_margin_mm": 0.3,
+    "DSI_signal_via_return_target_mm": 2.5,
+    "perimeter_step_mm": 5.0,
+    "stitch_min_spacing_mm": 2.0,
+    "preferred_return_distance_mm": 1.2,
+    "engineering_note": "No new safe 1.2 mm return sites in dense fixed connector fanout. Final search extended to 2.5 mm, without changing electrical clearances, drill or via sizes."
+  },
+  "zones": [],
+  "pad_fanout": [],
+  "return_stitching": [
+    {
+      "signal": "DSI_CLK_N",
+      "signal_via_mm": [
+        48.55000000000001,
+        20.950000000000003
+      ],
+      "status": "existing close return",
+      "nearest_GND_mm": 1.964688270438828
+    },
+    {
+      "signal": "DSI_D1_N",
+      "signal_via_mm": [
+        48.55000000000001,
+        22.150000000000006
+      ],
+      "status": "existing close return",
+      "nearest_GND_mm": 1.964688270438828
+    },
+    {
+      "signal": "DSI_D1_P",
+      "signal_via_mm": [
+        47.80000000000001,
+        22.450000000000003
+      ],
+      "status": "existing close return",
+      "nearest_GND_mm": 1.9313207915828081
+    },
+    {
+      "signal": "DSI_D0_N",
+      "signal_via_mm": [
+        48.55000000000001,
+        23.349999999999994
+      ],
+      "status": "existing close return",
+      "nearest_GND_mm": 1.8384776310850326
+    },
+    {
+      "signal": "DSI_D0_P",
+      "signal_via_mm": [
+        47.80000000000001,
+        23.650000000000006
+      ],
+      "status": "existing close return",
+      "nearest_GND_mm": 1.4008925726121808
+    },
+    {
+      "signal": "DSI_D0_N",
+      "signal_via_mm": [
+        45.19999999999999,
+        26.799999999999997
+      ],
+      "status": "existing close return",
+      "nearest_GND_mm": 0.8246211251235266
+    },
+    {
+      "signal": "DSI_D0_P",
+      "signal_via_mm": [
+        43.599999999999994,
+        28.0
+      ],
+      "status": "existing close return",
+      "nearest_GND_mm": 0.8246211251235266
+    },
+    {
+      "signal": "DSI_CLK_P",
+      "signal_via_mm": [
+        30.80000000000001,
+        35.3
+      ],
+      "status": "existing close return",
+      "nearest_GND_mm": 1.7867568385205792
+    },
+    {
+      "signal": "DSI_D1_P",
+      "signal_via_mm": [
+        32.0,
+        35.3
+      ],
+      "status": "existing close return",
+      "nearest_GND_mm": 0.8139410298049792
+    },
+    {
+      "signal": "DSI_CLK_N",
+      "signal_via_mm": [
+        30.19999999999999,
+        35.849999999999994
+      ],
+      "status": "existing close return",
+      "nearest_GND_mm": 1.5556349186103966
+    },
+    {
+      "signal": "DSI_D1_N",
+      "signal_via_mm": [
+        31.399999000000008,
+        35.849999999999994
+      ],
+      "status": "existing close return",
+      "nearest_GND_mm": 1.200000999999986
+    }
+  ],
+  "perimeter_stitching": [],
+  "unresolved": [
+    {
+      "signal": "DSI_CLK_P",
+      "position_mm": [
+        47.80000000000001,
+        21.25
+      ],
+      "nearest_GND_mm": 2.6172504656604922,
+      "reason": "no safe return via within target distance"
+    }
+  ],
+  "DSI_signal_via_nearest_GND_final_mm": [
+    {
+      "signal": "DSI_CLK_N",
+      "signal_via_mm": [
+        48.55000000000001,
+        20.950000000000003
+      ],
+      "nearest_GND_mm": 1.964688270438828
+    },
+    {
+      "signal": "DSI_CLK_P",
+      "signal_via_mm": [
+        47.80000000000001,
+        21.25
+      ],
+      "nearest_GND_mm": 2.6172504656604922
+    },
+    {
+      "signal": "DSI_D1_N",
+      "signal_via_mm": [
+        48.55000000000001,
+        22.150000000000006
+      ],
+      "nearest_GND_mm": 1.964688270438828
+    },
+    {
+      "signal": "DSI_D1_P",
+      "signal_via_mm": [
+        47.80000000000001,
+        22.450000000000003
+      ],
+      "nearest_GND_mm": 1.9313207915828081
+    },
+    {
+      "signal": "DSI_D0_N",
+      "signal_via_mm": [
+        48.55000000000001,
+        23.349999999999994
+      ],
+      "nearest_GND_mm": 1.8384776310850326
+    },
+    {
+      "signal": "DSI_D0_P",
+      "signal_via_mm": [
+        47.80000000000001,
+        23.650000000000006
+      ],
+      "nearest_GND_mm": 1.4008925726121808
+    },
+    {
+      "signal": "DSI_D0_N",
+      "signal_via_mm": [
+        45.19999999999999,
+        26.799999999999997
+      ],
+      "nearest_GND_mm": 0.8246211251235266
+    },
+    {
+      "signal": "DSI_D0_P",
+      "signal_via_mm": [
+        43.599999999999994,
+        28.0
+      ],
+      "nearest_GND_mm": 0.8246211251235266
+    },
+    {
+      "signal": "DSI_CLK_P",
+      "signal_via_mm": [
+        30.80000000000001,
+        35.3
+      ],
+      "nearest_GND_mm": 1.7867568385205792
+    },
+    {
+      "signal": "DSI_D1_P",
+      "signal_via_mm": [
+        32.0,
+        35.3
+      ],
+      "nearest_GND_mm": 0.8139410298049792
+    },
+    {
+      "signal": "DSI_CLK_N",
+      "signal_via_mm": [
+        30.19999999999999,
+        35.849999999999994
+      ],
+      "nearest_GND_mm": 1.5556349186103966
+    },
+    {
+      "signal": "DSI_D1_N",
+      "signal_via_mm": [
+        31.399999000000008,
+        35.849999999999994
+      ],
+      "nearest_GND_mm": 1.200000999999986
+    }
+  ],
+  "new_GND_vias": 0,
+  "total_GND_vias": 54,
+  "total_zones_including_rule_areas": 8
+}

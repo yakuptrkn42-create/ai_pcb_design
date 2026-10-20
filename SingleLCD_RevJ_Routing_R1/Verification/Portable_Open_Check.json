@@ -1,0 +1,15 @@
+{
+  "DRC": {
+    "violations": 0,
+    "unconnected_items": 0,
+    "schematic_parity": 0
+  },
+  "ERC": {
+    "errors": 0,
+    "warnings": 3
+  },
+  "environment": "Fresh separate XDG config/data/cache, project fully copied to another directory",
+  "board_sha256": "b7b8522cdcc27950ea86259511de9e7fdafd7bf81414660840fdac97aeaaec3c",
+  "actual_source_board_sha256": "b7b8522cdcc27950ea86259511de9e7fdafd7bf81414660840fdac97aeaaec3c",
+  "all_models_local": true
+}

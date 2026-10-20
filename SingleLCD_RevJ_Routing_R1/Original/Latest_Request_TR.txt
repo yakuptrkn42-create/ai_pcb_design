@@ -1,0 +1,137 @@
+# STM32F469I-DISCO – DISEN LCD | İleri Seviye 4 Katmanlı PCB Routing ve Profesyonel Tasarım Optimizasyonu
+
+Sen; yüksek hızlı PCB tasarımı, MIPI DSI, güç elektroniği, sinyal bütünlüğü, EMI/EMC ve PCB üretilebilirliği konularında uzman, deneyimli bir **Senior Hardware & PCB Layout Engineer** olarak çalışacaksın.
+
+Sana STM32F469I-DISCO ile DISEN LCD arasında kullanılacak adaptör kartımın güncel KiCad proje dosyalarını yeniden göndereceğim.
+
+Mevcut şematik tasarımımız tamamlandı ve PCB komponent yerleşimi genel olarak iyi seviyede. Ancak bu projeyi çok daha profesyonel, güvenilir ve üretilebilir hale getirmek istiyorum.
+
+**Temel beklentim: Mevcut yerleşimi esas alarak bütün routing işlemlerini mühendislik prensiplerine uygun biçimde gerçekleştirmen ve gerçek donanımda başarılı çalışma ihtimali yüksek bir PCB tasarımı oluşturman.**
+
+## 1. Mevcut Projeyi Derinlemesine Analiz Et
+
+Routing işlemine başlamadan önce şematiği, PCB yerleşimini, komponent bağlantılarını ve mevcut tasarım kurallarını kapsamlı şekilde incele.
+
+- Mevcut placement yapısını büyük ölçüde koru.
+- Daha sağlıklı routing için gerekli gördüğün komponentlerde teknik açıdan gerekçeli konum değişiklikleri yapabilirsin.
+- Gereksiz yerleşim değişikliklerinden kaçın.
+- İki ana konnektörün mevcut fiziksel konumlarını koru; mekanik bir sorun varsa değişiklik yapmadan önce belirt.
+- Kritik sinyallerin güzergâhlarını, güç dağıtımını ve olası routing darboğazlarını önceden değerlendir.
+
+**Yerleşim değişikliklerinde önceliğin estetik değil; elektriksel güvenilirlik, sinyal bütünlüğü ve routing kalitesi olmalı.**
+
+## 2. Güç Yollarını Özellikle Sağlamlaştır
+
+Mevcut tasarımda bazı güç ve sinyal yollarının gereğinden ince olabileceğini düşünüyorum. Bu konuya özellikle önem vermeni istiyorum.
+
+- Bütün güç hatlarının taşıyacağı maksimum akımı değerlendir.
+- İz genişliklerini akım kapasitesi, bakır kalınlığı, sıcaklık artışı ve gerilim düşümüne göre belirle.
+- Gereksiz dar yolları ve kritik hatlardaki daralmaları gider.
+- Yüksek akım geçişlerinde uygun bakır alanları ve gerekli sayıda via kullan.
+- LCD besleme hatlarını ve TPS61165 backlight güç yollarını optimize et.
+- GND dönüş yollarını düşük empedanslı ve kesintisiz oluştur.
+- Komponent pad'leri, konnektörler ve via geçişlerinin akım kapasitesini de kontrol et.
+
+**Önemli:** Bütün yolları rastgele kalınlaştırma. Güç ve sinyal hatlarını gerçek elektriksel ihtiyaçlarına göre boyutlandır. Gereksiz ince yollar kullanma; ancak routing'i zorlaştıran aşırı geniş hatlardan da kaçın.
+
+## 3. MIPI DSI ve Kritik Sinyallerin Routing İşlemi
+
+MIPI DSI diferansiyel çiftlerini yüksek hızlı PCB tasarım kurallarına uygun şekilde route et.
+
+- Clock ve data hatlarında doğru pin ve polarite eşleşmelerini koru.
+- Gerçek PCB stackup'ına uygun kontrollü empedans uygula.
+- Diferansiyel çift içi uzunluk uyumunu sağla.
+- Hatları mümkün olduğunca kısa ve doğrudan çiz.
+- Gereksiz via ve katman geçişlerini azalt.
+- Kesintisiz GND referans düzlemi kullan.
+- Gürültülü anahtarlama bölgelerinden uzak dur.
+- Empedans süreksizliklerini ve sinyal bütünlüğü risklerini azalt.
+
+Dokunmatik, reset, enable ve diğer kontrol hatlarını da uygun genişliklerde, temiz ve güvenilir şekilde route et.
+
+## 4. TPS61165 ve 4 Katmanlı PCB Optimizasyonu
+
+Dört katmanlı PCB yapısını verimli kullan.
+
+- TPS61165, endüktör, diyot ve kondansatörler arasındaki kritik akım döngülerini küçült.
+- SW ve feedback hatlarını üretici önerilerine uygun yönlendir.
+- Güç devresi kaynaklı EMI/EMC etkilerini azalt.
+- GND plane sürekliliğini ve sinyal dönüş akımlarını koru.
+- Güç dağıtımı için uygun bakır alanları oluştur.
+- Gerekli yerlerde GND stitching via kullan.
+- Katman geçişlerini ve bakır dolguları elektriksel gereksinimlere göre optimize et.
+
+KiCad Net Classes, track width, clearance, via ve diferansiyel çift kurallarını uygun şekilde yapılandır.
+
+**Kurallar gerçekçi, üretilebilir ve routing açısından uygulanabilir olsun.** Kritik yüksek hızlı hatlarda gerekli mühendislik kısıtlamalarından ödün verme.
+
+## 5. Routing'i Yüzeysel Değil, Kapsamlı Gerçekleştir
+
+Bu proje benim için önemli. Bu nedenle yalnızca bütün bağlantıları tamamlayan basit veya otomatik bir routing çalışması istemiyorum.
+
+Önce kritik sinyalleri ve güç yollarını planla. Ardından bütün bağlantıları sistematik şekilde tamamla.
+
+İlk routing sonucunu nihai kabul etme.
+
+Tasarımı tekrar tekrar inceleyerek:
+
+- Gereksiz uzun hatları,
+- İnce ve yetersiz güç yollarını,
+- Fazla via kullanımını,
+- Kritik sinyal kesişmelerini,
+- GND süreksizliklerini,
+- Güç dağıtımı problemlerini,
+- Üretim ve montaj risklerini
+
+tespit et ve düzelt.
+
+**Çizim yalnızca görsel olarak düzgün değil, mühendislik açısından da doğru ve güvenilir olmalı.**
+
+## 6. Doğrulama ve Üretilebilirlik
+
+Routing tamamlandıktan sonra:
+
+- Bütün bağlantıları tamamla; 0 unrouted hedefle.
+- DRC kontrolünü gerçekleştir ve kritik hataları gider.
+- Güç hatlarının akım kapasitesini ve olası gerilim düşümlerini kontrol et.
+- Diferansiyel çift uzunluklarını ve empedans gereksinimlerini değerlendir.
+- GND düzlemlerini ve dönüş akımı yollarını doğrula.
+- PCB stackup ve üretim toleranslarını kontrol et.
+- Footprint, konnektör, 3D model ve mekanik uyumluluğu değerlendir.
+- Şematik ile PCB arasındaki bağlantı bütünlüğünü koru.
+
+DRC hatalarını gizlemek için kuralları gevşetme. Doğrulayamadığın parametreleri doğrulanmış gibi gösterme.
+
+## 7. Gerçek Projeyi Revize Et ve Teslim Et
+
+Yalnızca öneri veya değerlendirme raporu hazırlama.
+
+**Mevcut KiCad proje dosyası üzerinde gerekli yerleşim iyileştirmelerini ve bütün routing işlemlerini gerçekten gerçekleştir.**
+
+Çalışmanın sonunda:
+
+- Routing'i tamamlanmış KiCad PCB projesini
+- Güncel 2D ve 3D PCB görsellerini
+- DRC doğrulama raporunu
+- PCB katman yapısını ve tasarım kurallarını
+- Gerber ve drill üretim dosyalarını
+- Yapılan yerleşim değişikliklerini
+- Güç ve kritik sinyal yollarına ilişkin kısa mühendislik değerlendirmesini
+
+tek bir ZIP dosyasında teslim et.
+
+Onaylanmış şematik bağlantılarını değiştirme. Yazılım geliştirme.
+
+## Nihai Mühendislik Beklentim
+
+**Bu çalışmada hızdan çok kaliteye önem veriyorum.**
+
+Mevcut başarılı komponent yerleşimini mümkün olduğunca koruyarak, gerektiğinde teknik açıdan faydalı iyileştirmeler gerçekleştir.
+
+Özellikle güç yollarının doğru boyutlandırılması, MIPI DSI sinyal bütünlüğü, TPS61165 güç devresi, GND sürekliliği, 4 katmanlı routing kalitesi ve üretilebilirlik üzerinde titizlikle çalış.
+
+Amacım sadece çizilmiş bir PCB elde etmek değil; **elektriksel açıdan güvenilirliği artırılmış, profesyonel tasarım kuralları uygulanmış, üretime uygunluğu değerlendirilmiş ve gerçek donanım üzerinde başarılı çalışma ihtimali yüksek bir adaptör kartı geliştirmek.**
+
+Fiziksel test olmadan kesin çalışma garantisi verme; ancak tasarım dosyaları ve teknik dokümanlarla doğrulanabilecek bütün kritik riskleri mümkün olduğunca gider.
+
+Projeyi deneyimli bir mühendis gibi sahiplen, kapsamlı analiz et, gerçek KiCad dosyasında iyileştir ve tamamlanmış tasarımı teslim et.

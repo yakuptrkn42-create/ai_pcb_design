@@ -1,0 +1,28 @@
+{
+  "J4": {
+    "Value": "HOST CTRL / PC6-PB12-GND",
+    "Footprint": "Adapter_F469:FanPinHeader_1x03_P2.54mm_Vertical",
+    "Description": "Cabled host control breakout: pin 1=PC6 PWM (CN12.6), pin 2=PB12 touch RESET (CN12.12), pin 3=GND (CN12.2). Not a 1:1 CN12 socket."
+  },
+  "J6": {
+    "Value": "EXT 5V / 1=+5V 2=GND",
+    "Footprint": "Adapter_F469:JST_NV_B02P-NV_1x02_P5.00mm_Vertical",
+    "Description": "Regulated external 5V input. Pin 1=EXT_5V, pin 2=GND. Source label had reversed polarity; electrical nets preserved."
+  },
+  "H1": {
+    "Footprint": "Placement_Mechanical:MountingHole_3.5mm_M3_Envelope8mm",
+    "Description": "Unplated 3.5 mm mechanical hole; nominal 8 mm mounting hardware reservation, verify actual fastener."
+  },
+  "H2": {
+    "Footprint": "Placement_Mechanical:MountingHole_3.5mm_M3_Envelope8mm",
+    "Description": "Unplated 3.5 mm mechanical hole; nominal 8 mm mounting hardware reservation, verify actual fastener."
+  },
+  "H3": {
+    "Footprint": "Placement_Mechanical:MountingHole_3.5mm_M3_Envelope8mm",
+    "Description": "Unplated 3.5 mm mechanical hole; nominal 8 mm mounting hardware reservation, verify actual fastener."
+  },
+  "H4": {
+    "Footprint": "Placement_Mechanical:MountingHole_3.5mm_M3_Envelope8mm",
+    "Description": "Unplated 3.5 mm mechanical hole; nominal 8 mm mounting hardware reservation, verify actual fastener."
+  }
+}

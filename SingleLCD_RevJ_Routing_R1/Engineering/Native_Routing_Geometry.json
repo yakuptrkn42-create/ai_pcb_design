@@ -1,0 +1,8938 @@
+{
+  "traces": [
+    {
+      "uuid": "704aed3d-125f-4129-bf35-dc9c262f7e0b",
+      "net": "BL_5V",
+      "class": "POWER_5V",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "length_mm": 2.4125,
+      "start_global_mm": [
+        147.25,
+        85.25
+      ],
+      "end_global_mm": [
+        147.25,
+        87.6625
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "896dc569-0194-415f-b83d-369ed5440087",
+      "net": "BL_5V",
+      "class": "POWER_5V",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "length_mm": 0.8308504678941934,
+      "start_global_mm": [
+        147.25,
+        87.6625
+      ],
+      "end_global_mm": [
+        147.8375,
+        88.25
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "526c8fde-930b-4048-9151-52b8d958a0e0",
+      "net": "BL_COMP",
+      "class": "SENSITIVE",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.9637978263100617,
+      "start_global_mm": [
+        159.25,
+        102.4875
+      ],
+      "end_global_mm": [
+        158.55,
+        103.15
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "e5d27770-0c53-4826-9092-bad1fa87ea10",
+      "net": "BL_COMP",
+      "class": "SENSITIVE",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 1.35,
+      "start_global_mm": [
+        159.25,
+        101.1375
+      ],
+      "end_global_mm": [
+        159.25,
+        102.4875
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "01d7bdbc-1a2d-41cf-a473-36ec4fbbe071",
+      "net": "BL_CTRL",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 10.6,
+      "start_global_mm": [
+        164.8,
+        87.7
+      ],
+      "end_global_mm": [
+        164.8,
+        98.3
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "05ef267d-9de7-447e-abb3-156c4ea47ec7",
+      "net": "BL_CTRL",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.24270609798684498,
+      "start_global_mm": [
+        159.2,
+        99.1
+      ],
+      "end_global_mm": [
+        159.25,
+        98.8625
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "15c7f8d0-1baa-4490-b245-58e886497194",
+      "net": "BL_CTRL",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.42426406871192857,
+      "start_global_mm": [
+        158.9,
+        99.9
+      ],
+      "end_global_mm": [
+        159.2,
+        99.6
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "2640f721-24ed-48b5-9aed-3da62f77c74f",
+      "net": "BL_CTRL",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.3,
+      "start_global_mm": [
+        159.3,
+        99.4
+      ],
+      "end_global_mm": [
+        159.3,
+        99.1
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "4179b615-163a-425f-863c-7b851bfe0c8b",
+      "net": "BL_CTRL",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 3.2,
+      "start_global_mm": [
+        163.1,
+        100.0
+      ],
+      "end_global_mm": [
+        159.9,
+        100.0
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "4dc05c68-efcf-4311-b84d-bac01e830a31",
+      "net": "BL_CTRL",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 1.8,
+      "start_global_mm": [
+        154.1,
+        75.3
+      ],
+      "end_global_mm": [
+        152.3,
+        75.3
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "57b2e7b1-6bd1-4b01-9319-636ce1f43472",
+      "net": "BL_CTRL",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.22360679774997896,
+      "start_global_mm": [
+        156.7,
+        77.8
+      ],
+      "end_global_mm": [
+        156.5,
+        77.7
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "69fcea42-87c0-4561-8b81-1339359bbc02",
+      "net": "BL_CTRL",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 1.0875,
+      "start_global_mm": [
+        145.6125,
+        99.8
+      ],
+      "end_global_mm": [
+        146.7,
+        99.8
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "6befa678-8ed4-4a9c-bc06-57fbe9087d98",
+      "net": "BL_CTRL",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.2304886114323222,
+      "start_global_mm": [
+        156.7,
+        77.8
+      ],
+      "end_global_mm": [
+        156.75,
+        77.575
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "711fbab1-aa43-4820-a3e7-05180a356423",
+      "net": "BL_CTRL",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.5,
+      "start_global_mm": [
+        159.2,
+        99.6
+      ],
+      "end_global_mm": [
+        159.2,
+        99.1
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "92c5c019-a6f0-4e71-99ae-7795f0988c66",
+      "net": "BL_CTRL",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 11.313708498984761,
+      "start_global_mm": [
+        156.8,
+        79.7
+      ],
+      "end_global_mm": [
+        164.8,
+        87.7
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "989cd367-42c0-4b49-9471-8eb310054912",
+      "net": "BL_CTRL",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 1.4,
+      "start_global_mm": [
+        156.7,
+        79.2
+      ],
+      "end_global_mm": [
+        156.7,
+        77.8
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "ae173e63-4deb-4743-b7d1-2f9f99e22b55",
+      "net": "BL_CTRL",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.2304886114323222,
+      "start_global_mm": [
+        156.75,
+        79.425
+      ],
+      "end_global_mm": [
+        156.7,
+        79.2
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "c3002fa6-068d-4ab3-afbe-a82af43448e5",
+      "net": "BL_CTRL",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 3.3941125496954285,
+      "start_global_mm": [
+        156.5,
+        77.7
+      ],
+      "end_global_mm": [
+        154.1,
+        75.3
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "c7f4eef4-bf94-4934-a8c3-48504280c159",
+      "net": "BL_CTRL",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 2.4041630560342617,
+      "start_global_mm": [
+        164.8,
+        98.3
+      ],
+      "end_global_mm": [
+        163.1,
+        100.0
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "cff8af34-1f43-4c9c-b6df-0cc9f5db3050",
+      "net": "BL_CTRL",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.304138126514911,
+      "start_global_mm": [
+        152.3,
+        75.3
+      ],
+      "end_global_mm": [
+        152.0,
+        75.25
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "d6c15f8b-4261-46ac-b683-1371c42205dc",
+      "net": "BL_CTRL",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.8485281374238571,
+      "start_global_mm": [
+        159.9,
+        100.0
+      ],
+      "end_global_mm": [
+        159.3,
+        99.4
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "e4bf1f72-5fe8-4a09-a9bc-8f3bff7d1150",
+      "net": "BL_CTRL",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.24270609798684498,
+      "start_global_mm": [
+        159.3,
+        99.1
+      ],
+      "end_global_mm": [
+        159.25,
+        98.8625
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "eeb6fe41-af80-4442-a949-a1c84b735243",
+      "net": "BL_CTRL",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.27950849718747367,
+      "start_global_mm": [
+        156.75,
+        79.425
+      ],
+      "end_global_mm": [
+        156.8,
+        79.7
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "1854115e-c069-4927-b61e-ca80497865e7",
+      "net": "BL_CTRL",
+      "class": "Default",
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.14142135623730953,
+      "start_global_mm": [
+        158.8,
+        99.8
+      ],
+      "end_global_mm": [
+        158.9,
+        99.9
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "a098bec4-9031-4db7-b556-157d4c7bf98a",
+      "net": "BL_CTRL",
+      "class": "Default",
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "length_mm": 12.1,
+      "start_global_mm": [
+        146.7,
+        99.8
+      ],
+      "end_global_mm": [
+        158.8,
+        99.8
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "0b0bbe60-6ca6-436f-9502-5c1fd7e20f34",
+      "net": "BL_LEDA",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "length_mm": 0.75,
+      "start_global_mm": [
+        153.75,
+        102.9
+      ],
+      "end_global_mm": [
+        154.5,
+        102.9
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "16b63256-0403-4bec-ad7c-29e3316910f6",
+      "net": "BL_LEDA",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "length_mm": 2.8284271247461903,
+      "start_global_mm": [
+        151.75,
+        100.9
+      ],
+      "end_global_mm": [
+        153.75,
+        102.9
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "20f34877-1cf3-48c9-bb5a-432aed79248a",
+      "net": "BL_LEDA",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "length_mm": 0.7071067811865476,
+      "start_global_mm": [
+        183.4,
+        99.1
+      ],
+      "end_global_mm": [
+        182.9,
+        99.6
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "274f70c0-594a-4f12-8e89-6fe58f4bcb0b",
+      "net": "BL_LEDA",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 2.7577164466275352,
+      "start_global_mm": [
+        151.75,
+        102.625
+      ],
+      "end_global_mm": [
+        149.8,
+        104.575
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "29aaf90c-f912-44cc-9045-4ae3d542f0d5",
+      "net": "BL_LEDA",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "length_mm": 0.6,
+      "start_global_mm": [
+        182.9,
+        99.6
+      ],
+      "end_global_mm": [
+        182.3,
+        99.6
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "3473ece5-c755-4285-9509-1959ed05352b",
+      "net": "BL_LEDA",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "length_mm": 1.6,
+      "start_global_mm": [
+        168.6,
+        95.6
+      ],
+      "end_global_mm": [
+        170.2,
+        95.6
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "46769fcc-aa7f-4ab9-9200-57c9993d2eaf",
+      "net": "BL_LEDA",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.7071067811865476,
+      "start_global_mm": [
+        149.8,
+        108.5
+      ],
+      "end_global_mm": [
+        149.3,
+        109.0
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "46fba356-7b34-42dc-a7fe-d5e2a9bff9e0",
+      "net": "BL_LEDA",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 1.0,
+      "start_global_mm": [
+        181.8,
+        99.1
+      ],
+      "end_global_mm": [
+        181.8,
+        98.1
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "4cddeba8-82f8-4eb4-90e8-79280e7126c5",
+      "net": "BL_LEDA",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "length_mm": 1.1,
+      "start_global_mm": [
+        151.75,
+        99.8
+      ],
+      "end_global_mm": [
+        151.75,
+        100.9
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "4d82f917-1c88-434c-8743-07dd1ddb2923",
+      "net": "BL_LEDA",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "length_mm": 1.0,
+      "start_global_mm": [
+        181.8,
+        99.1
+      ],
+      "end_global_mm": [
+        181.8,
+        98.1
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "50dfdaf8-d2dd-496b-a08a-73d6f5313d89",
+      "net": "BL_LEDA",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.5656854249492381,
+      "start_global_mm": [
+        182.2,
+        99.5
+      ],
+      "end_global_mm": [
+        181.8,
+        99.1
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "513b071b-2dc8-4959-9b36-91452a4c9732",
+      "net": "BL_LEDA",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.25495097567963926,
+      "start_global_mm": [
+        184.65,
+        98.15
+      ],
+      "end_global_mm": [
+        184.4,
+        98.2
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "5e6ef49b-95ec-4d09-9d05-ea65b747fc8d",
+      "net": "BL_LEDA",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.25124689052802224,
+      "start_global_mm": [
+        181.8,
+        98.1
+      ],
+      "end_global_mm": [
+        181.775,
+        97.85
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "685136ed-3884-4123-902a-45aad6376a9f",
+      "net": "BL_LEDA",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.7,
+      "start_global_mm": [
+        184.4,
+        98.2
+      ],
+      "end_global_mm": [
+        183.7,
+        98.2
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "6f223e2f-660e-49f3-b73c-2af60d73fe4c",
+      "net": "BL_LEDA",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.304138126514911,
+      "start_global_mm": [
+        183.75,
+        102.5
+      ],
+      "end_global_mm": [
+        183.7,
+        102.2
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "74f2fd9c-a743-4138-82ac-273976de635a",
+      "net": "BL_LEDA",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.9,
+      "start_global_mm": [
+        183.5,
+        99.3
+      ],
+      "end_global_mm": [
+        183.5,
+        98.4
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "76700ac3-4a40-46ed-8a99-ef98b7537e77",
+      "net": "BL_LEDA",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.6,
+      "start_global_mm": [
+        183.3,
+        98.6
+      ],
+      "end_global_mm": [
+        183.3,
+        99.2
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "77479627-c913-40a5-ae7e-d5eacbd862b4",
+      "net": "BL_LEDA",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "length_mm": 7.212489168102785,
+      "start_global_mm": [
+        163.5,
+        100.7
+      ],
+      "end_global_mm": [
+        168.6,
+        95.6
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "949f4fde-e1ac-466a-aec6-5b794da2af69",
+      "net": "BL_LEDA",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.7,
+      "start_global_mm": [
+        183.7,
+        98.2
+      ],
+      "end_global_mm": [
+        184.4,
+        98.2
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "9c71673b-4019-4f6b-90c0-fa31f952fe3d",
+      "net": "BL_LEDA",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.28284271247461906,
+      "start_global_mm": [
+        183.7,
+        99.5
+      ],
+      "end_global_mm": [
+        183.5,
+        99.3
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "9d38f253-d12c-47d2-8b78-5151ead931c2",
+      "net": "BL_LEDA",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "length_mm": 0.22360679774997896,
+      "start_global_mm": [
+        170.2,
+        95.6
+      ],
+      "end_global_mm": [
+        170.4,
+        95.5
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "a43cd893-4b5d-490b-835c-63952d6f9a78",
+      "net": "BL_LEDA",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 3.7125,
+      "start_global_mm": [
+        149.3,
+        109.0
+      ],
+      "end_global_mm": [
+        145.5875,
+        109.0
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "a8b7e6c6-3a49-4cb9-a1c7-ac4aa1eb9ee7",
+      "net": "BL_LEDA",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.28284271247461906,
+      "start_global_mm": [
+        183.5,
+        98.4
+      ],
+      "end_global_mm": [
+        183.7,
+        98.2
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "b145cee9-24a5-4efd-90ab-57203a32ac43",
+      "net": "BL_LEDA",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "length_mm": 0.7071067811865476,
+      "start_global_mm": [
+        182.3,
+        99.6
+      ],
+      "end_global_mm": [
+        181.8,
+        99.1
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "b167b3f1-6b03-4def-81e0-b2b0ad55a494",
+      "net": "BL_LEDA",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "length_mm": 0.2692582403567252,
+      "start_global_mm": [
+        153.75,
+        102.9
+      ],
+      "end_global_mm": [
+        154.0,
+        102.8
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "b1b58a35-7184-4410-bad9-b00a9da98b29",
+      "net": "BL_LEDA",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 2.7,
+      "start_global_mm": [
+        183.7,
+        102.2
+      ],
+      "end_global_mm": [
+        183.7,
+        99.5
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "b395fbdd-de85-46da-a09f-d22ddf3d8009",
+      "net": "BL_LEDA",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "length_mm": 2.825,
+      "start_global_mm": [
+        151.75,
+        99.8
+      ],
+      "end_global_mm": [
+        151.75,
+        102.625
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "bb4fcdf0-6a26-4408-a00e-4bbbae9e4254",
+      "net": "BL_LEDA",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.42426406871192857,
+      "start_global_mm": [
+        183.3,
+        99.2
+      ],
+      "end_global_mm": [
+        183.0,
+        99.5
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "cdd2db37-59ee-4afc-a493-ec14d23929e6",
+      "net": "BL_LEDA",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "length_mm": 7.636753236814714,
+      "start_global_mm": [
+        170.4,
+        95.5
+      ],
+      "end_global_mm": [
+        175.8,
+        90.1
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "da50889f-2e45-43cf-a510-8f9b88faa8f2",
+      "net": "BL_LEDA",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.25495097567963926,
+      "start_global_mm": [
+        184.4,
+        98.2
+      ],
+      "end_global_mm": [
+        184.65,
+        98.15
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "de899d27-a343-485e-814a-fd3ccbe009ae",
+      "net": "BL_LEDA",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.8,
+      "start_global_mm": [
+        183.0,
+        99.5
+      ],
+      "end_global_mm": [
+        182.2,
+        99.5
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "e1c1f57c-05e5-4e44-83b1-851fba71b16f",
+      "net": "BL_LEDA",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "length_mm": 2.121320343559643,
+      "start_global_mm": [
+        154.0,
+        102.8
+      ],
+      "end_global_mm": [
+        155.5,
+        101.3
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "ea2724fe-4edc-4432-ae79-e51ae1fe47f1",
+      "net": "BL_LEDA",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 3.925,
+      "start_global_mm": [
+        149.8,
+        104.575
+      ],
+      "end_global_mm": [
+        149.8,
+        108.5
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "f6b8b441-0ece-4ac4-b577-7521bba7364e",
+      "net": "BL_LEDA",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "length_mm": 0.8,
+      "start_global_mm": [
+        183.4,
+        98.3
+      ],
+      "end_global_mm": [
+        183.4,
+        99.1
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "f8829689-e418-4b62-9b58-a349930cae9e",
+      "net": "BL_LEDA",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.5656854249492381,
+      "start_global_mm": [
+        183.7,
+        98.2
+      ],
+      "end_global_mm": [
+        183.3,
+        98.6
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "fa630eb3-e29b-4890-ac42-1c136bd9155b",
+      "net": "BL_LEDA",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "length_mm": 0.30026030373660784,
+      "start_global_mm": [
+        170.2,
+        95.6
+      ],
+      "end_global_mm": [
+        170.5,
+        95.5875
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "fead22dd-c0fc-427b-9169-6115f9f0cc2a",
+      "net": "BL_LEDA",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 2.0,
+      "start_global_mm": [
+        145.5875,
+        109.0
+      ],
+      "end_global_mm": [
+        145.5875,
+        107.0
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "976ca558-a80e-4ae5-98c1-db6f03c0e63c",
+      "net": "BL_LEDA",
+      "class": "LED_HV",
+      "layer": "B.Cu",
+      "width_mm": 0.4,
+      "length_mm": 1.5556349186104048,
+      "start_global_mm": [
+        184.5,
+        97.2
+      ],
+      "end_global_mm": [
+        183.4,
+        98.3
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "a49386ec-e193-4eab-be23-becdf37fb310",
+      "net": "BL_LEDA",
+      "class": "LED_HV",
+      "layer": "B.Cu",
+      "width_mm": 0.4,
+      "length_mm": 0.8485281374238571,
+      "start_global_mm": [
+        157.0,
+        101.3
+      ],
+      "end_global_mm": [
+        157.6,
+        100.7
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "a74538a7-e1cb-49cb-b21c-3a4921ca70fb",
+      "net": "BL_LEDA",
+      "class": "LED_HV",
+      "layer": "B.Cu",
+      "width_mm": 0.4,
+      "length_mm": 0.9899494936611666,
+      "start_global_mm": [
+        183.8,
+        90.1
+      ],
+      "end_global_mm": [
+        184.5,
+        90.8
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "cbd87d4d-87b3-4de7-a2d7-514b794f2196",
+      "net": "BL_LEDA",
+      "class": "LED_HV",
+      "layer": "B.Cu",
+      "width_mm": 0.4,
+      "length_mm": 1.5,
+      "start_global_mm": [
+        155.5,
+        101.3
+      ],
+      "end_global_mm": [
+        157.0,
+        101.3
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "d22aa53c-0597-4cb5-841f-439a55ec2b66",
+      "net": "BL_LEDA",
+      "class": "LED_HV",
+      "layer": "B.Cu",
+      "width_mm": 0.4,
+      "length_mm": 6.4,
+      "start_global_mm": [
+        184.5,
+        90.8
+      ],
+      "end_global_mm": [
+        184.5,
+        97.2
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "d8d3d668-4b0c-480a-af24-e14c5bb4124c",
+      "net": "BL_LEDA",
+      "class": "LED_HV",
+      "layer": "B.Cu",
+      "width_mm": 0.4,
+      "length_mm": 8.0,
+      "start_global_mm": [
+        175.8,
+        90.1
+      ],
+      "end_global_mm": [
+        183.8,
+        90.1
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "fdc67950-809b-404c-9182-fefdc67490c8",
+      "net": "BL_LEDA",
+      "class": "LED_HV",
+      "layer": "B.Cu",
+      "width_mm": 0.4,
+      "length_mm": 5.9,
+      "start_global_mm": [
+        157.6,
+        100.7
+      ],
+      "end_global_mm": [
+        163.5,
+        100.7
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "0c9b205b-cce1-4942-b08b-ce7de8abfef2",
+      "net": "BL_LEDK",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "length_mm": 0.2981715110469141,
+      "start_global_mm": [
+        161.0,
+        103.2
+      ],
+      "end_global_mm": [
+        160.75,
+        103.0375
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "185fa983-0938-4866-ba29-ec1ceb15a9ed",
+      "net": "BL_LEDK",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "length_mm": 3.3941125496954285,
+      "start_global_mm": [
+        163.4,
+        105.6
+      ],
+      "end_global_mm": [
+        161.0,
+        103.2
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "234949e8-ebf6-4586-8dab-05a541f14aba",
+      "net": "BL_LEDK",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "length_mm": 0.525,
+      "start_global_mm": [
+        182.3,
+        97.25
+      ],
+      "end_global_mm": [
+        181.775,
+        97.25
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "3b567f8f-707e-4be1-8190-9ca9dc0dd460",
+      "net": "BL_LEDK",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 1.35,
+      "start_global_mm": [
+        160.75,
+        103.0375
+      ],
+      "end_global_mm": [
+        160.75,
+        101.6875
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "3fba08c4-d986-488e-aceb-7f148c547789",
+      "net": "BL_LEDK",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "length_mm": 0.6,
+      "start_global_mm": [
+        185.25,
+        97.55
+      ],
+      "end_global_mm": [
+        184.65,
+        97.55
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "49e51c90-73fb-44dc-bf81-846e3b9420b1",
+      "net": "BL_LEDK",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "length_mm": 2.4041630560342617,
+      "start_global_mm": [
+        187.2,
+        101.15
+      ],
+      "end_global_mm": [
+        185.5,
+        99.45
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "5520b9f7-d5a3-4796-a9aa-4d7de7bbee89",
+      "net": "BL_LEDK",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "length_mm": 0.3535533905932738,
+      "start_global_mm": [
+        185.5,
+        97.8
+      ],
+      "end_global_mm": [
+        185.25,
+        97.55
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "64136856-495a-417a-bf07-2e8374b13576",
+      "net": "BL_LEDK",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "length_mm": 1.65,
+      "start_global_mm": [
+        185.5,
+        99.45
+      ],
+      "end_global_mm": [
+        185.5,
+        97.8
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "6c888fb4-4be4-4966-b002-4920785a3a76",
+      "net": "BL_LEDK",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "length_mm": 0.42426406871192857,
+      "start_global_mm": [
+        182.6,
+        97.55
+      ],
+      "end_global_mm": [
+        182.3,
+        97.25
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "781fba8f-1890-4154-8eec-202044b025f7",
+      "net": "BL_LEDK",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "length_mm": 0.11180339887498948,
+      "start_global_mm": [
+        187.25,
+        101.25
+      ],
+      "end_global_mm": [
+        187.2,
+        101.15
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "992b771b-90cc-481e-aae6-18200e332132",
+      "net": "BL_LEDK",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "length_mm": 0.25,
+      "start_global_mm": [
+        182.3,
+        97.25
+      ],
+      "end_global_mm": [
+        182.5,
+        97.4
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "acdbd133-47d3-4444-9312-471eefe9bd09",
+      "net": "BL_LEDK",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.7778174593052024,
+      "start_global_mm": [
+        160.75,
+        101.6875
+      ],
+      "end_global_mm": [
+        160.2,
+        101.1375
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "b9a5c4c2-0c1f-498f-92f2-450c0fa6e028",
+      "net": "BL_LEDK",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "length_mm": 2.05,
+      "start_global_mm": [
+        184.65,
+        97.55
+      ],
+      "end_global_mm": [
+        182.6,
+        97.55
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "c0a22ce7-cec4-4f81-bafd-29729c274fc3",
+      "net": "BL_LEDK",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "length_mm": 0.1,
+      "start_global_mm": [
+        182.5,
+        97.4
+      ],
+      "end_global_mm": [
+        182.5,
+        97.5
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "c236616f-7502-4c1b-a864-4f50cb2bd37c",
+      "net": "BL_LEDK",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "length_mm": 1.2,
+      "start_global_mm": [
+        182.6,
+        97.6
+      ],
+      "end_global_mm": [
+        182.6,
+        98.8
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "cf79b143-4219-4222-8943-72132a57462c",
+      "net": "BL_LEDK",
+      "class": "LED_HV",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "length_mm": 0.14142135623730953,
+      "start_global_mm": [
+        182.5,
+        97.5
+      ],
+      "end_global_mm": [
+        182.6,
+        97.6
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "15cdac84-123d-4930-90e4-56a66089960e",
+      "net": "BL_LEDK",
+      "class": "LED_HV",
+      "layer": "B.Cu",
+      "width_mm": 0.4,
+      "length_mm": 10.4,
+      "start_global_mm": [
+        174.8,
+        106.6
+      ],
+      "end_global_mm": [
+        164.4,
+        106.6
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "3da59dc0-eb2c-45b4-a04b-78064adcb27d",
+      "net": "BL_LEDK",
+      "class": "LED_HV",
+      "layer": "B.Cu",
+      "width_mm": 0.4,
+      "length_mm": 11.030865786510141,
+      "start_global_mm": [
+        182.6,
+        98.8
+      ],
+      "end_global_mm": [
+        174.8,
+        106.6
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "89c3a6f4-defc-4a14-b36e-9478e4393587",
+      "net": "BL_LEDK",
+      "class": "LED_HV",
+      "layer": "B.Cu",
+      "width_mm": 0.4,
+      "length_mm": 1.4142135623730951,
+      "start_global_mm": [
+        164.4,
+        106.6
+      ],
+      "end_global_mm": [
+        163.4,
+        105.6
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "04d9cff9-24f8-4b5b-8a7c-68b196c88ef3",
+      "net": "BL_POWER",
+      "class": "POWER_5V",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "length_mm": 1.9798989873223332,
+      "start_global_mm": [
+        160.7,
+        88.3
+      ],
+      "end_global_mm": [
+        159.3,
+        89.7
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "12147f63-c0aa-4349-a353-59efdddaff5e",
+      "net": "BL_POWER",
+      "class": "POWER_5V",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "length_mm": 5.3,
+      "start_global_mm": [
+        149.6625,
+        88.25
+      ],
+      "end_global_mm": [
+        149.6625,
+        93.55
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "13023063-eb8d-4a15-8810-c8a0a9f1106e",
+      "net": "BL_POWER",
+      "class": "POWER_5V",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "length_mm": 0.40658639918226486,
+      "start_global_mm": [
+        160.4875,
+        99.15
+      ],
+      "end_global_mm": [
+        160.2,
+        98.8625
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "252713ee-3603-414c-a995-9f1348d1a59e",
+      "net": "BL_POWER",
+      "class": "POWER_5V",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "length_mm": 1.8125,
+      "start_global_mm": [
+        147.7,
+        97.8
+      ],
+      "end_global_mm": [
+        147.7,
+        99.6125
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "2b7b6839-2ba2-4d15-bc46-5f1ebc1d572f",
+      "net": "BL_POWER",
+      "class": "POWER_5V",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "length_mm": 2.2875,
+      "start_global_mm": [
+        147.7,
+        95.5125
+      ],
+      "end_global_mm": [
+        147.7,
+        97.8
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "3161e583-abce-4866-8175-5fa20280ae2c",
+      "net": "BL_POWER",
+      "class": "POWER_5V",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "length_mm": 6.55,
+      "start_global_mm": [
+        164.0,
+        90.85
+      ],
+      "end_global_mm": [
+        164.0,
+        97.4
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "5b8a010f-7880-4f7e-b509-74a5f810d88b",
+      "net": "BL_POWER",
+      "class": "POWER_5V",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "length_mm": 2.45,
+      "start_global_mm": [
+        156.8,
+        90.35
+      ],
+      "end_global_mm": [
+        159.25,
+        90.35
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "630f4060-85d7-4132-8d16-ebaab68df4b5",
+      "net": "BL_POWER",
+      "class": "POWER_5V",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "length_mm": 2.4748737341529163,
+      "start_global_mm": [
+        164.0,
+        97.4
+      ],
+      "end_global_mm": [
+        162.25,
+        99.15
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "65ef21ea-9863-40c2-a64f-4284f576c012",
+      "net": "BL_POWER",
+      "class": "POWER_5V",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "length_mm": 1.2020815280171309,
+      "start_global_mm": [
+        149.6625,
+        88.25
+      ],
+      "end_global_mm": [
+        150.5125,
+        87.4
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "6c1164e1-7c1b-4906-ac52-ed9377bdcc54",
+      "net": "BL_POWER",
+      "class": "POWER_5V",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "length_mm": 2.050609665440988,
+      "start_global_mm": [
+        155.35,
+        88.9
+      ],
+      "end_global_mm": [
+        156.8,
+        90.35
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "715cbe28-d747-4bc1-a77c-8d25a5089134",
+      "net": "BL_POWER",
+      "class": "POWER_5V",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "length_mm": 0.25495097567963926,
+      "start_global_mm": [
+        159.3,
+        90.1
+      ],
+      "end_global_mm": [
+        159.25,
+        90.35
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "ad7c5cd0-113b-4537-a1b3-576143464cc1",
+      "net": "BL_POWER",
+      "class": "POWER_5V",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "length_mm": 1.5,
+      "start_global_mm": [
+        155.35,
+        87.4
+      ],
+      "end_global_mm": [
+        155.35,
+        88.9
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "ae66e9a1-0802-45bf-b43a-7e20e98a8911",
+      "net": "BL_POWER",
+      "class": "POWER_5V",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "length_mm": 0.26516504294495535,
+      "start_global_mm": [
+        147.7,
+        99.6125
+      ],
+      "end_global_mm": [
+        147.8875,
+        99.8
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "bcb04ca7-caa7-43d2-8797-5b459e9df839",
+      "net": "BL_POWER",
+      "class": "POWER_5V",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "length_mm": 0.7071067811865476,
+      "start_global_mm": [
+        163.5,
+        90.35
+      ],
+      "end_global_mm": [
+        164.0,
+        90.85
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "d4258a53-7f37-41b6-b6d5-723d667a0daa",
+      "net": "BL_POWER",
+      "class": "POWER_5V",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "length_mm": 4.8375,
+      "start_global_mm": [
+        150.5125,
+        87.4
+      ],
+      "end_global_mm": [
+        155.35,
+        87.4
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "d8e27c4e-bd95-4290-a73f-939cda009619",
+      "net": "BL_POWER",
+      "class": "POWER_5V",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "length_mm": 1.7625,
+      "start_global_mm": [
+        162.25,
+        99.15
+      ],
+      "end_global_mm": [
+        160.4875,
+        99.15
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "da096618-5ffd-440e-842f-4d47d89c15fb",
+      "net": "BL_POWER",
+      "class": "POWER_5V",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "length_mm": 0.4,
+      "start_global_mm": [
+        159.3,
+        89.7
+      ],
+      "end_global_mm": [
+        159.3,
+        90.1
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "e417b5bb-c2df-4b49-ae20-c07eb69867b8",
+      "net": "BL_POWER",
+      "class": "POWER_5V",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "length_mm": 2.7753941161571993,
+      "start_global_mm": [
+        149.6625,
+        93.55
+      ],
+      "end_global_mm": [
+        147.7,
+        95.5125
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "e8175574-2c36-47fe-b3d3-e80695eafe79",
+      "net": "BL_POWER",
+      "class": "POWER_5V",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "length_mm": 4.25,
+      "start_global_mm": [
+        159.25,
+        90.35
+      ],
+      "end_global_mm": [
+        163.5,
+        90.35
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "ffa0ab36-9cf9-42d2-8891-412949533b71",
+      "net": "BL_POWER",
+      "class": "POWER_5V",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "length_mm": 0.304138126514911,
+      "start_global_mm": [
+        160.75,
+        88.0
+      ],
+      "end_global_mm": [
+        160.7,
+        88.3
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "4fa02a71-40e4-452d-b12b-1e289ca8004c",
+      "net": "BL_PWM_RAW",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 3.2,
+      "start_global_mm": [
+        157.0,
+        75.7
+      ],
+      "end_global_mm": [
+        160.2,
+        75.7
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "d9e3402d-89c1-49df-929b-1baa66f0778e",
+      "net": "BL_PWM_RAW",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.25495097567963926,
+      "start_global_mm": [
+        156.75,
+        75.75
+      ],
+      "end_global_mm": [
+        157.0,
+        75.7
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "f7563d7e-6c74-46ec-a6a3-077620004701",
+      "net": "BL_PWM_RAW",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.26100766272276377,
+      "start_global_mm": [
+        160.2,
+        75.7
+      ],
+      "end_global_mm": [
+        160.45,
+        75.625
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "6bb4fb72-5454-405c-9af7-d9014e8f3d58",
+      "net": "BL_SW",
+      "class": "BOOST_SWITCH",
+      "layer": "F.Cu",
+      "width_mm": 0.6,
+      "length_mm": 0.3,
+      "start_global_mm": [
+        159.25,
+        96.95
+      ],
+      "end_global_mm": [
+        159.25,
+        96.65
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "6dfaa5a8-8e22-4ea4-8543-644b9ea7a74f",
+      "net": "BL_SW",
+      "class": "BOOST_SWITCH",
+      "layer": "F.Cu",
+      "width_mm": 0.6,
+      "length_mm": 1.3258252147247769,
+      "start_global_mm": [
+        158.3,
+        98.8625
+      ],
+      "end_global_mm": [
+        157.3625,
+        99.8
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "73518bf7-510e-4943-a360-ac4c4387b7b7",
+      "net": "BL_SW",
+      "class": "BOOST_SWITCH",
+      "layer": "F.Cu",
+      "width_mm": 0.6,
+      "length_mm": 1.6125,
+      "start_global_mm": [
+        157.3625,
+        99.8
+      ],
+      "end_global_mm": [
+        155.75,
+        99.8
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "d12f96e9-ec90-4864-81fe-c49882659e83",
+      "net": "BL_SW",
+      "class": "BOOST_SWITCH",
+      "layer": "F.Cu",
+      "width_mm": 0.6,
+      "length_mm": 1.3435028842544405,
+      "start_global_mm": [
+        158.3,
+        97.9
+      ],
+      "end_global_mm": [
+        159.25,
+        96.95
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "eed04749-4c37-49ec-b899-ed7fe5c548f9",
+      "net": "BL_SW",
+      "class": "BOOST_SWITCH",
+      "layer": "F.Cu",
+      "width_mm": 0.6,
+      "length_mm": 0.9625,
+      "start_global_mm": [
+        158.3,
+        98.8625
+      ],
+      "end_global_mm": [
+        158.3,
+        97.9
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "14c21d39-e061-4859-b614-971b2ad67fc9",
+      "net": "DSI_CLK_N",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.17,
+      "length_mm": 1.1,
+      "start_global_mm": [
+        183.55,
+        90.95
+      ],
+      "end_global_mm": [
+        184.65,
+        90.95
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "6add836a-5c16-4d09-96b5-6d1c97dd58fd",
+      "net": "DSI_CLK_N",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.17,
+      "length_mm": 0.9,
+      "start_global_mm": [
+        165.2,
+        106.75
+      ],
+      "end_global_mm": [
+        165.2,
+        105.85
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "1ec04c65-cdbe-44e0-8f22-d6be9c866677",
+      "net": "DSI_CLK_N",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.17,
+      "length_mm": 0.19798989873223333,
+      "start_global_mm": [
+        165.2,
+        104.7
+      ],
+      "end_global_mm": [
+        165.34,
+        104.56
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "2065ad8b-867c-4b45-885b-444488638bdb",
+      "net": "DSI_CLK_N",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.17,
+      "length_mm": 0.4384062043356595,
+      "start_global_mm": [
+        183.24,
+        90.64
+      ],
+      "end_global_mm": [
+        183.55,
+        90.95
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "228df171-677f-46e0-840f-edf34a0a3030",
+      "net": "DSI_CLK_N",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.17,
+      "length_mm": 0.42426406871192857,
+      "start_global_mm": [
+        180.8,
+        90.94
+      ],
+      "end_global_mm": [
+        181.1,
+        90.64
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "44825d18-5c25-4b6c-8a1e-4c2b3d27665d",
+      "net": "DSI_CLK_N",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.17,
+      "length_mm": 1.15,
+      "start_global_mm": [
+        165.2,
+        105.85
+      ],
+      "end_global_mm": [
+        165.2,
+        104.7
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "8aa777ce-ec91-4a36-8104-30b9aa3522a3",
+      "net": "DSI_CLK_N",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.17,
+      "length_mm": 0.56,
+      "start_global_mm": [
+        165.34,
+        104.56
+      ],
+      "end_global_mm": [
+        165.34,
+        104.0
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "8c6e512f-510d-4a7c-af24-f279163697e6",
+      "net": "DSI_CLK_N",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 5.666274,
+      "start_global_mm": [
+        175.133726,
+        90.94
+      ],
+      "end_global_mm": [
+        180.8,
+        90.94
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "c50adbdf-563d-48fc-8dc8-c7c301b2492a",
+      "net": "DSI_CLK_N",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.17,
+      "length_mm": 2.14,
+      "start_global_mm": [
+        181.1,
+        90.64
+      ],
+      "end_global_mm": [
+        183.24,
+        90.64
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "c70f90b0-557e-4983-aba3-a945df7f0563",
+      "net": "DSI_CLK_N",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 3.266274,
+      "start_global_mm": [
+        165.34,
+        104.0
+      ],
+      "end_global_mm": [
+        165.34,
+        100.733726
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "fe59e955-afce-45f6-a243-33ba0bc538bb",
+      "net": "DSI_CLK_N",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 13.850420135366004,
+      "start_global_mm": [
+        165.34,
+        100.733726
+      ],
+      "end_global_mm": [
+        175.133726,
+        90.94
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "7e2860de-f69e-4722-aaf8-636c67f07bd2",
+      "net": "DSI_CLK_P",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.17,
+      "length_mm": 1.025,
+      "start_global_mm": [
+        182.8,
+        91.25
+      ],
+      "end_global_mm": [
+        181.775,
+        91.25
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "dd566c4f-8e54-4a2c-80b6-7ebc1ccdea37",
+      "net": "DSI_CLK_P",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.17,
+      "length_mm": 1.45,
+      "start_global_mm": [
+        165.8,
+        106.75
+      ],
+      "end_global_mm": [
+        165.8,
+        105.3
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "0a6ee951-7163-4d8e-b573-da372d0696ee",
+      "net": "DSI_CLK_P",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 0.212132,
+      "start_global_mm": [
+        169.75603,
+        96.770244
+      ],
+      "end_global_mm": [
+        169.968162,
+        96.770244
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "0ed7ad07-ed40-4078-91c5-ed7eef7cfec0",
+      "net": "DSI_CLK_P",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 0.212132,
+      "start_global_mm": [
+        171.170244,
+        95.568162
+      ],
+      "end_global_mm": [
+        171.170244,
+        95.35603
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "0fe91a98-8101-4a66-a949-0d326c34d21a",
+      "net": "DSI_CLK_P",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 1.4000007160712455,
+      "start_global_mm": [
+        170.660883,
+        97.250833
+      ],
+      "end_global_mm": [
+        171.650833,
+        96.260883
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "14940db7-b2ba-49cb-b825-558d9f26ac01",
+      "net": "DSI_CLK_P",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.17,
+      "length_mm": 2.000024999843752,
+      "start_global_mm": [
+        180.8,
+        91.26
+      ],
+      "end_global_mm": [
+        182.8,
+        91.25
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "1c210014-04f7-47b8-829c-a5eacca17350",
+      "net": "DSI_CLK_P",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.17,
+      "length_mm": 0.19798989873223333,
+      "start_global_mm": [
+        165.8,
+        105.3
+      ],
+      "end_global_mm": [
+        165.66,
+        105.16
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "1c52b948-8ba8-44a2-a45f-5df43853ce51",
+      "net": "DSI_CLK_P",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.17,
+      "length_mm": 1.16,
+      "start_global_mm": [
+        165.66,
+        105.16
+      ],
+      "end_global_mm": [
+        165.66,
+        104.0
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "3b6a4802-ae40-4a34-b067-61c6f02f9ab8",
+      "net": "DSI_CLK_P",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 0.212132,
+      "start_global_mm": [
+        170.448751,
+        97.250833
+      ],
+      "end_global_mm": [
+        170.660883,
+        97.250833
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "4b33eb73-6950-4f61-b8dc-8da7de51a94a",
+      "net": "DSI_CLK_P",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 5.792661177887069,
+      "start_global_mm": [
+        165.66,
+        100.866274
+      ],
+      "end_global_mm": [
+        169.75603,
+        96.770244
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "571ccc25-c341-450b-b927-e514f4d9ce8b",
+      "net": "DSI_CLK_P",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 0.6796554817273234,
+      "start_global_mm": [
+        171.650833,
+        96.048751
+      ],
+      "end_global_mm": [
+        171.170244,
+        95.568162
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "757e4b4d-d002-4b61-b2ef-099209bd5050",
+      "net": "DSI_CLK_P",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 3.133726,
+      "start_global_mm": [
+        165.66,
+        104.0
+      ],
+      "end_global_mm": [
+        165.66,
+        100.866274
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "795c7011-1beb-4522-b053-a828950174c1",
+      "net": "DSI_CLK_P",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 5.792661177887069,
+      "start_global_mm": [
+        171.170244,
+        95.35603
+      ],
+      "end_global_mm": [
+        175.266274,
+        91.26
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "cdc68fff-4e5a-49d3-aa4f-f68558856561",
+      "net": "DSI_CLK_P",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 0.212132,
+      "start_global_mm": [
+        171.650833,
+        96.260883
+      ],
+      "end_global_mm": [
+        171.650833,
+        96.048751
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "ec53dd96-b8a2-4910-b2fb-86f9b80cdb28",
+      "net": "DSI_CLK_P",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 5.533726,
+      "start_global_mm": [
+        175.266274,
+        91.26
+      ],
+      "end_global_mm": [
+        180.8,
+        91.26
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "ec681e97-d508-4d27-b529-3ab9f2373338",
+      "net": "DSI_CLK_P",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 0.6796554817273234,
+      "start_global_mm": [
+        169.968162,
+        96.770244
+      ],
+      "end_global_mm": [
+        170.448751,
+        97.250833
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "14667047-4765-4385-a9ba-c74213687d05",
+      "net": "DSI_D0_N",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.14,
+      "length_mm": 0.07958345400898355,
+      "start_global_mm": [
+        173.66,
+        98.168947
+      ],
+      "end_global_mm": [
+        173.716274,
+        98.225221
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "2642a3d9-1906-4dcc-bccf-cd279f878300",
+      "net": "DSI_D0_N",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.14,
+      "length_mm": 0.366274,
+      "start_global_mm": [
+        164.14,
+        105.9
+      ],
+      "end_global_mm": [
+        164.14,
+        105.533726
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "311e814d-a734-4129-8c1f-3abe3266db38",
+      "net": "DSI_D0_N",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.14,
+      "length_mm": 0.685221,
+      "start_global_mm": [
+        176.64,
+        98.168947
+      ],
+      "end_global_mm": [
+        176.64,
+        97.483726
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "321239b6-e5ca-4337-bc4d-46ee99bd5901",
+      "net": "DSI_D0_N",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.14,
+      "length_mm": 0.344680614702945,
+      "start_global_mm": [
+        176.64,
+        97.483726
+      ],
+      "end_global_mm": [
+        176.883726,
+        97.24
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "3ce673b0-ef8b-4df3-ad25-05b06073178f",
+      "net": "DSI_D0_N",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.17,
+      "length_mm": 2.44,
+      "start_global_mm": [
+        177.8,
+        97.24
+      ],
+      "end_global_mm": [
+        180.2,
+        96.8
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "40c9d74f-fd5d-48a9-a68e-681663fd3ef1",
+      "net": "DSI_D0_N",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.17,
+      "length_mm": 0.57,
+      "start_global_mm": [
+        164.0,
+        106.75
+      ],
+      "end_global_mm": [
+        164.0,
+        106.18
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "6bb88be6-06be-4207-a74f-a409b9592513",
+      "net": "DSI_D0_N",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.14,
+      "length_mm": 2.867452,
+      "start_global_mm": [
+        173.716274,
+        98.225221
+      ],
+      "end_global_mm": [
+        176.583726,
+        98.225221
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "6ff6ae09-7f75-46f6-970b-748aa730f11b",
+      "net": "DSI_D0_N",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.14,
+      "length_mm": 0.685221,
+      "start_global_mm": [
+        173.66,
+        97.483726
+      ],
+      "end_global_mm": [
+        173.66,
+        98.168947
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "865f6593-9e41-441e-aa14-5050c3ca0b54",
+      "net": "DSI_D0_N",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.14,
+      "length_mm": 0.982548,
+      "start_global_mm": [
+        172.433726,
+        97.24
+      ],
+      "end_global_mm": [
+        173.416274,
+        97.24
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "94556a93-35ba-4891-a45f-1c1a7da88184",
+      "net": "DSI_D0_N",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.17,
+      "length_mm": 0.14,
+      "start_global_mm": [
+        164.14,
+        106.04
+      ],
+      "end_global_mm": [
+        164.14,
+        105.9
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "b3b688ce-d041-4a31-a4f3-d40b0e770fad",
+      "net": "DSI_D0_N",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.14,
+      "length_mm": 0.07958345400898355,
+      "start_global_mm": [
+        176.583726,
+        98.225221
+      ],
+      "end_global_mm": [
+        176.64,
+        98.168947
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "b4377e15-2068-4f78-b3e2-64d02c27b85a",
+      "net": "DSI_D0_N",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.14,
+      "length_mm": 0.916274,
+      "start_global_mm": [
+        176.883726,
+        97.24
+      ],
+      "end_global_mm": [
+        177.8,
+        97.24
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "c7b3cba3-4fc9-4ac2-ac40-1b61dadc6c62",
+      "net": "DSI_D0_N",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.14,
+      "length_mm": 0.344680614702945,
+      "start_global_mm": [
+        173.416274,
+        97.24
+      ],
+      "end_global_mm": [
+        173.66,
+        97.483726
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "e54a0127-ef65-4011-97f9-64b2546e961f",
+      "net": "DSI_D0_N",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.14,
+      "length_mm": 11.72909979180636,
+      "start_global_mm": [
+        164.14,
+        105.533726
+      ],
+      "end_global_mm": [
+        172.433726,
+        97.24
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "e644d0d9-ed6a-4d17-89ff-45e03be3e608",
+      "net": "DSI_D0_N",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.17,
+      "length_mm": 1.1,
+      "start_global_mm": [
+        183.55,
+        93.35
+      ],
+      "end_global_mm": [
+        184.65,
+        93.35
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "e65c6911-2665-410f-8abf-e8efe7b5557c",
+      "net": "DSI_D0_N",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.17,
+      "length_mm": 0.19798989873223333,
+      "start_global_mm": [
+        164.0,
+        106.18
+      ],
+      "end_global_mm": [
+        164.14,
+        106.04
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "292c2b61-9972-4865-b7fe-a2f1797da672",
+      "net": "DSI_D0_N",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.17,
+      "length_mm": 0.7071067811865476,
+      "start_global_mm": [
+        183.05,
+        94.413137
+      ],
+      "end_global_mm": [
+        183.55,
+        93.913137
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "330584c9-76a9-47f5-889b-09405ac425a9",
+      "net": "DSI_D0_N",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.17,
+      "length_mm": 0.563137,
+      "start_global_mm": [
+        183.55,
+        93.913137
+      ],
+      "end_global_mm": [
+        183.55,
+        93.35
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "36128e47-ef98-4ea1-8660-b9088b7a28ba",
+      "net": "DSI_D0_N",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 2.2627416997969525,
+      "start_global_mm": [
+        180.213137,
+        96.013137
+      ],
+      "end_global_mm": [
+        181.813137,
+        94.413137
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "6e450c23-39ed-4eff-bc75-64e7412c1043",
+      "net": "DSI_D0_N",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.17,
+      "length_mm": 0.5951710322529146,
+      "start_global_mm": [
+        180.2,
+        96.8
+      ],
+      "end_global_mm": [
+        179.647452,
+        96.578823
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "b0af56f8-e542-45e2-90ab-31be1af167e3",
+      "net": "DSI_D0_N",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 0.800000106138118,
+      "start_global_mm": [
+        179.647452,
+        96.578823
+      ],
+      "end_global_mm": [
+        180.213137,
+        96.013137
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "b320a835-1c8a-4f4d-b30b-6945a611419a",
+      "net": "DSI_D0_N",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.17,
+      "length_mm": 1.236863,
+      "start_global_mm": [
+        181.813137,
+        94.413137
+      ],
+      "end_global_mm": [
+        183.05,
+        94.413137
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "025ee657-7977-4b15-a579-ae4fd5a0bf20",
+      "net": "DSI_D0_P",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.14,
+      "length_mm": 0.212132,
+      "start_global_mm": [
+        168.390243,
+        103.045878
+      ],
+      "end_global_mm": [
+        168.602375,
+        103.045878
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "0a378e3b-5c3b-425b-9057-35b2ca82c51c",
+      "net": "DSI_D0_P",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.14,
+      "length_mm": 4.482001282298456,
+      "start_global_mm": [
+        164.46,
+        105.666274
+      ],
+      "end_global_mm": [
+        167.629254,
+        102.497021
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "0dbda0ae-5634-4de7-ac7d-701ae33c4dd3",
+      "net": "DSI_D0_P",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.14,
+      "length_mm": 4.482001282298456,
+      "start_global_mm": [
+        169.397021,
+        100.729254
+      ],
+      "end_global_mm": [
+        172.566274,
+        97.56
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "28c162ce-076f-4be4-9c8e-4fe0ac05bff5",
+      "net": "DSI_D0_P",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.17,
+      "length_mm": 0.14,
+      "start_global_mm": [
+        164.46,
+        106.04
+      ],
+      "end_global_mm": [
+        164.46,
+        105.9
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "338b85c7-1f65-4285-97da-7d074dcd3db0",
+      "net": "DSI_D0_P",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.14,
+      "length_mm": 0.212132,
+      "start_global_mm": [
+        169.397021,
+        100.941386
+      ],
+      "end_global_mm": [
+        169.397021,
+        100.729254
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "4232b4a4-b7ea-48f3-a4b9-bfd2db88ea89",
+      "net": "DSI_D0_P",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.14,
+      "length_mm": 0.783726,
+      "start_global_mm": [
+        177.016274,
+        97.56
+      ],
+      "end_global_mm": [
+        177.8,
+        97.56
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "4fd3685f-406a-4144-b0c3-8772ad6d4cac",
+      "net": "DSI_D0_P",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.14,
+      "length_mm": 0.233726,
+      "start_global_mm": [
+        164.46,
+        105.9
+      ],
+      "end_global_mm": [
+        164.46,
+        105.666274
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "6348a9fc-bd57-4148-b466-dec52e165357",
+      "net": "DSI_D0_P",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.14,
+      "length_mm": 3.132548,
+      "start_global_mm": [
+        173.583726,
+        98.545221
+      ],
+      "end_global_mm": [
+        176.716274,
+        98.545221
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "67076677-e33c-46ab-89f3-0db2c385eab1",
+      "net": "DSI_D0_P",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.14,
+      "length_mm": 0.7762010132034098,
+      "start_global_mm": [
+        169.945878,
+        101.490243
+      ],
+      "end_global_mm": [
+        169.397021,
+        100.941386
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "790c94c3-bbcd-40ca-b3d0-006614f7579e",
+      "net": "DSI_D0_P",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.17,
+      "length_mm": 0.57,
+      "start_global_mm": [
+        164.6,
+        106.75
+      ],
+      "end_global_mm": [
+        164.6,
+        106.18
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "9e2eda02-0ab0-4a24-af62-781efd6ff444",
+      "net": "DSI_D0_P",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.14,
+      "length_mm": 0.7762010132034098,
+      "start_global_mm": [
+        167.841386,
+        102.497021
+      ],
+      "end_global_mm": [
+        168.390243,
+        103.045878
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "9e9ef5e6-f4d2-4fb6-96b5-2ca3bd5cad6f",
+      "net": "DSI_D0_P",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.14,
+      "length_mm": 0.07958345400898355,
+      "start_global_mm": [
+        176.96,
+        97.616274
+      ],
+      "end_global_mm": [
+        177.016274,
+        97.56
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "a8305188-abad-4f7c-8468-13664c7e4401",
+      "net": "DSI_D0_P",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.14,
+      "length_mm": 0.212132,
+      "start_global_mm": [
+        167.629254,
+        102.497021
+      ],
+      "end_global_mm": [
+        167.841386,
+        102.497021
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "a8f2c5ff-0502-4076-b71a-d50298cde463",
+      "net": "DSI_D0_P",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.14,
+      "length_mm": 1.9000001636889405,
+      "start_global_mm": [
+        168.602375,
+        103.045878
+      ],
+      "end_global_mm": [
+        169.945878,
+        101.702375
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "b7225b94-e789-4100-8799-f72455a41fc5",
+      "net": "DSI_D0_P",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.14,
+      "length_mm": 0.212132,
+      "start_global_mm": [
+        169.945878,
+        101.702375
+      ],
+      "end_global_mm": [
+        169.945878,
+        101.490243
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "b93ce549-2409-4789-a699-999333cff960",
+      "net": "DSI_D0_P",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.14,
+      "length_mm": 0.717452,
+      "start_global_mm": [
+        172.566274,
+        97.56
+      ],
+      "end_global_mm": [
+        173.283726,
+        97.56
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "b9acb279-6726-4e7d-a4e8-5f96d3cacc05",
+      "net": "DSI_D0_P",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.17,
+      "length_mm": 0.9130169768410662,
+      "start_global_mm": [
+        177.8,
+        97.56
+      ],
+      "end_global_mm": [
+        178.6,
+        98.0
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "bc15bf51-b328-4598-b966-86d087209d06",
+      "net": "DSI_D0_P",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.14,
+      "length_mm": 0.34467990759688905,
+      "start_global_mm": [
+        173.34,
+        98.301496
+      ],
+      "end_global_mm": [
+        173.583726,
+        98.545221
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "bf4b76b7-acf9-4cca-8ca7-d10861f2ed6f",
+      "net": "DSI_D0_P",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.14,
+      "length_mm": 0.34467990759688905,
+      "start_global_mm": [
+        176.716274,
+        98.545221
+      ],
+      "end_global_mm": [
+        176.96,
+        98.301496
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "bfc2129a-fd9d-4cf2-8c5b-4e3e35653ff8",
+      "net": "DSI_D0_P",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.14,
+      "length_mm": 0.685222,
+      "start_global_mm": [
+        176.96,
+        98.301496
+      ],
+      "end_global_mm": [
+        176.96,
+        97.616274
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "c5cc635a-aaec-470a-9b76-10fe72ab7318",
+      "net": "DSI_D0_P",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.14,
+      "length_mm": 0.685222,
+      "start_global_mm": [
+        173.34,
+        97.616274
+      ],
+      "end_global_mm": [
+        173.34,
+        98.301496
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "d8910808-1885-457f-80ab-f5f2ac573bd2",
+      "net": "DSI_D0_P",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.14,
+      "length_mm": 0.07958345400898355,
+      "start_global_mm": [
+        173.283726,
+        97.56
+      ],
+      "end_global_mm": [
+        173.34,
+        97.616274
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "f5def949-6df2-4fe7-89a8-6c51410f71ae",
+      "net": "DSI_D0_P",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.17,
+      "length_mm": 0.19798989873223333,
+      "start_global_mm": [
+        164.6,
+        106.18
+      ],
+      "end_global_mm": [
+        164.46,
+        106.04
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "f666bb36-1bc4-4ce4-bcb0-62051b87a1cd",
+      "net": "DSI_D0_P",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.17,
+      "length_mm": 1.025,
+      "start_global_mm": [
+        182.8,
+        93.65
+      ],
+      "end_global_mm": [
+        181.775,
+        93.65
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "58e186d1-e37a-41ca-909a-f20e3478d58d",
+      "net": "DSI_D0_P",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 2.2627416997969525,
+      "start_global_mm": [
+        179.986863,
+        95.786863
+      ],
+      "end_global_mm": [
+        181.586863,
+        94.186863
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "71a84028-8ca5-4780-a1e4-91e029021b77",
+      "net": "DSI_D0_P",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.17,
+      "length_mm": 0.6651788943870663,
+      "start_global_mm": [
+        181.586863,
+        94.186863
+      ],
+      "end_global_mm": [
+        181.9,
+        93.6
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "8a839f86-63d1-488c-a46b-59dbf6d20ce9",
+      "net": "DSI_D0_P",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.17,
+      "length_mm": 1.4669568143289018,
+      "start_global_mm": [
+        178.6,
+        98.0
+      ],
+      "end_global_mm": [
+        179.138335,
+        96.635391
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "e936dc64-046e-4e8d-b617-882e9189d8d7",
+      "net": "DSI_D0_P",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 1.1999998056533177,
+      "start_global_mm": [
+        179.138335,
+        96.635391
+      ],
+      "end_global_mm": [
+        179.986863,
+        95.786863
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "ed2c91cf-6cbd-4745-af98-f101e8963dfd",
+      "net": "DSI_D0_P",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.17,
+      "length_mm": 0.9013878188659974,
+      "start_global_mm": [
+        181.9,
+        93.6
+      ],
+      "end_global_mm": [
+        182.8,
+        93.65
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "a5180aa4-b6c6-4ef5-9a11-5044c6de8397",
+      "net": "DSI_D1_N",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.17,
+      "length_mm": 0.9,
+      "start_global_mm": [
+        166.4,
+        106.75
+      ],
+      "end_global_mm": [
+        166.4,
+        105.85
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "e31b2dea-445f-4782-b296-8b30bc9e8c78",
+      "net": "DSI_D1_N",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.17,
+      "length_mm": 1.1,
+      "start_global_mm": [
+        183.55,
+        92.15
+      ],
+      "end_global_mm": [
+        184.65,
+        92.15
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "13c3f4ba-aa04-4c5e-9f77-93369243375e",
+      "net": "DSI_D1_N",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 0.344681,
+      "start_global_mm": [
+        173.104214,
+        96.314193
+      ],
+      "end_global_mm": [
+        173.104214,
+        95.969512
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "252257d2-4e8c-40cb-b7df-170e3e3d09e3",
+      "net": "DSI_D1_N",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.17,
+      "length_mm": 2.14,
+      "start_global_mm": [
+        181.1,
+        91.84
+      ],
+      "end_global_mm": [
+        183.24,
+        91.84
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "3b14baa8-ae99-4aaf-b6c4-aec84889e2da",
+      "net": "DSI_D1_N",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 3.866274,
+      "start_global_mm": [
+        176.933726,
+        92.14
+      ],
+      "end_global_mm": [
+        180.8,
+        92.14
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "44a613ca-1c5f-4cd8-a1b1-8cb0fb4023c4",
+      "net": "DSI_D1_N",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 1.2514715224694488,
+      "start_global_mm": [
+        170.714193,
+        98.704214
+      ],
+      "end_global_mm": [
+        171.599117,
+        99.589138
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "4fc5e1f9-a9b7-413f-ae74-67fdc9635f1b",
+      "net": "DSI_D1_N",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 0.079584,
+      "start_global_mm": [
+        171.599117,
+        99.589138
+      ],
+      "end_global_mm": [
+        171.678701,
+        99.589138
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "78728c42-db80-4c7c-81e7-8cb00dd547fe",
+      "net": "DSI_D1_N",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 3.267451340408607,
+      "start_global_mm": [
+        171.678701,
+        99.589138
+      ],
+      "end_global_mm": [
+        173.989138,
+        97.278701
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "7b95cbf9-f774-4f0c-9594-9c09df2db5ab",
+      "net": "DSI_D1_N",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 1.466274,
+      "start_global_mm": [
+        166.54,
+        104.0
+      ],
+      "end_global_mm": [
+        166.54,
+        102.533726
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "8303eb06-f69d-4775-84d3-4c09e54cbe5a",
+      "net": "DSI_D1_N",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 1.2514715224694488,
+      "start_global_mm": [
+        173.989138,
+        97.199117
+      ],
+      "end_global_mm": [
+        173.104214,
+        96.314193
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "871e4c9d-707d-40c4-a999-46def950aeaa",
+      "net": "DSI_D1_N",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.17,
+      "length_mm": 0.42426406871192857,
+      "start_global_mm": [
+        180.8,
+        92.14
+      ],
+      "end_global_mm": [
+        181.1,
+        91.84
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "8bf60bcf-4de7-4c93-a872-12e493130302",
+      "net": "DSI_D1_N",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.17,
+      "length_mm": 0.19798989873223333,
+      "start_global_mm": [
+        166.4,
+        104.7
+      ],
+      "end_global_mm": [
+        166.54,
+        104.56
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "92095378-a3a8-419a-b5ed-f979b66f7dc7",
+      "net": "DSI_D1_N",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 0.079584,
+      "start_global_mm": [
+        173.989138,
+        97.278701
+      ],
+      "end_global_mm": [
+        173.989138,
+        97.199117
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "ad51375c-7ddc-43c3-a609-f4624f96eec8",
+      "net": "DSI_D1_N",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 5.415747807670516,
+      "start_global_mm": [
+        173.104214,
+        95.969512
+      ],
+      "end_global_mm": [
+        176.933726,
+        92.14
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "adef1b93-d836-415a-9b86-ea059e91b77d",
+      "net": "DSI_D1_N",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 0.344681,
+      "start_global_mm": [
+        170.369512,
+        98.704214
+      ],
+      "end_global_mm": [
+        170.714193,
+        98.704214
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "c802ec50-bd96-43e1-92ef-bc4445212604",
+      "net": "DSI_D1_N",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.17,
+      "length_mm": 0.4384062043356595,
+      "start_global_mm": [
+        183.24,
+        91.84
+      ],
+      "end_global_mm": [
+        183.55,
+        92.15
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "d5db4d72-e687-4575-ae16-c30faf4f71e4",
+      "net": "DSI_D1_N",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.17,
+      "length_mm": 0.56,
+      "start_global_mm": [
+        166.54,
+        104.56
+      ],
+      "end_global_mm": [
+        166.54,
+        104.0
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "e1c4ad1b-32fa-4e9d-a295-243e05d010cc",
+      "net": "DSI_D1_N",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.17,
+      "length_mm": 1.15,
+      "start_global_mm": [
+        166.4,
+        105.85
+      ],
+      "end_global_mm": [
+        166.4,
+        104.7
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "f4afe3d5-5ee1-4bb2-8b9c-d912e361c648",
+      "net": "DSI_D1_N",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 5.415747807670516,
+      "start_global_mm": [
+        166.54,
+        102.533726
+      ],
+      "end_global_mm": [
+        170.369512,
+        98.704214
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "13bc0a7e-84b7-4508-b2fb-e4f2b2663ac6",
+      "net": "DSI_D1_P",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.17,
+      "length_mm": 1.025,
+      "start_global_mm": [
+        182.8,
+        92.45
+      ],
+      "end_global_mm": [
+        181.775,
+        92.45
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "2fc0f3c9-9591-4812-b452-28f51c2f0532",
+      "net": "DSI_D1_P",
+      "class": "MIPI_DSI",
+      "layer": "F.Cu",
+      "width_mm": 0.17,
+      "length_mm": 1.45,
+      "start_global_mm": [
+        167.0,
+        106.75
+      ],
+      "end_global_mm": [
+        167.0,
+        105.3
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "16c9c295-03a6-4092-aeed-719c6381bc79",
+      "net": "DSI_D1_P",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 0.212132,
+      "start_global_mm": [
+        168.666644,
+        102.032939
+      ],
+      "end_global_mm": [
+        168.878776,
+        102.032939
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "24b0c052-c85f-4ec2-9642-36d63fe0b270",
+      "net": "DSI_D1_P",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 1.575325721146265,
+      "start_global_mm": [
+        169.388137,
+        100.138137
+      ],
+      "end_global_mm": [
+        170.502061,
+        99.024214
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "34a22145-ce9b-42d0-a911-5ccf5ee3bcf9",
+      "net": "DSI_D1_P",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 0.34468,
+      "start_global_mm": [
+        174.309138,
+        97.411249
+      ],
+      "end_global_mm": [
+        174.309138,
+        97.066569
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "40470d71-4da4-42d9-a2ba-afa00e1de125",
+      "net": "DSI_D1_P",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 1.2514722295764298,
+      "start_global_mm": [
+        170.581644,
+        99.024214
+      ],
+      "end_global_mm": [
+        171.466569,
+        99.909138
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "44877690-b11e-4e4d-b551-aff4d85dc5a0",
+      "net": "DSI_D1_P",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 0.212132,
+      "start_global_mm": [
+        167.973924,
+        101.552351
+      ],
+      "end_global_mm": [
+        168.186056,
+        101.552351
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "548b2f73-65e6-4868-aefc-4b13ca06754c",
+      "net": "DSI_D1_P",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 1.575325721146265,
+      "start_global_mm": [
+        166.86,
+        102.666274
+      ],
+      "end_global_mm": [
+        167.973924,
+        101.552351
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "54b40922-228d-4f5e-a83c-361f8f7c4583",
+      "net": "DSI_D1_P",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.17,
+      "length_mm": 0.19798989873223333,
+      "start_global_mm": [
+        167.0,
+        105.3
+      ],
+      "end_global_mm": [
+        166.86,
+        105.16
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "6bf32faf-105d-40db-b004-5b4010bde657",
+      "net": "DSI_D1_P",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 5.150651354083385,
+      "start_global_mm": [
+        173.424214,
+        96.102061
+      ],
+      "end_global_mm": [
+        177.066274,
+        92.46
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "6e9ff9a6-6b1d-4282-ae4b-9912a443a493",
+      "net": "DSI_D1_P",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 1.400000008964643,
+      "start_global_mm": [
+        168.878776,
+        102.032939
+      ],
+      "end_global_mm": [
+        169.868726,
+        101.04299
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "73e71f3d-88b7-4f23-8e9f-427c3391a42e",
+      "net": "DSI_D1_P",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 1.333726,
+      "start_global_mm": [
+        166.86,
+        104.0
+      ],
+      "end_global_mm": [
+        166.86,
+        102.666274
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "7ad064b2-fae4-4766-8f35-d9167e4550e7",
+      "net": "DSI_D1_P",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 1.2514722295764298,
+      "start_global_mm": [
+        174.309138,
+        97.066569
+      ],
+      "end_global_mm": [
+        173.424214,
+        96.181644
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "7bc1aab8-59ee-4c05-8797-d26f854b3deb",
+      "net": "DSI_D1_P",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 0.079583,
+      "start_global_mm": [
+        170.502061,
+        99.024214
+      ],
+      "end_global_mm": [
+        170.581644,
+        99.024214
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "85a8427b-c310-4853-9be0-3b57ef13cd0b",
+      "net": "DSI_D1_P",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.17,
+      "length_mm": 2.000024999843752,
+      "start_global_mm": [
+        180.8,
+        92.46
+      ],
+      "end_global_mm": [
+        182.8,
+        92.45
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "9c0988a8-3311-4570-8876-a73c8b8f8da5",
+      "net": "DSI_D1_P",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 3.733726,
+      "start_global_mm": [
+        177.066274,
+        92.46
+      ],
+      "end_global_mm": [
+        180.8,
+        92.46
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "b8ad22fe-c54b-4dbe-8cc7-f8687599bd9b",
+      "net": "DSI_D1_P",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.17,
+      "length_mm": 1.16,
+      "start_global_mm": [
+        166.86,
+        105.16
+      ],
+      "end_global_mm": [
+        166.86,
+        104.0
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "c0bb218c-7edb-472a-a087-0270dc2af1c1",
+      "net": "DSI_D1_P",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 0.6796554817273234,
+      "start_global_mm": [
+        169.868726,
+        100.830858
+      ],
+      "end_global_mm": [
+        169.388137,
+        100.350269
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "c814eee5-3f7d-4f5b-82e7-8cf9533663b8",
+      "net": "DSI_D1_P",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 0.212132,
+      "start_global_mm": [
+        169.388137,
+        100.350269
+      ],
+      "end_global_mm": [
+        169.388137,
+        100.138137
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "cafcd856-ff58-4c41-84e7-1dfeef2dc514",
+      "net": "DSI_D1_P",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 0.34468,
+      "start_global_mm": [
+        171.466569,
+        99.909138
+      ],
+      "end_global_mm": [
+        171.811249,
+        99.909138
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "d7850a0c-dae6-49da-97e2-646aeb0bbcf5",
+      "net": "DSI_D1_P",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 3.532548501102568,
+      "start_global_mm": [
+        171.811249,
+        99.909138
+      ],
+      "end_global_mm": [
+        174.309138,
+        97.411249
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "d8a1c9dd-6da4-4c63-a608-c332960ba240",
+      "net": "DSI_D1_P",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 0.679654067513761,
+      "start_global_mm": [
+        168.186056,
+        101.552351
+      ],
+      "end_global_mm": [
+        168.666644,
+        102.032939
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "e423a43e-43a2-4506-a006-5756a31afd79",
+      "net": "DSI_D1_P",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 0.079583,
+      "start_global_mm": [
+        173.424214,
+        96.181644
+      ],
+      "end_global_mm": [
+        173.424214,
+        96.102061
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "f874c427-04f7-4f8a-9ecc-74d3e79cc8d2",
+      "net": "DSI_D1_P",
+      "class": "MIPI_DSI",
+      "layer": "B.Cu",
+      "width_mm": 0.14,
+      "length_mm": 0.212132,
+      "start_global_mm": [
+        169.868726,
+        101.04299
+      ],
+      "end_global_mm": [
+        169.868726,
+        100.830858
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "19ab34f5-6365-4c9f-a87f-5f04fbda9f8c",
+      "net": "EXT_5V",
+      "class": "POWER_5V",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "length_mm": 1.65,
+      "start_global_mm": [
+        140.75,
+        90.25
+      ],
+      "end_global_mm": [
+        140.75,
+        88.6
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "19d09d46-63b8-490e-aed0-5012ad783cd2",
+      "net": "EXT_5V",
+      "class": "POWER_5V",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "length_mm": 4.8083261120685235,
+      "start_global_mm": [
+        140.75,
+        88.6
+      ],
+      "end_global_mm": [
+        137.35,
+        85.2
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "2671c604-acd0-4250-80f3-72fc53045eee",
+      "net": "EXT_5V",
+      "class": "POWER_5V",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "length_mm": 0.2,
+      "start_global_mm": [
+        137.35,
+        85.2
+      ],
+      "end_global_mm": [
+        137.35,
+        85.0
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "4f7ad505-c820-4da7-8d03-f74f6bcff776",
+      "net": "FUSED_5V",
+      "class": "POWER_5V",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "length_mm": 0.3535533905932738,
+      "start_global_mm": [
+        143.0,
+        85.0
+      ],
+      "end_global_mm": [
+        143.25,
+        85.25
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "6035c2fd-18f4-4264-81bc-5d6be66e520b",
+      "net": "FUSED_5V",
+      "class": "POWER_5V",
+      "layer": "F.Cu",
+      "width_mm": 0.8,
+      "length_mm": 2.85,
+      "start_global_mm": [
+        140.15,
+        85.0
+      ],
+      "end_global_mm": [
+        143.0,
+        85.0
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "02eb3a08-2cbe-4bf1-aba7-8b01237bcbaf",
+      "net": "GND",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.9125,
+      "start_global_mm": [
+        145.6125,
+        100.75
+      ],
+      "end_global_mm": [
+        144.7,
+        100.75
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "06fddcff-f973-4728-b3e2-cc62148210b3",
+      "net": "GND",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "length_mm": 0.8,
+      "start_global_mm": [
+        162.5,
+        109.625
+      ],
+      "end_global_mm": [
+        162.5,
+        108.825
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "16fffca2-f0e1-4198-beb0-e128e710bc47",
+      "net": "GND",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 2.1,
+      "start_global_mm": [
+        184.65,
+        92.75
+      ],
+      "end_global_mm": [
+        186.75,
+        92.75
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "18555739-4bc0-4253-b99a-31435d565501",
+      "net": "GND",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "length_mm": 2.3505318547086316,
+      "start_global_mm": [
+        162.8,
+        106.75
+      ],
+      "end_global_mm": [
+        160.75,
+        105.6
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "194386f1-559d-422c-a77d-8e32b06def7c",
+      "net": "GND",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 1.3,
+      "start_global_mm": [
+        145.8,
+        97.8
+      ],
+      "end_global_mm": [
+        145.8,
+        96.5
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "1a1ccfeb-ec68-424c-98d7-bd0971d5b15b",
+      "net": "GND",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 2.8,
+      "start_global_mm": [
+        184.65,
+        91.55
+      ],
+      "end_global_mm": [
+        187.45,
+        91.55
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "1e4304fd-023e-4bec-ac7b-609fb4e36541",
+      "net": "GND",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "length_mm": 1.25,
+      "start_global_mm": [
+        157.25,
+        87.4
+      ],
+      "end_global_mm": [
+        157.25,
+        86.15
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "1feff28b-1f63-479f-91b6-3d79389a4df9",
+      "net": "GND",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 3.181980515339464,
+      "start_global_mm": [
+        186.75,
+        92.75
+      ],
+      "end_global_mm": [
+        189.0,
+        95.0
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "2d13f660-2456-40b2-9492-a72c173d7fab",
+      "net": "GND",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 1.1875,
+      "start_global_mm": [
+        145.5875,
+        104.5
+      ],
+      "end_global_mm": [
+        144.4,
+        104.5
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "2f4c7603-1a17-4c55-8c16-80639e415cc6",
+      "net": "GND",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "length_mm": 1.2,
+      "start_global_mm": [
+        166.1,
+        108.825
+      ],
+      "end_global_mm": [
+        164.9,
+        108.825
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "31779ca3-1445-46f4-a214-97585e29ac43",
+      "net": "GND",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "length_mm": 1.8506755523321747,
+      "start_global_mm": [
+        162.2,
+        106.75
+      ],
+      "end_global_mm": [
+        160.75,
+        105.6
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "3a06666e-c353-4e02-9d98-b69fe1a449f2",
+      "net": "GND",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 4.3640577448058595,
+      "start_global_mm": [
+        184.65,
+        90.35
+      ],
+      "end_global_mm": [
+        189.0,
+        90.0
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "4cb89b1e-5a67-477d-ab62-2e25108cccf9",
+      "net": "GND",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "length_mm": 2.4,
+      "start_global_mm": [
+        167.3,
+        108.825
+      ],
+      "end_global_mm": [
+        164.9,
+        108.825
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "58a26804-afba-47df-8920-47f287ee82e5",
+      "net": "GND",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "length_mm": 0.8,
+      "start_global_mm": [
+        167.3,
+        109.625
+      ],
+      "end_global_mm": [
+        167.3,
+        108.825
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "643d887a-30d3-437a-9c87-c6dc8f08dc7b",
+      "net": "GND",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "length_mm": 0.6811066362912639,
+      "start_global_mm": [
+        158.3,
+        101.1375
+      ],
+      "end_global_mm": [
+        157.8,
+        101.6
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "662df934-dbd4-43d5-b9d4-33f5394257c3",
+      "net": "GND",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 2.2,
+      "start_global_mm": [
+        180.875,
+        91.85
+      ],
+      "end_global_mm": [
+        180.875,
+        94.05
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "687c98fc-b388-42bf-b076-a630440bdf92",
+      "net": "GND",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 1.0,
+      "start_global_mm": [
+        180.875,
+        93.05
+      ],
+      "end_global_mm": [
+        180.875,
+        94.05
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "6e3ada95-9f23-4206-b9c3-a74cbbe85546",
+      "net": "GND",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "length_mm": 0.85146931829632,
+      "start_global_mm": [
+        162.25,
+        101.05
+      ],
+      "end_global_mm": [
+        161.7,
+        101.7
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "6e6a49c1-5402-4d13-8b8d-987f893fb44c",
+      "net": "GND",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "length_mm": 0.8,
+      "start_global_mm": [
+        163.7,
+        109.625
+      ],
+      "end_global_mm": [
+        163.7,
+        108.825
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "765e93b4-787d-4408-9b59-6306c0cfccd2",
+      "net": "GND",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.7375,
+      "start_global_mm": [
+        160.75,
+        104.8625
+      ],
+      "end_global_mm": [
+        160.75,
+        105.6
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "777c4b18-5eb2-4a6d-ab42-d94fee95c7ce",
+      "net": "GND",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "length_mm": 0.9,
+      "start_global_mm": [
+        156.75,
+        81.25
+      ],
+      "end_global_mm": [
+        156.75,
+        82.15
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "7f8808d9-d9eb-4fa9-b2a6-dcc46f2dc5ac",
+      "net": "GND",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.9,
+      "start_global_mm": [
+        181.775,
+        91.85
+      ],
+      "end_global_mm": [
+        180.875,
+        91.85
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "84d8013d-931b-4857-8c1b-84996fde0314",
+      "net": "GND",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 1.216552506059644,
+      "start_global_mm": [
+        158.55,
+        105.05
+      ],
+      "end_global_mm": [
+        157.35,
+        105.25
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "8ddb9432-fda3-4e09-bb88-9d78633d0db7",
+      "net": "GND",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "length_mm": 2.3769728648009427,
+      "start_global_mm": [
+        156.75,
+        107.55
+      ],
+      "end_global_mm": [
+        157.35,
+        105.25
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "90f426fb-8e3f-4f77-981d-740fe37b2cd9",
+      "net": "GND",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "length_mm": 0.8,
+      "start_global_mm": [
+        164.9,
+        109.625
+      ],
+      "end_global_mm": [
+        164.9,
+        108.825
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "91dbacc7-1d73-4f67-a6e2-af24a07b3e5d",
+      "net": "GND",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "length_mm": 0.9,
+      "start_global_mm": [
+        170.75,
+        77.3
+      ],
+      "end_global_mm": [
+        170.75,
+        76.4
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "94d47370-bffc-4bc9-b77a-016e5d38c1af",
+      "net": "GND",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "length_mm": 0.9013878188659974,
+      "start_global_mm": [
+        151.25,
+        107.75
+      ],
+      "end_global_mm": [
+        151.75,
+        107.0
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "953dadc6-3f83-4b9e-af4b-7f0da66c849e",
+      "net": "GND",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "length_mm": 0.8485281374238571,
+      "start_global_mm": [
+        147.0,
+        75.0
+      ],
+      "end_global_mm": [
+        146.4,
+        74.4
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "98921ea4-f559-4eae-b82e-1084e7aeac5f",
+      "net": "GND",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.6,
+      "length_mm": 0.47844148022511596,
+      "start_global_mm": [
+        156.8,
+        102.6375
+      ],
+      "end_global_mm": [
+        156.4,
+        102.9
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "9f8c2aba-b7a2-4def-9cc6-b3d69ef91834",
+      "net": "GND",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "length_mm": 2.804460732476032,
+      "start_global_mm": [
+        154.5,
+        107.55
+      ],
+      "end_global_mm": [
+        151.75,
+        107.0
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "a9517222-90a5-4d57-a3bd-207d0931770a",
+      "net": "GND",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.4,
+      "length_mm": 1.2,
+      "start_global_mm": [
+        156.4,
+        102.9
+      ],
+      "end_global_mm": [
+        156.4,
+        104.1
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "ab170f34-5513-4b44-8af4-bdf4eef6c640",
+      "net": "GND",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "length_mm": 1.2,
+      "start_global_mm": [
+        163.7,
+        108.825
+      ],
+      "end_global_mm": [
+        164.9,
+        108.825
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "aefa7f90-bf83-4484-90c9-37f8c5e510c2",
+      "net": "GND",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.5,
+      "length_mm": 1.425,
+      "start_global_mm": [
+        151.75,
+        105.575
+      ],
+      "end_global_mm": [
+        151.75,
+        107.0
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "b8151c5b-0c73-400c-a2ed-7ecc076ce1ef",
+      "net": "GND",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "length_mm": 1.0816653826391966,
+      "start_global_mm": [
+        170.5,
+        97.4125
+      ],
+      "end_global_mm": [
+        169.9,
+        98.3125
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "bdeec6fd-f9b7-4b59-a3f9-1a369e1e5415",
+      "net": "GND",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "length_mm": 0.8,
+      "start_global_mm": [
+        166.1,
+        109.625
+      ],
+      "end_global_mm": [
+        166.1,
+        108.825
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "cc22a2ea-5e9a-4138-b250-ea7d8e038c27",
+      "net": "GND",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.6,
+      "length_mm": 0.7071067811865476,
+      "start_global_mm": [
+        158.3,
+        101.1375
+      ],
+      "end_global_mm": [
+        157.8,
+        101.6375
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "d4738894-c8f3-4580-a3f3-32b638cb08fa",
+      "net": "GND",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "length_mm": 0.799999,
+      "start_global_mm": [
+        169.1,
+        109.625
+      ],
+      "end_global_mm": [
+        169.1,
+        110.424999
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "d6a28d37-6cbb-47d0-afe1-fee017d1d979",
+      "net": "GND",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.9,
+      "start_global_mm": [
+        181.775,
+        93.05
+      ],
+      "end_global_mm": [
+        180.875,
+        93.05
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "d8242ff4-536c-4336-a327-48a790e43757",
+      "net": "GND",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.9219544457292888,
+      "start_global_mm": [
+        181.775,
+        94.25
+      ],
+      "end_global_mm": [
+        180.875,
+        94.05
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "e7c1f355-4daf-4fb2-b9c2-003c8eba0a2b",
+      "net": "GND",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.6,
+      "length_mm": 1.4142135623730951,
+      "start_global_mm": [
+        157.8,
+        101.6375
+      ],
+      "end_global_mm": [
+        156.8,
+        102.6375
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "ee4239ea-7433-4ba8-9740-143febe3d8e5",
+      "net": "GND",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.25,
+      "length_mm": 2.4,
+      "start_global_mm": [
+        162.5,
+        108.825
+      ],
+      "end_global_mm": [
+        164.9,
+        108.825
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "fa5c6abe-0c7d-4dc5-9022-3aca5526cf45",
+      "net": "GND",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 2.1920310216782974,
+      "start_global_mm": [
+        187.45,
+        91.55
+      ],
+      "end_global_mm": [
+        189.0,
+        90.0
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "072927d7-e875-4787-8fbb-731e57e23b0e",
+      "net": "HOST_3V3",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.22360679774997896,
+      "start_global_mm": [
+        159.2,
+        107.5
+      ],
+      "end_global_mm": [
+        159.3,
+        107.7
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "0b19b177-5ecc-461e-93a9-cc9d403ed316",
+      "net": "HOST_3V3",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 1.2,
+      "start_global_mm": [
+        160.1,
+        108.8
+      ],
+      "end_global_mm": [
+        160.1,
+        110.0
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "1da4cb8d-e1b7-4389-a36e-e17c1212e20f",
+      "net": "HOST_3V3",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.55,
+      "start_global_mm": [
+        163.4,
+        106.75
+      ],
+      "end_global_mm": [
+        163.4,
+        107.3
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "2cda6894-d842-48c3-bb0c-3776d295de57",
+      "net": "HOST_3V3",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 4.0,
+      "start_global_mm": [
+        163.2,
+        107.5
+      ],
+      "end_global_mm": [
+        159.2,
+        107.5
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "334bd03b-36f7-43e0-bc46-558fbecf1e6b",
+      "net": "HOST_3V3",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 1.025,
+      "start_global_mm": [
+        167.9,
+        108.6
+      ],
+      "end_global_mm": [
+        167.9,
+        109.625
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "4a8be6ef-4d68-46f2-a680-a9f1c3dc4c44",
+      "net": "HOST_3V3",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 1.1313708498984762,
+      "start_global_mm": [
+        163.4,
+        107.3
+      ],
+      "end_global_mm": [
+        164.2,
+        108.1
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "5cce93d1-e5b3-46a5-8fbf-60e4e1a1d663",
+      "net": "HOST_3V3",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 2.687005768508881,
+      "start_global_mm": [
+        160.1,
+        110.0
+      ],
+      "end_global_mm": [
+        158.2,
+        111.9
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "63783efa-f2dc-4f17-a4c4-432098467b8c",
+      "net": "HOST_3V3",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 3.2,
+      "start_global_mm": [
+        164.2,
+        108.1
+      ],
+      "end_global_mm": [
+        167.4,
+        108.1
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "77eaf781-440a-4ff9-88d4-00565d7b93ca",
+      "net": "HOST_3V3",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.55,
+      "start_global_mm": [
+        163.4,
+        106.75
+      ],
+      "end_global_mm": [
+        163.4,
+        107.3
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "b7ad1ff1-f180-444a-a231-bf9509f12ea4",
+      "net": "HOST_3V3",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.22360679774997896,
+      "start_global_mm": [
+        158.2,
+        111.9
+      ],
+      "end_global_mm": [
+        158.0,
+        112.0
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "b85083ae-8319-49a5-bdc2-05da700bc532",
+      "net": "HOST_3V3",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.7071067811865476,
+      "start_global_mm": [
+        167.4,
+        108.1
+      ],
+      "end_global_mm": [
+        167.9,
+        108.6
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "bc83011c-1b4d-420f-aeae-8735f6d98933",
+      "net": "HOST_3V3",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.28284271247461906,
+      "start_global_mm": [
+        163.4,
+        107.3
+      ],
+      "end_global_mm": [
+        163.2,
+        107.5
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "ca8fead7-039a-4ff2-afb2-38f93fc5110c",
+      "net": "HOST_3V3",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.3,
+      "start_global_mm": [
+        159.3,
+        107.7
+      ],
+      "end_global_mm": [
+        159.3,
+        108.0
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "daba0822-5cc6-4cf3-9d19-8e8efa64e9f6",
+      "net": "HOST_3V3",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.21830311495716226,
+      "start_global_mm": [
+        159.2,
+        107.5
+      ],
+      "end_global_mm": [
+        159.0,
+        107.5875
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "ffc273f9-42e6-4db8-9a45-58081e2a2a14",
+      "net": "HOST_3V3",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 1.1313708498984762,
+      "start_global_mm": [
+        159.3,
+        108.0
+      ],
+      "end_global_mm": [
+        160.1,
+        108.8
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "0b3b1ad3-f972-4c5b-b0cf-c151cba3ccf2",
+      "net": "HOST_LCD_RST",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 1.1313708498984762,
+      "start_global_mm": [
+        163.3,
+        110.3
+      ],
+      "end_global_mm": [
+        164.1,
+        111.1
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "10afafa2-c112-410f-8ca3-a45697ecec43",
+      "net": "HOST_LCD_RST",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.4,
+      "start_global_mm": [
+        163.2,
+        109.9
+      ],
+      "end_global_mm": [
+        163.2,
+        110.3
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "282ed79d-794f-498c-bc73-b98fb9ec3087",
+      "net": "HOST_LCD_RST",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.1,
+      "start_global_mm": [
+        163.2,
+        110.3
+      ],
+      "end_global_mm": [
+        163.3,
+        110.3
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "9c2d1d3b-6a65-4268-b385-7c2a71000da5",
+      "net": "HOST_LCD_RST",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 5.232590180780452,
+      "start_global_mm": [
+        175.7,
+        111.1
+      ],
+      "end_global_mm": [
+        179.4,
+        107.4
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "b101555e-b8e4-4fe0-b5b2-2e417dd45c05",
+      "net": "HOST_LCD_RST",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 11.6,
+      "start_global_mm": [
+        164.1,
+        111.1
+      ],
+      "end_global_mm": [
+        175.7,
+        111.1
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "bdc5e35d-278e-4ea4-8944-dae6ae1da670",
+      "net": "HOST_LCD_RST",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.25031230493125983,
+      "start_global_mm": [
+        179.4,
+        107.0
+      ],
+      "end_global_mm": [
+        179.4125,
+        106.75
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "eb010081-5f88-4b0d-9027-6e25fd9a2103",
+      "net": "HOST_LCD_RST",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.4,
+      "start_global_mm": [
+        179.4,
+        107.4
+      ],
+      "end_global_mm": [
+        179.4,
+        107.0
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "f9412030-836a-4f65-a0f1-c059ad5d49fa",
+      "net": "HOST_LCD_RST",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.2926174977679906,
+      "start_global_mm": [
+        163.1,
+        109.625
+      ],
+      "end_global_mm": [
+        163.2,
+        109.9
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "02294060-19d2-460f-a308-fd16147cbfe9",
+      "net": "HOST_TE",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.3,
+      "start_global_mm": [
+        168.3,
+        106.5
+      ],
+      "end_global_mm": [
+        168.3,
+        106.2
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "03fba5bb-af50-4aba-a296-e764bc5599b3",
+      "net": "HOST_TE",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.2809025631780529,
+      "start_global_mm": [
+        172.1,
+        106.1
+      ],
+      "end_global_mm": [
+        172.25,
+        106.3375
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "36d3b6ba-cf11-48ff-a9ae-e353259293d1",
+      "net": "HOST_TE",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.14142135623730953,
+      "start_global_mm": [
+        168.3,
+        106.2
+      ],
+      "end_global_mm": [
+        168.4,
+        106.1
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "3f4b6798-bb84-4ce9-8d4e-a61c1f8b5a80",
+      "net": "HOST_TE",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 3.7,
+      "start_global_mm": [
+        168.4,
+        106.1
+      ],
+      "end_global_mm": [
+        172.1,
+        106.1
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "ddb16d16-a0a0-41a1-8028-1449cef165c1",
+      "net": "HOST_TE",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.2692582403567252,
+      "start_global_mm": [
+        168.2,
+        106.75
+      ],
+      "end_global_mm": [
+        168.3,
+        106.5
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "0785086d-0c96-4a30-b2a5-2015da780a32",
+      "net": "HOST_TP_3V3",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.304138126514911,
+      "start_global_mm": [
+        179.1,
+        77.7
+      ],
+      "end_global_mm": [
+        179.4,
+        77.75
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "1f8864be-9502-4ccf-9bf7-659c0105bc7a",
+      "net": "HOST_TP_3V3",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.2576941016011038,
+      "start_global_mm": [
+        173.2,
+        77.5
+      ],
+      "end_global_mm": [
+        173.0,
+        77.3375
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "5617393f-087c-40a1-b02e-4fae2882b370",
+      "net": "HOST_TP_3V3",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.304138126514911,
+      "start_global_mm": [
+        179.4,
+        77.75
+      ],
+      "end_global_mm": [
+        179.1,
+        77.7
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "5abaee4c-f63a-4a8b-9bff-c2a30f30be80",
+      "net": "HOST_TP_3V3",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.304138126514911,
+      "start_global_mm": [
+        178.5,
+        77.75
+      ],
+      "end_global_mm": [
+        178.8,
+        77.7
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "7a392ef7-89f0-416c-95f4-98dbc19ea3f4",
+      "net": "HOST_TP_3V3",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.3,
+      "start_global_mm": [
+        178.8,
+        77.7
+      ],
+      "end_global_mm": [
+        179.1,
+        77.7
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "8342d609-fcfd-4a4b-b0eb-d4574964f7e8",
+      "net": "HOST_TP_3V3",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.28284271247461906,
+      "start_global_mm": [
+        173.4,
+        77.7
+      ],
+      "end_global_mm": [
+        173.2,
+        77.5
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "8f3afbd8-bf5b-46e9-b70f-40cfebcb155f",
+      "net": "HOST_TP_3V3",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 1.9,
+      "start_global_mm": [
+        175.3,
+        77.7
+      ],
+      "end_global_mm": [
+        173.4,
+        77.7
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "8f7fd3d6-b624-4f25-9289-185fa1f12c00",
+      "net": "HOST_TP_3V3",
+      "class": "LOGIC_POWER",
+      "layer": "B.Cu",
+      "width_mm": 0.3,
+      "length_mm": 3.8,
+      "start_global_mm": [
+        179.1,
+        77.7
+      ],
+      "end_global_mm": [
+        175.3,
+        77.7
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "153e6888-8034-4c7f-9e37-ee1dee49cd5c",
+      "net": "HOST_TP_RST",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 4.949747468305833,
+      "start_global_mm": [
+        163.1,
+        75.9
+      ],
+      "end_global_mm": [
+        166.6,
+        79.4
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "3594fec3-a7e5-4380-8c06-2b35c1026966",
+      "net": "HOST_TP_RST",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.2961840643923977,
+      "start_global_mm": [
+        162.99,
+        75.625
+      ],
+      "end_global_mm": [
+        163.1,
+        75.9
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "4536345c-cf88-4c1b-acb4-9312dfcc3f85",
+      "net": "HOST_TP_RST",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 3.3,
+      "start_global_mm": [
+        166.6,
+        79.4
+      ],
+      "end_global_mm": [
+        166.6,
+        82.7
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "785573b1-08da-4b41-ab16-b2bb97d90d33",
+      "net": "HOST_TP_RST",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 5.5154328932550705,
+      "start_global_mm": [
+        166.6,
+        82.7
+      ],
+      "end_global_mm": [
+        170.5,
+        86.6
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "87a58eec-5b4e-4459-beae-e8ceef43f3fd",
+      "net": "HOST_TP_RST",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.17365554986812257,
+      "start_global_mm": [
+        170.5,
+        86.6
+      ],
+      "end_global_mm": [
+        170.5875,
+        86.75
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "01775acf-aea0-414f-a6c7-024687513609",
+      "net": "LCD_RST",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 2.121320343559643,
+      "start_global_mm": [
+        180.0,
+        94.9
+      ],
+      "end_global_mm": [
+        178.5,
+        96.4
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "19830c2a-de3e-4067-b798-5402dd6b200c",
+      "net": "LCD_RST",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.25031230493125983,
+      "start_global_mm": [
+        177.6,
+        105.0
+      ],
+      "end_global_mm": [
+        177.5875,
+        104.75
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "1c8b66ce-ccb1-4718-b8cd-c16ef4fec3ab",
+      "net": "LCD_RST",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.291547594742265,
+      "start_global_mm": [
+        175.25,
+        110.25
+      ],
+      "end_global_mm": [
+        175.4,
+        110.0
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "3d7a2b15-a913-4faf-bb8c-c0643c64f136",
+      "net": "LCD_RST",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 1.5,
+      "start_global_mm": [
+        177.6,
+        106.5
+      ],
+      "end_global_mm": [
+        177.6,
+        105.0
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "43b43bce-5606-4f29-8895-322d64f6f19a",
+      "net": "LCD_RST",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.25031230493125983,
+      "start_global_mm": [
+        177.5875,
+        106.75
+      ],
+      "end_global_mm": [
+        177.6,
+        106.5
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "45755388-b48a-47f8-91fd-cec26fa90b68",
+      "net": "LCD_RST",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 5.9,
+      "start_global_mm": [
+        177.6,
+        98.6
+      ],
+      "end_global_mm": [
+        177.6,
+        104.5
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "7d5d6f0a-235f-4187-8d6e-0cce9972e44b",
+      "net": "LCD_RST",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 1.5,
+      "start_global_mm": [
+        181.5,
+        94.9
+      ],
+      "end_global_mm": [
+        180.0,
+        94.9
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "7f9f19b6-1978-46e1-ae13-9c9cda7e5057",
+      "net": "LCD_RST",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.26487025125521363,
+      "start_global_mm": [
+        177.5,
+        107.0
+      ],
+      "end_global_mm": [
+        177.5875,
+        106.75
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "b2281b91-0d7b-4cb6-b794-f150e9d4fb73",
+      "net": "LCD_RST",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.25031230493125983,
+      "start_global_mm": [
+        177.6,
+        104.5
+      ],
+      "end_global_mm": [
+        177.5875,
+        104.75
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "cd077527-48f9-4d26-9ca5-960c069c7ab4",
+      "net": "LCD_RST",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 2.9698484809835,
+      "start_global_mm": [
+        175.4,
+        110.0
+      ],
+      "end_global_mm": [
+        177.5,
+        107.9
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "f45c3b3a-8312-4fbf-91ce-5486f796943b",
+      "net": "LCD_RST",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.27950849718747367,
+      "start_global_mm": [
+        181.775,
+        94.85
+      ],
+      "end_global_mm": [
+        181.5,
+        94.9
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "f8834472-3631-4831-ad8c-ffb1f66c129a",
+      "net": "LCD_RST",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.9,
+      "start_global_mm": [
+        177.5,
+        107.9
+      ],
+      "end_global_mm": [
+        177.5,
+        107.0
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "43b01a51-2670-43eb-959d-d0c0a8e05d55",
+      "net": "LCD_RST",
+      "class": "Default",
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "length_mm": 1.2727922061357857,
+      "start_global_mm": [
+        178.5,
+        96.4
+      ],
+      "end_global_mm": [
+        177.6,
+        97.3
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "dc88e315-72e2-42f0-a66f-7cbfbc079a89",
+      "net": "LCD_RST",
+      "class": "Default",
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "length_mm": 1.3,
+      "start_global_mm": [
+        177.6,
+        97.3
+      ],
+      "end_global_mm": [
+        177.6,
+        98.6
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "086f94ad-1d92-493f-a409-35ba72ac7daa",
+      "net": "LCD_TE",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 6.363961030678928,
+      "start_global_mm": [
+        172.4,
+        107.9
+      ],
+      "end_global_mm": [
+        176.9,
+        103.4
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "47820fd1-30d8-4d71-9e0b-a4d9ba44b005",
+      "net": "LCD_TE",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.28284271247461906,
+      "start_global_mm": [
+        183.9,
+        94.8
+      ],
+      "end_global_mm": [
+        184.1,
+        94.6
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "5e24cc21-554b-4ff2-9f3c-7e2dbc7eb6c1",
+      "net": "LCD_TE",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.30233466556119565,
+      "start_global_mm": [
+        172.25,
+        108.1625
+      ],
+      "end_global_mm": [
+        172.4,
+        107.9
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "b4549f3f-da7d-4059-8f0e-b14a0472a2cb",
+      "net": "LCD_TE",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.1,
+      "start_global_mm": [
+        183.9,
+        94.9
+      ],
+      "end_global_mm": [
+        183.9,
+        94.8
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "c351d0c2-e239-4eed-a5c9-5328712a3cea",
+      "net": "LCD_TE",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.25495097567963926,
+      "start_global_mm": [
+        184.4,
+        94.6
+      ],
+      "end_global_mm": [
+        184.65,
+        94.55
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "e044adc3-af34-4714-8414-79f96cd193de",
+      "net": "LCD_TE",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.3,
+      "start_global_mm": [
+        184.1,
+        94.6
+      ],
+      "end_global_mm": [
+        184.4,
+        94.6
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "f945a7f9-ff8e-457c-9101-33c9f99244e1",
+      "net": "LCD_TE",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.28284271247461906,
+      "start_global_mm": [
+        183.7,
+        95.1
+      ],
+      "end_global_mm": [
+        183.9,
+        94.9
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "1fb7507c-a2fa-433e-80a6-d4c6d58d86fc",
+      "net": "LCD_TE",
+      "class": "Default",
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "length_mm": 1.5,
+      "start_global_mm": [
+        183.7,
+        96.6
+      ],
+      "end_global_mm": [
+        183.7,
+        95.1
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "fbdf61d3-fa96-42d1-a471-b84ecb457a80",
+      "net": "LCD_TE",
+      "class": "Default",
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "length_mm": 9.616652224137047,
+      "start_global_mm": [
+        176.9,
+        103.4
+      ],
+      "end_global_mm": [
+        183.7,
+        96.6
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "0a0c4add-d087-40fb-afba-311025f90e85",
+      "net": "LCD_VCI",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.25495097567963926,
+      "start_global_mm": [
+        156.75,
+        109.45
+      ],
+      "end_global_mm": [
+        157.0,
+        109.4
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "0c4d2679-ca50-49fc-bf02-b3b25fef3956",
+      "net": "LCD_VCI",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.25124689052802224,
+      "start_global_mm": [
+        181.8,
+        95.7
+      ],
+      "end_global_mm": [
+        181.775,
+        95.45
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "0d8c2c72-f0b1-49ed-826d-0127e76b8342",
+      "net": "LCD_VCI",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.25495097567963926,
+      "start_global_mm": [
+        184.65,
+        95.75
+      ],
+      "end_global_mm": [
+        184.7,
+        96.0
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "24ad3c83-4402-4081-bc4d-c1b9d7fdeb36",
+      "net": "LCD_VCI",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.1,
+      "start_global_mm": [
+        181.8,
+        95.8
+      ],
+      "end_global_mm": [
+        181.8,
+        95.7
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "260bb517-203e-4c56-80a4-67a0b9bb1a90",
+      "net": "LCD_VCI",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.25495097567963926,
+      "start_global_mm": [
+        184.65,
+        95.75
+      ],
+      "end_global_mm": [
+        184.4,
+        95.8
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "2b2cc9f2-7e55-4d90-8e81-a60a477f60fd",
+      "net": "LCD_VCI",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 17.5,
+      "start_global_mm": [
+        157.5,
+        112.9
+      ],
+      "end_global_mm": [
+        175.0,
+        112.9
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "385b223a-03fd-464d-857b-968be637623f",
+      "net": "LCD_VCI",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.25495097567963926,
+      "start_global_mm": [
+        184.7,
+        96.1
+      ],
+      "end_global_mm": [
+        184.65,
+        96.35
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "545b2ff6-5701-464e-b3e4-41063e61c170",
+      "net": "LCD_VCI",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 1.9798989873223332,
+      "start_global_mm": [
+        180.9,
+        103.2
+      ],
+      "end_global_mm": [
+        179.5,
+        104.6
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "576907c5-3727-46bc-b474-77447ca8e380",
+      "net": "LCD_VCI",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 1.7,
+      "start_global_mm": [
+        154.8,
+        109.4
+      ],
+      "end_global_mm": [
+        156.5,
+        109.4
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "5926e4e3-6666-4667-8dc2-ee5165989697",
+      "net": "LCD_VCI",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 2.5455844122715714,
+      "start_global_mm": [
+        158.9,
+        109.7
+      ],
+      "end_global_mm": [
+        157.1,
+        111.5
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "6f72714e-2c0b-496b-a0f4-a261cb3e321e",
+      "net": "LCD_VCI",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.304138126514911,
+      "start_global_mm": [
+        154.5,
+        109.45
+      ],
+      "end_global_mm": [
+        154.8,
+        109.4
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "80ca0661-d0f0-42bc-9786-3489ad038cec",
+      "net": "LCD_VCI",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.3,
+      "start_global_mm": [
+        181.5,
+        96.1
+      ],
+      "end_global_mm": [
+        181.2,
+        96.1
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "89284697-abaf-4eab-a20b-09bc3dc535b1",
+      "net": "LCD_VCI",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 1.0,
+      "start_global_mm": [
+        157.1,
+        111.5
+      ],
+      "end_global_mm": [
+        157.1,
+        112.5
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "8e34f2eb-9afd-40a1-9a1f-81870334a3be",
+      "net": "LCD_VCI",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.304394891547148,
+      "start_global_mm": [
+        159.0,
+        109.4125
+      ],
+      "end_global_mm": [
+        158.9,
+        109.7
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "a4606d6a-b2da-478f-ac4c-55823d3225e2",
+      "net": "LCD_VCI",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 2.121320343559643,
+      "start_global_mm": [
+        188.0,
+        97.6
+      ],
+      "end_global_mm": [
+        186.5,
+        96.1
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "b666f852-338c-4b99-bc5f-4b77c98676f0",
+      "net": "LCD_VCI",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.17365554986812257,
+      "start_global_mm": [
+        179.5,
+        104.6
+      ],
+      "end_global_mm": [
+        179.4125,
+        104.75
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "b6f50ba2-ccef-4fc1-b1d0-5a090a541283",
+      "net": "LCD_VCI",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.30026030373660784,
+      "start_global_mm": [
+        158.7,
+        109.4
+      ],
+      "end_global_mm": [
+        159.0,
+        109.4125
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "b6f674cf-4eeb-48d5-b8cd-86e3bd38526f",
+      "net": "LCD_VCI",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 1.7,
+      "start_global_mm": [
+        157.0,
+        109.4
+      ],
+      "end_global_mm": [
+        158.7,
+        109.4
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "bc75f18d-204d-4d64-b136-9989258ae062",
+      "net": "LCD_VCI",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 1.8,
+      "start_global_mm": [
+        186.5,
+        96.1
+      ],
+      "end_global_mm": [
+        184.7,
+        96.1
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "c398ee8a-33c8-42f1-b5dc-1b79ef06d152",
+      "net": "LCD_VCI",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.25495097567963926,
+      "start_global_mm": [
+        156.5,
+        109.4
+      ],
+      "end_global_mm": [
+        156.75,
+        109.45
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "c915fc99-25cd-43fd-8124-9186ee928126",
+      "net": "LCD_VCI",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 2.2,
+      "start_global_mm": [
+        180.3,
+        107.6
+      ],
+      "end_global_mm": [
+        180.3,
+        105.4
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "d1f238c6-b2b8-485f-ac66-ba1185cb060e",
+      "net": "LCD_VCI",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.25124689052802224,
+      "start_global_mm": [
+        181.775,
+        96.05
+      ],
+      "end_global_mm": [
+        181.8,
+        95.8
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "d5025335-7949-442b-8b35-fc6ebf530593",
+      "net": "LCD_VCI",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 1.1313708498984762,
+      "start_global_mm": [
+        180.3,
+        105.4
+      ],
+      "end_global_mm": [
+        179.5,
+        104.6
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "e33fddc2-ae22-409b-93d3-4d525858a6b7",
+      "net": "LCD_VCI",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.27950849718747367,
+      "start_global_mm": [
+        181.775,
+        96.05
+      ],
+      "end_global_mm": [
+        181.5,
+        96.1
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "e4fd8332-8336-4095-be50-59a34853e715",
+      "net": "LCD_VCI",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 6.8,
+      "start_global_mm": [
+        180.9,
+        96.4
+      ],
+      "end_global_mm": [
+        180.9,
+        103.2
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "efbbaec6-6c2e-4f4e-8dfb-7b7049aff330",
+      "net": "LCD_VCI",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.5656854249492381,
+      "start_global_mm": [
+        157.1,
+        112.5
+      ],
+      "end_global_mm": [
+        157.5,
+        112.9
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "f54838fa-53b1-442e-b914-6768bf9b3362",
+      "net": "LCD_VCI",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 7.495331880577404,
+      "start_global_mm": [
+        175.0,
+        112.9
+      ],
+      "end_global_mm": [
+        180.3,
+        107.6
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "f5d800a7-ec9e-4369-931b-0535484da400",
+      "net": "LCD_VCI",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.42426406871192857,
+      "start_global_mm": [
+        181.2,
+        96.1
+      ],
+      "end_global_mm": [
+        180.9,
+        96.4
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "f76d69fd-aea1-4c15-8d6f-1ad7a14db1bb",
+      "net": "LCD_VCI",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.1,
+      "start_global_mm": [
+        184.7,
+        96.0
+      ],
+      "end_global_mm": [
+        184.7,
+        96.1
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "f7e3b4da-3683-462a-8d2c-d9452f700b19",
+      "net": "LCD_VCI",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.291547594742265,
+      "start_global_mm": [
+        188.25,
+        97.75
+      ],
+      "end_global_mm": [
+        188.0,
+        97.6
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "ff9740d0-28ac-4777-a0e5-e75eade66e62",
+      "net": "LCD_VCI",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 2.6,
+      "start_global_mm": [
+        184.4,
+        95.8
+      ],
+      "end_global_mm": [
+        181.8,
+        95.8
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "65bb3974-0f02-4c29-92a2-fab2d500ae33",
+      "net": "OVP_REF",
+      "class": "SENSITIVE",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.9375,
+      "start_global_mm": [
+        145.6125,
+        101.7
+      ],
+      "end_global_mm": [
+        146.55,
+        101.7
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "8fb92423-86d3-4ede-9a12-db6b105b3a29",
+      "net": "OVP_REF",
+      "class": "SENSITIVE",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.28284271247461906,
+      "start_global_mm": [
+        146.75,
+        100.95
+      ],
+      "end_global_mm": [
+        146.95,
+        100.75
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "a910ae53-e0b2-4cec-9fe4-b09b936ea72a",
+      "net": "OVP_REF",
+      "class": "SENSITIVE",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.55,
+      "start_global_mm": [
+        146.75,
+        101.5
+      ],
+      "end_global_mm": [
+        146.75,
+        100.95
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "e897ceda-8092-4fe1-81b5-198fee824dfa",
+      "net": "OVP_REF",
+      "class": "SENSITIVE",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.28284271247461906,
+      "start_global_mm": [
+        146.55,
+        101.7
+      ],
+      "end_global_mm": [
+        146.75,
+        101.5
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "ed8094c3-7685-412b-8074-fc689381c460",
+      "net": "OVP_REF",
+      "class": "SENSITIVE",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.9375,
+      "start_global_mm": [
+        146.95,
+        100.75
+      ],
+      "end_global_mm": [
+        147.8875,
+        100.75
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "03c01749-e9f1-4e88-9096-4eeb51cf2e22",
+      "net": "OVP_SENSE",
+      "class": "SENSITIVE",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 2.325,
+      "start_global_mm": [
+        147.8875,
+        101.7
+      ],
+      "end_global_mm": [
+        147.8875,
+        104.025
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "0fa85356-f0c1-4050-8210-b20272e3be62",
+      "net": "OVP_SENSE",
+      "class": "SENSITIVE",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 2.5,
+      "start_global_mm": [
+        147.4125,
+        104.5
+      ],
+      "end_global_mm": [
+        147.4125,
+        107.0
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "4abea182-a78c-4996-b55a-da19eb49dc7f",
+      "net": "OVP_SENSE",
+      "class": "SENSITIVE",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.6717514421272203,
+      "start_global_mm": [
+        147.8875,
+        104.025
+      ],
+      "end_global_mm": [
+        147.4125,
+        104.5
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "1032aa04-3cf4-4488-8659-4f6702b87d4c",
+      "net": "TP_INT",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 10.182337649086286,
+      "start_global_mm": [
+        187.8,
+        85.7
+      ],
+      "end_global_mm": [
+        180.6,
+        78.5
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "23783fe6-1e8a-4260-a204-cd9f4864852f",
+      "net": "TP_INT",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.25495097567963926,
+      "start_global_mm": [
+        184.65,
+        87.95
+      ],
+      "end_global_mm": [
+        184.9,
+        88.0
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "27d28ed4-8d45-42fb-ba64-b158d105d0a0",
+      "net": "TP_INT",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.14142135623730953,
+      "start_global_mm": [
+        178.1,
+        78.5
+      ],
+      "end_global_mm": [
+        178.0,
+        78.4
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "2854ff3a-5bc0-4248-8523-35b2f94d8d64",
+      "net": "TP_INT",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.22360679774997896,
+      "start_global_mm": [
+        188.0,
+        85.8
+      ],
+      "end_global_mm": [
+        187.8,
+        85.7
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "66b135c9-b83b-44ee-807d-e981d87a7bb6",
+      "net": "TP_INT",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 3.1112698372208096,
+      "start_global_mm": [
+        185.8,
+        88.0
+      ],
+      "end_global_mm": [
+        188.0,
+        85.8
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "77f75519-ad1e-4286-93f2-5fbd542de612",
+      "net": "TP_INT",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 2.8,
+      "start_global_mm": [
+        188.0,
+        85.8
+      ],
+      "end_global_mm": [
+        188.0,
+        83.0
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "8b58ba4c-ec8d-44d1-a71f-1a7559553f38",
+      "net": "TP_INT",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 2.5,
+      "start_global_mm": [
+        180.6,
+        78.5
+      ],
+      "end_global_mm": [
+        178.1,
+        78.5
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "a3c79e6f-9950-4925-8d79-be9e2d537a63",
+      "net": "TP_INT",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.9,
+      "start_global_mm": [
+        184.9,
+        88.0
+      ],
+      "end_global_mm": [
+        185.8,
+        88.0
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "c83a36d2-8735-4758-8824-a59aa1ee499a",
+      "net": "TP_INT",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.65,
+      "start_global_mm": [
+        178.0,
+        78.4
+      ],
+      "end_global_mm": [
+        178.0,
+        77.75
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "02ca9eef-7219-426c-b09c-c12b8b0edac4",
+      "net": "TP_RST",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.22360679774997896,
+      "start_global_mm": [
+        174.8,
+        86.8
+      ],
+      "end_global_mm": [
+        175.0,
+        86.9
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "06278936-66a9-4a06-8e90-8ab4b49479d9",
+      "net": "TP_RST",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.2918154382482188,
+      "start_global_mm": [
+        172.4125,
+        86.75
+      ],
+      "end_global_mm": [
+        172.7,
+        86.8
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "3a874354-a87b-4549-8390-804cfee0bf8a",
+      "net": "TP_RST",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.30026030373660784,
+      "start_global_mm": [
+        172.4125,
+        84.0
+      ],
+      "end_global_mm": [
+        172.4,
+        84.3
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "555f2106-7789-4e4a-a739-45e73cb0b3ec",
+      "net": "TP_RST",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.2304886114323222,
+      "start_global_mm": [
+        182.0,
+        88.2
+      ],
+      "end_global_mm": [
+        181.775,
+        88.25
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "75c12f3b-9b3f-491b-b4a5-fa6813b0638b",
+      "net": "TP_RST",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 3.3,
+      "start_global_mm": [
+        175.0,
+        86.9
+      ],
+      "end_global_mm": [
+        178.3,
+        86.9
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "88bb0f7f-cff5-4764-b218-366e726ef068",
+      "net": "TP_RST",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.9899494936611666,
+      "start_global_mm": [
+        174.8,
+        86.8
+      ],
+      "end_global_mm": [
+        175.5,
+        87.5
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "a5d741cf-d336-4823-ad14-638b14c64510",
+      "net": "TP_RST",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 2.2,
+      "start_global_mm": [
+        172.4,
+        84.3
+      ],
+      "end_global_mm": [
+        172.4,
+        86.5
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "c878f78e-4d93-4ef4-a512-b6cc7fb65382",
+      "net": "TP_RST",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.5,
+      "start_global_mm": [
+        182.5,
+        88.2
+      ],
+      "end_global_mm": [
+        182.0,
+        88.2
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "d5bbbca4-026a-4226-9c17-d191e9fd582a",
+      "net": "TP_RST",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.25031230493125983,
+      "start_global_mm": [
+        172.4,
+        86.5
+      ],
+      "end_global_mm": [
+        172.4125,
+        86.75
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "e1f4a377-dbd9-489f-8fd7-9f7fa2dcd5f4",
+      "net": "TP_RST",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 2.1,
+      "start_global_mm": [
+        172.7,
+        86.8
+      ],
+      "end_global_mm": [
+        174.8,
+        86.8
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "9b5e251b-bc6a-4d3c-aa83-2be283ea1201",
+      "net": "TP_RST",
+      "class": "Default",
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "length_mm": 2.9,
+      "start_global_mm": [
+        178.3,
+        86.9
+      ],
+      "end_global_mm": [
+        181.2,
+        86.9
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "a4e489fa-c72e-4b65-8413-046f4d05f2b9",
+      "net": "TP_RST",
+      "class": "Default",
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "length_mm": 1.8384776310850237,
+      "start_global_mm": [
+        181.2,
+        86.9
+      ],
+      "end_global_mm": [
+        182.5,
+        88.2
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "009b0ccf-e77f-472f-afdf-64a5da234030",
+      "net": "TP_SCL",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 1.65,
+      "start_global_mm": [
+        177.5,
+        77.75
+      ],
+      "end_global_mm": [
+        177.5,
+        79.4
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "0f3a79bc-e2aa-45a0-ab40-5e3fbddcb5b8",
+      "net": "TP_SCL",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.2,
+      "start_global_mm": [
+        182.2,
+        88.9
+      ],
+      "end_global_mm": [
+        182.0,
+        88.9
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "1849e869-e88a-4682-b130-745b45b229d3",
+      "net": "TP_SCL",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.4,
+      "start_global_mm": [
+        182.7,
+        89.0
+      ],
+      "end_global_mm": [
+        182.3,
+        89.0
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "3b233839-9ffa-48d7-a0eb-7c2bbe56ad1d",
+      "net": "TP_SCL",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.2304886114323222,
+      "start_global_mm": [
+        182.0,
+        88.9
+      ],
+      "end_global_mm": [
+        181.775,
+        88.85
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "45706946-0e68-4111-967e-8da03d96ac50",
+      "net": "TP_SCL",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.17365554986812257,
+      "start_global_mm": [
+        177.0,
+        82.6
+      ],
+      "end_global_mm": [
+        176.9125,
+        82.75
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "4c1f304d-6ccd-421d-8e31-6534a0ff1941",
+      "net": "TP_SCL",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 1.1313708498984762,
+      "start_global_mm": [
+        177.8,
+        81.8
+      ],
+      "end_global_mm": [
+        177.0,
+        82.6
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "5d0f27c7-8c9a-4307-9c5d-0f86003b53ce",
+      "net": "TP_SCL",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.42426406871192857,
+      "start_global_mm": [
+        177.5,
+        79.4
+      ],
+      "end_global_mm": [
+        177.8,
+        79.7
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "7210816b-1946-48d5-ad0f-1afb3cc7f2ef",
+      "net": "TP_SCL",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 4.525483399593905,
+      "start_global_mm": [
+        177.2,
+        82.8
+      ],
+      "end_global_mm": [
+        180.4,
+        86.0
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "93c35d21-76d4-4fc7-a85c-d50b197e227f",
+      "net": "TP_SCL",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.2918154382482188,
+      "start_global_mm": [
+        176.9125,
+        82.75
+      ],
+      "end_global_mm": [
+        177.2,
+        82.8
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "b4398259-7950-484b-9538-51ce6b51a7c7",
+      "net": "TP_SCL",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 2.1,
+      "start_global_mm": [
+        177.8,
+        79.7
+      ],
+      "end_global_mm": [
+        177.8,
+        81.8
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "f41ec502-5856-44b2-acbc-b395fe617fed",
+      "net": "TP_SCL",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.14142135623730953,
+      "start_global_mm": [
+        182.3,
+        89.0
+      ],
+      "end_global_mm": [
+        182.2,
+        88.9
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "6697e942-4f10-43c6-adcb-bd31b05ac71e",
+      "net": "TP_SCL",
+      "class": "Default",
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.5656854249492381,
+      "start_global_mm": [
+        180.4,
+        86.0
+      ],
+      "end_global_mm": [
+        180.8,
+        86.4
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "76e0f805-fa1a-4783-8e09-d794dd01864e",
+      "net": "TP_SCL",
+      "class": "Default",
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.9,
+      "start_global_mm": [
+        180.8,
+        86.4
+      ],
+      "end_global_mm": [
+        181.7,
+        86.4
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "8fa5cf16-83b5-4739-950e-7e0c064b09f7",
+      "net": "TP_SCL",
+      "class": "Default",
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.6,
+      "start_global_mm": [
+        183.2,
+        87.9
+      ],
+      "end_global_mm": [
+        183.2,
+        88.5
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "b63c4abc-4be4-4d9b-be70-c58c284cd4df",
+      "net": "TP_SCL",
+      "class": "Default",
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.7071067811865476,
+      "start_global_mm": [
+        183.2,
+        88.5
+      ],
+      "end_global_mm": [
+        182.7,
+        89.0
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "da5cfac6-898f-4400-9edf-9a31a2c4b61d",
+      "net": "TP_SCL",
+      "class": "Default",
+      "layer": "B.Cu",
+      "width_mm": 0.2,
+      "length_mm": 2.121320343559643,
+      "start_global_mm": [
+        181.7,
+        86.4
+      ],
+      "end_global_mm": [
+        183.2,
+        87.9
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "12f3b409-0878-4cf8-b2d6-58aa28ae38e3",
+      "net": "TP_SDA",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 2.3,
+      "start_global_mm": [
+        186.1,
+        82.1
+      ],
+      "end_global_mm": [
+        188.4,
+        82.1
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "16117557-2828-442c-bb42-749094926717",
+      "net": "TP_SDA",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 7.212489168102785,
+      "start_global_mm": [
+        181.0,
+        77.0
+      ],
+      "end_global_mm": [
+        186.1,
+        82.1
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "19b0b775-0cc5-4de8-a00c-7f79166242a2",
+      "net": "TP_SDA",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.14142135623730953,
+      "start_global_mm": [
+        177.0,
+        77.1
+      ],
+      "end_global_mm": [
+        177.1,
+        77.0
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "19bffda5-0ad0-45d8-803e-3a8b0f05af34",
+      "net": "TP_SDA",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 4.101219330881976,
+      "start_global_mm": [
+        188.9,
+        85.6
+      ],
+      "end_global_mm": [
+        186.0,
+        88.5
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "217e89da-9a56-4fac-84e8-1a350690141d",
+      "net": "TP_SDA",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.7071067811865476,
+      "start_global_mm": [
+        188.4,
+        82.1
+      ],
+      "end_global_mm": [
+        188.9,
+        82.6
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "31ae69a2-2526-4f28-bedb-6c84b7265aea",
+      "net": "TP_SDA",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.21830311495716226,
+      "start_global_mm": [
+        177.0,
+        80.3
+      ],
+      "end_global_mm": [
+        176.9125,
+        80.5
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "52ee29ca-aaea-43c8-9537-9127c01e2530",
+      "net": "TP_SDA",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 3.2,
+      "start_global_mm": [
+        177.0,
+        80.3
+      ],
+      "end_global_mm": [
+        177.0,
+        77.1
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "557ab269-7899-4649-9301-5fbaf45d8e4e",
+      "net": "TP_SDA",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 3.0,
+      "start_global_mm": [
+        188.9,
+        82.6
+      ],
+      "end_global_mm": [
+        188.9,
+        85.6
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "700253e6-4d3d-4cfa-bef0-4eceb25ec408",
+      "net": "TP_SDA",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 3.9,
+      "start_global_mm": [
+        177.1,
+        77.0
+      ],
+      "end_global_mm": [
+        181.0,
+        77.0
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "8c538888-bf6a-4c08-8c48-fbb61dbe9223",
+      "net": "TP_SDA",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 1.1,
+      "start_global_mm": [
+        186.0,
+        88.5
+      ],
+      "end_global_mm": [
+        184.9,
+        88.5
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "abc587ba-ef2a-40ca-80d1-b778c2a2131e",
+      "net": "TP_SDA",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.25495097567963926,
+      "start_global_mm": [
+        184.9,
+        88.5
+      ],
+      "end_global_mm": [
+        184.65,
+        88.55
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "cb7a4c4d-c802-444a-8573-6529f3921aa0",
+      "net": "TP_SDA",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 0.21830311495716226,
+      "start_global_mm": [
+        176.9125,
+        80.5
+      ],
+      "end_global_mm": [
+        177.0,
+        80.3
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "f9afc9cb-9eae-474a-9c54-2a11a3b3365d",
+      "net": "TP_SDA",
+      "class": "Default",
+      "layer": "F.Cu",
+      "width_mm": 0.2,
+      "length_mm": 2.55,
+      "start_global_mm": [
+        177.0,
+        77.75
+      ],
+      "end_global_mm": [
+        177.0,
+        80.3
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "04a96d8c-5060-472e-8457-e5f4983f1dd5",
+      "net": "TP_VDD",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.30644126680328154,
+      "start_global_mm": [
+        173.3,
+        79.1
+      ],
+      "end_global_mm": [
+        173.0,
+        79.1625
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "088db34e-807c-4827-894e-d103c736195d",
+      "net": "TP_VDD",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.9,
+      "start_global_mm": [
+        183.8,
+        88.0
+      ],
+      "end_global_mm": [
+        183.8,
+        88.9
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "0bc6a43e-89f7-45f2-a9e5-aee196de3363",
+      "net": "TP_VDD",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 2.2627416997969525,
+      "start_global_mm": [
+        174.9,
+        80.7
+      ],
+      "end_global_mm": [
+        173.3,
+        79.1
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "0d238c91-aceb-42b8-83a7-6955bc3459a3",
+      "net": "TP_VDD",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 5.374011537017762,
+      "start_global_mm": [
+        175.3,
+        82.9
+      ],
+      "end_global_mm": [
+        179.1,
+        86.7
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "14e676d1-0242-460d-b003-47853b4ec2f4",
+      "net": "TP_VDD",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.25495097567963926,
+      "start_global_mm": [
+        184.4,
+        89.1
+      ],
+      "end_global_mm": [
+        184.65,
+        89.15
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "1ca72657-a184-4e2c-8eb6-fc290d8f2c2a",
+      "net": "TP_VDD",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 2.3,
+      "start_global_mm": [
+        170.7,
+        81.8
+      ],
+      "end_global_mm": [
+        170.7,
+        79.5
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "268a49d8-b8c8-475b-a241-7c92b537975c",
+      "net": "TP_VDD",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.28284271247461906,
+      "start_global_mm": [
+        181.2,
+        89.4
+      ],
+      "end_global_mm": [
+        181.0,
+        89.2
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "2aaa4c91-3b64-4b5a-82ca-e6bb3a27b3ff",
+      "net": "TP_VDD",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.30026030373660784,
+      "start_global_mm": [
+        175.1,
+        80.8
+      ],
+      "end_global_mm": [
+        175.0875,
+        80.5
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "30476dc4-4826-485a-bdaa-43e1969f846f",
+      "net": "TP_VDD",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.22360679774997896,
+      "start_global_mm": [
+        175.1,
+        80.8
+      ],
+      "end_global_mm": [
+        174.9,
+        80.7
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "36f150a6-0f11-4f97-a007-d3f7cec4ece4",
+      "net": "TP_VDD",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.22360679774997896,
+      "start_global_mm": [
+        170.6,
+        82.0
+      ],
+      "end_global_mm": [
+        170.7,
+        81.8
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "37ca0659-cca9-4444-a585-cd054230b8b1",
+      "net": "TP_VDD",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.28284271247461906,
+      "start_global_mm": [
+        181.0,
+        86.7
+      ],
+      "end_global_mm": [
+        181.2,
+        86.5
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "47ca775e-3d86-4682-afcc-d15e71771098",
+      "net": "TP_VDD",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 2.5,
+      "start_global_mm": [
+        181.0,
+        89.2
+      ],
+      "end_global_mm": [
+        181.0,
+        86.7
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "5a027c75-e3b0-49ab-a3c6-ddf158b941aa",
+      "net": "TP_VDD",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.30233466556119565,
+      "start_global_mm": [
+        173.0,
+        79.1625
+      ],
+      "end_global_mm": [
+        172.7,
+        79.2
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "6ce6edcb-dd64-426b-9994-be439a47045f",
+      "net": "TP_VDD",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.30026030373660784,
+      "start_global_mm": [
+        170.5875,
+        84.0
+      ],
+      "end_global_mm": [
+        170.6,
+        83.7
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "736e4cea-2939-4df8-a24b-bc8fa8df73b1",
+      "net": "TP_VDD",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.28284271247461906,
+      "start_global_mm": [
+        183.8,
+        88.9
+      ],
+      "end_global_mm": [
+        184.0,
+        89.1
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "84faf3f3-5cb6-4c5a-8ab2-cab2979846bd",
+      "net": "TP_VDD",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 1.7,
+      "start_global_mm": [
+        170.6,
+        83.7
+      ],
+      "end_global_mm": [
+        170.6,
+        82.0
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "8dd3f6bd-f517-4b99-aa9d-4040f637c2b3",
+      "net": "TP_VDD",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 1.95,
+      "start_global_mm": [
+        172.7,
+        79.2
+      ],
+      "end_global_mm": [
+        170.75,
+        79.2
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "96fb134d-a627-4503-b3b4-3f69edef8d82",
+      "net": "TP_VDD",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 1.1,
+      "start_global_mm": [
+        181.2,
+        86.5
+      ],
+      "end_global_mm": [
+        182.3,
+        86.5
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "988ad321-fe85-4de3-bef0-5a32b5e5c5da",
+      "net": "TP_VDD",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.304138126514911,
+      "start_global_mm": [
+        170.7,
+        79.5
+      ],
+      "end_global_mm": [
+        170.75,
+        79.2
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "adbbf57b-d45e-41ad-adc4-cd3c3f579917",
+      "net": "TP_VDD",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.27950849718747367,
+      "start_global_mm": [
+        181.775,
+        89.45
+      ],
+      "end_global_mm": [
+        181.5,
+        89.4
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "b2129475-d6c7-4dbf-84c6-627e6b3600b1",
+      "net": "TP_VDD",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.3,
+      "start_global_mm": [
+        181.5,
+        89.4
+      ],
+      "end_global_mm": [
+        181.2,
+        89.4
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "c1f1ac16-1604-4541-965b-272a564545f0",
+      "net": "TP_VDD",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 3.1,
+      "start_global_mm": [
+        167.5,
+        82.0
+      ],
+      "end_global_mm": [
+        170.6,
+        82.0
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "db49e767-96b4-4133-95d7-9b4a9fca5e49",
+      "net": "TP_VDD",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 2.121320343559643,
+      "start_global_mm": [
+        182.3,
+        86.5
+      ],
+      "end_global_mm": [
+        183.8,
+        88.0
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "eaf6103c-4d4b-4584-82e4-4ce323aa94ba",
+      "net": "TP_VDD",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.25031230493125983,
+      "start_global_mm": [
+        175.0875,
+        82.75
+      ],
+      "end_global_mm": [
+        175.1,
+        82.5
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "ebe7f866-4449-4f45-9a59-8054fc4f0dfb",
+      "net": "TP_VDD",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.2601081505835601,
+      "start_global_mm": [
+        175.0875,
+        82.75
+      ],
+      "end_global_mm": [
+        175.3,
+        82.9
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "f05bf9f7-ca07-4c15-8b16-147c3e6b4961",
+      "net": "TP_VDD",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.4,
+      "start_global_mm": [
+        184.0,
+        89.1
+      ],
+      "end_global_mm": [
+        184.4,
+        89.1
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "f28d9c91-e54d-454c-8d91-27fc4f86678a",
+      "net": "TP_VDD",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 1.7,
+      "start_global_mm": [
+        175.1,
+        82.5
+      ],
+      "end_global_mm": [
+        175.1,
+        80.8
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "f3f9b301-8632-4f39-8864-723744b411df",
+      "net": "TP_VDD",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 1.9,
+      "start_global_mm": [
+        179.1,
+        86.7
+      ],
+      "end_global_mm": [
+        181.0,
+        86.7
+      ],
+      "arc": false
+    },
+    {
+      "uuid": "fccbbfab-ece5-405f-9aba-a0b27ddbe559",
+      "net": "TP_VDD",
+      "class": "LOGIC_POWER",
+      "layer": "F.Cu",
+      "width_mm": 0.3,
+      "length_mm": 0.25495097567963926,
+      "start_global_mm": [
+        170.6,
+        82.0
+      ],
+      "end_global_mm": [
+        170.55,
+        81.75
+      ],
+      "arc": false
+    }
+  ],
+  "vias": [
+    {
+      "uuid": "4b651c67-9877-4d45-a0ba-0ba000f884fc",
+      "net": "BL_CTRL",
+      "position_global_mm": [
+        146.7,
+        99.8
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "f7ea89f8-934b-4b6e-be7f-c9df19dcc1c1",
+      "net": "BL_CTRL",
+      "position_global_mm": [
+        158.9,
+        99.9
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "1de2af14-ee69-4940-971e-a7a775bc0c53",
+      "net": "BL_LEDA",
+      "position_global_mm": [
+        175.8,
+        90.1
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "9de3150d-018c-48e7-8f5b-02a42177100f",
+      "net": "BL_LEDA",
+      "position_global_mm": [
+        155.5,
+        101.3
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "f06d8fb3-3dcf-4d1f-8be8-c1bcc3d2fd35",
+      "net": "BL_LEDA",
+      "position_global_mm": [
+        183.4,
+        98.3
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "ffb1a773-dfd4-438e-aeca-cbd887f604d3",
+      "net": "BL_LEDA",
+      "position_global_mm": [
+        163.5,
+        100.7
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "25b4be55-9a1f-49b6-9f7a-3383cc3d7f83",
+      "net": "BL_LEDK",
+      "position_global_mm": [
+        182.6,
+        98.8
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "6fcf3177-04da-495c-b599-4ef3d1c607b7",
+      "net": "BL_LEDK",
+      "position_global_mm": [
+        163.4,
+        105.6
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "621787ec-db7f-43e3-ac0f-11fbdb8c4eba",
+      "net": "DSI_CLK_N",
+      "position_global_mm": [
+        183.55,
+        90.95
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "c15e45dc-c79b-49ac-a842-0aab9eb6f142",
+      "net": "DSI_CLK_N",
+      "position_global_mm": [
+        165.2,
+        105.85
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "b1557b76-0e89-41bd-90a4-2a5ad4e7ffb2",
+      "net": "DSI_CLK_P",
+      "position_global_mm": [
+        165.8,
+        105.3
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "f42b99a1-8f31-4385-847a-2b69e168651b",
+      "net": "DSI_CLK_P",
+      "position_global_mm": [
+        182.8,
+        91.25
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "0fe17ea9-14c6-4359-9bcb-424315a0c26d",
+      "net": "DSI_D0_N",
+      "position_global_mm": [
+        180.2,
+        96.8
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "13ab0579-817b-4c16-8c79-d3108f58a912",
+      "net": "DSI_D0_N",
+      "position_global_mm": [
+        183.55,
+        93.35
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "4dec185e-3c32-4d90-9b80-0a650ee65255",
+      "net": "DSI_D0_P",
+      "position_global_mm": [
+        182.8,
+        93.65
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "d3af7a73-336e-4bd0-9943-c217c7266579",
+      "net": "DSI_D0_P",
+      "position_global_mm": [
+        178.6,
+        98.0
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "a1d34026-08a3-4768-a384-949722aa4ad2",
+      "net": "DSI_D1_N",
+      "position_global_mm": [
+        166.399999,
+        105.85
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "f95b0965-d3a4-4692-a8d7-a2e459e5e482",
+      "net": "DSI_D1_N",
+      "position_global_mm": [
+        183.55,
+        92.15
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "4351e157-5ff2-4a79-aecb-606ee088e64a",
+      "net": "DSI_D1_P",
+      "position_global_mm": [
+        167.0,
+        105.3
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "5ad53c33-df60-4bba-86f1-688a0969a4d7",
+      "net": "DSI_D1_P",
+      "position_global_mm": [
+        182.8,
+        92.45
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "0729d515-450e-49b0-8234-758e74f73ff5",
+      "net": "GND",
+      "position_global_mm": [
+        157.35,
+        105.25
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "0c2d3a6b-5f60-4602-bbb2-4cb0b4e3baa2",
+      "net": "GND",
+      "position_global_mm": [
+        156.75,
+        82.15
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "100dc9f8-1583-4692-b7d1-024b1b669140",
+      "net": "GND",
+      "position_global_mm": [
+        167.8,
+        105.1
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "160cda1c-dac0-4d6e-b4b1-cff8316ebc7e",
+      "net": "GND",
+      "position_global_mm": [
+        136.0,
+        105.0
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "20f21a54-b8b1-4585-a22e-5f73c4a71cbb",
+      "net": "GND",
+      "position_global_mm": [
+        165.0,
+        114.0
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "2658d721-58be-4b5c-879b-36dba1fe9feb",
+      "net": "GND",
+      "position_global_mm": [
+        164.1,
+        104.75
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "2d1d80e8-35d8-43ae-9c16-3964d4c178d4",
+      "net": "GND",
+      "position_global_mm": [
+        170.0,
+        114.0
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "30956c52-a6da-4e8d-a3fa-1d5f7bbfe4c7",
+      "net": "GND",
+      "position_global_mm": [
+        185.5,
+        87.3
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "35db9754-8b04-4d37-bdf0-0a7cb4116fa6",
+      "net": "GND",
+      "position_global_mm": [
+        175.0,
+        114.0
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "38e5fccc-b2a5-4fe3-944f-6803567ecc50",
+      "net": "GND",
+      "position_global_mm": [
+        185.45,
+        91.65
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "39744b54-c44d-40a1-bc59-bafd0ff7613f",
+      "net": "GND",
+      "position_global_mm": [
+        182.85,
+        95.05
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "3a7c9fd2-f915-415f-837e-3218e8246016",
+      "net": "GND",
+      "position_global_mm": [
+        169.9,
+        98.3125
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "462f2f66-4987-44f8-8e7c-eb0cb431cab9",
+      "net": "GND",
+      "position_global_mm": [
+        150.0,
+        71.0
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "4fb57c4c-c59c-4991-aa1c-a5de39484731",
+      "net": "GND",
+      "position_global_mm": [
+        160.0,
+        114.0
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "54c4b5ea-eeda-4f39-8a26-f0cf5815b6b6",
+      "net": "GND",
+      "position_global_mm": [
+        180.875,
+        94.05
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "55079235-7ad0-48da-8880-da595eb16125",
+      "net": "GND",
+      "position_global_mm": [
+        160.0,
+        71.0
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "59e98bd4-c4c3-467e-9a4f-6aa28653d6ba",
+      "net": "GND",
+      "position_global_mm": [
+        160.75,
+        105.6
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "5c4a4fcf-7cfa-450e-a14c-ddbf3a54c006",
+      "net": "GND",
+      "position_global_mm": [
+        145.8,
+        96.5
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "5c5b4195-2584-4557-a4b4-6cec3455f12d",
+      "net": "GND",
+      "position_global_mm": [
+        170.0,
+        71.0
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "6720d130-9a20-49be-bd59-044f13dcb5a5",
+      "net": "GND",
+      "position_global_mm": [
+        169.1,
+        110.425
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "6ce94255-ab7c-42e0-a9e0-5b1ce2344cd8",
+      "net": "GND",
+      "position_global_mm": [
+        180.0,
+        97.6
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "7fc9da1d-2b2c-4bd1-9107-3470dca2fd08",
+      "net": "GND",
+      "position_global_mm": [
+        155.0,
+        114.0
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "82b244d6-95b0-4b3e-8ed4-cf37a181c327",
+      "net": "GND",
+      "position_global_mm": [
+        175.0,
+        71.0
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "88d273ab-8651-4de4-bdd2-0aa953f26723",
+      "net": "GND",
+      "position_global_mm": [
+        189.0,
+        100.0
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "8f0f2479-64ea-452b-8558-ec45ff0c382e",
+      "net": "GND",
+      "position_global_mm": [
+        178.4,
+        98.8
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "91cdbb7c-5753-4525-a809-eba9f51efda2",
+      "net": "GND",
+      "position_global_mm": [
+        146.4,
+        74.4
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "91f5fa27-a563-46d2-b672-5fd2134fe29e",
+      "net": "GND",
+      "position_global_mm": [
+        165.0,
+        71.0
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "959477ce-db6d-4802-af73-b770522c443b",
+      "net": "GND",
+      "position_global_mm": [
+        136.0,
+        100.0
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "9e0bbe32-0c2e-4c19-85c6-5731c6248750",
+      "net": "GND",
+      "position_global_mm": [
+        155.0,
+        71.0
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "a2f04597-2cd7-414f-840f-74fd50c27905",
+      "net": "GND",
+      "position_global_mm": [
+        156.4,
+        104.1
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "a373478e-b006-463e-8a3f-04d5df6996fd",
+      "net": "GND",
+      "position_global_mm": [
+        145.0,
+        71.0
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "a7321783-f2da-4b3c-9daf-c944bff7b711",
+      "net": "GND",
+      "position_global_mm": [
+        151.75,
+        107.0
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "a8346dae-1e4f-4b2f-a699-4a46f227e909",
+      "net": "GND",
+      "position_global_mm": [
+        180.0,
+        114.0
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "aa89b238-5e1f-4bfb-b8a7-0ab1c4c12c7b",
+      "net": "GND",
+      "position_global_mm": [
+        136.0,
+        80.0
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "abc48b37-24d9-4ab4-a848-f6aec686c516",
+      "net": "GND",
+      "position_global_mm": [
+        136.0,
+        95.0
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "aeff1eb9-6e49-4f98-b9e4-003462fcac8a",
+      "net": "GND",
+      "position_global_mm": [
+        189.0,
+        105.0
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "b8940963-ab57-4604-a143-2522db672cbd",
+      "net": "GND",
+      "position_global_mm": [
+        144.4,
+        104.5
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "bdd6bf16-0699-458b-9d92-269d1596419a",
+      "net": "GND",
+      "position_global_mm": [
+        136.0,
+        90.0
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "bddfcd67-d4e2-4f84-bd97-574acc240a54",
+      "net": "GND",
+      "position_global_mm": [
+        189.0,
+        80.0
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "bf9c42bb-06c8-4b52-aaa5-5cf9f7215c55",
+      "net": "GND",
+      "position_global_mm": [
+        145.0,
+        114.0
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "c65110a8-39b5-4c3a-af95-ab3d85bd6d82",
+      "net": "GND",
+      "position_global_mm": [
+        144.7,
+        100.75
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "cb6e21cb-47a2-4e06-b827-f06eb63dc6f9",
+      "net": "GND",
+      "position_global_mm": [
+        181.0,
+        93.15
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "d69f1983-941e-4486-9d7f-e4f8a84bc8b9",
+      "net": "GND",
+      "position_global_mm": [
+        180.0,
+        71.0
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "dbfdb772-c7df-4c67-a3cd-9d686de4588f",
+      "net": "GND",
+      "position_global_mm": [
+        189.0,
+        95.0
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "df1d8ab2-aa10-421c-a1ab-b3ed178a73d9",
+      "net": "GND",
+      "position_global_mm": [
+        167.6,
+        105.85
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "e285f999-7e87-4c10-902c-05b7a6ca5bd1",
+      "net": "GND",
+      "position_global_mm": [
+        157.8,
+        101.6
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "e453278b-43d3-427c-ae82-5c54482d9af0",
+      "net": "GND",
+      "position_global_mm": [
+        164.9,
+        108.825
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "e7c40668-0971-4510-b1ee-17edae14e7f3",
+      "net": "GND",
+      "position_global_mm": [
+        170.75,
+        76.4
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "eb139e3e-b870-4b97-a701-5edfb1b46912",
+      "net": "GND",
+      "position_global_mm": [
+        136.0,
+        85.0
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "f370a00f-d49b-43bf-8597-84f96e9496b6",
+      "net": "GND",
+      "position_global_mm": [
+        185.45,
+        90.45
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "f385901c-9926-4fd1-86fb-d9ec54a9f35c",
+      "net": "GND",
+      "position_global_mm": [
+        161.7,
+        101.7
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "f50e13ed-fe0e-4f37-bf22-96c5088a774b",
+      "net": "GND",
+      "position_global_mm": [
+        189.0,
+        90.0
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "fbedf980-aa51-4566-9f8a-f09facfee754",
+      "net": "GND",
+      "position_global_mm": [
+        150.0,
+        114.0
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "fea103dd-a1f0-4cb0-b165-39087628b3a8",
+      "net": "GND",
+      "position_global_mm": [
+        157.25,
+        86.15
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "d1558cc7-d55f-4f71-a6f7-84c557342e21",
+      "net": "HOST_TP_3V3",
+      "position_global_mm": [
+        175.3,
+        77.7
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "f75b964b-786e-4b5b-ad8f-2e9d761a3e77",
+      "net": "HOST_TP_3V3",
+      "position_global_mm": [
+        179.1,
+        77.7
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "1fd3a90d-9bf6-4d90-b0c9-91bcc4b53e06",
+      "net": "LCD_RST",
+      "position_global_mm": [
+        177.6,
+        98.6
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "a1b33f63-61cb-4417-84ee-20cd35918870",
+      "net": "LCD_RST",
+      "position_global_mm": [
+        178.5,
+        96.4
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "5669fba3-9ca4-47b9-af38-6854a7cfdcaf",
+      "net": "LCD_TE",
+      "position_global_mm": [
+        176.9,
+        103.4
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "e7447f67-5923-47bd-a964-2210ec131e1d",
+      "net": "LCD_TE",
+      "position_global_mm": [
+        183.7,
+        95.1
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "5df3d5ef-5ed8-4180-ac54-1c9d9b29bd75",
+      "net": "TP_RST",
+      "position_global_mm": [
+        178.3,
+        86.9
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "63a18043-5e88-4f18-b0c1-c2ec3dc8b496",
+      "net": "TP_RST",
+      "position_global_mm": [
+        182.5,
+        88.2
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "6d8d3730-4b4a-427a-8fc5-5a3161056120",
+      "net": "TP_SCL",
+      "position_global_mm": [
+        180.4,
+        86.0
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    },
+    {
+      "uuid": "aabdcc9a-5647-47d4-b352-8dd5b6eeb898",
+      "net": "TP_SCL",
+      "position_global_mm": [
+        182.7,
+        89.0
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "tented_front": 1,
+      "tented_back": 1
+    }
+  ],
+  "units": "mm",
+  "global_origin_note": "KiCad absolute coordinates; drawing datum top-left (135,70); CAM datum bottom-left (135,115)"
+}

@@ -1,0 +1,120 @@
+{
+  "source_board_sha256": "b7b8522cdcc27950ea86259511de9e7fdafd7bf81414660840fdac97aeaaec3c",
+  "export_board_sha256": "b7b8522cdcc27950ea86259511de9e7fdafd7bf81414660840fdac97aeaaec3c",
+  "native_project_input_is_portable_copy": true,
+  "KiCad": "9.0.2",
+  "jobs": [
+    {
+      "output": "DRC_Final.json",
+      "returncode": 0,
+      "seconds": 0.86,
+      "stdout": "Found 0 violations\nFound 0 unconnected items\nFound 0 schematic parity issues\nSaved DRC Report to /workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R1/Verification/DRC_Final.json\n",
+      "stderr": ""
+    },
+    {
+      "output": "DRC_Final.txt",
+      "returncode": 0,
+      "seconds": 0.91,
+      "stdout": "Found 0 violations\nFound 0 unconnected items\nFound 0 schematic parity issues\nSaved DRC Report to /workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R1/Verification/DRC_Final.txt\n",
+      "stderr": ""
+    },
+    {
+      "output": "ERC_Final.json",
+      "returncode": 0,
+      "seconds": 0.23,
+      "stdout": "Checking sheet names...\nChecking bus conflicts...\nChecking conflicts...\nChecking units...\nChecking footprints...\nChecking pins...\nChecking similar labels...\nChecking local and global labels...\nChecking for unresolved variables...\nChecking no connect pins for connections...\nChecking for library symbol issues...\nChecking for footprint link issues...\nChecking footprint assignments against footprint filters...\nChecking for off grid pins and wires...\nChecking for four way junctions...\nChecking for labels on more than one wire...\nChecking for undefined netclasses...\nFound 3 violations\nSaved ERC Report to /workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R1/Verification/ERC_Final.json\n",
+      "stderr": ""
+    },
+    {
+      "output": "ERC_Final.txt",
+      "returncode": 0,
+      "seconds": 0.22,
+      "stdout": "Checking sheet names...\nChecking bus conflicts...\nChecking conflicts...\nChecking units...\nChecking footprints...\nChecking pins...\nChecking similar labels...\nChecking local and global labels...\nChecking for unresolved variables...\nChecking no connect pins for connections...\nChecking for library symbol issues...\nChecking for footprint link issues...\nChecking footprint assignments against footprint filters...\nChecking for off grid pins and wires...\nChecking for four way junctions...\nChecking for labels on more than one wire...\nChecking for undefined netclasses...\nFound 3 violations\nSaved ERC Report to /workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R1/Verification/ERC_Final.txt\n",
+      "stderr": ""
+    },
+    {
+      "output": "Schematic PDF",
+      "returncode": 0,
+      "seconds": 0.39,
+      "stdout": "Plotted to '/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R1/PDF/Schematic_RevJ_Routing_R1.pdf'.\nDone.\n",
+      "stderr": ""
+    },
+    {
+      "output": "Final native netlist",
+      "returncode": 0,
+      "seconds": 0.2,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "output": "01_PCB_Top_2D.svg",
+      "returncode": 0,
+      "seconds": 0.39,
+      "stdout": "Plotted to '/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R1/Views/01_PCB_Top_2D.svg'.\nDone.\n",
+      "stderr": ""
+    },
+    {
+      "output": "02_PCB_Bottom_2D.svg",
+      "returncode": 0,
+      "seconds": 0.37,
+      "stdout": "Plotted to '/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R1/Views/02_PCB_Bottom_2D.svg'.\nDone.\n",
+      "stderr": ""
+    },
+    {
+      "output": "05_Assembly_Top.svg",
+      "returncode": 0,
+      "seconds": 0.38,
+      "stdout": "Plotted to '/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R1/Views/05_Assembly_Top.svg'.\nDone.\n",
+      "stderr": ""
+    },
+    {
+      "output": "06_Inner_GND_1.svg",
+      "returncode": 0,
+      "seconds": 0.44,
+      "stdout": "Plotted to '/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R1/Views/06_Inner_GND_1.svg'.\nDone.\n",
+      "stderr": ""
+    },
+    {
+      "output": "07_Inner_GND_2.svg",
+      "returncode": 0,
+      "seconds": 0.54,
+      "stdout": "Plotted to '/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R1/Views/07_Inner_GND_2.svg'.\nDone.\n",
+      "stderr": ""
+    },
+    {
+      "output": "11 Gerbers + job",
+      "returncode": 0,
+      "seconds": 0.49,
+      "stdout": "Plotted to '/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R1/Manufacturing/Gerber/STM32F469_DISEN_RevJ_Prep1-F_Cu.gtl'.\nPlotted to '/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R1/Manufacturing/Gerber/STM32F469_DISEN_RevJ_Prep1-In1_Cu.g1'.\nPlotted to '/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R1/Manufacturing/Gerber/STM32F469_DISEN_RevJ_Prep1-In2_Cu.g2'.\nPlotted to '/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R1/Manufacturing/Gerber/STM32F469_DISEN_RevJ_Prep1-B_Cu.gbl'.\nPlotted to '/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R1/Manufacturing/Gerber/STM32F469_DISEN_RevJ_Prep1-F_Paste.gtp'.\nPlotted to '/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R1/Manufacturing/Gerber/STM32F469_DISEN_RevJ_Prep1-B_Paste.gbp'.\nPlotted to '/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R1/Manufacturing/Gerber/STM32F469_DISEN_RevJ_Prep1-F_Silkscreen.gto'.\nPlotted to '/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R1/Manufacturing/Gerber/STM32F469_DISEN_RevJ_Prep1-B_Silkscreen.gbo'.\nPlotted to '/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R1/Manufacturing/Gerber/STM32F469_DISEN_RevJ_Prep1-F_Mask.gts'.\nPlotted to '/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R1/Manufacturing/Gerber/STM32F469_DISEN_RevJ_Prep1-B_Mask.gbs'.\nPlotted to '/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R1/Manufacturing/Gerber/STM32F469_DISEN_RevJ_Prep1-Edge_Cuts.gm1'.\n",
+      "stderr": ""
+    },
+    {
+      "output": "PTH / NPTH drills + PDF maps",
+      "returncode": 0,
+      "seconds": 0.39,
+      "stdout": "Created file '/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R1/Manufacturing/Drill/STM32F469_DISEN_RevJ_Prep1-PTH.drl'\nCreated file '/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R1/Manufacturing/Drill/STM32F469_DISEN_RevJ_Prep1-NPTH.drl'\nCreated file '/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R1/Manufacturing/Drill/STM32F469_DISEN_RevJ_Prep1-PTH-drl_map.pdf'.\nCreated file '/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R1/Manufacturing/Drill/STM32F469_DISEN_RevJ_Prep1-NPTH-drl_map.pdf'.\nDone.\n",
+      "stderr": ""
+    },
+    {
+      "output": "03_PCB_3D_Isometric.png",
+      "returncode": 0,
+      "seconds": 23.65,
+      "stdout": "Loading\u2026\nBuild board outline\n\nCreate layers\nCreate tracks and vias\nCreate zones\nBuild Tech layers\nBuild Tech layer 11\nBuild Tech layer 9\nBuild Tech layer 15\nBuild Tech layer 13\nBuild Tech layer 7\nBuild Tech layer 5\nBuild Tech layer 3\nBuild Tech layer 1\nBuild Tech layer 17\nBuild Tech layer 19\nBuild Tech layer 21\nBuild Tech layer 23\nBuild Tech layer 39\nBuild Tech layer 41\nBuild Tech layer 43\nBuild Tech layer 45\nBuild Tech layer 47\nBuild Tech layer 49\nBuild Tech layer 51\nBuild Tech layer 53\nBuild Tech layer 55\nBuild Tech layer 57\nBuild Tech layer 59\nBuild Tech layer 61\nBuild Tech layer 63\nBuild Tech layer 65\nBuild Tech layer 67\nBuild Tech layer 69\nBuild Tech layer 71\nBuild Tech layer 73\nBuild Tech layer 75\nBuild Tech layer 77\nBuild Tech layer 79\nBuild Tech layer 81\nBuild Tech layer 83\nBuild Tech layer 85\nBuild Tech layer 87\nBuild Tech layer 89\nBuild Tech layer 91\nBuild Tech layer 93\nBuild Tech layer 95\nBuild Tech layer 97\nBuild Tech layer 99\nBuild Tech layer 101\nBuild Tech layer 103\nBuild Tech layer 105\nBuild Tech layer 107\nBuild Tech layer 109\nBuild Tech layer 111\nBuild Tech layer 113\nBuild Tech layer 115\nBuild Tech layer 117\nBuild Tech layer 119\nBuild Tech layer 121\nBuild Tech layer 123\nBuild Tech layer 125\nBuild Tech layer 127\nSimplifying copper layer polygons\nCalculating plated copper\nSimplify holes contours\nBuild BVH for holes and vias\nLoad Raytracing: board\nLoad Raytracing: layers\nLoading 3D models...\nReload time 0.212 s\nRendering: 6 %\nRendering: 10 %\nRendering: 12 %\nRendering: 15 %\nRendering: 16 %\nRendering: 20 %\nRendering: 23 %\nRendering: 26 %\nRendering: 30 %\nRendering: 34 %\nRendering: 40 %\nRendering: 46 %\nRendering: 51 %\nRendering: 55 %\nRendering: 61 %\nRendering: 68 %\nRendering: 72 %\nRendering: 75 %\nRendering: 77 %\nRendering: 80 %\nRendering: 82 %\nRendering: 84 %\nRendering: 86 %\nRendering: 88 %\nRendering: 90 %\nRendering: 95 %\nRendering: 98 %\nRendering: 100 %\nRendering: Post processing shader\nRendering time 22.330 s\nSuccessfully created 3D render image\n",
+      "stderr": ""
+    },
+    {
+      "output": "04_PCB_3D_Top.png",
+      "returncode": 0,
+      "seconds": 24.68,
+      "stdout": "Loading\u2026\nBuild board outline\n\nCreate layers\nCreate tracks and vias\nCreate zones\nBuild Tech layers\nBuild Tech layer 11\nBuild Tech layer 9\nBuild Tech layer 15\nBuild Tech layer 13\nBuild Tech layer 7\nBuild Tech layer 5\nBuild Tech layer 3\nBuild Tech layer 1\nBuild Tech layer 17\nBuild Tech layer 19\nBuild Tech layer 21\nBuild Tech layer 23\nBuild Tech layer 39\nBuild Tech layer 41\nBuild Tech layer 43\nBuild Tech layer 45\nBuild Tech layer 47\nBuild Tech layer 49\nBuild Tech layer 51\nBuild Tech layer 53\nBuild Tech layer 55\nBuild Tech layer 57\nBuild Tech layer 59\nBuild Tech layer 61\nBuild Tech layer 63\nBuild Tech layer 65\nBuild Tech layer 67\nBuild Tech layer 69\nBuild Tech layer 71\nBuild Tech layer 73\nBuild Tech layer 75\nBuild Tech layer 77\nBuild Tech layer 79\nBuild Tech layer 81\nBuild Tech layer 83\nBuild Tech layer 85\nBuild Tech layer 87\nBuild Tech layer 89\nBuild Tech layer 91\nBuild Tech layer 93\nBuild Tech layer 95\nBuild Tech layer 97\nBuild Tech layer 99\nBuild Tech layer 101\nBuild Tech layer 103\nBuild Tech layer 105\nBuild Tech layer 107\nBuild Tech layer 109\nBuild Tech layer 111\nBuild Tech layer 113\nBuild Tech layer 115\nBuild Tech layer 117\nBuild Tech layer 119\nBuild Tech layer 121\nBuild Tech layer 123\nBuild Tech layer 125\nBuild Tech layer 127\nSimplifying copper layer polygons\nCalculating plated copper\nSimplify holes contours\nBuild BVH for holes and vias\nLoad Raytracing: board\nLoad Raytracing: layers\nLoading 3D models...\nReload time 0.125 s\nRendering: 5 %\nRendering: 8 %\nRendering: 13 %\nRendering: 15 %\nRendering: 17 %\nRendering: 19 %\nRendering: 21 %\nRendering: 24 %\nRendering: 27 %\nRendering: 31 %\nRendering: 36 %\nRendering: 40 %\nRendering: 45 %\nRendering: 48 %\nRendering: 51 %\nRendering: 54 %\nRendering: 56 %\nRendering: 62 %\nRendering: 65 %\nRendering: 70 %\nRendering: 73 %\nRendering: 76 %\nRendering: 78 %\nRendering: 81 %\nRendering: 83 %\nRendering: 85 %\nRendering: 88 %\nRendering: 92 %\nRendering: 97 %\nRendering: 100 %\nRendering: Post processing shader\nRendering time 23.614 s\nSuccessfully created 3D render image\n",
+      "stderr": ""
+    },
+    {
+      "output": "08_PCB_3D_Bottom.png",
+      "returncode": 0,
+      "seconds": 21.3,
+      "stdout": "Loading\u2026\nBuild board outline\n\nCreate layers\nCreate tracks and vias\nCreate zones\nBuild Tech layers\nBuild Tech layer 11\nBuild Tech layer 9\nBuild Tech layer 15\nBuild Tech layer 13\nBuild Tech layer 7\nBuild Tech layer 5\nBuild Tech layer 3\nBuild Tech layer 1\nBuild Tech layer 17\nBuild Tech layer 19\nBuild Tech layer 21\nBuild Tech layer 23\nBuild Tech layer 39\nBuild Tech layer 41\nBuild Tech layer 43\nBuild Tech layer 45\nBuild Tech layer 47\nBuild Tech layer 49\nBuild Tech layer 51\nBuild Tech layer 53\nBuild Tech layer 55\nBuild Tech layer 57\nBuild Tech layer 59\nBuild Tech layer 61\nBuild Tech layer 63\nBuild Tech layer 65\nBuild Tech layer 67\nBuild Tech layer 69\nBuild Tech layer 71\nBuild Tech layer 73\nBuild Tech layer 75\nBuild Tech layer 77\nBuild Tech layer 79\nBuild Tech layer 81\nBuild Tech layer 83\nBuild Tech layer 85\nBuild Tech layer 87\nBuild Tech layer 89\nBuild Tech layer 91\nBuild Tech layer 93\nBuild Tech layer 95\nBuild Tech layer 97\nBuild Tech layer 99\nBuild Tech layer 101\nBuild Tech layer 103\nBuild Tech layer 105\nBuild Tech layer 107\nBuild Tech layer 109\nBuild Tech layer 111\nBuild Tech layer 113\nBuild Tech layer 115\nBuild Tech layer 117\nBuild Tech layer 119\nBuild Tech layer 121\nBuild Tech layer 123\nBuild Tech layer 125\nBuild Tech layer 127\nSimplifying copper layer polygons\nCalculating plated copper\nSimplify holes contours\nBuild BVH for holes and vias\nLoad Raytracing: board\nLoad Raytracing: layers\nLoading 3D models...\nReload time 0.136 s\nRendering: 6 %\nRendering: 10 %\nRendering: 14 %\nRendering: 17 %\nRendering: 20 %\nRendering: 22 %\nRendering: 25 %\nRendering: 28 %\nRendering: 31 %\nRendering: 37 %\nRendering: 42 %\nRendering: 47 %\nRendering: 51 %\nRendering: 55 %\nRendering: 59 %\nRendering: 64 %\nRendering: 71 %\nRendering: 75 %\nRendering: 78 %\nRendering: 80 %\nRendering: 83 %\nRendering: 86 %\nRendering: 91 %\nRendering: 95 %\nRendering: 100 %\nRendering: Post processing shader\nRendering time 20.300 s\nSuccessfully created 3D render image\n",
+      "stderr": ""
+    }
+  ]
+}
