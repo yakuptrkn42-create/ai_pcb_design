@@ -1,0 +1,147 @@
+[
+  {
+    "name": "J1_DSI_CLK_N",
+    "net": "DSI_CLK_N",
+    "x": 7.0,
+    "y": 19.3,
+    "minimum_other_pad_edge_clearance_mm": 0.9000000000000028,
+    "nearest_reserved_GND_via_mm": 1.1236102527122107
+  },
+  {
+    "name": "J1_DSI_CLK_P",
+    "net": "DSI_CLK_P",
+    "x": 7.0,
+    "y": 20.5,
+    "minimum_other_pad_edge_clearance_mm": 0.9000000000000028,
+    "nearest_reserved_GND_via_mm": 1.1236102527122125
+  },
+  {
+    "name": "J1_DSI_D1_N",
+    "net": "DSI_D1_N",
+    "x": 7.0,
+    "y": 21.6,
+    "minimum_other_pad_edge_clearance_mm": 0.9000000000000028,
+    "nearest_reserved_GND_via_mm": 1.1236102527122107
+  },
+  {
+    "name": "J1_DSI_D1_P",
+    "net": "DSI_D1_P",
+    "x": 7.0,
+    "y": 22.8,
+    "minimum_other_pad_edge_clearance_mm": 0.9500000000000022,
+    "nearest_reserved_GND_via_mm": 1.1236102527122125
+  },
+  {
+    "name": "J2_DSI_CLK_N",
+    "net": "DSI_CLK_N",
+    "x": 23.2,
+    "y": 1.6,
+    "minimum_other_pad_edge_clearance_mm": 0.3184658438426488,
+    "nearest_reserved_GND_via_mm": 0.8999999999999986
+  },
+  {
+    "name": "J2_DSI_D1_N",
+    "net": "DSI_D1_N",
+    "x": 24.4,
+    "y": 1.6,
+    "minimum_other_pad_edge_clearance_mm": 0.3184658438426515,
+    "nearest_reserved_GND_via_mm": 0.9219544457292898
+  },
+  {
+    "name": "J2_DSI_D0_N",
+    "net": "DSI_D0_N",
+    "x": 25.6,
+    "y": 1.6,
+    "minimum_other_pad_edge_clearance_mm": 0.3184658438426549,
+    "nearest_reserved_GND_via_mm": 0.9219544457292898
+  },
+  {
+    "name": "J2_DSI_CLK_P",
+    "net": "DSI_CLK_P",
+    "x": 23.8,
+    "y": 6.8,
+    "minimum_other_pad_edge_clearance_mm": 0.7965856099730675,
+    "nearest_reserved_GND_via_mm": 1.0404326023342398
+  },
+  {
+    "name": "J2_DSI_D1_P",
+    "net": "DSI_D1_P",
+    "x": 25.0,
+    "y": 6.8,
+    "minimum_other_pad_edge_clearance_mm": 0.7965856099730633,
+    "nearest_reserved_GND_via_mm": 1.0404326023342418
+  },
+  {
+    "name": "J2_DSI_D0_P",
+    "net": "DSI_D0_P",
+    "x": 26.2,
+    "y": 6.8,
+    "minimum_other_pad_edge_clearance_mm": 0.7965856099730675,
+    "nearest_reserved_GND_via_mm": 1.0404326023342398
+  },
+  {
+    "name": "J2_DSI_D0_N_transition",
+    "net": "DSI_D0_N",
+    "x": 26.8,
+    "y": 10.0,
+    "minimum_other_pad_edge_clearance_mm": 0.9992786460186165,
+    "nearest_reserved_GND_via_mm": 0.921954445729288
+  },
+  {
+    "name": "J2_DSI_D0_P_transition",
+    "net": "DSI_D0_P",
+    "x": 26.8,
+    "y": 11.2,
+    "minimum_other_pad_edge_clearance_mm": 0.9999999999999936,
+    "nearest_reserved_GND_via_mm": 0.921954445729288
+  },
+  {
+    "name": "GND1",
+    "net": "GND",
+    "x": 7.95,
+    "y": 19.9,
+    "minimum_other_pad_edge_clearance_mm": 1.850000000000003
+  },
+  {
+    "name": "GND2",
+    "net": "GND",
+    "x": 7.95,
+    "y": 22.2,
+    "minimum_other_pad_edge_clearance_mm": 1.850000000000003
+  },
+  {
+    "name": "GND3",
+    "net": "GND",
+    "x": 22.3,
+    "y": 1.6,
+    "minimum_other_pad_edge_clearance_mm": 0.450000000000006
+  },
+  {
+    "name": "GND4",
+    "net": "GND",
+    "x": 25.0,
+    "y": 0.9,
+    "minimum_other_pad_edge_clearance_mm": 1.0086252328302436
+  },
+  {
+    "name": "GND5",
+    "net": "GND",
+    "x": 24.4,
+    "y": 7.65,
+    "minimum_other_pad_edge_clearance_mm": 1.5749999999999929
+  },
+  {
+    "name": "GND6",
+    "net": "GND",
+    "x": 25.6,
+    "y": 7.65,
+    "minimum_other_pad_edge_clearance_mm": 1.6039432764659791
+  },
+  {
+    "name": "GND7",
+    "net": "GND",
+    "x": 27.5,
+    "y": 10.6,
+    "minimum_other_pad_edge_clearance_mm": 0.3046693311223853
+  }
+]

@@ -1,0 +1,96 @@
+{
+  "status": "passed",
+  "KiCad_version": "9.0.2",
+  "copied_project": "/tmp/p3-portable-odi4ppvi/Project",
+  "fresh_config_cache_data": true,
+  "physical_DRC_violations": 0,
+  "parity_issues": 0,
+  "ERC_violations": 0,
+  "unconnected_items": 115,
+  "full_DRC_exit": 5,
+  "full_DRC_exit_reason": "Expected: placement only, 115 unrouted connections",
+  "netlist_membership_matches_J_SR1": true,
+  "native_SVG_exported": true,
+  "steps": [
+    {
+      "command": [
+        "kicad-cli",
+        "pcb",
+        "drc",
+        "--schematic-parity",
+        "--exit-code-violations",
+        "--format",
+        "json",
+        "-o",
+        "/tmp/p3-portable-odi4ppvi/drc.json",
+        "/tmp/p3-portable-odi4ppvi/Project/STM32F469_DISEN_RevJ_Prep1.kicad_pcb"
+      ],
+      "exit_code": 5,
+      "expected_exit": 5,
+      "stdout": "Found 0 violations\nFound 115 unconnected items\nFound 0 schematic parity issues\nSaved DRC Report to /tmp/p3-portable-odi4ppvi/drc.json\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "sch",
+        "erc",
+        "--exit-code-violations",
+        "--format",
+        "json",
+        "-o",
+        "/tmp/p3-portable-odi4ppvi/erc.json",
+        "/tmp/p3-portable-odi4ppvi/Project/STM32F469_DISEN_RevJ_Prep1.kicad_sch"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stdout": "You have run CvPcb for the first time using the new footprint library table method for finding footprints.\nCvPcb has either copied the default table or created an empty table in your home folder.\nYou must first configure the library table to include all footprint libraries not included with KiCad.\nSee the \u201cFootprint Library Table\u201d section of the CvPcb documentation for more information. Checking sheet names...\nChecking bus conflicts...\nChecking conflicts...\nChecking units...\nChecking footprints...\nChecking pins...\nChecking similar labels...\nChecking local and global labels...\nChecking for unresolved variables...\nChecking no connect pins for connections...\nChecking for library symbol issues...\nChecking for footprint link issues...\nChecking footprint assignments against footprint filters...\nChecking for off grid pins and wires...\nChecking for four way junctions...\nChecking for labels on more than one wire...\nChecking for undefined netclasses...\nFound 0 violations\nSaved ERC Report to /tmp/p3-portable-odi4ppvi/erc.json\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "sch",
+        "export",
+        "netlist",
+        "--format",
+        "kicadxml",
+        "-o",
+        "/tmp/p3-portable-odi4ppvi/net.xml",
+        "/tmp/p3-portable-odi4ppvi/Project/STM32F469_DISEN_RevJ_Prep1.kicad_sch"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "pcb",
+        "export",
+        "svg",
+        "--layers",
+        "F.Cu,F.Silkscreen,Edge.Cuts",
+        "--mode-single",
+        "-o",
+        "/tmp/p3-portable-odi4ppvi/portable.svg",
+        "/tmp/p3-portable-odi4ppvi/Project/STM32F469_DISEN_RevJ_Prep1.kicad_pcb"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stdout": "Plotted to '/tmp/p3-portable-odi4ppvi/portable.svg'.\nDone.\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/usr/bin/python3",
+        "/workspace/ai_pcb_design/SingleLCD_RevJ_Placement_P3/Engineering/validate_placement.py"
+      ],
+      "exit_code": 0,
+      "expected_exit": 0,
+      "stdout": "{\n  \"footprints\": 53,\n  \"circuit_parts\": 49,\n  \"copper_layers\": 4,\n  \"board_mm\": [\n    55,\n    45\n  ],\n  \"thickness_mm\": 1.6,\n  \"tracks\": 0,\n  \"vias\": 0,\n  \"copper_pour_zones\": 0,\n  \"hardware_rule_areas\": 4,\n  \"physical_DRC_violations\": 0,\n  \"unconnected_items_expected_before_routing\": 115,\n  \"schematic_parity_issues\": 0,\n  \"ERC_violations\": 0,\n  \"all_schematic_bytes_preserved\": true,\n  \"all_component_UUIDs_and_paths_preserved\": true,\n  \"all_component_values_footprint_IDs_and_pin_nets_match_J_SR1\": true,\n  \"mounting_hole_positions_preserved\": true,\n  \"reserved_signal_via_lands_not_actual_vias\": 12,\n  \"reserved_GND_via_lands_not_actual_vias\": 7,\n  \"via_candidate_scope\": \"Pad and edge clearances only; actual routing and return-via placement must be verified during routing\",\n  \"impedance_scope\": \"100ohm design target; requires fabricator stackup approval; no routed impedance verified\"\n}\n[\n  {\n    \"connection\": \"L1 SW to U1 SW\",\n    \"before_pad_center_distance_mm\": 7.484327374587501,\n    \"after_pad_center_distance_mm\": 2.407832271982403\n  },\n  {\n    \"connection\": \"D1 anode to U1 SW\",\n    \"before_pad_center_distance_mm\": 6.699545227103095,\n    \"after_pad_center_distance_mm\": 2.716874353002004\n  },\n  {\n    \"connection\": \"C2 VIN bypass to U1 VIN\",\n    \"before_pad_center_distance_mm\": 2.231346286437875,\n    \"after_pad_center_distance_mm\": 2.070061895209912\n  },\n  {\n    \"connection\": \"R7 sense to U1 FB\",\n    \"before_pad_center_distance_mm\": 11.163066894899456,\n    \"after_pad_center_distance_mm\": 1.9780040444852431\n  },\n  {\n    \"connection\": \"C9 COMP to U1 COMP\",\n    \"before_pad_center_distance_mm\": 4.734992740226737,\n    \"after_pad_center_distance_mm\": 2.130764240830035\n  },\n  {\n    \"connection\": \"C3 output to D1 cathode\",\n    \"before_pad_center_distance_mm\": 5.818128994788613,\n    \"after_pad_center_distance_mm\": 2.825000000000003\n  }\n]\n[\n  {\n    \"variant\": \"A uploaded adjacent bottom-right\",\n    \"DSI_straight_chord_mean_mm\": 22.911366393062522,\n    \"DSI_straight_chord_max_mm\": 25.058780896125015,\n    \"assessment\": \"Short chord but scattered hot-loop and FB parts; used as baseline.\"\n  },\n  {\n    \"variant\": \"B opposite left-right\",\n    \"DSI_straight_chord_mean_mm\": 45.5196847612138,\n    \"DSI_straight_chord_max_mm\": 46.98633444949712,\n    \"assessment\": \"Reject: long cross-board DSI and added skew/tuning burden.\"\n  },\n  {\n    \"variant\": \"C selected adjacent left-top\",\n    \"DSI_straight_chord_mean_mm\": 24.528849473973846,\n    \"DSI_straight_chord_max_mm\": 25.862919885426706,\n    \"assessment\": \"Select: dedicated L corridor, touch outside it, boost at lower right.\"\n  },\n  {\n    \"variant\": \"D same top edge\",\n    \"DSI_straight_chord_mean_mm\": 20.50329008772506,\n    \"DSI_straight_chord_max_mm\": 22.05,\n    \"assessment\": \"Reject: short chord but touch/rail fanout occupies return-turn region; densely packed FPC edge.\"\n  }\n]\n",
+      "stderr": "07:57:37: Debug: Adding duplicate image handler for 'PNG file'\n07:57:37: Debug: Adding duplicate image handler for 'JPEG file'\n07:57:37: Debug: Adding duplicate image handler for 'TIFF file'\n07:57:37: Debug: Adding duplicate image handler for 'GIF file'\n07:57:37: Debug: Adding duplicate image handler for 'PNM file'\n07:57:37: Debug: Adding duplicate image handler for 'PCX file'\n07:57:37: Debug: Adding duplicate image handler for 'IFF file'\n07:57:37: Debug: Adding duplicate image handler for 'Windows icon file'\n07:57:37: Debug: Adding duplicate image handler for 'Windows cursor file'\n07:57:37: Debug: Adding duplicate image handler for 'Windows animated cursor file'\n07:57:37: Debug: Adding duplicate image handler for 'TGA file'\n07:57:37: Debug: Adding duplicate image handler for 'XPM file'\n"
+    }
+  ]
+}

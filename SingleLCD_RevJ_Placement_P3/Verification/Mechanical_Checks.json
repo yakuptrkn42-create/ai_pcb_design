@@ -1,0 +1,1178 @@
+[
+  {
+    "part": "C9",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 38.78677158516805,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "C9",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 16.837388455458278,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "C9",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 39.27179203957975,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "C9",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 17.926451126756792,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R13",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 33.34970239747275,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R13",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 15.453564313775637,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R13",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 37.98292576935062,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R13",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 23.86027346867592,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "C6",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 22.849346817797645,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "C6",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 20.256323703969578,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "C6",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 37.65783650184911,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "C6",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 36.14330712593964,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "U2",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 26.74520985148557,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "U2",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 22.60655325342633,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "U2",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 29.008727135122644,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "U2",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 25.24393491514349,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP4",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 30.484852796101862,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP4",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 16.884201195200195,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP4",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 37.291101485475046,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP4",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 27.319887444863305,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "L1",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 39.5443146988287,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "L1",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 23.89330136251581,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "L1",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 32.11156839832025,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "L1",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 6.1878792813046966,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R6",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 33.41140000059858,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R6",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 22.086005750248273,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R6",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 32.35465422470157,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R6",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 20.45222848493532,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "C3",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 44.338992433297356,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "C3",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 14.575000000000003,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "C3",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 44.747807208845444,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "C3",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 15.775000000000006,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP10",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 10.361285424598673,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP10",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 36.5475898186187,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP10",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 26.466133749567593,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP10",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 43.91840527102505,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP15",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 49.895403094874375,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP15",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 26.992614730699945,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP15",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 42.398127906783806,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP15",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 6.054027585004872,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R19",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 31.941159183724068,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R19",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 24.28451461322627,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R19",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 29.897786707380202,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R19",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 21.52620844459145,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "C7",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 12.979085098727115,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "C7",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 30.131124273747236,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "C7",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 32.722876554484024,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "C7",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 42.546617374357744,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "C4",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 41.736610427776704,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "C4",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 17.444616648123855,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "C4",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 41.25962493770392,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "C4",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 16.270422551366018,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP3",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 26.137162240763622,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP3",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 31.365606163439587,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP3",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 22.768426603522688,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP3",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 28.619071438465635,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP14",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 34.85184715334324,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP14",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 19.965000626095648,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP14",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 35.32139932109145,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP14",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 20.773811638695477,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP5",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 4.914392129246497,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP5",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 39.627657639582985,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP5",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 29.679138296116342,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP5",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 49.265111894727276,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R18",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 47.5258103560581,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R18",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 23.526849555348466,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R18",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 42.37927146613069,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R18",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 9.529567146518255,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R16",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 26.56158221943865,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R16",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 19.307968562228385,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R16",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 34.179199083653195,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R16",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 28.904976215177896,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "J4",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 32.62290682940439,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "J4",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 44.787583658866886,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "J4",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 5.204999999999998,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "J4",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 31.125,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "J6",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 35.348005955074754,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "J6",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 31.565032076650898,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "J6",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 20.53,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "J6",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 12.974999999999994,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "J2",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 12.875,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "J2",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 17.875,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "J2",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 36.05234042333451,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "J2",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 38.12507377042043,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP6",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 27.915519876942998,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP6",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 29.413878526981094,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP6",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 24.78963997318234,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP6",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 26.46556725256422,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP1",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 30.878410742782727,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP1",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 13.430422554782101,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP1",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 41.36817919609225,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP1",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 30.63047910170521,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "C1",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 47.60594133088853,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "C1",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 33.250498492503844,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "C1",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 34.995000000000005,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "C1",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 7.9950000000000045,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R2",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 14.13628840962153,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R2",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 28.98828470261737,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R2",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 30.66194139319948,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R2",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 39.75727166192368,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R14",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 16.64399741648621,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R14",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 28.59532566696871,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R14",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 28.387015517662295,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R14",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 36.694586112940414,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "C2",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 37.30094703891579,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "C2",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 22.103634316555276,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "C2",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 34.30481963223244,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "C2",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 16.55387114846555,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R17",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 26.186764786815495,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R17",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 18.241070418152557,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R17",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 36.644490036020414,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R17",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 31.461224547051568,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "D3",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 33.43203927372662,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "D3",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 25.735214201556584,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "D3",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 26.624260553112073,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "D3",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 15.920152323391877,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R12",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 37.353348578139546,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R12",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 29.936476913624954,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R12",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 27.70058934391107,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R12",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 16.37811497089942,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R20",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 29.497248176736765,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R20",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 26.41756328657131,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R20",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 27.271370519282677,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R20",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 23.90664447386961,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R1",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 10.712266333507573,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R1",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 32.73106551886142,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R1",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 29.24162529682643,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R1",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 42.563395658711244,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "F2",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 31.89810417564027,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "F2",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 31.89810417564027,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "F2",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 22.379880473317982,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "F2",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 22.379880473317982,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R4",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 28.569558099487647,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R4",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 14.612311589888854,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R4",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 41.39294203122074,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R4",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 33.326800776552204,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "U1",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 39.15266593732795,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "U1",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 20.275138717158015,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "U1",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 36.290236290219994,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "U1",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 13.968938757113943,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R15",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 23.453926110568343,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R15",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 20.932191715154907,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R15",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 34.744188722720224,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R15",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 33.09423892462251,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP13",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 49.084633542484546,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP13",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 18.481105215868443,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP13",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 47.723173092324856,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP13",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 14.482791512688424,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R7",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 36.8699694873755,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R7",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 18.06085961409368,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R7",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 37.253532047310635,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R7",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 18.831506843585306,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP12",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 7.614213682318092,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP12",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 36.34152239518868,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP12",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 30.24361502863042,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP12",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 46.66268584211586,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "C13",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 30.402724384502125,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "C13",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 20.210038347316413,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "C13",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 33.18140518422932,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "C13",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 24.189370599500936,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "D1",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 42.654791641737035,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "D1",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 19.424999999999997,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "D1",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 39.83341875862527,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "D1",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 12.025000000000006,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "J3",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 5.674999999999997,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "J3",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 33.67500000000001,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "J3",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 34.21393319979449,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "J3",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 47.66962581141161,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R3",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 13.36647485315406,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R3",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 32.43536110481891,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R3",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 26.598170049836135,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R3",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 39.75993775146032,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP11",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 29.494512201424865,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP11",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 15.583845802625238,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP11",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 39.10148654463152,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP11",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 30.03092156428104,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "J1",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 8.974999999999994,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "J1",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 44.58762440408773,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "J1",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 15.974999999999994,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "J1",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 46.50490565521018,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R5",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 10.135859608341077,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R5",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 33.05882106185882,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R5",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 31.720807839649986,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "R5",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 44.68064066237189,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP9",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 51.6270399112713,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP9",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 35.32706115713561,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP9",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 37.974999999999994,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "TP9",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 4.974999999999994,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "C8",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 15.863721190187364,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "C8",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 27.23497108498556,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "C8",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 33.97039372747981,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "C8",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 40.54717807690197,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "C5",
+    "hole": "H1",
+    "courtyard_bbox_to_hole_center_mm": 25.643413384337116,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "C5",
+    "hole": "H2",
+    "courtyard_bbox_to_hole_center_mm": 17.466157276287202,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "C5",
+    "hole": "H3",
+    "courtyard_bbox_to_hole_center_mm": 39.41579188599412,
+    "required_radius_mm": 4
+  },
+  {
+    "part": "C5",
+    "hole": "H4",
+    "courtyard_bbox_to_hole_center_mm": 34.656697044005796,
+    "required_radius_mm": 4
+  }
+]

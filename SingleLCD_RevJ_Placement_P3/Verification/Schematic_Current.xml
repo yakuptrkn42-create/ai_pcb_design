@@ -1,0 +1,1489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/workspace/ai_pcb_design/SingleLCD_RevJ_Placement_P3/Project/STM32F469_DISEN_RevJ_Prep1.kicad_sch</source>
+    <date>2026-10-22T07:48:09+0000</date>
+    <tool>Eeschema 9.0.2+dfsg-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>STM32F469 / DISEN - MIPI &amp; LCD interface</title>
+        <company>Yakup Turkan</company>
+        <rev>J-SR1</rev>
+        <date>2026-10-22</date>
+        <source>STM32F469_DISEN_RevJ_Prep1.kicad_sch</source>
+        <comment number="1" value="Prototype | See review report"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Logic power &amp; touch/" tstamps="/66c8fc89-f922-4e28-aa19-db0364b3dd8c/">
+      <title_block>
+        <title>STM32F469 / DISEN - Logic power &amp; touch</title>
+        <company>Yakup Turkan</company>
+        <rev>J-SR1</rev>
+        <date>2026-10-22</date>
+        <source>Logic_Touch.kicad_sch</source>
+        <comment number="1" value="Prototype | See review report"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Backlight / external power/" tstamps="/b75b1f95-63e0-4b8c-bd42-383f67f21693/">
+      <title_block>
+        <title>STM32F469 / DISEN - External 5 V &amp; backlight</title>
+        <company>Yakup Turkan</company>
+        <rev>J-SR1</rev>
+        <date>2026-10-22</date>
+        <source>Backlight.kicad_sch</source>
+        <comment number="1" value="Prototype | See review report"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>Adapter_F469:MountingHole_3.5mm</footprint>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">Adapter_F469:MountingHole_3.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Adapter_Interfaces" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32F469_DISEN_RevJ_Prep1.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6a4279b9-48b9-4448-94d4-52f0deda5983</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>Adapter_F469:MountingHole_3.5mm</footprint>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">Adapter_F469:MountingHole_3.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Adapter_Interfaces" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32F469_DISEN_RevJ_Prep1.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7c29842e-6938-4187-b50c-433701dd2fb5</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>Adapter_F469:MountingHole_3.5mm</footprint>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">Adapter_F469:MountingHole_3.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Adapter_Interfaces" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32F469_DISEN_RevJ_Prep1.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>72655520-b57e-4b66-935f-a7262acf07a0</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole</value>
+      <footprint>Adapter_F469:MountingHole_3.5mm</footprint>
+      <description>Mounting Hole without connection</description>
+      <fields>
+        <field name="Footprint">Adapter_F469:MountingHole_3.5mm</field>
+        <field name="Datasheet"/>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+      <libsource lib="Adapter_Interfaces" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32F469_DISEN_RevJ_Prep1.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <property name="ki_fp_filters" value="MountingHole*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>038c9e76-c520-4f82-9e1c-8eebac0b5cf2</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>FH26W-25S-0.3SHW(60)</value>
+      <footprint>Adapter_F469:FH26W-25S-0.3SHW</footprint>
+      <datasheet>https://www.st.com/resource/en/schematic_pack/mb1189-c01_schematic.pdf</datasheet>
+      <description>Purpose-made 1:1 CN10.n to J1.n FPC. J1.3 grounds CABC; verify actual host uses UM1932 default R117 fitted / R119 DNP. Host LEDA/LEDK remain NC.</description>
+      <fields>
+        <field name="MPN">FH26W-25S-0.3SHW(60)</field>
+        <field name="Footprint">Adapter_F469:FH26W-25S-0.3SHW</field>
+        <field name="Datasheet">https://www.st.com/resource/en/schematic_pack/mb1189-c01_schematic.pdf</field>
+        <field name="Description">Purpose-made 1:1 CN10.n to J1.n FPC. J1.3 grounds CABC; verify actual host uses UM1932 default R117 fitted / R119 DNP. Host LEDA/LEDK remain NC.</field>
+      </fields>
+      <libsource lib="Adapter_F469" part="CN10_FPC25" description=""/>
+      <property name="MPN" value="FH26W-25S-0.3SHW(60)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32F469_DISEN_RevJ_Prep1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>196cbfb0-57cf-4058-b1aa-6638c6b333ce</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>FH26-39S-0.3SHW</value>
+      <footprint>Adapter_F469:FH26-39S-0.3SHW</footprint>
+      <datasheet>${KIPRJMOD}/../References/DISEN_DS070HSD39T-132_A0.pdf</datasheet>
+      <description>Panel-recommended FH26-39S-0.3SHW base part. Corrected former FH26W identifier; retained pads match KiCad FH26-39S standard geometry after 90-degree rotation. Confirm ordering suffix, actual flex contact face, 0.20mm thickness and pin 1 before procurement.</description>
+      <fields>
+        <field name="MPN">FH26-39S-0.3SHW</field>
+        <field name="Footprint">Adapter_F469:FH26-39S-0.3SHW</field>
+        <field name="Datasheet">${KIPRJMOD}/../References/DISEN_DS070HSD39T-132_A0.pdf</field>
+        <field name="Description">Panel-recommended FH26-39S-0.3SHW base part. Corrected former FH26W identifier; retained pads match KiCad FH26-39S standard geometry after 90-degree rotation. Confirm ordering suffix, actual flex contact face, 0.20mm thickness and pin 1 before procurement.</field>
+      </fields>
+      <libsource lib="Adapter_F469" part="DISEN_FPC39" description=""/>
+      <property name="MPN" value="FH26-39S-0.3SHW"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32F469_DISEN_RevJ_Prep1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f87b665e-2b42-4a8b-a3e4-1294756c3550</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>100R</value>
+      <footprint>Adapter_F469:R_0805_2012Metric</footprint>
+      <description>Independent reset, PB12</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Adapter_F469:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Independent reset, PB12</field>
+      </fields>
+      <libsource lib="Adapter_F469" part="R" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32F469_DISEN_RevJ_Prep1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42d1f5fd-aa03-451a-b041-d2afb6f1e7a4</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Adapter_F469:R_0805_2012Metric</footprint>
+      <description>Pull-up in touch domain</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Adapter_F469:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Pull-up in touch domain</field>
+      </fields>
+      <libsource lib="Adapter_F469" part="R" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32F469_DISEN_RevJ_Prep1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ac236e8f-40cf-4bfc-917c-2a89c315207d</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>100R</value>
+      <footprint>Adapter_F469:R_0805_2012Metric</footprint>
+      <description>PH7 open-drain reset</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Adapter_F469:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">PH7 open-drain reset</field>
+      </fields>
+      <libsource lib="Adapter_F469" part="R" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32F469_DISEN_RevJ_Prep1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>41e08bfe-6d2f-4301-9d12-1de49fd8bdb7</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>0R</value>
+      <footprint>Adapter_F469:R_0805_2012Metric</footprint>
+      <description>Disconnect if TE unused; PJ2 is DSI_TE</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Adapter_F469:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Disconnect if TE unused; PJ2 is DSI_TE</field>
+      </fields>
+      <libsource lib="Adapter_F469" part="R" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32F469_DISEN_RevJ_Prep1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df3e1679-c8b7-4827-addd-50a6789c1d0f</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>10k</value>
+      <footprint>Adapter_F469:R_0805_2012Metric</footprint>
+      <description>Required pull-up for PH7 open-drain</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Adapter_F469:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Required pull-up for PH7 open-drain</field>
+      </fields>
+      <libsource lib="Adapter_F469" part="R" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="STM32F469_DISEN_RevJ_Prep1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dc891b38-1b3b-4e7f-abce-18bac92dec87</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>4.7uF / 10V</value>
+      <footprint>Adapter_F469:C_0805_2012Metric</footprint>
+      <description>X7R; place beside connector supply pins</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Adapter_F469:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">X7R; place beside connector supply pins</field>
+      </fields>
+      <libsource lib="Adapter_F469" part="C" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value="Logic power &amp; touch"/>
+      <property name="Sheetfile" value="Logic_Touch.kicad_sch"/>
+      <sheetpath names="/Logic power &amp; touch/" tstamps="/66c8fc89-f922-4e28-aa19-db0364b3dd8c/"/>
+      <tstamps>9e39a107-a8fb-45fb-b66e-101f84ea4dc5</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>100nF / 10V</value>
+      <footprint>Adapter_F469:C_0805_2012Metric</footprint>
+      <description>X7R; place beside connector supply pins</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Adapter_F469:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">X7R; place beside connector supply pins</field>
+      </fields>
+      <libsource lib="Adapter_F469" part="C" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value="Logic power &amp; touch"/>
+      <property name="Sheetfile" value="Logic_Touch.kicad_sch"/>
+      <sheetpath names="/Logic power &amp; touch/" tstamps="/66c8fc89-f922-4e28-aa19-db0364b3dd8c/"/>
+      <tstamps>2bda785e-5d74-461c-982c-5b4f64eb7cf2</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>1uF / 10V</value>
+      <footprint>Adapter_F469:C_0805_2012Metric</footprint>
+      <description>X7R; place beside connector supply pins</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Adapter_F469:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">X7R; place beside connector supply pins</field>
+      </fields>
+      <libsource lib="Adapter_F469" part="C" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value="Logic power &amp; touch"/>
+      <property name="Sheetfile" value="Logic_Touch.kicad_sch"/>
+      <sheetpath names="/Logic power &amp; touch/" tstamps="/66c8fc89-f922-4e28-aa19-db0364b3dd8c/"/>
+      <tstamps>a4fe9b4c-1f80-4ff8-ac65-eb97b9e900b0</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>100nF / 10V</value>
+      <footprint>Adapter_F469:C_0805_2012Metric</footprint>
+      <description>X7R; place beside connector supply pins</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Adapter_F469:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">X7R; place beside connector supply pins</field>
+      </fields>
+      <libsource lib="Adapter_F469" part="C" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value="Logic power &amp; touch"/>
+      <property name="Sheetfile" value="Logic_Touch.kicad_sch"/>
+      <sheetpath names="/Logic power &amp; touch/" tstamps="/66c8fc89-f922-4e28-aa19-db0364b3dd8c/"/>
+      <tstamps>3607676d-a3f4-4fb2-bea2-45834916bf08</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>FH19C-6S-0.5SH(10)</value>
+      <footprint>Adapter_F469:FH19C-6S-0.5SH</footprint>
+      <description>Host CN2 pin map retained; PB8 SCL / PB9 SDA / PJ5 INT verified in official ST BSP. CN2 physical numbering and flex mating need MB1189 schematic/continuity confirmation. J3.5 NC.</description>
+      <fields>
+        <field name="MPN">FH19C-6S-0.5SH(10)</field>
+        <field name="Footprint">Adapter_F469:FH19C-6S-0.5SH</field>
+        <field name="Datasheet"/>
+        <field name="Description">Host CN2 pin map retained; PB8 SCL / PB9 SDA / PJ5 INT verified in official ST BSP. CN2 physical numbering and flex mating need MB1189 schematic/continuity confirmation. J3.5 NC.</field>
+      </fields>
+      <libsource lib="Adapter_F469" part="CN2_FPC6" description=""/>
+      <property name="MPN" value="FH19C-6S-0.5SH(10)"/>
+      <property name="Sheetname" value="Logic power &amp; touch"/>
+      <property name="Sheetfile" value="Logic_Touch.kicad_sch"/>
+      <sheetpath names="/Logic power &amp; touch/" tstamps="/66c8fc89-f922-4e28-aa19-db0364b3dd8c/"/>
+      <tstamps>141df15a-6e16-4607-b5d6-15c5d1b640a1</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>HOST CTRL / 1=PC6 2=PB12 3=GND</value>
+      <footprint>Adapter_F469:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <fields>
+        <field name="Footprint">Adapter_F469:PinHeader_1x03_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x03, script generated</field>
+      </fields>
+      <libsource lib="Adapter_Interfaces" part="Conn_01x03_Pin" description="Generic connector, single row, 01x03, script generated"/>
+      <property name="Sheetname" value="Logic power &amp; touch"/>
+      <property name="Sheetfile" value="Logic_Touch.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Adapter_F469:PinHeader_1x03_*"/>
+      <sheetpath names="/Logic power &amp; touch/" tstamps="/66c8fc89-f922-4e28-aa19-db0364b3dd8c/"/>
+      <tstamps>50b053d9-ff02-4b09-a745-910c40f7a98c</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>4.7k / DNP</value>
+      <footprint>Adapter_F469:R_0805_2012Metric</footprint>
+      <description>Optional 4.7k SDA pull-up, DNP. Confirm host pull-up population and measure rise time before fitting; never pull up to 5V.</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Adapter_F469:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Optional 4.7k SDA pull-up, DNP. Confirm host pull-up population and measure rise time before fitting; never pull up to 5V.</field>
+      </fields>
+      <libsource lib="Adapter_F469" part="R" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value="Logic power &amp; touch"/>
+      <property name="Sheetfile" value="Logic_Touch.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/Logic power &amp; touch/" tstamps="/66c8fc89-f922-4e28-aa19-db0364b3dd8c/"/>
+      <tstamps>95532019-53af-478b-b476-4c628ad3363f</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>4.7k / DNP</value>
+      <footprint>Adapter_F469:R_0805_2012Metric</footprint>
+      <description>Optional 4.7k SCL pull-up, DNP. Confirm host pull-up population and measure rise time before fitting; never pull up to 5V.</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Adapter_F469:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Optional 4.7k SCL pull-up, DNP. Confirm host pull-up population and measure rise time before fitting; never pull up to 5V.</field>
+      </fields>
+      <libsource lib="Adapter_F469" part="R" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value="Logic power &amp; touch"/>
+      <property name="Sheetfile" value="Logic_Touch.kicad_sch"/>
+      <property name="dnp"/>
+      <sheetpath names="/Logic power &amp; touch/" tstamps="/66c8fc89-f922-4e28-aa19-db0364b3dd8c/"/>
+      <tstamps>362a6178-1b1f-4cdc-9ca6-0392eb468886</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>0R</value>
+      <footprint>Adapter_F469:R_0805_2012Metric</footprint>
+      <description>VCI 3.0-3.6 V; optional bead after validation</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Adapter_F469:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">VCI 3.0-3.6 V; optional bead after validation</field>
+      </fields>
+      <libsource lib="Adapter_F469" part="R" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value="Logic power &amp; touch"/>
+      <property name="Sheetfile" value="Logic_Touch.kicad_sch"/>
+      <sheetpath names="/Logic power &amp; touch/" tstamps="/66c8fc89-f922-4e28-aa19-db0364b3dd8c/"/>
+      <tstamps>cad8d1c8-bbab-4869-a2d9-bf3da2cdc51b</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>0R</value>
+      <footprint>Adapter_F469:R_0805_2012Metric</footprint>
+      <description>Touch supply from CN2.1; verify guaranteed VDD min/max and measured current.</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Adapter_F469:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Touch supply from CN2.1; verify guaranteed VDD min/max and measured current.</field>
+      </fields>
+      <libsource lib="Adapter_F469" part="R" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value="Logic power &amp; touch"/>
+      <property name="Sheetfile" value="Logic_Touch.kicad_sch"/>
+      <sheetpath names="/Logic power &amp; touch/" tstamps="/66c8fc89-f922-4e28-aa19-db0364b3dd8c/"/>
+      <tstamps>8c6787dd-bf3e-475e-8c30-17c2e1d6e57a</tstamps>
+    </comp>
+    <comp ref="TP1">
+      <value>HOST_3V3</value>
+      <footprint>Adapter_F469:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Adapter_F469:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Adapter_F469" part="TP" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value="Logic power &amp; touch"/>
+      <property name="Sheetfile" value="Logic_Touch.kicad_sch"/>
+      <sheetpath names="/Logic power &amp; touch/" tstamps="/66c8fc89-f922-4e28-aa19-db0364b3dd8c/"/>
+      <tstamps>aa908f5e-f1b9-4133-bb38-cf317bfd2b75</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>GND</value>
+      <footprint>Adapter_F469:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Adapter_F469:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Adapter_F469" part="TP" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value="Logic power &amp; touch"/>
+      <property name="Sheetfile" value="Logic_Touch.kicad_sch"/>
+      <sheetpath names="/Logic power &amp; touch/" tstamps="/66c8fc89-f922-4e28-aa19-db0364b3dd8c/"/>
+      <tstamps>62e20a2d-fef4-4b14-a591-30b68da6a765</tstamps>
+    </comp>
+    <comp ref="TP4">
+      <value>LCD_RST</value>
+      <footprint>Adapter_F469:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Adapter_F469:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Adapter_F469" part="TP" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value="Logic power &amp; touch"/>
+      <property name="Sheetfile" value="Logic_Touch.kicad_sch"/>
+      <sheetpath names="/Logic power &amp; touch/" tstamps="/66c8fc89-f922-4e28-aa19-db0364b3dd8c/"/>
+      <tstamps>05023af4-39a3-4bc1-b91c-f0287f4499cc</tstamps>
+    </comp>
+    <comp ref="TP5">
+      <value>TP_INT</value>
+      <footprint>Adapter_F469:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Adapter_F469:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Adapter_F469" part="TP" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value="Logic power &amp; touch"/>
+      <property name="Sheetfile" value="Logic_Touch.kicad_sch"/>
+      <sheetpath names="/Logic power &amp; touch/" tstamps="/66c8fc89-f922-4e28-aa19-db0364b3dd8c/"/>
+      <tstamps>d8a15258-1d14-4247-be74-1ff3150390d9</tstamps>
+    </comp>
+    <comp ref="TP10">
+      <value>TP_RST</value>
+      <footprint>Adapter_F469:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Adapter_F469:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Adapter_F469" part="TP" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value="Logic power &amp; touch"/>
+      <property name="Sheetfile" value="Logic_Touch.kicad_sch"/>
+      <sheetpath names="/Logic power &amp; touch/" tstamps="/66c8fc89-f922-4e28-aa19-db0364b3dd8c/"/>
+      <tstamps>c2acbfdf-97de-435e-868d-91506ba8ba8e</tstamps>
+    </comp>
+    <comp ref="TP11">
+      <value>LCD_VCI</value>
+      <footprint>Adapter_F469:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Adapter_F469:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Adapter_F469" part="TP" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value="Logic power &amp; touch"/>
+      <property name="Sheetfile" value="Logic_Touch.kicad_sch"/>
+      <sheetpath names="/Logic power &amp; touch/" tstamps="/66c8fc89-f922-4e28-aa19-db0364b3dd8c/"/>
+      <tstamps>65421d72-0b04-4e02-b4a7-b87c40b57a66</tstamps>
+    </comp>
+    <comp ref="TP12">
+      <value>TP_VDD</value>
+      <footprint>Adapter_F469:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Adapter_F469:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Adapter_F469" part="TP" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value="Logic power &amp; touch"/>
+      <property name="Sheetfile" value="Logic_Touch.kicad_sch"/>
+      <sheetpath names="/Logic power &amp; touch/" tstamps="/66c8fc89-f922-4e28-aa19-db0364b3dd8c/"/>
+      <tstamps>a283abf2-acf1-4b53-8978-0a8792712459</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>10uF / 16V</value>
+      <footprint>Adapter_F469:C_0805_2012Metric</footprint>
+      <description>X7R; effective capacitance &gt;=4.7uF at 5V; use verified DC-bias curve.</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Adapter_F469:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">X7R; effective capacitance &gt;=4.7uF at 5V; use verified DC-bias curve.</field>
+      </fields>
+      <libsource lib="Adapter_F469" part="C" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value="Backlight / external power"/>
+      <property name="Sheetfile" value="Backlight.kicad_sch"/>
+      <sheetpath names="/Backlight / external power/" tstamps="/b75b1f95-63e0-4b8c-bd42-383f67f21693/"/>
+      <tstamps>175c7b73-58b3-412b-932f-7c18ccd10f1d</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF / 16V</value>
+      <footprint>Adapter_F469:C_0805_2012Metric</footprint>
+      <description>Input high-frequency bypass, 100nF/16V X7R, directly at U1 VIN/GND.</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Adapter_F469:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Input high-frequency bypass, 100nF/16V X7R, directly at U1 VIN/GND.</field>
+      </fields>
+      <libsource lib="Adapter_F469" part="C" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value="Backlight / external power"/>
+      <property name="Sheetfile" value="Backlight.kicad_sch"/>
+      <sheetpath names="/Backlight / external power/" tstamps="/b75b1f95-63e0-4b8c-bd42-383f67f21693/"/>
+      <tstamps>87959829-842f-4383-8661-b1abf4112595</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>10uF / 50V / X7R</value>
+      <footprint>Adapter_F469:C_1210_3225Metric</footprint>
+      <description>X7R; C3 effective capacitance &gt;=4.7uF at 30V, verify vendor DC-bias curve</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Adapter_F469:C_1210_3225Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">X7R; C3 effective capacitance &gt;=4.7uF at 30V, verify vendor DC-bias curve</field>
+      </fields>
+      <libsource lib="Adapter_F469" part="C" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value="Backlight / external power"/>
+      <property name="Sheetfile" value="Backlight.kicad_sch"/>
+      <sheetpath names="/Backlight / external power/" tstamps="/b75b1f95-63e0-4b8c-bd42-383f67f21693/"/>
+      <tstamps>2fbd85fa-531d-4ce6-9555-e180bd5af622</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100nF / 50V</value>
+      <footprint>Adapter_F469:C_0805_2012Metric</footprint>
+      <description>Output high-frequency bypass, 100nF/50V X7R, beside boost rectifier/output capacitor.</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Adapter_F469:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Output high-frequency bypass, 100nF/50V X7R, beside boost rectifier/output capacitor.</field>
+      </fields>
+      <libsource lib="Adapter_F469" part="C" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value="Backlight / external power"/>
+      <property name="Sheetfile" value="Backlight.kicad_sch"/>
+      <sheetpath names="/Backlight / external power/" tstamps="/b75b1f95-63e0-4b8c-bd42-383f67f21693/"/>
+      <tstamps>5ad8a8cd-e486-48c0-b402-7fa18ad39c27</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>220nF / 16V</value>
+      <footprint>Adapter_F469:C_0805_2012Metric</footprint>
+      <description>COMP compensation capacitor, 220nF/16V X7R, consistent with TI typical application; keep COMP quiet.</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Adapter_F469:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">COMP compensation capacitor, 220nF/16V X7R, consistent with TI typical application; keep COMP quiet.</field>
+      </fields>
+      <libsource lib="Adapter_F469" part="C" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value="Backlight / external power"/>
+      <property name="Sheetfile" value="Backlight.kicad_sch"/>
+      <sheetpath names="/Backlight / external power/" tstamps="/b75b1f95-63e0-4b8c-bd42-383f67f21693/"/>
+      <tstamps>874950a5-a9f1-4eba-af94-bdf63c199ca1</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>100nF / 10V</value>
+      <footprint>Adapter_F469:C_0805_2012Metric</footprint>
+      <description>100nF bypass directly at U2.6/U2.2; supplied from BL_POWER, not HOST_3V3.</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Adapter_F469:C_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">100nF bypass directly at U2.6/U2.2; supplied from BL_POWER, not HOST_3V3.</field>
+      </fields>
+      <libsource lib="Adapter_F469" part="C" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value="Backlight / external power"/>
+      <property name="Sheetfile" value="Backlight.kicad_sch"/>
+      <sheetpath names="/Backlight / external power/" tstamps="/b75b1f95-63e0-4b8c-bd42-383f67f21693/"/>
+      <tstamps>53a633a4-eef0-4c30-8493-11221874ed25</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>SS16 / 60V 1A</value>
+      <footprint>Adapter_F469:D_SMA</footprint>
+      <datasheet>https://www.vishay.com/docs/88746/ss12.pdf</datasheet>
+      <description>Boost rectifier; cathode to LEDA</description>
+      <fields>
+        <field name="MPN">SS16</field>
+        <field name="Footprint">Adapter_F469:D_SMA</field>
+        <field name="Datasheet">https://www.vishay.com/docs/88746/ss12.pdf</field>
+        <field name="Description">Boost rectifier; cathode to LEDA</field>
+      </fields>
+      <libsource lib="Adapter_F469" part="D" description=""/>
+      <property name="MPN" value="SS16"/>
+      <property name="Sheetname" value="Backlight / external power"/>
+      <property name="Sheetfile" value="Backlight.kicad_sch"/>
+      <sheetpath names="/Backlight / external power/" tstamps="/b75b1f95-63e0-4b8c-bd42-383f67f21693/"/>
+      <tstamps>5262a1b4-ffef-4abb-92f8-c7222eb7b4fe</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>SS14 / reverse block</value>
+      <footprint>Adapter_F469:D_SMA</footprint>
+      <description>Input polarity / reverse-current isolation</description>
+      <fields>
+        <field name="MPN">SS14</field>
+        <field name="Footprint">Adapter_F469:D_SMA</field>
+        <field name="Datasheet"/>
+        <field name="Description">Input polarity / reverse-current isolation</field>
+      </fields>
+      <libsource lib="Adapter_F469" part="D" description=""/>
+      <property name="MPN" value="SS14"/>
+      <property name="Sheetname" value="Backlight / external power"/>
+      <property name="Sheetfile" value="Backlight.kicad_sch"/>
+      <sheetpath names="/Backlight / external power/" tstamps="/b75b1f95-63e0-4b8c-bd42-383f67f21693/"/>
+      <tstamps>f23d7006-c7a6-4968-81b7-6bec8671e700</tstamps>
+    </comp>
+    <comp ref="F2">
+      <value>0.75A hold / &gt;=6V</value>
+      <footprint>Adapter_F469:Fuse_1206_3216Metric</footprint>
+      <description>Resettable fuse; derate hold current at temperature</description>
+      <fields>
+        <field name="MPN">1206L075/6YR</field>
+        <field name="Footprint">Adapter_F469:Fuse_1206_3216Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Resettable fuse; derate hold current at temperature</field>
+      </fields>
+      <libsource lib="Adapter_F469" part="F" description=""/>
+      <property name="MPN" value="1206L075/6YR"/>
+      <property name="Sheetname" value="Backlight / external power"/>
+      <property name="Sheetfile" value="Backlight.kicad_sch"/>
+      <sheetpath names="/Backlight / external power/" tstamps="/b75b1f95-63e0-4b8c-bd42-383f67f21693/"/>
+      <tstamps>d0bc5bf4-6317-4789-b12c-f2a5aecbb347</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>EXT 5V / 1=+5V 2=GND</value>
+      <footprint>Adapter_F469:JST_NV_B02P-NV_1x02_P5.00mm_Vertical</footprint>
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <fields>
+        <field name="Footprint">Adapter_F469:JST_NV_B02P-NV_1x02_P5.00mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+      </fields>
+      <libsource lib="Adapter_Interfaces" part="Conn_01x02_Socket" description="Generic connector, single row, 01x02, script generated"/>
+      <property name="Sheetname" value="Backlight / external power"/>
+      <property name="Sheetfile" value="Backlight.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Adapter_F469:JST_NV_*"/>
+      <sheetpath names="/Backlight / external power/" tstamps="/b75b1f95-63e0-4b8c-bd42-383f67f21693/"/>
+      <tstamps>58523b30-4f05-429e-8672-c3f0eaa0afa9</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>22uH / shielded</value>
+      <footprint>Adapter_F469:L_TDK_SLF7045</footprint>
+      <datasheet>https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_automotive_power_slf7045-h_en.pdf</datasheet>
+      <description>22uH +/-20%, DCR 0.082ohm +/-20%, Isat 1.3A reference retained; obsolete part. Nominal operation calculated; qualify stock/replacement, tolerance, temperature and short-circuit saturation before procurement.</description>
+      <fields>
+        <field name="MPN">SLF7045T-220M1R3-H</field>
+        <field name="Footprint">Adapter_F469:L_TDK_SLF7045</field>
+        <field name="Datasheet">https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_automotive_power_slf7045-h_en.pdf</field>
+        <field name="Description">22uH +/-20%, DCR 0.082ohm +/-20%, Isat 1.3A reference retained; obsolete part. Nominal operation calculated; qualify stock/replacement, tolerance, temperature and short-circuit saturation before procurement.</field>
+      </fields>
+      <libsource lib="Adapter_F469" part="L" description=""/>
+      <property name="MPN" value="SLF7045T-220M1R3-H"/>
+      <property name="Sheetname" value="Backlight / external power"/>
+      <property name="Sheetfile" value="Backlight.kicad_sch"/>
+      <sheetpath names="/Backlight / external power/" tstamps="/b75b1f95-63e0-4b8c-bd42-383f67f21693/"/>
+      <tstamps>9af4faa2-2dc6-4a65-8c4c-7d78485df099</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>100k</value>
+      <footprint>Adapter_F469:R_0805_2012Metric</footprint>
+      <description>Backlight defaults OFF while MCU GPIO is high impedance</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Adapter_F469:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Backlight defaults OFF while MCU GPIO is high impedance</field>
+      </fields>
+      <libsource lib="Adapter_F469" part="R" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value="Backlight / external power"/>
+      <property name="Sheetfile" value="Backlight.kicad_sch"/>
+      <sheetpath names="/Backlight / external power/" tstamps="/b75b1f95-63e0-4b8c-bd42-383f67f21693/"/>
+      <tstamps>b1b06338-4ac8-4b91-936c-91475b8cddb2</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>5.23R / 1%</value>
+      <footprint>Adapter_F469:R_0805_2012Metric</footprint>
+      <description>1% current sense: 200mV/5.23ohm=38.24mA nominal; 204mV/(5.23ohm*0.99)=39.40mA maximum at full-scale reference. Kelvin return to U1 GND.</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Adapter_F469:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">1% current sense: 200mV/5.23ohm=38.24mA nominal; 204mV/(5.23ohm*0.99)=39.40mA maximum at full-scale reference. Kelvin return to U1 GND.</field>
+      </fields>
+      <libsource lib="Adapter_F469" part="R" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value="Backlight / external power"/>
+      <property name="Sheetfile" value="Backlight.kicad_sch"/>
+      <sheetpath names="/Backlight / external power/" tstamps="/b75b1f95-63e0-4b8c-bd42-383f67f21693/"/>
+      <tstamps>bb782cbd-7506-4928-aba4-fe10ce34687e</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>0R / isolation</value>
+      <footprint>Adapter_F469:R_0805_2012Metric</footprint>
+      <description>0 ohm supply link; FIT in Rev J; allows boost supply isolation during testing.</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Adapter_F469:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">0 ohm supply link; FIT in Rev J; allows boost supply isolation during testing.</field>
+      </fields>
+      <libsource lib="Adapter_F469" part="R" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value="Backlight / external power"/>
+      <property name="Sheetfile" value="Backlight.kicad_sch"/>
+      <sheetpath names="/Backlight / external power/" tstamps="/b75b1f95-63e0-4b8c-bd42-383f67f21693/"/>
+      <tstamps>c7b37357-9d4e-45fb-a079-5f06a7537f96</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>8.2k / 1%</value>
+      <footprint>Adapter_F469:R_0805_2012Metric</footprint>
+      <description>Limits comparator sink current; PC6 20kHz PWM, keep low through power-up</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Adapter_F469:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Limits comparator sink current; PC6 20kHz PWM, keep low through power-up</field>
+      </fields>
+      <libsource lib="Adapter_F469" part="R" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value="Backlight / external power"/>
+      <property name="Sheetfile" value="Backlight.kicad_sch"/>
+      <sheetpath names="/Backlight / external power/" tstamps="/b75b1f95-63e0-4b8c-bd42-383f67f21693/"/>
+      <tstamps>7b3d2f94-dcc2-49c0-9952-abdf0aef73d7</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>33k / discharge</value>
+      <footprint>Adapter_F469:R_0805_2012Metric</footprint>
+      <description>27.3mW at 30V; 0.33s nominal RC with 10uF. Not zero volts while input powered.</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Adapter_F469:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">27.3mW at 30V; 0.33s nominal RC with 10uF. Not zero volts while input powered.</field>
+      </fields>
+      <libsource lib="Adapter_F469" part="R" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value="Backlight / external power"/>
+      <property name="Sheetfile" value="Backlight.kicad_sch"/>
+      <sheetpath names="/Backlight / external power/" tstamps="/b75b1f95-63e0-4b8c-bd42-383f67f21693/"/>
+      <tstamps>941f5278-3e41-4cc7-9395-64194c369b53</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>221k / 0.1%</value>
+      <footprint>Adapter_F469:R_0805_2012Metric</footprint>
+      <description>OVP upper divider</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Adapter_F469:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">OVP upper divider</field>
+      </fields>
+      <libsource lib="Adapter_F469" part="R" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value="Backlight / external power"/>
+      <property name="Sheetfile" value="Backlight.kicad_sch"/>
+      <sheetpath names="/Backlight / external power/" tstamps="/b75b1f95-63e0-4b8c-bd42-383f67f21693/"/>
+      <tstamps>0b430164-a57a-4e52-8c59-fb2b419dc310</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>10k / 0.1%</value>
+      <footprint>Adapter_F469:R_0805_2012Metric</footprint>
+      <description>OVP lower divider</description>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Adapter_F469:R_0805_2012Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">OVP lower divider</field>
+      </fields>
+      <libsource lib="Adapter_F469" part="R" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value="Backlight / external power"/>
+      <property name="Sheetfile" value="Backlight.kicad_sch"/>
+      <sheetpath names="/Backlight / external power/" tstamps="/b75b1f95-63e0-4b8c-bd42-383f67f21693/"/>
+      <tstamps>162811c6-9c70-46b3-8b44-1ff07988427c</tstamps>
+    </comp>
+    <comp ref="TP6">
+      <value>BL_CTRL</value>
+      <footprint>Adapter_F469:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Adapter_F469:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Adapter_F469" part="TP" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value="Backlight / external power"/>
+      <property name="Sheetfile" value="Backlight.kicad_sch"/>
+      <sheetpath names="/Backlight / external power/" tstamps="/b75b1f95-63e0-4b8c-bd42-383f67f21693/"/>
+      <tstamps>6929161c-3585-461e-abce-c968df6f3101</tstamps>
+    </comp>
+    <comp ref="TP9">
+      <value>BL_POWER</value>
+      <footprint>Adapter_F469:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Adapter_F469:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Adapter_F469" part="TP" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value="Backlight / external power"/>
+      <property name="Sheetfile" value="Backlight.kicad_sch"/>
+      <sheetpath names="/Backlight / external power/" tstamps="/b75b1f95-63e0-4b8c-bd42-383f67f21693/"/>
+      <tstamps>b60074f4-042e-4f34-bfbb-0e7809f954d0</tstamps>
+    </comp>
+    <comp ref="TP13">
+      <value>BL_LEDA</value>
+      <footprint>Adapter_F469:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Adapter_F469:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Adapter_F469" part="TP" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value="Backlight / external power"/>
+      <property name="Sheetfile" value="Backlight.kicad_sch"/>
+      <sheetpath names="/Backlight / external power/" tstamps="/b75b1f95-63e0-4b8c-bd42-383f67f21693/"/>
+      <tstamps>f699b28f-53da-4ddd-b88c-bbb02d03f114</tstamps>
+    </comp>
+    <comp ref="TP14">
+      <value>BL_LEDK</value>
+      <footprint>Adapter_F469:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Adapter_F469:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Adapter_F469" part="TP" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value="Backlight / external power"/>
+      <property name="Sheetfile" value="Backlight.kicad_sch"/>
+      <sheetpath names="/Backlight / external power/" tstamps="/b75b1f95-63e0-4b8c-bd42-383f67f21693/"/>
+      <tstamps>afc9947c-9832-4918-8a87-393a918fcaa7</tstamps>
+    </comp>
+    <comp ref="TP15">
+      <value>GND</value>
+      <footprint>Adapter_F469:TestPoint_Pad_D1.0mm</footprint>
+      <fields>
+        <field name="MPN"/>
+        <field name="Footprint">Adapter_F469:TestPoint_Pad_D1.0mm</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="Adapter_F469" part="TP" description=""/>
+      <property name="MPN" value=""/>
+      <property name="Sheetname" value="Backlight / external power"/>
+      <property name="Sheetfile" value="Backlight.kicad_sch"/>
+      <sheetpath names="/Backlight / external power/" tstamps="/b75b1f95-63e0-4b8c-bd42-383f67f21693/"/>
+      <tstamps>b200289c-cb22-4a2a-93b7-8a4ca08b1f49</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TPS61165DBVR</value>
+      <footprint>Adapter_F469:SOT-23-6</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps61165.pdf</datasheet>
+      <description>SOT23-6 pinout verified from TI. LEDK to FB; never direct GND.</description>
+      <fields>
+        <field name="MPN">TPS61165DBVR</field>
+        <field name="Footprint">Adapter_F469:SOT-23-6</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps61165.pdf</field>
+        <field name="Description">SOT23-6 pinout verified from TI. LEDK to FB; never direct GND.</field>
+      </fields>
+      <libsource lib="Adapter_F469" part="TPS61165" description=""/>
+      <property name="MPN" value="TPS61165DBVR"/>
+      <property name="Sheetname" value="Backlight / external power"/>
+      <property name="Sheetfile" value="Backlight.kicad_sch"/>
+      <sheetpath names="/Backlight / external power/" tstamps="/b75b1f95-63e0-4b8c-bd42-383f67f21693/"/>
+      <tstamps>59104124-7459-4210-aa71-86e3a49a4d53</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>TLV3011BIDBVR</value>
+      <footprint>Adapter_F469:SOT-23-6</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tlv3011.pdf</datasheet>
+      <description>Open-drain OVP comparator; VCC/C13 now supplied by BL_POWER independently of host 3V3. Nominal 28.69V shutdown request, not a clamp. Primary TI SBOS300 operating/startup/unpowered-OUT limits and open-load peaks still require qualification.</description>
+      <fields>
+        <field name="MPN">TLV3011BIDBVR</field>
+        <field name="Footprint">Adapter_F469:SOT-23-6</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tlv3011.pdf</field>
+        <field name="Description">Open-drain OVP comparator; VCC/C13 now supplied by BL_POWER independently of host 3V3. Nominal 28.69V shutdown request, not a clamp. Primary TI SBOS300 operating/startup/unpowered-OUT limits and open-load peaks still require qualification.</field>
+      </fields>
+      <libsource lib="Adapter_F469" part="TLV3011B" description=""/>
+      <property name="MPN" value="TLV3011BIDBVR"/>
+      <property name="Sheetname" value="Backlight / external power"/>
+      <property name="Sheetfile" value="Backlight.kicad_sch"/>
+      <sheetpath names="/Backlight / external power/" tstamps="/b75b1f95-63e0-4b8c-bd42-383f67f21693/"/>
+      <tstamps>88e70f98-7149-4876-ae09-d35983b45305</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Adapter_F469" part="C">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adapter_F469" part="CN10_FPC25">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CN10_FPC25</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="ID_NC" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="CABC_DISABLE" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="PH7_LCD_RST" type="passive"/>
+        <pin num="6" name="3V3" type="passive"/>
+        <pin num="7" name="GND" type="passive"/>
+        <pin num="8" name="DSI_D0_N" type="passive"/>
+        <pin num="9" name="NC" type="passive"/>
+        <pin num="10" name="DSI_D0_P" type="passive"/>
+        <pin num="11" name="GND" type="passive"/>
+        <pin num="12" name="DSI_CLK_N" type="passive"/>
+        <pin num="13" name="NC" type="passive"/>
+        <pin num="14" name="DSI_CLK_P" type="passive"/>
+        <pin num="15" name="GND" type="passive"/>
+        <pin num="16" name="DSI_D1_N" type="passive"/>
+        <pin num="17" name="NC" type="passive"/>
+        <pin num="18" name="DSI_D1_P" type="passive"/>
+        <pin num="19" name="GND" type="passive"/>
+        <pin num="20" name="NC_ERR" type="passive"/>
+        <pin num="21" name="3V3" type="passive"/>
+        <pin num="22" name="PJ2_TE" type="passive"/>
+        <pin num="23" name="HOST_LED_K_NC" type="passive"/>
+        <pin num="24" name="HOST_LED_A_NC" type="passive"/>
+        <pin num="25" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adapter_F469" part="CN2_FPC6">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">CN2_FPC6</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="HOST_TP_3V3" type="passive"/>
+        <pin num="2" name="PJ5_INT" type="passive"/>
+        <pin num="3" name="PB8_I2C1_SCL" type="passive"/>
+        <pin num="4" name="PB9_I2C1_SDA" type="passive"/>
+        <pin num="5" name="PH7_RESET_NC" type="passive"/>
+        <pin num="6" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adapter_F469" part="D">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adapter_F469" part="DISEN_FPC39">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DISEN_FPC39</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="LEDA" type="passive"/>
+        <pin num="2" name="LEDA" type="passive"/>
+        <pin num="3" name="LEDK" type="passive"/>
+        <pin num="4" name="LEDK" type="passive"/>
+        <pin num="5" name="NC" type="passive"/>
+        <pin num="6" name="NC" type="passive"/>
+        <pin num="7" name="VCI" type="passive"/>
+        <pin num="8" name="VCI" type="passive"/>
+        <pin num="9" name="VCI" type="passive"/>
+        <pin num="10" name="VCI" type="passive"/>
+        <pin num="11" name="GND" type="passive"/>
+        <pin num="12" name="RESET" type="passive"/>
+        <pin num="13" name="TE" type="passive"/>
+        <pin num="14" name="GND" type="passive"/>
+        <pin num="15" name="GND" type="passive"/>
+        <pin num="16" name="D0P" type="passive"/>
+        <pin num="17" name="D0N" type="passive"/>
+        <pin num="18" name="GND" type="passive"/>
+        <pin num="19" name="GND" type="passive"/>
+        <pin num="20" name="D1P" type="passive"/>
+        <pin num="21" name="D1N" type="passive"/>
+        <pin num="22" name="GND" type="passive"/>
+        <pin num="23" name="GND" type="passive"/>
+        <pin num="24" name="CKP" type="passive"/>
+        <pin num="25" name="CKN" type="passive"/>
+        <pin num="26" name="GND" type="passive"/>
+        <pin num="27" name="GND" type="passive"/>
+        <pin num="28" name="GND" type="passive"/>
+        <pin num="29" name="GND" type="passive"/>
+        <pin num="30" name="VDD_TP" type="passive"/>
+        <pin num="31" name="VDD_TP" type="passive"/>
+        <pin num="32" name="I2C_SCL" type="passive"/>
+        <pin num="33" name="I2C_SDA" type="passive"/>
+        <pin num="34" name="RST_TP" type="passive"/>
+        <pin num="35" name="INT_TP" type="passive"/>
+        <pin num="36" name="GND" type="passive"/>
+        <pin num="37" name="GND" type="passive"/>
+        <pin num="38" name="NC" type="passive"/>
+        <pin num="39" name="NC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adapter_F469" part="F">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">F</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adapter_F469" part="L">
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adapter_F469" part="R">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adapter_F469" part="TLV3011B">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLV3011B</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT_OD" type="open_collector"/>
+        <pin num="2" name="V-" type="power_in"/>
+        <pin num="3" name="IN+" type="input"/>
+        <pin num="4" name="IN-" type="input"/>
+        <pin num="5" name="REF" type="output"/>
+        <pin num="6" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adapter_F469" part="TP">
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TP</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adapter_F469" part="TPS61165">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS61165</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="CTRL" type="input"/>
+        <pin num="3" name="SW" type="passive"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="COMP" type="passive"/>
+        <pin num="6" name="FB" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adapter_Interfaces" part="Conn_01x02_Socket">
+      <description>Generic connector, single row, 01x02, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Adapter_F469:JST_NV_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02_Socket</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x02, script generated</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adapter_Interfaces" part="Conn_01x03_Pin">
+      <description>Generic connector, single row, 01x03, script generated</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Adapter_F469:PinHeader_1x03_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Pin</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Generic connector, single row, 01x03, script generated</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Adapter_Interfaces" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">~</field>
+        <field name="Description">Mounting Hole without connection</field>
+      </fields>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Adapter_F469">
+      <uri>/workspace/ai_pcb_design/SingleLCD_RevJ_Placement_P3/Project/Adapter_F469.kicad_sym</uri>
+    </library>
+    <library logical="Adapter_Interfaces">
+      <uri>/workspace/ai_pcb_design/SingleLCD_RevJ_Placement_P3/Project/Adapter_Interfaces.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/Backlight / external power/BL_COMP" class="Default">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="COMP" pintype="passive"/>
+    </net>
+    <net code="2" name="/Backlight / external power/BL_SW" class="Default">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="L1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="SW" pintype="passive"/>
+    </net>
+    <net code="3" name="/Backlight / external power/OVP_SENSE" class="Default">
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="IN-" pintype="input"/>
+    </net>
+    <net code="4" name="BL_5V" class="Default">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="5" name="BL_CTRL" class="Default">
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="TP6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="CTRL" pintype="input"/>
+      <node ref="U2" pin="1" pinfunction="OUT_OD" pintype="open_collector"/>
+    </net>
+    <net code="6" name="BL_LEDA" class="LED_HV">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="LEDA" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="LEDA" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="TP13" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="BL_LEDK" class="LED_HV">
+      <node ref="J2" pin="3" pinfunction="LEDK" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="LEDK" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="TP14" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="8" name="BL_POWER" class="Default">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="L1" pin="1" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="TP9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VIN" pintype="power_in"/>
+      <node ref="U2" pin="6" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="9" name="BL_PWM_RAW" class="Default">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="DSI_CLK_N" class="MIPI_DSI">
+      <node ref="J1" pin="12" pinfunction="DSI_CLK_N" pintype="passive"/>
+      <node ref="J2" pin="25" pinfunction="CKN" pintype="passive"/>
+    </net>
+    <net code="11" name="DSI_CLK_P" class="MIPI_DSI">
+      <node ref="J1" pin="14" pinfunction="DSI_CLK_P" pintype="passive"/>
+      <node ref="J2" pin="24" pinfunction="CKP" pintype="passive"/>
+    </net>
+    <net code="12" name="DSI_D0_N" class="MIPI_DSI">
+      <node ref="J1" pin="8" pinfunction="DSI_D0_N" pintype="passive"/>
+      <node ref="J2" pin="17" pinfunction="D0N" pintype="passive"/>
+    </net>
+    <net code="13" name="DSI_D0_P" class="MIPI_DSI">
+      <node ref="J1" pin="10" pinfunction="DSI_D0_P" pintype="passive"/>
+      <node ref="J2" pin="16" pinfunction="D0P" pintype="passive"/>
+    </net>
+    <net code="14" name="DSI_D1_N" class="MIPI_DSI">
+      <node ref="J1" pin="16" pinfunction="DSI_D1_N" pintype="passive"/>
+      <node ref="J2" pin="21" pinfunction="D1N" pintype="passive"/>
+    </net>
+    <net code="15" name="DSI_D1_P" class="MIPI_DSI">
+      <node ref="J1" pin="18" pinfunction="DSI_D1_P" pintype="passive"/>
+      <node ref="J2" pin="20" pinfunction="D1P" pintype="passive"/>
+    </net>
+    <net code="16" name="EXT_5V" class="Default">
+      <node ref="F2" pin="1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="17" name="FUSED_5V" class="Default">
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="F2" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="GND" class="Default">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="J1" pin="11" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="15" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="19" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="25" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="CABC_DISABLE" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="7" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="11" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="14" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="15" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="18" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="19" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="22" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="23" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="26" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="27" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="28" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="29" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="36" pinfunction="GND" pintype="passive"/>
+      <node ref="J2" pin="37" pinfunction="GND" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="GND" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="TP15" pin="1" pintype="passive"/>
+      <node ref="TP3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="V-" pintype="power_in"/>
+    </net>
+    <net code="19" name="HOST_3V3" class="LOGIC_POWER">
+      <node ref="J1" pin="21" pinfunction="3V3" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="3V3" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="TP1" pin="1" pintype="passive"/>
+    </net>
+    <net code="20" name="HOST_LCD_RST" class="Default">
+      <node ref="J1" pin="5" pinfunction="PH7_LCD_RST" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="HOST_TE" class="Default">
+      <node ref="J1" pin="22" pinfunction="PJ2_TE" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="HOST_TP_3V3" class="Default">
+      <node ref="J3" pin="1" pinfunction="HOST_TP_3V3" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="23" name="HOST_TP_RST" class="Default">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="24" name="LCD_RST" class="Default">
+      <node ref="J2" pin="12" pinfunction="RESET" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="TP4" pin="1" pintype="passive"/>
+    </net>
+    <net code="25" name="LCD_TE" class="Default">
+      <node ref="J2" pin="13" pinfunction="TE" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+    </net>
+    <net code="26" name="LCD_VCI" class="LOGIC_POWER">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="J2" pin="10" pinfunction="VCI" pintype="passive"/>
+      <node ref="J2" pin="7" pinfunction="VCI" pintype="passive"/>
+      <node ref="J2" pin="8" pinfunction="VCI" pintype="passive"/>
+      <node ref="J2" pin="9" pinfunction="VCI" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="TP11" pin="1" pintype="passive"/>
+    </net>
+    <net code="27" name="OVP_REF" class="Default">
+      <node ref="U2" pin="3" pinfunction="IN+" pintype="input"/>
+      <node ref="U2" pin="5" pinfunction="REF" pintype="output"/>
+    </net>
+    <net code="28" name="TP_INT" class="Default">
+      <node ref="J2" pin="35" pinfunction="INT_TP" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="PJ5_INT" pintype="passive"/>
+      <node ref="TP5" pin="1" pintype="passive"/>
+    </net>
+    <net code="29" name="TP_RST" class="Default">
+      <node ref="J2" pin="34" pinfunction="RST_TP" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="TP10" pin="1" pintype="passive"/>
+    </net>
+    <net code="30" name="TP_SCL" class="Default">
+      <node ref="J2" pin="32" pinfunction="I2C_SCL" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="PB8_I2C1_SCL" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="31" name="TP_SDA" class="Default">
+      <node ref="J2" pin="33" pinfunction="I2C_SDA" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="PB9_I2C1_SDA" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="32" name="TP_VDD" class="LOGIC_POWER">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="J2" pin="30" pinfunction="VDD_TP" pintype="passive"/>
+      <node ref="J2" pin="31" pinfunction="VDD_TP" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="TP12" pin="1" pintype="passive"/>
+    </net>
+    <net code="33" name="unconnected-(J1-HOST_LED_A_NC-Pad24)" class="Default">
+      <node ref="J1" pin="24" pinfunction="HOST_LED_A_NC" pintype="passive+no_connect"/>
+    </net>
+    <net code="34" name="unconnected-(J1-HOST_LED_K_NC-Pad23)" class="Default">
+      <node ref="J1" pin="23" pinfunction="HOST_LED_K_NC" pintype="passive+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(J1-ID_NC-Pad1)" class="Default">
+      <node ref="J1" pin="1" pinfunction="ID_NC" pintype="passive+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(J1-NC-Pad9)" class="Default">
+      <node ref="J1" pin="9" pinfunction="NC" pintype="passive+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(J1-NC-Pad13)" class="Default">
+      <node ref="J1" pin="13" pinfunction="NC" pintype="passive+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(J1-NC-Pad17)" class="Default">
+      <node ref="J1" pin="17" pinfunction="NC" pintype="passive+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(J1-NC_ERR-Pad20)" class="Default">
+      <node ref="J1" pin="20" pinfunction="NC_ERR" pintype="passive+no_connect"/>
+    </net>
+    <net code="40" name="unconnected-(J2-NC-Pad5)" class="Default">
+      <node ref="J2" pin="5" pinfunction="NC" pintype="passive+no_connect"/>
+    </net>
+    <net code="41" name="unconnected-(J2-NC-Pad6)" class="Default">
+      <node ref="J2" pin="6" pinfunction="NC" pintype="passive+no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(J2-NC-Pad38)" class="Default">
+      <node ref="J2" pin="38" pinfunction="NC" pintype="passive+no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(J2-NC-Pad39)" class="Default">
+      <node ref="J2" pin="39" pinfunction="NC" pintype="passive+no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(J3-PH7_RESET_NC-Pad5)" class="Default">
+      <node ref="J3" pin="5" pinfunction="PH7_RESET_NC" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

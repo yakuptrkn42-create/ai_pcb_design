@@ -1,0 +1,26 @@
+[
+  {
+    "variant": "A uploaded adjacent bottom-right",
+    "DSI_straight_chord_mean_mm": 22.911366393062522,
+    "DSI_straight_chord_max_mm": 25.058780896125015,
+    "assessment": "Short chord but scattered hot-loop and FB parts; used as baseline."
+  },
+  {
+    "variant": "B opposite left-right",
+    "DSI_straight_chord_mean_mm": 45.5196847612138,
+    "DSI_straight_chord_max_mm": 46.98633444949712,
+    "assessment": "Reject: long cross-board DSI and added skew/tuning burden."
+  },
+  {
+    "variant": "C selected adjacent left-top",
+    "DSI_straight_chord_mean_mm": 24.528849473973846,
+    "DSI_straight_chord_max_mm": 25.862919885426706,
+    "assessment": "Select: dedicated L corridor, touch outside it, boost at lower right."
+  },
+  {
+    "variant": "D same top edge",
+    "DSI_straight_chord_mean_mm": 20.50329008772506,
+    "DSI_straight_chord_max_mm": 22.05,
+    "assessment": "Reject: short chord but touch/rail fanout occupies return-turn region; densely packed FPC edge."
+  }
+]

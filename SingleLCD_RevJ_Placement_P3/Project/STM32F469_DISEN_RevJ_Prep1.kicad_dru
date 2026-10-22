@@ -1,0 +1,38 @@
+(version 1)
+# Nominal stackup only: h=0.100 mm, Cu=0.035 mm, Er=4.2.
+# Manufacturer must confirm finished geometry and 100 ohm differential impedance.
+(rule "DSI conductor and launch width"
+ (condition "A.NetClass == 'MIPI_DSI'")
+ (constraint track_width (min 0.125mm) (opt 0.14mm) (max 0.19mm)))
+(rule "DSI nominal pair gap"
+ (condition "A.NetClass == 'MIPI_DSI'")
+ (constraint diff_pair_gap (opt 0.18mm)))
+(rule "DSI six-conductor PCB skew budget"
+ (condition "A.NetClass == 'MIPI_DSI'")
+ (constraint skew (max 1.0mm)))
+(rule "DSI preliminary PCB conductor length budget"
+ (condition "A.NetClass == 'MIPI_DSI'")
+ (constraint length (max 50mm)))
+(rule "DSI through-via budget per conductor"
+ (condition "A.NetClass == 'MIPI_DSI'")
+ (constraint via_count (max 2)))
+(rule "DSI outer ground pour setback for microstrip model"
+ (condition "A.NetClass == 'MIPI_DSI' && B.Type == 'Zone' && (B.Layer == 'F.Cu' || B.Layer == 'B.Cu')")
+ (constraint clearance (min 0.50mm)))
+# Power neck-down is allowed only at pads, for <=1 mm; review voltage drop manually.
+(rule "5V power tracks"
+ (condition "A.NetClass == 'POWER_5V'")
+ (constraint track_width (min 0.30mm) (opt 0.80mm)))
+(rule "Boost switch tracks"
+ (condition "A.NetClass == 'BOOST_SWITCH'")
+ (constraint track_width (min 0.30mm) (opt 0.60mm)))
+(rule "LED power tracks"
+ (condition "A.NetClass == 'LED_HV'")
+ (constraint track_width (min 0.20mm) (opt 0.40mm)))
+
+# Specific within-pair constraint last: avoid overriding it with global skew.
+
+# Specific within-pair constraint last: avoid overriding it with global skew.
+(rule "DSI intra-pair skew budget"
+ (condition "A.NetClass == 'MIPI_DSI'")
+ (constraint skew (max 0.10mm) (within_diff_pairs)))

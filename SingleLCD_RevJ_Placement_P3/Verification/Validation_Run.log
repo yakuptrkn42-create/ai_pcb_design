@@ -1,0 +1,96 @@
+07:49:24: Debug: Adding duplicate image handler for 'PNG file'
+07:49:24: Debug: Adding duplicate image handler for 'JPEG file'
+07:49:24: Debug: Adding duplicate image handler for 'TIFF file'
+07:49:24: Debug: Adding duplicate image handler for 'GIF file'
+07:49:24: Debug: Adding duplicate image handler for 'PNM file'
+07:49:24: Debug: Adding duplicate image handler for 'PCX file'
+07:49:24: Debug: Adding duplicate image handler for 'IFF file'
+07:49:24: Debug: Adding duplicate image handler for 'Windows icon file'
+07:49:24: Debug: Adding duplicate image handler for 'Windows cursor file'
+07:49:24: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+07:49:24: Debug: Adding duplicate image handler for 'TGA file'
+07:49:24: Debug: Adding duplicate image handler for 'XPM file'
+{
+  "footprints": 53,
+  "circuit_parts": 49,
+  "copper_layers": 4,
+  "board_mm": [
+    55,
+    45
+  ],
+  "thickness_mm": 1.6,
+  "tracks": 0,
+  "vias": 0,
+  "copper_pour_zones": 0,
+  "hardware_rule_areas": 4,
+  "physical_DRC_violations": 0,
+  "unconnected_items_expected_before_routing": 115,
+  "schematic_parity_issues": 0,
+  "ERC_violations": 0,
+  "all_schematic_bytes_preserved": true,
+  "all_component_UUIDs_and_paths_preserved": true,
+  "all_component_values_footprint_IDs_and_pin_nets_match_J_SR1": true,
+  "mounting_hole_positions_preserved": true,
+  "reserved_signal_via_lands_not_actual_vias": 12,
+  "reserved_GND_via_lands_not_actual_vias": 7,
+  "via_candidate_scope": "Pad and edge clearances only; actual routing and return-via placement must be verified during routing",
+  "impedance_scope": "100ohm design target; requires fabricator stackup approval; no routed impedance verified"
+}
+[
+  {
+    "connection": "L1 SW to U1 SW",
+    "before_pad_center_distance_mm": 7.484327374587501,
+    "after_pad_center_distance_mm": 2.407832271982403
+  },
+  {
+    "connection": "D1 anode to U1 SW",
+    "before_pad_center_distance_mm": 6.699545227103095,
+    "after_pad_center_distance_mm": 2.716874353002004
+  },
+  {
+    "connection": "C2 VIN bypass to U1 VIN",
+    "before_pad_center_distance_mm": 2.231346286437875,
+    "after_pad_center_distance_mm": 2.070061895209912
+  },
+  {
+    "connection": "R7 sense to U1 FB",
+    "before_pad_center_distance_mm": 11.163066894899456,
+    "after_pad_center_distance_mm": 1.9780040444852431
+  },
+  {
+    "connection": "C9 COMP to U1 COMP",
+    "before_pad_center_distance_mm": 4.734992740226737,
+    "after_pad_center_distance_mm": 2.130764240830035
+  },
+  {
+    "connection": "C3 output to D1 cathode",
+    "before_pad_center_distance_mm": 5.818128994788613,
+    "after_pad_center_distance_mm": 2.825000000000003
+  }
+]
+[
+  {
+    "variant": "A uploaded adjacent bottom-right",
+    "DSI_straight_chord_mean_mm": 22.911366393062522,
+    "DSI_straight_chord_max_mm": 25.058780896125015,
+    "assessment": "Short chord but scattered hot-loop and FB parts; used as baseline."
+  },
+  {
+    "variant": "B opposite left-right",
+    "DSI_straight_chord_mean_mm": 45.5196847612138,
+    "DSI_straight_chord_max_mm": 46.98633444949712,
+    "assessment": "Reject: long cross-board DSI and added skew/tuning burden."
+  },
+  {
+    "variant": "C selected adjacent left-top",
+    "DSI_straight_chord_mean_mm": 24.528849473973846,
+    "DSI_straight_chord_max_mm": 25.862919885426706,
+    "assessment": "Select: dedicated L corridor, touch outside it, boost at lower right."
+  },
+  {
+    "variant": "D same top edge",
+    "DSI_straight_chord_mean_mm": 20.50329008772506,
+    "DSI_straight_chord_max_mm": 22.05,
+    "assessment": "Reject: short chord but touch/rail fanout occupies return-turn region; densely packed FPC edge."
+  }
+]

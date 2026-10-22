@@ -1,3 +1,23 @@
+# Güncel PCB yerleşimi — J-SR1 / Placement P3
+
+**Placement tamamlandı; routing yapılmadı.** Son J-SR1 şematiği korunarak 55 × 45 mm / dört katmanlı kart yeniden yerleştirildi. J1 sol, J2/J3 üst kenara alındı; DSI için açık L koridoru ve sağ altta kompakt TPS61165 bloğu oluşturuldu. Dört montaj deliği aynı konumda kaldı.
+
+- [Doğrudan indir — P3 KiCad ZIP](https://github.com/yakuptrkn42-create/ai_pcb_design/raw/refs/heads/main/STM32F469_DISEN_RevJ_Placement_P3.zip)
+- [Yerleşim incelemesi — dört sayfalık PDF](SingleLCD_RevJ_Placement_P3/PDF/Placement_P3_Review_TR.pdf)
+- [Düzenlenebilir KiCad projesi](SingleLCD_RevJ_Placement_P3/Project/) · [Açılış ve kapsam](SingleLCD_RevJ_Placement_P3/README_TR.md)
+- [Routing alanı ve via adayları](SingleLCD_RevJ_Placement_P3/Views/Routing_Plan.png) · [Routing devir notları](SingleLCD_RevJ_Placement_P3/Engineering/ROUTING_HANDOFF_TR.md)
+- [Doğrulama özeti](SingleLCD_RevJ_Placement_P3/Verification/Validation_Summary.json) · [Taşınabilir proje kontrolü](SingleLCD_RevJ_Placement_P3/Verification/Portable_Check.json)
+
+**0 fiziksel DRC ihlali / 0 parity farkı / ERC 0 hata ve 0 uyarı.** Kartta 0 iz, 0 via ve 0 bakır dolgu var; montaj donanımı için dört keepout/rule area var. Routing yapılmadığı için 115 bağlantısız öğe kaydı beklenir. Üç şematik dosyası byte düzeyinde değişmedi; komponent değerleri, footprint kimlikleri ve pin bağlantıları J-SR1 ile eşleşir.
+
+100 Ω ve iz/skew/via bütçeleri tasarım hedefleridir; üretici stackup'ı ve gerçek routing ile doğrulanmalıdır. İç GND katmanları henüz boş. FPC modelleri nominal; J6 gövdesinin 3D modeli yok. Exact kablo/kasa uyumu fiziksel teyit gerektirir. Bu paket üretim çıktısı değildir; aşağıdaki eski routing teslimleri P3'e uygulanmaz.
+
+ZIP'i tamamen çıkarıp `SingleLCD_RevJ_Placement_P3/Project/STM32F469_DISEN_RevJ_Prep1.kicad_pro` dosyasını KiCad 9 ile açın.
+
+![P3 — native KiCad 3D](SingleLCD_RevJ_Placement_P3/Views/PCB_3D.png)
+
+---
+
 # Yeni şematik inceleme — J-SR1
 
 - [KiCad proje paketini indir — ZIP](STM32F469_DISEN_J_SR1_Schematic_Review.zip?raw=true)

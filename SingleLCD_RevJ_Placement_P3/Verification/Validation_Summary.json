@@ -1,0 +1,26 @@
+{
+  "footprints": 53,
+  "circuit_parts": 49,
+  "copper_layers": 4,
+  "board_mm": [
+    55,
+    45
+  ],
+  "thickness_mm": 1.6,
+  "tracks": 0,
+  "vias": 0,
+  "copper_pour_zones": 0,
+  "hardware_rule_areas": 4,
+  "physical_DRC_violations": 0,
+  "unconnected_items_expected_before_routing": 115,
+  "schematic_parity_issues": 0,
+  "ERC_violations": 0,
+  "all_schematic_bytes_preserved": true,
+  "all_component_UUIDs_and_paths_preserved": true,
+  "all_component_values_footprint_IDs_and_pin_nets_match_J_SR1": true,
+  "mounting_hole_positions_preserved": true,
+  "reserved_signal_via_lands_not_actual_vias": 12,
+  "reserved_GND_via_lands_not_actual_vias": 7,
+  "via_candidate_scope": "Pad and edge clearances only; actual routing and return-via placement must be verified during routing",
+  "impedance_scope": "100ohm design target; requires fabricator stackup approval; no routed impedance verified"
+}

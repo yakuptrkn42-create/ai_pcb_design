@@ -1,0 +1,12 @@
+# P3 routing devir notları
+
+1. Önce üreticiyle nominal dört katman kesitini kesinleştirin. F.Cu altında In1.Cu, B.Cu altında In2.Cu GND; her iki DSI güzergâhının altında GND bölünmesi olmayacak. Montaj keepout'ları DSI alanının dışındadır.
+2. J1/J2 fanout'larını ve GND geçişlerini çözün. Aday land koordinatları `Verification/Via_Land_Candidates.json` içindedir. 0,60/0,30mm via daireleri için pad/kenar boşlukları kontrol edildi; aralarında iletkenlerin tamamının çizilmiş olduğu anlamına gelmez. GND via hedefleri son routingde ayarlanabilir.
+3. D0'ın ana bölümü F.Cu, CLK/D1'in ana bölümleri B.Cu olacak şekilde planlandı. D0 için J2 yakınında eşlenmiş F↔B fanout; diğer çiftlerde J1 ve J2 uçlarında geçişler. Başlangıç hedefi her iletkende ≤2 via; gerçek sayı henüz 0. Çift içinde via sayıları ve antipad/return koşulları eşleştirilmeli.
+4. MIPI: nominal 0,14mm / 0,18mm; çift içi skew ≤0,10mm, altı iletken arası hedef ≤1mm, PCB iletkeni ≤50mm. Bunlar kayıtlı bütçelerdir; ölçülmüş iz değerleri değildir. Intra-pair özel kural global skew kuralından sonra uygulanır. FPC/konektör ve host uzunlukları PCB bütçesine dahil değildir.
+5. U1.3–L1.2–D1.2 SW bakırını küçük tutun. D1.1–C3/C4 pozitif ve kapasitör GND–U1.4 dönüşünü kompakt kapatın. SW altında/yanında COMP, FB, OVP ve DSI taşımayın. L1/C1 giriş ve C2 VIN bypass konumlarını koruyun.
+6. J2 LEDK yük akımı R7.1'e, FB ise bu noktadan ayrı kısa Kelvin koluyla U1.6'ya gitsin. R7.2 dönüşünü U1 yerel GND referansıyla bağlayın; yük akımını FB dalından geçirmeyin. TP14 bir GND test noktası değildir.
+7. J6.1→F2→D3→R12→C1/L1/U1 VIN için 0,8mm ana 5V yolu hedefleyin. SW 0,6mm, LEDA/LEDK ana yolları 0,4mm, logic power 0,3mm. Yalnız pad yaklaşımında kısa daralma; gerekirse alt yüz yardımcı güç güzergâhını DSI alanının dışında tutun.
+8. LCD/touch besleme ve düşük hızlı kontroller DSI için ayrılan ana alanı daraltmayacak şekilde kenarlardan/diğer yüzden geçirilmelidir. R1/R2 DNP kalır. C6 ve C8 yakın konumlarını koruyun; bus kapasitesi/rise-time kabloyla ölçülür.
+9. J1/J2/J3 kablo insertion alanlarına parça koymayın. H1–H4 çevresinde nominal Ø8mm donanım keepout'ları var. Via adayları ve FPC kontağının altında kalabilecek geçişlerde tenting/proses ve kablo mekanik teyidi gerekir.
+10. Tam routingden sonra zone fill, DRC/unc bağlantı/parity, gerçek çift boyları ve via sayısı, referans sürekliliği, 3D mekanik, CAM ve dummy-load güç testleri yeniden kontrol edilir. Bu teslimde Gerber/drill veya üretim onayı verilmez.

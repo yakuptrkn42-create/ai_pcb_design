@@ -1,0 +1,32 @@
+[
+  {
+    "ref": "H4",
+    "old": "MountingHole:MountingHole_3.5mm",
+    "new": "Adapter_F469:MountingHole_3.5mm"
+  },
+  {
+    "ref": "J4",
+    "old": "Connector:FanPinHeader_1x03_P2.54mm_Vertical",
+    "new": "Adapter_F469:PinHeader_1x03_P2.54mm_Vertical"
+  },
+  {
+    "ref": "J6",
+    "old": "Connector_JST:JST_NV_B02P-NV_1x02_P5.00mm_Vertical",
+    "new": "Adapter_F469:JST_NV_B02P-NV_1x02_P5.00mm_Vertical"
+  },
+  {
+    "ref": "H3",
+    "old": "MountingHole:MountingHole_3.5mm",
+    "new": "Adapter_F469:MountingHole_3.5mm"
+  },
+  {
+    "ref": "H2",
+    "old": "MountingHole:MountingHole_3.5mm",
+    "new": "Adapter_F469:MountingHole_3.5mm"
+  },
+  {
+    "ref": "H1",
+    "old": "MountingHole:MountingHole_3.5mm",
+    "new": "Adapter_F469:MountingHole_3.5mm"
+  }
+]

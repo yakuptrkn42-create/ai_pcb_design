@@ -1,0 +1,426 @@
+[
+  {
+    "ref": "C1",
+    "x_mm": 41.0,
+    "y_mm": 39.0,
+    "rotation_deg": -90.0,
+    "side": "F.Cu",
+    "value": "10uF / 16V"
+  },
+  {
+    "ref": "C13",
+    "x_mm": 33.5,
+    "y_mm": 19.700000000000003,
+    "rotation_deg": 90.0,
+    "side": "F.Cu",
+    "value": "100nF / 10V"
+  },
+  {
+    "ref": "C2",
+    "x_mm": 38.0,
+    "y_mm": 25.900000000000006,
+    "rotation_deg": 90.0,
+    "side": "F.Cu",
+    "value": "100nF / 16V"
+  },
+  {
+    "ref": "C3",
+    "x_mm": 48.5,
+    "y_mm": 21.900000000000006,
+    "rotation_deg": 90.0,
+    "side": "F.Cu",
+    "value": "10uF / 50V / X7R"
+  },
+  {
+    "ref": "C4",
+    "x_mm": 44.80000000000001,
+    "y_mm": 23.099999999999994,
+    "rotation_deg": 180.0,
+    "side": "F.Cu",
+    "value": "100nF / 50V"
+  },
+  {
+    "ref": "C5",
+    "x_mm": 31.599999999999994,
+    "y_mm": 8.299999999999997,
+    "rotation_deg": -90.0,
+    "side": "F.Cu",
+    "value": "4.7uF / 10V"
+  },
+  {
+    "ref": "C6",
+    "x_mm": 28.80000000000001,
+    "y_mm": 8.299999999999997,
+    "rotation_deg": -90.0,
+    "side": "F.Cu",
+    "value": "100nF / 10V"
+  },
+  {
+    "ref": "C7",
+    "x_mm": 18.900000000000006,
+    "y_mm": 8.200000000000003,
+    "rotation_deg": -90.0,
+    "side": "F.Cu",
+    "value": "1uF / 10V"
+  },
+  {
+    "ref": "C8",
+    "x_mm": 21.80000000000001,
+    "y_mm": 8.200000000000003,
+    "rotation_deg": -90.0,
+    "side": "F.Cu",
+    "value": "100nF / 10V"
+  },
+  {
+    "ref": "C9",
+    "x_mm": 41.69999999999999,
+    "y_mm": 21.900000000000006,
+    "rotation_deg": 90.0,
+    "side": "F.Cu",
+    "value": "220nF / 16V"
+  },
+  {
+    "ref": "D1",
+    "x_mm": 46.5,
+    "y_mm": 26.200000000000003,
+    "rotation_deg": 180.0,
+    "side": "F.Cu",
+    "value": "SS16 / 60V 1A"
+  },
+  {
+    "ref": "D3",
+    "x_mm": 33.5,
+    "y_mm": 29.0,
+    "rotation_deg": 180.0,
+    "side": "F.Cu",
+    "value": "SS14 / reverse block"
+  },
+  {
+    "ref": "F2",
+    "x_mm": 27.5,
+    "y_mm": 31.0,
+    "rotation_deg": 90.0,
+    "side": "F.Cu",
+    "value": "0.75A hold / >=6V"
+  },
+  {
+    "ref": "H1",
+    "x_mm": 5.0,
+    "y_mm": 5.0,
+    "rotation_deg": 0.0,
+    "side": "F.Cu",
+    "value": "MountingHole"
+  },
+  {
+    "ref": "H2",
+    "x_mm": 50.0,
+    "y_mm": 5.0,
+    "rotation_deg": 0.0,
+    "side": "F.Cu",
+    "value": "MountingHole"
+  },
+  {
+    "ref": "H3",
+    "x_mm": 5.0,
+    "y_mm": 40.0,
+    "rotation_deg": 0.0,
+    "side": "F.Cu",
+    "value": "MountingHole"
+  },
+  {
+    "ref": "H4",
+    "x_mm": 50.0,
+    "y_mm": 40.0,
+    "rotation_deg": 0.0,
+    "side": "F.Cu",
+    "value": "MountingHole"
+  },
+  {
+    "ref": "J1",
+    "x_mm": 4.0,
+    "y_mm": 19.0,
+    "rotation_deg": -90.0,
+    "side": "F.Cu",
+    "value": "FH26W-25S-0.3SHW(60)"
+  },
+  {
+    "ref": "J2",
+    "x_mm": 25.0,
+    "y_mm": 4.0,
+    "rotation_deg": 180.0,
+    "side": "F.Cu",
+    "value": "FH26-39S-0.3SHW"
+  },
+  {
+    "ref": "J3",
+    "x_mm": 13.5,
+    "y_mm": 4.0,
+    "rotation_deg": 180.0,
+    "side": "F.Cu",
+    "value": "FH19C-6S-0.5SH(10)"
+  },
+  {
+    "ref": "J4",
+    "x_mm": 12.0,
+    "y_mm": 39.0,
+    "rotation_deg": 90.0,
+    "side": "F.Cu",
+    "value": "HOST CTRL / 1=PC6 2=PB12 3=GND"
+  },
+  {
+    "ref": "J6",
+    "x_mm": 29.0,
+    "y_mm": 38.0,
+    "rotation_deg": 0.0,
+    "side": "F.Cu",
+    "value": "EXT 5V / 1=+5V 2=GND"
+  },
+  {
+    "ref": "L1",
+    "x_mm": 41.0,
+    "y_mm": 32.5,
+    "rotation_deg": 90.0,
+    "side": "F.Cu",
+    "value": "22uH / shielded"
+  },
+  {
+    "ref": "R1",
+    "x_mm": 16.0,
+    "y_mm": 11.299999999999997,
+    "rotation_deg": 0.0,
+    "side": "F.Cu",
+    "value": "4.7k / DNP"
+  },
+  {
+    "ref": "R12",
+    "x_mm": 33.5,
+    "y_mm": 32.0,
+    "rotation_deg": 180.0,
+    "side": "F.Cu",
+    "value": "0R / isolation"
+  },
+  {
+    "ref": "R13",
+    "x_mm": 38.0,
+    "y_mm": 17.5,
+    "rotation_deg": 0.0,
+    "side": "F.Cu",
+    "value": "8.2k / 1%"
+  },
+  {
+    "ref": "R14",
+    "x_mm": 21.0,
+    "y_mm": 14.5,
+    "rotation_deg": 0.0,
+    "side": "F.Cu",
+    "value": "10k"
+  },
+  {
+    "ref": "R15",
+    "x_mm": 28.80000000000001,
+    "y_mm": 12.099999999999994,
+    "rotation_deg": 90.0,
+    "side": "F.Cu",
+    "value": "100R"
+  },
+  {
+    "ref": "R16",
+    "x_mm": 31.5,
+    "y_mm": 15.5,
+    "rotation_deg": 0.0,
+    "side": "F.Cu",
+    "value": "0R"
+  },
+  {
+    "ref": "R17",
+    "x_mm": 31.599999999999994,
+    "y_mm": 12.099999999999994,
+    "rotation_deg": 90.0,
+    "side": "F.Cu",
+    "value": "10k"
+  },
+  {
+    "ref": "R18",
+    "x_mm": 48.0,
+    "y_mm": 29.5,
+    "rotation_deg": 0.0,
+    "side": "F.Cu",
+    "value": "33k / discharge"
+  },
+  {
+    "ref": "R19",
+    "x_mm": 32.5,
+    "y_mm": 24.5,
+    "rotation_deg": 90.0,
+    "side": "F.Cu",
+    "value": "221k / 0.1%"
+  },
+  {
+    "ref": "R2",
+    "x_mm": 19.80000000000001,
+    "y_mm": 11.299999999999997,
+    "rotation_deg": 0.0,
+    "side": "F.Cu",
+    "value": "4.7k / DNP"
+  },
+  {
+    "ref": "R20",
+    "x_mm": 29.5,
+    "y_mm": 24.5,
+    "rotation_deg": -90.0,
+    "side": "F.Cu",
+    "value": "10k / 0.1%"
+  },
+  {
+    "ref": "R3",
+    "x_mm": 17.0,
+    "y_mm": 14.5,
+    "rotation_deg": 0.0,
+    "side": "F.Cu",
+    "value": "100R"
+  },
+  {
+    "ref": "R4",
+    "x_mm": 34.5,
+    "y_mm": 8.299999999999997,
+    "rotation_deg": -90.0,
+    "side": "F.Cu",
+    "value": "0R"
+  },
+  {
+    "ref": "R5",
+    "x_mm": 16.0,
+    "y_mm": 8.200000000000003,
+    "rotation_deg": -90.0,
+    "side": "F.Cu",
+    "value": "0R"
+  },
+  {
+    "ref": "R6",
+    "x_mm": 34.80000000000001,
+    "y_mm": 23.599999999999994,
+    "rotation_deg": 90.0,
+    "side": "F.Cu",
+    "value": "100k"
+  },
+  {
+    "ref": "R7",
+    "x_mm": 39.5,
+    "y_mm": 22.049999999999997,
+    "rotation_deg": 90.0,
+    "side": "F.Cu",
+    "value": "5.23R / 1%"
+  },
+  {
+    "ref": "TP1",
+    "x_mm": 36.5,
+    "y_mm": 11.0,
+    "rotation_deg": 0.0,
+    "side": "F.Cu",
+    "value": "HOST_3V3"
+  },
+  {
+    "ref": "TP10",
+    "x_mm": 13.199998999999991,
+    "y_mm": 13.5,
+    "rotation_deg": 0.0,
+    "side": "F.Cu",
+    "value": "TP_RST"
+  },
+  {
+    "ref": "TP11",
+    "x_mm": 34.80000000000001,
+    "y_mm": 12.5,
+    "rotation_deg": 0.0,
+    "side": "F.Cu",
+    "value": "LCD_VCI"
+  },
+  {
+    "ref": "TP12",
+    "x_mm": 12.800000000000011,
+    "y_mm": 9.5,
+    "rotation_deg": 0.0,
+    "side": "F.Cu",
+    "value": "TP_VDD"
+  },
+  {
+    "ref": "TP13",
+    "x_mm": 51.5,
+    "y_mm": 24.5,
+    "rotation_deg": 0.0,
+    "side": "F.Cu",
+    "value": "BL_LEDA"
+  },
+  {
+    "ref": "TP14",
+    "x_mm": 37.0,
+    "y_mm": 22.0,
+    "rotation_deg": 0.0,
+    "side": "F.Cu",
+    "value": "BL_LEDK"
+  },
+  {
+    "ref": "TP15",
+    "x_mm": 48.0,
+    "y_mm": 33.0,
+    "rotation_deg": 0.0,
+    "side": "F.Cu",
+    "value": "GND"
+  },
+  {
+    "ref": "TP3",
+    "x_mm": 24.0,
+    "y_mm": 25.0,
+    "rotation_deg": 0.0,
+    "side": "F.Cu",
+    "value": "GND"
+  },
+  {
+    "ref": "TP4",
+    "x_mm": 35.0,
+    "y_mm": 15.5,
+    "rotation_deg": 0.0,
+    "side": "F.Cu",
+    "value": "LCD_RST"
+  },
+  {
+    "ref": "TP5",
+    "x_mm": 9.5,
+    "y_mm": 9.5,
+    "rotation_deg": 0.0,
+    "side": "F.Cu",
+    "value": "TP_INT"
+  },
+  {
+    "ref": "TP6",
+    "x_mm": 26.5,
+    "y_mm": 25.0,
+    "rotation_deg": 0.0,
+    "side": "F.Cu",
+    "value": "BL_CTRL"
+  },
+  {
+    "ref": "TP9",
+    "x_mm": 44.0,
+    "y_mm": 41.0,
+    "rotation_deg": 0.0,
+    "side": "F.Cu",
+    "value": "BL_POWER"
+  },
+  {
+    "ref": "U1",
+    "x_mm": 41.0,
+    "y_mm": 26.0,
+    "rotation_deg": 90.0,
+    "side": "F.Cu",
+    "value": "TPS61165DBVR"
+  },
+  {
+    "ref": "U2",
+    "x_mm": 30.0,
+    "y_mm": 20.5,
+    "rotation_deg": 0.0,
+    "side": "F.Cu",
+    "value": "TLV3011BIDBVR"
+  }
+]
