@@ -1,0 +1,9 @@
+ERC report (2026-10-22T09:23:14+0000, Encoding UTF8)
+
+***** Sheet /
+
+***** Sheet /Logic power & touch/
+
+***** Sheet /Backlight / external power/
+
+ ** ERC messages: 0  Errors 0  Warnings 0

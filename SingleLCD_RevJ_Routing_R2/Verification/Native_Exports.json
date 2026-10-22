@@ -1,0 +1,264 @@
+[
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "drc",
+      "--schematic-parity",
+      "--exit-code-violations",
+      "-o",
+      "/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Verification/DRC_Final.txt",
+      "/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Project/STM32F469_DISEN_RevJ_Prep1.kicad_pcb"
+    ],
+    "exit_code": 0,
+    "stdout": "Found 0 violations\nFound 0 unconnected items\nFound 0 schematic parity issues\nSaved DRC Report to /workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Verification/DRC_Final.txt\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "sch",
+      "erc",
+      "--exit-code-violations",
+      "-o",
+      "/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Verification/ERC_Final.txt",
+      "/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Project/STM32F469_DISEN_RevJ_Prep1.kicad_sch"
+    ],
+    "exit_code": 0,
+    "stdout": "Checking sheet names...\nChecking bus conflicts...\nChecking conflicts...\nChecking units...\nChecking footprints...\nChecking pins...\nChecking similar labels...\nChecking local and global labels...\nChecking for unresolved variables...\nChecking no connect pins for connections...\nChecking for library symbol issues...\nChecking for footprint link issues...\nChecking footprint assignments against footprint filters...\nChecking for off grid pins and wires...\nChecking for four way junctions...\nChecking for labels on more than one wire...\nChecking for undefined netclasses...\nFound 0 violations\nSaved ERC Report to /workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Verification/ERC_Final.txt\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "sch",
+      "export",
+      "pdf",
+      "-o",
+      "/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/PDF/Schematic_R2.pdf",
+      "/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Project/STM32F469_DISEN_RevJ_Prep1.kicad_sch"
+    ],
+    "exit_code": 0,
+    "stdout": "Plotted to '/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/PDF/Schematic_R2.pdf'.\nDone.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "export",
+      "svg",
+      "--mode-single",
+      "--layers",
+      "F.Cu,F.Silkscreen,Edge.Cuts",
+      "--fit-page-to-board",
+      "--exclude-drawing-sheet",
+      "-o",
+      "/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Views/Top.svg",
+      "/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Project/STM32F469_DISEN_RevJ_Prep1.kicad_pcb"
+    ],
+    "exit_code": 0,
+    "stdout": "Plotted to '/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Views/Top.svg'.\nDone.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "inkscape",
+      "/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Views/Top.svg",
+      "--export-area-drawing",
+      "--export-width=1800",
+      "--export-filename=/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Views/Top.png"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "\n** (inkscape:18248): WARNING **: 09:23:19.353: Failed to wrap object of type 'PangoFT2FontMap'. Hint: this error is commonly caused by failing to call a library init() function.\n\n** (inkscape:18248): WARNING **: 09:23:19.735: Failed to wrap object of type 'GtkRecentManager'. Hint: this error is commonly caused by failing to call a library init() function.\n"
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "export",
+      "svg",
+      "--mode-single",
+      "--layers",
+      "B.Cu,B.Silkscreen,Edge.Cuts",
+      "--fit-page-to-board",
+      "--exclude-drawing-sheet",
+      "-o",
+      "/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Views/Bottom.svg",
+      "/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Project/STM32F469_DISEN_RevJ_Prep1.kicad_pcb"
+    ],
+    "exit_code": 0,
+    "stdout": "Plotted to '/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Views/Bottom.svg'.\nDone.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "inkscape",
+      "/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Views/Bottom.svg",
+      "--export-area-drawing",
+      "--export-width=1800",
+      "--export-filename=/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Views/Bottom.png"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "\n** (inkscape:18261): WARNING **: 09:23:21.613: Failed to wrap object of type 'PangoFT2FontMap'. Hint: this error is commonly caused by failing to call a library init() function.\n\n** (inkscape:18261): WARNING **: 09:23:21.898: Failed to wrap object of type 'GtkRecentManager'. Hint: this error is commonly caused by failing to call a library init() function.\n"
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "export",
+      "svg",
+      "--mode-single",
+      "--layers",
+      "In1.Cu,Edge.Cuts",
+      "--fit-page-to-board",
+      "--exclude-drawing-sheet",
+      "-o",
+      "/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Views/In1_GND.svg",
+      "/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Project/STM32F469_DISEN_RevJ_Prep1.kicad_pcb"
+    ],
+    "exit_code": 0,
+    "stdout": "Plotted to '/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Views/In1_GND.svg'.\nDone.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "inkscape",
+      "/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Views/In1_GND.svg",
+      "--export-area-drawing",
+      "--export-width=1800",
+      "--export-filename=/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Views/In1_GND.png"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "\n** (inkscape:18274): WARNING **: 09:23:24.502: Failed to wrap object of type 'PangoFT2FontMap'. Hint: this error is commonly caused by failing to call a library init() function.\n\n** (inkscape:18274): WARNING **: 09:23:24.856: Failed to wrap object of type 'GtkRecentManager'. Hint: this error is commonly caused by failing to call a library init() function.\n"
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "export",
+      "svg",
+      "--mode-single",
+      "--layers",
+      "In2.Cu,Edge.Cuts",
+      "--fit-page-to-board",
+      "--exclude-drawing-sheet",
+      "-o",
+      "/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Views/In2_GND.svg",
+      "/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Project/STM32F469_DISEN_RevJ_Prep1.kicad_pcb"
+    ],
+    "exit_code": 0,
+    "stdout": "Plotted to '/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Views/In2_GND.svg'.\nDone.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "inkscape",
+      "/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Views/In2_GND.svg",
+      "--export-area-drawing",
+      "--export-width=1800",
+      "--export-filename=/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Views/In2_GND.png"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "\n** (inkscape:18287): WARNING **: 09:23:27.377: Failed to wrap object of type 'PangoFT2FontMap'. Hint: this error is commonly caused by failing to call a library init() function.\n\n** (inkscape:18287): WARNING **: 09:23:27.932: Failed to wrap object of type 'GtkRecentManager'. Hint: this error is commonly caused by failing to call a library init() function.\n"
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "export",
+      "svg",
+      "--mode-single",
+      "--layers",
+      "F.Fab,Edge.Cuts",
+      "--fit-page-to-board",
+      "--exclude-drawing-sheet",
+      "-o",
+      "/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Views/Assembly.svg",
+      "/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Project/STM32F469_DISEN_RevJ_Prep1.kicad_pcb"
+    ],
+    "exit_code": 0,
+    "stdout": "Plotted to '/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Views/Assembly.svg'.\nDone.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "inkscape",
+      "/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Views/Assembly.svg",
+      "--export-area-drawing",
+      "--export-width=1800",
+      "--export-filename=/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Views/Assembly.png"
+    ],
+    "exit_code": 0,
+    "stdout": "",
+    "stderr": "\n** (inkscape:18314): WARNING **: 09:23:31.414: Failed to wrap object of type 'PangoFT2FontMap'. Hint: this error is commonly caused by failing to call a library init() function.\n\n** (inkscape:18314): WARNING **: 09:23:31.875: Failed to wrap object of type 'GtkRecentManager'. Hint: this error is commonly caused by failing to call a library init() function.\n"
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "export",
+      "gerbers",
+      "--layers",
+      "F.Cu,In1.Cu,In2.Cu,B.Cu,F.Mask,B.Mask,F.Silkscreen,B.Silkscreen,F.Paste,B.Paste,Edge.Cuts",
+      "--subtract-soldermask",
+      "-o",
+      "/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Manufacturing/Gerber/",
+      "/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Project/STM32F469_DISEN_RevJ_Prep1.kicad_pcb"
+    ],
+    "exit_code": 0,
+    "stdout": "Plotted to '/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Manufacturing/Gerber/STM32F469_DISEN_RevJ_Prep1-F_Cu.gtl'.\nPlotted to '/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Manufacturing/Gerber/STM32F469_DISEN_RevJ_Prep1-In1_Cu.g1'.\nPlotted to '/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Manufacturing/Gerber/STM32F469_DISEN_RevJ_Prep1-In2_Cu.g2'.\nPlotted to '/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Manufacturing/Gerber/STM32F469_DISEN_RevJ_Prep1-B_Cu.gbl'.\nPlotted to '/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Manufacturing/Gerber/STM32F469_DISEN_RevJ_Prep1-F_Paste.gtp'.\nPlotted to '/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Manufacturing/Gerber/STM32F469_DISEN_RevJ_Prep1-B_Paste.gbp'.\nPlotted to '/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Manufacturing/Gerber/STM32F469_DISEN_RevJ_Prep1-F_Silkscreen.gto'.\nPlotted to '/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Manufacturing/Gerber/STM32F469_DISEN_RevJ_Prep1-B_Silkscreen.gbo'.\nPlotted to '/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Manufacturing/Gerber/STM32F469_DISEN_RevJ_Prep1-F_Mask.gts'.\nPlotted to '/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Manufacturing/Gerber/STM32F469_DISEN_RevJ_Prep1-B_Mask.gbs'.\nPlotted to '/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Manufacturing/Gerber/STM32F469_DISEN_RevJ_Prep1-Edge_Cuts.gm1'.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "export",
+      "drill",
+      "--format",
+      "excellon",
+      "--drill-origin",
+      "absolute",
+      "--excellon-units",
+      "mm",
+      "--excellon-separate-th",
+      "--generate-map",
+      "--map-format",
+      "pdf",
+      "-o",
+      "/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Manufacturing/Drill/",
+      "/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Project/STM32F469_DISEN_RevJ_Prep1.kicad_pcb"
+    ],
+    "exit_code": 0,
+    "stdout": "Created file '/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Manufacturing/Drill/STM32F469_DISEN_RevJ_Prep1-PTH.drl'\nCreated file '/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Manufacturing/Drill/STM32F469_DISEN_RevJ_Prep1-NPTH.drl'\nCreated file '/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Manufacturing/Drill/STM32F469_DISEN_RevJ_Prep1-PTH-drl_map.pdf'.\nCreated file '/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Manufacturing/Drill/STM32F469_DISEN_RevJ_Prep1-NPTH-drl_map.pdf'.\nDone.\n",
+    "stderr": ""
+  },
+  {
+    "command": [
+      "kicad-cli",
+      "pcb",
+      "render",
+      "--quality",
+      "high",
+      "--width",
+      "1800",
+      "--height",
+      "1300",
+      "--background",
+      "opaque",
+      "--rotate",
+      "325,0,25",
+      "-o",
+      "/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Views/PCB_3D.png",
+      "/workspace/ai_pcb_design/SingleLCD_RevJ_Routing_R2/Project/STM32F469_DISEN_RevJ_Prep1.kicad_pcb"
+    ],
+    "exit_code": 0,
+    "stdout": "Loading\u2026\nBuild board outline\n\nCreate layers\nCreate tracks and vias\nCreate zones\nBuild Tech layers\nBuild Tech layer 11\nBuild Tech layer 9\nBuild Tech layer 15\nBuild Tech layer 13\nBuild Tech layer 7\nBuild Tech layer 5\nBuild Tech layer 3\nBuild Tech layer 1\nBuild Tech layer 17\nBuild Tech layer 19\nBuild Tech layer 21\nBuild Tech layer 23\nBuild Tech layer 39\nBuild Tech layer 41\nBuild Tech layer 43\nBuild Tech layer 45\nBuild Tech layer 47\nBuild Tech layer 49\nBuild Tech layer 51\nBuild Tech layer 53\nBuild Tech layer 55\nBuild Tech layer 57\nBuild Tech layer 59\nBuild Tech layer 61\nBuild Tech layer 63\nBuild Tech layer 65\nBuild Tech layer 67\nBuild Tech layer 69\nBuild Tech layer 71\nBuild Tech layer 73\nBuild Tech layer 75\nBuild Tech layer 77\nBuild Tech layer 79\nBuild Tech layer 81\nBuild Tech layer 83\nBuild Tech layer 85\nBuild Tech layer 87\nBuild Tech layer 89\nBuild Tech layer 91\nBuild Tech layer 93\nBuild Tech layer 95\nBuild Tech layer 97\nBuild Tech layer 99\nBuild Tech layer 101\nBuild Tech layer 103\nBuild Tech layer 105\nBuild Tech layer 107\nBuild Tech layer 109\nBuild Tech layer 111\nBuild Tech layer 113\nBuild Tech layer 115\nBuild Tech layer 117\nBuild Tech layer 119\nBuild Tech layer 121\nBuild Tech layer 123\nBuild Tech layer 125\nBuild Tech layer 127\nSimplifying copper layer polygons\nCalculating plated copper\nSimplify holes contours\nBuild BVH for holes and vias\nLoad Raytracing: board\nLoad Raytracing: layers\nLoading 3D models...\nReload time 2.068 s\nRendering: 1 %\nRendering: 2 %\nRendering: 3 %\nRendering: 4 %\nRendering: 5 %\nRendering: 6 %\nRendering: 6 %\nRendering: 7 %\nRendering: 7 %\nRendering: 8 %\nRendering: 9 %\nRendering: 9 %\nRendering: 11 %\nRendering: 12 %\nRendering: 12 %\nRendering: 13 %\nRendering: 13 %\nRendering: 14 %\nRendering: 14 %\nRendering: 15 %\nRendering: 15 %\nRendering: 16 %\nRendering: 16 %\nRendering: 16 %\nRendering: 17 %\nRendering: 18 %\nRendering: 18 %\nRendering: 18 %\nRendering: 19 %\nRendering: 19 %\nRendering: 20 %\nRendering: 20 %\nRendering: 21 %\nRendering: 21 %\nRendering: 22 %\nRendering: 22 %\nRendering: 23 %\nRendering: 23 %\nRendering: 24 %\nRendering: 24 %\nRendering: 25 %\nRendering: 26 %\nRendering: 27 %\nRendering: 27 %\nRendering: 28 %\nRendering: 29 %\nRendering: 29 %\nRendering: 30 %\nRendering: 30 %\nRendering: 31 %\nRendering: 31 %\nRendering: 32 %\nRendering: 33 %\nRendering: 33 %\nRendering: 34 %\nRendering: 35 %\nRendering: 36 %\nRendering: 37 %\nRendering: 38 %\nRendering: 38 %\nRendering: 39 %\nRendering: 40 %\nRendering: 41 %\nRendering: 41 %\nRendering: 42 %\nRendering: 43 %\nRendering: 44 %\nRendering: 46 %\nRendering: 48 %\nRendering: 50 %\nRendering: 51 %\nRendering: 53 %\nRendering: 55 %\nRendering: 55 %\nRendering: 57 %\nRendering: 57 %\nRendering: 58 %\nRendering: 59 %\nRendering: 60 %\nRendering: 61 %\nRendering: 61 %\nRendering: 62 %\nRendering: 64 %\nRendering: 65 %\nRendering: 67 %\nRendering: 68 %\nRendering: 70 %\nRendering: 71 %\nRendering: 73 %\nRendering: 74 %\nRendering: 75 %\nRendering: 76 %\nRendering: 76 %\nRendering: 77 %\nRendering: 77 %\nRendering: 78 %\nRendering: 78 %\nRendering: 79 %\nRendering: 79 %\nRendering: 79 %\nRendering: 80 %\nRendering: 80 %\nRendering: 80 %\nRendering: 81 %\nRendering: 81 %\nRendering: 81 %\nRendering: 81 %\nRendering: 82 %\nRendering: 82 %\nRendering: 83 %\nRendering: 83 %\nRendering: 83 %\nRendering: 84 %\nRendering: 84 %\nRendering: 84 %\nRendering: 85 %\nRendering: 85 %\nRendering: 86 %\nRendering: 86 %\nRendering: 86 %\nRendering: 86 %\nRendering: 87 %\nRendering: 87 %\nRendering: 88 %\nRendering: 88 %\nRendering: 88 %\nRendering: 88 %\nRendering: 89 %\nRendering: 89 %\nRendering: 89 %\nRendering: 90 %\nRendering: 90 %\nRendering: 90 %\nRendering: 90 %\nRendering: 91 %\nRendering: 92 %\nRendering: 93 %\nRendering: 94 %\nRendering: 96 %\nRendering: 97 %\nRendering: 98 %\nRendering: 99 %\nRendering: 100 %\nRendering: Post processing shader\nRendering time 67.389 s\nSuccessfully created 3D render image\n",
+    "stderr": ""
+  }
+]

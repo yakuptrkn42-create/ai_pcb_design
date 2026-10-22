@@ -1,0 +1,27 @@
+[
+  {
+    "document": "ST DS11189 Rev8, Table45 p124",
+    "url": "https://www.st.com/resource/en/datasheet/stm32f469ni.pdf",
+    "purpose": "D-PHY single-ended output 50 ohm typ; electrical host reference"
+  },
+  {
+    "document": "TI SPRAAR7J, Appendix A7",
+    "url": "https://www.ti.com/lit/pdf/spraar7",
+    "purpose": "Generic MIPI D-PHY CSI layout 100ohm differential/50ohm single-ended reference; not DISEN certification"
+  },
+  {
+    "document": "TI SLVS790E, section9.2.1.2.4 and11",
+    "url": "https://www.ti.com/lit/ds/symlink/tps61165.pdf",
+    "purpose": "CTRL sink limit and power layout"
+  },
+  {
+    "document": "DISEN DS070HSD39T-132 A0",
+    "url": "User-supplied technical document",
+    "purpose": "Pinout and panel operating range"
+  },
+  {
+    "document": "ST MB1189 C01",
+    "url": "https://www.st.com/resource/en/schematic_pack/mb1189-c01_schematic.pdf",
+    "purpose": "Host connector and power/control reference"
+  }
+]

@@ -1,0 +1,133 @@
+{
+  "conductors": [
+    {
+      "net": "DSI_CLK_P",
+      "planar_length_mm": 29.693628933876017,
+      "through_vias": 2,
+      "nominal_total_barrel_length_mm": 3.13,
+      "layer_lengths_mm": {
+        "F.Cu": 2.4749999999999996,
+        "B.Cu": 27.218628933876015
+      },
+      "widths_mm": [
+        0.14,
+        0.17
+      ],
+      "nearest_GND_return_via_mm": [
+        2.6172504656604922,
+        1.7867568385205792
+      ],
+      "graph_single_unbranched_path": true
+    },
+    {
+      "net": "DSI_CLK_N",
+      "planar_length_mm": 29.693628307145826,
+      "through_vias": 2,
+      "nominal_total_barrel_length_mm": 3.13,
+      "layer_lengths_mm": {
+        "F.Cu": 2.0,
+        "B.Cu": 27.693628307145826
+      },
+      "widths_mm": [
+        0.14,
+        0.17
+      ],
+      "nearest_GND_return_via_mm": [
+        1.964688270438828,
+        1.5556349186103966
+      ],
+      "graph_single_unbranched_path": true
+    },
+    {
+      "net": "DSI_D0_P",
+      "planar_length_mm": 29.693627386509952,
+      "through_vias": 2,
+      "nominal_total_barrel_length_mm": 3.13,
+      "layer_lengths_mm": {
+        "F.Cu": 23.19736235347772,
+        "B.Cu": 6.496265033032236
+      },
+      "widths_mm": [
+        0.14,
+        0.17
+      ],
+      "nearest_GND_return_via_mm": [
+        1.4008925726121808,
+        0.8246211251235266
+      ],
+      "graph_single_unbranched_path": true
+    },
+    {
+      "net": "DSI_D0_N",
+      "planar_length_mm": 29.693627447336983,
+      "through_vias": 2,
+      "nominal_total_barrel_length_mm": 3.13,
+      "layer_lengths_mm": {
+        "F.Cu": 23.52860782796245,
+        "B.Cu": 6.165019619374533
+      },
+      "widths_mm": [
+        0.14,
+        0.17
+      ],
+      "nearest_GND_return_via_mm": [
+        1.8384776310850326,
+        0.8246211251235266
+      ],
+      "graph_single_unbranched_path": true
+    },
+    {
+      "net": "DSI_D1_P",
+      "planar_length_mm": 29.693626213413054,
+      "through_vias": 2,
+      "nominal_total_barrel_length_mm": 3.13,
+      "layer_lengths_mm": {
+        "F.Cu": 2.4749999999999996,
+        "B.Cu": 27.218626213413057
+      },
+      "widths_mm": [
+        0.14,
+        0.17
+      ],
+      "nearest_GND_return_via_mm": [
+        0.8139410298049792,
+        1.9313207915828081
+      ],
+      "graph_single_unbranched_path": true
+    },
+    {
+      "net": "DSI_D1_N",
+      "planar_length_mm": 29.693628172468358,
+      "through_vias": 2,
+      "nominal_total_barrel_length_mm": 3.13,
+      "layer_lengths_mm": {
+        "F.Cu": 2.0,
+        "B.Cu": 27.693628172468358
+      },
+      "widths_mm": [
+        0.14,
+        0.17
+      ],
+      "nearest_GND_return_via_mm": [
+        1.200000999999986,
+        1.964688270438828
+      ],
+      "graph_single_unbranched_path": true
+    }
+  ],
+  "pairs": {
+    "CLK": {
+      "planar_skew_mm": 6.267301912998846e-07,
+      "via_counts_equal": true
+    },
+    "D0": {
+      "planar_skew_mm": 6.082703052356919e-08,
+      "via_counts_equal": true
+    },
+    "D1": {
+      "planar_skew_mm": 1.9590553037573954e-06,
+      "via_counts_equal": true
+    }
+  },
+  "maximum_planar_spread_mm": 2.720462962457759e-06
+}

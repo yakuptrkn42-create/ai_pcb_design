@@ -1,4 +1,24 @@
-# Güncel PCB yerleşimi — J-SR1 / Placement P3
+# Güncel teslim — Rev J / Routing R2
+
+**Güncel yüklenen Project.zip temel alınarak routing tamamlandı. 0 DRC ihlali / 0 açık bağlantı / 0 şematik–PCB farkı / ERC 0 hata ve 0 uyarı.**
+
+- [Doğrudan indir — KiCad + Gerber/drill + rapor ZIP](https://github.com/yakuptrkn42-create/ai_pcb_design/raw/refs/heads/main/STM32F469_DISEN_RevJ_Routing_R2.zip)
+- [Yalnız üreticiye aktarım dosyaları — CAM ZIP](https://github.com/yakuptrkn42-create/ai_pcb_design/raw/refs/heads/main/STM32F469_DISEN_RevJ_Routing_R2_Fabrication.zip)
+- [Beş sayfalık teknik rapor — PDF](SingleLCD_RevJ_Routing_R2/PDF/Routing_R2_Review_TR.pdf)
+- [Düzenlenebilir KiCad projesi](SingleLCD_RevJ_Routing_R2/Project/) · [Açılış ve kapsam](SingleLCD_RevJ_Routing_R2/README_TR.md)
+- [Gerber/drill doğrulaması](SingleLCD_RevJ_Routing_R2/Verification/Manufacturing_Audit.json) · [Bağımsız elektriksel/routing denetimi](SingleLCD_RevJ_Routing_R2/Verification/Validation_Summary.json)
+
+55 × 45 mm / dört katman; J1/J2/J3 ve dört montaj deliği aynı konumda. DSI iletkenleri ~32,824 mm, her birinde iki via; çift içi planar fark <0,001 mm. İki iç GND düzlemi, backlight güç/Kelvin yolları ve eksik kontrol/besleme bağlantıları tamamlandı. SW dal toplamı 5,54 mm / 0,6 mm; 5 V ana yolları 0,8 mm. R13 8,2k/%1; J6 polarite yazısı düzeltildi. Kaynak 159 pin–net üyeliği korunur.
+
+**Üretim kabulü koşullu:** 100 Ω hedefi için 99,4 Ω maskesiz 2D tahmin nominal kesite aittir; gerçek üretici kesiti/bitmiş geometri ve empedans kabulü henüz doğrulanmadı. FPC/kasa, parça rating'leri, touch gerilim toleransı ve yük/OVP/SI testleri raporda açıktır. Gerber/drill hazırlanmış olması fiziksel çalışma garantisi değildir. CAM ZIP içindeki aktarım koşulları imalat öncesi uygulanmalıdır.
+
+ZIP'i tamamen çıkarıp `SingleLCD_RevJ_Routing_R2/Project/STM32F469_DISEN_RevJ_Prep1.kicad_pro` dosyasını KiCad 9 ile açın. Aşağıdaki teslimler tarihsel olarak korunur; güncel R2 projesiyle karıştırılmamalıdır.
+
+![Routing R2 — native KiCad 3D](SingleLCD_RevJ_Routing_R2/Views/PCB_3D.png)
+
+---
+
+# Korunan PCB yerleşimi — J-SR1 / Placement P3
 
 **Placement tamamlandı; routing yapılmadı.** Son J-SR1 şematiği korunarak 55 × 45 mm / dört katmanlı kart yeniden yerleştirildi. J1 sol, J2/J3 üst kenara alındı; DSI için açık L koridoru ve sağ altta kompakt TPS61165 bloğu oluşturuldu. Dört montaj deliği aynı konumda kaldı.
 

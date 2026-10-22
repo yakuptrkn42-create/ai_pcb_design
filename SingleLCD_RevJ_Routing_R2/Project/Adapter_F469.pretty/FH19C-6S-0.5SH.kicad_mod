@@ -1,0 +1,155 @@
+(footprint "FH19C-6S-0.5SH"
+	(version 20241229)
+	(generator "pcbnew")
+	(layer "F.Cu")
+	(descr "Hirose EDC3-155621-07 p1; 6 contacts at 0.5mm; bottom contact; FPC 0.20mm")
+	(attr smd)
+	(fp_text reference "REF**"
+		(at 0 -3.0)
+		(layer "F.SilkS")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15))))
+	(fp_text value "FH19C-6S-0.5SH"
+		(at 0 4.0)
+		(layer "F.Fab")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12))))
+	(fp_rect
+		(start -2.5 -1.5)
+		(end 2.5 1.5)
+		(stroke
+			(width 0.1)
+			(type default))
+		(fill none)
+		(layer "F.Fab"))
+	(fp_rect
+		(start -2.8 -2.0)
+		(end 2.8 2.0)
+		(stroke
+			(width 0.05)
+			(type default))
+		(fill none)
+		(layer "F.CrtYd"))
+	(pad "1" smd rect
+		(at -1.25 -1.25)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.025))
+	(fp_rect
+		(start -1.375 -1.575)
+		(end -1.125 -0.925)
+		(stroke
+			(width 0)
+			(type default))
+		(fill solid)
+		(layer "F.Paste"))
+	(pad "2" smd rect
+		(at -0.75 -1.25)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.025))
+	(fp_rect
+		(start -0.875 -1.575)
+		(end -0.625 -0.925)
+		(stroke
+			(width 0)
+			(type default))
+		(fill solid)
+		(layer "F.Paste"))
+	(pad "3" smd rect
+		(at -0.25 -1.25)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.025))
+	(fp_rect
+		(start -0.375 -1.575)
+		(end -0.125 -0.925)
+		(stroke
+			(width 0)
+			(type default))
+		(fill solid)
+		(layer "F.Paste"))
+	(pad "4" smd rect
+		(at 0.25 -1.25)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.025))
+	(fp_rect
+		(start 0.125 -1.575)
+		(end 0.375 -0.925)
+		(stroke
+			(width 0)
+			(type default))
+		(fill solid)
+		(layer "F.Paste"))
+	(pad "5" smd rect
+		(at 0.75 -1.25)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.025))
+	(fp_rect
+		(start 0.625 -1.575)
+		(end 0.875 -0.925)
+		(stroke
+			(width 0)
+			(type default))
+		(fill solid)
+		(layer "F.Paste"))
+	(pad "6" smd rect
+		(at 1.25 -1.25)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.025))
+	(fp_rect
+		(start 1.125 -1.575)
+		(end 1.375 -0.925)
+		(stroke
+			(width 0)
+			(type default))
+		(fill solid)
+		(layer "F.Paste"))
+	(pad "" smd rect
+		(at -2.25 1.25)
+		(size 0.4 0.8)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.025))
+	(fp_rect
+		(start -2.4 0.925)
+		(end -2.1 1.575)
+		(stroke
+			(width 0)
+			(type default))
+		(fill solid)
+		(layer "F.Paste"))
+	(pad "" smd rect
+		(at 2.25 1.25)
+		(size 0.4 0.8)
+		(layers "F.Cu" "F.Mask")
+		(solder_mask_margin 0.025))
+	(fp_rect
+		(start 2.1 0.925)
+		(end 2.4 1.575)
+		(stroke
+			(width 0)
+			(type default))
+		(fill solid)
+		(layer "F.Paste"))
+	(fp_circle
+		(center -1.85 -2.0)
+		(end -1.65 -2.0)
+		(stroke
+			(width 0.12)
+			(type default))
+		(fill none)
+		(layer "F.SilkS"))
+	(model "${KIPRJMOD}/3D/FH19C_6_Nominal.step"
+		(offset
+			(xyz 0 0 0))
+		(scale
+			(xyz 1 1 1))
+		(rotate
+			(xyz 0 0 0))))

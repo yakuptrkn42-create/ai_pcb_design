@@ -1,0 +1,178 @@
+(footprint "JST_NV_1x02_Existing"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "JST NV series connector, B02P-NV (http://www.jst-mfg.com/product/pdf/eng/eNV.pdf), generated with kicad-footprint-generator")
+	(tags "connector JST NV vertical")
+	(property "Reference" "J6"
+		(at 9.5 0 270)
+		(layer "F.SilkS")
+		(uuid "3655f5dd-b6ef-45ea-9b08-d893a6bd5d28")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "EXT 5V / 1=+5V 2=GND"
+		(at 2.5 6 180)
+		(layer "F.Fab")
+		(uuid "afa9cce1-26f7-493c-ab94-10a484bb2ee1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "~"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b96d67d2-8d3a-4554-9417-a9db23dea4a0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Generic connector, single row, 01x02, script generated"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "807d3574-ab17-4c14-b09b-d95da02b953c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.41 -0.3)
+		(end -2.81 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "518e6fe7-05d5-434b-94c4-697aaedd86d7")
+	)
+	(fp_line
+		(start -3.41 0.3)
+		(end -3.41 -0.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "30ec5dbf-d0f7-409e-a9ad-f96e412f4f93")
+	)
+	(fp_line
+		(start -2.81 0)
+		(end -3.41 0.3)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b1742fa8-58b9-4c8b-8bb4-2ef9d1ea87da")
+	)
+	(fp_rect
+		(start -2.61 -3.81)
+		(end 7.61 4.91)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e36b2ee4-79ff-45fa-a613-8f1780acd21d")
+	)
+	(fp_rect
+		(start -3 -4.2)
+		(end 8 5.3)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d5381959-1639-42f4-b6ab-1cad7003f7e0")
+	)
+	(fp_line
+		(start -2.5 -2)
+		(end 7.5 -2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "94a95454-b31e-4bb1-a339-173d2ada5a75")
+	)
+	(fp_line
+		(start -2.5 -1)
+		(end -1.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "4155d3fd-25ac-4d69-80cd-88dcc6d4d9b0")
+	)
+	(fp_line
+		(start -2.5 1)
+		(end -1.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0b75f3e1-8be1-49c3-b066-affca94352fb")
+	)
+	(fp_rect
+		(start -2.5 -3.7)
+		(end 7.5 4.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ec4f367f-d4bb-4373-9086-5110ece33182")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 2.5 4.1 180)
+		(layer "F.Fab")
+		(uuid "7daf2f65-4b8d-4ed8-9ae2-6b8583a3207e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole roundrect
+		(at 0 0)
+		(size 2.7 2.7)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(roundrect_rratio 0.092593)
+		(uuid "91ba6539-42f5-42d6-a0a0-7bd5f8d55032")
+	)
+	(pad "2" thru_hole circle
+		(at 5 0)
+		(size 2.7 2.7)
+		(drill 1.7)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ed755bb5-1936-4c4b-b200-737cae99443c")
+	)
+	(embedded_fonts no)
+	
+)

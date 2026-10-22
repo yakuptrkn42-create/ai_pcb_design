@@ -1,0 +1,59 @@
+{
+  "passed": true,
+  "fresh_config_cache_data": true,
+  "zero_DRC_ERC_unconnected_parity": true,
+  "native_SVG_exported": true,
+  "board_sha256": "0d741a55e5abcddb50b1cc9a6db8b9ecd1b5a6831b63f92c0d892234bb7a163e",
+  "steps": [
+    {
+      "command": [
+        "kicad-cli",
+        "pcb",
+        "drc",
+        "--schematic-parity",
+        "--exit-code-violations",
+        "--format",
+        "json",
+        "-o",
+        "/tmp/r2-final-portable-wky3icgn/drc.json",
+        "/tmp/r2-final-portable-wky3icgn/Project/STM32F469_DISEN_RevJ_Prep1.kicad_pcb"
+      ],
+      "exit_code": 0,
+      "stdout": "Found 0 violations\nFound 0 unconnected items\nFound 0 schematic parity issues\nSaved DRC Report to /tmp/r2-final-portable-wky3icgn/drc.json\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "sch",
+        "erc",
+        "--exit-code-violations",
+        "--format",
+        "json",
+        "-o",
+        "/tmp/r2-final-portable-wky3icgn/erc.json",
+        "/tmp/r2-final-portable-wky3icgn/Project/STM32F469_DISEN_RevJ_Prep1.kicad_sch"
+      ],
+      "exit_code": 0,
+      "stdout": "You have run CvPcb for the first time using the new footprint library table method for finding footprints.\nCvPcb has either copied the default table or created an empty table in your home folder.\nYou must first configure the library table to include all footprint libraries not included with KiCad.\nSee the \u201cFootprint Library Table\u201d section of the CvPcb documentation for more information. Checking sheet names...\nChecking bus conflicts...\nChecking conflicts...\nChecking units...\nChecking footprints...\nChecking pins...\nChecking similar labels...\nChecking local and global labels...\nChecking for unresolved variables...\nChecking no connect pins for connections...\nChecking for library symbol issues...\nChecking for footprint link issues...\nChecking footprint assignments against footprint filters...\nChecking for off grid pins and wires...\nChecking for four way junctions...\nChecking for labels on more than one wire...\nChecking for undefined netclasses...\nFound 0 violations\nSaved ERC Report to /tmp/r2-final-portable-wky3icgn/erc.json\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "pcb",
+        "export",
+        "svg",
+        "--mode-single",
+        "--layers",
+        "F.Cu,Edge.Cuts",
+        "-o",
+        "/tmp/r2-final-portable-wky3icgn/portable.svg",
+        "/tmp/r2-final-portable-wky3icgn/Project/STM32F469_DISEN_RevJ_Prep1.kicad_pcb"
+      ],
+      "exit_code": 0,
+      "stdout": "Plotted to '/tmp/r2-final-portable-wky3icgn/portable.svg'.\nDone.\n",
+      "stderr": ""
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+09:33:06: Debug: Adding duplicate image handler for 'PNG file'
+09:33:06: Debug: Adding duplicate image handler for 'JPEG file'
+09:33:06: Debug: Adding duplicate image handler for 'TIFF file'
+09:33:06: Debug: Adding duplicate image handler for 'GIF file'
+09:33:06: Debug: Adding duplicate image handler for 'PNM file'
+09:33:06: Debug: Adding duplicate image handler for 'PCX file'
+09:33:06: Debug: Adding duplicate image handler for 'IFF file'
+09:33:06: Debug: Adding duplicate image handler for 'Windows icon file'
+09:33:06: Debug: Adding duplicate image handler for 'Windows cursor file'
+09:33:06: Debug: Adding duplicate image handler for 'Windows animated cursor file'
+09:33:06: Debug: Adding duplicate image handler for 'TGA file'
+09:33:06: Debug: Adding duplicate image handler for 'XPM file'
+{
+  "footprints": 53,
+  "numbered_pin_memberships": 159,
+  "net_count": 44,
+  "copper_layers": 4,
+  "board_mm": [
+    55,
+    45
+  ],
+  "board_thickness_mm": 1.6,
+  "tracks": 435,
+  "vias": 86,
+  "GND_vias": 57,
+  "physical_DRC_violations": 0,
+  "unconnected_items": 0,
+  "parity_issues": 0,
+  "ERC_errors": 0,
+  "ERC_warnings": 0,
+  "source_pin_memberships_preserved": true,
+  "source_component_UUID_and_paths_preserved": true,
+  "physical_rules_and_exclusions_preserved": true,
+  "source_copper_objects": 144,
+  "source_copper_objects_preserved_geometrically": 48,
+  "placement_changes": 18,
+  "DSI_planar_spread_mm": 2.720462962457759e-06,
+  "DSI_reference_sample_count": 3452,
+  "DSI_uncovered_centerline_samples_excluding_own_vias": 0,
+  "DSI_max_GND_return_via_distance_mm": 2.6172504656604922,
+  "manufacturer_stackup_confirmed": false,
+  "impedance": "Nominal 2D only; no manufactured coupon, mask/3D/via/FPC/channel verification",
+  "board_sha256": "0d741a55e5abcddb50b1cc9a6db8b9ecd1b5a6831b63f92c0d892234bb7a163e"
+}
+{
+  "CLK": {
+    "planar_skew_mm": 6.267301912998846e-07,
+    "via_counts_equal": true
+  },
+  "D0": {
+    "planar_skew_mm": 6.082703052356919e-08,
+    "via_counts_equal": true
+  },
+  "D1": {
+    "planar_skew_mm": 1.9590553037573954e-06,
+    "via_counts_equal": true
+  }
+}

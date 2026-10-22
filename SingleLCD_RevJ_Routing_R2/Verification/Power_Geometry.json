@@ -1,0 +1,107 @@
+[
+  {
+    "net": "EXT_5V",
+    "total_branch_length_mm": 6.658326112068523,
+    "widths_mm": [
+      0.8
+    ],
+    "via_count": 0,
+    "all_branches_in_series_copper_R20_mohm_upper_bound": 4.099864303506192
+  },
+  {
+    "net": "FUSED_5V",
+    "total_branch_length_mm": 3.203553390593274,
+    "widths_mm": [
+      0.8
+    ],
+    "via_count": 0,
+    "all_branches_in_series_copper_R20_mohm_upper_bound": 1.9725880002578082
+  },
+  {
+    "net": "BL_5V",
+    "total_branch_length_mm": 3.2433504678941936,
+    "widths_mm": [
+      0.8
+    ],
+    "via_count": 0,
+    "all_branches_in_series_copper_R20_mohm_upper_bound": 1.9970930506058493
+  },
+  {
+    "net": "BL_POWER",
+    "total_branch_length_mm": 43.57080535659889,
+    "widths_mm": [
+      0.8
+    ],
+    "via_count": 0,
+    "all_branches_in_series_copper_R20_mohm_upper_bound": 26.82872339832576
+  },
+  {
+    "net": "BL_SW",
+    "total_branch_length_mm": 5.544328098979218,
+    "widths_mm": [
+      0.6
+    ],
+    "via_count": 0,
+    "all_branches_in_series_copper_R20_mohm_upper_bound": 4.551893369261937
+  },
+  {
+    "net": "BL_LEDA",
+    "total_branch_length_mm": 79.5643718669111,
+    "widths_mm": [
+      0.2,
+      0.3,
+      0.4
+    ],
+    "via_count": 4,
+    "all_branches_in_series_copper_R20_mohm_upper_bound": 118.46483731071439
+  },
+  {
+    "net": "BL_LEDK",
+    "total_branch_length_mm": 38.47538613938254,
+    "widths_mm": [
+      0.2,
+      0.4
+    ],
+    "via_count": 2,
+    "all_branches_in_series_copper_R20_mohm_upper_bound": 50.00284523178395
+  },
+  {
+    "net": "HOST_3V3",
+    "total_branch_length_mm": 17.43021367242412,
+    "widths_mm": [
+      0.3
+    ],
+    "via_count": 0,
+    "all_branches_in_series_copper_R20_mohm_upper_bound": 28.620410850120404
+  },
+  {
+    "net": "LCD_VCI",
+    "total_branch_length_mm": 55.49544221731956,
+    "widths_mm": [
+      0.3,
+      1.0
+    ],
+    "via_count": 0,
+    "all_branches_in_series_copper_R20_mohm_upper_bound": 85.93336248076652
+  },
+  {
+    "net": "TP_VDD",
+    "total_branch_length_mm": 31.217477438861824,
+    "widths_mm": [
+      0.3,
+      0.8
+    ],
+    "via_count": 3,
+    "all_branches_in_series_copper_R20_mohm_upper_bound": 35.68277115987223
+  },
+  {
+    "net": "HOST_TP_3V3",
+    "total_branch_length_mm": 6.955482502250157,
+    "widths_mm": [
+      0.3,
+      0.8
+    ],
+    "via_count": 0,
+    "all_branches_in_series_copper_R20_mohm_upper_bound": 5.463025850760534
+  }
+]

@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "copper_layers": 4,
+  "gerber_layer_files": 11,
+  "Gerber_X2_job_files": 1,
+  "all_Gerbers_metric_complete": true,
+  "drill_origin": "absolute; Gerber and drill use same PCB datum; Y restored to PCB orientation in comparison",
+  "outline_mm": [
+    115.5,
+    70.0,
+    170.5,
+    115.0
+  ],
+  "board_dimensions_mm": [
+    55,
+    45
+  ],
+  "expected_drill_hits": 95,
+  "actual_drill_hits": 95,
+  "plated_hits": 91,
+  "NPTH_hits": 4,
+  "all_drill_XY_diameters_plating_match_native_board": true,
+  "drill_XY_per_axis_comparison_tolerance_mm": 0.00051,
+  "maximum_drill_XY_serialization_rounding_mm": 0.0005000000000023874,
+  "drill_precision_note": "Native Excellon rounds XY to 0.001 mm; electrical DRC constraints are unchanged",
+  "native_board_hash_unchanged": "0d741a55e5abcddb50b1cc9a6db8b9ecd1b5a6831b63f92c0d892234bb7a163e",
+  "manufacturer_DFM_or_impedance_approval": false
+}

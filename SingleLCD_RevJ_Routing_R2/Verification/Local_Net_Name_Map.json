@@ -1,0 +1,5 @@
+{
+  "BL_SW": "/Backlight / external power/BL_SW",
+  "BL_COMP": "/Backlight / external power/BL_COMP",
+  "OVP_SENSE": "/Backlight / external power/OVP_SENSE"
+}

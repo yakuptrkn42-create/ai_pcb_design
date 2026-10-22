@@ -1,0 +1,23 @@
+{
+  "production_board_unchanged": true,
+  "added_CLK_P_planar_length_mm": 0.21690783125160618,
+  "detected_skew_violations": [
+    {
+      "description": "Skew between tracks out of range (rule 'DSI intra-pair skew budget' max skew 0.1000 mm; actual -0.2169 mm; target net length 33.0405 mm (from DSI_CLK_P); actual 32.8236 mm)",
+      "items": [
+        {
+          "description": "Track [DSI_CLK_N] on B.Cu, length 3.2663 mm",
+          "pos": {
+            "x": 145.84,
+            "y": 104.0
+          },
+          "uuid": "d0890487-c871-4690-9528-71dbd723c017"
+        }
+      ],
+      "severity": "error",
+      "type": "skew_out_of_range"
+    }
+  ],
+  "test_passed": true,
+  "scope": "Negative geometry in temporary copy; confirms 0.1 mm within-pair rule is active, no new waivers"
+}

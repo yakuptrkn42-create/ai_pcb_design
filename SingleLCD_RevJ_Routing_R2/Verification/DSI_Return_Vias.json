@@ -1,0 +1,127 @@
+{
+  "added_return_vias": [
+    {
+      "pos": [
+        145.016,
+        103.971
+      ],
+      "for": "DSI_CLK_N",
+      "signal_via": [
+        145.7,
+        105.85
+      ],
+      "distance_mm": 1.9996242146963419
+    },
+    {
+      "pos": [
+        148.032,
+        104.3
+      ],
+      "for": "DSI_CLK_P",
+      "signal_via": [
+        146.3,
+        105.3
+      ],
+      "distance_mm": 1.9999559995159888
+    }
+  ],
+  "DSI_returns": [
+    {
+      "net": "DSI_CLK_N",
+      "via_xy": [
+        164.05,
+        90.95
+      ],
+      "nearest_GND_through_via_mm": 1.964688270438828
+    },
+    {
+      "net": "DSI_CLK_N",
+      "via_xy": [
+        145.7,
+        105.85
+      ],
+      "nearest_GND_through_via_mm": 1.5556349186103966
+    },
+    {
+      "net": "DSI_CLK_P",
+      "via_xy": [
+        163.3,
+        91.25
+      ],
+      "nearest_GND_through_via_mm": 2.6172504656604922
+    },
+    {
+      "net": "DSI_CLK_P",
+      "via_xy": [
+        146.3,
+        105.3
+      ],
+      "nearest_GND_through_via_mm": 1.7867568385205792
+    },
+    {
+      "net": "DSI_D0_N",
+      "via_xy": [
+        164.05,
+        93.35
+      ],
+      "nearest_GND_through_via_mm": 1.8384776310850326
+    },
+    {
+      "net": "DSI_D0_N",
+      "via_xy": [
+        160.7,
+        96.8
+      ],
+      "nearest_GND_through_via_mm": 0.8246211251235266
+    },
+    {
+      "net": "DSI_D0_P",
+      "via_xy": [
+        163.3,
+        93.65
+      ],
+      "nearest_GND_through_via_mm": 1.4008925726121808
+    },
+    {
+      "net": "DSI_D0_P",
+      "via_xy": [
+        159.1,
+        98.0
+      ],
+      "nearest_GND_through_via_mm": 0.8246211251235266
+    },
+    {
+      "net": "DSI_D1_N",
+      "via_xy": [
+        146.899999,
+        105.85
+      ],
+      "nearest_GND_through_via_mm": 1.200000999999986
+    },
+    {
+      "net": "DSI_D1_N",
+      "via_xy": [
+        164.05,
+        92.15
+      ],
+      "nearest_GND_through_via_mm": 1.964688270438828
+    },
+    {
+      "net": "DSI_D1_P",
+      "via_xy": [
+        147.5,
+        105.3
+      ],
+      "nearest_GND_through_via_mm": 0.8139410298049792
+    },
+    {
+      "net": "DSI_D1_P",
+      "via_xy": [
+        163.3,
+        92.45
+      ],
+      "nearest_GND_through_via_mm": 1.9313207915828081
+    }
+  ],
+  "new_via_placement_scope": "Pad/track/edge clearance and outside nominal FPC bodies; actual 3D return inductance not simulated"
+}

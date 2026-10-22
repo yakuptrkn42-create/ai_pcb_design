@@ -1,0 +1,228 @@
+{
+  "scope": "Overlapping parallel 0.14mm main-line N/P segments only; excludes nonparallel corners, fanout and 3D coupling",
+  "segments": [
+    {
+      "lane": "CLK",
+      "segment_planar_mm": 5.792661177887077,
+      "nearest_parallel_gap_mm": 0.17999975961240455,
+      "nominal_018_gap_match": true
+    },
+    {
+      "lane": "CLK",
+      "segment_planar_mm": 5.792661177887077,
+      "nearest_parallel_gap_mm": 0.1799997596123909,
+      "nominal_018_gap_match": true
+    },
+    {
+      "lane": "CLK",
+      "segment_planar_mm": 1.4000007160712358,
+      "nearest_parallel_gap_mm": 1.1596551927530658,
+      "nominal_018_gap_match": false
+    },
+    {
+      "lane": "CLK",
+      "segment_planar_mm": 3.133725999999996,
+      "nearest_parallel_gap_mm": 0.17999999999999317,
+      "nominal_018_gap_match": true
+    },
+    {
+      "lane": "CLK",
+      "segment_planar_mm": 5.5337260000000015,
+      "nearest_parallel_gap_mm": 0.18000000000000738,
+      "nominal_018_gap_match": true
+    },
+    {
+      "lane": "D0",
+      "segment_planar_mm": 1.9000001636889379,
+      "nearest_parallel_gap_mm": 1.2562014313359366,
+      "nominal_018_gap_match": false
+    },
+    {
+      "lane": "D0",
+      "segment_planar_mm": 0.23372600000000432,
+      "nearest_parallel_gap_mm": 0.1800000000000216,
+      "nominal_018_gap_match": true
+    },
+    {
+      "lane": "D0",
+      "segment_planar_mm": 0.07958345400898628,
+      "nearest_parallel_gap_mm": 0.17999975961240483,
+      "nominal_018_gap_match": true
+    },
+    {
+      "lane": "D0",
+      "segment_planar_mm": 0.7762010132034072,
+      "nearest_parallel_gap_mm": 7.519316307095592,
+      "nominal_018_gap_match": false
+    },
+    {
+      "lane": "D0",
+      "segment_planar_mm": 0.7762010132034173,
+      "nearest_parallel_gap_mm": 5.319316191993322,
+      "nominal_018_gap_match": false
+    },
+    {
+      "lane": "D0",
+      "segment_planar_mm": 0.07958345400898628,
+      "nearest_parallel_gap_mm": 0.17999975961242493,
+      "nominal_018_gap_match": true
+    },
+    {
+      "lane": "D0",
+      "segment_planar_mm": 3.1325479999999857,
+      "nearest_parallel_gap_mm": 0.17999999999999317,
+      "nominal_018_gap_match": true
+    },
+    {
+      "lane": "D0",
+      "segment_planar_mm": 0.34467990759689415,
+      "nearest_parallel_gap_mm": 0.18000019479810286,
+      "nominal_018_gap_match": true
+    },
+    {
+      "lane": "D0",
+      "segment_planar_mm": 0.7837260000000015,
+      "nearest_parallel_gap_mm": 0.18000000000000738,
+      "nominal_018_gap_match": true
+    },
+    {
+      "lane": "D0",
+      "segment_planar_mm": 0.685221999999996,
+      "nearest_parallel_gap_mm": 0.17999999999999317,
+      "nominal_018_gap_match": true
+    },
+    {
+      "lane": "D0",
+      "segment_planar_mm": 4.482001282298451,
+      "nearest_parallel_gap_mm": 0.17999973870078034,
+      "nominal_018_gap_match": true
+    },
+    {
+      "lane": "D0",
+      "segment_planar_mm": 0.685221999999996,
+      "nearest_parallel_gap_mm": 0.1800000000000216,
+      "nominal_018_gap_match": true
+    },
+    {
+      "lane": "D0",
+      "segment_planar_mm": 0.7174520000000086,
+      "nearest_parallel_gap_mm": 0.18000000000000738,
+      "nominal_018_gap_match": true
+    },
+    {
+      "lane": "D0",
+      "segment_planar_mm": 0.34467990759689415,
+      "nearest_parallel_gap_mm": 0.18000003153358002,
+      "nominal_018_gap_match": true
+    },
+    {
+      "lane": "D0",
+      "segment_planar_mm": 4.482001282298451,
+      "nearest_parallel_gap_mm": 0.18000158915226694,
+      "nominal_018_gap_match": true
+    },
+    {
+      "lane": "D0",
+      "segment_planar_mm": 2.262741699796944,
+      "nearest_parallel_gap_mm": 0.17999975961240483,
+      "nominal_018_gap_match": true
+    },
+    {
+      "lane": "D0",
+      "segment_planar_mm": 1.1999998056533099,
+      "nearest_parallel_gap_mm": 0.18000046671917752,
+      "nominal_018_gap_match": true
+    },
+    {
+      "lane": "D1",
+      "segment_planar_mm": 1.575325721146263,
+      "nearest_parallel_gap_mm": 0.17999970011612565,
+      "nominal_018_gap_match": true
+    },
+    {
+      "lane": "D1",
+      "segment_planar_mm": 0.07958299999999952,
+      "nearest_parallel_gap_mm": 0.17999999999999317,
+      "nominal_018_gap_match": true
+    },
+    {
+      "lane": "D1",
+      "segment_planar_mm": 3.532548501102559,
+      "nearest_parallel_gap_mm": 0.1799997596124145,
+      "nominal_018_gap_match": true
+    },
+    {
+      "lane": "D1",
+      "segment_planar_mm": 0.07958300000001373,
+      "nearest_parallel_gap_mm": 0.18000000000000738,
+      "nominal_018_gap_match": true
+    },
+    {
+      "lane": "D1",
+      "segment_planar_mm": 0.34467999999999677,
+      "nearest_parallel_gap_mm": 0.17999999999999317,
+      "nominal_018_gap_match": true
+    },
+    {
+      "lane": "D1",
+      "segment_planar_mm": 3.7337260000000185,
+      "nearest_parallel_gap_mm": 0.17999999999999317,
+      "nominal_018_gap_match": true
+    },
+    {
+      "lane": "D1",
+      "segment_planar_mm": 1.2514722295764151,
+      "nearest_parallel_gap_mm": 0.17999983450494733,
+      "nominal_018_gap_match": true
+    },
+    {
+      "lane": "D1",
+      "segment_planar_mm": 1.4000000089646552,
+      "nearest_parallel_gap_mm": 1.1596534715164482,
+      "nominal_018_gap_match": false
+    },
+    {
+      "lane": "D1",
+      "segment_planar_mm": 5.150651354083384,
+      "nearest_parallel_gap_mm": 0.18000048491601645,
+      "nominal_018_gap_match": true
+    },
+    {
+      "lane": "D1",
+      "segment_planar_mm": 0.6796554817273361,
+      "nearest_parallel_gap_mm": 1.9615998425391297,
+      "nominal_018_gap_match": false
+    },
+    {
+      "lane": "D1",
+      "segment_planar_mm": 0.6796540675137472,
+      "nearest_parallel_gap_mm": 3.6615998029169172,
+      "nominal_018_gap_match": false
+    },
+    {
+      "lane": "D1",
+      "segment_planar_mm": 1.575325721146263,
+      "nearest_parallel_gap_mm": 0.17999809528166144,
+      "nominal_018_gap_match": true
+    },
+    {
+      "lane": "D1",
+      "segment_planar_mm": 1.2514722295764151,
+      "nearest_parallel_gap_mm": 0.18000054161132506,
+      "nominal_018_gap_match": true
+    },
+    {
+      "lane": "D1",
+      "segment_planar_mm": 0.344680000000011,
+      "nearest_parallel_gap_mm": 0.17999999999999317,
+      "nominal_018_gap_match": true
+    },
+    {
+      "lane": "D1",
+      "segment_planar_mm": 1.3337259999999986,
+      "nearest_parallel_gap_mm": 0.1800000000000216,
+      "nominal_018_gap_match": true
+    }
+  ],
+  "nominal_018_matches": 30
+}

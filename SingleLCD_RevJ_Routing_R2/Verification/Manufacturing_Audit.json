@@ -1,0 +1,47 @@
+{
+  "passed": true,
+  "copper_layers": 4,
+  "gerber_layer_files": 11,
+  "Gerber_X2_job_files": 1,
+  "all_Gerbers_metric_complete": true,
+  "drill_origin": "absolute; Gerber and drill use same PCB datum; Y restored to PCB orientation in comparison",
+  "outline_mm": [
+    115.5,
+    70.0,
+    170.5,
+    115.0
+  ],
+  "board_dimensions_mm": [
+    55,
+    45
+  ],
+  "expected_drill_hits": 95,
+  "actual_drill_hits": 95,
+  "plated_hits": 91,
+  "NPTH_hits": 4,
+  "all_drill_XY_diameters_plating_match_native_board": true,
+  "drill_XY_per_axis_comparison_tolerance_mm": 0.00051,
+  "maximum_drill_XY_serialization_rounding_mm": 0.0005000000000023874,
+  "drill_precision_note": "Native Excellon rounds XY to 0.001 mm; electrical DRC constraints are unchanged",
+  "native_board_hash_unchanged": "0d741a55e5abcddb50b1cc9a6db8b9ecd1b5a6831b63f92c0d892234bb7a163e",
+  "manufacturer_DFM_or_impedance_approval": false,
+  "files_sha256": {
+    "Manufacturing/Drill/STM32F469_DISEN_RevJ_Prep1-NPTH-drl_map.pdf": "22520f74472c697a6bd95a1013f4fa21b46ca67124487ab7dba6fc51261b6ea7",
+    "Manufacturing/Drill/STM32F469_DISEN_RevJ_Prep1-NPTH.drl": "d65c14bd31abbc66575eb2bfdd6cefad79b297c5ae6fadff77034f09b102aa4f",
+    "Manufacturing/Drill/STM32F469_DISEN_RevJ_Prep1-PTH-drl_map.pdf": "0dba856e5d5488ed6f14b4daf584d0b25ed5b019d9c9cc3f419fb6a457f64ffa",
+    "Manufacturing/Drill/STM32F469_DISEN_RevJ_Prep1-PTH.drl": "ad77f73f31c88906cb39a94ebf344e16bc6488e6a9e04b58de8d02c418ffa21e",
+    "Manufacturing/Fabrication_Readme_TR.md": "d44b2c507d582c5cbec9af540b81b8b02a5c41f7e1b797fdd7610f18d975f518",
+    "Manufacturing/Gerber/STM32F469_DISEN_RevJ_Prep1-B_Cu.gbl": "da9f48d8950239e50ce18be59a4dd5c8d73c406ad70e4037ce23ab0f242fbb00",
+    "Manufacturing/Gerber/STM32F469_DISEN_RevJ_Prep1-B_Mask.gbs": "1d8895e3dd7a7afb76e92891284a17d28657afcc9a1a622429f205096f2c52da",
+    "Manufacturing/Gerber/STM32F469_DISEN_RevJ_Prep1-B_Paste.gbp": "f538be7f384cb25bce869d1f43a9a73921e6b64b46b689fd124950ac5548355a",
+    "Manufacturing/Gerber/STM32F469_DISEN_RevJ_Prep1-B_Silkscreen.gbo": "5d7f9f9603ee527afcec693988d344fdb7816a28d03a7cd91ea7c058491fedf4",
+    "Manufacturing/Gerber/STM32F469_DISEN_RevJ_Prep1-Edge_Cuts.gm1": "a2f9f2101ffecb527e850a48d112feade565de4a61fc2c1da6b4f72c6522b2a7",
+    "Manufacturing/Gerber/STM32F469_DISEN_RevJ_Prep1-F_Cu.gtl": "c45b78a98655c82344b7560c1c7abbee50e0f04a5a7af592990dc6d21022625d",
+    "Manufacturing/Gerber/STM32F469_DISEN_RevJ_Prep1-F_Mask.gts": "e81c544d19120eca5d0c72b3f9a9011567f7e8fa173783d9039bbeab3eb2d4ca",
+    "Manufacturing/Gerber/STM32F469_DISEN_RevJ_Prep1-F_Paste.gtp": "d7a2af0ee07fcf321837da4693d9c8ae5d4543ae3ce86dac3726b160ab77e64a",
+    "Manufacturing/Gerber/STM32F469_DISEN_RevJ_Prep1-F_Silkscreen.gto": "477cc0e49429fe30f357d0ed4834aa03cb808ecf181240c23c61aa722095798a",
+    "Manufacturing/Gerber/STM32F469_DISEN_RevJ_Prep1-In1_Cu.g1": "757f12f9353a42d9f9837358e81e19dc5573a2e95034900ef32c45ec95eb1c9f",
+    "Manufacturing/Gerber/STM32F469_DISEN_RevJ_Prep1-In2_Cu.g2": "89922452bc7b54431224452cdb04c020b4474804cacb92a4d6fbac122b6af945",
+    "Manufacturing/Gerber/STM32F469_DISEN_RevJ_Prep1-job.gbrjob": "fc37b172c21881aed4ec0053db0d14af995f7d7d8b45171d71a79c024d8ede80"
+  }
+}
