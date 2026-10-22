@@ -1,0 +1,22 @@
+{
+  "led_current_nominal_mA": 38.24091778202677,
+  "led_current_min_mA": 37.10504893701607,
+  "led_current_max_mA": 39.39973347239121,
+  "R7_power_max_mW": 8.037545628367806,
+  "ack_sink_upper_mA_at_3V6": 0.4434589800443459,
+  "ctrl_high_lower_V_at_3V0": 2.7165016361434478,
+  "ovp_nominal_V": 28.6902,
+  "active_payload_Mbps_per_lane_at_60Hz_RGB888": 287.0784,
+  "framebuffer_RGB888_bytes": 1196160,
+  "boost_assumed_Vin_min_V": 4.2,
+  "boost_assumed_efficiency": 0.75,
+  "boost_assumed_L_min_uH": 13.200000000000001,
+  "boost_assumed_switch_freq_Hz": 1000000.0,
+  "boost_estimated_duty": 0.8494839449541285,
+  "boost_estimated_input_A": 0.3510216616805901,
+  "boost_estimated_ripple_peak_to_peak_A": 0.27029034612176817,
+  "boost_estimated_peak_inductor_A": 0.4861668347414742,
+  "tps61165_current_limit_min_A": 0.96,
+  "tps61165_current_limit_max_A": 1.44,
+  "estimated_C3_10uF_discharge_s_to_5V_from_28V69": 0.5765465367945272
+}

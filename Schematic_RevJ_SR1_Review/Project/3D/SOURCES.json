@@ -1,0 +1,1210 @@
+[
+  {
+    "file": "R_0805_2012Metric.wrl",
+    "source": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Resistor_SMD.3dshapes/R_0805_2012Metric.wrl",
+    "type": "KiCad community model",
+    "sha256": "8ba82403df18104f827f786ef794d9852912dc437e77b62258dc3e6ffe33c5f6",
+    "notes": "Generic KiCad package model; nominal package geometry, not exact manufacturer MPN CAD."
+  },
+  {
+    "file": "C_0805_2012Metric.wrl",
+    "source": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl",
+    "type": "KiCad community model",
+    "sha256": "840481a5fd6d54a48d7a634404a9848de662816075c4569d2484b192c3fb2801",
+    "notes": "Generic KiCad package model; nominal package geometry, not exact manufacturer MPN CAD."
+  },
+  {
+    "file": "C_1206_3216Metric.wrl",
+    "source": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl",
+    "type": "KiCad community model",
+    "sha256": "c8ce7903eeaceb189976a04f0f67070ad0fe21a7bbcd6605fe60786704368afd",
+    "notes": "Generic KiCad package model; nominal package geometry, not exact manufacturer MPN CAD."
+  },
+  {
+    "file": "C_1210_3225Metric.wrl",
+    "source": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Capacitor_SMD.3dshapes/C_1210_3225Metric.wrl",
+    "type": "KiCad community model",
+    "sha256": "9019ca14e512c194f47f43fcb9deafce8e75fcef9aa3fe8a8c9810727e4424d1",
+    "notes": "Generic KiCad package model; nominal package geometry, not exact manufacturer MPN CAD."
+  },
+  {
+    "file": "SOT-23-6.wrl",
+    "source": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Package_TO_SOT_SMD.3dshapes/SOT-23-6.wrl",
+    "type": "KiCad community model",
+    "sha256": "01fe842f8ca8534456b365e2a38b77b8c61a07e4133d79187d0df9d46037051b",
+    "notes": "Generic KiCad package model; nominal package geometry, not exact manufacturer MPN CAD."
+  },
+  {
+    "file": "D_SMA.wrl",
+    "source": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Diode_SMD.3dshapes/D_SMA.wrl",
+    "type": "KiCad community model",
+    "sha256": "4849d3fbd602476ed88a0edada41a1eb3acf69a785ee9624d1d76873134011d2",
+    "notes": "Generic KiCad package model; nominal package geometry, not exact manufacturer MPN CAD."
+  },
+  {
+    "file": "Fuse_1206_3216Metric.wrl",
+    "source": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Fuse.3dshapes/Fuse_1206_3216Metric.wrl",
+    "type": "KiCad community model",
+    "sha256": "778f45add1215d06ce7bf91860d47dfb35401b1875277c1346333d195a76a1b8",
+    "notes": "Generic KiCad package model; nominal package geometry, not exact manufacturer MPN CAD."
+  },
+  {
+    "file": "PinHeader_1x02_P2.54mm_Vertical.wrl",
+    "source": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x02_P2.54mm_Vertical.wrl",
+    "type": "KiCad community model",
+    "sha256": "68eadd056ad8e757ea548dec4cd1c4077d97ba964a22b3ffb4005f859e4ae988",
+    "notes": "Generic KiCad package model; nominal package geometry, not exact manufacturer MPN CAD."
+  },
+  {
+    "file": "PinSocket_2x08_P2.54mm_Vertical.wrl",
+    "source": "https://raw.githubusercontent.com/KiCad/kicad-packages3D/master/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x08_P2.54mm_Vertical.wrl",
+    "type": "KiCad community model",
+    "sha256": "0d202c63fc6d5e258e68eba8d79d2ed4a98eb0d2cf6c5d5eacf0af152bbb7dbc",
+    "notes": "Generic KiCad package model; nominal package geometry, not exact manufacturer MPN CAD."
+  },
+  {
+    "file": "FH26W_25_Nominal.step",
+    "type": "Project-generated nominal mechanical visualization; not manufacturer CAD",
+    "source": "Rotated KiCad 9 FH26 family F.Fab X/Y body outline; 1.0 mm nominal family height",
+    "notes": "Exact W variant, tolerance, latch travel and FPC mating are not mechanically qualified.",
+    "units": "mm",
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "offset_mm": [
+      0,
+      0,
+      0
+    ],
+    "rotation_deg": [
+      0,
+      0,
+      0
+    ],
+    "nominal_body_dimensions_mm": [
+      9.0,
+      3.25,
+      1.0
+    ],
+    "exported_bbox_mm": {
+      "min": [
+        -4.5,
+        -1.9,
+        0.0
+      ],
+      "max": [
+        4.5,
+        1.709,
+        1.0
+      ]
+    },
+    "contact_alignment": [
+      {
+        "pad": "1",
+        "footprint_xy_mm": [
+          -3.6,
+          1.4
+        ],
+        "model_xyz_mm": [
+          -3.6,
+          -1.4,
+          0.075
+        ]
+      },
+      {
+        "pad": "2",
+        "footprint_xy_mm": [
+          -3.3,
+          -1.475
+        ],
+        "model_xyz_mm": [
+          -3.3,
+          1.475,
+          0.075
+        ]
+      },
+      {
+        "pad": "3",
+        "footprint_xy_mm": [
+          -3.0,
+          1.4
+        ],
+        "model_xyz_mm": [
+          -3.0,
+          -1.4,
+          0.075
+        ]
+      },
+      {
+        "pad": "4",
+        "footprint_xy_mm": [
+          -2.7,
+          -1.475
+        ],
+        "model_xyz_mm": [
+          -2.7,
+          1.475,
+          0.075
+        ]
+      },
+      {
+        "pad": "5",
+        "footprint_xy_mm": [
+          -2.4,
+          1.4
+        ],
+        "model_xyz_mm": [
+          -2.4,
+          -1.4,
+          0.075
+        ]
+      },
+      {
+        "pad": "6",
+        "footprint_xy_mm": [
+          -2.1,
+          -1.475
+        ],
+        "model_xyz_mm": [
+          -2.1,
+          1.475,
+          0.075
+        ]
+      },
+      {
+        "pad": "7",
+        "footprint_xy_mm": [
+          -1.8,
+          1.4
+        ],
+        "model_xyz_mm": [
+          -1.8,
+          -1.4,
+          0.075
+        ]
+      },
+      {
+        "pad": "8",
+        "footprint_xy_mm": [
+          -1.5,
+          -1.475
+        ],
+        "model_xyz_mm": [
+          -1.5,
+          1.475,
+          0.075
+        ]
+      },
+      {
+        "pad": "9",
+        "footprint_xy_mm": [
+          -1.2,
+          1.4
+        ],
+        "model_xyz_mm": [
+          -1.2,
+          -1.4,
+          0.075
+        ]
+      },
+      {
+        "pad": "10",
+        "footprint_xy_mm": [
+          -0.9,
+          -1.475
+        ],
+        "model_xyz_mm": [
+          -0.9,
+          1.475,
+          0.075
+        ]
+      },
+      {
+        "pad": "11",
+        "footprint_xy_mm": [
+          -0.6,
+          1.4
+        ],
+        "model_xyz_mm": [
+          -0.6,
+          -1.4,
+          0.075
+        ]
+      },
+      {
+        "pad": "12",
+        "footprint_xy_mm": [
+          -0.3,
+          -1.475
+        ],
+        "model_xyz_mm": [
+          -0.3,
+          1.475,
+          0.075
+        ]
+      },
+      {
+        "pad": "13",
+        "footprint_xy_mm": [
+          0.0,
+          1.4
+        ],
+        "model_xyz_mm": [
+          0.0,
+          -1.4,
+          0.075
+        ]
+      },
+      {
+        "pad": "14",
+        "footprint_xy_mm": [
+          0.3,
+          -1.475
+        ],
+        "model_xyz_mm": [
+          0.3,
+          1.475,
+          0.075
+        ]
+      },
+      {
+        "pad": "15",
+        "footprint_xy_mm": [
+          0.6,
+          1.4
+        ],
+        "model_xyz_mm": [
+          0.6,
+          -1.4,
+          0.075
+        ]
+      },
+      {
+        "pad": "16",
+        "footprint_xy_mm": [
+          0.9,
+          -1.475
+        ],
+        "model_xyz_mm": [
+          0.9,
+          1.475,
+          0.075
+        ]
+      },
+      {
+        "pad": "17",
+        "footprint_xy_mm": [
+          1.2,
+          1.4
+        ],
+        "model_xyz_mm": [
+          1.2,
+          -1.4,
+          0.075
+        ]
+      },
+      {
+        "pad": "18",
+        "footprint_xy_mm": [
+          1.5,
+          -1.475
+        ],
+        "model_xyz_mm": [
+          1.5,
+          1.475,
+          0.075
+        ]
+      },
+      {
+        "pad": "19",
+        "footprint_xy_mm": [
+          1.8,
+          1.4
+        ],
+        "model_xyz_mm": [
+          1.8,
+          -1.4,
+          0.075
+        ]
+      },
+      {
+        "pad": "20",
+        "footprint_xy_mm": [
+          2.1,
+          -1.475
+        ],
+        "model_xyz_mm": [
+          2.1,
+          1.475,
+          0.075
+        ]
+      },
+      {
+        "pad": "21",
+        "footprint_xy_mm": [
+          2.4,
+          1.4
+        ],
+        "model_xyz_mm": [
+          2.4,
+          -1.4,
+          0.075
+        ]
+      },
+      {
+        "pad": "22",
+        "footprint_xy_mm": [
+          2.7,
+          -1.475
+        ],
+        "model_xyz_mm": [
+          2.7,
+          1.475,
+          0.075
+        ]
+      },
+      {
+        "pad": "23",
+        "footprint_xy_mm": [
+          3.0,
+          1.4
+        ],
+        "model_xyz_mm": [
+          3.0,
+          -1.4,
+          0.075
+        ]
+      },
+      {
+        "pad": "24",
+        "footprint_xy_mm": [
+          3.3,
+          -1.475
+        ],
+        "model_xyz_mm": [
+          3.3,
+          1.475,
+          0.075
+        ]
+      },
+      {
+        "pad": "25",
+        "footprint_xy_mm": [
+          3.6,
+          1.4
+        ],
+        "model_xyz_mm": [
+          3.6,
+          -1.4,
+          0.075
+        ]
+      },
+      {
+        "pad": "",
+        "footprint_xy_mm": [
+          -4.3,
+          1.125
+        ],
+        "model_xyz_mm": [
+          -4.3,
+          -1.125,
+          0.075
+        ]
+      },
+      {
+        "pad": "",
+        "footprint_xy_mm": [
+          4.3,
+          1.125
+        ],
+        "model_xyz_mm": [
+          4.3,
+          -1.125,
+          0.075
+        ]
+      }
+    ],
+    "sha256": "0b31f9e4ce8a37cf6738a60a690f25a93593f88eb90288b2db389c8ac9589b43"
+  },
+  {
+    "file": "FH26_39_Nominal.step",
+    "type": "Project-generated nominal mechanical visualization; not manufacturer CAD",
+    "source": "Rotated KiCad 9 FH26 family F.Fab X/Y body outline; 1.0 mm nominal family height",
+    "notes": "Exact W variant, tolerance, latch travel and FPC mating are not mechanically qualified.",
+    "units": "mm",
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "offset_mm": [
+      0,
+      0,
+      0
+    ],
+    "rotation_deg": [
+      0,
+      0,
+      0
+    ],
+    "nominal_body_dimensions_mm": [
+      13.200000000000001,
+      3.25,
+      1.0
+    ],
+    "exported_bbox_mm": {
+      "min": [
+        -6.6,
+        -1.9,
+        0.0
+      ],
+      "max": [
+        6.6,
+        1.709,
+        1.0
+      ]
+    },
+    "contact_alignment": [
+      {
+        "pad": "1",
+        "footprint_xy_mm": [
+          -5.7,
+          1.4
+        ],
+        "model_xyz_mm": [
+          -5.7,
+          -1.4,
+          0.075
+        ]
+      },
+      {
+        "pad": "2",
+        "footprint_xy_mm": [
+          -5.4,
+          -1.475
+        ],
+        "model_xyz_mm": [
+          -5.4,
+          1.475,
+          0.075
+        ]
+      },
+      {
+        "pad": "3",
+        "footprint_xy_mm": [
+          -5.1,
+          1.4
+        ],
+        "model_xyz_mm": [
+          -5.1,
+          -1.4,
+          0.075
+        ]
+      },
+      {
+        "pad": "4",
+        "footprint_xy_mm": [
+          -4.8,
+          -1.475
+        ],
+        "model_xyz_mm": [
+          -4.8,
+          1.475,
+          0.075
+        ]
+      },
+      {
+        "pad": "5",
+        "footprint_xy_mm": [
+          -4.5,
+          1.4
+        ],
+        "model_xyz_mm": [
+          -4.5,
+          -1.4,
+          0.075
+        ]
+      },
+      {
+        "pad": "6",
+        "footprint_xy_mm": [
+          -4.2,
+          -1.475
+        ],
+        "model_xyz_mm": [
+          -4.2,
+          1.475,
+          0.075
+        ]
+      },
+      {
+        "pad": "7",
+        "footprint_xy_mm": [
+          -3.9,
+          1.4
+        ],
+        "model_xyz_mm": [
+          -3.9,
+          -1.4,
+          0.075
+        ]
+      },
+      {
+        "pad": "8",
+        "footprint_xy_mm": [
+          -3.6,
+          -1.475
+        ],
+        "model_xyz_mm": [
+          -3.6,
+          1.475,
+          0.075
+        ]
+      },
+      {
+        "pad": "9",
+        "footprint_xy_mm": [
+          -3.3,
+          1.4
+        ],
+        "model_xyz_mm": [
+          -3.3,
+          -1.4,
+          0.075
+        ]
+      },
+      {
+        "pad": "10",
+        "footprint_xy_mm": [
+          -3.0,
+          -1.475
+        ],
+        "model_xyz_mm": [
+          -3.0,
+          1.475,
+          0.075
+        ]
+      },
+      {
+        "pad": "11",
+        "footprint_xy_mm": [
+          -2.7,
+          1.4
+        ],
+        "model_xyz_mm": [
+          -2.7,
+          -1.4,
+          0.075
+        ]
+      },
+      {
+        "pad": "12",
+        "footprint_xy_mm": [
+          -2.4,
+          -1.475
+        ],
+        "model_xyz_mm": [
+          -2.4,
+          1.475,
+          0.075
+        ]
+      },
+      {
+        "pad": "13",
+        "footprint_xy_mm": [
+          -2.1,
+          1.4
+        ],
+        "model_xyz_mm": [
+          -2.1,
+          -1.4,
+          0.075
+        ]
+      },
+      {
+        "pad": "14",
+        "footprint_xy_mm": [
+          -1.8,
+          -1.475
+        ],
+        "model_xyz_mm": [
+          -1.8,
+          1.475,
+          0.075
+        ]
+      },
+      {
+        "pad": "15",
+        "footprint_xy_mm": [
+          -1.5,
+          1.4
+        ],
+        "model_xyz_mm": [
+          -1.5,
+          -1.4,
+          0.075
+        ]
+      },
+      {
+        "pad": "16",
+        "footprint_xy_mm": [
+          -1.2,
+          -1.475
+        ],
+        "model_xyz_mm": [
+          -1.2,
+          1.475,
+          0.075
+        ]
+      },
+      {
+        "pad": "17",
+        "footprint_xy_mm": [
+          -0.9,
+          1.4
+        ],
+        "model_xyz_mm": [
+          -0.9,
+          -1.4,
+          0.075
+        ]
+      },
+      {
+        "pad": "18",
+        "footprint_xy_mm": [
+          -0.6,
+          -1.475
+        ],
+        "model_xyz_mm": [
+          -0.6,
+          1.475,
+          0.075
+        ]
+      },
+      {
+        "pad": "19",
+        "footprint_xy_mm": [
+          -0.3,
+          1.4
+        ],
+        "model_xyz_mm": [
+          -0.3,
+          -1.4,
+          0.075
+        ]
+      },
+      {
+        "pad": "20",
+        "footprint_xy_mm": [
+          0.0,
+          -1.475
+        ],
+        "model_xyz_mm": [
+          0.0,
+          1.475,
+          0.075
+        ]
+      },
+      {
+        "pad": "21",
+        "footprint_xy_mm": [
+          0.3,
+          1.4
+        ],
+        "model_xyz_mm": [
+          0.3,
+          -1.4,
+          0.075
+        ]
+      },
+      {
+        "pad": "22",
+        "footprint_xy_mm": [
+          0.6,
+          -1.475
+        ],
+        "model_xyz_mm": [
+          0.6,
+          1.475,
+          0.075
+        ]
+      },
+      {
+        "pad": "23",
+        "footprint_xy_mm": [
+          0.9,
+          1.4
+        ],
+        "model_xyz_mm": [
+          0.9,
+          -1.4,
+          0.075
+        ]
+      },
+      {
+        "pad": "24",
+        "footprint_xy_mm": [
+          1.2,
+          -1.475
+        ],
+        "model_xyz_mm": [
+          1.2,
+          1.475,
+          0.075
+        ]
+      },
+      {
+        "pad": "25",
+        "footprint_xy_mm": [
+          1.5,
+          1.4
+        ],
+        "model_xyz_mm": [
+          1.5,
+          -1.4,
+          0.075
+        ]
+      },
+      {
+        "pad": "26",
+        "footprint_xy_mm": [
+          1.8,
+          -1.475
+        ],
+        "model_xyz_mm": [
+          1.8,
+          1.475,
+          0.075
+        ]
+      },
+      {
+        "pad": "27",
+        "footprint_xy_mm": [
+          2.1,
+          1.4
+        ],
+        "model_xyz_mm": [
+          2.1,
+          -1.4,
+          0.075
+        ]
+      },
+      {
+        "pad": "28",
+        "footprint_xy_mm": [
+          2.4,
+          -1.475
+        ],
+        "model_xyz_mm": [
+          2.4,
+          1.475,
+          0.075
+        ]
+      },
+      {
+        "pad": "29",
+        "footprint_xy_mm": [
+          2.7,
+          1.4
+        ],
+        "model_xyz_mm": [
+          2.7,
+          -1.4,
+          0.075
+        ]
+      },
+      {
+        "pad": "30",
+        "footprint_xy_mm": [
+          3.0,
+          -1.475
+        ],
+        "model_xyz_mm": [
+          3.0,
+          1.475,
+          0.075
+        ]
+      },
+      {
+        "pad": "31",
+        "footprint_xy_mm": [
+          3.3,
+          1.4
+        ],
+        "model_xyz_mm": [
+          3.3,
+          -1.4,
+          0.075
+        ]
+      },
+      {
+        "pad": "32",
+        "footprint_xy_mm": [
+          3.6,
+          -1.475
+        ],
+        "model_xyz_mm": [
+          3.6,
+          1.475,
+          0.075
+        ]
+      },
+      {
+        "pad": "33",
+        "footprint_xy_mm": [
+          3.9,
+          1.4
+        ],
+        "model_xyz_mm": [
+          3.9,
+          -1.4,
+          0.075
+        ]
+      },
+      {
+        "pad": "34",
+        "footprint_xy_mm": [
+          4.2,
+          -1.475
+        ],
+        "model_xyz_mm": [
+          4.2,
+          1.475,
+          0.075
+        ]
+      },
+      {
+        "pad": "35",
+        "footprint_xy_mm": [
+          4.5,
+          1.4
+        ],
+        "model_xyz_mm": [
+          4.5,
+          -1.4,
+          0.075
+        ]
+      },
+      {
+        "pad": "36",
+        "footprint_xy_mm": [
+          4.8,
+          -1.475
+        ],
+        "model_xyz_mm": [
+          4.8,
+          1.475,
+          0.075
+        ]
+      },
+      {
+        "pad": "37",
+        "footprint_xy_mm": [
+          5.1,
+          1.4
+        ],
+        "model_xyz_mm": [
+          5.1,
+          -1.4,
+          0.075
+        ]
+      },
+      {
+        "pad": "38",
+        "footprint_xy_mm": [
+          5.4,
+          -1.475
+        ],
+        "model_xyz_mm": [
+          5.4,
+          1.475,
+          0.075
+        ]
+      },
+      {
+        "pad": "39",
+        "footprint_xy_mm": [
+          5.7,
+          1.4
+        ],
+        "model_xyz_mm": [
+          5.7,
+          -1.4,
+          0.075
+        ]
+      },
+      {
+        "pad": "",
+        "footprint_xy_mm": [
+          -6.4,
+          1.125
+        ],
+        "model_xyz_mm": [
+          -6.4,
+          -1.125,
+          0.075
+        ]
+      },
+      {
+        "pad": "",
+        "footprint_xy_mm": [
+          6.4,
+          1.125
+        ],
+        "model_xyz_mm": [
+          6.4,
+          -1.125,
+          0.075
+        ]
+      }
+    ],
+    "sha256": "8d9e2b64b86321514d6bb34d2bcfdbcf1692701babee01d2dfeeb93542234a6a"
+  },
+  {
+    "file": "FH19C_6_Nominal.step",
+    "type": "Project-generated nominal mechanical visualization; not manufacturer CAD",
+    "source": "Submitted Rev J footprint body 5.0 x 3.0 mm; nominal 1.0 mm height",
+    "notes": "Envelope and contacts only. Exact Hirose drawing unavailable; verify body height/entry side and physical flex before placement release.",
+    "units": "mm",
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "offset_mm": [
+      0,
+      0,
+      0
+    ],
+    "rotation_deg": [
+      0,
+      0,
+      0
+    ],
+    "nominal_body_dimensions_mm": [
+      5,
+      3,
+      1
+    ],
+    "exported_bbox_mm": {
+      "min": [
+        -2.5,
+        -1.538,
+        0.0
+      ],
+      "max": [
+        2.5,
+        1.538,
+        1.025
+      ]
+    },
+    "contact_alignment": [
+      {
+        "pad": "1",
+        "footprint_xy_mm": [
+          -1.25,
+          -1.25
+        ],
+        "model_xyz_mm": [
+          -1.25,
+          1.25,
+          0.075
+        ]
+      },
+      {
+        "pad": "2",
+        "footprint_xy_mm": [
+          -0.75,
+          -1.25
+        ],
+        "model_xyz_mm": [
+          -0.75,
+          1.25,
+          0.075
+        ]
+      },
+      {
+        "pad": "3",
+        "footprint_xy_mm": [
+          -0.25,
+          -1.25
+        ],
+        "model_xyz_mm": [
+          -0.25,
+          1.25,
+          0.075
+        ]
+      },
+      {
+        "pad": "4",
+        "footprint_xy_mm": [
+          0.25,
+          -1.25
+        ],
+        "model_xyz_mm": [
+          0.25,
+          1.25,
+          0.075
+        ]
+      },
+      {
+        "pad": "5",
+        "footprint_xy_mm": [
+          0.75,
+          -1.25
+        ],
+        "model_xyz_mm": [
+          0.75,
+          1.25,
+          0.075
+        ]
+      },
+      {
+        "pad": "6",
+        "footprint_xy_mm": [
+          1.25,
+          -1.25
+        ],
+        "model_xyz_mm": [
+          1.25,
+          1.25,
+          0.075
+        ]
+      },
+      {
+        "pad": "",
+        "footprint_xy_mm": [
+          -2.25,
+          1.25
+        ],
+        "model_xyz_mm": [
+          -2.25,
+          -1.25,
+          0.075
+        ]
+      },
+      {
+        "pad": "",
+        "footprint_xy_mm": [
+          2.25,
+          1.25
+        ],
+        "model_xyz_mm": [
+          2.25,
+          -1.25,
+          0.075
+        ]
+      }
+    ],
+    "sha256": "f1dbb57aa97b60f34b37e08e0db1200d4cf8e6fe7c7fb895b3a1f0bd6e2e976c"
+  },
+  {
+    "file": "SLF7045_Nominal.step",
+    "type": "Project-generated nominal mechanical visualization; not manufacturer CAD",
+    "source": "SLF7045 nominal 7 x 7 x 4.5 mm; Rev J pad anchors",
+    "notes": "Nominal package proxy; exact obsolete part and qualified replacement not established.",
+    "units": "mm",
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "offset_mm": [
+      0,
+      0,
+      0
+    ],
+    "rotation_deg": [
+      0,
+      0,
+      0
+    ],
+    "nominal_body_dimensions_mm": [
+      7,
+      7,
+      4.5
+    ],
+    "exported_bbox_mm": {
+      "min": [
+        -3.69,
+        -3.5,
+        0.0
+      ],
+      "max": [
+        3.69,
+        3.5,
+        4.5
+      ]
+    },
+    "contact_alignment": [
+      {
+        "pad": "1",
+        "footprint_xy_mm": [
+          -3.15,
+          0.0
+        ],
+        "model_xyz_mm": [
+          -3.15,
+          -0.0,
+          0.075
+        ]
+      },
+      {
+        "pad": "2",
+        "footprint_xy_mm": [
+          3.15,
+          0.0
+        ],
+        "model_xyz_mm": [
+          3.15,
+          -0.0,
+          0.075
+        ]
+      }
+    ],
+    "sha256": "710fe45ce6ca24029b55332a2d7069dde04829b687c9c36f076f61c7b09e1d4f"
+  },
+  {
+    "file": "TestPoint_Copper_1mm.step",
+    "type": "Project-generated nominal mechanical visualization; not manufacturer CAD",
+    "source": "1.0 mm bare test pad; nominal 35 um outer copper",
+    "notes": "Visualization of existing bare copper only; not a purchased or fitted mechanical part. PCB renderer already displays this copper.",
+    "units": "mm",
+    "scale": [
+      1,
+      1,
+      1
+    ],
+    "offset_mm": [
+      0,
+      0,
+      0
+    ],
+    "rotation_deg": [
+      0,
+      0,
+      0
+    ],
+    "nominal_body_dimensions_mm": [
+      1,
+      1,
+      0.035
+    ],
+    "exported_bbox_mm": {
+      "min": [
+        -0.5,
+        -0.5,
+        0.0
+      ],
+      "max": [
+        0.5,
+        0.5,
+        0.035
+      ]
+    },
+    "contact_alignment": [],
+    "sha256": "ffb4b0c7f74a33eb67c9881f99740bfce41c1ddd9466972bb017e3f6cd80e388"
+  }
+]

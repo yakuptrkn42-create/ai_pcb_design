@@ -1,0 +1,161 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-22T05:56:33+0000",
+    "kicad_version": "9.0.2",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/ed618b3b-8e84-4aac-86ce-4d83671e5688",
+            "violations": [
+                {
+                    "description": "The current configuration does not include the symbol library 'Mechanical'",
+                    "items": [
+                        {
+                            "description": "Symbol H1 [MountingHole]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 2.5146
+                            },
+                            "uuid": "6a4279b9-48b9-4448-94d4-52f0deda5983"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Mechanical'",
+                    "items": [
+                        {
+                            "description": "Symbol H2 [MountingHole]",
+                            "pos": {
+                                "x": 1.3716,
+                                "y": 2.667
+                            },
+                            "uuid": "7c29842e-6938-4187-b50c-433701dd2fb5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Mechanical'",
+                    "items": [
+                        {
+                            "description": "Symbol H3 [MountingHole]",
+                            "pos": {
+                                "x": 1.651,
+                                "y": 2.5273
+                            },
+                            "uuid": "72655520-b57e-4b66-935f-a7262acf07a0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Mechanical'",
+                    "items": [
+                        {
+                            "description": "Symbol H4 [MountingHole]",
+                            "pos": {
+                                "x": 1.651,
+                                "y": 2.6797
+                            },
+                            "uuid": "038c9e76-c520-4f82-9e1c-8eebac0b5cf2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Connector'",
+                    "items": [
+                        {
+                            "description": "Symbol J4 [Conn_01x03_Pin]",
+                            "pos": {
+                                "x": 0.4191,
+                                "y": 0.6858
+                            },
+                            "uuid": "50b053d9-ff02-4b09-a745-910c40f7a98c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'Connector'",
+                    "items": [
+                        {
+                            "description": "Symbol J6 [Conn_01x02_Socket]",
+                            "pos": {
+                                "x": 0.3429,
+                                "y": 0.5715
+                            },
+                            "uuid": "58523b30-4f05-429e-8672-c3f0eaa0afa9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                }
+            ]
+        },
+        {
+            "path": "/Logic power & touch/",
+            "uuid_path": "/ed618b3b-8e84-4aac-86ce-4d83671e5688/66c8fc89-f922-4e28-aa19-db0364b3dd8c",
+            "violations": []
+        },
+        {
+            "path": "/Backlight / external power/",
+            "uuid_path": "/ed618b3b-8e84-4aac-86ce-4d83671e5688/b75b1f95-63e0-4b8c-bd42-383f67f21693",
+            "violations": [
+                {
+                    "description": "Global label only appears once in the schematic",
+                    "items": [
+                        {
+                            "description": "Global Label 'BL_COMP'",
+                            "pos": {
+                                "x": 1.0287,
+                                "y": 1.5621
+                            },
+                            "uuid": "c8506f71-4504-4b86-8e32-a3e26c6e1be9"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "single_global_label"
+                },
+                {
+                    "description": "Global label only appears once in the schematic",
+                    "items": [
+                        {
+                            "description": "Global Label 'BL_SW'",
+                            "pos": {
+                                "x": 1.8542,
+                                "y": 1.0033
+                            },
+                            "uuid": "ae1dccec-dea6-45a2-8589-7324a93fe53a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "single_global_label"
+                },
+                {
+                    "description": "Global label only appears once in the schematic",
+                    "items": [
+                        {
+                            "description": "Global Label 'OVP_SENSE'",
+                            "pos": {
+                                "x": 0.6985,
+                                "y": 2.2225
+                            },
+                            "uuid": "2b329b80-66e7-4ed8-9e0e-e9d8d92fb1ef"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "single_global_label"
+                }
+            ]
+        }
+    ],
+    "source": "STM32F469_DISEN_RevJ_Prep1.kicad_sch"
+}

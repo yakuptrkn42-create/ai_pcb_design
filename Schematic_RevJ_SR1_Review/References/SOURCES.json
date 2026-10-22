@@ -1,0 +1,76 @@
+[
+  {
+    "file": "DISEN_DS070HSD39T-132_A0.pdf",
+    "source": "Kullanıcının yüklediği özgün PDF, A0 / 2025-06-10, preliminary, 20 sayfa.",
+    "retrieved": "2026-10-22",
+    "sha256": "f06679a2e2a7ae54f9686292d2154dd596dd248b1dc664ddbe56ba49630ae126"
+  },
+  {
+    "file": "ST_MB1189_C01.pdf",
+    "source": "https://www.st.com/resource/en/schematic_pack/mb1189-c01_schematic.pdf",
+    "retrieved": "2026-10-22",
+    "sha256": "d07e0ecae55e712a9ede7b26011eeb7e1771a8f02fb1984b5cf43741ea41a181"
+  },
+  {
+    "file": "ST_UM1932_Rev5.pdf",
+    "source": "Depodaki üretici belgesi kopyası. Güncel resmi adres: https://www.st.com/resource/en/user_manual/um1932-discovery-kit-with-stm32f469ni-mcu-stmicroelectronics.pdf",
+    "retrieved": "2026-10-22",
+    "sha256": "17522b1b2a7d53d9821fc738c060e803dcd0cea614bcc66af60ecba2edf92dfc"
+  },
+  {
+    "file": "TI_TPS61165_SLVS790E.pdf",
+    "source": "https://www.ti.com/lit/ds/symlink/tps61165.pdf",
+    "retrieved": "2026-10-22",
+    "sha256": "bb0e9f995c5f8e0b73044d08ded5b0999cc1cad1bf2c532e0de257d2bb91aa35"
+  },
+  {
+    "file": "TI_TLV3011_SBOS300C.pdf",
+    "source": "https://www.ti.com/lit/ds/symlink/tlv3011.pdf",
+    "retrieved": "2026-10-22",
+    "sha256": "02993c016420887ee4f1ab2fa640e7596c9c1324a73f4f72bee3b32adec38df3"
+  },
+  {
+    "file": "TDK_SLF7045H.pdf",
+    "source": "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_automotive_power_slf7045-h_en.pdf",
+    "retrieved": "2026-10-22",
+    "sha256": "072d49275a614a2d97e7fee8f9cc7ef93981c61985e602fcdd0f570ed01eff84"
+  },
+  {
+    "file": "Hirose_FH26_Family.pdf",
+    "source": "https://www.hirose.com/api/v1/series/FH26/documents/product_series_catalog/content?lang=EN",
+    "retrieved": "2026-10-22",
+    "sha256": "50d9cf176ebe39520103bb16cb423e652923a362ded78632310fa13cd2253cb0"
+  },
+  {
+    "file": "Vishay_SS1x.pdf",
+    "source": "https://www.vishay.com/docs/88746/ss12.pdf",
+    "retrieved": "2026-10-22",
+    "sha256": "b32a2d93d2d2cf9f48d6cf678ab03713956b7501029c0424c6a554425df562da"
+  },
+  {
+    "file": "ST_LD1117.pdf",
+    "source": "https://www.st.com/resource/en/datasheet/ld1117.pdf",
+    "retrieved": "2026-10-22",
+    "sha256": "4fd8415a20d932fdc1de5be99e1aa5d2af1546f05c0a785a047ff93420364348"
+  },
+  {
+    "file": "st_bsp.txt",
+    "source": "https://raw.githubusercontent.com/STMicroelectronics/32f469idiscovery-bsp/main/stm32469i_discovery.h",
+    "sha256": "2859cc27f4f7fb449f0eeeb4317a0b258396421bc9a194961f0ced2c718d04d6"
+  },
+  {
+    "file": "st_lcd.txt",
+    "source": "https://raw.githubusercontent.com/STMicroelectronics/32f469idiscovery-bsp/main/stm32469i_discovery_lcd.c",
+    "sha256": "88a0a9973b88becf6b597cf204d701e0340dd20de4b8a1277653d43318750a38"
+  },
+  {
+    "file": "st_dsi_hal.txt",
+    "source": "https://raw.githubusercontent.com/STMicroelectronics/stm32f4xx-hal-driver/master/Src/stm32f4xx_hal_dsi.c",
+    "sha256": "abd482f02d810dd39c81639ce8afd3c83f91c87ce29458237b2e1ccac9f2f1a0"
+  },
+  {
+    "file": "st_dsi_header.txt",
+    "source": "https://raw.githubusercontent.com/STMicroelectronics/stm32f4xx-hal-driver/master/Inc/stm32f4xx_hal_dsi.h",
+    "sha256": "fee84421ee7847ba1e77614bd77a1ab248020330ee367befe20d13bfb5f652ba"
+  }
+]

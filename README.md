@@ -1,3 +1,16 @@
+# Yeni şematik inceleme — J-SR1
+
+- [KiCad proje paketini indir — ZIP](STM32F469_DISEN_J_SR1_Schematic_Review.zip?raw=true)
+- [Revize şematik — PDF](Schematic_RevJ_SR1_Review/PDF/Schematic_J_SR1.pdf)
+- [Beş sayfalık teknik rapor — PDF](Schematic_RevJ_SR1_Review/PDF/Engineering_Review_TR.pdf)
+- [Native KiCad projesi ve açılış notları](Schematic_RevJ_SR1_Review/README_TR.md)
+
+22 Ekim 2026 tarihinde yüklenen proje üzerinde elektriksel şematik incelemesi: **ERC 0 hata / 0 uyarı**. J6 polarite açıklaması ve J4 konnektör/footprint tanımı düzeltildi; R13 8,2 kΩ yapıldı. 39 LCD pini, 25 host CN10 pini ve 53 footprint'in pin üyeliği doğrulandı. Kaynak ZIP değiştirilmeden paketlendi.
+
+**Koşullu teslim:** host 3,365 V toleransı / touch 3,3 V üst sınırı için DISEN teyidi; gerçek FPC sürekliliği ve OVP açık-yük testleri bekleniyor. Donanımda çalışma ve nihai PCB dondurma onayı verilmedi. Bu revizyon şematik içindir; aşağıdaki önceki routing teslimi güncellenmedi.
+
+---
+
 # DISEN LCD — Rev J / Routing R1
 
 **Güncel teslim: dört katman routing tamamlandı. 0 DRC ihlali / 0 bağlantısız öğe / 0 şematik–PCB parity farkı.**

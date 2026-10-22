@@ -1,0 +1,52 @@
+{
+  "status": "PASS",
+  "moved_project_path": "/tmp/lcd-sr1-portable-a5_d_dl1/Project",
+  "fresh_XDG_configuration": true,
+  "erc_violations": 0,
+  "same_net_partitions": true,
+  "checks": [
+    {
+      "command": [
+        "kicad-cli",
+        "sch",
+        "erc",
+        "--exit-code-violations",
+        "--format",
+        "json",
+        "-o",
+        "/tmp/lcd-sr1-portable-a5_d_dl1/erc.json",
+        "/tmp/lcd-sr1-portable-a5_d_dl1/Project/STM32F469_DISEN_RevJ_Prep1.kicad_sch"
+      ],
+      "exit_code": 0,
+      "output": "You have run CvPcb for the first time using the new footprint library table method for finding footprints.\nCvPcb has either copied the default table or created an empty table in your home folder.\nYou must first configure the library table to include all footprint libraries not included with KiCad.\nSee the \u201cFootprint Library Table\u201d section of the CvPcb documentation for more information. Checking sheet names...\nChecking bus conflicts...\nChecking conflicts...\nChecking units...\nChecking footprints...\nChecking pins...\nChecking similar labels...\nChecking local and global labels...\nChecking for unresolved variables...\nChecking no connect pins for connections...\nChecking for library symbol issues...\nChecking for footprint link issues...\nChecking footprint assignments against footprint filters...\nChecking for off grid pins and wires...\nChecking for four way junctions...\nChecking for labels on more than one wire...\nChecking for undefined netclasses...\nFound 0 violations\nSaved ERC Report to /tmp/lcd-sr1-portable-a5_d_dl1/erc.json\n"
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "sch",
+        "export",
+        "netlist",
+        "--format",
+        "kicadxml",
+        "-o",
+        "/tmp/lcd-sr1-portable-a5_d_dl1/netlist.xml",
+        "/tmp/lcd-sr1-portable-a5_d_dl1/Project/STM32F469_DISEN_RevJ_Prep1.kicad_sch"
+      ],
+      "exit_code": 0,
+      "output": ""
+    },
+    {
+      "command": [
+        "kicad-cli",
+        "sch",
+        "export",
+        "pdf",
+        "-o",
+        "/tmp/lcd-sr1-portable-a5_d_dl1/schematic.pdf",
+        "/tmp/lcd-sr1-portable-a5_d_dl1/Project/STM32F469_DISEN_RevJ_Prep1.kicad_sch"
+      ],
+      "exit_code": 0,
+      "output": "Plotted to '/tmp/lcd-sr1-portable-a5_d_dl1/schematic.pdf'.\nDone.\n"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "local": "FH26-39S-0.3SHW",
+    "reference": "/usr/share/kicad/footprints/Connector_FFC-FPC.pretty/Hirose_FH26-39S-0.3SHW_2Rows-39Pins-1MP_P0.60mm_Horizontal.kicad_mod",
+    "numbered_pads": 39,
+    "coordinate_size_rotation_match_degrees": 270,
+    "result": "PASS"
+  },
+  {
+    "local": "FH26W-25S-0.3SHW",
+    "reference": "/usr/share/kicad/footprints/Connector_FFC-FPC.pretty/Hirose_FH26-25S-0.3SHW_2Rows-25Pins-1MP_P0.60mm_Horizontal.kicad_mod",
+    "numbered_pads": 25,
+    "coordinate_size_rotation_match_degrees": 270,
+    "result": "PASS"
+  },
+  {
+    "local": "SOT-23-6",
+    "reference": "/usr/share/kicad/footprints/Package_TO_SOT_SMD.pretty/SOT-23-6.kicad_mod",
+    "numbered_pads": 6,
+    "coordinate_size_rotation_match_degrees": 0,
+    "result": "PASS"
+  }
+]

@@ -1,0 +1,68 @@
+[
+  {
+    "ref": "J4",
+    "field": "Value",
+    "before": "CN12 1:1 / 2x08 socket",
+    "after": "HOST CTRL / 1=PC6 2=PB12 3=GND"
+  },
+  {
+    "ref": "J4",
+    "field": "Footprint",
+    "before": "Connector:FanPinHeader_1x03_P2.54mm_Vertical",
+    "after": "Adapter_F469:PinHeader_1x03_P2.54mm_Vertical"
+  },
+  {
+    "ref": "H4",
+    "field": "Footprint",
+    "before": "MountingHole:MountingHole_3.5mm",
+    "after": "Adapter_F469:MountingHole_3.5mm"
+  },
+  {
+    "ref": "H1",
+    "field": "Footprint",
+    "before": "MountingHole:MountingHole_3.5mm",
+    "after": "Adapter_F469:MountingHole_3.5mm"
+  },
+  {
+    "ref": "H3",
+    "field": "Footprint",
+    "before": "MountingHole:MountingHole_3.5mm",
+    "after": "Adapter_F469:MountingHole_3.5mm"
+  },
+  {
+    "ref": "H2",
+    "field": "Footprint",
+    "before": "MountingHole:MountingHole_3.5mm",
+    "after": "Adapter_F469:MountingHole_3.5mm"
+  },
+  {
+    "ref": "C3",
+    "field": "Value",
+    "before": "10uF / 50V",
+    "after": "10uF / 50V / X7R"
+  },
+  {
+    "ref": "J6",
+    "field": "Value",
+    "before": "EXT 5V / 1=GND 2=+5V",
+    "after": "EXT 5V / 1=+5V 2=GND"
+  },
+  {
+    "ref": "J6",
+    "field": "Footprint",
+    "before": "Connector_JST:JST_NV_B02P-NV_1x02_P5.00mm_Vertical",
+    "after": "Adapter_F469:JST_NV_B02P-NV_1x02_P5.00mm_Vertical"
+  },
+  {
+    "ref": "R13",
+    "field": "Value",
+    "before": "2.2k",
+    "after": "8.2k / 1%"
+  },
+  {
+    "ref": "F2",
+    "field": "Value",
+    "before": "0.75A hold / 6V",
+    "after": "0.75A hold / >=6V"
+  }
+]

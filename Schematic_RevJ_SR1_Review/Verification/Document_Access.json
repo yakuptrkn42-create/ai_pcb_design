@@ -1,0 +1,55 @@
+[
+  {
+    "name": "ST_MB1189",
+    "url": "https://www.st.com/resource/en/schematic_pack/mb1189-c01_schematic.pdf",
+    "status": 200,
+    "size": 7987999
+  },
+  {
+    "name": "TI_TLV3011",
+    "url": "https://www.ti.com/lit/ds/symlink/tlv3011.pdf",
+    "status": 200,
+    "size": 1624948
+  },
+  {
+    "name": "TI_TPS61165",
+    "url": "https://www.ti.com/lit/ds/symlink/tps61165.pdf",
+    "status": 200,
+    "size": 1789516
+  },
+  {
+    "name": "Hirose",
+    "url": "https://www.hirose.com/product/en/products/FH26/FH26-39S-0.3SHW%2805%29/",
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "name": "TDK",
+    "url": "https://product.tdk.com/system/files/dam/doc/product/inductor/inductor/smd/catalog/inductor_automotive_power_slf7045-h_en.pdf",
+    "status": 200,
+    "size": 440102
+  },
+  {
+    "name": "Robiz",
+    "url": "https://robiz.net/stm32f469idisco",
+    "status": 200,
+    "size": 670760
+  },
+  {
+    "name": "Hirose_catalog",
+    "url": "https://www.hirose.com/api/v1/series/FH26/documents/product_series_catalog/content?lang=EN",
+    "status": 200,
+    "size": 2322278
+  },
+  {
+    "name": "ST_LD1117",
+    "url": "https://www.st.com/resource/en/datasheet/ld1117.pdf",
+    "status": 200,
+    "size": 1634512
+  },
+  {
+    "name": "Vishay_SS1x",
+    "url": "https://www.vishay.com/docs/88746/ss12.pdf",
+    "status": 200,
+    "size": 1174123
+  }
+]

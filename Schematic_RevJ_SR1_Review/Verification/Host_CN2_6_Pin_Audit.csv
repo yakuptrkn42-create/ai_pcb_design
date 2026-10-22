@@ -1,0 +1,7 @@
+J3_pin,MB1189_C01_CN2_signal,actual_net,result
+1,HOST_TP_3V3,HOST_TP_3V3,PASS
+2,TP_INT,TP_INT,PASS
+3,TP_SCL,TP_SCL,PASS
+4,TP_SDA,TP_SDA,PASS
+5,PH7 reset intentionally NC,unconnected-(J3-PH7_RESET_NC-Pad5),PASS
+6,GND,GND,PASS

@@ -1,0 +1,29 @@
+{
+  "component_count_including_4_mounting_holes": 53,
+  "circuit_components": 49,
+  "net_count_including_NC": 44,
+  "connected_net_count": 32,
+  "component_set_preserved": true,
+  "all_physical_net_partitions_preserved": true,
+  "net_scope_renames": [
+    {
+      "before": "BL_COMP",
+      "after": "/Backlight / external power/BL_COMP"
+    },
+    {
+      "before": "BL_SW",
+      "after": "/Backlight / external power/BL_SW"
+    },
+    {
+      "before": "OVP_SENSE",
+      "after": "/Backlight / external power/OVP_SENSE"
+    }
+  ],
+  "panel_pins_checked": 39,
+  "host_CN10_pins_checked": 25,
+  "footprints_checked": 53,
+  "ERC_rules_unchanged": true,
+  "manufacturer_U2_validation": "PASS - TI SBOS300C pinout, 1.65-5.5V, fail-safe, POR Hi-Z, internal hysteresis; transient acceptance still requires bench measurements",
+  "physical_CN2_pin_order": "PASS for MB1189-C01 drawing; actual board revision and FPC continuity still require physical confirmation",
+  "hardware_measurements": "NOT RUN"
+}
