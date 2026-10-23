@@ -146,7 +146,7 @@ U1/L11 termal yükselmesi, modül güç tüketimi ve muhafaza koşulu bilinmeden
 
 **Sınıf:** Doğrulanan eksik bağlantı; işlevsel önem teyit bekliyor.
 
-**Kanıt:** C3.1=POC_IN; C3.2 boş net. Native bağlantı listesinde pad/iz teması yok; GND dolgusunun içinde değil.
+**Kanıt:** C3.1=POC_IN; C3.2 boş net. Net kodlarından bağımsız native şekil çarpışma kontrolünde pad/iz/via/dolgu teması yok.
 
 **Etki:** C3 şu haliyle tanımlı iki terminalli bir bypass/filtre yolu sağlamaz. Bunun kartın çalışmasını engellediği, amaç bilinmeden söylenemez.
 
@@ -285,6 +285,8 @@ Kaynak PCB kuralları korundu. Min clearance 0,2032 mm; min hole clearance 0,25 
 En dar clearance 0,1107 mm, WIFI_WAKE_FROM_DEV via ile U2.56/RTS pedi arasındadır; delik–bakır açıklığı 0,2377 mm aynı bölgede 0,25 mm kuralının altındadır. J2 alt silk çizgileri kart kenarında kesilir; sağ açılı konektörün gövde taşması elektriksel hata sayılmaz ama mekanik çizim teyidi gerekir. Tam koordinat listesi DRC_Findings.csv ve JSON içindedir.
 
 ERC’deki 37 açık-pin hatası veriyle eşleşir: modülün 36 netsiz pedi ve C3.2. U1.4, KiCad pin tablosunda NC olarak tanımlandığı için yalnız burada NC işareti kullanıldı. Diğer açık padleri kasıtlı NC diye sınıflandıracak veri yoktur. Modül ve G1 bilinmeyen pin tipleri pasif tutulduğundan ERC’nin güç domaini / çıkış çatışması / reset / RF işlevi kontrol kapsamı sınırlıdır. Bu sebeple ERC sonucu bir elektriksel doğruluk sertifikası değildir.
+
+Ek fiziksel kontrol: Net kodlarına bakmadan 38 netsiz kaynak pedi, tüm aynı katman ped/iz/via bakırıyla geometrik çarpışma açısından sınandı. GND dolgularına ayrıklık, yeterli olduğunda merkez uzaklığı–ped çevrel çember sınırıyla, bu sınır yetersizse native şekil çarpışmasıyla kontrol edildi. 38 pedde de bakır teması bulunmadı; Open_Pad_Physical_Geometry.json bu kontrolü kaydeder.
 
 ## 8. Güçlü taraflar
 - Kaynak adlandırılmış netlerde DRC açık bağlantısı veya raporlanan kısa devre yok.
