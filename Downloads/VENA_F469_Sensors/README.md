@@ -1,5 +1,15 @@
 # VENA F469 — optik ve BS241 sensör güncellemesi
 
+**Tek ZIP tam proje:** [VENA_F469_Sensor_Tam_Proje.zip — indir](https://github.com/yakuptrkn42-create/ai_pcb_design/raw/refs/heads/codex/vena-f469-sensor-download/Downloads/VENA_F469_Sensors/VENA_F469_Sensor_Tam_Proje.zip)
+
+Bu tam arşiv kaynakları, kütüphaneleri, sensör değişikliklerini ve hazır firmware'i
+birlikte içerir. ZIP'i tamamen çıkarın; `TouchGFX/MyApplication_9.touchgfx`
+dosyasını TouchGFX Designer 4.26 ile açın. Başka paket birleştirmeniz gerekmez.
+Karta yükleme için bilgisayardaki mevcut Run Target / ST-LINK / QSPI ayarları
+gereklidir; fiziksel karta yükleme bu ortamda test edilmedi.
+
+Aşağıdaki küçük paketler yalnızca mevcut projesine güncelleme uygulamak isteyenler içindir:
+
 - [Kod + hazır ELF/HEX firmware — indir](https://github.com/yakuptrkn42-create/ai_pcb_design/raw/refs/heads/codex/vena-f469-sensor-download/Downloads/VENA_F469_Sensors/VENA_F469_Sensor_Guncelleme.zip)
 - [Yalnız kaynak güncellemesi — indir](https://github.com/yakuptrkn42-create/ai_pcb_design/raw/refs/heads/codex/vena-f469-sensor-download/Downloads/VENA_F469_Sensors/VENA_F469_Sensor_Kod.zip)
 - [Bağlantı, kurulum ve test notları](SENSOR_ENTEGRASYONU_TR.md)
