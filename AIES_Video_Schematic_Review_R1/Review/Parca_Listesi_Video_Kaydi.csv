@@ -1,0 +1,15 @@
+﻿Referans,Gözlenen nesne / değer,Doğrulama kaynağı,Footprint,Durum
+U1,ESP32 tipinde kart / kesin varyant TBD,V 00:12.16 / 00:34.453: USB kablosu ve RF kalkanı. GPIO / kart kodu okunamadı.,Atanmadı,Modül varyantı/pin eşlemesi/değer TBD
+R1,Axial direnç / değer TBD,V 00:34.453: modül dışı axial direnç gövdesi. Bant değeri ve iki uç belirsiz.,Atanmadı,Modül varyantı/pin eşlemesi/değer TBD
+C1,Elektrolitik / C ve V TBD,V 00:10.133: ESP32 solundaki mor silindirik gövde. Değer/voltaj/polarite ve uçlar teyitsiz.,Atanmadı,Modül varyantı/pin eşlemesi/değer TBD
+C2,Elektrolitik / C ve V TBD,V 00:10.133: microSD modülü yanındaki üst silindirik gövde. Değer/voltaj/polarite ve uçlar teyitsiz.,Atanmadı,Modül varyantı/pin eşlemesi/değer TBD
+C3,Elektrolitik / C ve V TBD,V 00:10.133: microSD modülü yanındaki alt silindirik gövde. Değer/voltaj/polarite ve uçlar teyitsiz.,Atanmadı,Modül varyantı/pin eşlemesi/değer TBD
+U2,HW-017 / MPR121 tipi — görüntüde üst-sol,V 01:37.280 / 01:39.307: HW-017 PCB / Electrodes-LEDs yazısı ve kontrol terminal isimleri. MPR121 IC üst kodu okunamadı.,Atanmadı,Modül varyantı/pin eşlemesi/değer TBD
+U3,HW-017 / MPR121 tipi — görüntüde üst-sağ,V 01:37.280 / 01:39.307: HW-017 PCB / Electrodes-LEDs yazısı ve kontrol terminal isimleri. MPR121 IC üst kodu okunamadı.,Atanmadı,Modül varyantı/pin eşlemesi/değer TBD
+U4,HW-017 / MPR121 tipi — görüntüde alt,V 01:37.280 / 01:39.307: HW-017 PCB / Electrodes-LEDs yazısı ve kontrol terminal isimleri. MPR121 IC üst kodu okunamadı.,Atanmadı,Modül varyantı/pin eşlemesi/değer TBD
+U5,4 uçlu OLED tipi ekran / model TBD,"V 01:37.280: 4-pad header, GND/VCC ve 4-pin header görünür. İki veri etiketi tam seçilemiyor; kontrolcü/çözünürlük/VCC bilinmiyor.",Atanmadı,Modül varyantı/pin eşlemesi/değer TBD
+U6,microSD yuvalı modül / ses tipi olası,"V 00:34.453: microSD soketi. DFPlayer benzeri önbilgi; exact model, UART/power/speaker pinleri teyit edilmedi.",Atanmadı,Modül varyantı/pin eşlemesi/değer TBD
+LS1,Oval akustik sürücü / özellik TBD,V 00:10.133: oval akustik eleman. Empedans/güç ve iki kablo ucu okunamadı.,Atanmadı,Modül varyantı/pin eşlemesi/değer TBD
+U7,LED şerit — görüntüde sol / 8 görünür gövde,"V 00:42.560: üç şeritten görüntüde sol; 8 LED gövdesi. IC modeli, pad fonksiyonu ve segment sırası bilinmiyor.",Atanmadı,Modül varyantı/pin eşlemesi/değer TBD
+U8,LED şerit — görüntüde orta / 8 görünür gövde,"V 00:42.560: üç şeritten görüntüde orta; 8 LED gövdesi. IC modeli, pad fonksiyonu ve segment sırası bilinmiyor.",Atanmadı,Modül varyantı/pin eşlemesi/değer TBD
+U9,LED şerit — görüntüde sağ / 8 görünür gövde,"V 00:42.560: üç şeritten görüntüde sağ; 8 LED gövdesi. IC modeli, pad fonksiyonu ve segment sırası bilinmiyor.",Atanmadı,Modül varyantı/pin eşlemesi/değer TBD

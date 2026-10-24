@@ -1,0 +1,15 @@
+{
+  "Observed": {
+    "fresh_config_and_relocated_project": true,
+    "ERC_findings": {
+      "label_dangling": 68,
+      "power_pin_not_driven": 8
+    },
+    "all_project_symbol_paths_local": true
+  },
+  "Proposal": {
+    "fresh_config_and_relocated_project": true,
+    "ERC_findings": {},
+    "all_project_symbol_paths_local": true
+  }
+}

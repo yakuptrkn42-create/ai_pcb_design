@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-24",
+  "KiCad": "9.0.2",
+  "projects": {
+    "observed": "Project/AIES_Video_Review_R1.kicad_pro",
+    "proposal": "Proposal/Project/AIES_Oneri_P1.kicad_pro"
+  },
+  "schematic_pages_each": 7,
+  "user_block_diagram_pages_each": 3,
+  "video_covered_duration_sec": 148.89,
+  "sample_frames": 74,
+  "resolution": [
+    480,
+    848
+  ],
+  "speech_analyzed": false,
+  "observed_ERC_open_findings": 76,
+  "proposal_ERC_errors": 0,
+  "proposal_ERC_warnings": 0,
+  "proposal_checked_pin_nets": 157,
+  "intentional_NC_proposal": [
+    [
+      "U403",
+      "DOUT"
+    ]
+  ],
+  "NC_for_unknown_observed_pins": false,
+  "physical_models_qualified": false,
+  "footprints_assigned": false,
+  "PCB_created": false,
+  "firmware_created": false,
+  "hardware_tested": false,
+  "production_ready": false,
+  "existing_firmware_matches_proposal": "unknown;adaptation/verification required",
+  "KiCad_project_file_sha256": {
+    "Project/Guc_ESP32.kicad_sch": "df5c9bd1d4f8a141e52ab54debcbfac82194c44d627515f40742b6605f04ad41",
+    "Project/AIES_Observed.kicad_sym": "5329de4951e1705e4752af09f4fb6f909fbd42ae9cb5b72c6cd2adb07651bb51",
+    "Project/Ekran_LED_Ses.kicad_sch": "df6bc4d791466d6104f345467ca81378da1ae431ffbf58db2b74daa3ae240262",
+    "Project/Blok_Genel.kicad_sch": "b10d878c40821f7da3485a57feea8c434f9424ca26b377aecec3b250834126d1",
+    "Project/AIES_Video_Review_R1.kicad_pro": "cdfa8e65fdea8acb37ed70da97d7b354c674dc521ca6535ca6acc4798cc9bcff",
+    "Project/Dokunma_Elektrotlar.kicad_sch": "d402a7fa710df590e8ecedf3ddd83bb88a844bf1b51c9bba424b4d396a24295f",
+    "Project/Blok_Guc_Onerisi.kicad_sch": "61d8b1c8fb33b2413dd88a3f1682173497d5f518e949ba24a5e37839e32b8b4e",
+    "Project/AIES_Video_Review_R1.kicad_sch": "c0c6dded3bff6e76f65f5549879d686b3a4215b0089d633e4a90b89049316c7e",
+    "Project/Blok_Dokunma.kicad_sch": "108ffc4c812de6bda35b6d2fe823dac0dff4725bc23ac2268c1e0544410b9b98",
+    "Proposal/Project/AIES_Oneri_P1.kicad_sch": "156cb5dd696784380d1545549715dfda406da01cfa01151c3d83987c3fc29fec",
+    "Proposal/Project/Blok_Genel.kicad_sch": "1937302dd6214757d2d19964a128e31504a9487ac7a7205e861ee7c66e866414",
+    "Proposal/Project/AIES_Oneri_P1.kicad_pro": "98b52776631edd8b8d1226c14d957ffee6e740ac3a03169bff32a1227926797e",
+    "Proposal/Project/Blok_Guc_Onerisi.kicad_sch": "61d8b1c8fb33b2413dd88a3f1682173497d5f518e949ba24a5e37839e32b8b4e",
+    "Proposal/Project/Blok_Dokunma.kicad_sch": "108ffc4c812de6bda35b6d2fe823dac0dff4725bc23ac2268c1e0544410b9b98",
+    "Proposal/Project/Guc_ESP32_Oneri.kicad_sch": "39d64f37c695706ba35d3759157347e8b14d31ccb437e404524ad0e04250d1ab",
+    "Proposal/Project/AIES_Proposed.kicad_sym": "574df962ce374d3751963e1b9b0fd495f75ef233587b93415373f2134cd0ec31",
+    "Proposal/Project/Dokunma_Oneri.kicad_sch": "e5eefd257c3242c1322d9ce10ff10ca1911391b7bf841ee8b7650cb95f09a0d7",
+    "Proposal/Project/Cikislar_Oneri.kicad_sch": "057973bf2952639715150370ab9cb3ebde578b0bfa6d7d4fe27837b6f2e8b863"
+  }
+}

@@ -1,0 +1,4 @@
+(sym_lib_table
+ (version 7)
+ (lib (name "AIES_Observed") (type "KiCad") (uri "${KIPRJMOD}/AIES_Observed.kicad_sym") (options "") (descr "Video observation interfaces; no physical footprint numbering"))
+)

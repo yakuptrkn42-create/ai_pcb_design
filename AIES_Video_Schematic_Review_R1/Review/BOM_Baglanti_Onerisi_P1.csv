@@ -1,0 +1,26 @@
+﻿Referans,Önerilen değer / profil,Montaj,Fiziksel pad / footprint,Kaynak
+J101,4.8–5.0V regüle / ≥4A ÖNERİ,ÖNERİ / exact parça teyidi gerekir,Footprint atanmadı; modül pinleri işlev kimliği,Mühendislik önerisi
+F101,3.15A gecikmeli / değer ön bütçe,ÖNERİ / exact parça teyidi gerekir,Footprint atanmadı; modül pinleri işlev kimliği,Mühendislik önerisi
+JP101,USB takılıyken AÇ,ÖNERİ / exact parça teyidi gerekir,Footprint atanmadı; modül pinleri işlev kimliği,Mühendislik önerisi
+U101,ESP32 WROOM DevKit / profil,ÖNERİ / exact parça teyidi gerekir,Footprint atanmadı; modül pinleri işlev kimliği,Mühendislik önerisi
+U201,MPR121 / 0x5A ÖNERİ,ÖNERİ / exact parça teyidi gerekir,Footprint atanmadı; modül pinleri işlev kimliği,Mühendislik önerisi
+U202,MPR121 / 0x5B ÖNERİ,ÖNERİ / exact parça teyidi gerekir,Footprint atanmadı; modül pinleri işlev kimliği,Mühendislik önerisi
+U203,MPR121 / 0x5C ÖNERİ,ÖNERİ / exact parça teyidi gerekir,Footprint atanmadı; modül pinleri işlev kimliği,Mühendislik önerisi
+R201,4.7k / DNP — pull-up ölçümüne göre,DNP - ölçüme göre,Footprint atanmadı; modül pinleri işlev kimliği,Mühendislik önerisi
+R202,4.7k / DNP — pull-up ölçümüne göre,DNP - ölçüme göre,Footprint atanmadı; modül pinleri işlev kimliği,Mühendislik önerisi
+R203,10k / IRQ pull-up,ÖNERİ / exact parça teyidi gerekir,Footprint atanmadı; modül pinleri işlev kimliği,Mühendislik önerisi
+R204,10k / IRQ pull-up,ÖNERİ / exact parça teyidi gerekir,Footprint atanmadı; modül pinleri işlev kimliği,Mühendislik önerisi
+R205,10k / IRQ pull-up,ÖNERİ / exact parça teyidi gerekir,Footprint atanmadı; modül pinleri işlev kimliği,Mühendislik önerisi
+U301,OLED I²C / 3.3V profili,ÖNERİ / exact parça teyidi gerekir,Footprint atanmadı; modül pinleri işlev kimliği,Mühendislik önerisi
+U302,DFPlayer uyumlu / FN-M16P elektrik profili,ÖNERİ / exact parça teyidi gerekir,Footprint atanmadı; modül pinleri işlev kimliği,Mühendislik önerisi
+LS301,8Ω / 3W — yeni yük önerisi,ÖNERİ / exact parça teyidi gerekir,Footprint atanmadı; modül pinleri işlev kimliği,Mühendislik önerisi
+R301,1k seri / UART TX,ÖNERİ / exact parça teyidi gerekir,Footprint atanmadı; modül pinleri işlev kimliği,Mühendislik önerisi
+C102,470uF / 10V / ses yakını,ÖNERİ / exact parça teyidi gerekir,Footprint atanmadı; modül pinleri işlev kimliği,Mühendislik önerisi
+U303,SN74AHCT1G125DBVR / AHCT şart,ÖNERİ / exact parça teyidi gerekir,Footprint atanmadı; modül pinleri işlev kimliği,Mühendislik önerisi
+R302,330Ω / LED veri,ÖNERİ / exact parça teyidi gerekir,Footprint atanmadı; modül pinleri işlev kimliği,Mühendislik önerisi
+R303,100k / veri giriş pull-down,ÖNERİ / exact parça teyidi gerekir,Footprint atanmadı; modül pinleri işlev kimliği,Mühendislik önerisi
+U401,8 LED / segment 1 ÖNERİ,ÖNERİ / exact parça teyidi gerekir,Footprint atanmadı; modül pinleri işlev kimliği,Mühendislik önerisi
+U402,8 LED / segment 2 ÖNERİ,ÖNERİ / exact parça teyidi gerekir,Footprint atanmadı; modül pinleri işlev kimliği,Mühendislik önerisi
+U403,8 LED / segment 3 ÖNERİ,ÖNERİ / exact parça teyidi gerekir,Footprint atanmadı; modül pinleri işlev kimliği,Mühendislik önerisi
+C101,1000uF / 10V / LED güç girişi,ÖNERİ / exact parça teyidi gerekir,Footprint atanmadı; modül pinleri işlev kimliği,Mühendislik önerisi
+C103,100nF / U303 VCC dibine,ÖNERİ / exact parça teyidi gerekir,Footprint atanmadı; modül pinleri işlev kimliği,Mühendislik önerisi

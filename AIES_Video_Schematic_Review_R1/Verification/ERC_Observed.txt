@@ -1,0 +1,245 @@
+ERC report (2026-10-24T13:19:14+0000, Encoding UTF8)
+
+***** Sheet /
+[label_dangling]: Label not connected to anything
+    ; error
+    @(45.72 mm, 190.50 mm): Label 'TBD_C1_A'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(104.14 mm, 190.50 mm): Label 'TBD_C1_B'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(175.26 mm, 190.50 mm): Label 'TBD_C2_A'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(242.57 mm, 124.46 mm): Label 'TBD_R1_A'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(233.68 mm, 190.50 mm): Label 'TBD_C2_B'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(298.45 mm, 124.46 mm): Label 'TBD_R1_B'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(306.07 mm, 190.50 mm): Label 'TBD_C3_A'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(364.49 mm, 190.50 mm): Label 'TBD_C3_B'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(36.83 mm, 83.82 mm): Label 'TBD_U2_GND'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(36.83 mm, 91.44 mm): Label 'TBD_U2_ADDR'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(36.83 mm, 99.06 mm): Label 'TBD_U2_SDA'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(36.83 mm, 107.95 mm): Label 'TBD_U2_SCL'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(36.83 mm, 115.57 mm): Label 'TBD_U2_IRQ'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(36.83 mm, 123.19 mm): Label 'TBD_U2_V3V3'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(102.87 mm, 83.82 mm): Label 'TBD_U2_E0'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(102.87 mm, 87.63 mm): Label 'TBD_U2_E1'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(102.87 mm, 91.44 mm): Label 'TBD_U2_E2'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(102.87 mm, 95.25 mm): Label 'TBD_U2_E3'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(102.87 mm, 99.06 mm): Label 'TBD_U2_E4'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(102.87 mm, 102.87 mm): Label 'TBD_U2_E5'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(102.87 mm, 107.95 mm): Label 'TBD_U2_E6'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(102.87 mm, 111.76 mm): Label 'TBD_U2_E7'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(102.87 mm, 115.57 mm): Label 'TBD_U2_E8'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(102.87 mm, 119.38 mm): Label 'TBD_U2_E9'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(102.87 mm, 123.19 mm): Label 'TBD_U2_E10'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(102.87 mm, 127.00 mm): Label 'TBD_U2_E11'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(176.53 mm, 83.82 mm): Label 'TBD_U3_GND'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(176.53 mm, 91.44 mm): Label 'TBD_U3_ADDR'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(176.53 mm, 99.06 mm): Label 'TBD_U3_SDA'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(176.53 mm, 107.95 mm): Label 'TBD_U3_SCL'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(176.53 mm, 115.57 mm): Label 'TBD_U3_IRQ'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(176.53 mm, 123.19 mm): Label 'TBD_U3_V3V3'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(242.57 mm, 83.82 mm): Label 'TBD_U3_E0'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(242.57 mm, 87.63 mm): Label 'TBD_U3_E1'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(242.57 mm, 91.44 mm): Label 'TBD_U3_E2'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(242.57 mm, 95.25 mm): Label 'TBD_U3_E3'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(242.57 mm, 99.06 mm): Label 'TBD_U3_E4'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(242.57 mm, 102.87 mm): Label 'TBD_U3_E5'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(242.57 mm, 107.95 mm): Label 'TBD_U3_E6'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(242.57 mm, 111.76 mm): Label 'TBD_U3_E7'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(242.57 mm, 115.57 mm): Label 'TBD_U3_E8'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(242.57 mm, 119.38 mm): Label 'TBD_U3_E9'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(242.57 mm, 123.19 mm): Label 'TBD_U3_E10'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(242.57 mm, 127.00 mm): Label 'TBD_U3_E11'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(317.50 mm, 83.82 mm): Label 'TBD_U4_GND'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(317.50 mm, 91.44 mm): Label 'TBD_U4_ADDR'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(317.50 mm, 99.06 mm): Label 'TBD_U4_SDA'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(317.50 mm, 107.95 mm): Label 'TBD_U4_SCL'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(317.50 mm, 115.57 mm): Label 'TBD_U4_IRQ'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(317.50 mm, 123.19 mm): Label 'TBD_U4_V3V3'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(383.54 mm, 83.82 mm): Label 'TBD_U4_E0'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(383.54 mm, 87.63 mm): Label 'TBD_U4_E1'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(383.54 mm, 91.44 mm): Label 'TBD_U4_E2'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(383.54 mm, 95.25 mm): Label 'TBD_U4_E3'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(383.54 mm, 99.06 mm): Label 'TBD_U4_E4'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(383.54 mm, 102.87 mm): Label 'TBD_U4_E5'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(383.54 mm, 107.95 mm): Label 'TBD_U4_E6'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(383.54 mm, 111.76 mm): Label 'TBD_U4_E7'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(383.54 mm, 115.57 mm): Label 'TBD_U4_E8'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(383.54 mm, 119.38 mm): Label 'TBD_U4_E9'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(383.54 mm, 123.19 mm): Label 'TBD_U4_E10'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(383.54 mm, 127.00 mm): Label 'TBD_U4_E11'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(41.91 mm, 76.20 mm): Label 'TBD_U5_GND'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(41.91 mm, 83.82 mm): Label 'TBD_U5_VCC'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(41.91 mm, 91.44 mm): Label 'TBD_U5_CLK_TBD'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(41.91 mm, 99.06 mm): Label 'TBD_U5_DATA_TBD'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(323.85 mm, 87.63 mm): Label 'TBD_LS1_A'
+[label_dangling]: Label not connected to anything
+    ; error
+    @(387.35 mm, 87.63 mm): Label 'TBD_LS1_B'
+
+***** Sheet /02 Güç / ESP32/
+
+***** Sheet /03 Dokunma / elektrotlar/
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(44.45 mm, 83.82 mm): Symbol U2 Pin GND [GND, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(44.45 mm, 123.19 mm): Symbol U2 Pin V3V3 [3.3V_(baskı), Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(184.15 mm, 83.82 mm): Symbol U3 Pin GND [GND, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(184.15 mm, 123.19 mm): Symbol U3 Pin V3V3 [3.3V_(baskı), Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(325.12 mm, 83.82 mm): Symbol U4 Pin GND [GND, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(325.12 mm, 123.19 mm): Symbol U4 Pin V3V3 [3.3V_(baskı), Power input, Line]
+
+***** Sheet /04 Ekran / LED / ses/
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(49.53 mm, 76.20 mm): Symbol U5 Pin GND [GND, Power input, Line]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(49.53 mm, 83.82 mm): Symbol U5 Pin VCC [VCC, Power input, Line]
+
+***** Sheet /05–07 Kullanıcı görsellerinden blok diyagramlar/
+
+***** Sheet /05–07 Kullanıcı görsellerinden blok diyagramlar/06 Akış / G2/
+
+***** Sheet /05–07 Kullanıcı görsellerinden blok diyagramlar/07 Güç / G3/
+
+ ** ERC messages: 76  Errors 76  Warnings 0

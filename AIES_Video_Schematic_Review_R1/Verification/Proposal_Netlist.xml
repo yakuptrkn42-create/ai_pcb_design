@@ -1,0 +1,1216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/workspace/ai_pcb_design/AIES_Video_Schematic_Review_R1/Proposal/Project/AIES_Oneri_P1.kicad_sch</source>
+    <date>2026-10-24T13:19:16+0000</date>
+    <tool>Eeschema 9.0.2+dfsg-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>AİES / 01 / AİES bağlantı önerisi — sistem ve işletim sınırları</title>
+        <company/>
+        <rev>P1 / ÖNERİ</rev>
+        <date>2026-10-24</date>
+        <source>AIES_Oneri_P1.kicad_sch</source>
+        <comment number="1" value="Mühendislik seçimi; videonun mevcut GPIO/kablo sırası olduğu iddia edilmez."/>
+        <comment number="2" value="Footprint / exact modül varyantı ve güç limitleri doğrulama bekler; PCB yok."/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/02 Güç / ESP32/" tstamps="/7382400b-bb5b-5da5-9f42-d65126df457e/">
+      <title_block>
+        <title>AİES / 02 / Güç dağıtımı ve ESP32 — ÖNERİ</title>
+        <company/>
+        <rev>P1 / ÖNERİ</rev>
+        <date>2026-10-24</date>
+        <source>Guc_ESP32_Oneri.kicad_sch</source>
+        <comment number="1" value="Mühendislik seçimi; videonun mevcut GPIO/kablo sırası olduğu iddia edilmez."/>
+        <comment number="2" value="Footprint / exact modül varyantı ve güç limitleri doğrulama bekler; PCB yok."/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/03 Dokunma / elektrotlar/" tstamps="/e82aaa60-f227-58cb-8d36-21202a82912a/">
+      <title_block>
+        <title>AİES / 03 / Dokunma ve elektrot kablo arayüzleri — ÖNERİ</title>
+        <company/>
+        <rev>P1 / ÖNERİ</rev>
+        <date>2026-10-24</date>
+        <source>Dokunma_Oneri.kicad_sch</source>
+        <comment number="1" value="Mühendislik seçimi; videonun mevcut GPIO/kablo sırası olduğu iddia edilmez."/>
+        <comment number="2" value="Footprint / exact modül varyantı ve güç limitleri doğrulama bekler; PCB yok."/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/04 Ekran / LED / ses/" tstamps="/328eab5d-9dd4-5694-af2b-8d11ad07efc2/">
+      <title_block>
+        <title>AİES / 04 / OLED, seviye çevirici, LED ve ses — ÖNERİ</title>
+        <company/>
+        <rev>P1 / ÖNERİ</rev>
+        <date>2026-10-24</date>
+        <source>Cikislar_Oneri.kicad_sch</source>
+        <comment number="1" value="Mühendislik seçimi; videonun mevcut GPIO/kablo sırası olduğu iddia edilmez."/>
+        <comment number="2" value="Footprint / exact modül varyantı ve güç limitleri doğrulama bekler; PCB yok."/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/05–07 Kullanıcı blok görselleri / önceki güç fikri/" tstamps="/b98781e9-9cc9-517c-ad5e-0e998c66050f/">
+      <title_block>
+        <title>AİES / G1 / Kullanıcının genel yapı görseli</title>
+        <company/>
+        <rev>R1 / BLOK</rev>
+        <date>2026-10-24</date>
+        <source>Blok_Genel.kicad_sch</source>
+        <comment number="1" value="Kaynak: kullanıcı blok görselleri; elektriksel bağlantı kanıtı değildir."/>
+        <comment number="2" value="Elektriksel devre / PCB / üretim onayı değildir."/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/05–07 Kullanıcı blok görselleri / önceki güç fikri/06 Akış / G2/" tstamps="/b98781e9-9cc9-517c-ad5e-0e998c66050f/d0ce1d82-fa21-5df1-a0ac-0e8c5a68189b/">
+      <title_block>
+        <title>AİES / G2 / Kullanıcının dokunma akışı</title>
+        <company/>
+        <rev>R1 / BLOK</rev>
+        <date>2026-10-24</date>
+        <source>Blok_Dokunma.kicad_sch</source>
+        <comment number="1" value="Kaynak: kullanıcı blok görselleri; elektriksel bağlantı kanıtı değildir."/>
+        <comment number="2" value="Elektriksel devre / PCB / üretim onayı değildir."/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/05–07 Kullanıcı blok görselleri / önceki güç fikri/07 Güç / G3/" tstamps="/b98781e9-9cc9-517c-ad5e-0e998c66050f/f73cd6a3-f272-5f9f-9317-ca68d770a925/">
+      <title_block>
+        <title>AİES / G3 / Önceki güç fikri — P1 devresi değil</title>
+        <company/>
+        <rev>R1 / BLOK</rev>
+        <date>2026-10-24</date>
+        <source>Blok_Guc_Onerisi.kicad_sch</source>
+        <comment number="1" value="Kaynak: kullanıcı blok görselleri; elektriksel bağlantı kanıtı değildir."/>
+        <comment number="2" value="Elektriksel devre / PCB / üretim onayı değildir."/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="F101">
+      <value>3.15A gecikmeli / değer ön bütçe</value>
+      <description>ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</description>
+      <fields>
+        <field name="Evidence">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+        <field name="Pin_ID_Convention">Logical label only; physical pad numbering and footprint NOT assigned</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+      </fields>
+      <libsource lib="AIES_Proposed" part="Fuse" description=""/>
+      <property name="Evidence" value="ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."/>
+      <property name="Pin_ID_Convention" value="Logical label only; physical pad numbering and footprint NOT assigned"/>
+      <property name="Sheetname" value="02 Güç / ESP32"/>
+      <property name="Sheetfile" value="Guc_ESP32_Oneri.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/02 Güç / ESP32/" tstamps="/7382400b-bb5b-5da5-9f42-d65126df457e/"/>
+      <tstamps>9a6e080e-1ac8-5f56-9863-0264558de295</tstamps>
+    </comp>
+    <comp ref="J101">
+      <value>4.8–5.0V regüle / ≥4A ÖNERİ</value>
+      <description>ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</description>
+      <fields>
+        <field name="Evidence">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+        <field name="Pin_ID_Convention">Logical label only; physical pad numbering and footprint NOT assigned</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+      </fields>
+      <libsource lib="AIES_Proposed" part="Supply_Connector" description="Proposed external regulated 5V-class source, 4.8..5.0V required at modules; &gt;=4A preliminary budget, not video source rating."/>
+      <property name="Evidence" value="ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."/>
+      <property name="Pin_ID_Convention" value="Logical label only; physical pad numbering and footprint NOT assigned"/>
+      <property name="Sheetname" value="02 Güç / ESP32"/>
+      <property name="Sheetfile" value="Guc_ESP32_Oneri.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/02 Güç / ESP32/" tstamps="/7382400b-bb5b-5da5-9f42-d65126df457e/"/>
+      <tstamps>47a916b2-f711-59bd-bbbb-ac283db0db7f</tstamps>
+    </comp>
+    <comp ref="JP101">
+      <value>USB takılıyken AÇ</value>
+      <description>ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</description>
+      <fields>
+        <field name="Evidence">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+        <field name="Pin_ID_Convention">Logical label only; physical pad numbering and footprint NOT assigned</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+      </fields>
+      <libsource lib="AIES_Proposed" part="Jumper" description=""/>
+      <property name="Evidence" value="ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."/>
+      <property name="Pin_ID_Convention" value="Logical label only; physical pad numbering and footprint NOT assigned"/>
+      <property name="Sheetname" value="02 Güç / ESP32"/>
+      <property name="Sheetfile" value="Guc_ESP32_Oneri.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/02 Güç / ESP32/" tstamps="/7382400b-bb5b-5da5-9f42-d65126df457e/"/>
+      <tstamps>cdd3c1de-0ab6-59cf-a21e-9e5f78c6d4af</tstamps>
+    </comp>
+    <comp ref="U101">
+      <value>ESP32 WROOM DevKit / profil</value>
+      <description>ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</description>
+      <fields>
+        <field name="Evidence">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+        <field name="Pin_ID_Convention">Logical label only; physical pad numbering and footprint NOT assigned</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+      </fields>
+      <libsource lib="AIES_Proposed" part="ESP32_WROOM_DevKit_Profile" description="PROPOSAL ONLY: classic ESP32 WROOM DevKit profile, selected logical GPIO. Not ESP32-S3/C3 or WROVER pinout; no physical header footprint assigned."/>
+      <property name="Evidence" value="ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."/>
+      <property name="Pin_ID_Convention" value="Logical label only; physical pad numbering and footprint NOT assigned"/>
+      <property name="Sheetname" value="02 Güç / ESP32"/>
+      <property name="Sheetfile" value="Guc_ESP32_Oneri.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/02 Güç / ESP32/" tstamps="/7382400b-bb5b-5da5-9f42-d65126df457e/"/>
+      <tstamps>2b7e7728-87b2-5319-8fb7-e20eccedd02d</tstamps>
+    </comp>
+    <comp ref="J201">
+      <value>Elektrot A / 12 kanal kapasitesi</value>
+      <description>ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</description>
+      <fields>
+        <field name="Evidence">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+        <field name="Pin_ID_Convention">Logical label only; physical pad numbering and footprint NOT assigned</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+      </fields>
+      <libsource lib="AIES_Proposed" part="Electrode_Interface_12" description="Logical cable termination, not an assumed physical connector. Up to 12 available channels; actual heart-region map is not invented."/>
+      <property name="Evidence" value="ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."/>
+      <property name="Pin_ID_Convention" value="Logical label only; physical pad numbering and footprint NOT assigned"/>
+      <property name="Sheetname" value="03 Dokunma / elektrotlar"/>
+      <property name="Sheetfile" value="Dokunma_Oneri.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/03 Dokunma / elektrotlar/" tstamps="/e82aaa60-f227-58cb-8d36-21202a82912a/"/>
+      <tstamps>280f3b85-6705-50df-97cd-732d993226b0</tstamps>
+    </comp>
+    <comp ref="J202">
+      <value>Elektrot B / 12 kanal kapasitesi</value>
+      <description>ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</description>
+      <fields>
+        <field name="Evidence">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+        <field name="Pin_ID_Convention">Logical label only; physical pad numbering and footprint NOT assigned</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+      </fields>
+      <libsource lib="AIES_Proposed" part="Electrode_Interface_12" description="Logical cable termination, not an assumed physical connector. Up to 12 available channels; actual heart-region map is not invented."/>
+      <property name="Evidence" value="ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."/>
+      <property name="Pin_ID_Convention" value="Logical label only; physical pad numbering and footprint NOT assigned"/>
+      <property name="Sheetname" value="03 Dokunma / elektrotlar"/>
+      <property name="Sheetfile" value="Dokunma_Oneri.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/03 Dokunma / elektrotlar/" tstamps="/e82aaa60-f227-58cb-8d36-21202a82912a/"/>
+      <tstamps>e8be6a17-9883-5305-bfe9-99e8144c101e</tstamps>
+    </comp>
+    <comp ref="J203">
+      <value>Elektrot C / 12 kanal kapasitesi</value>
+      <description>ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</description>
+      <fields>
+        <field name="Evidence">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+        <field name="Pin_ID_Convention">Logical label only; physical pad numbering and footprint NOT assigned</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+      </fields>
+      <libsource lib="AIES_Proposed" part="Electrode_Interface_12" description="Logical cable termination, not an assumed physical connector. Up to 12 available channels; actual heart-region map is not invented."/>
+      <property name="Evidence" value="ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."/>
+      <property name="Pin_ID_Convention" value="Logical label only; physical pad numbering and footprint NOT assigned"/>
+      <property name="Sheetname" value="03 Dokunma / elektrotlar"/>
+      <property name="Sheetfile" value="Dokunma_Oneri.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/03 Dokunma / elektrotlar/" tstamps="/e82aaa60-f227-58cb-8d36-21202a82912a/"/>
+      <tstamps>d49655e4-4c25-56e2-ad87-2b939fc5e514</tstamps>
+    </comp>
+    <comp ref="R201">
+      <value>4.7k / DNP — pull-up ölçümüne göre</value>
+      <description>ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</description>
+      <fields>
+        <field name="Evidence">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+        <field name="Pin_ID_Convention">Logical label only; physical pad numbering and footprint NOT assigned</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+      </fields>
+      <libsource lib="AIES_Proposed" part="Resistor" description=""/>
+      <property name="Evidence" value="ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."/>
+      <property name="Pin_ID_Convention" value="Logical label only; physical pad numbering and footprint NOT assigned"/>
+      <property name="Sheetname" value="03 Dokunma / elektrotlar"/>
+      <property name="Sheetfile" value="Dokunma_Oneri.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <property name="dnp"/>
+      <sheetpath names="/03 Dokunma / elektrotlar/" tstamps="/e82aaa60-f227-58cb-8d36-21202a82912a/"/>
+      <tstamps>b6f36019-24b4-5cf4-a77e-e6129abf6579</tstamps>
+    </comp>
+    <comp ref="R202">
+      <value>4.7k / DNP — pull-up ölçümüne göre</value>
+      <description>ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</description>
+      <fields>
+        <field name="Evidence">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+        <field name="Pin_ID_Convention">Logical label only; physical pad numbering and footprint NOT assigned</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+      </fields>
+      <libsource lib="AIES_Proposed" part="Resistor" description=""/>
+      <property name="Evidence" value="ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."/>
+      <property name="Pin_ID_Convention" value="Logical label only; physical pad numbering and footprint NOT assigned"/>
+      <property name="Sheetname" value="03 Dokunma / elektrotlar"/>
+      <property name="Sheetfile" value="Dokunma_Oneri.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <property name="dnp"/>
+      <sheetpath names="/03 Dokunma / elektrotlar/" tstamps="/e82aaa60-f227-58cb-8d36-21202a82912a/"/>
+      <tstamps>9b97bbc4-bfa0-5fdd-91e0-10669ea5343c</tstamps>
+    </comp>
+    <comp ref="R203">
+      <value>10k / IRQ pull-up</value>
+      <description>ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</description>
+      <fields>
+        <field name="Evidence">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+        <field name="Pin_ID_Convention">Logical label only; physical pad numbering and footprint NOT assigned</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+      </fields>
+      <libsource lib="AIES_Proposed" part="Resistor" description=""/>
+      <property name="Evidence" value="ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."/>
+      <property name="Pin_ID_Convention" value="Logical label only; physical pad numbering and footprint NOT assigned"/>
+      <property name="Sheetname" value="03 Dokunma / elektrotlar"/>
+      <property name="Sheetfile" value="Dokunma_Oneri.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/03 Dokunma / elektrotlar/" tstamps="/e82aaa60-f227-58cb-8d36-21202a82912a/"/>
+      <tstamps>f48dbf08-b5a9-5c89-8111-0e47683634c2</tstamps>
+    </comp>
+    <comp ref="R204">
+      <value>10k / IRQ pull-up</value>
+      <description>ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</description>
+      <fields>
+        <field name="Evidence">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+        <field name="Pin_ID_Convention">Logical label only; physical pad numbering and footprint NOT assigned</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+      </fields>
+      <libsource lib="AIES_Proposed" part="Resistor" description=""/>
+      <property name="Evidence" value="ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."/>
+      <property name="Pin_ID_Convention" value="Logical label only; physical pad numbering and footprint NOT assigned"/>
+      <property name="Sheetname" value="03 Dokunma / elektrotlar"/>
+      <property name="Sheetfile" value="Dokunma_Oneri.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/03 Dokunma / elektrotlar/" tstamps="/e82aaa60-f227-58cb-8d36-21202a82912a/"/>
+      <tstamps>85405e44-2e3c-53df-94e3-851e382cefba</tstamps>
+    </comp>
+    <comp ref="R205">
+      <value>10k / IRQ pull-up</value>
+      <description>ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</description>
+      <fields>
+        <field name="Evidence">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+        <field name="Pin_ID_Convention">Logical label only; physical pad numbering and footprint NOT assigned</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+      </fields>
+      <libsource lib="AIES_Proposed" part="Resistor" description=""/>
+      <property name="Evidence" value="ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."/>
+      <property name="Pin_ID_Convention" value="Logical label only; physical pad numbering and footprint NOT assigned"/>
+      <property name="Sheetname" value="03 Dokunma / elektrotlar"/>
+      <property name="Sheetfile" value="Dokunma_Oneri.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/03 Dokunma / elektrotlar/" tstamps="/e82aaa60-f227-58cb-8d36-21202a82912a/"/>
+      <tstamps>0feafe6e-8195-5fa0-a372-4128b1a807e2</tstamps>
+    </comp>
+    <comp ref="U201">
+      <value>MPR121 / 0x5A ÖNERİ</value>
+      <description>ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</description>
+      <fields>
+        <field name="Evidence">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+        <field name="Pin_ID_Convention">Logical label only; physical pad numbering and footprint NOT assigned</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+      </fields>
+      <libsource lib="AIES_Proposed" part="MPR121_Module_Profile" description="PROPOSAL: functional MPR121 module interface. Not claimed physical HW-017 pin order. Verify default ADDR ties and pull-ups."/>
+      <property name="Evidence" value="ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."/>
+      <property name="Pin_ID_Convention" value="Logical label only; physical pad numbering and footprint NOT assigned"/>
+      <property name="Sheetname" value="03 Dokunma / elektrotlar"/>
+      <property name="Sheetfile" value="Dokunma_Oneri.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/03 Dokunma / elektrotlar/" tstamps="/e82aaa60-f227-58cb-8d36-21202a82912a/"/>
+      <tstamps>b30635c5-57f8-5e6c-b935-3f0a8dbe04e1</tstamps>
+    </comp>
+    <comp ref="U202">
+      <value>MPR121 / 0x5B ÖNERİ</value>
+      <description>ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</description>
+      <fields>
+        <field name="Evidence">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+        <field name="Pin_ID_Convention">Logical label only; physical pad numbering and footprint NOT assigned</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+      </fields>
+      <libsource lib="AIES_Proposed" part="MPR121_Module_Profile" description="PROPOSAL: functional MPR121 module interface. Not claimed physical HW-017 pin order. Verify default ADDR ties and pull-ups."/>
+      <property name="Evidence" value="ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."/>
+      <property name="Pin_ID_Convention" value="Logical label only; physical pad numbering and footprint NOT assigned"/>
+      <property name="Sheetname" value="03 Dokunma / elektrotlar"/>
+      <property name="Sheetfile" value="Dokunma_Oneri.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/03 Dokunma / elektrotlar/" tstamps="/e82aaa60-f227-58cb-8d36-21202a82912a/"/>
+      <tstamps>dd4e4f1e-643a-53f4-9dc9-3b9520af4e9b</tstamps>
+    </comp>
+    <comp ref="U203">
+      <value>MPR121 / 0x5C ÖNERİ</value>
+      <description>ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</description>
+      <fields>
+        <field name="Evidence">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+        <field name="Pin_ID_Convention">Logical label only; physical pad numbering and footprint NOT assigned</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+      </fields>
+      <libsource lib="AIES_Proposed" part="MPR121_Module_Profile" description="PROPOSAL: functional MPR121 module interface. Not claimed physical HW-017 pin order. Verify default ADDR ties and pull-ups."/>
+      <property name="Evidence" value="ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."/>
+      <property name="Pin_ID_Convention" value="Logical label only; physical pad numbering and footprint NOT assigned"/>
+      <property name="Sheetname" value="03 Dokunma / elektrotlar"/>
+      <property name="Sheetfile" value="Dokunma_Oneri.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/03 Dokunma / elektrotlar/" tstamps="/e82aaa60-f227-58cb-8d36-21202a82912a/"/>
+      <tstamps>9e34c1b7-4e43-5ec3-864d-4a7a70ef337b</tstamps>
+    </comp>
+    <comp ref="C101">
+      <value>1000uF / 10V / LED güç girişi</value>
+      <description>ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</description>
+      <fields>
+        <field name="Evidence">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+        <field name="Pin_ID_Convention">Logical label only; physical pad numbering and footprint NOT assigned</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+      </fields>
+      <libsource lib="AIES_Proposed" part="Capacitor_Polar" description=""/>
+      <property name="Evidence" value="ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."/>
+      <property name="Pin_ID_Convention" value="Logical label only; physical pad numbering and footprint NOT assigned"/>
+      <property name="Sheetname" value="04 Ekran / LED / ses"/>
+      <property name="Sheetfile" value="Cikislar_Oneri.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/04 Ekran / LED / ses/" tstamps="/328eab5d-9dd4-5694-af2b-8d11ad07efc2/"/>
+      <tstamps>6c7532f4-3c77-50fc-ab0c-1dec5d8a978b</tstamps>
+    </comp>
+    <comp ref="C102">
+      <value>470uF / 10V / ses yakını</value>
+      <description>ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</description>
+      <fields>
+        <field name="Evidence">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+        <field name="Pin_ID_Convention">Logical label only; physical pad numbering and footprint NOT assigned</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+      </fields>
+      <libsource lib="AIES_Proposed" part="Capacitor_Polar" description=""/>
+      <property name="Evidence" value="ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."/>
+      <property name="Pin_ID_Convention" value="Logical label only; physical pad numbering and footprint NOT assigned"/>
+      <property name="Sheetname" value="04 Ekran / LED / ses"/>
+      <property name="Sheetfile" value="Cikislar_Oneri.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/04 Ekran / LED / ses/" tstamps="/328eab5d-9dd4-5694-af2b-8d11ad07efc2/"/>
+      <tstamps>4fa00f5e-6cb5-5852-a071-4f0063afa32f</tstamps>
+    </comp>
+    <comp ref="C103">
+      <value>100nF / U303 VCC dibine</value>
+      <description>ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</description>
+      <fields>
+        <field name="Evidence">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+        <field name="Pin_ID_Convention">Logical label only; physical pad numbering and footprint NOT assigned</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+      </fields>
+      <libsource lib="AIES_Proposed" part="Capacitor" description=""/>
+      <property name="Evidence" value="ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."/>
+      <property name="Pin_ID_Convention" value="Logical label only; physical pad numbering and footprint NOT assigned"/>
+      <property name="Sheetname" value="04 Ekran / LED / ses"/>
+      <property name="Sheetfile" value="Cikislar_Oneri.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/04 Ekran / LED / ses/" tstamps="/328eab5d-9dd4-5694-af2b-8d11ad07efc2/"/>
+      <tstamps>f3127c9a-31ba-5bd2-9d20-6c33a59c405b</tstamps>
+    </comp>
+    <comp ref="LS301">
+      <value>8Ω / 3W — yeni yük önerisi</value>
+      <description>ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</description>
+      <fields>
+        <field name="Evidence">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+        <field name="Pin_ID_Convention">Logical label only; physical pad numbering and footprint NOT assigned</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+      </fields>
+      <libsource lib="AIES_Proposed" part="Speaker_8ohm" description="New proposal load only. Video speaker impedance/rating unknown. Connect between two BTL output terminals, never to GND."/>
+      <property name="Evidence" value="ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."/>
+      <property name="Pin_ID_Convention" value="Logical label only; physical pad numbering and footprint NOT assigned"/>
+      <property name="Sheetname" value="04 Ekran / LED / ses"/>
+      <property name="Sheetfile" value="Cikislar_Oneri.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/04 Ekran / LED / ses/" tstamps="/328eab5d-9dd4-5694-af2b-8d11ad07efc2/"/>
+      <tstamps>194932cc-f392-5acc-ba78-ea2f20ee8c10</tstamps>
+    </comp>
+    <comp ref="R301">
+      <value>1k seri / UART TX</value>
+      <description>ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</description>
+      <fields>
+        <field name="Evidence">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+        <field name="Pin_ID_Convention">Logical label only; physical pad numbering and footprint NOT assigned</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+      </fields>
+      <libsource lib="AIES_Proposed" part="Resistor" description=""/>
+      <property name="Evidence" value="ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."/>
+      <property name="Pin_ID_Convention" value="Logical label only; physical pad numbering and footprint NOT assigned"/>
+      <property name="Sheetname" value="04 Ekran / LED / ses"/>
+      <property name="Sheetfile" value="Cikislar_Oneri.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/04 Ekran / LED / ses/" tstamps="/328eab5d-9dd4-5694-af2b-8d11ad07efc2/"/>
+      <tstamps>2c11ca4d-cbf5-5460-815f-1510de0144bd</tstamps>
+    </comp>
+    <comp ref="R302">
+      <value>330Ω / LED veri</value>
+      <description>ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</description>
+      <fields>
+        <field name="Evidence">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+        <field name="Pin_ID_Convention">Logical label only; physical pad numbering and footprint NOT assigned</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+      </fields>
+      <libsource lib="AIES_Proposed" part="Resistor" description=""/>
+      <property name="Evidence" value="ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."/>
+      <property name="Pin_ID_Convention" value="Logical label only; physical pad numbering and footprint NOT assigned"/>
+      <property name="Sheetname" value="04 Ekran / LED / ses"/>
+      <property name="Sheetfile" value="Cikislar_Oneri.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/04 Ekran / LED / ses/" tstamps="/328eab5d-9dd4-5694-af2b-8d11ad07efc2/"/>
+      <tstamps>d8bb93ca-5c8b-55ec-9806-e760c2ad6401</tstamps>
+    </comp>
+    <comp ref="R303">
+      <value>100k / veri giriş pull-down</value>
+      <description>ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</description>
+      <fields>
+        <field name="Evidence">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+        <field name="Pin_ID_Convention">Logical label only; physical pad numbering and footprint NOT assigned</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+      </fields>
+      <libsource lib="AIES_Proposed" part="Resistor" description=""/>
+      <property name="Evidence" value="ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."/>
+      <property name="Pin_ID_Convention" value="Logical label only; physical pad numbering and footprint NOT assigned"/>
+      <property name="Sheetname" value="04 Ekran / LED / ses"/>
+      <property name="Sheetfile" value="Cikislar_Oneri.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/04 Ekran / LED / ses/" tstamps="/328eab5d-9dd4-5694-af2b-8d11ad07efc2/"/>
+      <tstamps>b89d6b5c-d4df-5703-94d9-ed06953a01fe</tstamps>
+    </comp>
+    <comp ref="U301">
+      <value>OLED I²C / 3.3V profili</value>
+      <description>ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</description>
+      <fields>
+        <field name="Evidence">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+        <field name="Pin_ID_Convention">Logical label only; physical pad numbering and footprint NOT assigned</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+      </fields>
+      <libsource lib="AIES_Proposed" part="OLED_I2C_3V3_Profile" description="PROPOSAL profile: 3.3V-compatible four-wire I2C OLED, SSD1306-type target, 0x3C proposed. Actual display type/address must be checked."/>
+      <property name="Evidence" value="ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."/>
+      <property name="Pin_ID_Convention" value="Logical label only; physical pad numbering and footprint NOT assigned"/>
+      <property name="Sheetname" value="04 Ekran / LED / ses"/>
+      <property name="Sheetfile" value="Cikislar_Oneri.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/04 Ekran / LED / ses/" tstamps="/328eab5d-9dd4-5694-af2b-8d11ad07efc2/"/>
+      <tstamps>a277c77e-57ca-5f6e-8049-f42e0bc1ee2f</tstamps>
+    </comp>
+    <comp ref="U302">
+      <value>DFPlayer uyumlu / FN-M16P elektrik profili</value>
+      <description>ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</description>
+      <fields>
+        <field name="Evidence">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+        <field name="Pin_ID_Convention">Logical label only; physical pad numbering and footprint NOT assigned</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+      </fields>
+      <libsource lib="AIES_Proposed" part="Serial_MP3_Profile" description="PROPOSAL functional interface based on Flyron FN-M16P manual distributed by DFRobot. 3.3V TTL UART; 3.3..5V supply. Do not infer actual board pad numbering; speaker polarity table/diagram differs in manual."/>
+      <property name="Evidence" value="ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."/>
+      <property name="Pin_ID_Convention" value="Logical label only; physical pad numbering and footprint NOT assigned"/>
+      <property name="Sheetname" value="04 Ekran / LED / ses"/>
+      <property name="Sheetfile" value="Cikislar_Oneri.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/04 Ekran / LED / ses/" tstamps="/328eab5d-9dd4-5694-af2b-8d11ad07efc2/"/>
+      <tstamps>86e9981a-d393-531d-88a9-36099cce2bc1</tstamps>
+    </comp>
+    <comp ref="U303">
+      <value>SN74AHCT1G125DBVR / AHCT şart</value>
+      <description>ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</description>
+      <fields>
+        <field name="Evidence">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+        <field name="Pin_ID_Convention">Selected AHCT DBV IC: pin numbers1..5 follow KiCad CAD base mapping; TI electrical datasheet qualification open.</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+      </fields>
+      <libsource lib="AIES_Proposed" part="SN74AHCT1G125_DBV" description="Selected proposal IC: AHCT single buffer, DBV SOT23-5. Pin map checked against KiCad 74xGxx base symbol; TI primary PDF inaccessible in session. AHCT, not HC/LVC substitution."/>
+      <property name="Evidence" value="ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."/>
+      <property name="Pin_ID_Convention" value="Selected AHCT DBV IC: pin numbers1..5 follow KiCad CAD base mapping; TI electrical datasheet qualification open."/>
+      <property name="Sheetname" value="04 Ekran / LED / ses"/>
+      <property name="Sheetfile" value="Cikislar_Oneri.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/04 Ekran / LED / ses/" tstamps="/328eab5d-9dd4-5694-af2b-8d11ad07efc2/"/>
+      <tstamps>4a8a1d11-516b-59af-b07e-b335278dac12</tstamps>
+    </comp>
+    <comp ref="U401">
+      <value>8 LED / segment 1 ÖNERİ</value>
+      <description>ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</description>
+      <fields>
+        <field name="Evidence">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+        <field name="Pin_ID_Convention">Logical label only; physical pad numbering and footprint NOT assigned</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+      </fields>
+      <libsource lib="AIES_Proposed" part="LED_8_5V_Profile" description="PROPOSAL 5V WS2812-compatible RGB strip profile, eight packages each. Actual video LED IC and chain order not confirmed."/>
+      <property name="Evidence" value="ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."/>
+      <property name="Pin_ID_Convention" value="Logical label only; physical pad numbering and footprint NOT assigned"/>
+      <property name="Sheetname" value="04 Ekran / LED / ses"/>
+      <property name="Sheetfile" value="Cikislar_Oneri.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/04 Ekran / LED / ses/" tstamps="/328eab5d-9dd4-5694-af2b-8d11ad07efc2/"/>
+      <tstamps>ba76c180-8497-5282-b915-469a5f3baac3</tstamps>
+    </comp>
+    <comp ref="U402">
+      <value>8 LED / segment 2 ÖNERİ</value>
+      <description>ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</description>
+      <fields>
+        <field name="Evidence">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+        <field name="Pin_ID_Convention">Logical label only; physical pad numbering and footprint NOT assigned</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+      </fields>
+      <libsource lib="AIES_Proposed" part="LED_8_5V_Profile" description="PROPOSAL 5V WS2812-compatible RGB strip profile, eight packages each. Actual video LED IC and chain order not confirmed."/>
+      <property name="Evidence" value="ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."/>
+      <property name="Pin_ID_Convention" value="Logical label only; physical pad numbering and footprint NOT assigned"/>
+      <property name="Sheetname" value="04 Ekran / LED / ses"/>
+      <property name="Sheetfile" value="Cikislar_Oneri.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/04 Ekran / LED / ses/" tstamps="/328eab5d-9dd4-5694-af2b-8d11ad07efc2/"/>
+      <tstamps>d77753d5-1c95-55a3-92e5-e86f338dad41</tstamps>
+    </comp>
+    <comp ref="U403">
+      <value>8 LED / segment 3 ÖNERİ</value>
+      <description>ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</description>
+      <fields>
+        <field name="Evidence">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+        <field name="Pin_ID_Convention">Logical label only; physical pad numbering and footprint NOT assigned</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.</field>
+      </fields>
+      <libsource lib="AIES_Proposed" part="LED_8_5V_Profile" description="PROPOSAL 5V WS2812-compatible RGB strip profile, eight packages each. Actual video LED IC and chain order not confirmed."/>
+      <property name="Evidence" value="ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."/>
+      <property name="Pin_ID_Convention" value="Logical label only; physical pad numbering and footprint NOT assigned"/>
+      <property name="Sheetname" value="04 Ekran / LED / ses"/>
+      <property name="Sheetfile" value="Cikislar_Oneri.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/04 Ekran / LED / ses/" tstamps="/328eab5d-9dd4-5694-af2b-8d11ad07efc2/"/>
+      <tstamps>c93d6653-dc8f-585d-85ca-29024c50360c</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="AIES_Proposed" part="Capacitor">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AIES_Proposed" part="Capacitor_Polar">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="−" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AIES_Proposed" part="ESP32_WROOM_DevKit_Profile">
+      <description>PROPOSAL ONLY: classic ESP32 WROOM DevKit profile, selected logical GPIO. Not ESP32-S3/C3 or WROVER pinout; no physical header footprint assigned.</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32 WROOM tabanlı DevKit</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">PROPOSAL ONLY: classic ESP32 WROOM DevKit profile, selected logical GPIO. Not ESP32-S3/C3 or WROVER pinout; no physical header footprint assigned.</field>
+      </fields>
+      <pins>
+        <pin num="3V3" name="3V3_OUT" type="power_out"/>
+        <pin num="GND" name="GND" type="power_in"/>
+        <pin num="GPIO16" name="GPIO16_RX" type="input"/>
+        <pin num="GPIO17" name="GPIO17_TX" type="output"/>
+        <pin num="GPIO18" name="GPIO18_LED" type="output"/>
+        <pin num="GPIO21" name="GPIO21_SDA" type="bidirectional"/>
+        <pin num="GPIO22" name="GPIO22_SCL" type="bidirectional"/>
+        <pin num="GPIO25" name="GPIO25_IRQ_C" type="input"/>
+        <pin num="GPIO26" name="GPIO26_IRQ_B" type="input"/>
+        <pin num="GPIO27" name="GPIO27_IRQ_A" type="input"/>
+        <pin num="VIN5" name="5V/VIN" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="AIES_Proposed" part="Electrode_Interface_12">
+      <description>Logical cable termination, not an assumed physical connector. Up to 12 available channels; actual heart-region map is not invented.</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Elektrot kablo arayüzü</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Logical cable termination, not an assumed physical connector. Up to 12 available channels; actual heart-region map is not invented.</field>
+      </fields>
+      <pins>
+        <pin num="E0" name="E0" type="passive"/>
+        <pin num="E1" name="E1" type="passive"/>
+        <pin num="E2" name="E2" type="passive"/>
+        <pin num="E3" name="E3" type="passive"/>
+        <pin num="E4" name="E4" type="passive"/>
+        <pin num="E5" name="E5" type="passive"/>
+        <pin num="E6" name="E6" type="passive"/>
+        <pin num="E7" name="E7" type="passive"/>
+        <pin num="E8" name="E8" type="passive"/>
+        <pin num="E9" name="E9" type="passive"/>
+        <pin num="E10" name="E10" type="passive"/>
+        <pin num="E11" name="E11" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AIES_Proposed" part="Fuse">
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AIES_Proposed" part="Jumper">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AIES_Proposed" part="LED_8_5V_Profile">
+      <description>PROPOSAL 5V WS2812-compatible RGB strip profile, eight packages each. Actual video LED IC and chain order not confirmed.</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">5V adreslenebilir RGB / 8 LED</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">PROPOSAL 5V WS2812-compatible RGB strip profile, eight packages each. Actual video LED IC and chain order not confirmed.</field>
+      </fields>
+      <pins>
+        <pin num="DIN" name="DIN" type="input"/>
+        <pin num="DOUT" name="DOUT" type="output"/>
+        <pin num="GND" name="GND" type="power_in"/>
+        <pin num="VCC" name="5V" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="AIES_Proposed" part="MPR121_Module_Profile">
+      <description>PROPOSAL: functional MPR121 module interface. Not claimed physical HW-017 pin order. Verify default ADDR ties and pull-ups.</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MPR121 modül / 3.3V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">PROPOSAL: functional MPR121 module interface. Not claimed physical HW-017 pin order. Verify default ADDR ties and pull-ups.</field>
+      </fields>
+      <pins>
+        <pin num="ADDR" name="ADDR" type="input"/>
+        <pin num="E0" name="E0" type="passive"/>
+        <pin num="E1" name="E1" type="passive"/>
+        <pin num="E2" name="E2" type="passive"/>
+        <pin num="E3" name="E3" type="passive"/>
+        <pin num="E4" name="E4" type="passive"/>
+        <pin num="E5" name="E5" type="passive"/>
+        <pin num="E6" name="E6" type="passive"/>
+        <pin num="E7" name="E7" type="passive"/>
+        <pin num="E8" name="E8" type="passive"/>
+        <pin num="E9" name="E9" type="passive"/>
+        <pin num="E10" name="E10" type="passive"/>
+        <pin num="E11" name="E11" type="passive"/>
+        <pin num="GND" name="GND" type="power_in"/>
+        <pin num="IRQ" name="IRQ" type="open_collector"/>
+        <pin num="SCL" name="SCL" type="input"/>
+        <pin num="SDA" name="SDA" type="bidirectional"/>
+        <pin num="V3V3" name="3.3V" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="AIES_Proposed" part="OLED_I2C_3V3_Profile">
+      <description>PROPOSAL profile: 3.3V-compatible four-wire I2C OLED, SSD1306-type target, 0x3C proposed. Actual display type/address must be checked.</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">OLED I²C / 3.3V uyumlu</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">PROPOSAL profile: 3.3V-compatible four-wire I2C OLED, SSD1306-type target, 0x3C proposed. Actual display type/address must be checked.</field>
+      </fields>
+      <pins>
+        <pin num="GND" name="GND" type="power_in"/>
+        <pin num="SCL" name="SCL_(SCK)" type="input"/>
+        <pin num="SDA" name="SDA" type="bidirectional"/>
+        <pin num="VCC" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="AIES_Proposed" part="Resistor">
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">Resistor</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AIES_Proposed" part="SN74AHCT1G125_DBV">
+      <description>Selected proposal IC: AHCT single buffer, DBV SOT23-5. Pin map checked against KiCad 74xGxx base symbol; TI primary PDF inaccessible in session. AHCT, not HC/LVC substitution.</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74AHCT1G125DBVR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Selected proposal IC: AHCT single buffer, DBV SOT23-5. Pin map checked against KiCad 74xGxx base symbol; TI primary PDF inaccessible in session. AHCT, not HC/LVC substitution.</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{OE}" type="input"/>
+        <pin num="2" name="A" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="Y" type="tri_state"/>
+        <pin num="5" name="VCC_5V" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="AIES_Proposed" part="Serial_MP3_Profile">
+      <description>PROPOSAL functional interface based on Flyron FN-M16P manual distributed by DFRobot. 3.3V TTL UART; 3.3..5V supply. Do not infer actual board pad numbering; speaker polarity table/diagram differs in manual.</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">DFPlayer benzeri / 3.3V TTL UART</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">PROPOSAL functional interface based on Flyron FN-M16P manual distributed by DFRobot. 3.3V TTL UART; 3.3..5V supply. Do not infer actual board pad numbering; speaker polarity table/diagram differs in manual.</field>
+      </fields>
+      <pins>
+        <pin num="GND" name="GND" type="power_in"/>
+        <pin num="RX" name="RX" type="input"/>
+        <pin num="SPK_A" name="SPK_A" type="output"/>
+        <pin num="SPK_B" name="SPK_B" type="output"/>
+        <pin num="TX" name="TX" type="output"/>
+        <pin num="VCC" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="AIES_Proposed" part="Speaker_8ohm">
+      <description>New proposal load only. Video speaker impedance/rating unknown. Connect between two BTL output terminals, never to GND.</description>
+      <fields>
+        <field name="Reference">LS</field>
+        <field name="Value">8Ω / 3W ÖNERİ</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">New proposal load only. Video speaker impedance/rating unknown. Connect between two BTL output terminals, never to GND.</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="B" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AIES_Proposed" part="Supply_Connector">
+      <description>Proposed external regulated 5V-class source, 4.8..5.0V required at modules; &gt;=4A preliminary budget, not video source rating.</description>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Regüle güç girişi</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Proposed external regulated 5V-class source, 4.8..5.0V required at modules; &gt;=4A preliminary budget, not video source rating.</field>
+      </fields>
+      <pins>
+        <pin num="PLUS" name="+" type="passive"/>
+        <pin num="RETURN" name="−_/_GND" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="AIES_Proposed">
+      <uri>/workspace/ai_pcb_design/AIES_Video_Schematic_Review_R1/Proposal/Project/AIES_Proposed.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3" class="Default">
+      <node ref="R201" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R202" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R203" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R204" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R205" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U101" pin="3V3" pinfunction="3V3_OUT" pintype="power_out"/>
+      <node ref="U201" pin="V3V3" pinfunction="3.3V" pintype="power_in"/>
+      <node ref="U202" pin="ADDR" pinfunction="ADDR" pintype="input"/>
+      <node ref="U202" pin="V3V3" pinfunction="3.3V" pintype="power_in"/>
+      <node ref="U203" pin="V3V3" pinfunction="3.3V" pintype="power_in"/>
+      <node ref="U301" pin="VCC" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="/03 Dokunma / elektrotlar/ELEC_A00" class="Default">
+      <node ref="J201" pin="E0" pinfunction="E0" pintype="passive"/>
+      <node ref="U201" pin="E0" pinfunction="E0" pintype="passive"/>
+    </net>
+    <net code="3" name="/03 Dokunma / elektrotlar/ELEC_A01" class="Default">
+      <node ref="J201" pin="E1" pinfunction="E1" pintype="passive"/>
+      <node ref="U201" pin="E1" pinfunction="E1" pintype="passive"/>
+    </net>
+    <net code="4" name="/03 Dokunma / elektrotlar/ELEC_A02" class="Default">
+      <node ref="J201" pin="E2" pinfunction="E2" pintype="passive"/>
+      <node ref="U201" pin="E2" pinfunction="E2" pintype="passive"/>
+    </net>
+    <net code="5" name="/03 Dokunma / elektrotlar/ELEC_A03" class="Default">
+      <node ref="J201" pin="E3" pinfunction="E3" pintype="passive"/>
+      <node ref="U201" pin="E3" pinfunction="E3" pintype="passive"/>
+    </net>
+    <net code="6" name="/03 Dokunma / elektrotlar/ELEC_A04" class="Default">
+      <node ref="J201" pin="E4" pinfunction="E4" pintype="passive"/>
+      <node ref="U201" pin="E4" pinfunction="E4" pintype="passive"/>
+    </net>
+    <net code="7" name="/03 Dokunma / elektrotlar/ELEC_A05" class="Default">
+      <node ref="J201" pin="E5" pinfunction="E5" pintype="passive"/>
+      <node ref="U201" pin="E5" pinfunction="E5" pintype="passive"/>
+    </net>
+    <net code="8" name="/03 Dokunma / elektrotlar/ELEC_A06" class="Default">
+      <node ref="J201" pin="E6" pinfunction="E6" pintype="passive"/>
+      <node ref="U201" pin="E6" pinfunction="E6" pintype="passive"/>
+    </net>
+    <net code="9" name="/03 Dokunma / elektrotlar/ELEC_A07" class="Default">
+      <node ref="J201" pin="E7" pinfunction="E7" pintype="passive"/>
+      <node ref="U201" pin="E7" pinfunction="E7" pintype="passive"/>
+    </net>
+    <net code="10" name="/03 Dokunma / elektrotlar/ELEC_A08" class="Default">
+      <node ref="J201" pin="E8" pinfunction="E8" pintype="passive"/>
+      <node ref="U201" pin="E8" pinfunction="E8" pintype="passive"/>
+    </net>
+    <net code="11" name="/03 Dokunma / elektrotlar/ELEC_A09" class="Default">
+      <node ref="J201" pin="E9" pinfunction="E9" pintype="passive"/>
+      <node ref="U201" pin="E9" pinfunction="E9" pintype="passive"/>
+    </net>
+    <net code="12" name="/03 Dokunma / elektrotlar/ELEC_A10" class="Default">
+      <node ref="J201" pin="E10" pinfunction="E10" pintype="passive"/>
+      <node ref="U201" pin="E10" pinfunction="E10" pintype="passive"/>
+    </net>
+    <net code="13" name="/03 Dokunma / elektrotlar/ELEC_A11" class="Default">
+      <node ref="J201" pin="E11" pinfunction="E11" pintype="passive"/>
+      <node ref="U201" pin="E11" pinfunction="E11" pintype="passive"/>
+    </net>
+    <net code="14" name="/03 Dokunma / elektrotlar/ELEC_B00" class="Default">
+      <node ref="J202" pin="E0" pinfunction="E0" pintype="passive"/>
+      <node ref="U202" pin="E0" pinfunction="E0" pintype="passive"/>
+    </net>
+    <net code="15" name="/03 Dokunma / elektrotlar/ELEC_B01" class="Default">
+      <node ref="J202" pin="E1" pinfunction="E1" pintype="passive"/>
+      <node ref="U202" pin="E1" pinfunction="E1" pintype="passive"/>
+    </net>
+    <net code="16" name="/03 Dokunma / elektrotlar/ELEC_B02" class="Default">
+      <node ref="J202" pin="E2" pinfunction="E2" pintype="passive"/>
+      <node ref="U202" pin="E2" pinfunction="E2" pintype="passive"/>
+    </net>
+    <net code="17" name="/03 Dokunma / elektrotlar/ELEC_B03" class="Default">
+      <node ref="J202" pin="E3" pinfunction="E3" pintype="passive"/>
+      <node ref="U202" pin="E3" pinfunction="E3" pintype="passive"/>
+    </net>
+    <net code="18" name="/03 Dokunma / elektrotlar/ELEC_B04" class="Default">
+      <node ref="J202" pin="E4" pinfunction="E4" pintype="passive"/>
+      <node ref="U202" pin="E4" pinfunction="E4" pintype="passive"/>
+    </net>
+    <net code="19" name="/03 Dokunma / elektrotlar/ELEC_B05" class="Default">
+      <node ref="J202" pin="E5" pinfunction="E5" pintype="passive"/>
+      <node ref="U202" pin="E5" pinfunction="E5" pintype="passive"/>
+    </net>
+    <net code="20" name="/03 Dokunma / elektrotlar/ELEC_B06" class="Default">
+      <node ref="J202" pin="E6" pinfunction="E6" pintype="passive"/>
+      <node ref="U202" pin="E6" pinfunction="E6" pintype="passive"/>
+    </net>
+    <net code="21" name="/03 Dokunma / elektrotlar/ELEC_B07" class="Default">
+      <node ref="J202" pin="E7" pinfunction="E7" pintype="passive"/>
+      <node ref="U202" pin="E7" pinfunction="E7" pintype="passive"/>
+    </net>
+    <net code="22" name="/03 Dokunma / elektrotlar/ELEC_B08" class="Default">
+      <node ref="J202" pin="E8" pinfunction="E8" pintype="passive"/>
+      <node ref="U202" pin="E8" pinfunction="E8" pintype="passive"/>
+    </net>
+    <net code="23" name="/03 Dokunma / elektrotlar/ELEC_B09" class="Default">
+      <node ref="J202" pin="E9" pinfunction="E9" pintype="passive"/>
+      <node ref="U202" pin="E9" pinfunction="E9" pintype="passive"/>
+    </net>
+    <net code="24" name="/03 Dokunma / elektrotlar/ELEC_B10" class="Default">
+      <node ref="J202" pin="E10" pinfunction="E10" pintype="passive"/>
+      <node ref="U202" pin="E10" pinfunction="E10" pintype="passive"/>
+    </net>
+    <net code="25" name="/03 Dokunma / elektrotlar/ELEC_B11" class="Default">
+      <node ref="J202" pin="E11" pinfunction="E11" pintype="passive"/>
+      <node ref="U202" pin="E11" pinfunction="E11" pintype="passive"/>
+    </net>
+    <net code="26" name="/03 Dokunma / elektrotlar/ELEC_C00" class="Default">
+      <node ref="J203" pin="E0" pinfunction="E0" pintype="passive"/>
+      <node ref="U203" pin="E0" pinfunction="E0" pintype="passive"/>
+    </net>
+    <net code="27" name="/03 Dokunma / elektrotlar/ELEC_C01" class="Default">
+      <node ref="J203" pin="E1" pinfunction="E1" pintype="passive"/>
+      <node ref="U203" pin="E1" pinfunction="E1" pintype="passive"/>
+    </net>
+    <net code="28" name="/03 Dokunma / elektrotlar/ELEC_C02" class="Default">
+      <node ref="J203" pin="E2" pinfunction="E2" pintype="passive"/>
+      <node ref="U203" pin="E2" pinfunction="E2" pintype="passive"/>
+    </net>
+    <net code="29" name="/03 Dokunma / elektrotlar/ELEC_C03" class="Default">
+      <node ref="J203" pin="E3" pinfunction="E3" pintype="passive"/>
+      <node ref="U203" pin="E3" pinfunction="E3" pintype="passive"/>
+    </net>
+    <net code="30" name="/03 Dokunma / elektrotlar/ELEC_C04" class="Default">
+      <node ref="J203" pin="E4" pinfunction="E4" pintype="passive"/>
+      <node ref="U203" pin="E4" pinfunction="E4" pintype="passive"/>
+    </net>
+    <net code="31" name="/03 Dokunma / elektrotlar/ELEC_C05" class="Default">
+      <node ref="J203" pin="E5" pinfunction="E5" pintype="passive"/>
+      <node ref="U203" pin="E5" pinfunction="E5" pintype="passive"/>
+    </net>
+    <net code="32" name="/03 Dokunma / elektrotlar/ELEC_C06" class="Default">
+      <node ref="J203" pin="E6" pinfunction="E6" pintype="passive"/>
+      <node ref="U203" pin="E6" pinfunction="E6" pintype="passive"/>
+    </net>
+    <net code="33" name="/03 Dokunma / elektrotlar/ELEC_C07" class="Default">
+      <node ref="J203" pin="E7" pinfunction="E7" pintype="passive"/>
+      <node ref="U203" pin="E7" pinfunction="E7" pintype="passive"/>
+    </net>
+    <net code="34" name="/03 Dokunma / elektrotlar/ELEC_C08" class="Default">
+      <node ref="J203" pin="E8" pinfunction="E8" pintype="passive"/>
+      <node ref="U203" pin="E8" pinfunction="E8" pintype="passive"/>
+    </net>
+    <net code="35" name="/03 Dokunma / elektrotlar/ELEC_C09" class="Default">
+      <node ref="J203" pin="E9" pinfunction="E9" pintype="passive"/>
+      <node ref="U203" pin="E9" pinfunction="E9" pintype="passive"/>
+    </net>
+    <net code="36" name="/03 Dokunma / elektrotlar/ELEC_C10" class="Default">
+      <node ref="J203" pin="E10" pinfunction="E10" pintype="passive"/>
+      <node ref="U203" pin="E10" pinfunction="E10" pintype="passive"/>
+    </net>
+    <net code="37" name="/03 Dokunma / elektrotlar/ELEC_C11" class="Default">
+      <node ref="J203" pin="E11" pinfunction="E11" pintype="passive"/>
+      <node ref="U203" pin="E11" pinfunction="E11" pintype="passive"/>
+    </net>
+    <net code="38" name="/04 Ekran / LED / ses/LED_DIN2" class="Default">
+      <node ref="U401" pin="DOUT" pinfunction="DOUT" pintype="output"/>
+      <node ref="U402" pin="DIN" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="39" name="/04 Ekran / LED / ses/LED_DIN3" class="Default">
+      <node ref="U402" pin="DOUT" pinfunction="DOUT" pintype="output"/>
+      <node ref="U403" pin="DIN" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="40" name="DEVKIT_5V" class="Default">
+      <node ref="JP101" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U101" pin="VIN5" pinfunction="5V/VIN" pintype="power_in"/>
+    </net>
+    <net code="41" name="DF_RX" class="Default">
+      <node ref="R301" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U302" pin="RX" pinfunction="RX" pintype="input"/>
+    </net>
+    <net code="42" name="GND" class="Default">
+      <node ref="C101" pin="2" pinfunction="−" pintype="passive"/>
+      <node ref="C102" pin="2" pinfunction="−" pintype="passive"/>
+      <node ref="C103" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J101" pin="RETURN" pinfunction="−_/_GND" pintype="passive"/>
+      <node ref="R303" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U101" pin="GND" pinfunction="GND" pintype="power_in"/>
+      <node ref="U201" pin="ADDR" pinfunction="ADDR" pintype="input"/>
+      <node ref="U201" pin="GND" pinfunction="GND" pintype="power_in"/>
+      <node ref="U202" pin="GND" pinfunction="GND" pintype="power_in"/>
+      <node ref="U203" pin="GND" pinfunction="GND" pintype="power_in"/>
+      <node ref="U301" pin="GND" pinfunction="GND" pintype="power_in"/>
+      <node ref="U302" pin="GND" pinfunction="GND" pintype="power_in"/>
+      <node ref="U303" pin="1" pinfunction="~{OE}" pintype="input"/>
+      <node ref="U303" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U401" pin="GND" pinfunction="GND" pintype="power_in"/>
+      <node ref="U402" pin="GND" pinfunction="GND" pintype="power_in"/>
+      <node ref="U403" pin="GND" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="43" name="I2C_SCL" class="Default">
+      <node ref="R202" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U101" pin="GPIO22" pinfunction="GPIO22_SCL" pintype="bidirectional"/>
+      <node ref="U201" pin="SCL" pinfunction="SCL" pintype="input"/>
+      <node ref="U202" pin="SCL" pinfunction="SCL" pintype="input"/>
+      <node ref="U203" pin="SCL" pinfunction="SCL" pintype="input"/>
+      <node ref="U301" pin="SCL" pinfunction="SCL_(SCK)" pintype="input"/>
+    </net>
+    <net code="44" name="I2C_SDA" class="Default">
+      <node ref="R201" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U101" pin="GPIO21" pinfunction="GPIO21_SDA" pintype="bidirectional"/>
+      <node ref="U201" pin="SDA" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U202" pin="SDA" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U203" pin="ADDR" pinfunction="ADDR" pintype="input"/>
+      <node ref="U203" pin="SDA" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U301" pin="SDA" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="45" name="IRQ_A" class="Default">
+      <node ref="R203" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U101" pin="GPIO27" pinfunction="GPIO27_IRQ_A" pintype="input"/>
+      <node ref="U201" pin="IRQ" pinfunction="IRQ" pintype="open_collector"/>
+    </net>
+    <net code="46" name="IRQ_B" class="Default">
+      <node ref="R204" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U101" pin="GPIO26" pinfunction="GPIO26_IRQ_B" pintype="input"/>
+      <node ref="U202" pin="IRQ" pinfunction="IRQ" pintype="open_collector"/>
+    </net>
+    <net code="47" name="IRQ_C" class="Default">
+      <node ref="R205" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U101" pin="GPIO25" pinfunction="GPIO25_IRQ_C" pintype="input"/>
+      <node ref="U203" pin="IRQ" pinfunction="IRQ" pintype="open_collector"/>
+    </net>
+    <net code="48" name="LED_BUF" class="Default">
+      <node ref="R302" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U303" pin="4" pinfunction="Y" pintype="tri_state"/>
+    </net>
+    <net code="49" name="LED_DIN1" class="Default">
+      <node ref="R302" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="U401" pin="DIN" pinfunction="DIN" pintype="input"/>
+    </net>
+    <net code="50" name="LED_GPIO18" class="Default">
+      <node ref="R303" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U101" pin="GPIO18" pinfunction="GPIO18_LED" pintype="output"/>
+      <node ref="U303" pin="2" pinfunction="A" pintype="input"/>
+    </net>
+    <net code="51" name="SPK_A" class="Default">
+      <node ref="LS301" pin="A" pinfunction="A" pintype="passive"/>
+      <node ref="U302" pin="SPK_A" pinfunction="SPK_A" pintype="output"/>
+    </net>
+    <net code="52" name="SPK_B" class="Default">
+      <node ref="LS301" pin="B" pinfunction="B" pintype="passive"/>
+      <node ref="U302" pin="SPK_B" pinfunction="SPK_B" pintype="output"/>
+    </net>
+    <net code="53" name="SUPPLY_RAW" class="Default">
+      <node ref="F101" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="J101" pin="PLUS" pinfunction="+" pintype="passive"/>
+    </net>
+    <net code="54" name="SYS_5V" class="Default">
+      <node ref="C101" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="C102" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="C103" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="F101" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="JP101" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U302" pin="VCC" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U303" pin="5" pinfunction="VCC_5V" pintype="power_in"/>
+      <node ref="U401" pin="VCC" pinfunction="5V" pintype="power_in"/>
+      <node ref="U402" pin="VCC" pinfunction="5V" pintype="power_in"/>
+      <node ref="U403" pin="VCC" pinfunction="5V" pintype="power_in"/>
+    </net>
+    <net code="55" name="UART_RX16" class="Default">
+      <node ref="U101" pin="GPIO16" pinfunction="GPIO16_RX" pintype="input"/>
+      <node ref="U302" pin="TX" pinfunction="TX" pintype="output"/>
+    </net>
+    <net code="56" name="UART_TX17" class="Default">
+      <node ref="R301" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U101" pin="GPIO17" pinfunction="GPIO17_TX" pintype="output"/>
+    </net>
+    <net code="57" name="unconnected-(U403-PadDOUT)" class="Default">
+      <node ref="U403" pin="DOUT" pinfunction="DOUT" pintype="output+no_connect"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,546 @@
+[
+  {
+    "reference": "R1",
+    "logical_pin": "A",
+    "printed_or_observation_name": "A",
+    "net": "TBD_R1_A",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "R1",
+    "logical_pin": "B",
+    "printed_or_observation_name": "B",
+    "net": "TBD_R1_B",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "C1",
+    "logical_pin": "A",
+    "printed_or_observation_name": "A (+?)",
+    "net": "TBD_C1_A",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "C1",
+    "logical_pin": "B",
+    "printed_or_observation_name": "B (-?)",
+    "net": "TBD_C1_B",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "C2",
+    "logical_pin": "A",
+    "printed_or_observation_name": "A (+?)",
+    "net": "TBD_C2_A",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "C2",
+    "logical_pin": "B",
+    "printed_or_observation_name": "B (-?)",
+    "net": "TBD_C2_B",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "C3",
+    "logical_pin": "A",
+    "printed_or_observation_name": "A (+?)",
+    "net": "TBD_C3_A",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "C3",
+    "logical_pin": "B",
+    "printed_or_observation_name": "B (-?)",
+    "net": "TBD_C3_B",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U2",
+    "logical_pin": "GND",
+    "printed_or_observation_name": "GND",
+    "net": "TBD_U2_GND",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "power_in"
+  },
+  {
+    "reference": "U2",
+    "logical_pin": "ADDR",
+    "printed_or_observation_name": "ADDR",
+    "net": "TBD_U2_ADDR",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U2",
+    "logical_pin": "SDA",
+    "printed_or_observation_name": "SDA",
+    "net": "TBD_U2_SDA",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U2",
+    "logical_pin": "SCL",
+    "printed_or_observation_name": "SCL",
+    "net": "TBD_U2_SCL",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U2",
+    "logical_pin": "IRQ",
+    "printed_or_observation_name": "IRQ",
+    "net": "TBD_U2_IRQ",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U2",
+    "logical_pin": "V3V3",
+    "printed_or_observation_name": "3.3V (baskı)",
+    "net": "TBD_U2_V3V3",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "power_in"
+  },
+  {
+    "reference": "U2",
+    "logical_pin": "E0",
+    "printed_or_observation_name": "E0",
+    "net": "TBD_U2_E0",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U2",
+    "logical_pin": "E1",
+    "printed_or_observation_name": "E1",
+    "net": "TBD_U2_E1",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U2",
+    "logical_pin": "E2",
+    "printed_or_observation_name": "E2",
+    "net": "TBD_U2_E2",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U2",
+    "logical_pin": "E3",
+    "printed_or_observation_name": "E3",
+    "net": "TBD_U2_E3",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U2",
+    "logical_pin": "E4",
+    "printed_or_observation_name": "E4",
+    "net": "TBD_U2_E4",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U2",
+    "logical_pin": "E5",
+    "printed_or_observation_name": "E5",
+    "net": "TBD_U2_E5",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U2",
+    "logical_pin": "E6",
+    "printed_or_observation_name": "E6",
+    "net": "TBD_U2_E6",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U2",
+    "logical_pin": "E7",
+    "printed_or_observation_name": "E7",
+    "net": "TBD_U2_E7",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U2",
+    "logical_pin": "E8",
+    "printed_or_observation_name": "E8",
+    "net": "TBD_U2_E8",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U2",
+    "logical_pin": "E9",
+    "printed_or_observation_name": "E9",
+    "net": "TBD_U2_E9",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U2",
+    "logical_pin": "E10",
+    "printed_or_observation_name": "E10",
+    "net": "TBD_U2_E10",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U2",
+    "logical_pin": "E11",
+    "printed_or_observation_name": "E11",
+    "net": "TBD_U2_E11",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U3",
+    "logical_pin": "GND",
+    "printed_or_observation_name": "GND",
+    "net": "TBD_U3_GND",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "power_in"
+  },
+  {
+    "reference": "U3",
+    "logical_pin": "ADDR",
+    "printed_or_observation_name": "ADDR",
+    "net": "TBD_U3_ADDR",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U3",
+    "logical_pin": "SDA",
+    "printed_or_observation_name": "SDA",
+    "net": "TBD_U3_SDA",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U3",
+    "logical_pin": "SCL",
+    "printed_or_observation_name": "SCL",
+    "net": "TBD_U3_SCL",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U3",
+    "logical_pin": "IRQ",
+    "printed_or_observation_name": "IRQ",
+    "net": "TBD_U3_IRQ",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U3",
+    "logical_pin": "V3V3",
+    "printed_or_observation_name": "3.3V (baskı)",
+    "net": "TBD_U3_V3V3",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "power_in"
+  },
+  {
+    "reference": "U3",
+    "logical_pin": "E0",
+    "printed_or_observation_name": "E0",
+    "net": "TBD_U3_E0",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U3",
+    "logical_pin": "E1",
+    "printed_or_observation_name": "E1",
+    "net": "TBD_U3_E1",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U3",
+    "logical_pin": "E2",
+    "printed_or_observation_name": "E2",
+    "net": "TBD_U3_E2",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U3",
+    "logical_pin": "E3",
+    "printed_or_observation_name": "E3",
+    "net": "TBD_U3_E3",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U3",
+    "logical_pin": "E4",
+    "printed_or_observation_name": "E4",
+    "net": "TBD_U3_E4",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U3",
+    "logical_pin": "E5",
+    "printed_or_observation_name": "E5",
+    "net": "TBD_U3_E5",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U3",
+    "logical_pin": "E6",
+    "printed_or_observation_name": "E6",
+    "net": "TBD_U3_E6",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U3",
+    "logical_pin": "E7",
+    "printed_or_observation_name": "E7",
+    "net": "TBD_U3_E7",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U3",
+    "logical_pin": "E8",
+    "printed_or_observation_name": "E8",
+    "net": "TBD_U3_E8",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U3",
+    "logical_pin": "E9",
+    "printed_or_observation_name": "E9",
+    "net": "TBD_U3_E9",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U3",
+    "logical_pin": "E10",
+    "printed_or_observation_name": "E10",
+    "net": "TBD_U3_E10",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U3",
+    "logical_pin": "E11",
+    "printed_or_observation_name": "E11",
+    "net": "TBD_U3_E11",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U4",
+    "logical_pin": "GND",
+    "printed_or_observation_name": "GND",
+    "net": "TBD_U4_GND",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "power_in"
+  },
+  {
+    "reference": "U4",
+    "logical_pin": "ADDR",
+    "printed_or_observation_name": "ADDR",
+    "net": "TBD_U4_ADDR",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U4",
+    "logical_pin": "SDA",
+    "printed_or_observation_name": "SDA",
+    "net": "TBD_U4_SDA",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U4",
+    "logical_pin": "SCL",
+    "printed_or_observation_name": "SCL",
+    "net": "TBD_U4_SCL",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U4",
+    "logical_pin": "IRQ",
+    "printed_or_observation_name": "IRQ",
+    "net": "TBD_U4_IRQ",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U4",
+    "logical_pin": "V3V3",
+    "printed_or_observation_name": "3.3V (baskı)",
+    "net": "TBD_U4_V3V3",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "power_in"
+  },
+  {
+    "reference": "U4",
+    "logical_pin": "E0",
+    "printed_or_observation_name": "E0",
+    "net": "TBD_U4_E0",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U4",
+    "logical_pin": "E1",
+    "printed_or_observation_name": "E1",
+    "net": "TBD_U4_E1",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U4",
+    "logical_pin": "E2",
+    "printed_or_observation_name": "E2",
+    "net": "TBD_U4_E2",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U4",
+    "logical_pin": "E3",
+    "printed_or_observation_name": "E3",
+    "net": "TBD_U4_E3",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U4",
+    "logical_pin": "E4",
+    "printed_or_observation_name": "E4",
+    "net": "TBD_U4_E4",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U4",
+    "logical_pin": "E5",
+    "printed_or_observation_name": "E5",
+    "net": "TBD_U4_E5",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U4",
+    "logical_pin": "E6",
+    "printed_or_observation_name": "E6",
+    "net": "TBD_U4_E6",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U4",
+    "logical_pin": "E7",
+    "printed_or_observation_name": "E7",
+    "net": "TBD_U4_E7",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U4",
+    "logical_pin": "E8",
+    "printed_or_observation_name": "E8",
+    "net": "TBD_U4_E8",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U4",
+    "logical_pin": "E9",
+    "printed_or_observation_name": "E9",
+    "net": "TBD_U4_E9",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U4",
+    "logical_pin": "E10",
+    "printed_or_observation_name": "E10",
+    "net": "TBD_U4_E10",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U4",
+    "logical_pin": "E11",
+    "printed_or_observation_name": "E11",
+    "net": "TBD_U4_E11",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U5",
+    "logical_pin": "GND",
+    "printed_or_observation_name": "GND",
+    "net": "TBD_U5_GND",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "power_in"
+  },
+  {
+    "reference": "U5",
+    "logical_pin": "VCC",
+    "printed_or_observation_name": "VCC",
+    "net": "TBD_U5_VCC",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "power_in"
+  },
+  {
+    "reference": "U5",
+    "logical_pin": "CLK_TBD",
+    "printed_or_observation_name": "CLK? (yazı belirsiz)",
+    "net": "TBD_U5_CLK_TBD",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "U5",
+    "logical_pin": "DATA_TBD",
+    "printed_or_observation_name": "DATA? (yazı belirsiz)",
+    "net": "TBD_U5_DATA_TBD",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "LS1",
+    "logical_pin": "A",
+    "printed_or_observation_name": "A",
+    "net": "TBD_LS1_A",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  },
+  {
+    "reference": "LS1",
+    "logical_pin": "B",
+    "printed_or_observation_name": "B",
+    "net": "TBD_LS1_B",
+    "status": "BELİRSİZ: tek terminal; diğer uç/sayfalar arası bağlantı atanmadı",
+    "electrical_type": "passive"
+  }
+]

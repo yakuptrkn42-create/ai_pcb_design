@@ -1,0 +1,263 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "af3a030a-61ee-5194-9d87-d99edc3d4601")
+	(paper "A3")
+	(title_block
+		(title "AİES / 01 / Sistem genel görünümü ve doğrulama sınırı")
+		(date "2026-10-24")
+		(rev "R1 / İNCELEME")
+		(comment 1 "Video: 00:00–02:28.89; görünmeyen kablolar / GPIO / besleme uçları BELİRSİZ.")
+		(comment 2 "Footprint atanmadı; PCB/üretim için tamamlanmış tasarım değildir."))
+	(lib_symbols)
+	(text "01 / Sistem genel görünümü ve doğrulama sınırı"
+		(at 210 15 0)
+		(effects
+			(font
+				(size 3 3) bold))
+		(uuid "e474ac0a-1ca4-5b83-8089-273bcd1553ae"))
+	(text "V = videoda görülen • TBD / BELİRSİZ = bağlantı doğrulanmadı • öneriler ayrı blok sayfalarında"
+		(at 210 25 0)
+		(effects
+			(font
+				(size 1.45 1.45)))
+		(uuid "5385e03f-621b-5ff6-85a0-bad1d4ddefbf"))
+	(text "Doğrulanan görüntü: breadboard prototip, 3 × HW-017 kart, 4 uçlu ekran, 3 × 8 LED gövdesi, microSD yuvalı modül.\nTam ESP32 varyantı, IC üst yazıları, GPIO kablo uçları, gerçek güç gerilimleri ve şerit sırası doğrulanamadı."
+		(at 210 40 0)
+		(effects
+			(font
+				(size 1.65 1.65)))
+		(uuid "24e17b57-e893-5bbc-b752-331a772f1711"))
+	(sheet
+		(at 25 69)
+		(size 100 30)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(stroke
+			(width 0.35)
+			(type solid))
+		(fill
+			(color 0 0 0 0))
+		(uuid "d4fa223b-aa8c-505e-96d7-eca125df140b")
+		(property "Sheetname" "02 Güç / ESP32"
+			(at 75.0 66 0)
+			(effects
+				(font
+					(size 1.6 1.6) bold)))
+		(property "Sheetfile" "Guc_ESP32.kicad_sch"
+			(at 75.0 102 0)
+			(effects
+				(font
+					(size 1.1 1.1))))
+		(instances
+			(project "AIES_Video_Review_R1"
+				(path "/af3a030a-61ee-5194-9d87-d99edc3d4601"
+					(page "2")))))
+	(text "U1, R1, C1–C3\nGPIO ve güç kabloları TBD"
+		(at 75 84 0)
+		(effects
+			(font
+				(size 1.65 1.65)))
+		(uuid "2c8c6405-dc8d-5791-9d52-4fdd6c74eaea"))
+	(sheet
+		(at 160 69)
+		(size 100 30)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(stroke
+			(width 0.35)
+			(type solid))
+		(fill
+			(color 0 0 0 0))
+		(uuid "c7d96fa4-925a-5371-a91d-2ba3b3e6f5f9")
+		(property "Sheetname" "03 Dokunma / elektrotlar"
+			(at 210.0 66 0)
+			(effects
+				(font
+					(size 1.6 1.6) bold)))
+		(property "Sheetfile" "Dokunma_Elektrotlar.kicad_sch"
+			(at 210.0 102 0)
+			(effects
+				(font
+					(size 1.1 1.1))))
+		(instances
+			(project "AIES_Video_Review_R1"
+				(path "/af3a030a-61ee-5194-9d87-d99edc3d4601"
+					(page "3")))))
+	(text "U2 sol / U3 sağ / U4 alt\nADDR ve elektrot uçları TBD"
+		(at 210 84 0)
+		(effects
+			(font
+				(size 1.65 1.65)))
+		(uuid "d5a8f71a-6cf2-555d-90a5-12106c6822c2"))
+	(sheet
+		(at 295 69)
+		(size 100 30)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(stroke
+			(width 0.35)
+			(type solid))
+		(fill
+			(color 0 0 0 0))
+		(uuid "e5bebe0c-a2eb-5279-8836-a887b10e8bc5")
+		(property "Sheetname" "04 Ekran / LED / ses"
+			(at 345.0 66 0)
+			(effects
+				(font
+					(size 1.6 1.6) bold)))
+		(property "Sheetfile" "Ekran_LED_Ses.kicad_sch"
+			(at 345.0 102 0)
+			(effects
+				(font
+					(size 1.1 1.1))))
+		(instances
+			(project "AIES_Video_Review_R1"
+				(path "/af3a030a-61ee-5194-9d87-d99edc3d4601"
+					(page "4")))))
+	(text "U5–U9, LS1\nVaryantlar ve zincir TBD"
+		(at 345 84 0)
+		(effects
+			(font
+				(size 1.65 1.65)))
+		(uuid "821cec36-8a74-5a8f-a088-89c78f2bf445"))
+	(rectangle
+		(start 35 132)
+		(end 130 160)
+		(stroke
+			(width 0.25)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "fbbf950e-cfcf-5502-b214-0cded99d63f7"))
+	(text "Kalp / dokunma bölgeleri\n(amaç; model videoda yok)"
+		(at 82.5 146 0)
+		(effects
+			(font
+				(size 1.6 1.6)))
+		(uuid "14b2c761-ee9e-5268-a0f9-844901996c76"))
+	(rectangle
+		(start 165 132)
+		(end 255 160)
+		(stroke
+			(width 0.25)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "38705398-ba7b-52cd-b383-cefd6623a46f"))
+	(text "ESP32 işlevsel seçim\n(GPIO haritası bilinmiyor)"
+		(at 210 146 0)
+		(effects
+			(font
+				(size 1.6 1.6)))
+		(uuid "5ac43d09-dd2f-5341-ba27-c8159fc9463a"))
+	(rectangle
+		(start 290 132)
+		(end 385 160)
+		(stroke
+			(width 0.25)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "82fbf10f-6969-5c9e-bba4-17f193b3befa"))
+	(text "Telefon / tablet\nProtokol doğrulanmadı"
+		(at 337.5 146 0)
+		(effects
+			(font
+				(size 1.6 1.6)))
+		(uuid "bdcc602b-780c-556c-a160-cf6f1dcb89f0"))
+	(polyline
+		(pts
+			(xy 130 146)
+			(xy 165 146))
+		(stroke
+			(width 0.25)
+			(type dash))
+		(fill
+			(type none))
+		(uuid "64b132a1-f97c-5035-a53c-5b8da07b1fee"))
+	(polyline
+		(pts
+			(xy 255 146)
+			(xy 290 146))
+		(stroke
+			(width 0.25)
+			(type dash))
+		(fill
+			(type none))
+		(uuid "5f6e48f4-8548-5971-abbc-f1362f37a916"))
+	(rectangle
+		(start 165 189)
+		(end 255 215)
+		(stroke
+			(width 0.25)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "38f9f56c-63aa-5e5b-a629-53c226bc6ca2"))
+	(text "LED • ses • ekran\nİşlevsel çıktı grubu"
+		(at 210 202 0)
+		(effects
+			(font
+				(size 1.65 1.65)))
+		(uuid "82b8374d-8c93-5a15-8ff8-55ba01cc7923"))
+	(polyline
+		(pts
+			(xy 210 160)
+			(xy 210 189))
+		(stroke
+			(width 0.25)
+			(type dash))
+		(fill
+			(type none))
+		(uuid "1f75dfde-4b76-5082-9a20-39c7a28ff157"))
+	(text "Kesikli çizgiler çalışma mantığıdır; elektriksel net değildir.\nTBD uçları birleştirilmedi. Kaynağı bilinmeyen beslemelere PWR_FLAG / ortak GND atanmadı."
+		(at 210 233 0)
+		(effects
+			(font
+				(size 1.45 1.45)))
+		(uuid "973e3b4c-4566-5b73-9bd0-089f44520742"))
+	(sheet
+		(at 20 251)
+		(size 155 17)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(stroke
+			(width 0.35)
+			(type solid))
+		(fill
+			(color 0 0 0 0))
+		(uuid "24831476-365c-5750-8908-3f722c9643e4")
+		(property "Sheetname" "05–07 Kullanıcı görsellerinden blok diyagramlar"
+			(at 97.5 248 0)
+			(effects
+				(font
+					(size 1.6 1.6) bold)))
+		(property "Sheetfile" "Blok_Genel.kicad_sch"
+			(at 97.5 271 0)
+			(effects
+				(font
+					(size 1.1 1.1))))
+		(instances
+			(project "AIES_Video_Review_R1"
+				(path "/af3a030a-61ee-5194-9d87-d99edc3d4601"
+					(page "5")))))
+	(text "Video → terminal gözlemi → eksik bilgi → gerçek kablo / kaynak kod eşlemesi\nBu paket doğrulanabilen arayüzleri ve açık uçları kaydeder; tamamlanmış netlist değildir."
+		(at 205 265 0)
+		(effects
+			(font
+				(size 1.3 1.3)))
+		(uuid "7e2bfe46-82b3-56a9-a936-3988dd7dc045"))
+	(sheet_instances
+		(path "/"
+			(page "1")))
+	(embedded_fonts no))

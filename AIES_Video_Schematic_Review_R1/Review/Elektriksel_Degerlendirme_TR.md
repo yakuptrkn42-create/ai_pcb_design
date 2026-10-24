@@ -1,0 +1,15 @@
+# Elektriksel değerlendirme — öneri P1
+
+**Doğrulama düzeyi:**devre dosyası/netlist/ERC kontrolüdür; gerçek modüller ve analog çalışma doğrulanmış değildir.
+
+- GPIO ve dokunma/ekran tarafı3.3V profilindedir. 5V VIN olması GPIO5V toleransı anlamına gelmez.5V LED verisi için AHCT1G125 seçildi;74HC/LVC aynı şey kabul edilmez.1=/OE GND,2=A GPIO18,3=GND,4=Y,5=SYS5V. TI birincil parametre teyidi açık.
+- Üç MPR121 için0x5A/0x5B/0x5C ayrı adres hedeflendi; OLED0x3C. Bunlar videodaki adresler değildir. ADDR bağlantılarıGND/3.3V/SDA şeklinde seçildi; default modül bağları ve strap tablosu teyit koşuludur. IRQ'lar ayrı GPIO27/26/25'e gider; her birinde10k3.3 V pull-up var. Böylece IRQ çıkışları birbirine bağlanmadı.
+- I²C pull-up eşdeğeri1/R_eq=Σ1/R_i. Üç10k modül+bir4.7k ekran **örneğinde**R_eq≈1.95kΩ; bu gerçek ölçüm değildir. t_r≈0.8473×R_eq×C_bus;100 kHz'te1µs hedefi için busC ve sink akımı ayrıca doğrulanmalı. R201/R202 varsayılanDNP; ek4.7k yalnız gerektiğinde takılır.
+- GPIO17 TX→1k→ses RX;ses TX→GPIO16 RX.1k seri direnç seviye çevirici değildir.3.3 V TTL uyumu hedef FN-M16P kılavuzuyla desteklenir; videodaki klon aynı kabul edilmedi. Hoparlör iki çıkış arasındadır;GND'ye bağlı değildir. Önerilen yük8 Ω / 3 W; gerçek hoparlör değeri bilinmiyor.
+- Besleme hesap örneği:24×60mA=1.44A LED +0.50A ESP32 +0.60A ses +0.10A diğer=2.64A. %25 payla3.30A,bu yüzden≥4A kaynak önerildi. Bu, model/güç kaynağı/termal yeterlilik garantisi değildir.4.95 V ±%1 örneği 4.9005–4.9995 V yapar; modülde4.8–5.0V hedefi ve yük altındaki kablo düşümü birlikte kontrol edilmeli.
+- LED güç girişinde1000uF10 V, ses yakınında470uF10 V ve AHCT dibinde100nF önerildi. Modüllerin iç devresi yeniden çizilmedi. Ek3.3V regülatör yerine DevKit regülatörü seçildi; ek yük/ısı ölçümü bekler. Besleme/GND dalları kaynaktan ayrı gidip ortak referansa döner; büyük LED akımı breadboard rayından taşınmaz.
+- F1013.15A gecikmeli ön değerdir; exact sigorta/taşıyıcı/kablo ve açma eğrisi yeterliliği doğrulanmadı. JP101 harici5V'yi DevKit5V girişinden ayırır. Bu, bütün güç sırası/backfeed senaryoları için otomatik koruma değildir. USB + harici eşzamanlı kullanım exact kartla doğrulanana kadar onaylanmadı; servis modu koşulludur. Enerji varken jumper değiştirilmez.
+
+**ERC:**P1 önerisinde0 hata/0 uyarı.157 nonflag pin–net eşlemesi,12 kritik bağlantı grubu ve36 elektrot-kablo çifti nativeXML üzerinden kontrol edildi. Kaynak5V ve DevKit5V netleri ayrı; hoparlör çıkışlarıGND'den ayrı. TekNC, öneride kasten kullanılmayan sonLED DOUT ucudur.
+
+**Mevcut kayıt:**14 gözlem referansı ve68 ayrıTBD terminal neti; modüller arasında karşılıklı iki uçla kesin izlenmiş net0.68 label_dangling ve8 power_pin_not_driven olmak üzere76 ERC açığı gizlenmeden tutuldu. Bunlar bilinmeyen bağlantılardır; cihazın bozuk olduğu sonucu değildir. PWR_FLAG ekleyerek veya seviyeleri düşürerek kayıp bilgiler temizlenmedi. Pin görünümü/gövde kayıtları tam fiziksel modül pinout'u yerine geçmez. C2/C3 gövdeleri modül içindeyse ayrı parça olarak çift sayılmamalıdır.

@@ -1,0 +1,36 @@
+{
+  "KiCad": "9.0.2",
+  "observed": {
+    "components": 14,
+    "single_terminal_unresolved_nets": 68,
+    "verified_intermodule_nets": 0,
+    "ERC_findings": {
+      "label_dangling": 68,
+      "power_pin_not_driven": 8
+    },
+    "No_Connect_count": 0,
+    "status": "Faithful open observation interfaces, not a completed wiring diagram"
+  },
+  "proposal": {
+    "netlisted_components": 28,
+    "modeled_nonflag_pin_net_checks": 157,
+    "native_nets": 57,
+    "expected_pin_net_differences": [],
+    "critical_path_groups_passed": 12,
+    "electrode_pairs_passed": 36,
+    "ERC_findings": 0,
+    "only_intentional_NC": [
+      [
+        "U403",
+        "DOUT"
+      ]
+    ],
+    "SYS_and_DevKit_5V_distinct": true,
+    "speaker_outputs_not_GND": true,
+    "status": "Engineering proposal passes native schematic checks; actual parts/power/physical wiring qualification still open"
+  },
+  "limits": [
+    "No PCB, footprint, physical test, SI simulation or firmware developed.",
+    "ERC checks do not verify analog voltages, current limits, transient backfeed or physical module variants."
+  ]
+}

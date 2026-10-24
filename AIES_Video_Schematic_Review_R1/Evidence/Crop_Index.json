@@ -1,0 +1,100 @@
+[
+  {
+    "file": "Touch_A_Header.png",
+    "t_sec": 97.28,
+    "source_frame": "Frame_049.png",
+    "crop_pixels": [
+      10,
+      355,
+      235,
+      555
+    ],
+    "rotation_deg": 0,
+    "display_scale": 3,
+    "interpolation": "nearest; no sharpening or invented details"
+  },
+  {
+    "file": "OLED_Header.png",
+    "t_sec": 97.28,
+    "source_frame": "Frame_049.png",
+    "crop_pixels": [
+      210,
+      375,
+      335,
+      745
+    ],
+    "rotation_deg": 270,
+    "display_scale": 3,
+    "interpolation": "nearest; no sharpening or invented details"
+  },
+  {
+    "file": "Touch_C.png",
+    "t_sec": 99.306667,
+    "source_frame": "Frame_050.png",
+    "crop_pixels": [
+      115,
+      600,
+      340,
+      835
+    ],
+    "rotation_deg": 0,
+    "display_scale": 3,
+    "interpolation": "nearest; no sharpening or invented details"
+  },
+  {
+    "file": "Audio_And_ESP32.png",
+    "t_sec": 34.453333,
+    "source_frame": "Frame_018.png",
+    "crop_pixels": [
+      0,
+      0,
+      480,
+      395
+    ],
+    "rotation_deg": 0,
+    "display_scale": 3,
+    "interpolation": "nearest; no sharpening or invented details"
+  },
+  {
+    "file": "LED_Strips.png",
+    "t_sec": 42.56,
+    "source_frame": "Frame_022.png",
+    "crop_pixels": [
+      0,
+      140,
+      480,
+      690
+    ],
+    "rotation_deg": 0,
+    "display_scale": 3,
+    "interpolation": "nearest; no sharpening or invented details"
+  },
+  {
+    "file": "Transducers.png",
+    "t_sec": 10.133333,
+    "source_frame": "Frame_006.png",
+    "crop_pixels": [
+      25,
+      0,
+      395,
+      185
+    ],
+    "rotation_deg": 0,
+    "display_scale": 3,
+    "interpolation": "nearest; no sharpening or invented details"
+  },
+  {
+    "file": "PCB_HW017_Mark.png",
+    "t_sec": 97.28,
+    "source_frame": "Frame_049.png",
+    "crop_pixels": [
+      0,
+      360,
+      90,
+      560
+    ],
+    "rotation_deg": 270,
+    "display_scale": 5,
+    "interpolation": "nearest; no sharpening or synthetic details"
+  }
+]

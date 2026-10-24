@@ -1,0 +1,1187 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-24T13:19:14+0000",
+    "kicad_version": "9.0.2",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/af3a030a-61ee-5194-9d87-d99edc3d4601",
+            "violations": [
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_C1_A'",
+                            "pos": {
+                                "x": 0.4572,
+                                "y": 1.905
+                            },
+                            "uuid": "f5d833e8-06e1-534a-b15a-80a9f2941894"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_C1_B'",
+                            "pos": {
+                                "x": 1.0414,
+                                "y": 1.905
+                            },
+                            "uuid": "8df6557e-3453-54b3-b6d3-ace37c6e145d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_C2_A'",
+                            "pos": {
+                                "x": 1.7526,
+                                "y": 1.905
+                            },
+                            "uuid": "13941957-ed5b-5817-ae3b-0cc6f43c3141"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_R1_A'",
+                            "pos": {
+                                "x": 2.4257,
+                                "y": 1.2446
+                            },
+                            "uuid": "54cddcec-135d-5f16-8740-0c832a770092"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_C2_B'",
+                            "pos": {
+                                "x": 2.3368,
+                                "y": 1.905
+                            },
+                            "uuid": "cd9f8986-b9fe-57e7-8f07-57f13e877713"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_R1_B'",
+                            "pos": {
+                                "x": 2.9845,
+                                "y": 1.2446
+                            },
+                            "uuid": "0ff88696-5919-5b76-b2a9-64070b63e2ed"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_C3_A'",
+                            "pos": {
+                                "x": 3.0607,
+                                "y": 1.905
+                            },
+                            "uuid": "693d6e67-1758-5e40-95af-de7a6bf265a0"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_C3_B'",
+                            "pos": {
+                                "x": 3.6449,
+                                "y": 1.905
+                            },
+                            "uuid": "ddc7f46a-4714-5cd6-b0ed-e5e670f5f4b0"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U2_GND'",
+                            "pos": {
+                                "x": 0.3683,
+                                "y": 0.8382
+                            },
+                            "uuid": "b196c0a9-14d8-539e-8f89-eeb25063008f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U2_ADDR'",
+                            "pos": {
+                                "x": 0.3683,
+                                "y": 0.9144
+                            },
+                            "uuid": "2b38b168-b2dd-5d99-af86-fae24d3b2872"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U2_SDA'",
+                            "pos": {
+                                "x": 0.3683,
+                                "y": 0.9906
+                            },
+                            "uuid": "4a912e1f-0443-5127-a519-347094814bdc"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U2_SCL'",
+                            "pos": {
+                                "x": 0.3683,
+                                "y": 1.0795
+                            },
+                            "uuid": "ce72eeda-c1d2-5f66-ad41-4c3ec96555a4"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U2_IRQ'",
+                            "pos": {
+                                "x": 0.3683,
+                                "y": 1.1557
+                            },
+                            "uuid": "712e9a1c-6229-5537-846e-a6cc59ce7d74"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U2_V3V3'",
+                            "pos": {
+                                "x": 0.3683,
+                                "y": 1.2319
+                            },
+                            "uuid": "f53a32eb-717e-5b38-b024-649697099106"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U2_E0'",
+                            "pos": {
+                                "x": 1.0287,
+                                "y": 0.8382
+                            },
+                            "uuid": "81f0e670-fde6-5edd-8df9-a8ee781bffe4"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U2_E1'",
+                            "pos": {
+                                "x": 1.0287,
+                                "y": 0.8763
+                            },
+                            "uuid": "fb1d05b3-e3fc-57e7-aeea-be381e38f770"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U2_E2'",
+                            "pos": {
+                                "x": 1.0287,
+                                "y": 0.9144
+                            },
+                            "uuid": "23cff887-d44f-516e-ad82-e63c55dfcc21"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U2_E3'",
+                            "pos": {
+                                "x": 1.0287,
+                                "y": 0.9525
+                            },
+                            "uuid": "145e1d4d-efff-533e-b2fe-fb91b082aa7c"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U2_E4'",
+                            "pos": {
+                                "x": 1.0287,
+                                "y": 0.9906
+                            },
+                            "uuid": "edc1d500-dfda-5e24-8d2c-7acf660c6c47"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U2_E5'",
+                            "pos": {
+                                "x": 1.0287,
+                                "y": 1.0287
+                            },
+                            "uuid": "0e497833-8166-5b64-858f-223b45c4721b"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U2_E6'",
+                            "pos": {
+                                "x": 1.0287,
+                                "y": 1.0795
+                            },
+                            "uuid": "9fcdf9df-6dd0-5931-91a9-11caf021c70a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U2_E7'",
+                            "pos": {
+                                "x": 1.0287,
+                                "y": 1.1176
+                            },
+                            "uuid": "e9b99712-af65-5e4c-b44c-44b241829019"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U2_E8'",
+                            "pos": {
+                                "x": 1.0287,
+                                "y": 1.1557
+                            },
+                            "uuid": "f09f295d-4b07-51d9-837a-ca196b655fde"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U2_E9'",
+                            "pos": {
+                                "x": 1.0287,
+                                "y": 1.1938
+                            },
+                            "uuid": "164fea49-3923-54dc-b062-c728eb92255a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U2_E10'",
+                            "pos": {
+                                "x": 1.0287,
+                                "y": 1.2319
+                            },
+                            "uuid": "dcc280d4-6215-5e57-a322-67b293b51d84"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U2_E11'",
+                            "pos": {
+                                "x": 1.0287,
+                                "y": 1.27
+                            },
+                            "uuid": "113e5d9f-a2aa-56ad-a5cf-5e2b00de5dd0"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U3_GND'",
+                            "pos": {
+                                "x": 1.7653,
+                                "y": 0.8382
+                            },
+                            "uuid": "bf97c83a-256c-557b-9c43-ae0b2551733d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U3_ADDR'",
+                            "pos": {
+                                "x": 1.7653,
+                                "y": 0.9144
+                            },
+                            "uuid": "3e6c0d90-8e97-5e7f-9e82-d5259087619f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U3_SDA'",
+                            "pos": {
+                                "x": 1.7653,
+                                "y": 0.9906
+                            },
+                            "uuid": "34590a01-4a0b-5f6b-8297-860dec75705e"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U3_SCL'",
+                            "pos": {
+                                "x": 1.7653,
+                                "y": 1.0795
+                            },
+                            "uuid": "a3f1bc91-8887-58e3-adb6-afe314acc3ed"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U3_IRQ'",
+                            "pos": {
+                                "x": 1.7653,
+                                "y": 1.1557
+                            },
+                            "uuid": "8d7047ea-f69f-5290-8a97-58f844cae8fb"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U3_V3V3'",
+                            "pos": {
+                                "x": 1.7653,
+                                "y": 1.2319
+                            },
+                            "uuid": "3e913617-6e1b-5d26-b527-f556372ae5c1"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U3_E0'",
+                            "pos": {
+                                "x": 2.4257,
+                                "y": 0.8382
+                            },
+                            "uuid": "7d197a04-4589-53dd-99ef-0bfc6b3ce3e4"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U3_E1'",
+                            "pos": {
+                                "x": 2.4257,
+                                "y": 0.8763
+                            },
+                            "uuid": "30348354-a7cd-5a58-81ed-573cef1ec63f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U3_E2'",
+                            "pos": {
+                                "x": 2.4257,
+                                "y": 0.9144
+                            },
+                            "uuid": "c8b66965-3252-5330-9a32-84c2484ee361"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U3_E3'",
+                            "pos": {
+                                "x": 2.4257,
+                                "y": 0.9525
+                            },
+                            "uuid": "06677a2f-a30b-5ebf-bde6-2748e4a70944"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U3_E4'",
+                            "pos": {
+                                "x": 2.4257,
+                                "y": 0.9906
+                            },
+                            "uuid": "ab103ace-fc97-5d89-b594-8b88878e11a5"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U3_E5'",
+                            "pos": {
+                                "x": 2.4257,
+                                "y": 1.0287
+                            },
+                            "uuid": "e65a053b-a033-5165-a101-acf4c1294c1d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U3_E6'",
+                            "pos": {
+                                "x": 2.4257,
+                                "y": 1.0795
+                            },
+                            "uuid": "bec5146c-3c83-5e8b-867c-08428a9dfa40"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U3_E7'",
+                            "pos": {
+                                "x": 2.4257,
+                                "y": 1.1176
+                            },
+                            "uuid": "ea6c2a73-f294-5569-9b7e-025c5e6f0d36"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U3_E8'",
+                            "pos": {
+                                "x": 2.4257,
+                                "y": 1.1557
+                            },
+                            "uuid": "b02aee9e-ec0c-5b37-b71c-94adf3084f1c"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U3_E9'",
+                            "pos": {
+                                "x": 2.4257,
+                                "y": 1.1938
+                            },
+                            "uuid": "f4f123d7-464e-54f6-b18e-8baee734c205"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U3_E10'",
+                            "pos": {
+                                "x": 2.4257,
+                                "y": 1.2319
+                            },
+                            "uuid": "c773d77c-8773-50fb-a41a-3a4a3ce69fbb"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U3_E11'",
+                            "pos": {
+                                "x": 2.4257,
+                                "y": 1.27
+                            },
+                            "uuid": "4b8d4f25-980d-55fb-8962-132685e11ed2"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U4_GND'",
+                            "pos": {
+                                "x": 3.175,
+                                "y": 0.8382
+                            },
+                            "uuid": "1e4afc22-2f6a-5c21-9be2-cf20796c63c8"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U4_ADDR'",
+                            "pos": {
+                                "x": 3.175,
+                                "y": 0.9144
+                            },
+                            "uuid": "ef133419-78d9-5ca5-9b13-417178b19671"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U4_SDA'",
+                            "pos": {
+                                "x": 3.175,
+                                "y": 0.9906
+                            },
+                            "uuid": "caa708ea-0561-5d87-a218-88977cb9e216"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U4_SCL'",
+                            "pos": {
+                                "x": 3.175,
+                                "y": 1.0795
+                            },
+                            "uuid": "7667c62f-65f6-5269-a360-0a11c3308582"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U4_IRQ'",
+                            "pos": {
+                                "x": 3.175,
+                                "y": 1.1557
+                            },
+                            "uuid": "bcc11b16-45ab-5951-b85f-fd8abfaf728e"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U4_V3V3'",
+                            "pos": {
+                                "x": 3.175,
+                                "y": 1.2319
+                            },
+                            "uuid": "a5f37961-df73-50d9-82e7-13aeae4aed44"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U4_E0'",
+                            "pos": {
+                                "x": 3.8354,
+                                "y": 0.8382
+                            },
+                            "uuid": "d799da30-00a0-534e-94e3-ae28338cd30f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U4_E1'",
+                            "pos": {
+                                "x": 3.8354,
+                                "y": 0.8763
+                            },
+                            "uuid": "2d007b7a-dabb-55aa-b212-d27f60e8f3ed"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U4_E2'",
+                            "pos": {
+                                "x": 3.8354,
+                                "y": 0.9144
+                            },
+                            "uuid": "1ba46141-aa76-51cf-9e32-6ef907e1c5e2"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U4_E3'",
+                            "pos": {
+                                "x": 3.8354,
+                                "y": 0.9525
+                            },
+                            "uuid": "e99216b8-f775-5c9b-bb22-9e976fe952be"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U4_E4'",
+                            "pos": {
+                                "x": 3.8354,
+                                "y": 0.9906
+                            },
+                            "uuid": "9d742cc4-523d-5627-a2a3-2fd95e952b63"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U4_E5'",
+                            "pos": {
+                                "x": 3.8354,
+                                "y": 1.0287
+                            },
+                            "uuid": "84f06bc2-449a-54bf-8ab5-5faf848cfb92"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U4_E6'",
+                            "pos": {
+                                "x": 3.8354,
+                                "y": 1.0795
+                            },
+                            "uuid": "6b89c40b-255b-50a6-9e3f-c16c34a60432"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U4_E7'",
+                            "pos": {
+                                "x": 3.8354,
+                                "y": 1.1176
+                            },
+                            "uuid": "1d22f24e-84b9-53f9-bf12-6b76aebd29b4"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U4_E8'",
+                            "pos": {
+                                "x": 3.8354,
+                                "y": 1.1557
+                            },
+                            "uuid": "2d8d734b-2653-5d9e-a183-ea159ae68c15"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U4_E9'",
+                            "pos": {
+                                "x": 3.8354,
+                                "y": 1.1938
+                            },
+                            "uuid": "7f44cc98-323b-53c1-b59c-e56cde0c3fc6"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U4_E10'",
+                            "pos": {
+                                "x": 3.8354,
+                                "y": 1.2319
+                            },
+                            "uuid": "554e8adc-1360-5a42-adf3-14e9972069c7"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U4_E11'",
+                            "pos": {
+                                "x": 3.8354,
+                                "y": 1.27
+                            },
+                            "uuid": "d0709cd0-a060-54a1-bed6-8bf2707e64ac"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U5_GND'",
+                            "pos": {
+                                "x": 0.4191,
+                                "y": 0.762
+                            },
+                            "uuid": "73e9947f-ed09-5c64-a0a7-69c2eb820a91"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U5_VCC'",
+                            "pos": {
+                                "x": 0.4191,
+                                "y": 0.8382
+                            },
+                            "uuid": "b7854bfd-5373-53ae-9021-4b3d42647430"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U5_CLK_TBD'",
+                            "pos": {
+                                "x": 0.4191,
+                                "y": 0.9144
+                            },
+                            "uuid": "5208f6da-c50b-5c3a-8839-813650650ba4"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_U5_DATA_TBD'",
+                            "pos": {
+                                "x": 0.4191,
+                                "y": 0.9906
+                            },
+                            "uuid": "2a4784bc-e1a9-5b08-8a8e-3827dc17c5c1"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_LS1_A'",
+                            "pos": {
+                                "x": 3.2385,
+                                "y": 0.8763
+                            },
+                            "uuid": "ebb557f3-9d8a-5145-a185-10e448035a71"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                },
+                {
+                    "description": "Label not connected to anything",
+                    "items": [
+                        {
+                            "description": "Label 'TBD_LS1_B'",
+                            "pos": {
+                                "x": 3.8735,
+                                "y": 0.8763
+                            },
+                            "uuid": "9c802ea5-81cd-54a8-9641-4e4c63b58aba"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "label_dangling"
+                }
+            ]
+        },
+        {
+            "path": "/02 Güç / ESP32/",
+            "uuid_path": "/af3a030a-61ee-5194-9d87-d99edc3d4601/d4fa223b-aa8c-505e-96d7-eca125df140b",
+            "violations": []
+        },
+        {
+            "path": "/03 Dokunma / elektrotlar/",
+            "uuid_path": "/af3a030a-61ee-5194-9d87-d99edc3d4601/c7d96fa4-925a-5371-a91d-2ba3b3e6f5f9",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin GND [GND, Power input, Line]",
+                            "pos": {
+                                "x": 0.4445,
+                                "y": 0.8382
+                            },
+                            "uuid": "d8c81f9f-c01d-5357-84b5-5801445cc222"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U2 Pin V3V3 [3.3V_(baskı), Power input, Line]",
+                            "pos": {
+                                "x": 0.4445,
+                                "y": 1.2319
+                            },
+                            "uuid": "d1b29097-6cec-507b-b9f8-2124fedda686"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Pin GND [GND, Power input, Line]",
+                            "pos": {
+                                "x": 1.8415,
+                                "y": 0.8382
+                            },
+                            "uuid": "d5ce48a1-ef1a-572b-b506-e840730acd81"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U3 Pin V3V3 [3.3V_(baskı), Power input, Line]",
+                            "pos": {
+                                "x": 1.8415,
+                                "y": 1.2319
+                            },
+                            "uuid": "4ee450fd-3917-5ad5-bc0f-fa0765df43cc"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U4 Pin GND [GND, Power input, Line]",
+                            "pos": {
+                                "x": 3.2512,
+                                "y": 0.8382
+                            },
+                            "uuid": "173cdb2f-1520-5a9f-91ef-bd8f5b54ac78"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U4 Pin V3V3 [3.3V_(baskı), Power input, Line]",
+                            "pos": {
+                                "x": 3.2512,
+                                "y": 1.2319
+                            },
+                            "uuid": "3ae20959-0694-5406-8934-2cb4e689bd8d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                }
+            ]
+        },
+        {
+            "path": "/04 Ekran / LED / ses/",
+            "uuid_path": "/af3a030a-61ee-5194-9d87-d99edc3d4601/e5bebe0c-a2eb-5279-8836-a887b10e8bc5",
+            "violations": [
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U5 Pin GND [GND, Power input, Line]",
+                            "pos": {
+                                "x": 0.4953,
+                                "y": 0.762
+                            },
+                            "uuid": "8ea06086-1146-514b-86ca-81e68badd199"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                },
+                {
+                    "description": "Input Power pin not driven by any Output Power pins",
+                    "items": [
+                        {
+                            "description": "Symbol U5 Pin VCC [VCC, Power input, Line]",
+                            "pos": {
+                                "x": 0.4953,
+                                "y": 0.8382
+                            },
+                            "uuid": "12b5c7ee-c4fe-5bf6-8027-1a885b283b6b"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "power_pin_not_driven"
+                }
+            ]
+        },
+        {
+            "path": "/05–07 Kullanıcı görsellerinden blok diyagramlar/",
+            "uuid_path": "/af3a030a-61ee-5194-9d87-d99edc3d4601/24831476-365c-5750-8908-3f722c9643e4",
+            "violations": []
+        },
+        {
+            "path": "/05–07 Kullanıcı görsellerinden blok diyagramlar/06 Akış / G2/",
+            "uuid_path": "/af3a030a-61ee-5194-9d87-d99edc3d4601/24831476-365c-5750-8908-3f722c9643e4/d0ce1d82-fa21-5df1-a0ac-0e8c5a68189b",
+            "violations": []
+        },
+        {
+            "path": "/05–07 Kullanıcı görsellerinden blok diyagramlar/07 Güç / G3/",
+            "uuid_path": "/af3a030a-61ee-5194-9d87-d99edc3d4601/24831476-365c-5750-8908-3f722c9643e4/f73cd6a3-f272-5f9f-9317-ca68d770a925",
+            "violations": []
+        }
+    ],
+    "source": "AIES_Video_Review_R1.kicad_sch"
+}

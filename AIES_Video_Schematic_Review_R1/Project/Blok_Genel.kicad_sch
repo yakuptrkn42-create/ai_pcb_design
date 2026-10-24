@@ -1,0 +1,450 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "2bea1f24-e78b-537a-af53-afe0724e915b")
+	(paper "A4" portrait)
+	(title_block
+		(title "AİES / G1 / Kullanıcının genel yapı görseli")
+		(date "2026-10-24")
+		(rev "R1 / BLOK")
+		(comment 1 "Kaynak: kullanıcı blok görselleri; elektriksel bağlantı kanıtı değildir.")
+		(comment 2 "Elektriksel devre / PCB / üretim onayı değildir."))
+	(lib_symbols)
+	(text "05 / G1 / KULLANICININ GENEL YAPI GÖRSELI"
+		(at 105 16 0)
+		(effects
+			(font
+				(size 2.8 2.8) bold))
+		(uuid "72b734b8-eece-4935-9484-3c6502a961ac"))
+	(text "Kullanıcı görseli • kavramsal blok diyagram • elektriksel bağlantı değildir"
+		(at 105 26 0)
+		(effects
+			(font
+				(size 1.5 1.5)))
+		(uuid "9b86513f-a19e-4f6f-a4e3-968d0857fda0"))
+	(rectangle
+		(start 20 36)
+		(end 90 57)
+		(stroke
+			(width 0.28)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "46d2cca2-f701-410c-b21a-db0022bbddf6"))
+	(text "Kalp modeli"
+		(at 55.0 42.3 0)
+		(effects
+			(font
+				(size 2.5 2.5) bold))
+		(uuid "7749aefd-94e4-41df-a395-74a778ffb70c"))
+	(text "Dokunma noktaları"
+		(at 55.0 50.28 0)
+		(effects
+			(font
+				(size 1.9 1.9)))
+		(uuid "4bf0fa9e-1928-4e04-b19c-056a2fd41032"))
+	(rectangle
+		(start 20 73)
+		(end 90 96)
+		(stroke
+			(width 0.28)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "42422de0-a4c2-4430-b0ed-91adb30913db"))
+	(text "3 × MPR121*"
+		(at 55.0 79.9 0)
+		(effects
+			(font
+				(size 2.5 2.5) bold))
+		(uuid "44c43bf7-d59f-4acb-9e4a-7a01684c78e6"))
+	(text "Dokunmayı algılar\nKesin modül modeli belirsiz"
+		(at 55.0 88.64 0)
+		(effects
+			(font
+				(size 1.9 1.9)))
+		(uuid "9c9668c6-8f06-41ef-8495-d9622a54de9c"))
+	(rectangle
+		(start 125 73)
+		(end 190 96)
+		(stroke
+			(width 0.28)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "85e91316-d35b-4d36-95d4-09787460cba0"))
+	(text "Telefon / tablet"
+		(at 157.5 79.9 0)
+		(effects
+			(font
+				(size 2.5 2.5) bold))
+		(uuid "34bad9c2-86d7-4497-9b79-9b3519dbeec1"))
+	(text "Kontrol ve bilgi\nHaberleşme türü belirsiz"
+		(at 157.5 88.64 0)
+		(effects
+			(font
+				(size 1.9 1.9)))
+		(uuid "fa49fc42-9cc0-4f95-8951-a28450d498bf"))
+	(rectangle
+		(start 67 128)
+		(end 144 153)
+		(stroke
+			(width 0.45)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "5f7a2460-4e9a-4b82-aaf4-a1c96757e6e7"))
+	(text "ESP32 kartı*"
+		(at 105.5 135.5 0)
+		(effects
+			(font
+				(size 2.5 2.5) bold))
+		(uuid "8001962e-a1e7-48ed-8070-2c86a6e97d13"))
+	(text "Bilgiyi işler, çıkışları yönetir\nModel ve GPIO atamaları belirsiz"
+		(at 105.5 145.0 0)
+		(effects
+			(font
+				(size 1.9 1.9)))
+		(uuid "3ee74999-712a-44b3-9a31-0e082ce14944"))
+	(polyline
+		(pts
+			(xy 55 57)
+			(xy 55 73))
+		(stroke
+			(width 0.3)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "39a5e06d-05a7-46fd-a4b8-46cfb3b9b3f2"))
+	(polyline
+		(pts
+			(xy 55.734 71.3564)
+			(xy 55 73)
+			(xy 54.266 71.3564))
+		(stroke
+			(width 0.3)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "01415653-96b2-44d3-b53d-0e84cdd3671d"))
+	(polyline
+		(pts
+			(xy 55 96)
+			(xy 55 112)
+			(xy 91 112)
+			(xy 91 128))
+		(stroke
+			(width 0.3)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "47247482-c7dc-4d4f-8274-84c0dde676bb"))
+	(polyline
+		(pts
+			(xy 91.734 126.3564)
+			(xy 91 128)
+			(xy 90.266 126.3564))
+		(stroke
+			(width 0.3)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "54c42924-2a4b-4148-b883-fa4954577f0d"))
+	(text "Dokunma bilgisi"
+		(at 65 106 0)
+		(effects
+			(font
+				(size 1.5 1.5)))
+		(uuid "f381299e-a033-457a-969b-3d2ff8e4476f"))
+	(polyline
+		(pts
+			(xy 157.5 96)
+			(xy 157.5 112)
+			(xy 121 112)
+			(xy 121 128))
+		(stroke
+			(width 0.3)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "97e75d37-4543-4db7-9285-743e14c0ec1e"))
+	(polyline
+		(pts
+			(xy 121.734 126.3564)
+			(xy 121 128)
+			(xy 120.266 126.3564))
+		(stroke
+			(width 0.3)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "71b3428d-6f75-4fdb-9820-21c7cbd8e7ba"))
+	(polyline
+		(pts
+			(xy 156.766 97.6436)
+			(xy 157.5 96)
+			(xy 158.234 97.6436))
+		(stroke
+			(width 0.3)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "682443da-1818-4535-bf73-992b827491a4"))
+	(text "Görselde: Bluetooth*"
+		(at 156 119 0)
+		(effects
+			(font
+				(size 1.45 1.45)))
+		(uuid "cf2c970c-908a-4d46-acaf-ed751d1bbebe"))
+	(polyline
+		(pts
+			(xy 105.5 153)
+			(xy 105.5 171))
+		(stroke
+			(width 0.3)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "cbc18fe0-f82f-4217-bdf6-d6e4c19dd2fe"))
+	(polyline
+		(pts
+			(xy 40 171)
+			(xy 170 171))
+		(stroke
+			(width 0.3)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "d9d3d9f8-4f8c-4c2d-8d8d-e2eea978b092"))
+	(polyline
+		(pts
+			(xy 40 171)
+			(xy 40 184))
+		(stroke
+			(width 0.3)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "61828a71-bf1e-4fb0-8489-3211391302e8"))
+	(polyline
+		(pts
+			(xy 40.734 182.3564)
+			(xy 40 184)
+			(xy 39.266 182.3564))
+		(stroke
+			(width 0.3)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "5bc1d797-131a-4029-9192-bf9a44e63bb6"))
+	(polyline
+		(pts
+			(xy 105.5 171)
+			(xy 105.5 184))
+		(stroke
+			(width 0.3)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "9c3ff4ee-e300-44cf-9af1-289313b3754a"))
+	(polyline
+		(pts
+			(xy 106.234 182.3564)
+			(xy 105.5 184)
+			(xy 104.766 182.3564))
+		(stroke
+			(width 0.3)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "3eda72b6-3311-4006-b3b2-47e40080e6b2"))
+	(polyline
+		(pts
+			(xy 170 171)
+			(xy 170 184))
+		(stroke
+			(width 0.3)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "6694bb6c-82b4-45c8-a922-57c51af1aefd"))
+	(polyline
+		(pts
+			(xy 170.734 182.3564)
+			(xy 170 184)
+			(xy 169.266 182.3564))
+		(stroke
+			(width 0.3)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "fbb129d4-e26d-4b07-871a-66c9b79fa5e6"))
+	(rectangle
+		(start 14 184)
+		(end 66 207)
+		(stroke
+			(width 0.28)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "b3debf37-6f1b-4848-8faa-1517e9627f67"))
+	(text "LED'ler"
+		(at 40.0 190.9 0)
+		(effects
+			(font
+				(size 2.5 2.5) bold))
+		(uuid "696e52da-1a9f-4d13-b305-6d760d6cf978"))
+	(text "Işıklı karşılık\nModel ve sayı belirsiz"
+		(at 40.0 199.64 0)
+		(effects
+			(font
+				(size 1.9 1.9)))
+		(uuid "ee65d15a-c687-4297-ab8d-50f002f40125"))
+	(rectangle
+		(start 77.5 184)
+		(end 133.5 207)
+		(stroke
+			(width 0.28)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "e04d0f91-5dfe-4b29-b9c8-65158605717e"))
+	(text "DFPlayer / ses*"
+		(at 105.5 190.9 0)
+		(effects
+			(font
+				(size 2.5 2.5) bold))
+		(uuid "f5836bbf-6cca-4e2c-809d-0beea771bde5"))
+	(text "Ses dosyasını oynatır\nKesin modül belirsiz"
+		(at 105.5 199.64 0)
+		(effects
+			(font
+				(size 1.9 1.9)))
+		(uuid "8197da9a-f282-467c-8b55-fe5ba5827cd4"))
+	(rectangle
+		(start 144 184)
+		(end 196 207)
+		(stroke
+			(width 0.28)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "9361814c-32dc-4aff-95f2-15b809b915ec"))
+	(text "OLED*"
+		(at 170.0 190.9 0)
+		(effects
+			(font
+				(size 2.5 2.5) bold))
+		(uuid "8d612ad8-4fe7-4c26-9846-db8fcde1e929"))
+	(text "Bilgi / puan\nModel ve arayüz belirsiz"
+		(at 170.0 199.64 0)
+		(effects
+			(font
+				(size 1.9 1.9)))
+		(uuid "0aa9d7bb-a93a-49ed-a1f7-65fa7a16a7a0"))
+	(polyline
+		(pts
+			(xy 105.5 207)
+			(xy 105.5 220))
+		(stroke
+			(width 0.3)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "2a6db804-81ad-496c-af04-27a9165b1e81"))
+	(polyline
+		(pts
+			(xy 106.234 218.3564)
+			(xy 105.5 220)
+			(xy 104.766 218.3564))
+		(stroke
+			(width 0.3)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "608c3579-6bb8-48f1-babc-049cfee457d3"))
+	(rectangle
+		(start 77.5 220)
+		(end 133.5 240)
+		(stroke
+			(width 0.28)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "f52d37da-c16a-43f0-9f64-82c0aeee4813"))
+	(text "Hoparlör"
+		(at 105.5 226.0 0)
+		(effects
+			(font
+				(size 2.5 2.5) bold))
+		(uuid "ca812192-1587-40d4-9f99-b99e0a9ca5cd"))
+	(text "Empedans / güç belirsiz"
+		(at 105.5 233.6 0)
+		(effects
+			(font
+				(size 1.9 1.9)))
+		(uuid "6cbbc447-5d1d-414b-b468-57136d72ba8d"))
+	(text "* İsimler kullanıcı önbilgisi / görselindendir; fiziksel bağlantı kanıtı değildir.\nOklar işlevsel akıştır; elektriksel tel, pin veya net değildir."
+		(at 105 247 0)
+		(effects
+			(font
+				(size 1.45 1.45)))
+		(uuid "715ce6d2-d5d1-45de-80bc-e94273d724b8"))
+	(sheet
+		(at 14 14)
+		(size 29 12)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(stroke
+			(width 0.2)
+			(type solid))
+		(fill
+			(color 0 0 0 0))
+		(uuid "d0ce1d82-fa21-5df1-a0ac-0e8c5a68189b")
+		(property "Sheetname" "06 Akış / G2"
+			(at 28.5 20 0)
+			(effects
+				(font
+					(size 1.15 1.15))))
+		(property "Sheetfile" "Blok_Dokunma.kicad_sch"
+			(at 28.5 28 0)
+			(effects
+				(font
+					(size 0.8 0.8))
+				(hide yes)))
+		(instances
+			(project "AIES_Video_Review_R1"
+				(path "/af3a030a-61ee-5194-9d87-d99edc3d4601/24831476-365c-5750-8908-3f722c9643e4"
+					(page "6")))))
+	(sheet
+		(at 167 14)
+		(size 29 12)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(stroke
+			(width 0.2)
+			(type solid))
+		(fill
+			(color 0 0 0 0))
+		(uuid "f73cd6a3-f272-5f9f-9317-ca68d770a925")
+		(property "Sheetname" "07 Güç / G3"
+			(at 181.5 20 0)
+			(effects
+				(font
+					(size 1.15 1.15))))
+		(property "Sheetfile" "Blok_Guc_Onerisi.kicad_sch"
+			(at 181.5 28 0)
+			(effects
+				(font
+					(size 0.8 0.8))
+				(hide yes)))
+		(instances
+			(project "AIES_Video_Review_R1"
+				(path "/af3a030a-61ee-5194-9d87-d99edc3d4601/24831476-365c-5750-8908-3f722c9643e4"
+					(page "7")))))
+	(embedded_fonts no))

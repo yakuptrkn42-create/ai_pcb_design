@@ -1,0 +1,22 @@
+{
+  "analyzed_video_filename": "whatsapp-video-2026-10-12-at-162448-online-video-cuttercom-rxl5t8vp_1pjgMyVK.mp4",
+  "analyzed_video_file_id": "file_00000000761c81f48ee9f03ac38df835",
+  "analyzed_video_sha256": "93a074645445cd1e0526452566753bfef21149fc5146d4fcdbad238e1a9dad12",
+  "bytes": 32270608,
+  "duration_sec": 148.89,
+  "resolution": [
+    480,
+    848
+  ],
+  "sampling": "Whole replacement clip covered from 0 to147.946667s by74 exact-PTS frames at>=2s intervals; selected native frames/crops reviewed in detail. No claim to per-frame continuity or full audio listening.",
+  "full_video_in_package": false,
+  "original_large_video": "Original file_00000000462881f48184a4dc5c603324 could not transfer because >32MiB; original/replacement completeness cannot be compared.",
+  "audio": "AAC stereo44.1kHz present;16k mono extraction succeeded. Local ASR model download failed HTTP403; speech NOT reviewed/transcribed.",
+  "images": {
+    "G1": "User third image: general system",
+    "G2": "User second image: touch sequence",
+    "G3": "User first image: earlier power proposal"
+  },
+  "RevA_received": false,
+  "user_authorization": "User said no code exists and authorized engineering judgment; proposal choices remain separate from video facts."
+}

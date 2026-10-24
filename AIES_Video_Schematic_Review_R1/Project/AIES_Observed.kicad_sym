@@ -1,0 +1,866 @@
+(kicad_symbol_lib
+	(version 20241209)
+	(generator "kicad_symbol_editor")
+	(generator_version "9.0")
+	(symbol "ESP32_Observed"
+		(pin_names
+			(offset 0.7))
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(property "Reference" "U"
+			(at 0 30.13 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Value" "ESP32 tipinde geliştirme kartı"
+			(at 0 27.13 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Description" "Observed at 00:12 and 00:34; exact board/SoC/GPIO pad mapping unreadable. No invented terminal numbers."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(symbol "ESP32_Observed_0_1"
+			(rectangle
+				(start -41.910000000000004 24.13)
+				(end 41.910000000000004 -24.13)
+				(stroke
+					(width 0.254)
+					(type default))
+				(fill
+					(type background)))
+			(text "ESP32 tipinde kart"
+				(at 0 12 0)
+				(effects
+					(font
+						(size 2.0 2.0))))
+			(text "USB kablosu görünür"
+				(at 0 3 0)
+				(effects
+					(font
+						(size 1.5 1.5))))
+			(text "Kart varyantı / GPIO / güç pinleri"
+				(at 0 -7 0)
+				(effects
+					(font
+						(size 1.3 1.3))))
+			(text "BELİRSİZ — pin uydurulmadı"
+				(at 0 -14 0)
+				(effects
+					(font
+						(size 1.3 1.3)))))
+		(symbol "ESP32_Observed_1_1"))
+	(symbol "HW017_Observed"
+		(pin_names
+			(offset 0.7))
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(property "Reference" "U"
+			(at 0 35.21 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Value" "HW-017 / MPR121 tipi"
+			(at 0 32.21 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Description" "HW-017 and terminal labels visible at 01:37.28. MPR121 IC top marking not resolved. Alphanumeric terminal IDs are logical names, not physical footprint numbering."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(symbol "HW017_Observed_0_1"
+			(rectangle
+				(start -20.32 29.21)
+				(end 20.32 -29.21)
+				(stroke
+					(width 0.254)
+					(type default))
+				(fill
+					(type background)))
+			(text "HW-017"
+				(at 0 4 0)
+				(effects
+					(font
+						(size 1.7 1.7))))
+			(text "MPR121 tipi"
+				(at 0 -2 0)
+				(effects
+					(font
+						(size 1.3 1.3))))
+			(text "ADDR: TBD"
+				(at 0 -8 0)
+				(effects
+					(font
+						(size 1.2 1.2))))
+			(text "E0..E11"
+				(at 0 -14 0)
+				(effects
+					(font
+						(size 1.2 1.2)))))
+		(symbol "HW017_Observed_1_1"
+			(pin power_in line
+				(at -25.4 21.59 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.1 1.1))))
+				(number "GND"
+					(effects
+						(font
+							(size 0.85 0.85))
+						(hide yes))))
+			(pin passive line
+				(at -25.4 13.97 0)
+				(length 5.08)
+				(name "ADDR"
+					(effects
+						(font
+							(size 1.1 1.1))))
+				(number "ADDR"
+					(effects
+						(font
+							(size 0.85 0.85))
+						(hide yes))))
+			(pin passive line
+				(at -25.4 6.35 0)
+				(length 5.08)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.1 1.1))))
+				(number "SDA"
+					(effects
+						(font
+							(size 0.85 0.85))
+						(hide yes))))
+			(pin passive line
+				(at -25.4 -2.54 0)
+				(length 5.08)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.1 1.1))))
+				(number "SCL"
+					(effects
+						(font
+							(size 0.85 0.85))
+						(hide yes))))
+			(pin passive line
+				(at -25.4 -10.16 0)
+				(length 5.08)
+				(name "IRQ"
+					(effects
+						(font
+							(size 1.1 1.1))))
+				(number "IRQ"
+					(effects
+						(font
+							(size 0.85 0.85))
+						(hide yes))))
+			(pin power_in line
+				(at -25.4 -17.78 0)
+				(length 5.08)
+				(name "3.3V (baskı)"
+					(effects
+						(font
+							(size 1.1 1.1))))
+				(number "V3V3"
+					(effects
+						(font
+							(size 0.85 0.85))
+						(hide yes))))
+			(pin passive line
+				(at 25.4 21.59 180)
+				(length 5.08)
+				(name "E0"
+					(effects
+						(font
+							(size 1.1 1.1))))
+				(number "E0"
+					(effects
+						(font
+							(size 0.85 0.85))
+						(hide yes))))
+			(pin passive line
+				(at 25.4 17.78 180)
+				(length 5.08)
+				(name "E1"
+					(effects
+						(font
+							(size 1.1 1.1))))
+				(number "E1"
+					(effects
+						(font
+							(size 0.85 0.85))
+						(hide yes))))
+			(pin passive line
+				(at 25.4 13.97 180)
+				(length 5.08)
+				(name "E2"
+					(effects
+						(font
+							(size 1.1 1.1))))
+				(number "E2"
+					(effects
+						(font
+							(size 0.85 0.85))
+						(hide yes))))
+			(pin passive line
+				(at 25.4 10.16 180)
+				(length 5.08)
+				(name "E3"
+					(effects
+						(font
+							(size 1.1 1.1))))
+				(number "E3"
+					(effects
+						(font
+							(size 0.85 0.85))
+						(hide yes))))
+			(pin passive line
+				(at 25.4 6.35 180)
+				(length 5.08)
+				(name "E4"
+					(effects
+						(font
+							(size 1.1 1.1))))
+				(number "E4"
+					(effects
+						(font
+							(size 0.85 0.85))
+						(hide yes))))
+			(pin passive line
+				(at 25.4 2.54 180)
+				(length 5.08)
+				(name "E5"
+					(effects
+						(font
+							(size 1.1 1.1))))
+				(number "E5"
+					(effects
+						(font
+							(size 0.85 0.85))
+						(hide yes))))
+			(pin passive line
+				(at 25.4 -2.54 180)
+				(length 5.08)
+				(name "E6"
+					(effects
+						(font
+							(size 1.1 1.1))))
+				(number "E6"
+					(effects
+						(font
+							(size 0.85 0.85))
+						(hide yes))))
+			(pin passive line
+				(at 25.4 -6.35 180)
+				(length 5.08)
+				(name "E7"
+					(effects
+						(font
+							(size 1.1 1.1))))
+				(number "E7"
+					(effects
+						(font
+							(size 0.85 0.85))
+						(hide yes))))
+			(pin passive line
+				(at 25.4 -10.16 180)
+				(length 5.08)
+				(name "E8"
+					(effects
+						(font
+							(size 1.1 1.1))))
+				(number "E8"
+					(effects
+						(font
+							(size 0.85 0.85))
+						(hide yes))))
+			(pin passive line
+				(at 25.4 -13.97 180)
+				(length 5.08)
+				(name "E9"
+					(effects
+						(font
+							(size 1.1 1.1))))
+				(number "E9"
+					(effects
+						(font
+							(size 0.85 0.85))
+						(hide yes))))
+			(pin passive line
+				(at 25.4 -17.78 180)
+				(length 5.08)
+				(name "E10"
+					(effects
+						(font
+							(size 1.1 1.1))))
+				(number "E10"
+					(effects
+						(font
+							(size 0.85 0.85))
+						(hide yes))))
+			(pin passive line
+				(at 25.4 -21.59 180)
+				(length 5.08)
+				(name "E11"
+					(effects
+						(font
+							(size 1.1 1.1))))
+				(number "E11"
+					(effects
+						(font
+							(size 0.85 0.85))
+						(hide yes))))))
+	(symbol "OLED_Observed"
+		(pin_names
+			(offset 0.7))
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(property "Reference" "U"
+			(at 0 23.78 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Value" "4 uçlu ekran / OLED tipi"
+			(at 0 20.78 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Description" "4-terminal display visible at 01:37; controller, bus mode, voltage and GPIO mapping not confirmed. No SSD1306 or 128x32 assumption."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(symbol "OLED_Observed_0_1"
+			(rectangle
+				(start -25.4 17.78)
+				(end 25.4 -17.78)
+				(stroke
+					(width 0.254)
+					(type default))
+				(fill
+					(type background)))
+			(text "Ekran / OLED tipi"
+				(at 0 5 0)
+				(effects
+					(font
+						(size 1.6 1.6))))
+			(text "Kontrolcü / VCC: TBD"
+				(at 0 -3 0)
+				(effects
+					(font
+						(size 1.2 1.2))))
+			(text "Pin ID = işlev etiketi"
+				(at 0 -10 0)
+				(effects
+					(font
+						(size 1.1 1.1)))))
+		(symbol "OLED_Observed_1_1"
+			(pin power_in line
+				(at -30.479999999999997 11.43 0)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.1 1.1))))
+				(number "GND"
+					(effects
+						(font
+							(size 0.85 0.85))
+						(hide yes))))
+			(pin power_in line
+				(at -30.479999999999997 3.81 0)
+				(length 5.08)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.1 1.1))))
+				(number "VCC"
+					(effects
+						(font
+							(size 0.85 0.85))
+						(hide yes))))
+			(pin passive line
+				(at -30.479999999999997 -3.81 0)
+				(length 5.08)
+				(name "CLK? (yazı belirsiz)"
+					(effects
+						(font
+							(size 1.1 1.1))))
+				(number "CLK_TBD"
+					(effects
+						(font
+							(size 0.85 0.85))
+						(hide yes))))
+			(pin passive line
+				(at -30.479999999999997 -11.43 0)
+				(length 5.08)
+				(name "DATA? (yazı belirsiz)"
+					(effects
+						(font
+							(size 1.1 1.1))))
+				(number "DATA_TBD"
+					(effects
+						(font
+							(size 0.85 0.85))
+						(hide yes))))))
+	(symbol "SD_Module_Observed"
+		(pin_names
+			(offset 0.7))
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(property "Reference" "U"
+			(at 0 26.32 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Value" "microSD yuvalı modül"
+			(at 0 23.32 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Description" "MicroSD holder visible at 00:34.45. DFPlayer-like prior information only; exact type, UART, power and output pin mapping unknown."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(symbol "SD_Module_Observed_0_1"
+			(rectangle
+				(start -39.37 20.32)
+				(end 39.37 -20.32)
+				(stroke
+					(width 0.254)
+					(type default))
+				(fill
+					(type background)))
+			(text "microSD yuvalı modül"
+				(at 0 9 0)
+				(effects
+					(font
+						(size 1.7 1.7))))
+			(text "Ses / DFPlayer benzeri: önbilgi"
+				(at 0 1 0)
+				(effects
+					(font
+						(size 1.2 1.2))))
+			(text "Varyant / UART / güç / SPK uçları TBD"
+				(at 0 -8 0)
+				(effects
+					(font
+						(size 1.2 1.2))))
+			(text "Bilinmeyen pinler çizilmedi"
+				(at 0 -14 0)
+				(effects
+					(font
+						(size 1.1 1.1)))))
+		(symbol "SD_Module_Observed_1_1"))
+	(symbol "LED_Strip_Observed"
+		(pin_names
+			(offset 0.7))
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(property "Reference" "U"
+			(at 0 22.51 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Value" "LED şerit — 8 görünür gövde"
+			(at 0 19.51 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Description" "Three strips, eight visible LED packages per strip at 00:42.56. No LED IC, DIN/DOUT pads, supply polarity or daisy-chain assumed."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(symbol "LED_Strip_Observed_0_1"
+			(rectangle
+				(start -40.64 16.51)
+				(end 40.64 -16.51)
+				(stroke
+					(width 0.254)
+					(type default))
+				(fill
+					(type background)))
+			(text "8 görünür LED gövdesi"
+				(at 0 8 0)
+				(effects
+					(font
+						(size 1.5 1.5))))
+			(rectangle
+				(start -32 -1)
+				(end -27 -6)
+				(stroke
+					(width 0.254)
+					(type default))
+				(fill
+					(type background)))
+			(rectangle
+				(start -24 -1)
+				(end -19 -6)
+				(stroke
+					(width 0.254)
+					(type default))
+				(fill
+					(type background)))
+			(rectangle
+				(start -16 -1)
+				(end -11 -6)
+				(stroke
+					(width 0.254)
+					(type default))
+				(fill
+					(type background)))
+			(rectangle
+				(start -8 -1)
+				(end -3 -6)
+				(stroke
+					(width 0.254)
+					(type default))
+				(fill
+					(type background)))
+			(rectangle
+				(start 0 -1)
+				(end 5 -6)
+				(stroke
+					(width 0.254)
+					(type default))
+				(fill
+					(type background)))
+			(rectangle
+				(start 8 -1)
+				(end 13 -6)
+				(stroke
+					(width 0.254)
+					(type default))
+				(fill
+					(type background)))
+			(rectangle
+				(start 16 -1)
+				(end 21 -6)
+				(stroke
+					(width 0.254)
+					(type default))
+				(fill
+					(type background)))
+			(rectangle
+				(start 24 -1)
+				(end 29 -6)
+				(stroke
+					(width 0.254)
+					(type default))
+				(fill
+					(type background)))
+			(text "Model / yön / uçlar / zincir: TBD"
+				(at 0 -12 0)
+				(effects
+					(font
+						(size 1.15 1.15)))))
+		(symbol "LED_Strip_Observed_1_1"))
+	(symbol "Two_Lead_Resistor_Observed"
+		(pin_names
+			(offset 0.7))
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(property "Reference" "R"
+			(at 0 12.35 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Value" "Direnç / değer TBD"
+			(at 0 9.35 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Description" "Off-module axial resistor visible at 00:34.45. Bands unreadable; endpoints untraced."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(symbol "Two_Lead_Resistor_Observed_0_1"
+			(rectangle
+				(start -15.24 6.35)
+				(end 15.24 -6.35)
+				(stroke
+					(width 0.254)
+					(type default))
+				(fill
+					(type background)))
+			(text "R / TBD"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.4 1.4)))))
+		(symbol "Two_Lead_Resistor_Observed_1_1"
+			(pin passive line
+				(at -20.32 0.0 0)
+				(length 5.08)
+				(name "A"
+					(effects
+						(font
+							(size 1.1 1.1))))
+				(number "A"
+					(effects
+						(font
+							(size 0.85 0.85))
+						(hide yes))))
+			(pin passive line
+				(at 20.32 0.0 180)
+				(length 5.08)
+				(name "B"
+					(effects
+						(font
+							(size 1.1 1.1))))
+				(number "B"
+					(effects
+						(font
+							(size 0.85 0.85))
+						(hide yes))))))
+	(symbol "Two_Lead_Cap_Observed"
+		(pin_names
+			(offset 0.7))
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(property "Reference" "C"
+			(at 0 13.620000000000001 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Value" "Elektrolitik / C,V,polarite TBD"
+			(at 0 10.620000000000001 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Description" "Cylinder body visible; value, voltage rating and polarity/rail endpoints unreadable. A/B are observation identifiers, not verified polarity."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(symbol "Two_Lead_Cap_Observed_0_1"
+			(rectangle
+				(start -16.51 7.62)
+				(end 16.51 -7.62)
+				(stroke
+					(width 0.254)
+					(type default))
+				(fill
+					(type background)))
+			(text "ELKO / TBD"
+				(at 0 2 0)
+				(effects
+					(font
+						(size 1.3 1.3))))
+			(text "+ / − teyit edilmedi"
+				(at 0 -3 0)
+				(effects
+					(font
+						(size 1.0 1.0)))))
+		(symbol "Two_Lead_Cap_Observed_1_1"
+			(pin passive line
+				(at -21.590000000000003 0.0 0)
+				(length 5.08)
+				(name "A (+?)"
+					(effects
+						(font
+							(size 1.1 1.1))))
+				(number "A"
+					(effects
+						(font
+							(size 0.85 0.85))
+						(hide yes))))
+			(pin passive line
+				(at 21.590000000000003 0.0 180)
+				(length 5.08)
+				(name "B (-?)"
+					(effects
+						(font
+							(size 1.1 1.1))))
+				(number "B"
+					(effects
+						(font
+							(size 0.85 0.85))
+						(hide yes))))))
+	(symbol "Oval_Transducer_Observed"
+		(pin_names
+			(offset 0.7))
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(property "Reference" "LS"
+			(at 0 16.16 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Value" "Oval akustik eleman"
+			(at 0 13.16 0)
+			(effects
+				(font
+					(size 1.27 1.27))))
+		(property "Footprint" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(property "Description" "Oval transducer visible at 00:10.13. Impedance, rating and electrical endpoints unknown; no ground tie assumed."
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27))
+				(hide yes)))
+		(symbol "Oval_Transducer_Observed_0_1"
+			(rectangle
+				(start -19.05 10.16)
+				(end 19.05 -10.16)
+				(stroke
+					(width 0.254)
+					(type default))
+				(fill
+					(type background)))
+			(text "Oval sürücü"
+				(at 0 3 0)
+				(effects
+					(font
+						(size 1.4 1.4))))
+			(text "Ω / W: TBD"
+				(at 0 -4 0)
+				(effects
+					(font
+						(size 1.2 1.2)))))
+		(symbol "Oval_Transducer_Observed_1_1"
+			(pin passive line
+				(at -24.130000000000003 0.0 0)
+				(length 5.08)
+				(name "A"
+					(effects
+						(font
+							(size 1.1 1.1))))
+				(number "A"
+					(effects
+						(font
+							(size 0.85 0.85))
+						(hide yes))))
+			(pin passive line
+				(at 24.130000000000003 0.0 180)
+				(length 5.08)
+				(name "B"
+					(effects
+						(font
+							(size 1.1 1.1))))
+				(number "B"
+					(effects
+						(font
+							(size 0.85 0.85))
+						(hide yes)))))))

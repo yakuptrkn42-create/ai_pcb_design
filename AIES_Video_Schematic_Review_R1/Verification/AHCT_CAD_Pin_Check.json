@@ -1,0 +1,64 @@
+{
+  "source": "KiCad9.0.2 74xGxx alias74AHCT1G125 extends74LVC1G125",
+  "pins": {
+    "2": {
+      "type": "input",
+      "shape": "line",
+      "name": "~",
+      "at": [
+        "-15.24",
+        "0",
+        "0"
+      ]
+    },
+    "5": {
+      "type": "power_in",
+      "shape": "line",
+      "name": "VCC",
+      "at": [
+        "-5.08",
+        "10.16",
+        "270"
+      ]
+    },
+    "3": {
+      "type": "power_in",
+      "shape": "line",
+      "name": "GND",
+      "at": [
+        "-5.08",
+        "-10.16",
+        "90"
+      ]
+    },
+    "1": {
+      "type": "input",
+      "shape": "inverted",
+      "name": "~",
+      "at": [
+        "0",
+        "10.16",
+        "270"
+      ]
+    },
+    "4": {
+      "type": "tri_state",
+      "shape": "line",
+      "name": "~",
+      "at": [
+        "12.7",
+        "0",
+        "180"
+      ]
+    }
+  },
+  "source_signal_names_are_hidden": true,
+  "verified": "pin numbers,electrical types,enable inversion and VCC/GND roles; not TI datasheet performance",
+  "proposal_roles": {
+    "1": "/OE",
+    "2": "A",
+    "3": "GND",
+    "4": "Y",
+    "5": "VCC"
+  }
+}

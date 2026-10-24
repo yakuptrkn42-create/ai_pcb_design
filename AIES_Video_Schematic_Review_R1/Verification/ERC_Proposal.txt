@@ -1,0 +1,17 @@
+ERC report (2026-10-24T13:19:16+0000, Encoding UTF8)
+
+***** Sheet /
+
+***** Sheet /02 Güç / ESP32/
+
+***** Sheet /03 Dokunma / elektrotlar/
+
+***** Sheet /04 Ekran / LED / ses/
+
+***** Sheet /05–07 Kullanıcı blok görselleri / önceki güç fikri/
+
+***** Sheet /05–07 Kullanıcı blok görselleri / önceki güç fikri/06 Akış / G2/
+
+***** Sheet /05–07 Kullanıcı blok görselleri / önceki güç fikri/07 Güç / G3/
+
+ ** ERC messages: 0  Errors 0  Warnings 0

@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/workspace/ai_pcb_design/AIES_Video_Schematic_Review_R1/Project/AIES_Video_Review_R1.kicad_sch</source>
+    <date>2026-10-24T13:19:14+0000</date>
+    <tool>Eeschema 9.0.2+dfsg-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>AİES / 01 / Sistem genel görünümü ve doğrulama sınırı</title>
+        <company/>
+        <rev>R1 / İNCELEME</rev>
+        <date>2026-10-24</date>
+        <source>AIES_Video_Review_R1.kicad_sch</source>
+        <comment number="1" value="Video: 00:00–02:28.89; görünmeyen kablolar / GPIO / besleme uçları BELİRSİZ."/>
+        <comment number="2" value="Footprint atanmadı; PCB/üretim için tamamlanmış tasarım değildir."/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/02 Güç / ESP32/" tstamps="/d4fa223b-aa8c-505e-96d7-eca125df140b/">
+      <title_block>
+        <title>AİES / 02 / Güç dağıtımı, ESP32 ve görülen pasif gövdeler</title>
+        <company/>
+        <rev>R1 / İNCELEME</rev>
+        <date>2026-10-24</date>
+        <source>Guc_ESP32.kicad_sch</source>
+        <comment number="1" value="Video: 00:00–02:28.89; görünmeyen kablolar / GPIO / besleme uçları BELİRSİZ."/>
+        <comment number="2" value="Footprint atanmadı; PCB/üretim için tamamlanmış tasarım değildir."/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/03 Dokunma / elektrotlar/" tstamps="/c7d96fa4-925a-5371-a91d-2ba3b3e6f5f9/">
+      <title_block>
+        <title>AİES / 03 / HW-017 dokunma modülleri ve elektrot uçları</title>
+        <company/>
+        <rev>R1 / İNCELEME</rev>
+        <date>2026-10-24</date>
+        <source>Dokunma_Elektrotlar.kicad_sch</source>
+        <comment number="1" value="Video: 00:00–02:28.89; görünmeyen kablolar / GPIO / besleme uçları BELİRSİZ."/>
+        <comment number="2" value="Footprint atanmadı; PCB/üretim için tamamlanmış tasarım değildir."/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="4" name="/04 Ekran / LED / ses/" tstamps="/e5bebe0c-a2eb-5279-8836-a887b10e8bc5/">
+      <title_block>
+        <title>AİES / 04 / Ekran, LED şeritleri ve ses donanımı</title>
+        <company/>
+        <rev>R1 / İNCELEME</rev>
+        <date>2026-10-24</date>
+        <source>Ekran_LED_Ses.kicad_sch</source>
+        <comment number="1" value="Video: 00:00–02:28.89; görünmeyen kablolar / GPIO / besleme uçları BELİRSİZ."/>
+        <comment number="2" value="Footprint atanmadı; PCB/üretim için tamamlanmış tasarım değildir."/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="5" name="/05–07 Kullanıcı görsellerinden blok diyagramlar/" tstamps="/24831476-365c-5750-8908-3f722c9643e4/">
+      <title_block>
+        <title>AİES / G1 / Kullanıcının genel yapı görseli</title>
+        <company/>
+        <rev>R1 / BLOK</rev>
+        <date>2026-10-24</date>
+        <source>Blok_Genel.kicad_sch</source>
+        <comment number="1" value="Kaynak: kullanıcı blok görselleri; elektriksel bağlantı kanıtı değildir."/>
+        <comment number="2" value="Elektriksel devre / PCB / üretim onayı değildir."/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="6" name="/05–07 Kullanıcı görsellerinden blok diyagramlar/06 Akış / G2/" tstamps="/24831476-365c-5750-8908-3f722c9643e4/d0ce1d82-fa21-5df1-a0ac-0e8c5a68189b/">
+      <title_block>
+        <title>AİES / G2 / Kullanıcının dokunma akışı</title>
+        <company/>
+        <rev>R1 / BLOK</rev>
+        <date>2026-10-24</date>
+        <source>Blok_Dokunma.kicad_sch</source>
+        <comment number="1" value="Kaynak: kullanıcı blok görselleri; elektriksel bağlantı kanıtı değildir."/>
+        <comment number="2" value="Elektriksel devre / PCB / üretim onayı değildir."/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="7" name="/05–07 Kullanıcı görsellerinden blok diyagramlar/07 Güç / G3/" tstamps="/24831476-365c-5750-8908-3f722c9643e4/f73cd6a3-f272-5f9f-9317-ca68d770a925/">
+      <title_block>
+        <title>AİES / G3 / Önceki güç fikri — P1 devresi değil</title>
+        <company/>
+        <rev>R1 / BLOK</rev>
+        <date>2026-10-24</date>
+        <source>Blok_Guc_Onerisi.kicad_sch</source>
+        <comment number="1" value="Kaynak: kullanıcı blok görselleri; elektriksel bağlantı kanıtı değildir."/>
+        <comment number="2" value="Elektriksel devre / PCB / üretim onayı değildir."/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>Elektrolitik / C ve V TBD</value>
+      <description>V 00:10.133: ESP32 solundaki mor silindirik gövde. Değer/voltaj/polarite ve uçlar teyitsiz.</description>
+      <fields>
+        <field name="Evidence">V 00:10.133: ESP32 solundaki mor silindirik gövde. Değer/voltaj/polarite ve uçlar teyitsiz.</field>
+        <field name="Pin_ID_Convention">Logical label only; physical pad numbering and footprint NOT assigned</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">V 00:10.133: ESP32 solundaki mor silindirik gövde. Değer/voltaj/polarite ve uçlar teyitsiz.</field>
+      </fields>
+      <libsource lib="AIES_Observed" part="Two_Lead_Cap_Observed" description="Cylinder body visible; value, voltage rating and polarity/rail endpoints unreadable. A/B are observation identifiers, not verified polarity."/>
+      <property name="Evidence" value="V 00:10.133: ESP32 solundaki mor silindirik gövde. Değer/voltaj/polarite ve uçlar teyitsiz."/>
+      <property name="Pin_ID_Convention" value="Logical label only; physical pad numbering and footprint NOT assigned"/>
+      <property name="Sheetname" value="02 Güç / ESP32"/>
+      <property name="Sheetfile" value="Guc_ESP32.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/02 Güç / ESP32/" tstamps="/d4fa223b-aa8c-505e-96d7-eca125df140b/"/>
+      <tstamps>4cc10811-2917-521b-afe9-900a594a8bfe</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>Elektrolitik / C ve V TBD</value>
+      <description>V 00:10.133: microSD modülü yanındaki üst silindirik gövde. Değer/voltaj/polarite ve uçlar teyitsiz. Modül içi/dışı ayrımı teyitsiz; fiziksel BOMda çift sayma.</description>
+      <fields>
+        <field name="Evidence">V 00:10.133: microSD modülü yanındaki üst silindirik gövde. Değer/voltaj/polarite ve uçlar teyitsiz. Modül içi/dışı ayrımı teyitsiz; fiziksel BOMda çift sayma.</field>
+        <field name="Pin_ID_Convention">Logical label only; physical pad numbering and footprint NOT assigned</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">V 00:10.133: microSD modülü yanındaki üst silindirik gövde. Değer/voltaj/polarite ve uçlar teyitsiz. Modül içi/dışı ayrımı teyitsiz; fiziksel BOMda çift sayma.</field>
+      </fields>
+      <libsource lib="AIES_Observed" part="Two_Lead_Cap_Observed" description="Cylinder body visible; value, voltage rating and polarity/rail endpoints unreadable. A/B are observation identifiers, not verified polarity."/>
+      <property name="Evidence" value="V 00:10.133: microSD modülü yanındaki üst silindirik gövde. Değer/voltaj/polarite ve uçlar teyitsiz. Modül içi/dışı ayrımı teyitsiz; fiziksel BOMda çift sayma."/>
+      <property name="Pin_ID_Convention" value="Logical label only; physical pad numbering and footprint NOT assigned"/>
+      <property name="Sheetname" value="02 Güç / ESP32"/>
+      <property name="Sheetfile" value="Guc_ESP32.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/02 Güç / ESP32/" tstamps="/d4fa223b-aa8c-505e-96d7-eca125df140b/"/>
+      <tstamps>4d58b53a-26a3-5ed9-b9b6-d7355c017da4</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>Elektrolitik / C ve V TBD</value>
+      <description>V 00:10.133: microSD modülü yanındaki alt silindirik gövde. Değer/voltaj/polarite ve uçlar teyitsiz. Modül içi/dışı ayrımı teyitsiz; fiziksel BOMda çift sayma.</description>
+      <fields>
+        <field name="Evidence">V 00:10.133: microSD modülü yanındaki alt silindirik gövde. Değer/voltaj/polarite ve uçlar teyitsiz. Modül içi/dışı ayrımı teyitsiz; fiziksel BOMda çift sayma.</field>
+        <field name="Pin_ID_Convention">Logical label only; physical pad numbering and footprint NOT assigned</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">V 00:10.133: microSD modülü yanındaki alt silindirik gövde. Değer/voltaj/polarite ve uçlar teyitsiz. Modül içi/dışı ayrımı teyitsiz; fiziksel BOMda çift sayma.</field>
+      </fields>
+      <libsource lib="AIES_Observed" part="Two_Lead_Cap_Observed" description="Cylinder body visible; value, voltage rating and polarity/rail endpoints unreadable. A/B are observation identifiers, not verified polarity."/>
+      <property name="Evidence" value="V 00:10.133: microSD modülü yanındaki alt silindirik gövde. Değer/voltaj/polarite ve uçlar teyitsiz. Modül içi/dışı ayrımı teyitsiz; fiziksel BOMda çift sayma."/>
+      <property name="Pin_ID_Convention" value="Logical label only; physical pad numbering and footprint NOT assigned"/>
+      <property name="Sheetname" value="02 Güç / ESP32"/>
+      <property name="Sheetfile" value="Guc_ESP32.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/02 Güç / ESP32/" tstamps="/d4fa223b-aa8c-505e-96d7-eca125df140b/"/>
+      <tstamps>cf7c252a-3a30-50d5-a29e-ca87ce9ec1ae</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>Axial direnç / değer TBD</value>
+      <description>V 00:34.453: modül dışı axial direnç gövdesi. Bant değeri ve iki uç belirsiz.</description>
+      <fields>
+        <field name="Evidence">V 00:34.453: modül dışı axial direnç gövdesi. Bant değeri ve iki uç belirsiz.</field>
+        <field name="Pin_ID_Convention">Logical label only; physical pad numbering and footprint NOT assigned</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">V 00:34.453: modül dışı axial direnç gövdesi. Bant değeri ve iki uç belirsiz.</field>
+      </fields>
+      <libsource lib="AIES_Observed" part="Two_Lead_Resistor_Observed" description="Off-module axial resistor visible at 00:34.45. Bands unreadable; endpoints untraced."/>
+      <property name="Evidence" value="V 00:34.453: modül dışı axial direnç gövdesi. Bant değeri ve iki uç belirsiz."/>
+      <property name="Pin_ID_Convention" value="Logical label only; physical pad numbering and footprint NOT assigned"/>
+      <property name="Sheetname" value="02 Güç / ESP32"/>
+      <property name="Sheetfile" value="Guc_ESP32.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/02 Güç / ESP32/" tstamps="/d4fa223b-aa8c-505e-96d7-eca125df140b/"/>
+      <tstamps>372c6239-24ef-56f3-8c40-56cf738b1f05</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>ESP32 tipinde kart / kesin varyant TBD</value>
+      <description>V 00:12.16 / 00:34.453: USB kablosu ve RF kalkanı. GPIO / kart kodu okunamadı.</description>
+      <fields>
+        <field name="Evidence">V 00:12.16 / 00:34.453: USB kablosu ve RF kalkanı. GPIO / kart kodu okunamadı.</field>
+        <field name="Pin_ID_Convention">Logical label only; physical pad numbering and footprint NOT assigned</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">V 00:12.16 / 00:34.453: USB kablosu ve RF kalkanı. GPIO / kart kodu okunamadı.</field>
+      </fields>
+      <libsource lib="AIES_Observed" part="ESP32_Observed" description="Observed at 00:12 and 00:34; exact board/SoC/GPIO pad mapping unreadable. No invented terminal numbers."/>
+      <property name="Evidence" value="V 00:12.16 / 00:34.453: USB kablosu ve RF kalkanı. GPIO / kart kodu okunamadı."/>
+      <property name="Pin_ID_Convention" value="Logical label only; physical pad numbering and footprint NOT assigned"/>
+      <property name="Sheetname" value="02 Güç / ESP32"/>
+      <property name="Sheetfile" value="Guc_ESP32.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/02 Güç / ESP32/" tstamps="/d4fa223b-aa8c-505e-96d7-eca125df140b/"/>
+      <tstamps>6894be54-e1d9-5209-b275-75ae3744cd58</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>HW-017 / MPR121 tipi — görüntüde üst-sol</value>
+      <description>V 01:37.280 / 01:39.307: HW-017 PCB / Electrodes-LEDs yazısı ve kontrol terminal isimleri. MPR121 IC üst kodu okunamadı.</description>
+      <fields>
+        <field name="Evidence">V 01:37.280 / 01:39.307: HW-017 PCB / Electrodes-LEDs yazısı ve kontrol terminal isimleri. MPR121 IC üst kodu okunamadı.</field>
+        <field name="Pin_ID_Convention">Logical label only; physical pad numbering and footprint NOT assigned</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">V 01:37.280 / 01:39.307: HW-017 PCB / Electrodes-LEDs yazısı ve kontrol terminal isimleri. MPR121 IC üst kodu okunamadı.</field>
+      </fields>
+      <libsource lib="AIES_Observed" part="HW017_Observed" description="HW-017 and terminal labels visible at 01:37.28. MPR121 IC top marking not resolved. Alphanumeric terminal IDs are logical names, not physical footprint numbering."/>
+      <property name="Evidence" value="V 01:37.280 / 01:39.307: HW-017 PCB / Electrodes-LEDs yazısı ve kontrol terminal isimleri. MPR121 IC üst kodu okunamadı."/>
+      <property name="Pin_ID_Convention" value="Logical label only; physical pad numbering and footprint NOT assigned"/>
+      <property name="Sheetname" value="03 Dokunma / elektrotlar"/>
+      <property name="Sheetfile" value="Dokunma_Elektrotlar.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/03 Dokunma / elektrotlar/" tstamps="/c7d96fa4-925a-5371-a91d-2ba3b3e6f5f9/"/>
+      <tstamps>683a9c31-7921-57ce-8856-410a227aee43</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>HW-017 / MPR121 tipi — görüntüde üst-sağ</value>
+      <description>V 01:37.280 / 01:39.307: HW-017 PCB / Electrodes-LEDs yazısı ve kontrol terminal isimleri. MPR121 IC üst kodu okunamadı.</description>
+      <fields>
+        <field name="Evidence">V 01:37.280 / 01:39.307: HW-017 PCB / Electrodes-LEDs yazısı ve kontrol terminal isimleri. MPR121 IC üst kodu okunamadı.</field>
+        <field name="Pin_ID_Convention">Logical label only; physical pad numbering and footprint NOT assigned</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">V 01:37.280 / 01:39.307: HW-017 PCB / Electrodes-LEDs yazısı ve kontrol terminal isimleri. MPR121 IC üst kodu okunamadı.</field>
+      </fields>
+      <libsource lib="AIES_Observed" part="HW017_Observed" description="HW-017 and terminal labels visible at 01:37.28. MPR121 IC top marking not resolved. Alphanumeric terminal IDs are logical names, not physical footprint numbering."/>
+      <property name="Evidence" value="V 01:37.280 / 01:39.307: HW-017 PCB / Electrodes-LEDs yazısı ve kontrol terminal isimleri. MPR121 IC üst kodu okunamadı."/>
+      <property name="Pin_ID_Convention" value="Logical label only; physical pad numbering and footprint NOT assigned"/>
+      <property name="Sheetname" value="03 Dokunma / elektrotlar"/>
+      <property name="Sheetfile" value="Dokunma_Elektrotlar.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/03 Dokunma / elektrotlar/" tstamps="/c7d96fa4-925a-5371-a91d-2ba3b3e6f5f9/"/>
+      <tstamps>3ea5851b-8830-5373-a561-14dd6170bb3e</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>HW-017 / MPR121 tipi — görüntüde alt</value>
+      <description>V 01:37.280 / 01:39.307: HW-017 PCB / Electrodes-LEDs yazısı ve kontrol terminal isimleri. MPR121 IC üst kodu okunamadı.</description>
+      <fields>
+        <field name="Evidence">V 01:37.280 / 01:39.307: HW-017 PCB / Electrodes-LEDs yazısı ve kontrol terminal isimleri. MPR121 IC üst kodu okunamadı.</field>
+        <field name="Pin_ID_Convention">Logical label only; physical pad numbering and footprint NOT assigned</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">V 01:37.280 / 01:39.307: HW-017 PCB / Electrodes-LEDs yazısı ve kontrol terminal isimleri. MPR121 IC üst kodu okunamadı.</field>
+      </fields>
+      <libsource lib="AIES_Observed" part="HW017_Observed" description="HW-017 and terminal labels visible at 01:37.28. MPR121 IC top marking not resolved. Alphanumeric terminal IDs are logical names, not physical footprint numbering."/>
+      <property name="Evidence" value="V 01:37.280 / 01:39.307: HW-017 PCB / Electrodes-LEDs yazısı ve kontrol terminal isimleri. MPR121 IC üst kodu okunamadı."/>
+      <property name="Pin_ID_Convention" value="Logical label only; physical pad numbering and footprint NOT assigned"/>
+      <property name="Sheetname" value="03 Dokunma / elektrotlar"/>
+      <property name="Sheetfile" value="Dokunma_Elektrotlar.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/03 Dokunma / elektrotlar/" tstamps="/c7d96fa4-925a-5371-a91d-2ba3b3e6f5f9/"/>
+      <tstamps>41702590-1ce0-5b9b-923c-b59c5bb4e56e</tstamps>
+    </comp>
+    <comp ref="LS1">
+      <value>Oval akustik sürücü / özellik TBD</value>
+      <description>V 00:10.133: oval akustik eleman. Empedans/güç ve iki kablo ucu okunamadı.</description>
+      <fields>
+        <field name="Evidence">V 00:10.133: oval akustik eleman. Empedans/güç ve iki kablo ucu okunamadı.</field>
+        <field name="Pin_ID_Convention">Logical label only; physical pad numbering and footprint NOT assigned</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">V 00:10.133: oval akustik eleman. Empedans/güç ve iki kablo ucu okunamadı.</field>
+      </fields>
+      <libsource lib="AIES_Observed" part="Oval_Transducer_Observed" description="Oval transducer visible at 00:10.13. Impedance, rating and electrical endpoints unknown; no ground tie assumed."/>
+      <property name="Evidence" value="V 00:10.133: oval akustik eleman. Empedans/güç ve iki kablo ucu okunamadı."/>
+      <property name="Pin_ID_Convention" value="Logical label only; physical pad numbering and footprint NOT assigned"/>
+      <property name="Sheetname" value="04 Ekran / LED / ses"/>
+      <property name="Sheetfile" value="Ekran_LED_Ses.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/04 Ekran / LED / ses/" tstamps="/e5bebe0c-a2eb-5279-8836-a887b10e8bc5/"/>
+      <tstamps>4ccdb72a-fc6f-5b04-8ca7-ede7e5f30925</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>4 uçlu OLED tipi ekran / model TBD</value>
+      <description>V 01:37.280: 4-pad header, GND/VCC ve 4-pin header görünür. İki veri etiketi tam seçilemiyor; kontrolcü/çözünürlük/VCC bilinmiyor.</description>
+      <fields>
+        <field name="Evidence">V 01:37.280: 4-pad header, GND/VCC ve 4-pin header görünür. İki veri etiketi tam seçilemiyor; kontrolcü/çözünürlük/VCC bilinmiyor.</field>
+        <field name="Pin_ID_Convention">Logical label only; physical pad numbering and footprint NOT assigned</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">V 01:37.280: 4-pad header, GND/VCC ve 4-pin header görünür. İki veri etiketi tam seçilemiyor; kontrolcü/çözünürlük/VCC bilinmiyor.</field>
+      </fields>
+      <libsource lib="AIES_Observed" part="OLED_Observed" description="4-terminal display visible at 01:37; controller, bus mode, voltage and GPIO mapping not confirmed. No SSD1306 or 128x32 assumption."/>
+      <property name="Evidence" value="V 01:37.280: 4-pad header, GND/VCC ve 4-pin header görünür. İki veri etiketi tam seçilemiyor; kontrolcü/çözünürlük/VCC bilinmiyor."/>
+      <property name="Pin_ID_Convention" value="Logical label only; physical pad numbering and footprint NOT assigned"/>
+      <property name="Sheetname" value="04 Ekran / LED / ses"/>
+      <property name="Sheetfile" value="Ekran_LED_Ses.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/04 Ekran / LED / ses/" tstamps="/e5bebe0c-a2eb-5279-8836-a887b10e8bc5/"/>
+      <tstamps>6c696c30-4061-5282-b622-127c364b806e</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>microSD yuvalı modül / ses tipi olası</value>
+      <description>V 00:34.453: microSD soketi. DFPlayer benzeri önbilgi; exact model, UART/power/speaker pinleri teyit edilmedi.</description>
+      <fields>
+        <field name="Evidence">V 00:34.453: microSD soketi. DFPlayer benzeri önbilgi; exact model, UART/power/speaker pinleri teyit edilmedi.</field>
+        <field name="Pin_ID_Convention">Logical label only; physical pad numbering and footprint NOT assigned</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">V 00:34.453: microSD soketi. DFPlayer benzeri önbilgi; exact model, UART/power/speaker pinleri teyit edilmedi.</field>
+      </fields>
+      <libsource lib="AIES_Observed" part="SD_Module_Observed" description="MicroSD holder visible at 00:34.45. DFPlayer-like prior information only; exact type, UART, power and output pin mapping unknown."/>
+      <property name="Evidence" value="V 00:34.453: microSD soketi. DFPlayer benzeri önbilgi; exact model, UART/power/speaker pinleri teyit edilmedi."/>
+      <property name="Pin_ID_Convention" value="Logical label only; physical pad numbering and footprint NOT assigned"/>
+      <property name="Sheetname" value="04 Ekran / LED / ses"/>
+      <property name="Sheetfile" value="Ekran_LED_Ses.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/04 Ekran / LED / ses/" tstamps="/e5bebe0c-a2eb-5279-8836-a887b10e8bc5/"/>
+      <tstamps>0bca5d79-807b-53b0-8171-48499583b953</tstamps>
+    </comp>
+    <comp ref="U7">
+      <value>LED şerit — görüntüde sol / 8 görünür gövde</value>
+      <description>V 00:42.560: üç şeritten görüntüde sol; 8 LED gövdesi. IC modeli, pad fonksiyonu ve segment sırası bilinmiyor.</description>
+      <fields>
+        <field name="Evidence">V 00:42.560: üç şeritten görüntüde sol; 8 LED gövdesi. IC modeli, pad fonksiyonu ve segment sırası bilinmiyor.</field>
+        <field name="Pin_ID_Convention">Logical label only; physical pad numbering and footprint NOT assigned</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">V 00:42.560: üç şeritten görüntüde sol; 8 LED gövdesi. IC modeli, pad fonksiyonu ve segment sırası bilinmiyor.</field>
+      </fields>
+      <libsource lib="AIES_Observed" part="LED_Strip_Observed" description="Three strips, eight visible LED packages per strip at 00:42.56. No LED IC, DIN/DOUT pads, supply polarity or daisy-chain assumed."/>
+      <property name="Evidence" value="V 00:42.560: üç şeritten görüntüde sol; 8 LED gövdesi. IC modeli, pad fonksiyonu ve segment sırası bilinmiyor."/>
+      <property name="Pin_ID_Convention" value="Logical label only; physical pad numbering and footprint NOT assigned"/>
+      <property name="Sheetname" value="04 Ekran / LED / ses"/>
+      <property name="Sheetfile" value="Ekran_LED_Ses.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/04 Ekran / LED / ses/" tstamps="/e5bebe0c-a2eb-5279-8836-a887b10e8bc5/"/>
+      <tstamps>3c39a59d-5806-5f3e-be08-f0861b77dc07</tstamps>
+    </comp>
+    <comp ref="U8">
+      <value>LED şerit — görüntüde orta / 8 görünür gövde</value>
+      <description>V 00:42.560: üç şeritten görüntüde orta; 8 LED gövdesi. IC modeli, pad fonksiyonu ve segment sırası bilinmiyor.</description>
+      <fields>
+        <field name="Evidence">V 00:42.560: üç şeritten görüntüde orta; 8 LED gövdesi. IC modeli, pad fonksiyonu ve segment sırası bilinmiyor.</field>
+        <field name="Pin_ID_Convention">Logical label only; physical pad numbering and footprint NOT assigned</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">V 00:42.560: üç şeritten görüntüde orta; 8 LED gövdesi. IC modeli, pad fonksiyonu ve segment sırası bilinmiyor.</field>
+      </fields>
+      <libsource lib="AIES_Observed" part="LED_Strip_Observed" description="Three strips, eight visible LED packages per strip at 00:42.56. No LED IC, DIN/DOUT pads, supply polarity or daisy-chain assumed."/>
+      <property name="Evidence" value="V 00:42.560: üç şeritten görüntüde orta; 8 LED gövdesi. IC modeli, pad fonksiyonu ve segment sırası bilinmiyor."/>
+      <property name="Pin_ID_Convention" value="Logical label only; physical pad numbering and footprint NOT assigned"/>
+      <property name="Sheetname" value="04 Ekran / LED / ses"/>
+      <property name="Sheetfile" value="Ekran_LED_Ses.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/04 Ekran / LED / ses/" tstamps="/e5bebe0c-a2eb-5279-8836-a887b10e8bc5/"/>
+      <tstamps>b363596e-e50e-563c-a215-694575f48b8a</tstamps>
+    </comp>
+    <comp ref="U9">
+      <value>LED şerit — görüntüde sağ / 8 görünür gövde</value>
+      <description>V 00:42.560: üç şeritten görüntüde sağ; 8 LED gövdesi. IC modeli, pad fonksiyonu ve segment sırası bilinmiyor.</description>
+      <fields>
+        <field name="Evidence">V 00:42.560: üç şeritten görüntüde sağ; 8 LED gövdesi. IC modeli, pad fonksiyonu ve segment sırası bilinmiyor.</field>
+        <field name="Pin_ID_Convention">Logical label only; physical pad numbering and footprint NOT assigned</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">V 00:42.560: üç şeritten görüntüde sağ; 8 LED gövdesi. IC modeli, pad fonksiyonu ve segment sırası bilinmiyor.</field>
+      </fields>
+      <libsource lib="AIES_Observed" part="LED_Strip_Observed" description="Three strips, eight visible LED packages per strip at 00:42.56. No LED IC, DIN/DOUT pads, supply polarity or daisy-chain assumed."/>
+      <property name="Evidence" value="V 00:42.560: üç şeritten görüntüde sağ; 8 LED gövdesi. IC modeli, pad fonksiyonu ve segment sırası bilinmiyor."/>
+      <property name="Pin_ID_Convention" value="Logical label only; physical pad numbering and footprint NOT assigned"/>
+      <property name="Sheetname" value="04 Ekran / LED / ses"/>
+      <property name="Sheetfile" value="Ekran_LED_Ses.kicad_sch"/>
+      <property name="exclude_from_bom"/>
+      <property name="exclude_from_board"/>
+      <sheetpath names="/04 Ekran / LED / ses/" tstamps="/e5bebe0c-a2eb-5279-8836-a887b10e8bc5/"/>
+      <tstamps>4176b38c-7ee3-5e3a-b8f0-762a985f493e</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="AIES_Observed" part="ESP32_Observed">
+      <description>Observed at 00:12 and 00:34; exact board/SoC/GPIO pad mapping unreadable. No invented terminal numbers.</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">ESP32 tipinde geliştirme kartı</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Observed at 00:12 and 00:34; exact board/SoC/GPIO pad mapping unreadable. No invented terminal numbers.</field>
+      </fields>
+    </libpart>
+    <libpart lib="AIES_Observed" part="HW017_Observed">
+      <description>HW-017 and terminal labels visible at 01:37.28. MPR121 IC top marking not resolved. Alphanumeric terminal IDs are logical names, not physical footprint numbering.</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">HW-017 / MPR121 tipi</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">HW-017 and terminal labels visible at 01:37.28. MPR121 IC top marking not resolved. Alphanumeric terminal IDs are logical names, not physical footprint numbering.</field>
+      </fields>
+      <pins>
+        <pin num="ADDR" name="ADDR" type="passive"/>
+        <pin num="E0" name="E0" type="passive"/>
+        <pin num="E1" name="E1" type="passive"/>
+        <pin num="E2" name="E2" type="passive"/>
+        <pin num="E3" name="E3" type="passive"/>
+        <pin num="E4" name="E4" type="passive"/>
+        <pin num="E5" name="E5" type="passive"/>
+        <pin num="E6" name="E6" type="passive"/>
+        <pin num="E7" name="E7" type="passive"/>
+        <pin num="E8" name="E8" type="passive"/>
+        <pin num="E9" name="E9" type="passive"/>
+        <pin num="E10" name="E10" type="passive"/>
+        <pin num="E11" name="E11" type="passive"/>
+        <pin num="GND" name="GND" type="power_in"/>
+        <pin num="IRQ" name="IRQ" type="passive"/>
+        <pin num="SCL" name="SCL" type="passive"/>
+        <pin num="SDA" name="SDA" type="passive"/>
+        <pin num="V3V3" name="3.3V_(baskı)" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="AIES_Observed" part="LED_Strip_Observed">
+      <description>Three strips, eight visible LED packages per strip at 00:42.56. No LED IC, DIN/DOUT pads, supply polarity or daisy-chain assumed.</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LED şerit — 8 görünür gövde</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Three strips, eight visible LED packages per strip at 00:42.56. No LED IC, DIN/DOUT pads, supply polarity or daisy-chain assumed.</field>
+      </fields>
+    </libpart>
+    <libpart lib="AIES_Observed" part="OLED_Observed">
+      <description>4-terminal display visible at 01:37; controller, bus mode, voltage and GPIO mapping not confirmed. No SSD1306 or 128x32 assumption.</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">4 uçlu ekran / OLED tipi</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">4-terminal display visible at 01:37; controller, bus mode, voltage and GPIO mapping not confirmed. No SSD1306 or 128x32 assumption.</field>
+      </fields>
+      <pins>
+        <pin num="CLK_TBD" name="CLK?_(yazı_belirsiz)" type="passive"/>
+        <pin num="DATA_TBD" name="DATA?_(yazı_belirsiz)" type="passive"/>
+        <pin num="GND" name="GND" type="power_in"/>
+        <pin num="VCC" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="AIES_Observed" part="Oval_Transducer_Observed">
+      <description>Oval transducer visible at 00:10.13. Impedance, rating and electrical endpoints unknown; no ground tie assumed.</description>
+      <fields>
+        <field name="Reference">LS</field>
+        <field name="Value">Oval akustik eleman</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Oval transducer visible at 00:10.13. Impedance, rating and electrical endpoints unknown; no ground tie assumed.</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="B" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AIES_Observed" part="SD_Module_Observed">
+      <description>MicroSD holder visible at 00:34.45. DFPlayer-like prior information only; exact type, UART, power and output pin mapping unknown.</description>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">microSD yuvalı modül</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">MicroSD holder visible at 00:34.45. DFPlayer-like prior information only; exact type, UART, power and output pin mapping unknown.</field>
+      </fields>
+    </libpart>
+    <libpart lib="AIES_Observed" part="Two_Lead_Cap_Observed">
+      <description>Cylinder body visible; value, voltage rating and polarity/rail endpoints unreadable. A/B are observation identifiers, not verified polarity.</description>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">Elektrolitik / C,V,polarite TBD</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Cylinder body visible; value, voltage rating and polarity/rail endpoints unreadable. A/B are observation identifiers, not verified polarity.</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A_(+?)" type="passive"/>
+        <pin num="B" name="B_(-?)" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="AIES_Observed" part="Two_Lead_Resistor_Observed">
+      <description>Off-module axial resistor visible at 00:34.45. Bands unreadable; endpoints untraced.</description>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">Direnç / değer TBD</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Off-module axial resistor visible at 00:34.45. Bands unreadable; endpoints untraced.</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="B" name="B" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="AIES_Observed">
+      <uri>/workspace/ai_pcb_design/AIES_Video_Schematic_Review_R1/Project/AIES_Observed.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/02 Güç / ESP32/TBD_C1_A" class="Default">
+      <node ref="C1" pin="A" pinfunction="A_(+?)" pintype="passive"/>
+    </net>
+    <net code="2" name="/02 Güç / ESP32/TBD_C1_B" class="Default">
+      <node ref="C1" pin="B" pinfunction="B_(-?)" pintype="passive"/>
+    </net>
+    <net code="3" name="/02 Güç / ESP32/TBD_C2_A" class="Default">
+      <node ref="C2" pin="A" pinfunction="A_(+?)" pintype="passive"/>
+    </net>
+    <net code="4" name="/02 Güç / ESP32/TBD_C2_B" class="Default">
+      <node ref="C2" pin="B" pinfunction="B_(-?)" pintype="passive"/>
+    </net>
+    <net code="5" name="/02 Güç / ESP32/TBD_C3_A" class="Default">
+      <node ref="C3" pin="A" pinfunction="A_(+?)" pintype="passive"/>
+    </net>
+    <net code="6" name="/02 Güç / ESP32/TBD_C3_B" class="Default">
+      <node ref="C3" pin="B" pinfunction="B_(-?)" pintype="passive"/>
+    </net>
+    <net code="7" name="/02 Güç / ESP32/TBD_R1_A" class="Default">
+      <node ref="R1" pin="A" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="8" name="/02 Güç / ESP32/TBD_R1_B" class="Default">
+      <node ref="R1" pin="B" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="9" name="/03 Dokunma / elektrotlar/TBD_U2_ADDR" class="Default">
+      <node ref="U2" pin="ADDR" pinfunction="ADDR" pintype="passive"/>
+    </net>
+    <net code="10" name="/03 Dokunma / elektrotlar/TBD_U2_E0" class="Default">
+      <node ref="U2" pin="E0" pinfunction="E0" pintype="passive"/>
+    </net>
+    <net code="11" name="/03 Dokunma / elektrotlar/TBD_U2_E1" class="Default">
+      <node ref="U2" pin="E1" pinfunction="E1" pintype="passive"/>
+    </net>
+    <net code="12" name="/03 Dokunma / elektrotlar/TBD_U2_E2" class="Default">
+      <node ref="U2" pin="E2" pinfunction="E2" pintype="passive"/>
+    </net>
+    <net code="13" name="/03 Dokunma / elektrotlar/TBD_U2_E3" class="Default">
+      <node ref="U2" pin="E3" pinfunction="E3" pintype="passive"/>
+    </net>
+    <net code="14" name="/03 Dokunma / elektrotlar/TBD_U2_E4" class="Default">
+      <node ref="U2" pin="E4" pinfunction="E4" pintype="passive"/>
+    </net>
+    <net code="15" name="/03 Dokunma / elektrotlar/TBD_U2_E5" class="Default">
+      <node ref="U2" pin="E5" pinfunction="E5" pintype="passive"/>
+    </net>
+    <net code="16" name="/03 Dokunma / elektrotlar/TBD_U2_E6" class="Default">
+      <node ref="U2" pin="E6" pinfunction="E6" pintype="passive"/>
+    </net>
+    <net code="17" name="/03 Dokunma / elektrotlar/TBD_U2_E7" class="Default">
+      <node ref="U2" pin="E7" pinfunction="E7" pintype="passive"/>
+    </net>
+    <net code="18" name="/03 Dokunma / elektrotlar/TBD_U2_E8" class="Default">
+      <node ref="U2" pin="E8" pinfunction="E8" pintype="passive"/>
+    </net>
+    <net code="19" name="/03 Dokunma / elektrotlar/TBD_U2_E9" class="Default">
+      <node ref="U2" pin="E9" pinfunction="E9" pintype="passive"/>
+    </net>
+    <net code="20" name="/03 Dokunma / elektrotlar/TBD_U2_E10" class="Default">
+      <node ref="U2" pin="E10" pinfunction="E10" pintype="passive"/>
+    </net>
+    <net code="21" name="/03 Dokunma / elektrotlar/TBD_U2_E11" class="Default">
+      <node ref="U2" pin="E11" pinfunction="E11" pintype="passive"/>
+    </net>
+    <net code="22" name="/03 Dokunma / elektrotlar/TBD_U2_GND" class="Default">
+      <node ref="U2" pin="GND" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="23" name="/03 Dokunma / elektrotlar/TBD_U2_IRQ" class="Default">
+      <node ref="U2" pin="IRQ" pinfunction="IRQ" pintype="passive"/>
+    </net>
+    <net code="24" name="/03 Dokunma / elektrotlar/TBD_U2_SCL" class="Default">
+      <node ref="U2" pin="SCL" pinfunction="SCL" pintype="passive"/>
+    </net>
+    <net code="25" name="/03 Dokunma / elektrotlar/TBD_U2_SDA" class="Default">
+      <node ref="U2" pin="SDA" pinfunction="SDA" pintype="passive"/>
+    </net>
+    <net code="26" name="/03 Dokunma / elektrotlar/TBD_U2_V3V3" class="Default">
+      <node ref="U2" pin="V3V3" pinfunction="3.3V_(baskı)" pintype="power_in"/>
+    </net>
+    <net code="27" name="/03 Dokunma / elektrotlar/TBD_U3_ADDR" class="Default">
+      <node ref="U3" pin="ADDR" pinfunction="ADDR" pintype="passive"/>
+    </net>
+    <net code="28" name="/03 Dokunma / elektrotlar/TBD_U3_E0" class="Default">
+      <node ref="U3" pin="E0" pinfunction="E0" pintype="passive"/>
+    </net>
+    <net code="29" name="/03 Dokunma / elektrotlar/TBD_U3_E1" class="Default">
+      <node ref="U3" pin="E1" pinfunction="E1" pintype="passive"/>
+    </net>
+    <net code="30" name="/03 Dokunma / elektrotlar/TBD_U3_E2" class="Default">
+      <node ref="U3" pin="E2" pinfunction="E2" pintype="passive"/>
+    </net>
+    <net code="31" name="/03 Dokunma / elektrotlar/TBD_U3_E3" class="Default">
+      <node ref="U3" pin="E3" pinfunction="E3" pintype="passive"/>
+    </net>
+    <net code="32" name="/03 Dokunma / elektrotlar/TBD_U3_E4" class="Default">
+      <node ref="U3" pin="E4" pinfunction="E4" pintype="passive"/>
+    </net>
+    <net code="33" name="/03 Dokunma / elektrotlar/TBD_U3_E5" class="Default">
+      <node ref="U3" pin="E5" pinfunction="E5" pintype="passive"/>
+    </net>
+    <net code="34" name="/03 Dokunma / elektrotlar/TBD_U3_E6" class="Default">
+      <node ref="U3" pin="E6" pinfunction="E6" pintype="passive"/>
+    </net>
+    <net code="35" name="/03 Dokunma / elektrotlar/TBD_U3_E7" class="Default">
+      <node ref="U3" pin="E7" pinfunction="E7" pintype="passive"/>
+    </net>
+    <net code="36" name="/03 Dokunma / elektrotlar/TBD_U3_E8" class="Default">
+      <node ref="U3" pin="E8" pinfunction="E8" pintype="passive"/>
+    </net>
+    <net code="37" name="/03 Dokunma / elektrotlar/TBD_U3_E9" class="Default">
+      <node ref="U3" pin="E9" pinfunction="E9" pintype="passive"/>
+    </net>
+    <net code="38" name="/03 Dokunma / elektrotlar/TBD_U3_E10" class="Default">
+      <node ref="U3" pin="E10" pinfunction="E10" pintype="passive"/>
+    </net>
+    <net code="39" name="/03 Dokunma / elektrotlar/TBD_U3_E11" class="Default">
+      <node ref="U3" pin="E11" pinfunction="E11" pintype="passive"/>
+    </net>
+    <net code="40" name="/03 Dokunma / elektrotlar/TBD_U3_GND" class="Default">
+      <node ref="U3" pin="GND" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="41" name="/03 Dokunma / elektrotlar/TBD_U3_IRQ" class="Default">
+      <node ref="U3" pin="IRQ" pinfunction="IRQ" pintype="passive"/>
+    </net>
+    <net code="42" name="/03 Dokunma / elektrotlar/TBD_U3_SCL" class="Default">
+      <node ref="U3" pin="SCL" pinfunction="SCL" pintype="passive"/>
+    </net>
+    <net code="43" name="/03 Dokunma / elektrotlar/TBD_U3_SDA" class="Default">
+      <node ref="U3" pin="SDA" pinfunction="SDA" pintype="passive"/>
+    </net>
+    <net code="44" name="/03 Dokunma / elektrotlar/TBD_U3_V3V3" class="Default">
+      <node ref="U3" pin="V3V3" pinfunction="3.3V_(baskı)" pintype="power_in"/>
+    </net>
+    <net code="45" name="/03 Dokunma / elektrotlar/TBD_U4_ADDR" class="Default">
+      <node ref="U4" pin="ADDR" pinfunction="ADDR" pintype="passive"/>
+    </net>
+    <net code="46" name="/03 Dokunma / elektrotlar/TBD_U4_E0" class="Default">
+      <node ref="U4" pin="E0" pinfunction="E0" pintype="passive"/>
+    </net>
+    <net code="47" name="/03 Dokunma / elektrotlar/TBD_U4_E1" class="Default">
+      <node ref="U4" pin="E1" pinfunction="E1" pintype="passive"/>
+    </net>
+    <net code="48" name="/03 Dokunma / elektrotlar/TBD_U4_E2" class="Default">
+      <node ref="U4" pin="E2" pinfunction="E2" pintype="passive"/>
+    </net>
+    <net code="49" name="/03 Dokunma / elektrotlar/TBD_U4_E3" class="Default">
+      <node ref="U4" pin="E3" pinfunction="E3" pintype="passive"/>
+    </net>
+    <net code="50" name="/03 Dokunma / elektrotlar/TBD_U4_E4" class="Default">
+      <node ref="U4" pin="E4" pinfunction="E4" pintype="passive"/>
+    </net>
+    <net code="51" name="/03 Dokunma / elektrotlar/TBD_U4_E5" class="Default">
+      <node ref="U4" pin="E5" pinfunction="E5" pintype="passive"/>
+    </net>
+    <net code="52" name="/03 Dokunma / elektrotlar/TBD_U4_E6" class="Default">
+      <node ref="U4" pin="E6" pinfunction="E6" pintype="passive"/>
+    </net>
+    <net code="53" name="/03 Dokunma / elektrotlar/TBD_U4_E7" class="Default">
+      <node ref="U4" pin="E7" pinfunction="E7" pintype="passive"/>
+    </net>
+    <net code="54" name="/03 Dokunma / elektrotlar/TBD_U4_E8" class="Default">
+      <node ref="U4" pin="E8" pinfunction="E8" pintype="passive"/>
+    </net>
+    <net code="55" name="/03 Dokunma / elektrotlar/TBD_U4_E9" class="Default">
+      <node ref="U4" pin="E9" pinfunction="E9" pintype="passive"/>
+    </net>
+    <net code="56" name="/03 Dokunma / elektrotlar/TBD_U4_E10" class="Default">
+      <node ref="U4" pin="E10" pinfunction="E10" pintype="passive"/>
+    </net>
+    <net code="57" name="/03 Dokunma / elektrotlar/TBD_U4_E11" class="Default">
+      <node ref="U4" pin="E11" pinfunction="E11" pintype="passive"/>
+    </net>
+    <net code="58" name="/03 Dokunma / elektrotlar/TBD_U4_GND" class="Default">
+      <node ref="U4" pin="GND" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="59" name="/03 Dokunma / elektrotlar/TBD_U4_IRQ" class="Default">
+      <node ref="U4" pin="IRQ" pinfunction="IRQ" pintype="passive"/>
+    </net>
+    <net code="60" name="/03 Dokunma / elektrotlar/TBD_U4_SCL" class="Default">
+      <node ref="U4" pin="SCL" pinfunction="SCL" pintype="passive"/>
+    </net>
+    <net code="61" name="/03 Dokunma / elektrotlar/TBD_U4_SDA" class="Default">
+      <node ref="U4" pin="SDA" pinfunction="SDA" pintype="passive"/>
+    </net>
+    <net code="62" name="/03 Dokunma / elektrotlar/TBD_U4_V3V3" class="Default">
+      <node ref="U4" pin="V3V3" pinfunction="3.3V_(baskı)" pintype="power_in"/>
+    </net>
+    <net code="63" name="/04 Ekran / LED / ses/TBD_LS1_A" class="Default">
+      <node ref="LS1" pin="A" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="64" name="/04 Ekran / LED / ses/TBD_LS1_B" class="Default">
+      <node ref="LS1" pin="B" pinfunction="B" pintype="passive"/>
+    </net>
+    <net code="65" name="/04 Ekran / LED / ses/TBD_U5_CLK_TBD" class="Default">
+      <node ref="U5" pin="CLK_TBD" pinfunction="CLK?_(yazı_belirsiz)" pintype="passive"/>
+    </net>
+    <net code="66" name="/04 Ekran / LED / ses/TBD_U5_DATA_TBD" class="Default">
+      <node ref="U5" pin="DATA_TBD" pinfunction="DATA?_(yazı_belirsiz)" pintype="passive"/>
+    </net>
+    <net code="67" name="/04 Ekran / LED / ses/TBD_U5_GND" class="Default">
+      <node ref="U5" pin="GND" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="68" name="/04 Ekran / LED / ses/TBD_U5_VCC" class="Default">
+      <node ref="U5" pin="VCC" pinfunction="VCC" pintype="power_in"/>
+    </net>
+  </nets>
+</export>

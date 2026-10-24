@@ -1,0 +1,44 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-10-24T13:19:16+0000",
+    "kicad_version": "9.0.2",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/00dbdf85-73b6-57ac-b4cd-52f9ae59bd07",
+            "violations": []
+        },
+        {
+            "path": "/02 Güç / ESP32/",
+            "uuid_path": "/00dbdf85-73b6-57ac-b4cd-52f9ae59bd07/7382400b-bb5b-5da5-9f42-d65126df457e",
+            "violations": []
+        },
+        {
+            "path": "/03 Dokunma / elektrotlar/",
+            "uuid_path": "/00dbdf85-73b6-57ac-b4cd-52f9ae59bd07/e82aaa60-f227-58cb-8d36-21202a82912a",
+            "violations": []
+        },
+        {
+            "path": "/04 Ekran / LED / ses/",
+            "uuid_path": "/00dbdf85-73b6-57ac-b4cd-52f9ae59bd07/328eab5d-9dd4-5694-af2b-8d11ad07efc2",
+            "violations": []
+        },
+        {
+            "path": "/05–07 Kullanıcı blok görselleri / önceki güç fikri/",
+            "uuid_path": "/00dbdf85-73b6-57ac-b4cd-52f9ae59bd07/b98781e9-9cc9-517c-ad5e-0e998c66050f",
+            "violations": []
+        },
+        {
+            "path": "/05–07 Kullanıcı blok görselleri / önceki güç fikri/06 Akış / G2/",
+            "uuid_path": "/00dbdf85-73b6-57ac-b4cd-52f9ae59bd07/b98781e9-9cc9-517c-ad5e-0e998c66050f/d0ce1d82-fa21-5df1-a0ac-0e8c5a68189b",
+            "violations": []
+        },
+        {
+            "path": "/05–07 Kullanıcı blok görselleri / önceki güç fikri/07 Güç / G3/",
+            "uuid_path": "/00dbdf85-73b6-57ac-b4cd-52f9ae59bd07/b98781e9-9cc9-517c-ad5e-0e998c66050f/f73cd6a3-f272-5f9f-9317-ca68d770a925",
+            "violations": []
+        }
+    ],
+    "source": "AIES_Oneri_P1.kicad_sch"
+}

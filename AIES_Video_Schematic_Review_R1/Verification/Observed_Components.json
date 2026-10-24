@@ -1,0 +1,219 @@
+[
+  {
+    "reference": "U1",
+    "value": "ESP32 tipinde kart / kesin varyant TBD",
+    "library_symbol": "AIES_Observed:ESP32_Observed",
+    "evidence": "V 00:12.16 / 00:34.453: USB kablosu ve RF kalkanı. GPIO / kart kodu okunamadı.",
+    "pin_IDs": [],
+    "footprint": "",
+    "logical_only_not_physical_numbering": true,
+    "on_board": false
+  },
+  {
+    "reference": "R1",
+    "value": "Axial direnç / değer TBD",
+    "library_symbol": "AIES_Observed:Two_Lead_Resistor_Observed",
+    "evidence": "V 00:34.453: modül dışı axial direnç gövdesi. Bant değeri ve iki uç belirsiz.",
+    "pin_IDs": [
+      "A",
+      "B"
+    ],
+    "footprint": "",
+    "logical_only_not_physical_numbering": true,
+    "on_board": false
+  },
+  {
+    "reference": "C1",
+    "value": "Elektrolitik / C ve V TBD",
+    "library_symbol": "AIES_Observed:Two_Lead_Cap_Observed",
+    "evidence": "V 00:10.133: ESP32 solundaki mor silindirik gövde. Değer/voltaj/polarite ve uçlar teyitsiz.",
+    "pin_IDs": [
+      "A",
+      "B"
+    ],
+    "footprint": "",
+    "logical_only_not_physical_numbering": true,
+    "on_board": false
+  },
+  {
+    "reference": "C2",
+    "value": "Elektrolitik / C ve V TBD",
+    "library_symbol": "AIES_Observed:Two_Lead_Cap_Observed",
+    "evidence": "V 00:10.133: microSD modülü yanındaki üst silindirik gövde. Değer/voltaj/polarite ve uçlar teyitsiz.",
+    "pin_IDs": [
+      "A",
+      "B"
+    ],
+    "footprint": "",
+    "logical_only_not_physical_numbering": true,
+    "on_board": false
+  },
+  {
+    "reference": "C3",
+    "value": "Elektrolitik / C ve V TBD",
+    "library_symbol": "AIES_Observed:Two_Lead_Cap_Observed",
+    "evidence": "V 00:10.133: microSD modülü yanındaki alt silindirik gövde. Değer/voltaj/polarite ve uçlar teyitsiz.",
+    "pin_IDs": [
+      "A",
+      "B"
+    ],
+    "footprint": "",
+    "logical_only_not_physical_numbering": true,
+    "on_board": false
+  },
+  {
+    "reference": "U2",
+    "value": "HW-017 / MPR121 tipi — görüntüde üst-sol",
+    "library_symbol": "AIES_Observed:HW017_Observed",
+    "evidence": "V 01:37.280 / 01:39.307: HW-017 PCB / Electrodes-LEDs yazısı ve kontrol terminal isimleri. MPR121 IC üst kodu okunamadı.",
+    "pin_IDs": [
+      "GND",
+      "ADDR",
+      "SDA",
+      "SCL",
+      "IRQ",
+      "V3V3",
+      "E0",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11"
+    ],
+    "footprint": "",
+    "logical_only_not_physical_numbering": true,
+    "on_board": false
+  },
+  {
+    "reference": "U3",
+    "value": "HW-017 / MPR121 tipi — görüntüde üst-sağ",
+    "library_symbol": "AIES_Observed:HW017_Observed",
+    "evidence": "V 01:37.280 / 01:39.307: HW-017 PCB / Electrodes-LEDs yazısı ve kontrol terminal isimleri. MPR121 IC üst kodu okunamadı.",
+    "pin_IDs": [
+      "GND",
+      "ADDR",
+      "SDA",
+      "SCL",
+      "IRQ",
+      "V3V3",
+      "E0",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11"
+    ],
+    "footprint": "",
+    "logical_only_not_physical_numbering": true,
+    "on_board": false
+  },
+  {
+    "reference": "U4",
+    "value": "HW-017 / MPR121 tipi — görüntüde alt",
+    "library_symbol": "AIES_Observed:HW017_Observed",
+    "evidence": "V 01:37.280 / 01:39.307: HW-017 PCB / Electrodes-LEDs yazısı ve kontrol terminal isimleri. MPR121 IC üst kodu okunamadı.",
+    "pin_IDs": [
+      "GND",
+      "ADDR",
+      "SDA",
+      "SCL",
+      "IRQ",
+      "V3V3",
+      "E0",
+      "E1",
+      "E2",
+      "E3",
+      "E4",
+      "E5",
+      "E6",
+      "E7",
+      "E8",
+      "E9",
+      "E10",
+      "E11"
+    ],
+    "footprint": "",
+    "logical_only_not_physical_numbering": true,
+    "on_board": false
+  },
+  {
+    "reference": "U5",
+    "value": "4 uçlu OLED tipi ekran / model TBD",
+    "library_symbol": "AIES_Observed:OLED_Observed",
+    "evidence": "V 01:37.280: 4-pad header, GND/VCC ve 4-pin header görünür. İki veri etiketi tam seçilemiyor; kontrolcü/çözünürlük/VCC bilinmiyor.",
+    "pin_IDs": [
+      "GND",
+      "VCC",
+      "CLK_TBD",
+      "DATA_TBD"
+    ],
+    "footprint": "",
+    "logical_only_not_physical_numbering": true,
+    "on_board": false
+  },
+  {
+    "reference": "U6",
+    "value": "microSD yuvalı modül / ses tipi olası",
+    "library_symbol": "AIES_Observed:SD_Module_Observed",
+    "evidence": "V 00:34.453: microSD soketi. DFPlayer benzeri önbilgi; exact model, UART/power/speaker pinleri teyit edilmedi.",
+    "pin_IDs": [],
+    "footprint": "",
+    "logical_only_not_physical_numbering": true,
+    "on_board": false
+  },
+  {
+    "reference": "LS1",
+    "value": "Oval akustik sürücü / özellik TBD",
+    "library_symbol": "AIES_Observed:Oval_Transducer_Observed",
+    "evidence": "V 00:10.133: oval akustik eleman. Empedans/güç ve iki kablo ucu okunamadı.",
+    "pin_IDs": [
+      "A",
+      "B"
+    ],
+    "footprint": "",
+    "logical_only_not_physical_numbering": true,
+    "on_board": false
+  },
+  {
+    "reference": "U7",
+    "value": "LED şerit — görüntüde sol / 8 görünür gövde",
+    "library_symbol": "AIES_Observed:LED_Strip_Observed",
+    "evidence": "V 00:42.560: üç şeritten görüntüde sol; 8 LED gövdesi. IC modeli, pad fonksiyonu ve segment sırası bilinmiyor.",
+    "pin_IDs": [],
+    "footprint": "",
+    "logical_only_not_physical_numbering": true,
+    "on_board": false
+  },
+  {
+    "reference": "U8",
+    "value": "LED şerit — görüntüde orta / 8 görünür gövde",
+    "library_symbol": "AIES_Observed:LED_Strip_Observed",
+    "evidence": "V 00:42.560: üç şeritten görüntüde orta; 8 LED gövdesi. IC modeli, pad fonksiyonu ve segment sırası bilinmiyor.",
+    "pin_IDs": [],
+    "footprint": "",
+    "logical_only_not_physical_numbering": true,
+    "on_board": false
+  },
+  {
+    "reference": "U9",
+    "value": "LED şerit — görüntüde sağ / 8 görünür gövde",
+    "library_symbol": "AIES_Observed:LED_Strip_Observed",
+    "evidence": "V 00:42.560: üç şeritten görüntüde sağ; 8 LED gövdesi. IC modeli, pad fonksiyonu ve segment sırası bilinmiyor.",
+    "pin_IDs": [],
+    "footprint": "",
+    "logical_only_not_physical_numbering": true,
+    "on_board": false
+  }
+]

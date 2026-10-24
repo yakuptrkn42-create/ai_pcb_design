@@ -1,0 +1,75 @@
+sample_index,timestamp_sec,contact_sheet,row,column,full_frame_in_package
+1,0.0,Contact_01.jpg,1,1,contact only
+2,2.026667,Contact_01.jpg,1,2,contact only
+3,4.053333,Contact_01.jpg,1,3,contact only
+4,6.08,Contact_01.jpg,1,4,contact only
+5,8.106667,Contact_01.jpg,1,5,contact only
+6,10.133333,Contact_01.jpg,2,1,Frame_006.png
+7,12.16,Contact_01.jpg,2,2,contact only
+8,14.186667,Contact_01.jpg,2,3,contact only
+9,16.213333,Contact_01.jpg,2,4,contact only
+10,18.24,Contact_01.jpg,2,5,contact only
+11,20.266667,Contact_01.jpg,3,1,contact only
+12,22.293333,Contact_01.jpg,3,2,contact only
+13,24.32,Contact_01.jpg,3,3,contact only
+14,26.346667,Contact_01.jpg,3,4,contact only
+15,28.373333,Contact_01.jpg,3,5,contact only
+16,30.4,Contact_02.jpg,1,1,contact only
+17,32.426667,Contact_02.jpg,1,2,contact only
+18,34.453333,Contact_02.jpg,1,3,Frame_018.png
+19,36.48,Contact_02.jpg,1,4,contact only
+20,38.506667,Contact_02.jpg,1,5,contact only
+21,40.533333,Contact_02.jpg,2,1,contact only
+22,42.56,Contact_02.jpg,2,2,Frame_022.png
+23,44.586667,Contact_02.jpg,2,3,contact only
+24,46.613333,Contact_02.jpg,2,4,contact only
+25,48.64,Contact_02.jpg,2,5,contact only
+26,50.666667,Contact_02.jpg,3,1,contact only
+27,52.693333,Contact_02.jpg,3,2,contact only
+28,54.72,Contact_02.jpg,3,3,contact only
+29,56.746667,Contact_02.jpg,3,4,contact only
+30,58.773333,Contact_02.jpg,3,5,contact only
+31,60.8,Contact_03.jpg,1,1,contact only
+32,62.826667,Contact_03.jpg,1,2,contact only
+33,64.853333,Contact_03.jpg,1,3,contact only
+34,66.88,Contact_03.jpg,1,4,contact only
+35,68.906667,Contact_03.jpg,1,5,contact only
+36,70.933333,Contact_03.jpg,2,1,contact only
+37,72.96,Contact_03.jpg,2,2,contact only
+38,74.986667,Contact_03.jpg,2,3,contact only
+39,77.013333,Contact_03.jpg,2,4,contact only
+40,79.04,Contact_03.jpg,2,5,contact only
+41,81.066667,Contact_03.jpg,3,1,contact only
+42,83.093333,Contact_03.jpg,3,2,contact only
+43,85.12,Contact_03.jpg,3,3,contact only
+44,87.146667,Contact_03.jpg,3,4,contact only
+45,89.173333,Contact_03.jpg,3,5,contact only
+46,91.2,Contact_04.jpg,1,1,contact only
+47,93.226667,Contact_04.jpg,1,2,contact only
+48,95.253333,Contact_04.jpg,1,3,contact only
+49,97.28,Contact_04.jpg,1,4,Frame_049.png
+50,99.306667,Contact_04.jpg,1,5,Frame_050.png
+51,101.333333,Contact_04.jpg,2,1,contact only
+52,103.36,Contact_04.jpg,2,2,contact only
+53,105.386667,Contact_04.jpg,2,3,contact only
+54,107.413333,Contact_04.jpg,2,4,contact only
+55,109.44,Contact_04.jpg,2,5,contact only
+56,111.466667,Contact_04.jpg,3,1,contact only
+57,113.493333,Contact_04.jpg,3,2,contact only
+58,115.52,Contact_04.jpg,3,3,contact only
+59,117.546667,Contact_04.jpg,3,4,Frame_059.png
+60,119.573333,Contact_04.jpg,3,5,contact only
+61,121.6,Contact_05.jpg,1,1,contact only
+62,123.626667,Contact_05.jpg,1,2,Frame_062.png
+63,125.653333,Contact_05.jpg,1,3,contact only
+64,127.68,Contact_05.jpg,1,4,contact only
+65,129.706667,Contact_05.jpg,1,5,contact only
+66,131.733333,Contact_05.jpg,2,1,contact only
+67,133.76,Contact_05.jpg,2,2,contact only
+68,135.786667,Contact_05.jpg,2,3,contact only
+69,137.813333,Contact_05.jpg,2,4,contact only
+70,139.84,Contact_05.jpg,2,5,contact only
+71,141.866667,Contact_05.jpg,3,1,contact only
+72,143.893333,Contact_05.jpg,3,2,contact only
+73,145.92,Contact_05.jpg,3,3,contact only
+74,147.946667,Contact_05.jpg,3,4,Frame_074.png

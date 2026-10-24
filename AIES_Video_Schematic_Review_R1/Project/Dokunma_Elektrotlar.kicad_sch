@@ -1,0 +1,1416 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "b7346054-cfb8-526a-876c-1b543eb2b2f4")
+	(paper "A3")
+	(title_block
+		(title "AİES / 03 / HW-017 dokunma modülleri ve elektrot uçları")
+		(date "2026-10-24")
+		(rev "R1 / İNCELEME")
+		(comment 1 "Video: 00:00–02:28.89; görünmeyen kablolar / GPIO / besleme uçları BELİRSİZ.")
+		(comment 2 "Footprint atanmadı; PCB/üretim için tamamlanmış tasarım değildir."))
+	(lib_symbols
+		(symbol "AIES_Observed:HW017_Observed"
+			(pin_names
+				(offset 0.7))
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "U"
+				(at 0 35.21 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "HW-017 / MPR121 tipi"
+				(at 0 32.21 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" "HW-017 and terminal labels visible at 01:37.28. MPR121 IC top marking not resolved. Alphanumeric terminal IDs are logical names, not physical footprint numbering."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "HW017_Observed_0_1"
+				(rectangle
+					(start -20.32 29.21)
+					(end 20.32 -29.21)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type background)))
+				(text "HW-017"
+					(at 0 4 0)
+					(effects
+						(font
+							(size 1.7 1.7))))
+				(text "MPR121 tipi"
+					(at 0 -2 0)
+					(effects
+						(font
+							(size 1.3 1.3))))
+				(text "ADDR: TBD"
+					(at 0 -8 0)
+					(effects
+						(font
+							(size 1.2 1.2))))
+				(text "E0..E11"
+					(at 0 -14 0)
+					(effects
+						(font
+							(size 1.2 1.2)))))
+			(symbol "HW017_Observed_1_1"
+				(pin power_in line
+					(at -25.4 21.59 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "GND"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin passive line
+					(at -25.4 13.97 0)
+					(length 5.08)
+					(name "ADDR"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "ADDR"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin passive line
+					(at -25.4 6.35 0)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "SDA"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin passive line
+					(at -25.4 -2.54 0)
+					(length 5.08)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "SCL"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin passive line
+					(at -25.4 -10.16 0)
+					(length 5.08)
+					(name "IRQ"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "IRQ"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin power_in line
+					(at -25.4 -17.78 0)
+					(length 5.08)
+					(name "3.3V (baskı)"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "V3V3"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin passive line
+					(at 25.4 21.59 180)
+					(length 5.08)
+					(name "E0"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "E0"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin passive line
+					(at 25.4 17.78 180)
+					(length 5.08)
+					(name "E1"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "E1"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin passive line
+					(at 25.4 13.97 180)
+					(length 5.08)
+					(name "E2"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "E2"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin passive line
+					(at 25.4 10.16 180)
+					(length 5.08)
+					(name "E3"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "E3"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin passive line
+					(at 25.4 6.35 180)
+					(length 5.08)
+					(name "E4"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "E4"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin passive line
+					(at 25.4 2.54 180)
+					(length 5.08)
+					(name "E5"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "E5"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin passive line
+					(at 25.4 -2.54 180)
+					(length 5.08)
+					(name "E6"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "E6"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin passive line
+					(at 25.4 -6.35 180)
+					(length 5.08)
+					(name "E7"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "E7"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin passive line
+					(at 25.4 -10.16 180)
+					(length 5.08)
+					(name "E8"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "E8"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin passive line
+					(at 25.4 -13.97 180)
+					(length 5.08)
+					(name "E9"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "E9"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin passive line
+					(at 25.4 -17.78 180)
+					(length 5.08)
+					(name "E10"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "E10"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin passive line
+					(at 25.4 -21.59 180)
+					(length 5.08)
+					(name "E11"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "E11"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes)))))))
+	(text "03 / HW-017 dokunma modülleri ve elektrot uçları"
+		(at 210 15 0)
+		(effects
+			(font
+				(size 3 3) bold))
+		(uuid "666229cc-3e2a-51b3-b685-b0e4eef13849"))
+	(text "V = videoda görülen • TBD / BELİRSİZ = bağlantı doğrulanmadı • öneriler ayrı blok sayfalarında"
+		(at 210 25 0)
+		(effects
+			(font
+				(size 1.45 1.45)))
+		(uuid "5385e03f-621b-5ff6-85a0-bad1d4ddefbf"))
+	(symbol
+		(lib_id "AIES_Observed:HW017_Observed")
+		(at 69.85 105.41 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "683a9c31-7921-57ce-8856-410a227aee43")
+		(property "Reference" "U2"
+			(at 69.85 69.19999999999999 0)
+			(effects
+				(font
+					(size 1.4 1.4) bold)))
+		(property "Value" "HW-017 / MPR121 tipi — görüntüde üst-sol"
+			(at 69.85 73.19999999999999 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Footprint" ""
+			(at 69.85 105.41 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 69.85 105.41 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Description" "V 01:37.280 / 01:39.307: HW-017 PCB / Electrodes-LEDs yazısı ve kontrol terminal isimleri. MPR121 IC üst kodu okunamadı."
+			(at 69.85 105.41 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Evidence" "V 01:37.280 / 01:39.307: HW-017 PCB / Electrodes-LEDs yazısı ve kontrol terminal isimleri. MPR121 IC üst kodu okunamadı."
+			(at 69.85 105.41 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Pin_ID_Convention" "Logical label only; physical pad numbering and footprint NOT assigned"
+			(at 69.85 105.41 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(pin "GND"
+			(uuid "d8c81f9f-c01d-5357-84b5-5801445cc222"))
+		(pin "ADDR"
+			(uuid "7cfb0a3d-8798-591b-8dae-2280c7ec23b8"))
+		(pin "SDA"
+			(uuid "47eb8aa0-684c-53bf-8ad7-432743c2f067"))
+		(pin "SCL"
+			(uuid "580fb402-92b5-5f22-b684-c7f8adc8cd61"))
+		(pin "IRQ"
+			(uuid "92262d6d-81cc-5af4-9d52-3531e22c99d7"))
+		(pin "V3V3"
+			(uuid "d1b29097-6cec-507b-b9f8-2124fedda686"))
+		(pin "E0"
+			(uuid "a77fa8d3-df75-5198-b7bf-cdfd4cabbf35"))
+		(pin "E1"
+			(uuid "44bda946-551a-5caf-8807-c80ea37433e3"))
+		(pin "E2"
+			(uuid "438601b4-1823-5635-b94c-2379953559f0"))
+		(pin "E3"
+			(uuid "21a11864-5113-5a37-9025-7c95f6c533e0"))
+		(pin "E4"
+			(uuid "98954af8-2bf5-50ee-97cf-b83a38f80de1"))
+		(pin "E5"
+			(uuid "e5d51cb0-9103-5588-ada8-a93bacfedb5b"))
+		(pin "E6"
+			(uuid "11ac83ac-ff5a-54aa-b51f-654835bbc278"))
+		(pin "E7"
+			(uuid "712f8960-25f6-5273-91b2-23aaebb4cca0"))
+		(pin "E8"
+			(uuid "e99763fa-58e3-5b80-8910-f049f4a6a190"))
+		(pin "E9"
+			(uuid "d7f0f331-fea9-506d-97d2-b450adc78b2a"))
+		(pin "E10"
+			(uuid "515300a9-c448-55d7-867f-7630cd891f44"))
+		(pin "E11"
+			(uuid "90ce4ee8-b9b7-5ccc-bd33-a88028f6a281"))
+		(instances
+			(project "AIES_Video_Review_R1"
+				(path "/af3a030a-61ee-5194-9d87-d99edc3d4601/c7d96fa4-925a-5371-a91d-2ba3b3e6f5f9"
+					(reference "U2")
+					(unit 1)))))
+	(wire
+		(pts
+			(xy 44.449999999999996 83.82)
+			(xy 36.83 83.82))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "fda2c3ab-417a-5a14-88dd-4bd1b67f3406"))
+	(label "TBD_U2_GND"
+		(at 36.83 83.82 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "b196c0a9-14d8-539e-8f89-eeb25063008f"))
+	(wire
+		(pts
+			(xy 44.449999999999996 91.44)
+			(xy 36.83 91.44))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "e887987b-68ea-5850-bd52-aedd3535d2f8"))
+	(label "TBD_U2_ADDR"
+		(at 36.83 91.44 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "2b38b168-b2dd-5d99-af86-fae24d3b2872"))
+	(wire
+		(pts
+			(xy 44.449999999999996 99.06)
+			(xy 36.83 99.06))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "9a444ec6-65cb-5844-a6cd-884299a331f0"))
+	(label "TBD_U2_SDA"
+		(at 36.83 99.06 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "4a912e1f-0443-5127-a519-347094814bdc"))
+	(wire
+		(pts
+			(xy 44.449999999999996 107.95)
+			(xy 36.83 107.95))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "657cadf0-a995-508f-b264-7dd551e01a1f"))
+	(label "TBD_U2_SCL"
+		(at 36.83 107.95 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "ce72eeda-c1d2-5f66-ad41-4c3ec96555a4"))
+	(wire
+		(pts
+			(xy 44.449999999999996 115.57)
+			(xy 36.83 115.57))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "2efbbb94-0122-57e3-bb42-830865461d47"))
+	(label "TBD_U2_IRQ"
+		(at 36.83 115.57 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "712e9a1c-6229-5537-846e-a6cc59ce7d74"))
+	(wire
+		(pts
+			(xy 44.449999999999996 123.19)
+			(xy 36.83 123.19))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "a1175b10-b251-5699-86ab-a158fbf93d5e"))
+	(label "TBD_U2_V3V3"
+		(at 36.83 123.19 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "f53a32eb-717e-5b38-b024-649697099106"))
+	(wire
+		(pts
+			(xy 95.25 83.82)
+			(xy 102.87 83.82))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "dfd20bd7-0622-50bb-894d-0112f62e0b43"))
+	(label "TBD_U2_E0"
+		(at 102.87 83.82 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "81f0e670-fde6-5edd-8df9-a8ee781bffe4"))
+	(wire
+		(pts
+			(xy 95.25 87.63)
+			(xy 102.87 87.63))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "ef37862a-f744-54fb-876a-fcc594157808"))
+	(label "TBD_U2_E1"
+		(at 102.87 87.63 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "fb1d05b3-e3fc-57e7-aeea-be381e38f770"))
+	(wire
+		(pts
+			(xy 95.25 91.44)
+			(xy 102.87 91.44))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "fa2ccbc6-1228-5311-a02b-da2e2c84fe86"))
+	(label "TBD_U2_E2"
+		(at 102.87 91.44 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "23cff887-d44f-516e-ad82-e63c55dfcc21"))
+	(wire
+		(pts
+			(xy 95.25 95.25)
+			(xy 102.87 95.25))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "fa2437b0-1ec1-59b5-aad1-6999627505a9"))
+	(label "TBD_U2_E3"
+		(at 102.87 95.25 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "145e1d4d-efff-533e-b2fe-fb91b082aa7c"))
+	(wire
+		(pts
+			(xy 95.25 99.06)
+			(xy 102.87 99.06))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "6ef3ac65-7e9c-5d46-a239-61dde7d69aff"))
+	(label "TBD_U2_E4"
+		(at 102.87 99.06 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "edc1d500-dfda-5e24-8d2c-7acf660c6c47"))
+	(wire
+		(pts
+			(xy 95.25 102.86999999999999)
+			(xy 102.87 102.86999999999999))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "77444aa4-675e-5495-b6a6-a736c08891c8"))
+	(label "TBD_U2_E5"
+		(at 102.87 102.86999999999999 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "0e497833-8166-5b64-858f-223b45c4721b"))
+	(wire
+		(pts
+			(xy 95.25 107.95)
+			(xy 102.87 107.95))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "4702d8bc-0b3f-5ca0-85ad-7b3de1bc0170"))
+	(label "TBD_U2_E6"
+		(at 102.87 107.95 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "9fcdf9df-6dd0-5931-91a9-11caf021c70a"))
+	(wire
+		(pts
+			(xy 95.25 111.75999999999999)
+			(xy 102.87 111.75999999999999))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "70e111e9-6a6d-5e5d-8420-44e1ec2ba9ff"))
+	(label "TBD_U2_E7"
+		(at 102.87 111.75999999999999 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "e9b99712-af65-5e4c-b44c-44b241829019"))
+	(wire
+		(pts
+			(xy 95.25 115.57)
+			(xy 102.87 115.57))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "2129b245-d24d-5157-8615-dd1bbae4badd"))
+	(label "TBD_U2_E8"
+		(at 102.87 115.57 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "f09f295d-4b07-51d9-837a-ca196b655fde"))
+	(wire
+		(pts
+			(xy 95.25 119.38)
+			(xy 102.87 119.38))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "ee21ab66-dc32-50e9-b666-d52107552ee2"))
+	(label "TBD_U2_E9"
+		(at 102.87 119.38 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "164fea49-3923-54dc-b062-c728eb92255a"))
+	(wire
+		(pts
+			(xy 95.25 123.19)
+			(xy 102.87 123.19))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "3260a0d2-e30f-5f3a-9772-bf127638483d"))
+	(label "TBD_U2_E10"
+		(at 102.87 123.19 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "dcc280d4-6215-5e57-a322-67b293b51d84"))
+	(wire
+		(pts
+			(xy 95.25 127.0)
+			(xy 102.87 127.0))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "bc2c0981-dcb1-5fe3-aa2b-9fa79bd03fa8"))
+	(label "TBD_U2_E11"
+		(at 102.87 127.0 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "113e5d9f-a2aa-56ad-a5cf-5e2b00de5dd0"))
+	(symbol
+		(lib_id "AIES_Observed:HW017_Observed")
+		(at 209.55 105.41 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "3ea5851b-8830-5373-a561-14dd6170bb3e")
+		(property "Reference" "U3"
+			(at 209.55 69.19999999999999 0)
+			(effects
+				(font
+					(size 1.4 1.4) bold)))
+		(property "Value" "HW-017 / MPR121 tipi — görüntüde üst-sağ"
+			(at 209.55 73.19999999999999 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Footprint" ""
+			(at 209.55 105.41 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 209.55 105.41 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Description" "V 01:37.280 / 01:39.307: HW-017 PCB / Electrodes-LEDs yazısı ve kontrol terminal isimleri. MPR121 IC üst kodu okunamadı."
+			(at 209.55 105.41 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Evidence" "V 01:37.280 / 01:39.307: HW-017 PCB / Electrodes-LEDs yazısı ve kontrol terminal isimleri. MPR121 IC üst kodu okunamadı."
+			(at 209.55 105.41 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Pin_ID_Convention" "Logical label only; physical pad numbering and footprint NOT assigned"
+			(at 209.55 105.41 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(pin "GND"
+			(uuid "d5ce48a1-ef1a-572b-b506-e840730acd81"))
+		(pin "ADDR"
+			(uuid "a1dc0fe3-c4ae-52cd-92d6-169e4dff46cc"))
+		(pin "SDA"
+			(uuid "63c073f8-a0df-59d2-98a1-4f6526020750"))
+		(pin "SCL"
+			(uuid "5a3c740f-43dd-5e05-b907-5d749fdfbcee"))
+		(pin "IRQ"
+			(uuid "86f1972e-c7bb-56b6-bf83-377288775e95"))
+		(pin "V3V3"
+			(uuid "4ee450fd-3917-5ad5-bc0f-fa0765df43cc"))
+		(pin "E0"
+			(uuid "b60804b8-9d60-5c37-8b67-8c2cf7de31c3"))
+		(pin "E1"
+			(uuid "d7c6d610-845e-5865-b93d-f8aff4b1cadb"))
+		(pin "E2"
+			(uuid "cf7d160e-6c59-511a-92a3-975b4d29b82b"))
+		(pin "E3"
+			(uuid "c2cee297-8e93-5af9-8d20-9d675310a26c"))
+		(pin "E4"
+			(uuid "14bb6a9f-ac1d-5060-816c-b6dd58ba21c3"))
+		(pin "E5"
+			(uuid "96ceeab9-4ac6-5544-ab9e-422a6479a46f"))
+		(pin "E6"
+			(uuid "6e74c71d-4829-5b17-b6a7-eaf69d42204b"))
+		(pin "E7"
+			(uuid "633d1afa-1eff-5639-aaf4-cdfd9a1b3af0"))
+		(pin "E8"
+			(uuid "12045d5a-1ded-5ab9-b003-dcd3bf786bb8"))
+		(pin "E9"
+			(uuid "4324bd91-31aa-5d0b-bcdd-452fd73f479c"))
+		(pin "E10"
+			(uuid "86ad8ee0-fcf3-5d31-9696-620a4c899ea2"))
+		(pin "E11"
+			(uuid "aa8eaaba-1a26-5348-b69a-0126712d0151"))
+		(instances
+			(project "AIES_Video_Review_R1"
+				(path "/af3a030a-61ee-5194-9d87-d99edc3d4601/c7d96fa4-925a-5371-a91d-2ba3b3e6f5f9"
+					(reference "U3")
+					(unit 1)))))
+	(wire
+		(pts
+			(xy 184.15 83.82)
+			(xy 176.53 83.82))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "7b54a6a5-b0f9-5a4b-9f1b-8d1e37aec347"))
+	(label "TBD_U3_GND"
+		(at 176.53 83.82 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "bf97c83a-256c-557b-9c43-ae0b2551733d"))
+	(wire
+		(pts
+			(xy 184.15 91.44)
+			(xy 176.53 91.44))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "398c28ae-eab9-5c27-971e-670de019d9c4"))
+	(label "TBD_U3_ADDR"
+		(at 176.53 91.44 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "3e6c0d90-8e97-5e7f-9e82-d5259087619f"))
+	(wire
+		(pts
+			(xy 184.15 99.06)
+			(xy 176.53 99.06))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "e7c8fa2b-47ba-5c4c-b713-a0c71a15cbdd"))
+	(label "TBD_U3_SDA"
+		(at 176.53 99.06 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "34590a01-4a0b-5f6b-8297-860dec75705e"))
+	(wire
+		(pts
+			(xy 184.15 107.95)
+			(xy 176.53 107.95))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "4ced40bd-7d32-5cdf-9509-ccbe018a6bcf"))
+	(label "TBD_U3_SCL"
+		(at 176.53 107.95 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "a3f1bc91-8887-58e3-adb6-afe314acc3ed"))
+	(wire
+		(pts
+			(xy 184.15 115.57)
+			(xy 176.53 115.57))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "957bfbeb-b8bd-5f84-a07f-7bf68789484b"))
+	(label "TBD_U3_IRQ"
+		(at 176.53 115.57 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "8d7047ea-f69f-5290-8a97-58f844cae8fb"))
+	(wire
+		(pts
+			(xy 184.15 123.19)
+			(xy 176.53 123.19))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "ec6854c8-f1a6-5003-a626-bbd46e7f130f"))
+	(label "TBD_U3_V3V3"
+		(at 176.53 123.19 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "3e913617-6e1b-5d26-b527-f556372ae5c1"))
+	(wire
+		(pts
+			(xy 234.95000000000002 83.82)
+			(xy 242.57 83.82))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "af6298a8-8589-575a-8e72-48f65068170d"))
+	(label "TBD_U3_E0"
+		(at 242.57 83.82 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "7d197a04-4589-53dd-99ef-0bfc6b3ce3e4"))
+	(wire
+		(pts
+			(xy 234.95000000000002 87.63)
+			(xy 242.57 87.63))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "a5c95e90-0927-5ffa-83aa-a45b5363eb0a"))
+	(label "TBD_U3_E1"
+		(at 242.57 87.63 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "30348354-a7cd-5a58-81ed-573cef1ec63f"))
+	(wire
+		(pts
+			(xy 234.95000000000002 91.44)
+			(xy 242.57 91.44))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "c4524548-0fc2-52ff-9a93-4bb9cc4f451d"))
+	(label "TBD_U3_E2"
+		(at 242.57 91.44 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "c8b66965-3252-5330-9a32-84c2484ee361"))
+	(wire
+		(pts
+			(xy 234.95000000000002 95.25)
+			(xy 242.57 95.25))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "298db2e6-b4a4-5131-9434-f0ac2d5b6a44"))
+	(label "TBD_U3_E3"
+		(at 242.57 95.25 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "06677a2f-a30b-5ebf-bde6-2748e4a70944"))
+	(wire
+		(pts
+			(xy 234.95000000000002 99.06)
+			(xy 242.57 99.06))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "66253056-8fcb-5334-b2fe-2b57da20d456"))
+	(label "TBD_U3_E4"
+		(at 242.57 99.06 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "ab103ace-fc97-5d89-b594-8b88878e11a5"))
+	(wire
+		(pts
+			(xy 234.95000000000002 102.86999999999999)
+			(xy 242.57 102.86999999999999))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "6b70ccea-edbb-5c82-bc17-631abf6e30e6"))
+	(label "TBD_U3_E5"
+		(at 242.57 102.86999999999999 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "e65a053b-a033-5165-a101-acf4c1294c1d"))
+	(wire
+		(pts
+			(xy 234.95000000000002 107.95)
+			(xy 242.57 107.95))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "9b55f969-1868-5b01-9dd1-bc03561fd951"))
+	(label "TBD_U3_E6"
+		(at 242.57 107.95 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "bec5146c-3c83-5e8b-867c-08428a9dfa40"))
+	(wire
+		(pts
+			(xy 234.95000000000002 111.75999999999999)
+			(xy 242.57 111.75999999999999))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "2a3efe44-3996-53e9-a02d-4f3599422dc0"))
+	(label "TBD_U3_E7"
+		(at 242.57 111.75999999999999 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "ea6c2a73-f294-5569-9b7e-025c5e6f0d36"))
+	(wire
+		(pts
+			(xy 234.95000000000002 115.57)
+			(xy 242.57 115.57))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "680bed4b-e89b-55dd-82be-1879cc636813"))
+	(label "TBD_U3_E8"
+		(at 242.57 115.57 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "b02aee9e-ec0c-5b37-b71c-94adf3084f1c"))
+	(wire
+		(pts
+			(xy 234.95000000000002 119.38)
+			(xy 242.57 119.38))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "e3857c6c-c901-5159-a874-4934659cb7fb"))
+	(label "TBD_U3_E9"
+		(at 242.57 119.38 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "f4f123d7-464e-54f6-b18e-8baee734c205"))
+	(wire
+		(pts
+			(xy 234.95000000000002 123.19)
+			(xy 242.57 123.19))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "8ba2d237-2192-543d-b18e-37153c985d86"))
+	(label "TBD_U3_E10"
+		(at 242.57 123.19 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "c773d77c-8773-50fb-a41a-3a4a3ce69fbb"))
+	(wire
+		(pts
+			(xy 234.95000000000002 127.0)
+			(xy 242.57 127.0))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "9ace9f35-3779-5d20-96e8-af9889d720ed"))
+	(label "TBD_U3_E11"
+		(at 242.57 127.0 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "4b8d4f25-980d-55fb-8962-132685e11ed2"))
+	(symbol
+		(lib_id "AIES_Observed:HW017_Observed")
+		(at 350.52 105.41 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "41702590-1ce0-5b9b-923c-b59c5bb4e56e")
+		(property "Reference" "U4"
+			(at 350.52 69.19999999999999 0)
+			(effects
+				(font
+					(size 1.4 1.4) bold)))
+		(property "Value" "HW-017 / MPR121 tipi — görüntüde alt"
+			(at 350.52 73.19999999999999 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Footprint" ""
+			(at 350.52 105.41 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 350.52 105.41 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Description" "V 01:37.280 / 01:39.307: HW-017 PCB / Electrodes-LEDs yazısı ve kontrol terminal isimleri. MPR121 IC üst kodu okunamadı."
+			(at 350.52 105.41 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Evidence" "V 01:37.280 / 01:39.307: HW-017 PCB / Electrodes-LEDs yazısı ve kontrol terminal isimleri. MPR121 IC üst kodu okunamadı."
+			(at 350.52 105.41 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Pin_ID_Convention" "Logical label only; physical pad numbering and footprint NOT assigned"
+			(at 350.52 105.41 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(pin "GND"
+			(uuid "173cdb2f-1520-5a9f-91ef-bd8f5b54ac78"))
+		(pin "ADDR"
+			(uuid "bb677ab8-e216-590c-a173-95625a6ebb0c"))
+		(pin "SDA"
+			(uuid "4e441f16-e607-552a-970f-c562b37561a9"))
+		(pin "SCL"
+			(uuid "d5510905-f83a-506f-9397-5ab88d710d16"))
+		(pin "IRQ"
+			(uuid "60f6e502-9bb5-5408-906d-c9fa8243397c"))
+		(pin "V3V3"
+			(uuid "3ae20959-0694-5406-8934-2cb4e689bd8d"))
+		(pin "E0"
+			(uuid "fb0a7a7f-ae46-5343-be2e-14e43d0a51d2"))
+		(pin "E1"
+			(uuid "b5e5111d-c678-53da-aa26-ebe62e318e16"))
+		(pin "E2"
+			(uuid "94418354-e1b1-5140-b5ac-60ba2fbe1868"))
+		(pin "E3"
+			(uuid "94bdb72c-9416-5a19-9ed2-dd6a175a6b5a"))
+		(pin "E4"
+			(uuid "4120f814-0698-5769-9c53-924cb2925b93"))
+		(pin "E5"
+			(uuid "3592c437-7fb7-5bfe-aa79-a07629eebcb2"))
+		(pin "E6"
+			(uuid "03b6e85b-9cdb-5c8c-909f-f2d21bc301c2"))
+		(pin "E7"
+			(uuid "3913ea07-5b24-5deb-b4f9-077062fecb72"))
+		(pin "E8"
+			(uuid "a561b2e2-3191-50a5-9d63-a06dafa869c3"))
+		(pin "E9"
+			(uuid "ac4adc10-43f5-54ef-9c3d-fe2aed58f01e"))
+		(pin "E10"
+			(uuid "ddaf58ee-f150-5f8d-b61c-6cea2ba1c667"))
+		(pin "E11"
+			(uuid "8ba81e6d-45eb-58da-8e85-1ccae0dda88c"))
+		(instances
+			(project "AIES_Video_Review_R1"
+				(path "/af3a030a-61ee-5194-9d87-d99edc3d4601/c7d96fa4-925a-5371-a91d-2ba3b3e6f5f9"
+					(reference "U4")
+					(unit 1)))))
+	(wire
+		(pts
+			(xy 325.12 83.82)
+			(xy 317.5 83.82))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "fdb820ca-bdf7-580d-a478-e20f1039d388"))
+	(label "TBD_U4_GND"
+		(at 317.5 83.82 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "1e4afc22-2f6a-5c21-9be2-cf20796c63c8"))
+	(wire
+		(pts
+			(xy 325.12 91.44)
+			(xy 317.5 91.44))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "02336e88-b5e7-58cc-9810-61c6619c6856"))
+	(label "TBD_U4_ADDR"
+		(at 317.5 91.44 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "ef133419-78d9-5ca5-9b13-417178b19671"))
+	(wire
+		(pts
+			(xy 325.12 99.06)
+			(xy 317.5 99.06))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "54273406-7bce-5c3a-a531-6a150d688611"))
+	(label "TBD_U4_SDA"
+		(at 317.5 99.06 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "caa708ea-0561-5d87-a218-88977cb9e216"))
+	(wire
+		(pts
+			(xy 325.12 107.95)
+			(xy 317.5 107.95))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "a02b6ab8-f7a8-52a0-96a6-167bf1bb337d"))
+	(label "TBD_U4_SCL"
+		(at 317.5 107.95 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "7667c62f-65f6-5269-a360-0a11c3308582"))
+	(wire
+		(pts
+			(xy 325.12 115.57)
+			(xy 317.5 115.57))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "6991afce-967e-50f5-8a5b-1455cb053e1c"))
+	(label "TBD_U4_IRQ"
+		(at 317.5 115.57 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "bcc11b16-45ab-5951-b85f-fd8abfaf728e"))
+	(wire
+		(pts
+			(xy 325.12 123.19)
+			(xy 317.5 123.19))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "d6d9093e-53c4-5ca1-98cc-95c436daeeb0"))
+	(label "TBD_U4_V3V3"
+		(at 317.5 123.19 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "a5f37961-df73-50d9-82e7-13aeae4aed44"))
+	(wire
+		(pts
+			(xy 375.91999999999996 83.82)
+			(xy 383.54 83.82))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "146e675c-683e-59ac-a4e4-267e70142bf7"))
+	(label "TBD_U4_E0"
+		(at 383.54 83.82 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "d799da30-00a0-534e-94e3-ae28338cd30f"))
+	(wire
+		(pts
+			(xy 375.91999999999996 87.63)
+			(xy 383.54 87.63))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "09025818-7ca5-5685-8987-a7298b92b255"))
+	(label "TBD_U4_E1"
+		(at 383.54 87.63 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "2d007b7a-dabb-55aa-b212-d27f60e8f3ed"))
+	(wire
+		(pts
+			(xy 375.91999999999996 91.44)
+			(xy 383.54 91.44))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "e7d8cf7d-7fbe-56f8-bcc5-73b7f9cd148f"))
+	(label "TBD_U4_E2"
+		(at 383.54 91.44 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "1ba46141-aa76-51cf-9e32-6ef907e1c5e2"))
+	(wire
+		(pts
+			(xy 375.91999999999996 95.25)
+			(xy 383.54 95.25))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "eeaa4b0b-b5df-5b8e-b834-26935fe1eb4f"))
+	(label "TBD_U4_E3"
+		(at 383.54 95.25 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "e99216b8-f775-5c9b-bb22-9e976fe952be"))
+	(wire
+		(pts
+			(xy 375.91999999999996 99.06)
+			(xy 383.54 99.06))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "af95f225-8f00-51f8-8253-d90519de2b96"))
+	(label "TBD_U4_E4"
+		(at 383.54 99.06 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "9d742cc4-523d-5627-a2a3-2fd95e952b63"))
+	(wire
+		(pts
+			(xy 375.91999999999996 102.86999999999999)
+			(xy 383.54 102.86999999999999))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "4fc83f3a-3e61-5f7a-9a80-3ed953518493"))
+	(label "TBD_U4_E5"
+		(at 383.54 102.86999999999999 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "84f06bc2-449a-54bf-8ab5-5faf848cfb92"))
+	(wire
+		(pts
+			(xy 375.91999999999996 107.95)
+			(xy 383.54 107.95))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "ea16f509-19ee-5fcb-a612-caa8cc03e6b5"))
+	(label "TBD_U4_E6"
+		(at 383.54 107.95 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "6b89c40b-255b-50a6-9e3f-c16c34a60432"))
+	(wire
+		(pts
+			(xy 375.91999999999996 111.75999999999999)
+			(xy 383.54 111.75999999999999))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "6805fefe-14d1-5b70-a2ca-186e53c73c48"))
+	(label "TBD_U4_E7"
+		(at 383.54 111.75999999999999 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "1d22f24e-84b9-53f9-bf12-6b76aebd29b4"))
+	(wire
+		(pts
+			(xy 375.91999999999996 115.57)
+			(xy 383.54 115.57))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "20517719-68f3-5e3a-8d01-6a9ba0b4db25"))
+	(label "TBD_U4_E8"
+		(at 383.54 115.57 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "2d8d734b-2653-5d9e-a183-ea159ae68c15"))
+	(wire
+		(pts
+			(xy 375.91999999999996 119.38)
+			(xy 383.54 119.38))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "e96e814e-5fb9-5fb7-a4ee-8a4a0d389d5d"))
+	(label "TBD_U4_E9"
+		(at 383.54 119.38 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "7f44cc98-323b-53c1-b59c-e56cde0c3fc6"))
+	(wire
+		(pts
+			(xy 375.91999999999996 123.19)
+			(xy 383.54 123.19))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "2f8901b3-081d-578c-a088-8ee06adb7990"))
+	(label "TBD_U4_E10"
+		(at 383.54 123.19 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "554e8adc-1360-5a42-adf3-14e9972069c7"))
+	(wire
+		(pts
+			(xy 375.91999999999996 127.0)
+			(xy 383.54 127.0))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "364a823a-e2f3-5d93-8c40-d1763f7de4b0"))
+	(label "TBD_U4_E11"
+		(at 383.54 127.0 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "d0709cd0-a060-54a1-bed6-8bf2707e64ac"))
+	(text "Görüntüde okunan kontrol isimleri: GND, ADDR, SDA, SCL, IRQ, 3.3V. Bu, 3.3 V uygulandığını ölçmez.\nE0..E11 modülün işlevsel elektrot terminal adlarıdır; gerçek elektrot sayısı / kalp bölgesi dağılımı tespit edilemedi.\nAlfanümerik pin kimlikleri fiziksel footprint pad numarası değildir; hiçbir footprint atanmadı."
+		(at 210 166 0)
+		(effects
+			(font
+				(size 1.55 1.55)))
+		(uuid "60af753e-a488-5c89-b7c8-5d73591cefe0"))
+	(text "U2: ADDR = BELİRSİZ • bağlı elektrotlar = BELİRSİZ • host SDA/SCL/IRQ GPIO = BELİRSİZ"
+		(at 210 190 0)
+		(effects
+			(font
+				(size 1.6 1.6)))
+		(uuid "b6591b31-5118-5e2f-9a6b-4c259bb3137f"))
+	(text "U3: ADDR = BELİRSİZ • bağlı elektrotlar = BELİRSİZ • host SDA/SCL/IRQ GPIO = BELİRSİZ"
+		(at 210 201 0)
+		(effects
+			(font
+				(size 1.6 1.6)))
+		(uuid "05b37e91-99f2-5978-a2c8-8945980f2241"))
+	(text "U4: ADDR = BELİRSİZ • bağlı elektrotlar = BELİRSİZ • host SDA/SCL/IRQ GPIO = BELİRSİZ"
+		(at 210 212 0)
+		(effects
+			(font
+				(size 1.6 1.6)))
+		(uuid "45e7e311-000c-56d8-9136-ccab7340ac1c"))
+	(text "Ortak I²C hattı beklenen mimaridir; videoda iki kablo ucunu aynı anda doğrulayamadığım için ortak net çizilmedi.\nÜç modül aynı bus üzerinde ise ayrı adresler gerekir. Pull-up sayısı/değeri/rail gerilimi henüz bilinmiyor.\nBilinmeyen uçlarda No Connect kullanılmadı. PWR_FLAG eklenmedi; besleme ERC açıkları raporda tutulur."
+		(at 210 240 0)
+		(effects
+			(font
+				(size 1.6 1.6)))
+		(uuid "5d6363d2-ae7d-5971-b99a-409a3bf0eed0"))
+	(embedded_fonts no))

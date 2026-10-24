@@ -1,0 +1,26 @@
+[
+  {
+    "reference_file_basename": "MPR121-Breakout-v13.sch",
+    "sha256": "34f6f4a225a372d6d9f885b7761b30e6003a0e55c128d755bee20577ee5856fa",
+    "checked_scope": "SparkFun reference schematic;3.3V and default0x5A only;not proof of HW017 wiring",
+    "full_source_code_in_delivery": false
+  },
+  {
+    "reference_file_basename": "Adafruit_MPR121.h",
+    "sha256": "db300b56350d692b5c2e7307af29e7938df0e7c7be0bfeff0abb7743e83f7f63",
+    "checked_scope": "Vendor default0x5A reference;not user firmware",
+    "full_source_code_in_delivery": false
+  },
+  {
+    "reference_file_basename": "adafruit_mpr121.py",
+    "sha256": "78a901a40326d7854d17c51786026e972e47509bddb10bbf23453cc3e1b23c38",
+    "checked_scope": "Vendor address-range documentation0x5A..0x5D;not user firmware",
+    "full_source_code_in_delivery": false
+  },
+  {
+    "reference_file_basename": "74xGxx.kicad_sym",
+    "sha256": "daa0c2b0ed7f39dd63833dac8721d621c97b12179b72d1157e7de7125ac08a8a",
+    "checked_scope": "Installed KiCad CAD base pin mapping;not TI datasheet",
+    "full_source_code_in_delivery": false
+  }
+]

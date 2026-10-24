@@ -1,0 +1,1389 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0de114b0-5369-5d64-a942-e8d3364f47b9")
+	(paper "A3")
+	(title_block
+		(title "AİES / 02 / Güç dağıtımı ve ESP32 — ÖNERİ")
+		(date "2026-10-24")
+		(rev "P1 / ÖNERİ")
+		(comment 1 "Mühendislik seçimi; videonun mevcut GPIO/kablo sırası olduğu iddia edilmez.")
+		(comment 2 "Footprint / exact modül varyantı ve güç limitleri doğrulama bekler; PCB yok."))
+	(lib_symbols
+		(symbol "AIES_Proposed:Supply_Connector"
+			(pin_names
+				(offset 0.7))
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "J"
+				(at 0 16.16 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "Regüle güç girişi"
+				(at 0 13.16 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" "Proposed external regulated 5V-class source, 4.8..5.0V required at modules; >=4A preliminary budget, not video source rating."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "Supply_Connector_0_1"
+				(rectangle
+					(start -12.7 10.16)
+					(end 12.7 -10.16)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type background)))
+				(text "4.8–5.0V"
+					(at 0 3.81 0)
+					(effects
+						(font
+							(size 1.4 1.4))))
+				(text "≥4A öneri"
+					(at 0 -3.81 0)
+					(effects
+						(font
+							(size 1.2 1.2)))))
+			(symbol "Supply_Connector_1_1"
+				(pin passive line
+					(at 17.78 5.08 180)
+					(length 5.08)
+					(name "+"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "PLUS"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin passive line
+					(at 17.78 -5.08 180)
+					(length 5.08)
+					(name "− / GND"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "RETURN"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))))
+		(symbol "AIES_Proposed:Fuse"
+			(pin_numbers
+				(hide yes))
+			(pin_names
+				(offset 0.7)
+				(hide yes))
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "F"
+				(at 0 7.27 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "Fuse"
+				(at 0 4.27 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "Fuse_0_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type background))))
+			(symbol "Fuse_1_1"
+				(pin passive line
+					(at -7.62 0.0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "1"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin passive line
+					(at 7.62 0.0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "2"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))))
+		(symbol "AIES_Proposed:Jumper"
+			(pin_numbers
+				(hide yes))
+			(pin_names
+				(offset 0.7)
+				(hide yes))
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "JP"
+				(at 0 7.27 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "Jumper"
+				(at 0 4.27 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "Jumper_0_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type background))))
+			(symbol "Jumper_1_1"
+				(pin passive line
+					(at -7.62 0.0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "1"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin passive line
+					(at 7.62 0.0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "2"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))))
+		(symbol "AIES_Proposed:ESP32_WROOM_DevKit_Profile"
+			(pin_names
+				(offset 0.7))
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "U"
+				(at 0 49.18 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "ESP32 WROOM tabanlı DevKit"
+				(at 0 46.18 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" "PROPOSAL ONLY: classic ESP32 WROOM DevKit profile, selected logical GPIO. Not ESP32-S3/C3 or WROVER pinout; no physical header footprint assigned."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "ESP32_WROOM_DevKit_Profile_0_1"
+				(rectangle
+					(start -38.1 43.18)
+					(end 38.1 -43.18)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type background)))
+				(text "ESP32 / WROOM"
+					(at 0 16 0)
+					(effects
+						(font
+							(size 2 2))))
+				(text "ÖNERİ — fiziksel header sırası yok"
+					(at 0 7 0)
+					(effects
+						(font
+							(size 1.2 1.2))))
+				(text "Dahili 3.3V regülatörü kullanılır"
+					(at 0 -4 0)
+					(effects
+						(font
+							(size 1.3 1.3))))
+				(text "USB modu: JP101 AÇIK"
+					(at 0 -15 0)
+					(effects
+						(font
+							(size 1.4 1.4))))
+				(text "Yalnız USB çalışma desteklenmedi"
+					(at 0 -24 0)
+					(effects
+						(font
+							(size 1.2 1.2)))))
+			(symbol "ESP32_WROOM_DevKit_Profile_1_1"
+				(pin power_in line
+					(at -43.18 31.75 0)
+					(length 5.08)
+					(name "5V/VIN"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "VIN5"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin power_in line
+					(at -43.18 21.59 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "GND"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin power_out line
+					(at 43.18 31.75 180)
+					(length 5.08)
+					(name "3V3 OUT"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "3V3"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin bidirectional line
+					(at 43.18 21.59 180)
+					(length 5.08)
+					(name "GPIO21 SDA"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "GPIO21"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin bidirectional line
+					(at 43.18 13.97 180)
+					(length 5.08)
+					(name "GPIO22 SCL"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "GPIO22"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin output line
+					(at 43.18 6.35 180)
+					(length 5.08)
+					(name "GPIO18 LED"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "GPIO18"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin output line
+					(at 43.18 -1.27 180)
+					(length 5.08)
+					(name "GPIO17 TX"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "GPIO17"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin input line
+					(at 43.18 -8.89 180)
+					(length 5.08)
+					(name "GPIO16 RX"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "GPIO16"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin input line
+					(at 43.18 -16.51 180)
+					(length 5.08)
+					(name "GPIO27 IRQ_A"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "GPIO27"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin input line
+					(at 43.18 -24.13 180)
+					(length 5.08)
+					(name "GPIO26 IRQ_B"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "GPIO26"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin input line
+					(at 43.18 -31.75 180)
+					(length 5.08)
+					(name "GPIO25 IRQ_C"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "GPIO25"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))))
+		(symbol "AIES_Proposed:Power_Flag"
+			(pin_numbers
+				(hide yes))
+			(pin_names
+				(offset 0.7)
+				(hide yes))
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "#FLG"
+				(at 0 7.27 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "PWR_FLAG"
+				(at 0 4.27 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" "ERC source model for declared external supply after passive fuse/jumper, not extra physical protection."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "Power_Flag_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0)
+						(xy 1.27 1.27)
+						(xy 1.27 -1.27)
+						(xy -1.27 0))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none))))
+			(symbol "Power_Flag_1_1"
+				(pin power_out line
+					(at -6.35 0.0 0)
+					(length 5.08)
+					(name "power source"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "1"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))))
+		(symbol "AIES_Proposed:Power_Flag"
+			(pin_numbers
+				(hide yes))
+			(pin_names
+				(offset 0.7)
+				(hide yes))
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "#FLG"
+				(at 0 7.27 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "PWR_FLAG"
+				(at 0 4.27 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" "ERC source model for declared external supply after passive fuse/jumper, not extra physical protection."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "Power_Flag_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0)
+						(xy 1.27 1.27)
+						(xy 1.27 -1.27)
+						(xy -1.27 0))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none))))
+			(symbol "Power_Flag_1_1"
+				(pin power_out line
+					(at -6.35 0.0 0)
+					(length 5.08)
+					(name "power source"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "1"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))))
+		(symbol "AIES_Proposed:Power_Flag"
+			(pin_numbers
+				(hide yes))
+			(pin_names
+				(offset 0.7)
+				(hide yes))
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "#FLG"
+				(at 0 7.27 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "PWR_FLAG"
+				(at 0 4.27 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" "ERC source model for declared external supply after passive fuse/jumper, not extra physical protection."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "Power_Flag_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0)
+						(xy 1.27 1.27)
+						(xy 1.27 -1.27)
+						(xy -1.27 0))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none))))
+			(symbol "Power_Flag_1_1"
+				(pin power_out line
+					(at -6.35 0.0 0)
+					(length 5.08)
+					(name "power source"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "1"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes)))))))
+	(text "02 / Güç dağıtımı ve ESP32 — ÖNERİ"
+		(at 210 15 0)
+		(effects
+			(font
+				(size 3 3) bold))
+		(uuid "e6b650be-0da2-5761-ba1a-8efa66ae9c17"))
+	(text "ÖNERİ P1 • klasik ESP32-WROOM DevKit hedefi • tüm GPIO / adres / zincir seçimleri yeni tasarım kararıdır"
+		(at 210 25 0)
+		(effects
+			(font
+				(size 1.45 1.45)))
+		(uuid "5385e03f-621b-5ff6-85a0-bad1d4ddefbf"))
+	(symbol
+		(lib_id "AIES_Proposed:Supply_Connector")
+		(at 44.45 72.39 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "47a916b2-f711-59bd-bbbb-ac283db0db7f")
+		(property "Reference" "J101"
+			(at 44.45 55.230000000000004 0)
+			(effects
+				(font
+					(size 1.4 1.4) bold)))
+		(property "Value" "4.8–5.0V regüle / ≥4A ÖNERİ"
+			(at 44.45 59.230000000000004 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Footprint" ""
+			(at 44.45 72.39 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 44.45 72.39 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Description" "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."
+			(at 44.45 72.39 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Evidence" "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."
+			(at 44.45 72.39 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Pin_ID_Convention" "Logical label only; physical pad numbering and footprint NOT assigned"
+			(at 44.45 72.39 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(pin "PLUS"
+			(uuid "8757492b-18a5-5571-b432-86b381172bd9"))
+		(pin "RETURN"
+			(uuid "abba0bb3-dd7a-55b6-be0c-b390929d1970"))
+		(instances
+			(project "AIES_Oneri_P1"
+				(path "/00dbdf85-73b6-57ac-b4cd-52f9ae59bd07/7382400b-bb5b-5da5-9f42-d65126df457e"
+					(reference "J101")
+					(unit 1)))))
+	(wire
+		(pts
+			(xy 62.230000000000004 67.31)
+			(xy 69.85 67.31))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "6dfc7c81-52d5-53d1-816f-bbb3014e23ad"))
+	(global_label "SUPPLY_RAW"
+		(shape bidirectional)
+		(at 69.85 67.31 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "4468b90f-20d6-5232-8d02-3e69bea90f8d"))
+	(wire
+		(pts
+			(xy 62.230000000000004 77.47)
+			(xy 69.85 77.47))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "50d487aa-5edb-500d-8606-dbfe94d4f341"))
+	(global_label "GND"
+		(shape bidirectional)
+		(at 69.85 77.47 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "8b8f9a69-7fb9-51db-a4f7-243b94d8eb32"))
+	(symbol
+		(lib_id "AIES_Proposed:Fuse")
+		(at 119.38 64.77 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "9a6e080e-1ac8-5f56-9863-0264558de295")
+		(property "Reference" "F101"
+			(at 119.38 56.49999999999999 0)
+			(effects
+				(font
+					(size 1.4 1.4) bold)))
+		(property "Value" "3.15A gecikmeli / değer ön bütçe"
+			(at 119.38 60.49999999999999 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Footprint" ""
+			(at 119.38 64.77 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 119.38 64.77 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Description" "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."
+			(at 119.38 64.77 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Evidence" "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."
+			(at 119.38 64.77 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Pin_ID_Convention" "Logical label only; physical pad numbering and footprint NOT assigned"
+			(at 119.38 64.77 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(pin "1"
+			(uuid "8cebc268-9631-508b-8a53-869cea0262b0"))
+		(pin "2"
+			(uuid "0a1a0b67-3061-53a4-b8fc-d1925acaa192"))
+		(instances
+			(project "AIES_Oneri_P1"
+				(path "/00dbdf85-73b6-57ac-b4cd-52f9ae59bd07/7382400b-bb5b-5da5-9f42-d65126df457e"
+					(reference "F101")
+					(unit 1)))))
+	(wire
+		(pts
+			(xy 111.75999999999999 64.77)
+			(xy 104.14 64.77))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "ca4f75f3-fb60-5c81-a70a-9328495fcc3b"))
+	(global_label "SUPPLY_RAW"
+		(shape bidirectional)
+		(at 104.14 64.77 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "d3cf7981-26a5-57e5-b051-7cd0fbb59819"))
+	(wire
+		(pts
+			(xy 127.0 64.77)
+			(xy 134.62 64.77))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "065d73ac-5736-5346-b4f2-79f202eef237"))
+	(global_label "SYS_5V"
+		(shape bidirectional)
+		(at 134.62 64.77 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "4392f9fb-efcc-5668-be05-65e0671dc218"))
+	(symbol
+		(lib_id "AIES_Proposed:Jumper")
+		(at 190.5 64.77 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "cdd3c1de-0ab6-59cf-a21e-9e5f78c6d4af")
+		(property "Reference" "JP101"
+			(at 190.5 56.49999999999999 0)
+			(effects
+				(font
+					(size 1.4 1.4) bold)))
+		(property "Value" "USB takılıyken AÇ"
+			(at 190.5 60.49999999999999 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Footprint" ""
+			(at 190.5 64.77 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 190.5 64.77 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Description" "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."
+			(at 190.5 64.77 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Evidence" "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."
+			(at 190.5 64.77 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Pin_ID_Convention" "Logical label only; physical pad numbering and footprint NOT assigned"
+			(at 190.5 64.77 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(pin "1"
+			(uuid "bcaa885b-53b3-552b-adad-ecb9d7d8e4f0"))
+		(pin "2"
+			(uuid "444af490-3544-5715-a5bd-a3faf1eb254e"))
+		(instances
+			(project "AIES_Oneri_P1"
+				(path "/00dbdf85-73b6-57ac-b4cd-52f9ae59bd07/7382400b-bb5b-5da5-9f42-d65126df457e"
+					(reference "JP101")
+					(unit 1)))))
+	(wire
+		(pts
+			(xy 182.88 64.77)
+			(xy 175.26 64.77))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "d7c818c1-a0db-52c1-90e3-b86cb7cd661b"))
+	(global_label "SYS_5V"
+		(shape bidirectional)
+		(at 175.26 64.77 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "58bf3277-982b-5e90-9843-2af2803a396f"))
+	(wire
+		(pts
+			(xy 198.12 64.77)
+			(xy 205.74 64.77))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "8cad6ddd-a580-584e-b23d-32d724c6fa3d"))
+	(global_label "DEVKIT_5V"
+		(shape bidirectional)
+		(at 205.74 64.77 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "09899494-8a50-5fa5-b7e1-172312dbefed"))
+	(symbol
+		(lib_id "AIES_Proposed:ESP32_WROOM_DevKit_Profile")
+		(at 294.64 123.19 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "2b7e7728-87b2-5319-8fb7-e20eccedd02d")
+		(property "Reference" "U101"
+			(at 294.64 73.00999999999999 0)
+			(effects
+				(font
+					(size 1.4 1.4) bold)))
+		(property "Value" "ESP32 WROOM DevKit / profil"
+			(at 294.64 77.00999999999999 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Footprint" ""
+			(at 294.64 123.19 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 294.64 123.19 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Description" "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."
+			(at 294.64 123.19 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Evidence" "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."
+			(at 294.64 123.19 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Pin_ID_Convention" "Logical label only; physical pad numbering and footprint NOT assigned"
+			(at 294.64 123.19 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(pin "VIN5"
+			(uuid "bab150ea-e2e6-56e2-9011-9ba141149118"))
+		(pin "GND"
+			(uuid "635baf71-c263-5d33-a191-012b2694131c"))
+		(pin "3V3"
+			(uuid "a064b412-1b75-56d9-94da-3d46f6295194"))
+		(pin "GPIO21"
+			(uuid "df4c2189-a613-5be4-9d35-edcc68f431fc"))
+		(pin "GPIO22"
+			(uuid "dab5a32a-a282-5661-b6e3-8a92350b987b"))
+		(pin "GPIO18"
+			(uuid "5430e334-2921-5d2d-9bf1-de5c1286368f"))
+		(pin "GPIO17"
+			(uuid "5e74dc23-4f63-5dec-94d9-d85ef265157e"))
+		(pin "GPIO16"
+			(uuid "4e5e4e6f-7995-5917-a18a-2747402465bb"))
+		(pin "GPIO27"
+			(uuid "a7a3acb1-c315-5dbc-9923-f6fe94413f02"))
+		(pin "GPIO26"
+			(uuid "ab7167e8-7e4f-5d09-bc39-915df67b2d4f"))
+		(pin "GPIO25"
+			(uuid "28d11754-3139-55e3-bf13-4edb11aaacef"))
+		(instances
+			(project "AIES_Oneri_P1"
+				(path "/00dbdf85-73b6-57ac-b4cd-52f9ae59bd07/7382400b-bb5b-5da5-9f42-d65126df457e"
+					(reference "U101")
+					(unit 1)))))
+	(wire
+		(pts
+			(xy 251.45999999999998 91.44)
+			(xy 243.84 91.44))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "1f639ade-c3ed-50dd-ba14-4c5a6127d965"))
+	(global_label "DEVKIT_5V"
+		(shape bidirectional)
+		(at 243.84 91.44 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "c9db34e0-4463-58f0-8f76-dc0b4a622410"))
+	(wire
+		(pts
+			(xy 251.45999999999998 101.6)
+			(xy 243.84 101.6))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "e5782667-9a8b-5112-b84f-848aff11f685"))
+	(global_label "GND"
+		(shape bidirectional)
+		(at 243.84 101.6 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "cd57a32a-1f50-58c3-9580-e1cd3d780c1f"))
+	(wire
+		(pts
+			(xy 337.82 91.44)
+			(xy 345.44 91.44))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "671d4e10-6f3b-5fea-ab2e-df6744a5a09a"))
+	(global_label "+3V3"
+		(shape bidirectional)
+		(at 345.44 91.44 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "434145e2-75e6-5a78-b266-d580d5d8c045"))
+	(wire
+		(pts
+			(xy 337.82 101.6)
+			(xy 345.44 101.6))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "c0ba4881-ca7f-5358-a960-cddbbe852f7c"))
+	(global_label "I2C_SDA"
+		(shape bidirectional)
+		(at 345.44 101.6 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "2615bc74-a1e1-5b01-b8a5-c7c8ee6b84cb"))
+	(wire
+		(pts
+			(xy 337.82 109.22)
+			(xy 345.44 109.22))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "e272a2ba-c673-5e5a-a0cc-e86ae992c890"))
+	(global_label "I2C_SCL"
+		(shape bidirectional)
+		(at 345.44 109.22 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "c312456d-be2e-527e-b4c3-bc80bbbd96f1"))
+	(wire
+		(pts
+			(xy 337.82 116.84)
+			(xy 345.44 116.84))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "bcb560ae-5336-5684-9f54-8687fb3b2637"))
+	(global_label "LED_GPIO18"
+		(shape bidirectional)
+		(at 345.44 116.84 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "dceaa46e-3f0e-5dee-915c-4c1ada7c08db"))
+	(wire
+		(pts
+			(xy 337.82 124.46)
+			(xy 345.44 124.46))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "3ec6f4c0-f9ae-5305-ba6f-0ee0703ec09f"))
+	(global_label "UART_TX17"
+		(shape bidirectional)
+		(at 345.44 124.46 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "afe00f3f-117e-5b49-8258-8cf64fe183d9"))
+	(wire
+		(pts
+			(xy 337.82 132.07999999999998)
+			(xy 345.44 132.07999999999998))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "d3eda023-6328-5396-ac0e-b3d01788120f"))
+	(global_label "UART_RX16"
+		(shape bidirectional)
+		(at 345.44 132.07999999999998 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "3f939dba-36f5-53ed-b528-a48aed9c0df3"))
+	(wire
+		(pts
+			(xy 337.82 139.7)
+			(xy 345.44 139.7))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "bfca8d31-1195-530a-a093-b1be9f5d5a92"))
+	(global_label "IRQ_A"
+		(shape bidirectional)
+		(at 345.44 139.7 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "8dc956b5-df29-5116-9dc0-ac5ab6977c03"))
+	(wire
+		(pts
+			(xy 337.82 147.32)
+			(xy 345.44 147.32))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "7f548072-531f-51bb-b132-49757fba8c2a"))
+	(global_label "IRQ_B"
+		(shape bidirectional)
+		(at 345.44 147.32 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "db0df16a-97a5-5fa4-86eb-942e8d2a98a1"))
+	(wire
+		(pts
+			(xy 337.82 154.94)
+			(xy 345.44 154.94))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "987c3db5-4a8a-5a92-9f2e-9fb1e242f981"))
+	(global_label "IRQ_C"
+		(shape bidirectional)
+		(at 345.44 154.94 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "4aa16d27-1a79-5a5b-881b-5775d47e2349"))
+	(symbol
+		(lib_id "AIES_Proposed:Power_Flag")
+		(at 95.25 107.95 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "351453b2-6024-5217-961f-42235493e768")
+		(property "Reference" "#FLG101"
+			(at 95.25 99.68 0)
+			(effects
+				(font
+					(size 1.4 1.4) bold)))
+		(property "Value" "PWR_FLAG"
+			(at 95.25 103.68 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Footprint" ""
+			(at 95.25 107.95 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 95.25 107.95 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Description" "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."
+			(at 95.25 107.95 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Evidence" "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."
+			(at 95.25 107.95 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Pin_ID_Convention" "Logical label only; physical pad numbering and footprint NOT assigned"
+			(at 95.25 107.95 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(pin "1"
+			(uuid "3ac50566-52eb-5d2a-81a3-32db20c53a47"))
+		(instances
+			(project "AIES_Oneri_P1"
+				(path "/00dbdf85-73b6-57ac-b4cd-52f9ae59bd07/7382400b-bb5b-5da5-9f42-d65126df457e"
+					(reference "#FLG101")
+					(unit 1)))))
+	(wire
+		(pts
+			(xy 88.9 107.95)
+			(xy 81.28 107.95))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "de1ffdb1-cbe4-5881-a2e8-457db9f57d5d"))
+	(global_label "SYS_5V"
+		(shape bidirectional)
+		(at 81.28 107.95 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "a31cdddb-8e8b-5f48-973f-c0c2eb2bb693"))
+	(symbol
+		(lib_id "AIES_Proposed:Power_Flag")
+		(at 180.34 107.95 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "48eaa296-d179-569f-9083-0fbcef484fbb")
+		(property "Reference" "#FLG102"
+			(at 180.34 99.68 0)
+			(effects
+				(font
+					(size 1.4 1.4) bold)))
+		(property "Value" "PWR_FLAG"
+			(at 180.34 103.68 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Footprint" ""
+			(at 180.34 107.95 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 180.34 107.95 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Description" "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."
+			(at 180.34 107.95 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Evidence" "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."
+			(at 180.34 107.95 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Pin_ID_Convention" "Logical label only; physical pad numbering and footprint NOT assigned"
+			(at 180.34 107.95 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(pin "1"
+			(uuid "4aa8297f-df7d-539e-94dd-fedbc4ed69de"))
+		(instances
+			(project "AIES_Oneri_P1"
+				(path "/00dbdf85-73b6-57ac-b4cd-52f9ae59bd07/7382400b-bb5b-5da5-9f42-d65126df457e"
+					(reference "#FLG102")
+					(unit 1)))))
+	(wire
+		(pts
+			(xy 173.99 107.95)
+			(xy 166.37 107.95))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "6232cc5c-8fa6-5e05-b2bf-c10064115792"))
+	(global_label "DEVKIT_5V"
+		(shape bidirectional)
+		(at 166.37 107.95 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "832c955d-e457-5eaa-a57d-e953215a955d"))
+	(symbol
+		(lib_id "AIES_Proposed:Power_Flag")
+		(at 95.25 144.78 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(uuid "f7e31200-1df3-501a-a3ee-f21f1620ac65")
+		(property "Reference" "#FLG103"
+			(at 95.25 136.51 0)
+			(effects
+				(font
+					(size 1.4 1.4) bold)))
+		(property "Value" "PWR_FLAG"
+			(at 95.25 140.51 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Footprint" ""
+			(at 95.25 144.78 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 95.25 144.78 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Description" "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."
+			(at 95.25 144.78 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Evidence" "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."
+			(at 95.25 144.78 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Pin_ID_Convention" "Logical label only; physical pad numbering and footprint NOT assigned"
+			(at 95.25 144.78 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(pin "1"
+			(uuid "839c9a3b-7f3f-50e5-bf11-b9bae4026862"))
+		(instances
+			(project "AIES_Oneri_P1"
+				(path "/00dbdf85-73b6-57ac-b4cd-52f9ae59bd07/7382400b-bb5b-5da5-9f42-d65126df457e"
+					(reference "#FLG103")
+					(unit 1)))))
+	(wire
+		(pts
+			(xy 88.9 144.78)
+			(xy 81.28 144.78))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "ce8f4939-1eb9-5264-8212-6ff7c6197224"))
+	(global_label "GND"
+		(shape bidirectional)
+		(at 81.28 144.78 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "86b190b7-cc86-5b9e-9c1a-01a062c31905"))
+	(text "F101 / JP101 yalnız öneri devresindedir; videoda bulunduğu söylenmez.\nPWR_FLAG harici kaynağı ve kapalı jumper / USB kaynak modunu modellemek içindir.\nSYS_5V ve DEVKIT_5V ayrı netlerdir; USB geri besleme testi atlanamaz."
+		(at 125 192 0)
+		(effects
+			(font
+				(size 1.6 1.6)))
+		(uuid "a820c6b8-a462-5c2c-ac82-894e4f60bcc1"))
+	(text "I²C: GPIO21/22 • LED: GPIO18 • UART: TX17/RX16 • ayrı IRQ: 27/26/25.\nBu atamalar klasik WROOM DevKit içindir. S3/C3 veya WROVER/PSRAM kartına aynı tablo uygulanmaz.\n3.3V ek yükü ve regülatör ısınması exact kartla doğrulanmalı; ayrı regülatör gereksiz yere tekrarlanmadı."
+		(at 210 232 0)
+		(effects
+			(font
+				(size 1.6 1.6)))
+		(uuid "50d71c5f-be07-5d26-95a6-9a694652fe3d"))
+	(text "Başlangıç güç bütçesi: LED 24×60mA=1.44A (varsayım) + ESP32 0.50A + ses 0.60A + diğer 0.10A = 2.64A.\n%25 pay → 3.30A; ≥4A kaynak önerildi. Bu değerler video donanımının ölçülmüş akımları değildir.\nModüllerde 4.8–5.0V hedef: ayarlı kaynakta 4.95V ±1% örneği (4.9005–4.9995V; kablo düşümü ≤0.10V). Exact tüm parça limitleri önce doğrulanmalı."
+		(at 210 256 0)
+		(effects
+			(font
+				(size 1.5 1.5)))
+		(uuid "219dddbc-d814-59ba-bb00-47e073f10cb6"))
+	(embedded_fonts no))

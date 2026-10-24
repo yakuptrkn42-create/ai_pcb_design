@@ -1,0 +1,665 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "806b6481-6fbe-5d49-a9b0-e1f484034094")
+	(paper "A3")
+	(title_block
+		(title "AİES / 02 / Güç dağıtımı, ESP32 ve görülen pasif gövdeler")
+		(date "2026-10-24")
+		(rev "R1 / İNCELEME")
+		(comment 1 "Video: 00:00–02:28.89; görünmeyen kablolar / GPIO / besleme uçları BELİRSİZ.")
+		(comment 2 "Footprint atanmadı; PCB/üretim için tamamlanmış tasarım değildir."))
+	(lib_symbols
+		(symbol "AIES_Observed:ESP32_Observed"
+			(pin_names
+				(offset 0.7))
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "U"
+				(at 0 30.13 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "ESP32 tipinde geliştirme kartı"
+				(at 0 27.13 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" "Observed at 00:12 and 00:34; exact board/SoC/GPIO pad mapping unreadable. No invented terminal numbers."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "ESP32_Observed_0_1"
+				(rectangle
+					(start -41.910000000000004 24.13)
+					(end 41.910000000000004 -24.13)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type background)))
+				(text "ESP32 tipinde kart"
+					(at 0 12 0)
+					(effects
+						(font
+							(size 2.0 2.0))))
+				(text "USB kablosu görünür"
+					(at 0 3 0)
+					(effects
+						(font
+							(size 1.5 1.5))))
+				(text "Kart varyantı / GPIO / güç pinleri"
+					(at 0 -7 0)
+					(effects
+						(font
+							(size 1.3 1.3))))
+				(text "BELİRSİZ — pin uydurulmadı"
+					(at 0 -14 0)
+					(effects
+						(font
+							(size 1.3 1.3)))))
+			(symbol "ESP32_Observed_1_1"))
+		(symbol "AIES_Observed:Two_Lead_Resistor_Observed"
+			(pin_names
+				(offset 0.7))
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "R"
+				(at 0 12.35 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "Direnç / değer TBD"
+				(at 0 9.35 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" "Off-module axial resistor visible at 00:34.45. Bands unreadable; endpoints untraced."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "Two_Lead_Resistor_Observed_0_1"
+				(rectangle
+					(start -15.24 6.35)
+					(end 15.24 -6.35)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type background)))
+				(text "R / TBD"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.4 1.4)))))
+			(symbol "Two_Lead_Resistor_Observed_1_1"
+				(pin passive line
+					(at -20.32 0.0 0)
+					(length 5.08)
+					(name "A"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "A"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin passive line
+					(at 20.32 0.0 180)
+					(length 5.08)
+					(name "B"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "B"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))))
+		(symbol "AIES_Observed:Two_Lead_Cap_Observed"
+			(pin_names
+				(offset 0.7))
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "C"
+				(at 0 13.620000000000001 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "Elektrolitik / C,V,polarite TBD"
+				(at 0 10.620000000000001 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" "Cylinder body visible; value, voltage rating and polarity/rail endpoints unreadable. A/B are observation identifiers, not verified polarity."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "Two_Lead_Cap_Observed_0_1"
+				(rectangle
+					(start -16.51 7.62)
+					(end 16.51 -7.62)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type background)))
+				(text "ELKO / TBD"
+					(at 0 2 0)
+					(effects
+						(font
+							(size 1.3 1.3))))
+				(text "+ / − teyit edilmedi"
+					(at 0 -3 0)
+					(effects
+						(font
+							(size 1.0 1.0)))))
+			(symbol "Two_Lead_Cap_Observed_1_1"
+				(pin passive line
+					(at -21.590000000000003 0.0 0)
+					(length 5.08)
+					(name "A (+?)"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "A"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin passive line
+					(at 21.590000000000003 0.0 180)
+					(length 5.08)
+					(name "B (-?)"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "B"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes)))))))
+	(text "02 / Güç dağıtımı, ESP32 ve görülen pasif gövdeler"
+		(at 210 15 0)
+		(effects
+			(font
+				(size 3 3) bold))
+		(uuid "59e3041f-c2ac-58af-a767-b19ab039dee9"))
+	(text "V = videoda görülen • TBD / BELİRSİZ = bağlantı doğrulanmadı • öneriler ayrı blok sayfalarında"
+		(at 210 25 0)
+		(effects
+			(font
+				(size 1.45 1.45)))
+		(uuid "5385e03f-621b-5ff6-85a0-bad1d4ddefbf"))
+	(symbol
+		(lib_id "AIES_Observed:ESP32_Observed")
+		(at 95.25 95.25 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "6894be54-e1d9-5209-b275-75ae3744cd58")
+		(property "Reference" "U1"
+			(at 95.25 64.12 0)
+			(effects
+				(font
+					(size 1.4 1.4) bold)))
+		(property "Value" "ESP32 tipinde kart / kesin varyant TBD"
+			(at 95.25 68.12 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Footprint" ""
+			(at 95.25 95.25 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 95.25 95.25 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Description" "V 00:12.16 / 00:34.453: USB kablosu ve RF kalkanı. GPIO / kart kodu okunamadı."
+			(at 95.25 95.25 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Evidence" "V 00:12.16 / 00:34.453: USB kablosu ve RF kalkanı. GPIO / kart kodu okunamadı."
+			(at 95.25 95.25 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Pin_ID_Convention" "Logical label only; physical pad numbering and footprint NOT assigned"
+			(at 95.25 95.25 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(instances
+			(project "AIES_Video_Review_R1"
+				(path "/af3a030a-61ee-5194-9d87-d99edc3d4601/d4fa223b-aa8c-505e-96d7-eca125df140b"
+					(reference "U1")
+					(unit 1)))))
+	(text "USB kablosu bağlı görünür; giriş gerilimi ve güç kaynağının akımı ölçülmedi.\nGeliştirme kartının VIN/USB/3V3 topolojisi belirlenmeden harici 5 V bağlanmadı."
+		(at 270 77 0)
+		(effects
+			(font
+				(size 1.7 1.7)))
+		(uuid "b2354c79-61a8-5ac3-a0ab-2c06dd0ec11b"))
+	(symbol
+		(lib_id "AIES_Observed:Two_Lead_Resistor_Observed")
+		(at 270.51 124.46000000000001 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "372c6239-24ef-56f3-8c40-56cf738b1f05")
+		(property "Reference" "R1"
+			(at 270.51 111.11000000000001 0)
+			(effects
+				(font
+					(size 1.4 1.4) bold)))
+		(property "Value" "Axial direnç / değer TBD"
+			(at 270.51 115.11000000000001 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Footprint" ""
+			(at 270.51 124.46000000000001 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 270.51 124.46000000000001 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Description" "V 00:34.453: modül dışı axial direnç gövdesi. Bant değeri ve iki uç belirsiz."
+			(at 270.51 124.46000000000001 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Evidence" "V 00:34.453: modül dışı axial direnç gövdesi. Bant değeri ve iki uç belirsiz."
+			(at 270.51 124.46000000000001 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Pin_ID_Convention" "Logical label only; physical pad numbering and footprint NOT assigned"
+			(at 270.51 124.46000000000001 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(pin "A"
+			(uuid "f517f03c-03da-50fe-94ae-8687b39770a4"))
+		(pin "B"
+			(uuid "d3556dc1-28fc-5319-b411-c4b0de056c18"))
+		(instances
+			(project "AIES_Video_Review_R1"
+				(path "/af3a030a-61ee-5194-9d87-d99edc3d4601/d4fa223b-aa8c-505e-96d7-eca125df140b"
+					(reference "R1")
+					(unit 1)))))
+	(wire
+		(pts
+			(xy 250.19 124.46000000000001)
+			(xy 242.57 124.46000000000001))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "3583ee0f-6a10-5a5e-a78d-aaeba2c7df45"))
+	(label "TBD_R1_A"
+		(at 242.57 124.46000000000001 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "54cddcec-135d-5f16-8740-0c832a770092"))
+	(wire
+		(pts
+			(xy 290.83 124.46000000000001)
+			(xy 298.45 124.46000000000001))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "523fdcbb-3e92-5fd1-9b0b-4755ef3a0998"))
+	(label "TBD_R1_B"
+		(at 298.45 124.46000000000001 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "0ff88696-5919-5b76-b2a9-64070b63e2ed"))
+	(symbol
+		(lib_id "AIES_Observed:Two_Lead_Cap_Observed")
+		(at 74.93 190.5 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "4cc10811-2917-521b-afe9-900a594a8bfe")
+		(property "Reference" "C1"
+			(at 74.93 175.88 0)
+			(effects
+				(font
+					(size 1.4 1.4) bold)))
+		(property "Value" "Elektrolitik / C ve V TBD"
+			(at 74.93 179.88 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Footprint" ""
+			(at 74.93 190.5 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 74.93 190.5 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Description" "V 00:10.133: ESP32 solundaki mor silindirik gövde. Değer/voltaj/polarite ve uçlar teyitsiz."
+			(at 74.93 190.5 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Evidence" "V 00:10.133: ESP32 solundaki mor silindirik gövde. Değer/voltaj/polarite ve uçlar teyitsiz."
+			(at 74.93 190.5 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Pin_ID_Convention" "Logical label only; physical pad numbering and footprint NOT assigned"
+			(at 74.93 190.5 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(pin "A"
+			(uuid "230b2ed3-d5c6-5f41-9d07-a6e3f5dac18a"))
+		(pin "B"
+			(uuid "16a0b800-f9a4-55ae-929b-fac81e4ff3a1"))
+		(instances
+			(project "AIES_Video_Review_R1"
+				(path "/af3a030a-61ee-5194-9d87-d99edc3d4601/d4fa223b-aa8c-505e-96d7-eca125df140b"
+					(reference "C1")
+					(unit 1)))))
+	(wire
+		(pts
+			(xy 53.34 190.5)
+			(xy 45.72 190.5))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "c43fcd32-c562-5709-b037-d027b6f5a5c1"))
+	(label "TBD_C1_A"
+		(at 45.72 190.5 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "f5d833e8-06e1-534a-b15a-80a9f2941894"))
+	(wire
+		(pts
+			(xy 96.52000000000001 190.5)
+			(xy 104.14 190.5))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "f7b30754-fdc3-5d7d-8d81-93dabbad17ee"))
+	(label "TBD_C1_B"
+		(at 104.14 190.5 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "8df6557e-3453-54b3-b6d3-ace37c6e145d"))
+	(symbol
+		(lib_id "AIES_Observed:Two_Lead_Cap_Observed")
+		(at 204.47 190.5 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "4d58b53a-26a3-5ed9-b9b6-d7355c017da4")
+		(property "Reference" "C2"
+			(at 204.47 175.88 0)
+			(effects
+				(font
+					(size 1.4 1.4) bold)))
+		(property "Value" "Elektrolitik / C ve V TBD"
+			(at 204.47 179.88 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Footprint" ""
+			(at 204.47 190.5 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 204.47 190.5 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Description" "V 00:10.133: microSD modülü yanındaki üst silindirik gövde. Değer/voltaj/polarite ve uçlar teyitsiz. Modül içi/dışı ayrımı teyitsiz; fiziksel BOMda çift sayma."
+			(at 204.47 190.5 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Evidence" "V 00:10.133: microSD modülü yanındaki üst silindirik gövde. Değer/voltaj/polarite ve uçlar teyitsiz. Modül içi/dışı ayrımı teyitsiz; fiziksel BOMda çift sayma."
+			(at 204.47 190.5 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Pin_ID_Convention" "Logical label only; physical pad numbering and footprint NOT assigned"
+			(at 204.47 190.5 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(pin "A"
+			(uuid "75482352-d25d-5c66-83d9-4d3479aac6b9"))
+		(pin "B"
+			(uuid "9d495769-38f5-5fc7-bc1c-2d0b25d5ba5a"))
+		(instances
+			(project "AIES_Video_Review_R1"
+				(path "/af3a030a-61ee-5194-9d87-d99edc3d4601/d4fa223b-aa8c-505e-96d7-eca125df140b"
+					(reference "C2")
+					(unit 1)))))
+	(wire
+		(pts
+			(xy 182.88 190.5)
+			(xy 175.26 190.5))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "fdcae293-14f3-5edc-9a45-a4612cb0d99d"))
+	(label "TBD_C2_A"
+		(at 175.26 190.5 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "13941957-ed5b-5817-ae3b-0cc6f43c3141"))
+	(wire
+		(pts
+			(xy 226.06 190.5)
+			(xy 233.68 190.5))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "d016075b-0307-5a84-a69c-4a1dacb7c7e9"))
+	(label "TBD_C2_B"
+		(at 233.68 190.5 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "cd9f8986-b9fe-57e7-8f07-57f13e877713"))
+	(symbol
+		(lib_id "AIES_Observed:Two_Lead_Cap_Observed")
+		(at 335.28000000000003 190.5 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "cf7c252a-3a30-50d5-a29e-ca87ce9ec1ae")
+		(property "Reference" "C3"
+			(at 335.28000000000003 175.88 0)
+			(effects
+				(font
+					(size 1.4 1.4) bold)))
+		(property "Value" "Elektrolitik / C ve V TBD"
+			(at 335.28000000000003 179.88 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Footprint" ""
+			(at 335.28000000000003 190.5 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 335.28000000000003 190.5 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Description" "V 00:10.133: microSD modülü yanındaki alt silindirik gövde. Değer/voltaj/polarite ve uçlar teyitsiz. Modül içi/dışı ayrımı teyitsiz; fiziksel BOMda çift sayma."
+			(at 335.28000000000003 190.5 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Evidence" "V 00:10.133: microSD modülü yanındaki alt silindirik gövde. Değer/voltaj/polarite ve uçlar teyitsiz. Modül içi/dışı ayrımı teyitsiz; fiziksel BOMda çift sayma."
+			(at 335.28000000000003 190.5 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Pin_ID_Convention" "Logical label only; physical pad numbering and footprint NOT assigned"
+			(at 335.28000000000003 190.5 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(pin "A"
+			(uuid "153a8976-7068-516e-bf0b-3479d3188380"))
+		(pin "B"
+			(uuid "7d09ef73-5944-54c5-ae0a-502398db5c53"))
+		(instances
+			(project "AIES_Video_Review_R1"
+				(path "/af3a030a-61ee-5194-9d87-d99edc3d4601/d4fa223b-aa8c-505e-96d7-eca125df140b"
+					(reference "C3")
+					(unit 1)))))
+	(wire
+		(pts
+			(xy 313.69000000000005 190.5)
+			(xy 306.07 190.5))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "8acacef0-ae0e-5d83-bc23-7971b7785620"))
+	(label "TBD_C3_A"
+		(at 306.07 190.5 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "693d6e67-1758-5e40-95af-de7a6bf265a0"))
+	(wire
+		(pts
+			(xy 356.87 190.5)
+			(xy 364.49 190.5))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "3d4aa958-bab7-587b-a834-8c58925b95d7"))
+	(label "TBD_C3_B"
+		(at 364.49 190.5 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "ddc7f46a-4714-5cd6-b0ed-e5e670f5f4b0"))
+	(text "Kondansatörler için + / − yönü bilinmediğinden A/B gözlem kimliği kullanıldı.\nBu gövdeler görülür; C2/C3 modül içindeyse ayrıca parça olarak sayılmaz. Rail bağlantıları bilinmiyor.\nSigorta, JP101, harici regülatör, batarya veya şarj devresi bu mevcut devre sayfasına EKLENMEDİ."
+		(at 210 235 0)
+		(effects
+			(font
+				(size 1.6 1.6)))
+		(uuid "ec1a9ab6-69da-5453-95dd-d582646cd940"))
+	(text "TBD_* etiketleri yalnızca tek terminale bağlı yerel taslak uçlarıdır. Birbirleriyle kısa devre edilmezler.\nBesleme yeterliliği, filtreleme, USB geri besleme ve regülatör termali henüz doğrulanmadı."
+		(at 210 255 0)
+		(effects
+			(font
+				(size 1.5 1.5)))
+		(uuid "a2cf368b-b22c-5a17-86b7-c7c2cc146cdd"))
+	(embedded_fonts no))

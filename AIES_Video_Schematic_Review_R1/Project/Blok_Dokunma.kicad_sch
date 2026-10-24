@@ -1,0 +1,289 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "216a5157-c9aa-5d4a-9ec4-da69258aace3")
+	(paper "A4" portrait)
+	(title_block
+		(title "AİES / G2 / Kullanıcının dokunma akışı")
+		(date "2026-10-24")
+		(rev "R1 / BLOK")
+		(comment 1 "Kaynak: kullanıcı blok görselleri; elektriksel bağlantı kanıtı değildir.")
+		(comment 2 "Elektriksel devre / PCB / üretim onayı değildir."))
+	(lib_symbols)
+	(text "06 / G2 / KULLANICININ DOKUNMA AKIŞI"
+		(at 105 16 0)
+		(effects
+			(font
+				(size 2.8 2.8) bold))
+		(uuid "caaf4698-a481-45e4-8626-27ac908ba979"))
+	(text "Kullanıcı görseli • kavramsal blok diyagram • elektriksel bağlantı değildir"
+		(at 105 26 0)
+		(effects
+			(font
+				(size 1.5 1.5)))
+		(uuid "e8a4e718-f1ca-407c-8c50-48bada5a28d1"))
+	(rectangle
+		(start 52 36)
+		(end 158 63)
+		(stroke
+			(width 0.28)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "fea5e5b8-8348-446d-a551-0bcb6d066a98"))
+	(text "Öğrenci bir bölgeye dokunur"
+		(at 105.0 44.1 0)
+		(effects
+			(font
+				(size 2.5 2.5) bold))
+		(uuid "7b00f3db-39c4-4951-b1b4-5e2d0da659d7"))
+	(text "Örnek: kalp modelindeki A bölgesi"
+		(at 105.0 54.36 0)
+		(effects
+			(font
+				(size 1.9 1.9)))
+		(uuid "50628155-8348-43a3-97a1-33d91faeaf4c"))
+	(polyline
+		(pts
+			(xy 105 63)
+			(xy 105 79))
+		(stroke
+			(width 0.3)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "f28145d1-900c-4fa3-87fd-2686607696a0"))
+	(polyline
+		(pts
+			(xy 105.734 77.3564)
+			(xy 105 79)
+			(xy 104.266 77.3564))
+		(stroke
+			(width 0.3)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "669f2652-420a-4317-aee0-de93634ba814"))
+	(rectangle
+		(start 52 79)
+		(end 158 106)
+		(stroke
+			(width 0.28)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "871e272d-7b69-49c4-ba3d-1f1499004033"))
+	(text "MPR121 dokunmayı algılar*"
+		(at 105.0 87.1 0)
+		(effects
+			(font
+				(size 2.5 2.5) bold))
+		(uuid "226950be-8b1e-4feb-b06c-5945df29302a"))
+	(text "Dokunulan elektrot bilgisini oluşturur"
+		(at 105.0 97.36 0)
+		(effects
+			(font
+				(size 1.9 1.9)))
+		(uuid "f654c4ff-100a-4aa2-b336-b3a04954d7b1"))
+	(polyline
+		(pts
+			(xy 105 106)
+			(xy 105 122))
+		(stroke
+			(width 0.3)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "ec521387-15e2-47eb-b6e0-49e5bbd72fc7"))
+	(polyline
+		(pts
+			(xy 105.734 120.3564)
+			(xy 105 122)
+			(xy 104.266 120.3564))
+		(stroke
+			(width 0.3)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "fd632ddb-447e-49ce-9b7d-9827aabe95e0"))
+	(rectangle
+		(start 52 122)
+		(end 158 150)
+		(stroke
+			(width 0.45)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "4d42c7ca-6f2f-4d48-b14c-8db99215224b"))
+	(text "ESP32 karşılığı seçer*"
+		(at 105.0 130.4 0)
+		(effects
+			(font
+				(size 2.5 2.5) bold))
+		(uuid "f28249a7-4f56-4544-92c4-f223357a405f"))
+	(text "Yazılımdaki bölge eşlemesine\nve çalışma moduna göre"
+		(at 105.0 141.04 0)
+		(effects
+			(font
+				(size 1.9 1.9)))
+		(uuid "4bb503ce-3c79-4fb6-bc3e-052cf4cd5f22"))
+	(polyline
+		(pts
+			(xy 105 150)
+			(xy 105 171))
+		(stroke
+			(width 0.3)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "ca553382-917e-4ddb-98cf-76cef2ad534d"))
+	(polyline
+		(pts
+			(xy 40 171)
+			(xy 170 171))
+		(stroke
+			(width 0.3)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "a32c05f4-3d5b-4f88-b4b1-b4f4d9f92ac7"))
+	(polyline
+		(pts
+			(xy 40 171)
+			(xy 40 187))
+		(stroke
+			(width 0.3)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "d18a408a-fbd2-4cc5-abc8-f2dabe1f45de"))
+	(polyline
+		(pts
+			(xy 40.734 185.3564)
+			(xy 40 187)
+			(xy 39.266 185.3564))
+		(stroke
+			(width 0.3)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "33566e29-c9a0-428d-b0c7-ed83fce9fd39"))
+	(polyline
+		(pts
+			(xy 105 171)
+			(xy 105 187))
+		(stroke
+			(width 0.3)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "31ba40d0-d65b-42c4-bd39-3b9cf526e78e"))
+	(polyline
+		(pts
+			(xy 105.734 185.3564)
+			(xy 105 187)
+			(xy 104.266 185.3564))
+		(stroke
+			(width 0.3)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "eb481046-bdfb-4b14-b108-622f5bfce315"))
+	(polyline
+		(pts
+			(xy 170 171)
+			(xy 170 187))
+		(stroke
+			(width 0.3)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "f8667a85-b882-42eb-9724-d769645a33be"))
+	(polyline
+		(pts
+			(xy 170.734 185.3564)
+			(xy 170 187)
+			(xy 169.266 185.3564))
+		(stroke
+			(width 0.3)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "8d6992ca-b06e-47d6-9b96-c5cbcdeb2cb9"))
+	(rectangle
+		(start 14 187)
+		(end 66 215)
+		(stroke
+			(width 0.28)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "2c8dd172-4aad-4a63-9e72-618f82bd33cf"))
+	(text "Işık"
+		(at 40.0 195.4 0)
+		(effects
+			(font
+				(size 2.5 2.5) bold))
+		(uuid "b37cff3d-ef9c-4762-bb00-5cf06da0a6a4"))
+	(text "İlgili LED\nyanar"
+		(at 40.0 206.04 0)
+		(effects
+			(font
+				(size 1.9 1.9)))
+		(uuid "c9b2b55d-64a8-491a-a972-b39f79c63f84"))
+	(rectangle
+		(start 78 187)
+		(end 132 215)
+		(stroke
+			(width 0.28)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "05b3d0bc-1663-4193-9426-8475030aa50f"))
+	(text "Ses"
+		(at 105.0 195.4 0)
+		(effects
+			(font
+				(size 2.5 2.5) bold))
+		(uuid "c12a48ca-c6ef-4f6d-ac50-413c9fc50d1a"))
+	(text "İlgili kayıt\nçalınır"
+		(at 105.0 206.04 0)
+		(effects
+			(font
+				(size 1.9 1.9)))
+		(uuid "10d07d80-f543-40cb-8271-df8e4924836f"))
+	(rectangle
+		(start 144 187)
+		(end 196 215)
+		(stroke
+			(width 0.28)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "2f893ee4-5c4d-4806-8725-82ad0c422921"))
+	(text "Ekran"
+		(at 170.0 195.4 0)
+		(effects
+			(font
+				(size 2.5 2.5) bold))
+		(uuid "98ced4f4-cb47-47e5-8c1c-3ffe3d37369b"))
+	(text "İlgili bilgi\ngösterilir"
+		(at 170.0 206.04 0)
+		(effects
+			(font
+				(size 1.9 1.9)))
+		(uuid "e9fecf3e-ebe6-4ab0-b73a-c147fc8dc72d"))
+	(text "Örnek akış: eğitim modu"
+		(at 105 230 0)
+		(effects
+			(font
+				(size 1.8 1.8) bold))
+		(uuid "b3937212-791a-4ee2-a304-42971fb3363e"))
+	(text "* Bu, kullanıcı görselindeki amaçlanan davranıştır.\nYazılım eşlemesi, GPIO ve veri aktarım yolu doğrulanmadı.\nElektriksel bağlantı veya çalışabilirlik kanıtı değildir."
+		(at 105 244 0)
+		(effects
+			(font
+				(size 1.55 1.55)))
+		(uuid "0920cded-2146-4820-a811-f2b541596fdb"))
+	(embedded_fonts no))

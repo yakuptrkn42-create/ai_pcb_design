@@ -1,0 +1,4 @@
+﻿Segment,Görsel konum referansı,Öneri indeksleri,Kaynak
+U401,Sol şerit,0..7,öneri;gerçek seri sıra teyitsiz
+U402,Orta şerit,8..15,öneri;gerçek seri sıra teyitsiz
+U403,Sağ şerit,16..23,öneri;gerçek seri sıra teyitsiz

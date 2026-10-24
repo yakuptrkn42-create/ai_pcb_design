@@ -1,0 +1,45 @@
+{
+  "KiCad": "9.0.2",
+  "jobs": [
+    {
+      "project": "Observed",
+      "output": "Verification/ERC_Observed.json",
+      "returncode": 0
+    },
+    {
+      "project": "Observed",
+      "output": "Verification/ERC_Observed.txt",
+      "returncode": 0
+    },
+    {
+      "project": "Observed",
+      "output": "Verification/Observed_Netlist.xml",
+      "returncode": 0
+    },
+    {
+      "project": "Observed",
+      "output": "PDF/AIES_Video_Review_R1.pdf",
+      "returncode": 0
+    },
+    {
+      "project": "Proposal",
+      "output": "Verification/ERC_Proposal.json",
+      "returncode": 0
+    },
+    {
+      "project": "Proposal",
+      "output": "Verification/ERC_Proposal.txt",
+      "returncode": 0
+    },
+    {
+      "project": "Proposal",
+      "output": "Verification/Proposal_Netlist.xml",
+      "returncode": 0
+    },
+    {
+      "project": "Proposal",
+      "output": "PDF/AIES_Oneri_P1.pdf",
+      "returncode": 0
+    }
+  ]
+}

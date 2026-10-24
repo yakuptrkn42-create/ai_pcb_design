@@ -1,0 +1,1378 @@
+{
+  "pins": [
+    {
+      "reference": "J101",
+      "logical_pin": "PLUS",
+      "net": "SUPPLY_RAW"
+    },
+    {
+      "reference": "J101",
+      "logical_pin": "RETURN",
+      "net": "GND"
+    },
+    {
+      "reference": "F101",
+      "logical_pin": "1",
+      "net": "SUPPLY_RAW"
+    },
+    {
+      "reference": "F101",
+      "logical_pin": "2",
+      "net": "SYS_5V"
+    },
+    {
+      "reference": "JP101",
+      "logical_pin": "1",
+      "net": "SYS_5V"
+    },
+    {
+      "reference": "JP101",
+      "logical_pin": "2",
+      "net": "DEVKIT_5V"
+    },
+    {
+      "reference": "U101",
+      "logical_pin": "VIN5",
+      "net": "DEVKIT_5V"
+    },
+    {
+      "reference": "U101",
+      "logical_pin": "GND",
+      "net": "GND"
+    },
+    {
+      "reference": "U101",
+      "logical_pin": "3V3",
+      "net": "+3V3"
+    },
+    {
+      "reference": "U101",
+      "logical_pin": "GPIO21",
+      "net": "I2C_SDA"
+    },
+    {
+      "reference": "U101",
+      "logical_pin": "GPIO22",
+      "net": "I2C_SCL"
+    },
+    {
+      "reference": "U101",
+      "logical_pin": "GPIO18",
+      "net": "LED_GPIO18"
+    },
+    {
+      "reference": "U101",
+      "logical_pin": "GPIO17",
+      "net": "UART_TX17"
+    },
+    {
+      "reference": "U101",
+      "logical_pin": "GPIO16",
+      "net": "UART_RX16"
+    },
+    {
+      "reference": "U101",
+      "logical_pin": "GPIO27",
+      "net": "IRQ_A"
+    },
+    {
+      "reference": "U101",
+      "logical_pin": "GPIO26",
+      "net": "IRQ_B"
+    },
+    {
+      "reference": "U101",
+      "logical_pin": "GPIO25",
+      "net": "IRQ_C"
+    },
+    {
+      "reference": "#FLG101",
+      "logical_pin": "1",
+      "net": "SYS_5V"
+    },
+    {
+      "reference": "#FLG102",
+      "logical_pin": "1",
+      "net": "DEVKIT_5V"
+    },
+    {
+      "reference": "#FLG103",
+      "logical_pin": "1",
+      "net": "GND"
+    },
+    {
+      "reference": "U201",
+      "logical_pin": "V3V3",
+      "net": "+3V3"
+    },
+    {
+      "reference": "U201",
+      "logical_pin": "GND",
+      "net": "GND"
+    },
+    {
+      "reference": "U201",
+      "logical_pin": "SDA",
+      "net": "I2C_SDA"
+    },
+    {
+      "reference": "U201",
+      "logical_pin": "SCL",
+      "net": "I2C_SCL"
+    },
+    {
+      "reference": "U201",
+      "logical_pin": "IRQ",
+      "net": "IRQ_A"
+    },
+    {
+      "reference": "U201",
+      "logical_pin": "ADDR",
+      "net": "GND"
+    },
+    {
+      "reference": "U201",
+      "logical_pin": "E0",
+      "net": "ELEC_A00"
+    },
+    {
+      "reference": "U201",
+      "logical_pin": "E1",
+      "net": "ELEC_A01"
+    },
+    {
+      "reference": "U201",
+      "logical_pin": "E2",
+      "net": "ELEC_A02"
+    },
+    {
+      "reference": "U201",
+      "logical_pin": "E3",
+      "net": "ELEC_A03"
+    },
+    {
+      "reference": "U201",
+      "logical_pin": "E4",
+      "net": "ELEC_A04"
+    },
+    {
+      "reference": "U201",
+      "logical_pin": "E5",
+      "net": "ELEC_A05"
+    },
+    {
+      "reference": "U201",
+      "logical_pin": "E6",
+      "net": "ELEC_A06"
+    },
+    {
+      "reference": "U201",
+      "logical_pin": "E7",
+      "net": "ELEC_A07"
+    },
+    {
+      "reference": "U201",
+      "logical_pin": "E8",
+      "net": "ELEC_A08"
+    },
+    {
+      "reference": "U201",
+      "logical_pin": "E9",
+      "net": "ELEC_A09"
+    },
+    {
+      "reference": "U201",
+      "logical_pin": "E10",
+      "net": "ELEC_A10"
+    },
+    {
+      "reference": "U201",
+      "logical_pin": "E11",
+      "net": "ELEC_A11"
+    },
+    {
+      "reference": "J201",
+      "logical_pin": "E0",
+      "net": "ELEC_A00"
+    },
+    {
+      "reference": "J201",
+      "logical_pin": "E1",
+      "net": "ELEC_A01"
+    },
+    {
+      "reference": "J201",
+      "logical_pin": "E2",
+      "net": "ELEC_A02"
+    },
+    {
+      "reference": "J201",
+      "logical_pin": "E3",
+      "net": "ELEC_A03"
+    },
+    {
+      "reference": "J201",
+      "logical_pin": "E4",
+      "net": "ELEC_A04"
+    },
+    {
+      "reference": "J201",
+      "logical_pin": "E5",
+      "net": "ELEC_A05"
+    },
+    {
+      "reference": "J201",
+      "logical_pin": "E6",
+      "net": "ELEC_A06"
+    },
+    {
+      "reference": "J201",
+      "logical_pin": "E7",
+      "net": "ELEC_A07"
+    },
+    {
+      "reference": "J201",
+      "logical_pin": "E8",
+      "net": "ELEC_A08"
+    },
+    {
+      "reference": "J201",
+      "logical_pin": "E9",
+      "net": "ELEC_A09"
+    },
+    {
+      "reference": "J201",
+      "logical_pin": "E10",
+      "net": "ELEC_A10"
+    },
+    {
+      "reference": "J201",
+      "logical_pin": "E11",
+      "net": "ELEC_A11"
+    },
+    {
+      "reference": "U202",
+      "logical_pin": "V3V3",
+      "net": "+3V3"
+    },
+    {
+      "reference": "U202",
+      "logical_pin": "GND",
+      "net": "GND"
+    },
+    {
+      "reference": "U202",
+      "logical_pin": "SDA",
+      "net": "I2C_SDA"
+    },
+    {
+      "reference": "U202",
+      "logical_pin": "SCL",
+      "net": "I2C_SCL"
+    },
+    {
+      "reference": "U202",
+      "logical_pin": "IRQ",
+      "net": "IRQ_B"
+    },
+    {
+      "reference": "U202",
+      "logical_pin": "ADDR",
+      "net": "+3V3"
+    },
+    {
+      "reference": "U202",
+      "logical_pin": "E0",
+      "net": "ELEC_B00"
+    },
+    {
+      "reference": "U202",
+      "logical_pin": "E1",
+      "net": "ELEC_B01"
+    },
+    {
+      "reference": "U202",
+      "logical_pin": "E2",
+      "net": "ELEC_B02"
+    },
+    {
+      "reference": "U202",
+      "logical_pin": "E3",
+      "net": "ELEC_B03"
+    },
+    {
+      "reference": "U202",
+      "logical_pin": "E4",
+      "net": "ELEC_B04"
+    },
+    {
+      "reference": "U202",
+      "logical_pin": "E5",
+      "net": "ELEC_B05"
+    },
+    {
+      "reference": "U202",
+      "logical_pin": "E6",
+      "net": "ELEC_B06"
+    },
+    {
+      "reference": "U202",
+      "logical_pin": "E7",
+      "net": "ELEC_B07"
+    },
+    {
+      "reference": "U202",
+      "logical_pin": "E8",
+      "net": "ELEC_B08"
+    },
+    {
+      "reference": "U202",
+      "logical_pin": "E9",
+      "net": "ELEC_B09"
+    },
+    {
+      "reference": "U202",
+      "logical_pin": "E10",
+      "net": "ELEC_B10"
+    },
+    {
+      "reference": "U202",
+      "logical_pin": "E11",
+      "net": "ELEC_B11"
+    },
+    {
+      "reference": "J202",
+      "logical_pin": "E0",
+      "net": "ELEC_B00"
+    },
+    {
+      "reference": "J202",
+      "logical_pin": "E1",
+      "net": "ELEC_B01"
+    },
+    {
+      "reference": "J202",
+      "logical_pin": "E2",
+      "net": "ELEC_B02"
+    },
+    {
+      "reference": "J202",
+      "logical_pin": "E3",
+      "net": "ELEC_B03"
+    },
+    {
+      "reference": "J202",
+      "logical_pin": "E4",
+      "net": "ELEC_B04"
+    },
+    {
+      "reference": "J202",
+      "logical_pin": "E5",
+      "net": "ELEC_B05"
+    },
+    {
+      "reference": "J202",
+      "logical_pin": "E6",
+      "net": "ELEC_B06"
+    },
+    {
+      "reference": "J202",
+      "logical_pin": "E7",
+      "net": "ELEC_B07"
+    },
+    {
+      "reference": "J202",
+      "logical_pin": "E8",
+      "net": "ELEC_B08"
+    },
+    {
+      "reference": "J202",
+      "logical_pin": "E9",
+      "net": "ELEC_B09"
+    },
+    {
+      "reference": "J202",
+      "logical_pin": "E10",
+      "net": "ELEC_B10"
+    },
+    {
+      "reference": "J202",
+      "logical_pin": "E11",
+      "net": "ELEC_B11"
+    },
+    {
+      "reference": "U203",
+      "logical_pin": "V3V3",
+      "net": "+3V3"
+    },
+    {
+      "reference": "U203",
+      "logical_pin": "GND",
+      "net": "GND"
+    },
+    {
+      "reference": "U203",
+      "logical_pin": "SDA",
+      "net": "I2C_SDA"
+    },
+    {
+      "reference": "U203",
+      "logical_pin": "SCL",
+      "net": "I2C_SCL"
+    },
+    {
+      "reference": "U203",
+      "logical_pin": "IRQ",
+      "net": "IRQ_C"
+    },
+    {
+      "reference": "U203",
+      "logical_pin": "ADDR",
+      "net": "I2C_SDA"
+    },
+    {
+      "reference": "U203",
+      "logical_pin": "E0",
+      "net": "ELEC_C00"
+    },
+    {
+      "reference": "U203",
+      "logical_pin": "E1",
+      "net": "ELEC_C01"
+    },
+    {
+      "reference": "U203",
+      "logical_pin": "E2",
+      "net": "ELEC_C02"
+    },
+    {
+      "reference": "U203",
+      "logical_pin": "E3",
+      "net": "ELEC_C03"
+    },
+    {
+      "reference": "U203",
+      "logical_pin": "E4",
+      "net": "ELEC_C04"
+    },
+    {
+      "reference": "U203",
+      "logical_pin": "E5",
+      "net": "ELEC_C05"
+    },
+    {
+      "reference": "U203",
+      "logical_pin": "E6",
+      "net": "ELEC_C06"
+    },
+    {
+      "reference": "U203",
+      "logical_pin": "E7",
+      "net": "ELEC_C07"
+    },
+    {
+      "reference": "U203",
+      "logical_pin": "E8",
+      "net": "ELEC_C08"
+    },
+    {
+      "reference": "U203",
+      "logical_pin": "E9",
+      "net": "ELEC_C09"
+    },
+    {
+      "reference": "U203",
+      "logical_pin": "E10",
+      "net": "ELEC_C10"
+    },
+    {
+      "reference": "U203",
+      "logical_pin": "E11",
+      "net": "ELEC_C11"
+    },
+    {
+      "reference": "J203",
+      "logical_pin": "E0",
+      "net": "ELEC_C00"
+    },
+    {
+      "reference": "J203",
+      "logical_pin": "E1",
+      "net": "ELEC_C01"
+    },
+    {
+      "reference": "J203",
+      "logical_pin": "E2",
+      "net": "ELEC_C02"
+    },
+    {
+      "reference": "J203",
+      "logical_pin": "E3",
+      "net": "ELEC_C03"
+    },
+    {
+      "reference": "J203",
+      "logical_pin": "E4",
+      "net": "ELEC_C04"
+    },
+    {
+      "reference": "J203",
+      "logical_pin": "E5",
+      "net": "ELEC_C05"
+    },
+    {
+      "reference": "J203",
+      "logical_pin": "E6",
+      "net": "ELEC_C06"
+    },
+    {
+      "reference": "J203",
+      "logical_pin": "E7",
+      "net": "ELEC_C07"
+    },
+    {
+      "reference": "J203",
+      "logical_pin": "E8",
+      "net": "ELEC_C08"
+    },
+    {
+      "reference": "J203",
+      "logical_pin": "E9",
+      "net": "ELEC_C09"
+    },
+    {
+      "reference": "J203",
+      "logical_pin": "E10",
+      "net": "ELEC_C10"
+    },
+    {
+      "reference": "J203",
+      "logical_pin": "E11",
+      "net": "ELEC_C11"
+    },
+    {
+      "reference": "R201",
+      "logical_pin": "1",
+      "net": "+3V3"
+    },
+    {
+      "reference": "R201",
+      "logical_pin": "2",
+      "net": "I2C_SDA"
+    },
+    {
+      "reference": "R202",
+      "logical_pin": "1",
+      "net": "+3V3"
+    },
+    {
+      "reference": "R202",
+      "logical_pin": "2",
+      "net": "I2C_SCL"
+    },
+    {
+      "reference": "R203",
+      "logical_pin": "1",
+      "net": "+3V3"
+    },
+    {
+      "reference": "R203",
+      "logical_pin": "2",
+      "net": "IRQ_A"
+    },
+    {
+      "reference": "R204",
+      "logical_pin": "1",
+      "net": "+3V3"
+    },
+    {
+      "reference": "R204",
+      "logical_pin": "2",
+      "net": "IRQ_B"
+    },
+    {
+      "reference": "R205",
+      "logical_pin": "1",
+      "net": "+3V3"
+    },
+    {
+      "reference": "R205",
+      "logical_pin": "2",
+      "net": "IRQ_C"
+    },
+    {
+      "reference": "U301",
+      "logical_pin": "VCC",
+      "net": "+3V3"
+    },
+    {
+      "reference": "U301",
+      "logical_pin": "GND",
+      "net": "GND"
+    },
+    {
+      "reference": "U301",
+      "logical_pin": "SCL",
+      "net": "I2C_SCL"
+    },
+    {
+      "reference": "U301",
+      "logical_pin": "SDA",
+      "net": "I2C_SDA"
+    },
+    {
+      "reference": "U302",
+      "logical_pin": "VCC",
+      "net": "SYS_5V"
+    },
+    {
+      "reference": "U302",
+      "logical_pin": "GND",
+      "net": "GND"
+    },
+    {
+      "reference": "U302",
+      "logical_pin": "RX",
+      "net": "DF_RX"
+    },
+    {
+      "reference": "U302",
+      "logical_pin": "TX",
+      "net": "UART_RX16"
+    },
+    {
+      "reference": "U302",
+      "logical_pin": "SPK_A",
+      "net": "SPK_A"
+    },
+    {
+      "reference": "U302",
+      "logical_pin": "SPK_B",
+      "net": "SPK_B"
+    },
+    {
+      "reference": "LS301",
+      "logical_pin": "A",
+      "net": "SPK_A"
+    },
+    {
+      "reference": "LS301",
+      "logical_pin": "B",
+      "net": "SPK_B"
+    },
+    {
+      "reference": "R301",
+      "logical_pin": "1",
+      "net": "UART_TX17"
+    },
+    {
+      "reference": "R301",
+      "logical_pin": "2",
+      "net": "DF_RX"
+    },
+    {
+      "reference": "C102",
+      "logical_pin": "1",
+      "net": "SYS_5V"
+    },
+    {
+      "reference": "C102",
+      "logical_pin": "2",
+      "net": "GND"
+    },
+    {
+      "reference": "U303",
+      "logical_pin": "5",
+      "net": "SYS_5V"
+    },
+    {
+      "reference": "U303",
+      "logical_pin": "3",
+      "net": "GND"
+    },
+    {
+      "reference": "U303",
+      "logical_pin": "2",
+      "net": "LED_GPIO18"
+    },
+    {
+      "reference": "U303",
+      "logical_pin": "1",
+      "net": "GND"
+    },
+    {
+      "reference": "U303",
+      "logical_pin": "4",
+      "net": "LED_BUF"
+    },
+    {
+      "reference": "R302",
+      "logical_pin": "1",
+      "net": "LED_BUF"
+    },
+    {
+      "reference": "R302",
+      "logical_pin": "2",
+      "net": "LED_DIN1"
+    },
+    {
+      "reference": "R303",
+      "logical_pin": "1",
+      "net": "LED_GPIO18"
+    },
+    {
+      "reference": "R303",
+      "logical_pin": "2",
+      "net": "GND"
+    },
+    {
+      "reference": "U401",
+      "logical_pin": "VCC",
+      "net": "SYS_5V"
+    },
+    {
+      "reference": "U401",
+      "logical_pin": "GND",
+      "net": "GND"
+    },
+    {
+      "reference": "U401",
+      "logical_pin": "DIN",
+      "net": "LED_DIN1"
+    },
+    {
+      "reference": "U401",
+      "logical_pin": "DOUT",
+      "net": "LED_DIN2"
+    },
+    {
+      "reference": "U402",
+      "logical_pin": "VCC",
+      "net": "SYS_5V"
+    },
+    {
+      "reference": "U402",
+      "logical_pin": "GND",
+      "net": "GND"
+    },
+    {
+      "reference": "U402",
+      "logical_pin": "DIN",
+      "net": "LED_DIN2"
+    },
+    {
+      "reference": "U402",
+      "logical_pin": "DOUT",
+      "net": "LED_DIN3"
+    },
+    {
+      "reference": "U403",
+      "logical_pin": "VCC",
+      "net": "SYS_5V"
+    },
+    {
+      "reference": "U403",
+      "logical_pin": "GND",
+      "net": "GND"
+    },
+    {
+      "reference": "U403",
+      "logical_pin": "DIN",
+      "net": "LED_DIN3"
+    },
+    {
+      "reference": "C101",
+      "logical_pin": "1",
+      "net": "SYS_5V"
+    },
+    {
+      "reference": "C101",
+      "logical_pin": "2",
+      "net": "GND"
+    },
+    {
+      "reference": "C103",
+      "logical_pin": "1",
+      "net": "SYS_5V"
+    },
+    {
+      "reference": "C103",
+      "logical_pin": "2",
+      "net": "GND"
+    }
+  ],
+  "intentional_no_connects": [
+    [
+      "U403",
+      "DOUT"
+    ]
+  ],
+  "components": [
+    {
+      "reference": "J101",
+      "value": "4.8–5.0V regüle / ≥4A ÖNERİ",
+      "library_symbol": "AIES_Observed:Supply_Connector",
+      "evidence": "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.",
+      "pin_IDs": [
+        "PLUS",
+        "RETURN"
+      ],
+      "footprint": "",
+      "logical_only_not_physical_numbering": true,
+      "on_board": false,
+      "DNP": false,
+      "in_bom": true
+    },
+    {
+      "reference": "F101",
+      "value": "3.15A gecikmeli / değer ön bütçe",
+      "library_symbol": "AIES_Observed:Fuse",
+      "evidence": "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.",
+      "pin_IDs": [
+        "1",
+        "2"
+      ],
+      "footprint": "",
+      "logical_only_not_physical_numbering": true,
+      "on_board": false,
+      "DNP": false,
+      "in_bom": true
+    },
+    {
+      "reference": "JP101",
+      "value": "USB takılıyken AÇ",
+      "library_symbol": "AIES_Observed:Jumper",
+      "evidence": "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.",
+      "pin_IDs": [
+        "1",
+        "2"
+      ],
+      "footprint": "",
+      "logical_only_not_physical_numbering": true,
+      "on_board": false,
+      "DNP": false,
+      "in_bom": true
+    },
+    {
+      "reference": "U101",
+      "value": "ESP32 WROOM DevKit / profil",
+      "library_symbol": "AIES_Observed:ESP32_WROOM_DevKit_Profile",
+      "evidence": "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.",
+      "pin_IDs": [
+        "VIN5",
+        "GND",
+        "3V3",
+        "GPIO21",
+        "GPIO22",
+        "GPIO18",
+        "GPIO17",
+        "GPIO16",
+        "GPIO27",
+        "GPIO26",
+        "GPIO25"
+      ],
+      "footprint": "",
+      "logical_only_not_physical_numbering": true,
+      "on_board": false,
+      "DNP": false,
+      "in_bom": true
+    },
+    {
+      "reference": "#FLG101",
+      "value": "PWR_FLAG",
+      "library_symbol": "AIES_Observed:Power_Flag",
+      "evidence": "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.",
+      "pin_IDs": [
+        "1"
+      ],
+      "footprint": "",
+      "logical_only_not_physical_numbering": true,
+      "on_board": false,
+      "DNP": false,
+      "in_bom": false
+    },
+    {
+      "reference": "#FLG102",
+      "value": "PWR_FLAG",
+      "library_symbol": "AIES_Observed:Power_Flag",
+      "evidence": "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.",
+      "pin_IDs": [
+        "1"
+      ],
+      "footprint": "",
+      "logical_only_not_physical_numbering": true,
+      "on_board": false,
+      "DNP": false,
+      "in_bom": false
+    },
+    {
+      "reference": "#FLG103",
+      "value": "PWR_FLAG",
+      "library_symbol": "AIES_Observed:Power_Flag",
+      "evidence": "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.",
+      "pin_IDs": [
+        "1"
+      ],
+      "footprint": "",
+      "logical_only_not_physical_numbering": true,
+      "on_board": false,
+      "DNP": false,
+      "in_bom": false
+    },
+    {
+      "reference": "U201",
+      "value": "MPR121 / 0x5A ÖNERİ",
+      "library_symbol": "AIES_Observed:MPR121_Module_Profile",
+      "evidence": "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.",
+      "pin_IDs": [
+        "V3V3",
+        "GND",
+        "SDA",
+        "SCL",
+        "IRQ",
+        "ADDR",
+        "E0",
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11"
+      ],
+      "footprint": "",
+      "logical_only_not_physical_numbering": true,
+      "on_board": false,
+      "DNP": false,
+      "in_bom": true
+    },
+    {
+      "reference": "J201",
+      "value": "Elektrot A / 12 kanal kapasitesi",
+      "library_symbol": "AIES_Observed:Electrode_Interface_12",
+      "evidence": "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.",
+      "pin_IDs": [
+        "E0",
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11"
+      ],
+      "footprint": "",
+      "logical_only_not_physical_numbering": true,
+      "on_board": false,
+      "DNP": false,
+      "in_bom": false
+    },
+    {
+      "reference": "U202",
+      "value": "MPR121 / 0x5B ÖNERİ",
+      "library_symbol": "AIES_Observed:MPR121_Module_Profile",
+      "evidence": "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.",
+      "pin_IDs": [
+        "V3V3",
+        "GND",
+        "SDA",
+        "SCL",
+        "IRQ",
+        "ADDR",
+        "E0",
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11"
+      ],
+      "footprint": "",
+      "logical_only_not_physical_numbering": true,
+      "on_board": false,
+      "DNP": false,
+      "in_bom": true
+    },
+    {
+      "reference": "J202",
+      "value": "Elektrot B / 12 kanal kapasitesi",
+      "library_symbol": "AIES_Observed:Electrode_Interface_12",
+      "evidence": "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.",
+      "pin_IDs": [
+        "E0",
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11"
+      ],
+      "footprint": "",
+      "logical_only_not_physical_numbering": true,
+      "on_board": false,
+      "DNP": false,
+      "in_bom": false
+    },
+    {
+      "reference": "U203",
+      "value": "MPR121 / 0x5C ÖNERİ",
+      "library_symbol": "AIES_Observed:MPR121_Module_Profile",
+      "evidence": "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.",
+      "pin_IDs": [
+        "V3V3",
+        "GND",
+        "SDA",
+        "SCL",
+        "IRQ",
+        "ADDR",
+        "E0",
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11"
+      ],
+      "footprint": "",
+      "logical_only_not_physical_numbering": true,
+      "on_board": false,
+      "DNP": false,
+      "in_bom": true
+    },
+    {
+      "reference": "J203",
+      "value": "Elektrot C / 12 kanal kapasitesi",
+      "library_symbol": "AIES_Observed:Electrode_Interface_12",
+      "evidence": "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.",
+      "pin_IDs": [
+        "E0",
+        "E1",
+        "E2",
+        "E3",
+        "E4",
+        "E5",
+        "E6",
+        "E7",
+        "E8",
+        "E9",
+        "E10",
+        "E11"
+      ],
+      "footprint": "",
+      "logical_only_not_physical_numbering": true,
+      "on_board": false,
+      "DNP": false,
+      "in_bom": false
+    },
+    {
+      "reference": "R201",
+      "value": "4.7k / DNP — pull-up ölçümüne göre",
+      "library_symbol": "AIES_Observed:Resistor",
+      "evidence": "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.",
+      "pin_IDs": [
+        "1",
+        "2"
+      ],
+      "footprint": "",
+      "logical_only_not_physical_numbering": true,
+      "on_board": false,
+      "DNP": true,
+      "in_bom": true
+    },
+    {
+      "reference": "R202",
+      "value": "4.7k / DNP — pull-up ölçümüne göre",
+      "library_symbol": "AIES_Observed:Resistor",
+      "evidence": "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.",
+      "pin_IDs": [
+        "1",
+        "2"
+      ],
+      "footprint": "",
+      "logical_only_not_physical_numbering": true,
+      "on_board": false,
+      "DNP": true,
+      "in_bom": true
+    },
+    {
+      "reference": "R203",
+      "value": "10k / IRQ pull-up",
+      "library_symbol": "AIES_Observed:Resistor",
+      "evidence": "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.",
+      "pin_IDs": [
+        "1",
+        "2"
+      ],
+      "footprint": "",
+      "logical_only_not_physical_numbering": true,
+      "on_board": false,
+      "DNP": false,
+      "in_bom": true
+    },
+    {
+      "reference": "R204",
+      "value": "10k / IRQ pull-up",
+      "library_symbol": "AIES_Observed:Resistor",
+      "evidence": "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.",
+      "pin_IDs": [
+        "1",
+        "2"
+      ],
+      "footprint": "",
+      "logical_only_not_physical_numbering": true,
+      "on_board": false,
+      "DNP": false,
+      "in_bom": true
+    },
+    {
+      "reference": "R205",
+      "value": "10k / IRQ pull-up",
+      "library_symbol": "AIES_Observed:Resistor",
+      "evidence": "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.",
+      "pin_IDs": [
+        "1",
+        "2"
+      ],
+      "footprint": "",
+      "logical_only_not_physical_numbering": true,
+      "on_board": false,
+      "DNP": false,
+      "in_bom": true
+    },
+    {
+      "reference": "U301",
+      "value": "OLED I²C / 3.3V profili",
+      "library_symbol": "AIES_Observed:OLED_I2C_3V3_Profile",
+      "evidence": "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.",
+      "pin_IDs": [
+        "VCC",
+        "GND",
+        "SCL",
+        "SDA"
+      ],
+      "footprint": "",
+      "logical_only_not_physical_numbering": true,
+      "on_board": false,
+      "DNP": false,
+      "in_bom": true
+    },
+    {
+      "reference": "U302",
+      "value": "DFPlayer uyumlu / FN-M16P elektrik profili",
+      "library_symbol": "AIES_Observed:Serial_MP3_Profile",
+      "evidence": "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.",
+      "pin_IDs": [
+        "VCC",
+        "GND",
+        "RX",
+        "TX",
+        "SPK_A",
+        "SPK_B"
+      ],
+      "footprint": "",
+      "logical_only_not_physical_numbering": true,
+      "on_board": false,
+      "DNP": false,
+      "in_bom": true
+    },
+    {
+      "reference": "LS301",
+      "value": "8Ω / 3W — yeni yük önerisi",
+      "library_symbol": "AIES_Observed:Speaker_8ohm",
+      "evidence": "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.",
+      "pin_IDs": [
+        "A",
+        "B"
+      ],
+      "footprint": "",
+      "logical_only_not_physical_numbering": true,
+      "on_board": false,
+      "DNP": false,
+      "in_bom": true
+    },
+    {
+      "reference": "R301",
+      "value": "1k seri / UART TX",
+      "library_symbol": "AIES_Observed:Resistor",
+      "evidence": "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.",
+      "pin_IDs": [
+        "1",
+        "2"
+      ],
+      "footprint": "",
+      "logical_only_not_physical_numbering": true,
+      "on_board": false,
+      "DNP": false,
+      "in_bom": true
+    },
+    {
+      "reference": "C102",
+      "value": "470uF / 10V / ses yakını",
+      "library_symbol": "AIES_Observed:Capacitor_Polar",
+      "evidence": "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.",
+      "pin_IDs": [
+        "1",
+        "2"
+      ],
+      "footprint": "",
+      "logical_only_not_physical_numbering": true,
+      "on_board": false,
+      "DNP": false,
+      "in_bom": true
+    },
+    {
+      "reference": "U303",
+      "value": "SN74AHCT1G125DBVR / AHCT şart",
+      "library_symbol": "AIES_Observed:SN74AHCT1G125_DBV",
+      "evidence": "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.",
+      "pin_IDs": [
+        "5",
+        "3",
+        "2",
+        "1",
+        "4"
+      ],
+      "footprint": "",
+      "logical_only_not_physical_numbering": true,
+      "on_board": false,
+      "DNP": false,
+      "in_bom": true
+    },
+    {
+      "reference": "R302",
+      "value": "330Ω / LED veri",
+      "library_symbol": "AIES_Observed:Resistor",
+      "evidence": "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.",
+      "pin_IDs": [
+        "1",
+        "2"
+      ],
+      "footprint": "",
+      "logical_only_not_physical_numbering": true,
+      "on_board": false,
+      "DNP": false,
+      "in_bom": true
+    },
+    {
+      "reference": "R303",
+      "value": "100k / veri giriş pull-down",
+      "library_symbol": "AIES_Observed:Resistor",
+      "evidence": "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.",
+      "pin_IDs": [
+        "1",
+        "2"
+      ],
+      "footprint": "",
+      "logical_only_not_physical_numbering": true,
+      "on_board": false,
+      "DNP": false,
+      "in_bom": true
+    },
+    {
+      "reference": "U401",
+      "value": "8 LED / segment 1 ÖNERİ",
+      "library_symbol": "AIES_Observed:LED_8_5V_Profile",
+      "evidence": "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.",
+      "pin_IDs": [
+        "VCC",
+        "GND",
+        "DIN",
+        "DOUT"
+      ],
+      "footprint": "",
+      "logical_only_not_physical_numbering": true,
+      "on_board": false,
+      "DNP": false,
+      "in_bom": true
+    },
+    {
+      "reference": "U402",
+      "value": "8 LED / segment 2 ÖNERİ",
+      "library_symbol": "AIES_Observed:LED_8_5V_Profile",
+      "evidence": "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.",
+      "pin_IDs": [
+        "VCC",
+        "GND",
+        "DIN",
+        "DOUT"
+      ],
+      "footprint": "",
+      "logical_only_not_physical_numbering": true,
+      "on_board": false,
+      "DNP": false,
+      "in_bom": true
+    },
+    {
+      "reference": "U403",
+      "value": "8 LED / segment 3 ÖNERİ",
+      "library_symbol": "AIES_Observed:LED_8_5V_Profile",
+      "evidence": "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.",
+      "pin_IDs": [
+        "VCC",
+        "GND",
+        "DIN",
+        "DOUT"
+      ],
+      "footprint": "",
+      "logical_only_not_physical_numbering": true,
+      "on_board": false,
+      "DNP": false,
+      "in_bom": true
+    },
+    {
+      "reference": "C101",
+      "value": "1000uF / 10V / LED güç girişi",
+      "library_symbol": "AIES_Observed:Capacitor_Polar",
+      "evidence": "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.",
+      "pin_IDs": [
+        "1",
+        "2"
+      ],
+      "footprint": "",
+      "logical_only_not_physical_numbering": true,
+      "on_board": false,
+      "DNP": false,
+      "in_bom": true
+    },
+    {
+      "reference": "C103",
+      "value": "100nF / U303 VCC dibine",
+      "library_symbol": "AIES_Observed:Capacitor",
+      "evidence": "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir.",
+      "pin_IDs": [
+        "1",
+        "2"
+      ],
+      "footprint": "",
+      "logical_only_not_physical_numbering": true,
+      "on_board": false,
+      "DNP": false,
+      "in_bom": true
+    }
+  ],
+  "footprints_assigned": false,
+  "all_connections": "engineering proposal, not video-verified wiring"
+}

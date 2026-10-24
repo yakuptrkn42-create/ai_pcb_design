@@ -1,0 +1,9 @@
+﻿GPIO,Bağlı modül / işlevsel uç,Net,İşlev,Doğrulama kaynağı
+21,U201/U202/U203 SDA;U203 ADDR;U301 SDA,I2C_SDA,3.3V I²C veri,öneri
+22,U201/U202/U203 SCL;U301 SCL/SCK,I2C_SCL,I²C saat;başlangıç100kHz,öneri
+18,"U303 A, ardından R302→LED DIN1",LED_GPIO18,AHCT ile5V LED veri,öneri
+17,R3011k→U302RX,UART_TX17,ESP32 TX→ses RX;9600bps,öneri
+16,U302TX,UART_RX16,Ses TX→ESP32RX;3.3V TTL,öneri
+27,U201IRQ,IRQ_A,Sol modül IRQ;10k pull-up,öneri
+26,U202IRQ,IRQ_B,Sağ modül IRQ;10k pull-up,öneri
+25,U203IRQ,IRQ_C,Alt modül IRQ;10k pull-up,öneri

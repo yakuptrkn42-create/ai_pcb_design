@@ -1,0 +1,25 @@
+﻿ID,Parça / bağlantı,Küçük video zaman damgası,Gözlem / doğrulanan kapsam,Kesinlik durumu,Sınır / eksik bilgi
+V01,Breadboard prototip,00:00–00:12,"Kontrol kartı, kablo demeti ve breadboard üzerinde modüller görülür.",videoda doğrulandı,Gerçek kalp modeli / kalp elektrot bölgeleri bu klipte yok.
+V02,Kontrol kartı / USB kablosu,00:12.160;00:34.453,RF kalkanlı ESP32 tipinde geliştirme kartı ve takılı USB kablosu görünür.,videoda doğrulandı,"Tam SoC/kart varyantı, header sırası ve GPIO yazıları okunamadı."
+V03,Dokunma kartları / PCB işareti,00:26.347;01:37.280,Üç benzer kart; yakın görüntüde HW-017 ve Electrodes/LEDs yazıları okunur.,videoda doğrulandı,PCB kimliği IC üst yazısını doğrulamaz; MPR121 tipi tanımlaması önbilgi/arayüz benzerliği.
+V04,Ekran / 4 terminal,01:37.280,Mavi PCB üzerinde 4 uçlu küçük ekran ve yanan metin görülür.,videoda doğrulandı,"OLED kontrolcüsü/çözünürlük, iki veri etiketi, besleme ve I²C adresi kesin değil."
+V05,LED sayımı,00:42.560,Üç şeritte sekizer görünür LED gövdesi; toplam24.,videoda doğrulandı,"WS2812/SK6812/RGBW ayrımı, pad polaritesi ve elektriksel zincir sırası görünmüyor."
+V06,microSD yuvalı kart,00:34.453,Kontrol kartının yanında microSD soketli modül var.,videoda doğrulandı,DFPlayer benzeri olduğu önbilgi; kesin varyant ve UART/SPK pinleri teyit edilmedi.
+V07,Silindirik pasif gövdeler / axial direnç,00:10.133;00:34.453,Üç silindirik kondansatör tipi gövde ve modüller arası axial direnç gövdesi görülür.,videoda doğrulandı,Değer/voltaj/polarite ve C2/C3 gövdelerinin modül içi-dışı ayrımı teyitsiz; BOMda çift sayılmamalı.
+V08,Akustik nesneler,00:10.133,Oval akustik eleman ve yuvarlak siyah nesne görülür.,videoda doğrulandı,Yuvarlak nesne buzzer veya ikinci hoparlör diye atanmadı. Ω/W ve kablo uçları yok.
+V09,Görsel çalışma durumu,01:31–02:28,Ekran metni ve LED renklerinin değişmesi görülür.,videoda doğrulandı,Sesli açıklama dinlenmedi; bu görüntü tek başına GPIO eşlemesini veya protokolü kanıtlamaz.
+B01,ESP32 GPIO bağlantıları,00:34.453;01:37.280,Kablolar üst üste; tek bir modülden okunur GPIO adına iki uç birlikte takip edilemiyor.,belirsiz,Mevcut kayıtta GPIO atanmadı.
+B02,MPR121 adresleri / ortak bus / IRQ,01:37.280,Kontrol uç adları okunabilir; ADDR bağları ve SDA/SCL kablolarının karşı uçları örtülü.,belirsiz,Videodaki adres çakışması veya pull-up sayısı kontrol edilemedi.
+B03,Elektrot sayısı / dağılımı,00:54.720–01:17.013,Renkli kablolar kartlardan dışarı gider; son uçları / kalp bölgeleri görünmez.,belirsiz,36 takılı elektrot kabul edilmedi.
+B04,LED zinciri,00:42.560;02:03.627,Kablolar ve şerit uçları bantla örtülü.,belirsiz,L1→L2→L3 mevcut bağlantı olarak çizilmedi.
+B05,Telefon protokolü,01:19.040;02:21.866,Telefon kısmen görülür; bağlantı ekranı okunmuyor.,belirsiz,G1 Bluetooth yazısı Classic/BLE/Wi-Fi kanıtı değildir.
+B06,Güç / GND / kaynak kapasitesi,00:00–02:28.89,Voltaj/akım etiketi veya ölçüm yok; breadboard rayları ve kablo uçları örtülü.,belirsiz,Kablo rengi ortak GND/rail kanıtı sayılmadı.
+B07,Konuşma içeriği,00:00–02:28.89,Ses izi var; yerel ASR model indirmesi engellendi.,belirsiz,Konuşma deşifre edilmedi; Sunay Hoca adına alıntı oluşturulmadı.
+D01,Ses modülü elektrik profili,— belge,"Flyron FN-M16P kılavuzu:3.3V TTL UART,3.3–5.0V besleme,9600bps,iki hoparlör çıkışı.",dokümanla doğrulandı,"DFRobot vendor deposundaki belge, videodaki kartın bu model olduğunu kanıtlamaz."
+D02,MPR121 referans kartı,— belge,"SparkFun Eagle referansı:VDD3.3V,ADDR=0 için0x5A; Adafruit dokümanı adres aralığı0x5A–0x5D.",dokümanla doğrulandı,NXP birincil PDF erişimi403; HW-017 iç pull-up/ADDR bağı bu referansla eşit kabul edilmedi.
+D03,AHCT sembol pin kontrolü,— CAD referansı,KiCad74xGxx AHCT aliasının temel sembol pin eşlemesi kontrol edildi.,dokümanla doğrulandı,Bu TI datasheet elektriksel performans doğrulaması değildir; TI PDF erişimi403.
+O01,ESP32 GPIO seçimi,— öneri,"21SDA,22SCL,18LED,17TX,16RX,27/26/25 ayrı IRQ.",öneri,Klasik WROOM DevKit profili; videonun kablo eşlemesi değil.
+O02,I²C adres seçimi,— öneri,"U201:0x5A/GND,U202:0x5B/3.3V,U203:0x5C/SDA;OLED0x3C hedefi.",öneri,ADDR strap eşlemesi exact IC datasheet ve mevcut kartın default bağlarıyla teyit edilmeli.
+O03,LED sırası ve seviye,— öneri,GPIO18→AHCT1G125→330Ω→U401→U402→U403.,öneri,Üç segmentin gerçek sırası bilinmiyor; son DOUT öneride kasten kullanılmıyor.
+O04,Güç yaklaşımı,— öneri,"4.8–5.0V/≥4A ön bütçe,F101,JP101;3.3V DevKit regülatöründen.",öneri,Kaynak/ısı/kablo/USB geri besleme kabulü verilmedi; ayrı regülatör tekrar edilmedi.
+O05,Hoparlör / haberleşme,— öneri,8Ω3W yeni yük hedefi; telefon için BLE mod iletişimi önerisi.,öneri,Videodaki Ω/W ve telefon uygulaması/protokolü belirlenemedi.

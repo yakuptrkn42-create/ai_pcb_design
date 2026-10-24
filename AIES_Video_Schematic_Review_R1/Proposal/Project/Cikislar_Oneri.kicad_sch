@@ -1,0 +1,2701 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "131dc6ad-4b18-574a-8be8-97bd051fbd19")
+	(paper "A3")
+	(title_block
+		(title "AİES / 04 / OLED, seviye çevirici, LED ve ses — ÖNERİ")
+		(date "2026-10-24")
+		(rev "P1 / ÖNERİ")
+		(comment 1 "Mühendislik seçimi; videonun mevcut GPIO/kablo sırası olduğu iddia edilmez.")
+		(comment 2 "Footprint / exact modül varyantı ve güç limitleri doğrulama bekler; PCB yok."))
+	(lib_symbols
+		(symbol "AIES_Proposed:OLED_I2C_3V3_Profile"
+			(pin_names
+				(offset 0.7))
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "U"
+				(at 0 26.32 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "OLED I²C / 3.3V uyumlu"
+				(at 0 23.32 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" "PROPOSAL profile: 3.3V-compatible four-wire I2C OLED, SSD1306-type target, 0x3C proposed. Actual display type/address must be checked."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "OLED_I2C_3V3_Profile_0_1"
+				(rectangle
+					(start -27.94 20.32)
+					(end 27.94 -20.32)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type background)))
+				(text "OLED / I2C"
+					(at 0 7 0)
+					(effects
+						(font
+							(size 1.6 1.6))))
+				(text "3.3V uyumlu varyant şart"
+					(at 0 -1 0)
+					(effects
+						(font
+							(size 1.25 1.25))))
+				(text "0x3C öneri / teyit bekler"
+					(at 0 -9 0)
+					(effects
+						(font
+							(size 1.2 1.2)))))
+			(symbol "OLED_I2C_3V3_Profile_1_1"
+				(pin power_in line
+					(at -33.02 11.43 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "VCC"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin power_in line
+					(at -33.02 3.81 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "GND"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin input line
+					(at -33.02 -3.81 0)
+					(length 5.08)
+					(name "SCL (SCK)"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "SCL"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin bidirectional line
+					(at -33.02 -11.43 0)
+					(length 5.08)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "SDA"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))))
+		(symbol "AIES_Proposed:Serial_MP3_Profile"
+			(pin_names
+				(offset 0.7))
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "U"
+				(at 0 31.4 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "DFPlayer benzeri / 3.3V TTL UART"
+				(at 0 28.4 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" "PROPOSAL functional interface based on Flyron FN-M16P manual distributed by DFRobot. 3.3V TTL UART; 3.3..5V supply. Do not infer actual board pad numbering; speaker polarity table/diagram differs in manual."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "Serial_MP3_Profile_0_1"
+				(rectangle
+					(start -30.48 25.4)
+					(end 30.48 -25.4)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type background)))
+				(text "Seri MP3 / SD modülü"
+					(at 0 12 0)
+					(effects
+						(font
+							(size 1.5 1.5))))
+				(text "9600 bps / 3.3V TTL"
+					(at 0 3 0)
+					(effects
+						(font
+							(size 1.2 1.2))))
+				(text "SPK A/B GND değildir"
+					(at 0 -8 0)
+					(effects
+						(font
+							(size 1.2 1.2))))
+				(text "Pin kimlikleri işlevseldir"
+					(at 0 -16 0)
+					(effects
+						(font
+							(size 1.1 1.1)))))
+			(symbol "Serial_MP3_Profile_1_1"
+				(pin power_in line
+					(at -35.56 17.78 0)
+					(length 5.08)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "VCC"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin power_in line
+					(at -35.56 10.16 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "GND"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin input line
+					(at -35.56 2.54 0)
+					(length 5.08)
+					(name "RX"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "RX"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin output line
+					(at -35.56 -5.08 0)
+					(length 5.08)
+					(name "TX"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "TX"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin output line
+					(at 35.56 10.16 180)
+					(length 5.08)
+					(name "SPK A"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "SPK_A"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin output line
+					(at 35.56 -10.16 180)
+					(length 5.08)
+					(name "SPK B"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "SPK_B"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))))
+		(symbol "AIES_Proposed:Speaker_8ohm"
+			(pin_names
+				(offset 0.7))
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "LS"
+				(at 0 16.16 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "8Ω / 3W ÖNERİ"
+				(at 0 13.16 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" "New proposal load only. Video speaker impedance/rating unknown. Connect between two BTL output terminals, never to GND."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "Speaker_8ohm_0_1"
+				(rectangle
+					(start -12.7 10.16)
+					(end 12.7 -10.16)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type background)))
+				(text "8Ω / 3W"
+					(at 0 3.81 0)
+					(effects
+						(font
+							(size 1.4 1.4))))
+				(text "BTL yük"
+					(at 0 -3.81 0)
+					(effects
+						(font
+							(size 1.2 1.2)))))
+			(symbol "Speaker_8ohm_1_1"
+				(pin passive line
+					(at -17.78 5.08 0)
+					(length 5.08)
+					(name "A"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "A"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin passive line
+					(at -17.78 -5.08 0)
+					(length 5.08)
+					(name "B"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "B"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))))
+		(symbol "AIES_Proposed:Resistor"
+			(pin_numbers
+				(hide yes))
+			(pin_names
+				(offset 0.7)
+				(hide yes))
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "R"
+				(at 0 7.27 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "Resistor"
+				(at 0 4.27 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "Resistor_0_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type background))))
+			(symbol "Resistor_1_1"
+				(pin passive line
+					(at -7.62 0.0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "1"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin passive line
+					(at 7.62 0.0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "2"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))))
+		(symbol "AIES_Proposed:Capacitor_Polar"
+			(pin_numbers
+				(hide yes))
+			(pin_names
+				(offset 0.7)
+				(hide yes))
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "C"
+				(at 0 8.54 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "C"
+				(at 0 5.54 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "Capacitor_Polar_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -2.54)
+						(xy -1.27 2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 1.27 -2.54)
+						(xy 1.27 2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy -2.54 0)
+						(xy -1.27 0))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 1.27 0)
+						(xy 2.54 0))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(text "+"
+					(at -3.81 3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)))))
+			(symbol "Capacitor_Polar_1_1"
+				(pin passive line
+					(at -7.62 0.0 0)
+					(length 5.08)
+					(name "+"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "1"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin passive line
+					(at 7.62 0.0 180)
+					(length 5.08)
+					(name "−"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "2"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))))
+		(symbol "AIES_Proposed:SN74AHCT1G125_DBV"
+			(pin_names
+				(offset 0.7))
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "U"
+				(at 0 23.78 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "SN74AHCT1G125DBVR"
+				(at 0 20.78 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" "Selected proposal IC: AHCT single buffer, DBV SOT23-5. Pin map checked against KiCad 74xGxx base symbol; TI primary PDF inaccessible in session. AHCT, not HC/LVC substitution."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "SN74AHCT1G125_DBV_0_1"
+				(rectangle
+					(start -12.7 17.78)
+					(end 12.7 -17.78)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type background)))
+				(text "AHCT"
+					(at 0 5 0)
+					(effects
+						(font
+							(size 1.5 1.5))))
+				(text "3.3 → 5V"
+					(at 0 -3 0)
+					(effects
+						(font
+							(size 1.2 1.2)))))
+			(symbol "SN74AHCT1G125_DBV_1_1"
+				(pin power_in line
+					(at -17.78 12.7 0)
+					(length 5.08)
+					(name "VCC 5V"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "5"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin power_in line
+					(at -17.78 5.08 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "3"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin input line
+					(at -17.78 -2.54 0)
+					(length 5.08)
+					(name "A"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "2"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin input line
+					(at -17.78 -10.16 0)
+					(length 5.08)
+					(name "~{OE}"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "1"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin tri_state line
+					(at 17.78 -2.54 180)
+					(length 5.08)
+					(name "Y"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "4"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))))
+		(symbol "AIES_Proposed:Resistor"
+			(pin_numbers
+				(hide yes))
+			(pin_names
+				(offset 0.7)
+				(hide yes))
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "R"
+				(at 0 7.27 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "Resistor"
+				(at 0 4.27 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "Resistor_0_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type background))))
+			(symbol "Resistor_1_1"
+				(pin passive line
+					(at -7.62 0.0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "1"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin passive line
+					(at 7.62 0.0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "2"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))))
+		(symbol "AIES_Proposed:Resistor"
+			(pin_numbers
+				(hide yes))
+			(pin_names
+				(offset 0.7)
+				(hide yes))
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "R"
+				(at 0 7.27 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "Resistor"
+				(at 0 4.27 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "Resistor_0_1"
+				(rectangle
+					(start -2.54 1.27)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type background))))
+			(symbol "Resistor_1_1"
+				(pin passive line
+					(at -7.62 0.0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "1"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin passive line
+					(at 7.62 0.0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "2"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))))
+		(symbol "AIES_Proposed:LED_8_5V_Profile"
+			(pin_names
+				(offset 0.7))
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "U"
+				(at 0 30.13 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "5V adreslenebilir RGB / 8 LED"
+				(at 0 27.13 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" "PROPOSAL 5V WS2812-compatible RGB strip profile, eight packages each. Actual video LED IC and chain order not confirmed."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "LED_8_5V_Profile_0_1"
+				(rectangle
+					(start -30.48 24.13)
+					(end 30.48 -24.13)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type background)))
+				(text "8 × RGB"
+					(at 0 10 0)
+					(effects
+						(font
+							(size 1.6 1.6))))
+				(text "ÖNERİ: WS2812 uyumlu"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.1 1.1))))
+				(text "DIN → DOUT"
+					(at 0 -12 0)
+					(effects
+						(font
+							(size 1.25 1.25)))))
+			(symbol "LED_8_5V_Profile_1_1"
+				(pin power_in line
+					(at -35.56 15.24 0)
+					(length 5.08)
+					(name "5V"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "VCC"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin power_in line
+					(at -35.56 5.08 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "GND"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin input line
+					(at -35.56 -5.08 0)
+					(length 5.08)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "DIN"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin output line
+					(at 35.56 -5.08 180)
+					(length 5.08)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "DOUT"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))))
+		(symbol "AIES_Proposed:LED_8_5V_Profile"
+			(pin_names
+				(offset 0.7))
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "U"
+				(at 0 30.13 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "5V adreslenebilir RGB / 8 LED"
+				(at 0 27.13 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" "PROPOSAL 5V WS2812-compatible RGB strip profile, eight packages each. Actual video LED IC and chain order not confirmed."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "LED_8_5V_Profile_0_1"
+				(rectangle
+					(start -30.48 24.13)
+					(end 30.48 -24.13)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type background)))
+				(text "8 × RGB"
+					(at 0 10 0)
+					(effects
+						(font
+							(size 1.6 1.6))))
+				(text "ÖNERİ: WS2812 uyumlu"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.1 1.1))))
+				(text "DIN → DOUT"
+					(at 0 -12 0)
+					(effects
+						(font
+							(size 1.25 1.25)))))
+			(symbol "LED_8_5V_Profile_1_1"
+				(pin power_in line
+					(at -35.56 15.24 0)
+					(length 5.08)
+					(name "5V"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "VCC"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin power_in line
+					(at -35.56 5.08 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "GND"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin input line
+					(at -35.56 -5.08 0)
+					(length 5.08)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "DIN"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin output line
+					(at 35.56 -5.08 180)
+					(length 5.08)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "DOUT"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))))
+		(symbol "AIES_Proposed:LED_8_5V_Profile"
+			(pin_names
+				(offset 0.7))
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "U"
+				(at 0 30.13 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "5V adreslenebilir RGB / 8 LED"
+				(at 0 27.13 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" "PROPOSAL 5V WS2812-compatible RGB strip profile, eight packages each. Actual video LED IC and chain order not confirmed."
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "LED_8_5V_Profile_0_1"
+				(rectangle
+					(start -30.48 24.13)
+					(end 30.48 -24.13)
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type background)))
+				(text "8 × RGB"
+					(at 0 10 0)
+					(effects
+						(font
+							(size 1.6 1.6))))
+				(text "ÖNERİ: WS2812 uyumlu"
+					(at 0 0 0)
+					(effects
+						(font
+							(size 1.1 1.1))))
+				(text "DIN → DOUT"
+					(at 0 -12 0)
+					(effects
+						(font
+							(size 1.25 1.25)))))
+			(symbol "LED_8_5V_Profile_1_1"
+				(pin power_in line
+					(at -35.56 15.24 0)
+					(length 5.08)
+					(name "5V"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "VCC"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin power_in line
+					(at -35.56 5.08 0)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "GND"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin input line
+					(at -35.56 -5.08 0)
+					(length 5.08)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "DIN"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin output line
+					(at 35.56 -5.08 180)
+					(length 5.08)
+					(name "DOUT"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "DOUT"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))))
+		(symbol "AIES_Proposed:Capacitor_Polar"
+			(pin_numbers
+				(hide yes))
+			(pin_names
+				(offset 0.7)
+				(hide yes))
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "C"
+				(at 0 8.54 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "C"
+				(at 0 5.54 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "Capacitor_Polar_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -2.54)
+						(xy -1.27 2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 1.27 -2.54)
+						(xy 1.27 2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy -2.54 0)
+						(xy -1.27 0))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 1.27 0)
+						(xy 2.54 0))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(text "+"
+					(at -3.81 3.81 0)
+					(effects
+						(font
+							(size 1.27 1.27)))))
+			(symbol "Capacitor_Polar_1_1"
+				(pin passive line
+					(at -7.62 0.0 0)
+					(length 5.08)
+					(name "+"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "1"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin passive line
+					(at 7.62 0.0 180)
+					(length 5.08)
+					(name "−"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "2"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))))
+		(symbol "AIES_Proposed:Capacitor"
+			(pin_numbers
+				(hide yes))
+			(pin_names
+				(offset 0.7)
+				(hide yes))
+			(exclude_from_sim yes)
+			(in_bom yes)
+			(on_board no)
+			(property "Reference" "C"
+				(at 0 8.54 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Value" "C"
+				(at 0 5.54 0)
+				(effects
+					(font
+						(size 1.27 1.27))))
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27))
+					(hide yes)))
+			(symbol "Capacitor_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -2.54)
+						(xy -1.27 2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 1.27 -2.54)
+						(xy 1.27 2.54))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy -2.54 0)
+						(xy -1.27 0))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none)))
+				(polyline
+					(pts
+						(xy 1.27 0)
+						(xy 2.54 0))
+					(stroke
+						(width 0.254)
+						(type default))
+					(fill
+						(type none))))
+			(symbol "Capacitor_1_1"
+				(pin passive line
+					(at -7.62 0.0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "1"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes))))
+				(pin passive line
+					(at 7.62 0.0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.1 1.1))))
+					(number "2"
+						(effects
+							(font
+								(size 0.85 0.85))
+							(hide yes)))))))
+	(text "04 / OLED, seviye çevirici, LED ve ses — ÖNERİ"
+		(at 210 15 0)
+		(effects
+			(font
+				(size 3 3) bold))
+		(uuid "4bfed60d-0bac-55ae-bde8-7bb20a3a900b"))
+	(text "ÖNERİ P1 • klasik ESP32-WROOM DevKit hedefi • tüm GPIO / adres / zincir seçimleri yeni tasarım kararıdır"
+		(at 210 25 0)
+		(effects
+			(font
+				(size 1.45 1.45)))
+		(uuid "5385e03f-621b-5ff6-85a0-bad1d4ddefbf"))
+	(symbol
+		(lib_id "AIES_Proposed:OLED_I2C_3V3_Profile")
+		(at 64.77 76.2 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "a277c77e-57ca-5f6e-8049-f42e0bc1ee2f")
+		(property "Reference" "U301"
+			(at 64.77 48.88 0)
+			(effects
+				(font
+					(size 1.4 1.4) bold)))
+		(property "Value" "OLED I²C / 3.3V profili"
+			(at 64.77 52.88 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Footprint" ""
+			(at 64.77 76.2 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 64.77 76.2 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Description" "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."
+			(at 64.77 76.2 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Evidence" "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."
+			(at 64.77 76.2 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Pin_ID_Convention" "Logical label only; physical pad numbering and footprint NOT assigned"
+			(at 64.77 76.2 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(pin "VCC"
+			(uuid "67eec0e8-b5e2-5c2b-9520-f175cacb418f"))
+		(pin "GND"
+			(uuid "23f4a0ff-59d4-524e-be35-59a6141c52d2"))
+		(pin "SCL"
+			(uuid "bc805caf-5c1a-53f9-a754-1a3a798026d8"))
+		(pin "SDA"
+			(uuid "5064a817-f799-5afa-bca0-ff769dd15feb"))
+		(instances
+			(project "AIES_Oneri_P1"
+				(path "/00dbdf85-73b6-57ac-b4cd-52f9ae59bd07/328eab5d-9dd4-5694-af2b-8d11ad07efc2"
+					(reference "U301")
+					(unit 1)))))
+	(wire
+		(pts
+			(xy 31.749999999999993 64.77000000000001)
+			(xy 24.13 64.77000000000001))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "3cfd4a75-8478-56da-a5b4-253c2922a22c"))
+	(global_label "+3V3"
+		(shape bidirectional)
+		(at 24.13 64.77000000000001 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "799b655a-abdd-5aa8-ac7c-c9a8cac86dba"))
+	(wire
+		(pts
+			(xy 31.749999999999993 72.39)
+			(xy 24.13 72.39))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "3425abc7-5983-5020-a1d9-e4153e1e8bae"))
+	(global_label "GND"
+		(shape bidirectional)
+		(at 24.13 72.39 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "22a62e59-e843-560e-8b42-0b2b0fa1cda8"))
+	(wire
+		(pts
+			(xy 31.749999999999993 80.01)
+			(xy 24.13 80.01))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "d2a17818-a6c2-583f-8292-6c68c2df53b7"))
+	(global_label "I2C_SCL"
+		(shape bidirectional)
+		(at 24.13 80.01 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "9260018c-fd16-5c7e-ad6a-cc7be987329d"))
+	(wire
+		(pts
+			(xy 31.749999999999993 87.63)
+			(xy 24.13 87.63))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "60a234f5-d1c8-57ff-8719-012ae721b6e3"))
+	(global_label "I2C_SDA"
+		(shape bidirectional)
+		(at 24.13 87.63 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "d8e93155-8d99-5bfa-aba1-f8c3cc061849"))
+	(symbol
+		(lib_id "AIES_Proposed:Serial_MP3_Profile")
+		(at 234.95000000000002 76.2 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "86e9981a-d393-531d-88a9-36099cce2bc1")
+		(property "Reference" "U302"
+			(at 234.95000000000002 43.800000000000004 0)
+			(effects
+				(font
+					(size 1.4 1.4) bold)))
+		(property "Value" "DFPlayer uyumlu / FN-M16P elektrik profili"
+			(at 234.95000000000002 47.800000000000004 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Footprint" ""
+			(at 234.95000000000002 76.2 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 234.95000000000002 76.2 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Description" "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."
+			(at 234.95000000000002 76.2 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Evidence" "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."
+			(at 234.95000000000002 76.2 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Pin_ID_Convention" "Logical label only; physical pad numbering and footprint NOT assigned"
+			(at 234.95000000000002 76.2 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(pin "VCC"
+			(uuid "2fdae86a-e69c-5557-a2b6-a8ce01e9a2fc"))
+		(pin "GND"
+			(uuid "b7391910-122a-5c56-bd8e-4b3c4470adf0"))
+		(pin "RX"
+			(uuid "6192f54e-cc58-5e89-aa3e-f1d76a756ebe"))
+		(pin "TX"
+			(uuid "1f26fca7-f726-5ae0-b57e-3722e0533d74"))
+		(pin "SPK_A"
+			(uuid "ffbb1f3b-4447-53e1-9f2b-17ad12d7eb56"))
+		(pin "SPK_B"
+			(uuid "4eaaa047-6d8a-580e-b17a-03886b8c42e1"))
+		(instances
+			(project "AIES_Oneri_P1"
+				(path "/00dbdf85-73b6-57ac-b4cd-52f9ae59bd07/328eab5d-9dd4-5694-af2b-8d11ad07efc2"
+					(reference "U302")
+					(unit 1)))))
+	(wire
+		(pts
+			(xy 199.39000000000001 58.42)
+			(xy 191.77 58.42))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "31b44777-e98a-5302-b7e3-4158855681a8"))
+	(global_label "SYS_5V"
+		(shape bidirectional)
+		(at 191.77 58.42 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "4bcdfff2-e364-5245-97d8-991a5ebe24a9"))
+	(wire
+		(pts
+			(xy 199.39000000000001 66.04)
+			(xy 191.77 66.04))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "62764115-1d9e-57c4-ae68-c1dc641626e7"))
+	(global_label "GND"
+		(shape bidirectional)
+		(at 191.77 66.04 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "d6083611-60c5-5136-be2a-a0f2268d9594"))
+	(wire
+		(pts
+			(xy 199.39000000000001 73.66)
+			(xy 191.77 73.66))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "e7441252-4c65-5f15-a2d1-c62c136b934e"))
+	(global_label "DF_RX"
+		(shape bidirectional)
+		(at 191.77 73.66 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "2e161efb-cb45-5ad9-a19c-1633f6617b6d"))
+	(wire
+		(pts
+			(xy 199.39000000000001 81.28)
+			(xy 191.77 81.28))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "a2a60ff1-1e60-5f7e-bda8-74c7fd041a7f"))
+	(global_label "UART_RX16"
+		(shape bidirectional)
+		(at 191.77 81.28 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "2a43ff03-560b-5504-a56e-a58245648e4a"))
+	(wire
+		(pts
+			(xy 270.51 66.04)
+			(xy 278.13 66.04))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "cbed347b-bd2a-54a8-93f9-60ef19bdbdbb"))
+	(global_label "SPK_A"
+		(shape bidirectional)
+		(at 278.13 66.04 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "5752ca78-29c9-5ae8-8e96-7d50bdfd518f"))
+	(wire
+		(pts
+			(xy 270.51 86.36)
+			(xy 278.13 86.36))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "a6aedf3d-6b00-5432-b6ef-c8fe12322128"))
+	(global_label "SPK_B"
+		(shape bidirectional)
+		(at 278.13 86.36 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "6bf021da-a686-54be-a9a8-1d1972a5681f"))
+	(symbol
+		(lib_id "AIES_Proposed:Speaker_8ohm")
+		(at 364.49 76.2 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "194932cc-f392-5acc-ba78-ea2f20ee8c10")
+		(property "Reference" "LS301"
+			(at 364.49 59.040000000000006 0)
+			(effects
+				(font
+					(size 1.4 1.4) bold)))
+		(property "Value" "8Ω / 3W — yeni yük önerisi"
+			(at 364.49 63.040000000000006 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Footprint" ""
+			(at 364.49 76.2 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 364.49 76.2 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Description" "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."
+			(at 364.49 76.2 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Evidence" "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."
+			(at 364.49 76.2 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Pin_ID_Convention" "Logical label only; physical pad numbering and footprint NOT assigned"
+			(at 364.49 76.2 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(pin "A"
+			(uuid "59379060-a7ef-5ecc-8ccb-741eafe82357"))
+		(pin "B"
+			(uuid "3c841834-a15f-54aa-95b5-bedc7beabf68"))
+		(instances
+			(project "AIES_Oneri_P1"
+				(path "/00dbdf85-73b6-57ac-b4cd-52f9ae59bd07/328eab5d-9dd4-5694-af2b-8d11ad07efc2"
+					(reference "LS301")
+					(unit 1)))))
+	(wire
+		(pts
+			(xy 346.71000000000004 71.12)
+			(xy 339.09 71.12))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "92c72755-0c08-567d-8d4c-61bc15f657f7"))
+	(global_label "SPK_A"
+		(shape bidirectional)
+		(at 339.09 71.12 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "b1724c97-5f0c-5846-8cf8-abe7733f6db0"))
+	(wire
+		(pts
+			(xy 346.71000000000004 81.28)
+			(xy 339.09 81.28))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "371b0f08-1cd7-5dde-bd12-9134f39a2912"))
+	(global_label "SPK_B"
+		(shape bidirectional)
+		(at 339.09 81.28 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "e5f7144e-2c4b-5b96-8c61-eedfcc313c04"))
+	(symbol
+		(lib_id "AIES_Proposed:Resistor")
+		(at 132.08 116.84 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "2c11ca4d-cbf5-5460-815f-1510de0144bd")
+		(property "Reference" "R301"
+			(at 132.08 108.57000000000001 0)
+			(effects
+				(font
+					(size 1.4 1.4) bold)))
+		(property "Value" "1k seri / UART TX"
+			(at 132.08 112.57000000000001 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Footprint" ""
+			(at 132.08 116.84 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 132.08 116.84 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Description" "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."
+			(at 132.08 116.84 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Evidence" "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."
+			(at 132.08 116.84 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Pin_ID_Convention" "Logical label only; physical pad numbering and footprint NOT assigned"
+			(at 132.08 116.84 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(pin "1"
+			(uuid "214bb42c-32d8-5f3e-a9fe-dcf148bfa8c1"))
+		(pin "2"
+			(uuid "674c986f-f38f-52e3-9a6d-71a30a29871e"))
+		(instances
+			(project "AIES_Oneri_P1"
+				(path "/00dbdf85-73b6-57ac-b4cd-52f9ae59bd07/328eab5d-9dd4-5694-af2b-8d11ad07efc2"
+					(reference "R301")
+					(unit 1)))))
+	(wire
+		(pts
+			(xy 124.46000000000001 116.84)
+			(xy 116.84 116.84))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "66998056-35d5-58e5-b257-2ab47c4ba4da"))
+	(global_label "UART_TX17"
+		(shape bidirectional)
+		(at 116.84 116.84 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "ab1d9652-6808-5453-8c1e-864a36f6fcea"))
+	(wire
+		(pts
+			(xy 139.70000000000002 116.84)
+			(xy 147.32 116.84))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "e9d44f1a-2929-56ee-a779-a2184173f692"))
+	(global_label "DF_RX"
+		(shape bidirectional)
+		(at 147.32 116.84 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "ec97981b-0ea9-5c58-9284-bbc60d97b320"))
+	(symbol
+		(lib_id "AIES_Proposed:Capacitor_Polar")
+		(at 245.11 121.92 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "4fa00f5e-6cb5-5852-a071-4f0063afa32f")
+		(property "Reference" "C102"
+			(at 245.11 112.38 0)
+			(effects
+				(font
+					(size 1.4 1.4) bold)))
+		(property "Value" "470uF / 10V / ses yakını"
+			(at 245.11 116.38 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Footprint" ""
+			(at 245.11 121.92 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 245.11 121.92 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Description" "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."
+			(at 245.11 121.92 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Evidence" "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."
+			(at 245.11 121.92 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Pin_ID_Convention" "Logical label only; physical pad numbering and footprint NOT assigned"
+			(at 245.11 121.92 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(pin "1"
+			(uuid "1dd46de8-76c7-5736-b3ab-dcf32a003168"))
+		(pin "2"
+			(uuid "f7e9974f-3be1-5176-bbca-aeebb8dabd84"))
+		(instances
+			(project "AIES_Oneri_P1"
+				(path "/00dbdf85-73b6-57ac-b4cd-52f9ae59bd07/328eab5d-9dd4-5694-af2b-8d11ad07efc2"
+					(reference "C102")
+					(unit 1)))))
+	(wire
+		(pts
+			(xy 237.49 121.92)
+			(xy 229.87 121.92))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "07f560e2-8480-5fa2-96b5-2f679dd490d5"))
+	(global_label "SYS_5V"
+		(shape bidirectional)
+		(at 229.87 121.92 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "136dd16a-287a-5f98-ad4f-431abe290182"))
+	(wire
+		(pts
+			(xy 252.73000000000002 121.92)
+			(xy 260.35 121.92))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "c4df2028-f5fc-5f6b-b2da-98227e0ec4db"))
+	(global_label "GND"
+		(shape bidirectional)
+		(at 260.35 121.92 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "8c82c214-1f4c-5712-ad8a-041ac577931f"))
+	(symbol
+		(lib_id "AIES_Proposed:SN74AHCT1G125_DBV")
+		(at 49.53 185.42000000000002 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "4a8a1d11-516b-59af-b07e-b335278dac12")
+		(property "Reference" "U303"
+			(at 49.53 160.64000000000001 0)
+			(effects
+				(font
+					(size 1.4 1.4) bold)))
+		(property "Value" "SN74AHCT1G125DBVR / AHCT şart"
+			(at 49.53 164.64000000000001 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Footprint" ""
+			(at 49.53 185.42000000000002 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 49.53 185.42000000000002 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Description" "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."
+			(at 49.53 185.42000000000002 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Evidence" "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."
+			(at 49.53 185.42000000000002 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Pin_ID_Convention" "Selected AHCT DBV IC: pin numbers1..5 follow KiCad CAD base mapping; TI electrical datasheet qualification open."
+			(at 49.53 185.42000000000002 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(pin "5"
+			(uuid "164ca054-07ad-53e2-9fc0-33a4413e9257"))
+		(pin "3"
+			(uuid "202c7224-7b55-55ae-bbde-23b153f502fb"))
+		(pin "2"
+			(uuid "d5928715-0884-5ea0-b3c9-35145c157a36"))
+		(pin "1"
+			(uuid "6b52be3f-ea11-5cc1-af37-1797d5eb3110"))
+		(pin "4"
+			(uuid "fe40ce81-6373-565a-bfe2-7e2f10036489"))
+		(instances
+			(project "AIES_Oneri_P1"
+				(path "/00dbdf85-73b6-57ac-b4cd-52f9ae59bd07/328eab5d-9dd4-5694-af2b-8d11ad07efc2"
+					(reference "U303")
+					(unit 1)))))
+	(wire
+		(pts
+			(xy 31.75 172.72000000000003)
+			(xy 24.13 172.72000000000003))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "61b93316-0fd4-55c5-9172-67642443d1e4"))
+	(global_label "SYS_5V"
+		(shape bidirectional)
+		(at 24.13 172.72000000000003 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "642fa68e-60c7-5431-8403-20c016f79436"))
+	(wire
+		(pts
+			(xy 31.75 180.34)
+			(xy 24.13 180.34))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "3589ddb0-0e78-5f3a-9ffc-639292af41b6"))
+	(global_label "GND"
+		(shape bidirectional)
+		(at 24.13 180.34 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "2773c7fb-f4f0-509d-ac5c-70012054f844"))
+	(wire
+		(pts
+			(xy 31.75 187.96)
+			(xy 24.13 187.96))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "b179330e-6a5b-56cb-b0f0-8119a438431a"))
+	(global_label "LED_GPIO18"
+		(shape bidirectional)
+		(at 24.13 187.96 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "4373d950-d0d1-5c8b-b421-66fe319898d5"))
+	(wire
+		(pts
+			(xy 31.75 195.58)
+			(xy 24.13 195.58))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "6ddf47e2-0549-5565-830d-947afe2fd3ee"))
+	(global_label "GND"
+		(shape bidirectional)
+		(at 24.13 195.58 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "0551a8a3-6adf-57bd-a470-7a0edcfb71a6"))
+	(wire
+		(pts
+			(xy 67.31 187.96)
+			(xy 74.93 187.96))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "ad49fc05-d65a-554a-937d-5a28eeb0c52d"))
+	(global_label "LED_BUF"
+		(shape bidirectional)
+		(at 74.93 187.96 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "54f0620c-54d5-5bf5-b4e5-f22e695e495f"))
+	(symbol
+		(lib_id "AIES_Proposed:Resistor")
+		(at 105.41 201.93 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "d8bb93ca-5c8b-55ec-9806-e760c2ad6401")
+		(property "Reference" "R302"
+			(at 105.41 193.66 0)
+			(effects
+				(font
+					(size 1.4 1.4) bold)))
+		(property "Value" "330Ω / LED veri"
+			(at 105.41 197.66 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Footprint" ""
+			(at 105.41 201.93 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 105.41 201.93 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Description" "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."
+			(at 105.41 201.93 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Evidence" "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."
+			(at 105.41 201.93 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Pin_ID_Convention" "Logical label only; physical pad numbering and footprint NOT assigned"
+			(at 105.41 201.93 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(pin "1"
+			(uuid "16a230a0-edca-560f-ae46-33de41e377d6"))
+		(pin "2"
+			(uuid "816a7085-aa89-563a-8f5a-d6dccb440051"))
+		(instances
+			(project "AIES_Oneri_P1"
+				(path "/00dbdf85-73b6-57ac-b4cd-52f9ae59bd07/328eab5d-9dd4-5694-af2b-8d11ad07efc2"
+					(reference "R302")
+					(unit 1)))))
+	(wire
+		(pts
+			(xy 97.78999999999999 201.93)
+			(xy 90.17 201.93))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "f9c5929c-d945-58b9-9c5a-6610fb10a8e8"))
+	(global_label "LED_BUF"
+		(shape bidirectional)
+		(at 90.17 201.93 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "8aaf865b-b3b6-5a37-a0ee-fe234f107003"))
+	(wire
+		(pts
+			(xy 113.03 201.93)
+			(xy 120.65 201.93))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "70b6650a-e903-5ddc-af0a-8dbaf5f1f9d9"))
+	(global_label "LED_DIN1"
+		(shape bidirectional)
+		(at 120.65 201.93 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "771ab0ac-5dd8-5548-9bbe-e5e47b45f66d"))
+	(symbol
+		(lib_id "AIES_Proposed:Resistor")
+		(at 64.77 232.41 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "b89d6b5c-d4df-5703-94d9-ed06953a01fe")
+		(property "Reference" "R303"
+			(at 64.77 224.14 0)
+			(effects
+				(font
+					(size 1.4 1.4) bold)))
+		(property "Value" "100k / veri giriş pull-down"
+			(at 64.77 228.14 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Footprint" ""
+			(at 64.77 232.41 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 64.77 232.41 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Description" "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."
+			(at 64.77 232.41 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Evidence" "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."
+			(at 64.77 232.41 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Pin_ID_Convention" "Logical label only; physical pad numbering and footprint NOT assigned"
+			(at 64.77 232.41 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(pin "1"
+			(uuid "3328b17a-70c2-5a48-818a-431f96e6881d"))
+		(pin "2"
+			(uuid "e9545219-2a46-5e4b-ad71-83a9790c8683"))
+		(instances
+			(project "AIES_Oneri_P1"
+				(path "/00dbdf85-73b6-57ac-b4cd-52f9ae59bd07/328eab5d-9dd4-5694-af2b-8d11ad07efc2"
+					(reference "R303")
+					(unit 1)))))
+	(wire
+		(pts
+			(xy 57.15 232.41)
+			(xy 49.53 232.41))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "a44a969e-9cbd-505f-9e9f-ab86ff1605fd"))
+	(global_label "LED_GPIO18"
+		(shape bidirectional)
+		(at 49.53 232.41 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "65b8dc5d-d53d-521d-af0d-f269888f5cef"))
+	(wire
+		(pts
+			(xy 72.39 232.41)
+			(xy 80.01 232.41))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "5280eb99-3ddf-5b48-8ca0-ede37b3cd8ea"))
+	(global_label "GND"
+		(shape bidirectional)
+		(at 80.01 232.41 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "98521ba5-0482-54bb-ac1b-5debb0b034af"))
+	(symbol
+		(lib_id "AIES_Proposed:LED_8_5V_Profile")
+		(at 170.18 187.96 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "ba76c180-8497-5282-b915-469a5f3baac3")
+		(property "Reference" "U401"
+			(at 170.18 156.83 0)
+			(effects
+				(font
+					(size 1.4 1.4) bold)))
+		(property "Value" "8 LED / segment 1 ÖNERİ"
+			(at 170.18 160.83 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Footprint" ""
+			(at 170.18 187.96 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 170.18 187.96 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Description" "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."
+			(at 170.18 187.96 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Evidence" "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."
+			(at 170.18 187.96 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Pin_ID_Convention" "Logical label only; physical pad numbering and footprint NOT assigned"
+			(at 170.18 187.96 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(pin "VCC"
+			(uuid "d1abe69e-7e9b-5f87-942b-cc50bc240625"))
+		(pin "GND"
+			(uuid "a25ad396-31f7-511b-8afa-dd42201acb57"))
+		(pin "DIN"
+			(uuid "e5b8e358-75a9-595a-83f2-e7001fa6f6d9"))
+		(pin "DOUT"
+			(uuid "fe956000-67ab-5589-8be7-f32b250aad57"))
+		(instances
+			(project "AIES_Oneri_P1"
+				(path "/00dbdf85-73b6-57ac-b4cd-52f9ae59bd07/328eab5d-9dd4-5694-af2b-8d11ad07efc2"
+					(reference "U401")
+					(unit 1)))))
+	(wire
+		(pts
+			(xy 134.62 172.72)
+			(xy 127.0 172.72))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "6a6ba749-8012-56fb-8651-c8d0e3b8d97d"))
+	(global_label "SYS_5V"
+		(shape bidirectional)
+		(at 127.0 172.72 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "bee0c0de-cee5-57c9-9bfd-acd40d52d9ea"))
+	(wire
+		(pts
+			(xy 134.62 182.88)
+			(xy 127.0 182.88))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "26fd0dc9-9539-59ca-9b09-1b190ff43c90"))
+	(global_label "GND"
+		(shape bidirectional)
+		(at 127.0 182.88 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "9751ed8f-aaad-5b27-a239-a4c50bd01698"))
+	(wire
+		(pts
+			(xy 134.62 193.04000000000002)
+			(xy 127.0 193.04000000000002))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "0363954b-b9a0-5d25-b592-348b79616cc3"))
+	(global_label "LED_DIN1"
+		(shape bidirectional)
+		(at 127.0 193.04000000000002 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "00074464-0393-52cf-9bc1-19a9f4ad9a01"))
+	(symbol
+		(lib_id "AIES_Proposed:LED_8_5V_Profile")
+		(at 270.51 187.96 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "d77753d5-1c95-55a3-92e5-e86f338dad41")
+		(property "Reference" "U402"
+			(at 270.51 156.83 0)
+			(effects
+				(font
+					(size 1.4 1.4) bold)))
+		(property "Value" "8 LED / segment 2 ÖNERİ"
+			(at 270.51 160.83 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Footprint" ""
+			(at 270.51 187.96 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 270.51 187.96 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Description" "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."
+			(at 270.51 187.96 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Evidence" "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."
+			(at 270.51 187.96 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Pin_ID_Convention" "Logical label only; physical pad numbering and footprint NOT assigned"
+			(at 270.51 187.96 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(pin "VCC"
+			(uuid "d1c2f526-b40d-53c0-9a2a-61a543dc1d55"))
+		(pin "GND"
+			(uuid "d71823d5-addb-5318-b5f7-496b3b515951"))
+		(pin "DIN"
+			(uuid "c735eb3a-7f96-559e-8fb9-a6887a570f7f"))
+		(pin "DOUT"
+			(uuid "482e8a08-e064-562e-8556-85419b06fee5"))
+		(instances
+			(project "AIES_Oneri_P1"
+				(path "/00dbdf85-73b6-57ac-b4cd-52f9ae59bd07/328eab5d-9dd4-5694-af2b-8d11ad07efc2"
+					(reference "U402")
+					(unit 1)))))
+	(wire
+		(pts
+			(xy 234.95 172.72)
+			(xy 227.33 172.72))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "688224ce-8391-509a-8c81-5386d2fa10ff"))
+	(global_label "SYS_5V"
+		(shape bidirectional)
+		(at 227.33 172.72 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "ba84d3ad-2e29-5065-bbb5-6da3ca7be344"))
+	(wire
+		(pts
+			(xy 234.95 182.88)
+			(xy 227.33 182.88))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "c18aeafb-39ed-5c1f-9dd9-9ef581f4d7a5"))
+	(global_label "GND"
+		(shape bidirectional)
+		(at 227.33 182.88 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "1092c7ec-a7cb-5d43-9bda-9087426deaab"))
+	(symbol
+		(lib_id "AIES_Proposed:LED_8_5V_Profile")
+		(at 369.57 187.96 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "c93d6653-dc8f-585d-85ca-29024c50360c")
+		(property "Reference" "U403"
+			(at 369.57 156.83 0)
+			(effects
+				(font
+					(size 1.4 1.4) bold)))
+		(property "Value" "8 LED / segment 3 ÖNERİ"
+			(at 369.57 160.83 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Footprint" ""
+			(at 369.57 187.96 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 369.57 187.96 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Description" "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."
+			(at 369.57 187.96 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Evidence" "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."
+			(at 369.57 187.96 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Pin_ID_Convention" "Logical label only; physical pad numbering and footprint NOT assigned"
+			(at 369.57 187.96 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(pin "VCC"
+			(uuid "8c0a2646-b6ca-5e1c-955f-6391f86b1b65"))
+		(pin "GND"
+			(uuid "2e64fe58-64e6-5e81-81b7-d9a2e391fc75"))
+		(pin "DIN"
+			(uuid "bf9f45b4-4d1f-50f6-8910-14037214b9f6"))
+		(pin "DOUT"
+			(uuid "3986bcff-04b4-5cc5-af64-9edd29733e4e"))
+		(instances
+			(project "AIES_Oneri_P1"
+				(path "/00dbdf85-73b6-57ac-b4cd-52f9ae59bd07/328eab5d-9dd4-5694-af2b-8d11ad07efc2"
+					(reference "U403")
+					(unit 1)))))
+	(wire
+		(pts
+			(xy 334.01 172.72)
+			(xy 326.39 172.72))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "3da6d161-5354-51cb-ab63-d8eafbb6b782"))
+	(global_label "SYS_5V"
+		(shape bidirectional)
+		(at 326.39 172.72 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "8d89d7de-503f-57c3-86b9-4f19ddc237e1"))
+	(wire
+		(pts
+			(xy 334.01 182.88)
+			(xy 326.39 182.88))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "0f439cc9-4b6c-5cd5-b558-b71721180f64"))
+	(global_label "GND"
+		(shape bidirectional)
+		(at 326.39 182.88 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "2cc36933-d568-5393-9db9-a0858d79fdc2"))
+	(no_connect
+		(at 405.13 193.04000000000002)
+		(uuid "5a2f70c0-6508-52ba-afd8-0e40327fbd4a"))
+	(symbol
+		(lib_id "AIES_Proposed:Capacitor_Polar")
+		(at 199.39000000000001 232.41 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "6c7532f4-3c77-50fc-ab0c-1dec5d8a978b")
+		(property "Reference" "C101"
+			(at 199.39000000000001 222.87 0)
+			(effects
+				(font
+					(size 1.4 1.4) bold)))
+		(property "Value" "1000uF / 10V / LED güç girişi"
+			(at 199.39000000000001 226.87 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Footprint" ""
+			(at 199.39000000000001 232.41 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 199.39000000000001 232.41 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Description" "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."
+			(at 199.39000000000001 232.41 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Evidence" "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."
+			(at 199.39000000000001 232.41 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Pin_ID_Convention" "Logical label only; physical pad numbering and footprint NOT assigned"
+			(at 199.39000000000001 232.41 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(pin "1"
+			(uuid "f15ff942-b253-5b7b-af29-d05cebed30b4"))
+		(pin "2"
+			(uuid "cdf0d97f-6ef4-5c6a-b85b-59f0646e0f72"))
+		(instances
+			(project "AIES_Oneri_P1"
+				(path "/00dbdf85-73b6-57ac-b4cd-52f9ae59bd07/328eab5d-9dd4-5694-af2b-8d11ad07efc2"
+					(reference "C101")
+					(unit 1)))))
+	(wire
+		(pts
+			(xy 191.77 232.41)
+			(xy 184.15 232.41))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "d2261ab5-184c-51f0-aaf5-c4ca47c7ecf7"))
+	(global_label "SYS_5V"
+		(shape bidirectional)
+		(at 184.15 232.41 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "f8a310a8-a928-5e27-a652-c595d2ca16c5"))
+	(wire
+		(pts
+			(xy 207.01000000000002 232.41)
+			(xy 214.63 232.41))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "3a891a33-bbef-55af-a915-bf6d8355f10b"))
+	(global_label "GND"
+		(shape bidirectional)
+		(at 214.63 232.41 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "5cca7368-6806-567a-84c3-99b2574b5c28"))
+	(symbol
+		(lib_id "AIES_Proposed:Capacitor")
+		(at 335.28000000000003 232.41 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(uuid "f3127c9a-31ba-5bd2-9d20-6c33a59c405b")
+		(property "Reference" "C103"
+			(at 335.28000000000003 222.87 0)
+			(effects
+				(font
+					(size 1.4 1.4) bold)))
+		(property "Value" "100nF / U303 VCC dibine"
+			(at 335.28000000000003 226.87 0)
+			(effects
+				(font
+					(size 1.2 1.2))))
+		(property "Footprint" ""
+			(at 335.28000000000003 232.41 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Datasheet" ""
+			(at 335.28000000000003 232.41 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Description" "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."
+			(at 335.28000000000003 232.41 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Evidence" "ÖNERİ P1: yeni bağlantı seçimi; videodaki kablo eşlemesi değildir."
+			(at 335.28000000000003 232.41 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(property "Pin_ID_Convention" "Logical label only; physical pad numbering and footprint NOT assigned"
+			(at 335.28000000000003 232.41 0)
+			(effects
+				(font
+					(size 1.2 1.2))
+				(hide yes)))
+		(pin "1"
+			(uuid "f84cf960-b75a-54cf-8912-30ff31ab8607"))
+		(pin "2"
+			(uuid "81281325-fd8d-5ab3-8862-76d56e4e7c9c"))
+		(instances
+			(project "AIES_Oneri_P1"
+				(path "/00dbdf85-73b6-57ac-b4cd-52f9ae59bd07/328eab5d-9dd4-5694-af2b-8d11ad07efc2"
+					(reference "C103")
+					(unit 1)))))
+	(wire
+		(pts
+			(xy 327.66 232.41)
+			(xy 320.04 232.41))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "e6ff93f8-480f-535d-bbb3-09b24c584873"))
+	(global_label "SYS_5V"
+		(shape bidirectional)
+		(at 320.04 232.41 180)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify right bottom))
+		(uuid "7e940b20-97f6-5afb-92ec-3a7433bc3267"))
+	(wire
+		(pts
+			(xy 342.90000000000003 232.41)
+			(xy 350.52 232.41))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "62cb5d0e-5aa8-504d-b744-a02c1385db57"))
+	(global_label "GND"
+		(shape bidirectional)
+		(at 350.52 232.41 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "d22023cc-5411-5b5e-b900-fd6a5e543518"))
+	(text "LED sırası 1→2→3 yeni seçimdir; videodan çıkarılmadı. Son DOUT kasten kullanılmıyor: tek NC bu uçtadır.\nSPK A ve SPK B iki aktif hoparlör çıkışıdır; GND’ye bağlanmaz. Referans kılavuzunda SPK polarite çizimi/tablosu farklıdır;\nbu yüzden fiziksel ses pin numarası atanmadı. Exact modül etiketleriyle bağlantı kontrol edilmeli."
+		(at 210 246 0)
+		(effects
+			(font
+				(size 1.35 1.35)))
+		(uuid "c8df9742-f51b-5b96-a19c-99370b922665"))
+	(wire
+		(pts
+			(xy 205.74 193.04000000000002)
+			(xy 234.95 193.04000000000002))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "1417f123-5752-5a4b-88a7-0a0162a3db7c"))
+	(label "LED_DIN2"
+		(at 207.01 193.04000000000002 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "92028c32-37a9-58ff-bd49-9c291da1d827"))
+	(wire
+		(pts
+			(xy 306.07 193.04000000000002)
+			(xy 334.01 193.04000000000002))
+		(stroke
+			(width 0)
+			(type default))
+		(uuid "6d764847-e979-5c5b-8e40-f06356515743"))
+	(label "LED_DIN3"
+		(at 307.34 193.04000000000002 0)
+		(effects
+			(font
+				(size 0.95 0.95))
+			(justify left bottom))
+		(uuid "9874428f-b424-57a6-a15b-4bfe46fe6552"))
+	(embedded_fonts no))

@@ -1,0 +1,250 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "00dbdf85-73b6-57ac-b4cd-52f9ae59bd07")
+	(paper "A3")
+	(title_block
+		(title "AİES / 01 / AİES bağlantı önerisi — sistem ve işletim sınırları")
+		(date "2026-10-24")
+		(rev "P1 / ÖNERİ")
+		(comment 1 "Mühendislik seçimi; videonun mevcut GPIO/kablo sırası olduğu iddia edilmez.")
+		(comment 2 "Footprint / exact modül varyantı ve güç limitleri doğrulama bekler; PCB yok."))
+	(lib_symbols)
+	(text "01 / AİES bağlantı önerisi — sistem ve işletim sınırları"
+		(at 210 15 0)
+		(effects
+			(font
+				(size 3 3) bold))
+		(uuid "8593e76e-ef55-52bf-968b-c18736fb8a9d"))
+	(text "ÖNERİ P1 • klasik ESP32-WROOM DevKit hedefi • tüm GPIO / adres / zincir seçimleri yeni tasarım kararıdır"
+		(at 210 25 0)
+		(effects
+			(font
+				(size 1.45 1.45)))
+		(uuid "5385e03f-621b-5ff6-85a0-bad1d4ddefbf"))
+	(text "Bu proje mevcut kablo bağlantılarının kopyası değildir. Kod yok bilgisi sonrasında seçilmiş açık bir donanım önerisidir.\nHedef: klasik ESP32-WROOM tabanlı DevKit, 3.3V MPR121 modülleri, 3.3V uyumlu I²C OLED, 5V RGB LED ve 3.3V TTL ses modülü."
+		(at 210 40 0)
+		(effects
+			(font
+				(size 1.7 1.7)))
+		(uuid "214de972-11b2-5460-bbd4-7bbb3f4881df"))
+	(sheet
+		(at 25 69)
+		(size 100 30)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(stroke
+			(width 0.35)
+			(type solid))
+		(fill
+			(color 0 0 0 0))
+		(uuid "7382400b-bb5b-5da5-9f42-d65126df457e")
+		(property "Sheetname" "02 Güç / ESP32"
+			(at 75.0 66 0)
+			(effects
+				(font
+					(size 1.6 1.6) bold)))
+		(property "Sheetfile" "Guc_ESP32_Oneri.kicad_sch"
+			(at 75.0 102 0)
+			(effects
+				(font
+					(size 1.1 1.1))))
+		(instances
+			(project "AIES_Oneri_P1"
+				(path "/00dbdf85-73b6-57ac-b4cd-52f9ae59bd07"
+					(page "2")))))
+	(text "4.8–5.0V / ≥4A ön bütçe\nF101 + JP101 + DevKit"
+		(at 75 84 0)
+		(effects
+			(font
+				(size 1.6 1.6)))
+		(uuid "019b9ab1-af0f-5cba-8562-0cd512eb52b5"))
+	(sheet
+		(at 160 69)
+		(size 100 30)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(stroke
+			(width 0.35)
+			(type solid))
+		(fill
+			(color 0 0 0 0))
+		(uuid "e82aaa60-f227-58cb-8d36-21202a82912a")
+		(property "Sheetname" "03 Dokunma / elektrotlar"
+			(at 210.0 66 0)
+			(effects
+				(font
+					(size 1.6 1.6) bold)))
+		(property "Sheetfile" "Dokunma_Oneri.kicad_sch"
+			(at 210.0 102 0)
+			(effects
+				(font
+					(size 1.1 1.1))))
+		(instances
+			(project "AIES_Oneri_P1"
+				(path "/00dbdf85-73b6-57ac-b4cd-52f9ae59bd07"
+					(page "3")))))
+	(text "0x5A / 0x5B / 0x5C\nSDA21 / SCL22"
+		(at 210 84 0)
+		(effects
+			(font
+				(size 1.6 1.6)))
+		(uuid "22c2f5f1-90a3-5896-890a-d1a0eca6a9e3"))
+	(sheet
+		(at 295 69)
+		(size 100 30)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(stroke
+			(width 0.35)
+			(type solid))
+		(fill
+			(color 0 0 0 0))
+		(uuid "328eab5d-9dd4-5694-af2b-8d11ad07efc2")
+		(property "Sheetname" "04 Ekran / LED / ses"
+			(at 345.0 66 0)
+			(effects
+				(font
+					(size 1.6 1.6) bold)))
+		(property "Sheetfile" "Cikislar_Oneri.kicad_sch"
+			(at 345.0 102 0)
+			(effects
+				(font
+					(size 1.1 1.1))))
+		(instances
+			(project "AIES_Oneri_P1"
+				(path "/00dbdf85-73b6-57ac-b4cd-52f9ae59bd07"
+					(page "4")))))
+	(text "GPIO18 LED / 17 TX / 16 RX\nAHCT seviye çevirici"
+		(at 345 84 0)
+		(effects
+			(font
+				(size 1.6 1.6)))
+		(uuid "5b0a5e72-04fe-5573-b620-ea657eae0083"))
+	(rectangle
+		(start 35 132)
+		(end 130 160)
+		(stroke
+			(width 0.25)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "fbbf950e-cfcf-5502-b214-0cded99d63f7"))
+	(text "MPR121 × 3\nIRQ: 27 / 26 / 25"
+		(at 82.5 146 0)
+		(effects
+			(font
+				(size 1.6 1.6)))
+		(uuid "583e637e-2cb7-58b3-851c-e1aa5fad49be"))
+	(rectangle
+		(start 165 132)
+		(end 255 160)
+		(stroke
+			(width 0.25)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "38705398-ba7b-52cd-b383-cefd6623a46f"))
+	(text "ESP32 / WROOM\nBLE mod seçimi: öneri"
+		(at 210 146 0)
+		(effects
+			(font
+				(size 1.6 1.6)))
+		(uuid "cd96bdc4-ed6b-5542-949f-0a4b89088741"))
+	(rectangle
+		(start 290 132)
+		(end 385 160)
+		(stroke
+			(width 0.25)
+			(type solid))
+		(fill
+			(type none))
+		(uuid "82fbf10f-6969-5c9e-bba4-17f193b3befa"))
+	(text "LED → ses → ekran\nKontrol ve veri yolları"
+		(at 337.5 146 0)
+		(effects
+			(font
+				(size 1.6 1.6)))
+		(uuid "2a24555e-ad6e-51c3-99d1-ce42b71c263d"))
+	(polyline
+		(pts
+			(xy 130 146)
+			(xy 165 146))
+		(stroke
+			(width 0.25)
+			(type dash))
+		(fill
+			(type none))
+		(uuid "64b132a1-f97c-5035-a53c-5b8da07b1fee"))
+	(polyline
+		(pts
+			(xy 255 146)
+			(xy 290 146))
+		(stroke
+			(width 0.25)
+			(type dash))
+		(fill
+			(type none))
+		(uuid "5f6e48f4-8548-5971-abbc-f1362f37a916"))
+	(text "Harici çalışma: USB YOK / JP101 KAPALI. Servis: harici modül beslemesi AÇIK + USB takılı / JP101 AÇIK.\nUSB tek başına LED/ses beslemesi için kullanılmaz. Her durumda ortak GND. DevKit USB/VIN topolojisi teyit edilmelidir.\nLED ve ses güç akımı breadboard ince güç rayları veya ESP32 kartı üzerinden geçirilmez; kaynaktan ayrı dallar kullanılır."
+		(at 210 198 0)
+		(effects
+			(font
+				(size 1.7 1.7)))
+		(uuid "88b34aa7-c9e7-5b16-a034-d653d9f2afc4"))
+	(text "Adresler / pinler / LED sırası öneridir. Video hoparlörünün Ω/W, LED IC tipi ve kaynağın amperi hâlâ bilinmiyor.\nElektrot arayüzleri 36 kanala kadar kapasiteyi gösterir; gerçek dokunma noktası sayısı veya kalp bölgesi ataması değildir."
+		(at 210 231 0)
+		(effects
+			(font
+				(size 1.6 1.6)))
+		(uuid "c8883ab3-8b24-57b0-903b-8cccf1f62c38"))
+	(sheet
+		(at 20 251)
+		(size 155 17)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(stroke
+			(width 0.35)
+			(type solid))
+		(fill
+			(color 0 0 0 0))
+		(uuid "b98781e9-9cc9-517c-ad5e-0e998c66050f")
+		(property "Sheetname" "05–07 Kullanıcı blok görselleri / önceki güç fikri"
+			(at 97.5 248 0)
+			(effects
+				(font
+					(size 1.6 1.6) bold)))
+		(property "Sheetfile" "Blok_Genel.kicad_sch"
+			(at 97.5 271 0)
+			(effects
+				(font
+					(size 1.1 1.1))))
+		(instances
+			(project "AIES_Oneri_P1"
+				(path "/00dbdf85-73b6-57ac-b4cd-52f9ae59bd07"
+					(page "5")))))
+	(text "Not: kullanıcı güç görselindeki ayrı 3.3V regülatör bu öneride eklenmedi; DevKit regülatörü kullanılır."
+		(at 230 262 0)
+		(effects
+			(font
+				(size 1.2 1.2)))
+		(uuid "4afea794-c978-5963-a26d-8e57c85b5171"))
+	(sheet_instances
+		(path "/"
+			(page "1")))
+	(embedded_fonts no)
+	(text "Yeni GPIO / adres / BLE seçimleri için firmware uyarlaması gerekir; mevcut yüklü yazılım uyumu bilinmiyor."
+		(at 210 216 0)
+		(effects
+			(font
+				(size 1.5 1.5)))
+		(uuid "a09aa13a-c482-43e7-9083-051122f94709")))

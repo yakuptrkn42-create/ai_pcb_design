@@ -1,3 +1,20 @@
+# AİES — kalp anatomi eğitim cihazı
+
+**Güncel teslim:** videodan gözlem kaydı ve ayrı bir bağlantı önerisi; paylaşılan üç blok görseli KiCad sayfaları olarak da oluşturuldu.
+
+- [Tüm KiCad projeleri, PDF, parça/GPIO tabloları ve video kanıtları — ZIP](AIES_Kalp_Anatomi_KiCad_Rev1.zip)
+- [Bağlantı önerisi P1 — 7 sayfalı PDF](AIES_Video_Schematic_Review_R1/PDF/AIES_Oneri_P1.pdf)
+- [Video inceleme raporu ve yakın görüntüler — PDF](AIES_Video_Schematic_Review_R1/PDF/Inceleme_Raporu_TR.pdf)
+- [Açılış ve kapsam](AIES_Video_Schematic_Review_R1/README_TR.md) · [Zaman/kesinlik tablosu](AIES_Video_Schematic_Review_R1/Review/Inceleme_Tablosu.csv)
+
+Öneri projesini `AIES_Video_Schematic_Review_R1/Proposal/Project/AIES_Oneri_P1.kicad_pro` ile KiCad 9'da açın. **P1 ERC: 0 hata / 0 uyarı; 157 pin–net eşlemesi kontrol edildi.** GPIO/adres/LED sırası mühendislik seçimidir; mevcut yüklü firmware uyumu bilinmiyor, uyarlama gerektirir.
+
+`Project/` altındaki video kaydı ayrı tutuldu: bilinmeyen kablolar/GPIO tahmin edilmedi; 68 açık terminal + 8 besleme-sürücü ERC bulgusu saklanmadı. Küçük video 148,89 saniye / 480×848; 3 × 8 görünür LED gövdesi sayıldı. Ses konuşması incelenemedi. Exact modül, güç/USB ve üretici limitleri açık; PCB/firmware veya fiziksel test yapılmadı. Üretime hazır onayı verilmedi.
+
+![AİES — kullanıcı genel yapı görselinin native KiCad aktarımı](AIES_Video_Schematic_Review_R1/Views/Proposal_05.png)
+
+---
+
 # Güncel teslim — Rev J / Routing R2
 
 **Güncel yüklenen Project.zip temel alınarak routing tamamlandı. 0 DRC ihlali / 0 açık bağlantı / 0 şematik–PCB farkı / ERC 0 hata ve 0 uyarı.**
